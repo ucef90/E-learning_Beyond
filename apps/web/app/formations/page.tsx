@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CatalogExplorer } from "./catalog-explorer";
 import { getTrainings } from "@/lib/api";
+import { ProgrammeContact } from "@/components/programme-contact";
 export default async function TrainingsPage({
   searchParams,
 }: {
@@ -42,6 +43,7 @@ export default async function TrainingsPage({
             leur disponibilité et de leur attribution.
           </p>
         </section>
+        <ProgrammeContact />
         <CatalogExplorer
           trainings={trainings}
           initialQuery={params?.q?.trim() || ""}

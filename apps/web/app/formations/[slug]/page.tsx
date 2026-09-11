@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTrainingBySlug } from "@/lib/api";
 import { DetailedProgrammeContent } from "@/components/detailed-programme";
+import { ProgrammeContact } from "@/components/programme-contact";
 export default async function TrainingDetailPage({
   params,
 }: {
@@ -32,6 +33,7 @@ export default async function TrainingDetailPage({
                 Consulter le programme détaillé
               </a>
             )}
+            <ProgrammeContact />
             <div className="training-content-stack">
               <section className="training-content-card">
                 <h2>Objectifs pédagogiques</h2>

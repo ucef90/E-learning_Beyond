@@ -1039,3 +1039,31 @@
     break-inside: avoid;
   }
 }
+
+.programme-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 24px 0;
+  padding: 18px 20px;
+  border: 1px solid #d8dce4;
+  border-radius: 12px;
+  background: #eef1f7;
+  color: #1a2644;
+}
+.programme-contact p {
+  flex: 1 1 280px;
+  max-width: 65ch;
+  margin: 0;
+  line-height: 1.6;
+}
+.programme-contact .button {
+  flex-shrink: 0;
+}
+@media (max-width: 600px) {
+  .programme-contact .button {
+    width: 100%;
+  }
+}
