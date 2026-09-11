@@ -1,0 +1,92 @@
+# AI Governance pour Data Office
+
+Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+
+**Version enrichie proposée, à valider par le formateur avant animation.**
+
+2 jour(s) · 14 heures indicatives · Avancé · Hybride
+
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+
+## Objectifs de la fiche de référence
+
+- Définir un cadre de gouvernance IA réaliste
+- Aligner les usages IA avec les exigences métiers et conformité
+- Prioriser les chantiers de gouvernance à fort impact
+
+## Public et prérequis
+
+Public : Data officers, responsables gouvernance, responsables innovation, dirigeants de programmes IA.
+
+Prérequis de la fiche : Connaître les principes de gouvernance des données ou de conformité.
+
+## Préparation de la formation
+
+Gouvernance data ou conformité ; inventaire fictif de systèmes et documents de référence officiels.
+
+## Cas fil rouge
+
+Structurer la gouvernance d'un portefeuille d'usages IA au sein d'un Data Office en reliant données, modèles, métiers et contrôles.
+
+## Méthode pédagogique
+
+Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et retour argumenté sur les productions. Les ateliers et l'évaluation font partie des heures indiquées.
+
+## Jour 1 · 7 heures
+
+### Inventorier et classifier les usages IA · 210 min
+
+- Définir unité d'inventaire, finalité et propriétaire.
+- Relier systèmes, fournisseurs, données et utilisateurs.
+- Distinguer criticité interne et qualification réglementaire à vérifier.
+
+**Atelier prévu :** Construire un registre de six usages IA et identifier les informations manquantes avant leur revue.
+
+### Définir responsabilités et décisions · 210 min
+
+- Attribuer ownership métier, data, modèle et exploitation.
+- Organiser revues d'entrée, modification et retrait.
+- Définir exigences proportionnées au risque et preuves associées.
+
+**Atelier prévu :** Rédiger une matrice de responsabilités pour un assistant et un modèle de scoring, avec décisions réservées aux fonctions compétentes.
+
+## Jour 2 · 7 heures
+
+### Articuler contrôles data et IA · 210 min
+
+- Relier qualité, traçabilité, droits et documentation du modèle.
+- Prévoir revue des performances, biais et usages réels.
+- Organiser exceptions, incidents et dette de gouvernance.
+
+**Atelier prévu :** Construire le dossier minimal d'un cas IA en réutilisant les contrôles data existants et en explicitant les compléments nécessaires.
+
+### Piloter l'amélioration de la gouvernance · 210 min
+
+- Prioriser les écarts selon exposition et impact.
+- Mesurer couverture du registre et exécution des contrôles.
+- Préparer comité de décision et plan de remédiation.
+
+**Atelier prévu :** Présenter une feuille de route à quatre-vingt-dix jours avec responsables, dépendances et indicateurs vérifiables.
+
+## Évaluation finale prévue
+
+Mise en situation individuelle et restitution commentée, incluses dans la dernière séquence. Durée indicative : 60 minutes.
+
+- Chaque usage possède un responsable et un dossier identifiable.
+- Les contrôles varient selon le risque.
+- Les obligations légales et les règles internes sont distinguées.
+
+## Disponibilité des supports
+
+Les ateliers décrivent les travaux prévus. Leurs fichiers, corrigés et évaluations en ligne sont à préparer, sauf ressources explicitement disponibles dans le module pilote.
+
+## Origine et références
+
+Programme original rédigé pour Beyond Expertise à partir des objectifs de la fiche officielle.
+
+[Fiche officielle observée le 11 septembre 2026](https://beyond-expertise.com/formations/ai-governance-pour-data-office)
+
+Références pour approfondir les notions. Les ateliers et la progression sont une rédaction originale ; ces liens ne constituent pas une validation du programme par leurs éditeurs.
+
+- [CNIL · intelligence artificielle et données personnelles](https://www.cnil.fr/fr/intelligence-artificielle)
+- [Commission européenne · cadre réglementaire de l'IA](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)

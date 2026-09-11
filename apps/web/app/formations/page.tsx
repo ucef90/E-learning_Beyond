@@ -9,6 +9,7 @@ export default async function TrainingsPage({
   const trainings = await getTrainings();
   const params = searchParams ? await searchParams : undefined;
   const modules = trainings.reduce((n, t) => n + t.courses.length, 0);
+  const programmes = trainings.filter((t) => t.source?.syllabusSummary).length;
   return (
     <main id="contenu" className="section section-tight-top catalog-page-main">
       <div className="page-shell">
@@ -17,9 +18,10 @@ export default async function TrainingsPage({
           <h1 className="section-title">Votre catalogue de formation.</h1>
           <p className="section-copy">
             {trainings.length} fiches issues du catalogue officiel, avec leurs
-            objectifs, publics et prérequis. {modules} module pilote disponible
-            dans l’espace apprenant ; les autres cours e-learning sont à
-            préparer.
+            objectifs, publics et prérequis. {programmes} programmes détaillés
+            avec déroulé par journée, ateliers et critères d’évaluation.{" "}
+            {modules} module pilote disponible dans l’espace apprenant ; les
+            autres cours e-learning sont à préparer.
           </p>
           <div className="learning-actions">
             <Link className="button button-primary" href="/apprentissage">

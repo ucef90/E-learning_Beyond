@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTrainingBySlug } from "@/lib/api";
+import { DetailedProgrammeContent } from "@/components/detailed-programme";
 export default async function TrainingDetailPage({
   params,
 }: {
@@ -26,6 +27,11 @@ export default async function TrainingDetailPage({
               <span>{t.level}</span>
               <span>{t.format}</span>
             </div>
+            {t.source?.syllabus && (
+              <a className="programme-jump" href="#programme">
+                Consulter le programme détaillé
+              </a>
+            )}
             <div className="training-content-stack">
               <section className="training-content-card">
                 <h2>Objectifs pédagogiques</h2>
@@ -49,7 +55,10 @@ export default async function TrainingDetailPage({
                   </p>
                 </section>
               </div>
-              <section className="training-content-card">
+              {t.source?.syllabus && (
+                <DetailedProgrammeContent programme={t.source.syllabus} />
+              )}
+              <section className="training-content-card" id="contenu-elearning">
                 <h2>Contenu e-learning</h2>
                 {t.courses.length ? (
                   t.courses.map((course) => (
@@ -95,8 +104,8 @@ export default async function TrainingDetailPage({
                     <p className="section-copy">
                       Les objectifs et prérequis sont disponibles. Les leçons,
                       supports et évaluations de ce parcours ne sont pas encore
-                      intégrés dans cet espace. Le programme pédagogique
-                      détaillé reste à rédiger et à valider.
+                      intégrés dans cet espace. Le programme détaillé ci-dessus
+                      décrit les apprentissages et les ateliers prévus.
                     </p>
                   </>
                 )}
@@ -104,6 +113,22 @@ export default async function TrainingDetailPage({
             </div>
           </section>
           <aside className="training-sidepanel">
+            {t.source?.syllabus && (
+              <div className="programme-side-summary">
+                <h2>Votre parcours</h2>
+                <p>
+                  {t.source.syllabus.modules.length} séquences et ateliers,
+                  répartis sur {t.duration}.
+                </p>
+                <a href="#programme">Voir le déroulé des journées</a>
+                <a href="#programme-evaluation">
+                  Voir les critères d’évaluation
+                </a>
+                <a href="#contenu-elearning">
+                  Vérifier les supports disponibles
+                </a>
+              </div>
+            )}
             <div className="card training-sidecard">
               <h2>Fiche de référence</h2>
               <p>

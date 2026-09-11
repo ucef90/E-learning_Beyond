@@ -50,3 +50,7 @@ Les résultats de cette livraison sont dans `../validation-elearning`. Définir 
 Six leçons, un TP, dix questions, données et corrigé commenté. Les deux heures restent une cible à valider avec des stagiaires. L'administration crée des contenus textuels, duplique le pilote complet, modifie ses leçons et sa fiche, puis l'attribue. L'édition graphique des questions et fichiers pédagogiques est prévue au jalon suivant ; ces ressources sont gérées dans le lot pédagogique privé.
 
 Les lectures sont déclaratives et le TP reçoit une correction humaine. Qualiopi est en cours et non acquise. Procédures humaines, pièces du certificateur et mentions légales définitives restent à fournir. Aucun certificat professionnel ni financement n'est promis.
+
+## Programmes détaillés
+
+Les 81 fiches disposent de programmes originaux : 420 séquences et ateliers, préparation, cas fil rouge et critères d’évaluation. Téléchargement Markdown sur chaque fiche. Voir [le guide des programmes](docs/programmes-detailles.md). Les programmes sont proposés pour validation formateur ; les supports complets des 80 autres parcours restent à produire.

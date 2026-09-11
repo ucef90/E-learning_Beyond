@@ -17,6 +17,12 @@ export function TrainingCard({ training }: { training: UiTraining }) {
         <span>Niveau : {training.level}</span>
       </div>
       <div className="training-card-bottom">
+        {training.source?.syllabusSummary && (
+          <p className="programme-card-summary">
+            Programme détaillé · {training.source.syllabusSummary.moduleCount}{" "}
+            séquences
+          </p>
+        )}
         <p
           className={
             training.courses.length
@@ -32,7 +38,7 @@ export function TrainingCard({ training }: { training: UiTraining }) {
           className="button button-primary"
           href={`/formations/${training.slug}`}
         >
-          Voir les objectifs et le contenu
+          Voir le programme détaillé
         </Link>
       </div>
     </article>

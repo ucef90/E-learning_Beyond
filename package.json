@@ -21,7 +21,10 @@
     "pilot:test": "node scripts/test-pilot.cjs",
     "lab:setup": "python scripts/setup-lab.py",
     "lab:start": "node scripts/lab-server.mjs",
-    "catalog:official:import": "node --env-file=.env scripts/import-official-catalogue.cjs"
+    "catalog:official:import": "node --env-file=.env scripts/import-official-catalogue.cjs",
+    "catalog:programmes:check": "node scripts/validate-programmes.cjs",
+    "catalog:programmes:export": "node scripts/export-programmes.cjs",
+    "catalog:programmes:test": "node scripts/test-programmes.cjs"
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",

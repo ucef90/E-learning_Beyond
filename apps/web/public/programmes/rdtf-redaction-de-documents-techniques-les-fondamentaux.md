@@ -1,0 +1,106 @@
+# Rédaction de documents techniques : Les fondamentaux
+
+Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+
+**Version enrichie proposée, à valider par le formateur avant animation.**
+
+3 jour(s) · 21 heures indicatives · Fondamental · Hybride
+
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+
+## Objectifs de la fiche de référence
+
+- Être en mesure de rédiger des documents techniques clairs, tels que des rapports techniques et des manuels d'utilisateurs
+- Évaluer votre lectorat et élaborer des documents qui répondent à leurs besoins
+- Être capable de créer un contenu informatif et intéressant
+- Comprendre et maîtriser les outils d'IA générative pour une production de contenu accélérée
+
+## Public et prérequis
+
+Public : Professionnels, équipes métier et organisations souhaitant développer des compétences concrètes en developpement personnel.
+
+Prérequis de la fiche : Cette formation d'introduction est destinée aux participants n'ayant pas de connaissances de la rédaction technique ou qui commencent juste à développer les compétences nécessaires pour maîtriser ce domaine.
+
+## Préparation de la formation
+
+Maîtrise d'un sujet simple à expliquer ; traitement de texte ou Markdown, exemples fictifs, IA facultative.
+
+## Cas fil rouge
+
+Rédiger une procédure technique qu'un nouvel utilisateur peut suivre sans assistance, puis la tester avec un lecteur.
+
+## Méthode pédagogique
+
+Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et retour argumenté sur les productions. Les ateliers et l'évaluation font partie des heures indiquées.
+
+## Jour 1 · 7 heures
+
+### Comprendre le lecteur et son besoin · 210 min
+
+- Identifier tâche, niveau technique et contexte d'usage.
+- Distinguer procédure, référence, tutoriel et rapport.
+- Définir résultat attendu et informations préalables.
+
+**Atelier prévu :** Rédiger le profil du lecteur d'une procédure de sauvegarde et la liste des questions auxquelles le document doit répondre.
+
+### Construire une structure navigable · 210 min
+
+- Organiser titres, étapes et repères.
+- Placer prérequis et conditions avant les actions.
+- Séparer explication, instruction et résultat attendu.
+
+**Atelier prévu :** Transformer des notes désordonnées en plan de procédure avec une entrée claire pour les erreurs fréquentes.
+
+## Jour 2 · 7 heures
+
+### Écrire des consignes exécutables · 210 min
+
+- Utiliser verbes précis, unités et noms cohérents.
+- Décrire une action par étape lorsque cela facilite l'exécution.
+- Éliminer pronoms ambigus et dépendances implicites.
+
+**Atelier prévu :** Réécrire une procédure confuse puis vérifier que chaque étape indique où agir et comment reconnaître le résultat.
+
+### Documenter exemples et erreurs · 210 min
+
+- Choisir captures, tableaux et exemples réellement utiles.
+- Préserver lisibilité, alternatives textuelles et confidentialité.
+- Décrire symptôme, cause possible et action de récupération.
+
+**Atelier prévu :** Créer un exemple annoté et une section de dépannage pour deux erreurs de saisie ou de configuration.
+
+## Jour 3 · 7 heures
+
+### Utiliser l'IA et organiser la relecture · 210 min
+
+- Assister plan ou reformulation sans inventer de procédure.
+- Vérifier chaque commande et chaque affirmation technique.
+- Relire cohérence des termes, liens et versions.
+
+**Atelier prévu :** Comparer une reformulation assistée à la procédure source et corriger une instruction ajoutée sans justification.
+
+### Tester et maintenir le document · 210 min
+
+- Faire exécuter la tâche par un lecteur représentatif.
+- Observer blocages sans expliquer à sa place.
+- Définir propriétaire, version et déclencheurs de mise à jour.
+
+**Atelier prévu :** Livrer une procédure testée avec journal des corrections et fiche de maintenance documentaire.
+
+## Évaluation finale prévue
+
+Mise en situation individuelle et restitution commentée, incluses dans la dernière séquence. Durée indicative : 60 minutes.
+
+- Un lecteur termine la tâche à partir du document.
+- Les exemples et instructions sont techniquement vérifiés.
+- Les conditions, erreurs et mises à jour sont documentées.
+
+## Disponibilité des supports
+
+Les ateliers décrivent les travaux prévus. Leurs fichiers, corrigés et évaluations en ligne sont à préparer, sauf ressources explicitement disponibles dans le module pilote.
+
+## Origine et références
+
+Programme original rédigé pour Beyond Expertise à partir des objectifs de la fiche officielle.
+
+[Fiche officielle observée le 11 septembre 2026](https://beyond-expertise.com/formations/rdtf-redaction-de-documents-techniques-les-fondamentaux)

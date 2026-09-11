@@ -431,12 +431,35 @@ type CoursePreview = {
     lessons: Array<{ title: string; type: string; durationMin: number | null }>;
   }>;
 };
+export type DetailedProgramme = {
+  slug: string;
+  version: number;
+  status: "DRAFT_FOR_TRAINER_REVIEW";
+  authoredAt: string;
+  totalHours: number;
+  caseStudy: string;
+  preparation: string;
+  methods: string;
+  scheduleNote: string;
+  materialsStatus: string;
+  modules: Array<{
+    day: number;
+    title: string;
+    durationMinutes: number;
+    topics: string[];
+    workshop: string;
+  }>;
+  assessment: { format: string; durationMinutes: number; criteria: string[] };
+  references: Array<{ title: string; url: string }>;
+};
 type CatalogueSource = {
   kind?: string;
   sourceUrl?: string;
   observedAt?: string;
   observedPrice?: string;
   programStatus?: string;
+  syllabus?: DetailedProgramme;
+  syllabusSummary?: { totalHours: number; moduleCount: number; status: string };
 };
 
 type ApiTraining = {

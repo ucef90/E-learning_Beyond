@@ -1,5 +1,5 @@
-const fs = require("node:fs");
 const { PrismaClient } = require("@prisma/client");
+const { loadProgrammes } = require("./validate-programmes.cjs");
 const db = new PrismaClient();
 async function main() {
   const url = new URL(process.env.DATABASE_URL || "postgresql://invalid/");
@@ -11,9 +11,8 @@ async function main() {
     throw Error(
       "Import réservé à la nouvelle base locale beyond_pilot_elearning.",
     );
-  const snapshot = JSON.parse(
-    fs.readFileSync("data/official-catalogue.json", "utf8"),
-  );
+  const { catalogue, bySlug: programmes } = loadProgrammes();
+  const snapshot = { trainings: catalogue };
   if (
     snapshot.trainings.length !== 81 ||
     new Set(snapshot.trainings.map((t) => t.slug)).size !== 81
@@ -68,7 +67,9 @@ async function main() {
             observedAt: t.observedAt,
             observedPrice: t.observedPrice,
             observedSessions: t.observedSessions,
-            programStatus: "GENERIC_ON_SOURCE",
+            programStatus: "LOCAL_DETAILED_DRAFT",
+            sourceProgramStatus: "GENERIC_ON_SOURCE",
+            syllabus: programmes.get(t.slug),
           },
         };
         const training = await tx.training.upsert({
@@ -91,7 +92,7 @@ async function main() {
     { timeout: 60000 },
   );
   console.log(
-    "81 fiches officielles importées. Aucun compte, session commerciale ou cours complet inventé.",
+    "81 fiches et 81 programmes détaillés importés dans la base locale. Les cours et comptes existants sont conservés.",
   );
 }
 main()

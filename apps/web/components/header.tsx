@@ -25,7 +25,10 @@ const LMS_TRAINER_URL = process.env.NEXT_PUBLIC_LMS_TRAINER_URL || "/formateur";
 const CLIENT_PORTAL_URL = "/espace";
 
 export function Header() {
-  const isLearning = usePathname().startsWith("/apprentissage");
+  const pathname = usePathname();
+  const isLearning =
+    pathname.startsWith("/apprentissage") ||
+    pathname.startsWith("/formations/");
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
