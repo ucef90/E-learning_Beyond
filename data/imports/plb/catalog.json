@@ -1,0 +1,1776 @@
+{
+  "categories": [
+    {
+      "name": "oracle",
+      "slug": "oracle",
+      "url": "https://www.plb.fr/filiere/oracle"
+    },
+    {
+      "name": "big data bi",
+      "slug": "big-data-bi",
+      "url": "https://www.plb.fr/filiere/big-data-bi"
+    },
+    {
+      "name": "intelligence artificielle",
+      "slug": "intelligence-artificielle",
+      "url": "https://www.plb.fr/filiere/intelligence-artificielle"
+    }
+  ],
+  "trainings": [
+    {
+      "sourceUrl": "https://www.plb.fr/formation/data-mesh",
+      "slug": "dtmh-data-mesh-adopter-le-nouveau-paragdime-de-l-architecture-des-donnees",
+      "title": "Data Mesh : adopter le nouveau paragdime de l'architecture des données",
+      "reference": "DTMH",
+      "categoryName": "data science",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": ", l'accent sera mis sur la clarification des enjeux de la gouvernance fédérée computationnelle, lors d'un échange consacré au partage d'expériences des formateurs et apprenant·es.Enfin, nous conclurons avec une feuille de route pour la conduite du changement, la priorisation, les moyens nécessaires, la stratégie et l'exécution, l'organisation et la culture.Programme de la formationObjectifs",
+      "nextSession": "01/06/2026",
+      "priceText": "2 120€ HT",
+      "priceFromCents": 212000,
+      "description": "Cette formation Data Mesh vous permet de comprendre et de mettre en œuvre les grands principes du Data Mesh.",
+      "summary": "Data Mesh : adopter le nouveau paragdime de l'architecture des données permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Data Mesh vous permet de comprendre et de mettre en œuvre les grands principes du Data Mesh.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "S'approprier les principes de découpage et d'agrégation des domaines de données sous forme de Data Product",
+            "Expérimenter les difficultés liées à la donnée, notamment les conséquences d'un périmètre de responsabilité mal défini",
+            "Identifier les besoins des différents acteurs de la data qui justifient l'intérêt du paradigme Data Mesh",
+            "Définir et schématiser les grands principes du Data Mesh",
+            "Se constituer un cadre méthodologique pour accompagner le changement de son organisation vers l'adoption du Data Mesh"
+          ]
+        },
+        {
+          "title": "Contenu du cours Data Mesh",
+          "bullets": []
+        },
+        {
+          "title": "Évolution des architectures",
+          "bullets": []
+        },
+        {
+          "title": "Architecture pour les systèmes de données opérationnels et les systèmes de données analytiques",
+          "bullets": []
+        },
+        {
+          "title": "Domain Driven Ownership",
+          "bullets": []
+        },
+        {
+          "title": "Rappel sur le Domain Driven Design stratégique",
+          "bullets": []
+        },
+        {
+          "title": "Les trois archétypes de Data Domain",
+          "bullets": []
+        },
+        {
+          "title": "Ownership",
+          "bullets": []
+        },
+        {
+          "title": "Data as a product",
+          "bullets": []
+        },
+        {
+          "title": "Le principe de la plateforme self service",
+          "bullets": []
+        },
+        {
+          "title": "Federated Computational Governance",
+          "bullets": []
+        },
+        {
+          "title": "Construire sa feuille de route",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": [
+            "Chief Data Officer (CDO)",
+            "Responsable d'équipe ou de pôle Data",
+            "Data analyst",
+            "Data scientist",
+            "Data engineer",
+            "Product Owner",
+            "Architecte logiciel",
+            "Architecte d'entreprise",
+            "Cloud Platform Architect (GCP, AWS, Azure)"
+          ]
+        }
+      ],
+      "seoTitle": "Data Mesh : adopter le nouveau paragdime de l'architecture des données | Beyond Expertise",
+      "seoDescription": "Data Mesh : adopter le nouveau paragdime de l'architecture des données avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Data Mesh : adopter le nouveau paragdime de l'architecture des données permet de structurer une montée en compétence opér"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/modelisation-statistique",
+      "slug": "msle-l-essentiel-de-la-modelisation-statistique",
+      "title": "L'essentiel de la modélisation statistique",
+      "reference": "MSLE",
+      "categoryName": "data science",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "29/06/2026",
+      "priceText": "1 590€ HT",
+      "priceFromCents": 159000,
+      "description": "Cette formation Modélisation Statistique permet d&#x27;acquérir l&#x27;essentiel de la modélisation statistique pour l&#x27;analyse descriptive et prévisionnelle.",
+      "summary": "L'essentiel de la modélisation statistique permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Modélisation Statistique permet d&#x27;acquérir l&#x27;essentiel de la modélisation statistique pour l&#x27;analyse descriptive et prévisionnelle.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation Modélisation statistique il est nécessaire d'avoir des connaissances de base en mathématiques et statistiques. Une connaissance de base d'Excel est préférable pour la mise en œuvre de certains TP.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Connaître les fondamentaux de l’analyse statistique",
+            "Utiliser les formules statistiques descriptives et prédictives",
+            "Calculer des paramètres de position et dispersion (médiane, étendue, quantile, écart-type)",
+            "Créer un rapport d'analyse basé sur les paramètres statistiques",
+            "Exploiter les paramètres statistiques pour comprendre une série de données",
+            "Valider la précision d'une estimation, à l'aide des intervalles de confiance",
+            "Utiliser des outils comme R et Excel pour la mise en œuvre des modèles étudiés",
+            "Chiffre les zones d’incertitude avec des intervalles de confiance",
+            "Créer des modèles de prévisions",
+            "Valider ses modèles avec des tests de validation"
+          ]
+        },
+        {
+          "title": "Contenu du cours Modelisation statistique",
+          "bullets": []
+        },
+        {
+          "title": "Rappels des fondamentaux de la statistique descriptive",
+          "bullets": []
+        },
+        {
+          "title": "Démarche et modélisation d'une analyse statistique",
+          "bullets": []
+        },
+        {
+          "title": "Paramètre de position et de dispersion",
+          "bullets": []
+        },
+        {
+          "title": "Présentation du logiciel « R » et utilisation d’Excel pour la mise en œuvre des modèles étudiés",
+          "bullets": []
+        },
+        {
+          "title": "Tests et intervalle de confiance",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "L'essentiel de la modélisation statistique | Beyond Expertise",
+      "seoDescription": "L'essentiel de la modélisation statistique avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. L'essentiel de la modélisation statistique permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiqu"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/manager-produit-ia",
+      "slug": "iamp-intelligence-artificielle-ia-devenir-manager-de-produits-ia",
+      "title": "Intelligence Artificielle (IA) : Devenir manager de produits IA",
+      "reference": "IAMP",
+      "categoryName": "data science",
+      "level": "x de maturité d'intégration de l'IACas d'étude issus de l'industrieJour 1 - Après-midiDéveloppement et maintenance de produits IAÉtapes de développement de nouveaux produitsSpécificités des produits IA, de la conception au déploiement et à la maintenanceIntégration",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "Paris",
+      "nextSession": "27/05/2026",
+      "priceText": "1 750€ HT",
+      "priceFromCents": 175000,
+      "description": "Cette formation Manager de produit IA vous apprend à faire évoluer des produits existants en y intégrant l&#x27;IA ou d&#x27;identifier de nouveaux besoins.",
+      "summary": "Intelligence Artificielle (IA) : Devenir manager de produits IA permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Manager de produit IA vous apprend à faire évoluer des produits existants en y intégrant l&#x27;IA ou d&#x27;identifier de nouveaux besoins.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Reconnaître les concepts, terminologies, spécificités et enjeux de l'IA moderne",
+            "Faire évoluer des produits existants pour y intégrer l'IA et identifier des nouveaux besoins",
+            "Développer et déployer des produits IA selon les meilleures méthodologies",
+            "Activer les leviers de maîtrise des coûts et de croissance et identifier les pièges"
+          ]
+        },
+        {
+          "title": "Contenu du cours Manager produit IA",
+          "bullets": []
+        },
+        {
+          "title": "Fondamentaux de l'IA moderne",
+          "bullets": []
+        },
+        {
+          "title": "Développement et maintenance de produits IA",
+          "bullets": []
+        },
+        {
+          "title": "Commercialisation de produits IA",
+          "bullets": []
+        },
+        {
+          "title": "Développer l'équipe IA / ML",
+          "bullets": []
+        },
+        {
+          "title": "Benchmarking, croissance et coûts",
+          "bullets": []
+        },
+        {
+          "title": "Domaines à fort potentiel de croissance pour les produits IA",
+          "bullets": []
+        },
+        {
+          "title": "Enjeux, limites et bonnes pratiques",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Intelligence Artificielle (IA) : Devenir manager de produits IA | Beyond Expertise",
+      "seoDescription": "Intelligence Artificielle (IA) : Devenir manager de produits IA avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Intelligence Artificielle (IA) : Devenir manager de produits IA permet de structurer une montée en compétence opérationnelle aut"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/data-scientist-avance",
+      "slug": "mdsa-data-scientist-niveau-avance",
+      "title": "Data Scientist : niveau avancé",
+      "reference": "MDSA",
+      "categoryName": "data science",
+      "level": "avancé\"}]}FormationsBig Data - BIData ScienceDomaineInformatiqueCertifiantNonOfficielNonFinancementFSETypeCours",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "04/06/2026",
+      "priceText": "2 500€ HT",
+      "priceFromCents": 250000,
+      "description": "Avec cette formation Data Scientist de niveau avancé, apprenez les techniques de text mining, de normalisation et de deep-learning pour valoriser vos données avec PLB.",
+      "summary": "Data Scientist : niveau avancé permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Avec cette formation Data Scientist de niveau avancé, apprenez les techniques de text mining, de normalisation et de deep-learning pour valoriser vos données avec PLB.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation, il est recommandé d'avoir des connaissances de base en programmation ou en scripting. Il faut également avoir suivi la Formation \"Fondamentaux de la Data Science\" (OFDS) ou avoir les connaissances équivalentes. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Découvrir et utiliser la puissance prédictive des modèles ensemblistes",
+            "Savoir effectuer un \"feature engineering\" performant",
+            "Appréhender les techniques de text-mining et de deep-learning à travers d'exemples concrets",
+            "Enrichir ses outils de data scientist"
+          ]
+        },
+        {
+          "title": "Contenu du cours Data Scientist avance",
+          "bullets": []
+        },
+        {
+          "title": "Rappel des fondamentaux Data Scientist",
+          "bullets": []
+        },
+        {
+          "title": "Modèles ensemblistes",
+          "bullets": []
+        },
+        {
+          "title": "Introduction au text mining",
+          "bullets": []
+        },
+        {
+          "title": "Feature engineering avancé",
+          "bullets": []
+        },
+        {
+          "title": "Réseaux de neurones et deep learning",
+          "bullets": []
+        },
+        {
+          "title": "Apprentissage semi-supervisé",
+          "bullets": []
+        },
+        {
+          "title": "Rappels et révisions",
+          "bullets": []
+        },
+        {
+          "title": "Mise en pratique",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Data Scientist : niveau avancé | Beyond Expertise",
+      "seoDescription": "Data Scientist : niveau avancé avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Data Scientist : niveau avancé permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terra"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/sql-fondamentaux",
+      "slug": "oibb-sql-les-fondamentaux",
+      "title": "SQL : les fondamentaux",
+      "reference": "OIBB",
+      "categoryName": "oracle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "08/06/2026",
+      "priceText": "2 090€ HT",
+      "priceFromCents": 209000,
+      "description": "Au cours de cette formation SQL, vous allez apprendre à utiliser le langage SQL pour que chaque requête, simple ou complexe, soit écrite naturellement avec simplicité.",
+      "summary": "SQL : les fondamentaux permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Au cours de cette formation SQL, vous allez apprendre à utiliser le langage SQL pour que chaque requête, simple ou complexe, soit écrite naturellement avec simplicité.",
+      "audience": "et",
+      "prerequisites": "Maîtriser l’utilisation de son poste de travail sous Windows et avoir des notions de gestion des données dans l'entreprise (par exemple la création de tableaux simples dans Excel se référant à des données structurées : référence, nom, adresse, etc.).J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Langage SQL : Exploiter une base de donn&eacute;es relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Cette certification est éligible au CPF. Retrouvez cette formation SQL sur le site du CPF (MonCompteFormation).Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre le modèle d’algèbre relationnelle sur lequel repose le SQL",
+            "Appréhender l'écriture des requêtes SQL (conception et compréhension des requêtes SQL)",
+            "Décrire les principales fonctions d’un SGBDR",
+            "Être à l’aise dans son environnement de développement SQL (IDE)",
+            "Extraire des données avec le SQL (select)",
+            "Mettre à jour les données avec le SQL (insert, update, delete)",
+            "Extraire les données de plusieurs tables (jointure)",
+            "Connaître les principales fonctions du langage SQL",
+            "Comprendre la place du SQL dans les applications et les outils"
+          ]
+        },
+        {
+          "title": "Contenu du cours SQL fondamentaux",
+          "bullets": []
+        },
+        {
+          "title": "Concepts et fonctionnement des SGBDR",
+          "bullets": []
+        },
+        {
+          "title": "L'environnement de travail pour le SQL",
+          "bullets": []
+        },
+        {
+          "title": "Savoir écrire des requêtes SQL",
+          "bullets": []
+        },
+        {
+          "title": "Manipulation des données de la base",
+          "bullets": []
+        },
+        {
+          "title": "Les fonctions en SQL",
+          "bullets": []
+        },
+        {
+          "title": "Requêtes ensemblistes en SQL",
+          "bullets": []
+        },
+        {
+          "title": "Requêtes complexes en SQL",
+          "bullets": []
+        },
+        {
+          "title": "Le SQL dans les applications et les outils",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Langage SQL : Exploiter une base de donn&eacute;es relationnelle",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "SQL : les fondamentaux | Beyond Expertise",
+      "seoDescription": "SQL : les fondamentaux avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. SQL : les fondamentaux permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Au cours de "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/postgresql",
+      "slug": "bpga-postgresql-administration-de-la-base-de-donnees",
+      "title": "PostgreSQL : Administration de la base de données",
+      "reference": "BPGA",
+      "categoryName": "oracle",
+      "level": "x d’isolationVerrous et gestion de la concurrenceSécurité Rôles et privilègesSéparation des rôles applicatifs et utilisateursAuthentification (SCRAM-SHA-256)Configuration de pg_hba.confChiffrement SSLSécurité logique avec les vuesIntroduction au Row",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "20/07/2026",
+      "priceText": "2 090€ HT",
+      "priceFromCents": 209000,
+      "description": "Cette formation PostgreSQL, vous apprendra à installer et à administrer au quotidien votre serveur de base de données PostgreSQL.",
+      "summary": "PostgreSQL : Administration de la base de données permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation PostgreSQL, vous apprendra à installer et à administrer au quotidien votre serveur de base de données PostgreSQL.",
+      "audience": "et",
+      "prerequisites": "Les participants possèdent un socle de connaissances et de compétences minimal sur les bases de données relationnelles. Ils sont en mesure d’effectuer des requêtes simples en SQL pour interroger et manipuler des données, en vue de les répliquer au cours des travaux pratiques de cette formation PostgreSQL.Des connaissances sur les systèmes d’exploitation UNIX / Linux et/ou Windows sont également nécessaires.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.AVIT by ENI - Administration d&rsquo;une base de donn&eacute;esCette formation vous prépare au passage de la certification « AVIT by ENI - Certification Administration d’une base de données » (Option PostgreSQL) qui démontre votre compétence à mettre en œuvre une base de données dans le respect des règles de gestion énoncées, à insérer et mettre à jour des données, à en assurer la sécurité, la sauvegarde, la restauration ainsi que la maintenance.L’examen de certification se passe en ligne sous forme d’un QCM d’une durée d’1 heure. Le résultat s’affiche selon un score de 1000 points. Un score supérieur à 600 indique que les compétences sont acquises.La certification n’est pas obligatoire. L’inscription à l’examen n’est pas incluse dans le prix de la formation.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre l’architecture et le fonctionnement interne de PostgreSQL",
+            "Savoir installer et configurerun serveur PostgreSQL",
+            "Administrer les bases de données et les instances au quotidien",
+            "Gérer des utilisateurs, les rôles et les droits d'accès",
+            "Savoir interagir avec un serveur PostgreSQL au moyen de Psql",
+            "Mettre en œuvre les mécanismes de sécurité",
+            "Surveiller, diagnostiquer et optimiser les performances",
+            "Mettre en place une stratégie de sauvegarde et de restauration",
+            "Comprendre l'intégration de PostgreSQL dans une architecture applicative"
+          ]
+        },
+        {
+          "title": "Contenu du cours PostgreSQL",
+          "bullets": []
+        },
+        {
+          "title": "Présentation de PostgreSQL et des outils",
+          "bullets": []
+        },
+        {
+          "title": "Installation de PostgreSQL",
+          "bullets": []
+        },
+        {
+          "title": "Bases et instances PostgreSQL",
+          "bullets": []
+        },
+        {
+          "title": "Transaction et concurrence",
+          "bullets": []
+        },
+        {
+          "title": "Sécurité",
+          "bullets": []
+        },
+        {
+          "title": "Fichiers, logs et supervision",
+          "bullets": []
+        },
+        {
+          "title": "Sauvegardes et restauration",
+          "bullets": []
+        },
+        {
+          "title": "PostgreSQL dans le contexte applicatif",
+          "bullets": []
+        },
+        {
+          "title": "Optimisation et performance",
+          "bullets": []
+        },
+        {
+          "title": "Troubleshooting et maintenance",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "AVIT by ENI - Administration d&rsquo;une base de donn&eacute;es",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "PostgreSQL : Administration de la base de données | Beyond Expertise",
+      "seoDescription": "PostgreSQL : Administration de la base de données avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. PostgreSQL : Administration de la base de données permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/sql-perfectionnement",
+      "slug": "oibp-sql-perfectionnement",
+      "title": "SQL Perfectionnement",
+      "reference": "OIBP",
+      "categoryName": "oracle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "21/05/2026",
+      "priceText": "1 590€ HT",
+      "priceFromCents": 159000,
+      "description": "Cette formation SQL Perfectionnement vous apprend à lire et écrire des requêtes SQL complexes en disposant d’une méthodologie solide et étayée.",
+      "summary": "SQL Perfectionnement permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation SQL Perfectionnement vous apprend à lire et écrire des requêtes SQL complexes en disposant d’une méthodologie solide et étayée.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation SQL Perfectionnement, il est important de bien connaître les fondamentaux du SQL (select … from … where, group by, jointure simple, etc.) et les concepts fondamentaux des bases de données relationnelles (table, lignes, colonnes, clef primaire, clef étrangère).La formation SQL : Interroger les bases de données avec le langage SQL (Réf. OIBB) peut constituer un bon prérequis.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Langage SQL : Exploiter une base de donn&eacute;es relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Cette certification est éligible au CPF. Retrouvez cette formation SQL Perfectionnement sur le site du CPF (MonCompteFormation).Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Maîtriser les jointures et leurs variantes",
+            "Maîtriser les requêtes ensemblistes",
+            "Écrire des requêtes SQL complexes (jointures externes, select imbriqués corrélés, etc.)",
+            "Savoir modéliser une requête complexe à l’aide d’un arbre",
+            "Transcrire cet arbre en requête SQL"
+          ]
+        },
+        {
+          "title": "Contenu du cours SQL Perfectionnement",
+          "bullets": []
+        },
+        {
+          "title": "Maîtriser les jointures",
+          "bullets": []
+        },
+        {
+          "title": "Expressions régulières et SQL",
+          "bullets": []
+        },
+        {
+          "title": "Opérateurs ensemblistes",
+          "bullets": []
+        },
+        {
+          "title": "Compléments sur le regroupement de données",
+          "bullets": []
+        },
+        {
+          "title": "Manipulation avancée en SQL",
+          "bullets": []
+        },
+        {
+          "title": "Aide à l’écriture de requêtes SQL complexes",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Langage SQL : Exploiter une base de donn&eacute;es relationnelle",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "SQL Perfectionnement | Beyond Expertise",
+      "seoDescription": "SQL Perfectionnement avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. SQL Perfectionnement permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/administration-oracle-19c-21c",
+      "slug": "boac-administration-oracle-19c-a-21c",
+      "title": "Administration Oracle 19c à 21c",
+      "reference": "BOAC",
+      "categoryName": "oracle",
+      "level": "d'une sessionLes outils d'Oracle Database 19c à 21cSQL DevelopperEM ExpressEM Cloud controlOracle NetConnexion à une instance OracleConfiguration et mise en oeuvre du listenerConfiguration des postes clients (tnsnames.ora)L’utilitaire netmrg et netcaConcepts de sauvegardes et restaurationsStratégies de sauvegardesProcédures de sauvegardes utilisateurs et RMAN, base ouverteRestauration et récupérationRestaurations avec une base en mode NOARCHIVELOG et ARCHIVELOGScénario de panne et récupération utilisateur et via RMANData Pump export / import (sauvegardes logiques)L'outil SQL LoaderArchitecture MultitenantPrésentation de l’option Oracle Database 19c à 21c MultitenantCréation et gestion d’une base de données container (CDB)Plug in d'une base de données pluggable (PDB)Nouvelles vues du dictionnaire de donnéesGestion des ressources au sein d'un CDBArchitecture de Sharding PDBCDB fleet (flotte",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "Paris",
+      "nextSession": "22/06/2026",
+      "priceText": "3 250€ HT",
+      "priceFromCents": 325000,
+      "description": "Cette formation Oracle 19c à 21c vous apprendra à administrer des bases de données Oracle 19c à 21c et à bien comprendre toutes les évolutions apportées par cette nouvelle version.",
+      "summary": "Administration Oracle 19c à 21c permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Oracle 19c à 21c vous apprendra à administrer des bases de données Oracle 19c à 21c et à bien comprendre toutes les évolutions apportées par cette nouvelle version.",
+      "audience": "et",
+      "prerequisites": "Avoir suivi la formation SQL pour Oracle (Réf. BSPO), ou en posséder les connaissances équivalentes.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Connaître l’architecture Oracle Database 19c à 21c",
+            "Maîtriser l’installation d’Oracle 19c à 21c",
+            "Savoir gérer une instance de base de données",
+            "Apprendre à gérer la sécurité d’une base de données autonome",
+            "S’approprier les nouveaux concepts de sauvegardes et restaurations",
+            "Se familiariser avec l’architecture Multitenant"
+          ]
+        },
+        {
+          "title": "Contenu du cours Administration Oracle 19c 21c",
+          "bullets": []
+        },
+        {
+          "title": "Présentation générale d'Oracle 19c à 21c",
+          "bullets": []
+        },
+        {
+          "title": "Architecture d’Oracle Database 19c à 21c",
+          "bullets": []
+        },
+        {
+          "title": "Installation d'Oracle Database 19c à 21c",
+          "bullets": []
+        },
+        {
+          "title": "Création d'une base de données",
+          "bullets": []
+        },
+        {
+          "title": "Gestion d'une instance d'une base de données",
+          "bullets": []
+        },
+        {
+          "title": "Structure de stockage d’une base de données Oracle 19c à 21c",
+          "bullets": []
+        },
+        {
+          "title": "Gestion de la sécurité avec Oracle 19c à 21c",
+          "bullets": []
+        },
+        {
+          "title": "Les outils d'Oracle Database 19c à 21c",
+          "bullets": []
+        },
+        {
+          "title": "Oracle Net",
+          "bullets": []
+        },
+        {
+          "title": "Concepts de sauvegardes et restaurations",
+          "bullets": []
+        },
+        {
+          "title": "Architecture Multitenant",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Administration Oracle 19c à 21c | Beyond Expertise",
+      "seoDescription": "Administration Oracle 19c à 21c avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Administration Oracle 19c à 21c permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le ter"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/optimisation-sql",
+      "slug": "bors-optimisation-des-requetes-sql-sous-oracle",
+      "title": "Optimisation des requêtes SQL sous Oracle",
+      "reference": "BORS",
+      "categoryName": "oracle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "Paris",
+      "nextSession": "18/05/2026",
+      "priceText": "2 050€ HT",
+      "priceFromCents": 205000,
+      "description": "Cette Formation optimisation SQL a pour objectif de connaître et utiliser les techniques d&#x27;optimisation des requêtes SQL afin d&#x27;améliorer les performances des applications.",
+      "summary": "Optimisation des requêtes SQL sous Oracle permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette Formation optimisation SQL a pour objectif de connaître et utiliser les techniques d&#x27;optimisation des requêtes SQL afin d&#x27;améliorer les performances des applications.",
+      "audience": "et",
+      "prerequisites": "La maîtrise du SQL et PL/SQL est indispensable. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.AVIT by ENI - Exploitation d&rsquo;une base de donn&eacute;es avec le langage SQL Cette formation vous prépare au passage de la certification \"AVIT by ENI - Exploitation d’une base de données avec le langage SQL\" qui démontre votre compétence à interagir avec une base de données en utilisant le langage SQL. L’examen portera sur le langage SQL standard sans référence quelconque à un Système de Gestion de Base de Données Relationnelle spécifique. L’examen de certification se passe en ligne sous forme d’un QCM d’une durée d’1 heure. Le résultat s’affiche selon un score de 1000 points. Un score supérieur à 600 indique que les compétences sont acquises. La certification n’est pas obligatoire. L’inscription à l’examen n’est pas incluse dans le prix de la formation. Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Connaître les particularités des types d'applications",
+            "Savoir traiter des requêtes SQL",
+            "Être en mesure d'utiliser les outils de diagnostic et de mesure de performance",
+            "Être capable d'optimiser le schéma relationnel",
+            "Apprendre à optimiser le serveur",
+            "Comprendre l'optimisation des requêtes SQL",
+            "Comprendre la parallélisation d'exécution des requêtes"
+          ]
+        },
+        {
+          "title": "Contenu du cours optimisation SQL",
+          "bullets": []
+        },
+        {
+          "title": "Introduction",
+          "bullets": []
+        },
+        {
+          "title": "Traitement des Requêtes SQL",
+          "bullets": []
+        },
+        {
+          "title": "Les outils de mesure de performance",
+          "bullets": []
+        },
+        {
+          "title": "Mécanismes automatiques de réglage de performances",
+          "bullets": []
+        },
+        {
+          "title": "Optimisation du schéma relationnel",
+          "bullets": []
+        },
+        {
+          "title": "Optimisation du serveur",
+          "bullets": []
+        },
+        {
+          "title": "Optimisation des requêtes SQL",
+          "bullets": []
+        },
+        {
+          "title": "Parallélisme d'exécution des requêtes",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "AVIT by ENI - Exploitation d&rsquo;une base de donn&eacute;es avec le langage SQL",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Optimisation des requêtes SQL sous Oracle | Beyond Expertise",
+      "seoDescription": "Optimisation des requêtes SQL sous Oracle avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Optimisation des requêtes SQL sous Oracle permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/initiation-bases-donnees",
+      "slug": "bbni-initiation-aux-bases-de-donnees-et-au-sql-pour-les-professionnels-non-informaticiens",
+      "title": "Initiation aux bases de données et au SQL pour les professionnels non informaticiens",
+      "reference": "BBNI",
+      "categoryName": "oracle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "08/06/2026",
+      "priceText": "2 490€ HT",
+      "priceFromCents": 249000,
+      "description": "Cette formation initiation aux bases de données vous permettra de comprendre ce qu&#x27;est une base de données et en quoi elle se différencie d&#x27;un « simple fichier Excel amélioré »",
+      "summary": "Initiation aux bases de données et au SQL pour les professionnels non informaticiens permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation initiation aux bases de données vous permettra de comprendre ce qu&#x27;est une base de données et en quoi elle se différencie d&#x27;un « simple fichier Excel amélioré »",
+      "audience": "et",
+      "prerequisites": "AucunJ'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Langage SQL : Exploiter une base de donn&eacute;es relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Retrouvez cette formation Initiation aux bases de données sur le site du CPF (MonCompteFormation).Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Concevoir une base de données (modèle relationnel, MCD)",
+            "Créer une base (tables, contraintes d'intégrités)",
+            "Remplir une base de données (chargement depuis un fichier texte ou ordres SQL)",
+            "Écrire des requêtes SQL pour extraire les données de la base (select)",
+            "Comprendre le concept de transaction et des verrous (accès concurrent)",
+            "Comprendre comment les données sont sécurisées (droits)",
+            "Comprendre les formats de données (CSV, XML, import/export, ETL) dans les échanges entre les applications et les bases",
+            "Comprendre la place des bases de données dans les architectures d'entreprise (site WEB, applications internes, décisionnel, outils BI, reporting, etc. )"
+          ]
+        },
+        {
+          "title": "Contenu du cours Initiation bases donnees",
+          "bullets": []
+        },
+        {
+          "title": "La conception d'une base de données",
+          "bullets": []
+        },
+        {
+          "title": "L'environnement de travail",
+          "bullets": []
+        },
+        {
+          "title": "Le langage SQL",
+          "bullets": []
+        },
+        {
+          "title": "Les transactions (sensibilisation)",
+          "bullets": []
+        },
+        {
+          "title": "La sécurité des données",
+          "bullets": []
+        },
+        {
+          "title": "Import/Export de données",
+          "bullets": []
+        },
+        {
+          "title": "Base de données en entreprise",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Langage SQL : Exploiter une base de donn&eacute;es relationnelle",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Initiation aux bases de données et au SQL pour les professionnels non informaticiens | Beyond Expertise",
+      "seoDescription": "Initiation aux bases de données et au SQL pour les professionnels non informaticiens avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Initiation aux bases de données et au SQL pour les professionnels non informaticiens permet de structurer u"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/oracle-apex",
+      "slug": "boae-developper-des-applications-web-rapidement-avec-oracle-application-express-oracle-apex",
+      "title": "Développer des applications web rapidement avec Oracle Application Express (Oracle APEX)",
+      "reference": "BOAE",
+      "categoryName": "oracle",
+      "level": "et aux objectifs des participants.Programme de la formationObjectifs",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "À",
+      "nextSession": "20/04/2026",
+      "priceText": "Intra uniquement",
+      "priceFromCents": null,
+      "description": "Cette formation Oracle APEX (Oracle Application Express) permet d’apprendre à développer et déployer rapidement des applications sécurisées. Nombreux travaux pratiques.",
+      "summary": "Développer des applications web rapidement avec Oracle Application Express (Oracle APEX) permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Oracle APEX (Oracle Application Express) permet d’apprendre à développer et déployer rapidement des applications sécurisées. Nombreux travaux pratiques.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation Oracle Application Express il est recommandé, mais pas obligatoire, d'avoir des connaissances en SQL et PL/SQL car les syntaxes sont guidées pendant les exercices avec des assistants et des scripts fournis.Des notions en HTML, CSS, JavaScript sont un plus pour la personnalisation de l’interface utilisateur et du fonctionnement des applications Oracle APEX.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Savoir développer des applications web avec Oracle APEX",
+            "Acquérir les connaissances et les compétences nécessaires pour :- Utiliser Oracle Application Express- Développer des applications et les personnaliser avec Oracle APEX- Créer une interface utilisateur personnalisée, sécuriser et déployer les applications Oracle APEX.",
+            "Maîtriser la conception des schémas des Bases de données Relationnelles"
+          ]
+        },
+        {
+          "title": "Contenu du cours Oracle APEX",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à Oracle Application Express",
+          "bullets": []
+        },
+        {
+          "title": "Développement SQL et PL/SQL, outils et utilitaires d’Oracle APEX",
+          "bullets": []
+        },
+        {
+          "title": "Développement d’application – Composants d’application",
+          "bullets": []
+        },
+        {
+          "title": "Développement d’application – personnalisation d’application",
+          "bullets": []
+        },
+        {
+          "title": "Techniques avancées, administration et déploiement de l’application",
+          "bullets": [
+            "Environnement mutualisé apex.oracle.com 22.1",
+            "Machine virtuelle Virtualbox windows 10",
+            "Base de données Oracle XE 18c-21c",
+            "Installation Oracle APEX 19.2-21-22 – ORDS 20-21-22"
+          ]
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Développer des applications web rapidement avec Oracle Application Express (Oracle APEX) | Beyond Expertise",
+      "seoDescription": "Développer des applications web rapidement avec Oracle Application Express (Oracle APEX) avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Développer des applications web rapidement avec Oracle Application Express (Oracle APEX) permet de stru"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/oracle-goldengate",
+      "slug": "bogg-oracle-goldengate-ogg",
+      "title": "Oracle GoldenGate (OGG)",
+      "reference": "BOGG",
+      "categoryName": "oracle",
+      "level": "x d'autorisations (crédentials) alloués aux processus Configuration du fichier CMDSEC",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "À",
+      "nextSession": "18/05/2026",
+      "priceText": "53050€ HT",
+      "priceFromCents": 5305000,
+      "description": "Cette formation Oracle GoldenGate vous apprend à mettre en œuvre une solution de réplication de données mono ou bidirectionnelle dans un environnement hétérogène avec PLB",
+      "summary": "Oracle GoldenGate (OGG) permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Oracle GoldenGate vous apprend à mettre en œuvre une solution de réplication de données mono ou bidirectionnelle dans un environnement hétérogène avec PLB",
+      "audience": "et",
+      "prerequisites": "du système d'exploitation Les prérequis des bases de données La matrice de certification GoldenGate Architecture Oracle GoldenGate Les différents modes de capture Les différents modes de réplication Le rôle des groupes de processus Les répertoires GoldenGate Quelques exemples d’architectures Installation d'Oracle GoldenGate Installation avec OUI Configuration des différentes variables d'environnement L'interface GGSCI Configuration du Process Manager Préparation de la base Source (paramètres, privilèges) Le rôle du package DBMS_GOLDENGATE_AUTH Travaux Pratiques : Installation d’un environnement Configuration de la capture des changements (Extract) Configuration des tâches d'extraction Gestion des groupes d'extraction Gestion des paramètres d'extraction Ajout de trails Travaux Pratiques : Configuration d’une extraction de données Configuration de la réplication Les différentes possibilités Configuration des tâches de réplication Configuration d'un environnement de réplication Travaux Pratiques : Configuration d’une réplication de données Configuration des trails Extract et des fichiers (Data Pump) Format des trails Utilisation de Data Pump Travaux Pratiques : Visualisation du contenu des trails avec la commande Logdump Chargement initial Méthodologies à partir d'Oracle GoldenGate Méthodologies à partir de la base de données Oracle Avantages et inconvénients de chaque méthode Configuration d’un chargement direct Traitement en cas de collisions Travaux Pratiques : Approche pratique avec un chargement initial par fichier Approche pratique avec un chargement initial direct Les différents paramètres Les paramètres de configuration de GoldeGate Le rôle des différents fichiers de paramètres Les paramètres de gestion Les paramètres relatifs à l’extraction Les paramètres relatifs à la réplication Travaux Pratiques : Configuration des différents fichiers de paramètres La sélection, le filtrage et la transformation de données Le mappage de données entre les différents schémas Les différentes méthodes de transformation (macros/séquences Oracle/Tokens) Utilisation de la compression Utilisation du chiffrement Utilisation d'événements Travaux Pratiques : Approche pratique avec la configuration du portefeuille de sécurité Le cas de la réplication bidirectionnelle Architecture Suivi et détection de boucle Les conflits potentiels et les modes de résolution Travaux Pratiques : Mise en place et gestion de la réplication bidirectionnelle La réplication DDL Liste des contraintes Travaux Pratiques : Configuration et options pour la réplication DDL Un peu plus loin avec la sécurité et GoldenGate Le cryptage de données dans les trails ou les fichiers d'extraction Les différents niveaux d'autorisations (crédentials) alloués aux processus Configuration du fichier CMDSEC Les commandes de sécurité GGSCI Travaux Pratiques : Approche pratique d’une architecture avec pare-feux et configuration \"passive-alias Extract\". Public et prérequisPublic cible : Cette formation s'adrese aux administrateurs de base de données, architectes, intégrateurs, consultants techniques souhaitant obtenir une maitrise des solutions de réplication de données. Prérequis : Pour suivre cette formation, il est conseillé d'avoir quelques connaissances sur les bases de données Oracle. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Installer et préparer les bases de données Source et Destination",
+            "Configurer, lancer ou arrêter les processus d'extraction, de réplication et de chargement des données",
+            "Maîtriser la réplication uni-directionnelle ou la réplication bi-directionnelle",
+            "Utiliser les commandes GGSCI."
+          ]
+        },
+        {
+          "title": "Contenu du cours Oracle GoldenGate",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à Oracle GoldenGate",
+          "bullets": []
+        },
+        {
+          "title": "Architecture Oracle GoldenGate",
+          "bullets": []
+        },
+        {
+          "title": "Installation d'Oracle GoldenGate",
+          "bullets": []
+        },
+        {
+          "title": "Configuration de la capture des changements (Extract)",
+          "bullets": []
+        },
+        {
+          "title": "Configuration de la réplication",
+          "bullets": []
+        },
+        {
+          "title": "Configuration des trails Extract et des fichiers (Data Pump)",
+          "bullets": []
+        },
+        {
+          "title": "Chargement initial",
+          "bullets": []
+        },
+        {
+          "title": "Les différents paramètres",
+          "bullets": []
+        },
+        {
+          "title": "La sélection, le filtrage et la transformation de données",
+          "bullets": []
+        },
+        {
+          "title": "Le cas de la réplication bidirectionnelle",
+          "bullets": []
+        },
+        {
+          "title": "La réplication DDL",
+          "bullets": []
+        },
+        {
+          "title": "Un peu plus loin avec la sécurité et GoldenGate",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Oracle GoldenGate (OGG) | Beyond Expertise",
+      "seoDescription": "Oracle GoldenGate (OGG) avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Oracle GoldenGate (OGG) permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette form"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/administration-mongodb",
+      "slug": "bmdb-mongodb-mise-en-uvre-et-administration",
+      "title": "MongoDB - Mise en œuvre et administration",
+      "reference": "BMDB",
+      "categoryName": "oracle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "29/07/2026",
+      "priceText": "2 090€ HT",
+      "priceFromCents": 209000,
+      "description": "Découvrez notre formation Administration MongoDB pour gérer votre base de données NoSQL avec cette solution open source.",
+      "summary": "MongoDB - Mise en œuvre et administration permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Découvrez notre formation Administration MongoDB pour gérer votre base de données NoSQL avec cette solution open source.",
+      "audience": "et",
+      "prerequisites": "Les participants possèdent un socle de connaissances et de compétences minimal sur les bases de données et architectures techniques NoSQL. Ils sont en mesure d’effectuer des requêtes simples pour interroger et manipuler des données et disposent idéalement de connaissances en Python ou en Java.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre les spécificités de l’administration et le vocabulaire d’une base MongoDB",
+            "Savoir installer et configurer MongoDB",
+            "Comprendre la structure et savoir manipuler des données dans une base MongoDB",
+            "Savoir dialoguer et créer des requêtes d’interrogation avec Mongo en ligne de commande et via des scripts",
+            "Mettre en œuvre la réplication de données",
+            "Mettre en œuvre le partitionnement des données sur plusieurs serveurs (sharding)",
+            "Effectuer des sauvegardes et des restaurations",
+            "Sécuriser l’accès aux données de MongoDB"
+          ]
+        },
+        {
+          "title": "Contenu du cours Administration MongoDB",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à MongoDB",
+          "bullets": []
+        },
+        {
+          "title": "Installation de MongoDB",
+          "bullets": []
+        },
+        {
+          "title": "L’invite de commande (shell) Mongo",
+          "bullets": []
+        },
+        {
+          "title": "Écrire des scripts et des programmes pour MongoDB",
+          "bullets": []
+        },
+        {
+          "title": "L’indexation des données",
+          "bullets": []
+        },
+        {
+          "title": "La réplication de données",
+          "bullets": []
+        },
+        {
+          "title": "Le partitionnement de données (sharding)",
+          "bullets": []
+        },
+        {
+          "title": "Les moteurs de stockage des données",
+          "bullets": []
+        },
+        {
+          "title": "Sécuriser son installation de MongoDB",
+          "bullets": []
+        },
+        {
+          "title": "Administrer et superviser MongoDB",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "MongoDB - Mise en œuvre et administration | Beyond Expertise",
+      "seoDescription": "MongoDB - Mise en œuvre et administration avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. MongoDB - Mise en œuvre et administration permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/neo4j-developpeur",
+      "slug": "bneo-neo4j-pour-developpeur",
+      "title": "Neo4J pour Développeur",
+      "reference": "BNEO",
+      "categoryName": "oracle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "20/04/2026",
+      "priceText": "1 590€ HT",
+      "priceFromCents": 159000,
+      "description": "Avec cette formation Neo4J pour Développeur vous apprenez à gérer des données fortement liées les unes aux autres sous formes de graphes.",
+      "summary": "Neo4J pour Développeur permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Avec cette formation Neo4J pour Développeur vous apprenez à gérer des données fortement liées les unes aux autres sous formes de graphes.",
+      "audience": "et",
+      "prerequisites": "Afin de profiter de cette formation, il est nécessaire que les participants aient des connaissances des principes des bases de données ainsi que des langages de programmation Java, Python ou JavaScript. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre les spécificités d’une base NoSQL par rapport à un SGBDR",
+            "Savoir installer Neo4J et utiliser les outils du développeur",
+            "Comprendre la structure des données et le vocabulaire associé dans Neo4J",
+            "Savoir manipuler des données sous forme de graphe",
+            "Améliorer les performances avec les index",
+            "Accéder aux données de Neo4J depuis des programmes tiers (C#, Java, JavaScript, Python)",
+            "Accéder aux données de Neo4J via l’API HTTP"
+          ]
+        },
+        {
+          "title": "Contenu du cours Neo4J Developpeur",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à Neo4J",
+          "bullets": []
+        },
+        {
+          "title": "Installation de Neo4J",
+          "bullets": []
+        },
+        {
+          "title": "La structure des données sous Neo4J",
+          "bullets": []
+        },
+        {
+          "title": "Le langage Cypher",
+          "bullets": []
+        },
+        {
+          "title": "Accéder à Neo4J depuis vos propres programmes",
+          "bullets": []
+        },
+        {
+          "title": "L’API HTTP",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Neo4J pour Développeur | Beyond Expertise",
+      "seoDescription": "Neo4J pour Développeur avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Neo4J pour Développeur permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Avec cette f"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/intelligence-artificielle",
+      "slug": "inar-etat-de-l-art-sur-l-intelligence-artificielle-ia-concepts-enjeux-technologies-et-strategies-pour-les-entreprises",
+      "title": "État de l'art sur l'Intelligence Artificielle (IA) : concepts, enjeux, technologies et stratégies pour les entreprises",
+      "reference": "INAR",
+      "categoryName": "intelligence artificielle",
+      "level": "conceptuel ou technique et son impact sur les métiers notamment en termes d'automatisation de certaines tâches qu'il est important de cibler précisément en démystifiant les compétences nécessaires… ou pas. Cette formation aura également pour objectif de préparer au mieux les stagiaires à analyser les apports potentiels de l’IA dans leurs projets tout en disposant d’éléments concrets pour sa mise en œuvre et d’un vocabulaire commun.Programme de la formationObjectifs",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "des années 50 dans les universités américaines. Elle connaît aujourd’hui un écho considérable et suscite des craintes et des interrogations jusque dans les milieux politiques. En effet, ces dernières",
+      "nextSession": "11/06/2026",
+      "priceText": "1 990€ HT",
+      "priceFromCents": 199000,
+      "description": "Cette formation Intelligence Artificielle démystifie l’Intelligence Artificielle (IA) et donne aux cadres et dirigeants les clés et les outils nécessaires à sa maîtrise.",
+      "summary": "État de l'art sur l'Intelligence Artificielle (IA) : concepts, enjeux, technologies et stratégies pour les entreprises permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Intelligence Artificielle démystifie l’Intelligence Artificielle (IA) et donne aux cadres et dirigeants les clés et les outils nécessaires à sa maîtrise.",
+      "audience": "et",
+      "prerequisites": "Il est nécessaire d'avoir une culture générale de base en informatique (OS, développement, SGBD…).J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Définir l’intelligence Artificielle, expliquer les concept clefs",
+            "Déterminer les apports de l’IA selon les métiers et les secteurs par des exemples d’application",
+            "Identifier les briques technologiques, les outils et les infrastructures autour de l’IA",
+            "Lister les acteurs indispensables à un projet intégrant de l’Intelligence artificielle",
+            "Envisager l’impact sociétal de l’IA"
+          ]
+        },
+        {
+          "title": "Contenu du cours Intelligence Artificielle",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à l’Intelligence Artificielle",
+          "bullets": []
+        },
+        {
+          "title": "Les fondamentaux techniques de l’IA",
+          "bullets": []
+        },
+        {
+          "title": "Les acteurs et l’écosystème de l’IA",
+          "bullets": []
+        },
+        {
+          "title": "Applications génériques de l’IA",
+          "bullets": []
+        },
+        {
+          "title": "Les applications métier de l’Intelligence Artificielle",
+          "bullets": []
+        },
+        {
+          "title": "Automatisation des tâches et outils No Code / Low Code pour l’IA",
+          "bullets": []
+        },
+        {
+          "title": "Les projets IA en entreprise",
+          "bullets": []
+        },
+        {
+          "title": "IA et besoins en infrastructure informatique",
+          "bullets": []
+        },
+        {
+          "title": "Impact sociétal, éthique et réglementation",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "État de l'art sur l'Intelligence Artificielle (IA) : concepts, enjeux, technologies et stratégies pour les entreprises | Beyond Expertise",
+      "seoDescription": "État de l'art sur l'Intelligence Artificielle (IA) : concepts, enjeux, technologies et stratégies pour les entreprises avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. État de l'art sur l'Intelligence Artificielle (IA) : concepts, enjeux, te"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/prompt-engineer",
+      "slug": "pren-prompt-engineer-savoir-dialoguer-efficacement-avec-l-intelligence-artificielle-ia",
+      "title": "Prompt Engineer : savoir dialoguer efficacement avec l'intelligence artificielle (IA)",
+      "reference": "PREN",
+      "categoryName": "intelligence artificielle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "18/05/2026",
+      "priceText": "950€ HT",
+      "priceFromCents": 95000,
+      "description": "Cette formation Prompt Engineer vous apprend à rédiger des prompts de haute qualité pour optimiser et contrôler des résultats d’outils d’IA génératives (Chat GPT, Bing Chat, etc.)",
+      "summary": "Prompt Engineer : savoir dialoguer efficacement avec l'intelligence artificielle (IA) permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Prompt Engineer vous apprend à rédiger des prompts de haute qualité pour optimiser et contrôler des résultats d’outils d’IA génératives (Chat GPT, Bing Chat, etc.)",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Utiliser les principales fonctions des outils d'IA génératives tel que Chat GPT",
+            "Connaître les limites de ces outils et leurs erreurs potentielles",
+            "Écrire des prompts de qualité pour obtenir des réponses pertinentes",
+            "Évaluer la pertinence des réponses fournies"
+          ]
+        },
+        {
+          "title": "Contenu du cours Prompt Engineer",
+          "bullets": []
+        },
+        {
+          "title": "Vue générale des fonctions classiques des outils",
+          "bullets": []
+        },
+        {
+          "title": "Le prompt",
+          "bullets": []
+        },
+        {
+          "title": "Le métier de Prompt Engineer",
+          "bullets": []
+        },
+        {
+          "title": "Les outils du marché",
+          "bullets": []
+        },
+        {
+          "title": "Aspects avancés",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Prompt Engineer : savoir dialoguer efficacement avec l'intelligence artificielle (IA) | Beyond Expertise",
+      "seoDescription": "Prompt Engineer : savoir dialoguer efficacement avec l'intelligence artificielle (IA) avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Prompt Engineer : savoir dialoguer efficacement avec l'intelligence artificielle (IA) permet de structurer"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/chatgpt-pratique",
+      "slug": "gptp-chatgpt-par-la-pratique-ia-generative-prompt-engineering-et-chatbot",
+      "title": "ChatGPT par la pratique : IA générative, Prompt Engineering et Chatbot",
+      "reference": "GPTP",
+      "categoryName": "intelligence artificielle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "professionnel, vous serez amené à générer des images correspondant à un but déterminé. De plus, vous développerez intégralement un système d'automatisation des tâches en utilisant ChatGPT et Make. Enfin, vous concevrez un chatbot personnalisé à l'aide de Voiceflow pour répondre à un besoin",
+      "nextSession": "01/06/2026",
+      "priceText": "1 590€ HT",
+      "priceFromCents": 159000,
+      "description": "Cette formation ChatGPT par la pratique vous apprend à utiliser ChatGPT et ses outils pour maximiser votre productivité au travail.",
+      "summary": "ChatGPT par la pratique : IA générative, Prompt Engineering et Chatbot permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation ChatGPT par la pratique vous apprend à utiliser ChatGPT et ses outils pour maximiser votre productivité au travail.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Décrypter les principes essentiels de l'IA et reconnaître ses applications potentielles dans divers domaines d'activité",
+            "Confectionner des prompts pertinents pour orienter et exploiter efficacement les modèles d'IA",
+            "Utiliser l'IA pour accroître la réalisation dans ses tâches d'une façon exponentielle",
+            "Comprendre l'importance et les différentes applications possibles pour les chatbots"
+          ]
+        },
+        {
+          "title": "Contenu du cours ChatGPT Pratique",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à l'IA, au LLM et au TALN (Traitement Automatique du Langage Naturel)",
+          "bullets": []
+        },
+        {
+          "title": "Présentation de GPT et ChatGPT",
+          "bullets": []
+        },
+        {
+          "title": "Compréhension de l'API et coûts associés",
+          "bullets": []
+        },
+        {
+          "title": "Ingénierie de Prompt : théorie et pratique",
+          "bullets": []
+        },
+        {
+          "title": "Automatisation avec ChatGPT",
+          "bullets": []
+        },
+        {
+          "title": "Génération d'images avec IA",
+          "bullets": []
+        },
+        {
+          "title": "Chatbots IA : théorie et application",
+          "bullets": []
+        },
+        {
+          "title": "Réflexion sur l'avenir de l'IA et conclusion",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "ChatGPT par la pratique : IA générative, Prompt Engineering et Chatbot | Beyond Expertise",
+      "seoDescription": "ChatGPT par la pratique : IA générative, Prompt Engineering et Chatbot avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. ChatGPT par la pratique : IA générative, Prompt Engineering et Chatbot permet de structurer une montée en compétence opér"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/gouvernance-ia-generative",
+      "slug": "iage-piloter-et-encadrer-l-ia-generative-en-entreprise",
+      "title": "Piloter et Encadrer l'IA Générative en Entreprise",
+      "reference": "IAGE",
+      "categoryName": "intelligence artificielle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "15/06/2026",
+      "priceText": "2 090€ HT",
+      "priceFromCents": 209000,
+      "description": "Apprenez à gouverner, auditer et sécuriser l’usage de l’IA générative en entreprise dans un cadre éthique et réglementaire clair.",
+      "summary": "Piloter et Encadrer l'IA Générative en Entreprise permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Apprenez à gouverner, auditer et sécuriser l’usage de l’IA générative en entreprise dans un cadre éthique et réglementaire clair.",
+      "audience": "et",
+      "prerequisites": "Aucun prérequis technique n’est nécessaire. Une connaissance des enjeux réglementaires ou de gouvernance est un plus pour tirer pleinement profit de la formation.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre les fondamentaux techniques et les risques de l’IA générative.",
+            "Identifier les enjeux réglementaires et éthiques associés à son usage.",
+            "Mettre en place une gouvernance IA intégrant sécurité, conformité et stratégie.",
+            "Élaborer des politiques internes et chartes d’usage adaptées.",
+            "Concevoir un plan d’action de supervision et d’audit de l’IA générative."
+          ]
+        },
+        {
+          "title": "Contenu du cours Gouvernance IA generative",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à l’IA générative et aux LLMs",
+          "bullets": []
+        },
+        {
+          "title": "Cartographie des risques spécifiques à la GenAI",
+          "bullets": []
+        },
+        {
+          "title": "Règlementation actuelle et à venir",
+          "bullets": []
+        },
+        {
+          "title": "Mettre en place une gouvernance IA adaptée",
+          "bullets": []
+        },
+        {
+          "title": "Politiques internes et chartes d’usage",
+          "bullets": []
+        },
+        {
+          "title": "Supervision, transparence et auditabilité",
+          "bullets": []
+        },
+        {
+          "title": "Évaluation des projets IA générative",
+          "bullets": []
+        },
+        {
+          "title": "Processus de validation et supervision continue",
+          "bullets": []
+        },
+        {
+          "title": "Gouvernance des données et des connaissances ontologies",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Piloter et Encadrer l'IA Générative en Entreprise | Beyond Expertise",
+      "seoDescription": "Piloter et Encadrer l'IA Générative en Entreprise avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Piloter et Encadrer l'IA Générative en Entreprise permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/gemini-notebooklm",
+      "slug": "gemi-gemini-et-notebooklm-les-outils-ia-de-google-pour-une-productivite-augmentee-en-entreprise",
+      "title": "Gemini et NotebookLM : les outils IA de Google pour une productivité augmentée en entreprise",
+      "reference": "GEMI",
+      "categoryName": "intelligence artificielle",
+      "level": "Business Standard au minimum pour pouvoir accéder à Google Gemini et NotebookLM.Une connaissance de base de la suite Google Workspace (Gmail, Docs, Sheets) est recommandée pour maximiser le bénéfice des ateliers pratiques.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "Paris",
+      "nextSession": "29/05/2026",
+      "priceText": "950€ HT",
+      "priceFromCents": 95000,
+      "description": "Cette formation vous apprend à intégrer les outils d&#x27;IA de Google dans vos flux de travail quotidiens.",
+      "summary": "Gemini et NotebookLM : les outils IA de Google pour une productivité augmentée en entreprise permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation vous apprend à intégrer les outils d&#x27;IA de Google dans vos flux de travail quotidiens.",
+      "audience": "et",
+      "prerequisites": "Pour assister à cette formation, il est nécessaire de disposer d'un abonnement Google Workspace niveau Business Standard au minimum pour pouvoir accéder à Google Gemini et NotebookLM.Une connaissance de base de la suite Google Workspace (Gmail, Docs, Sheets) est recommandée pour maximiser le bénéfice des ateliers pratiques.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Distinguer les cas d'usage spécifiques de Gemini, Gemini for Workspace et NotebookLM pour choisir l'outil le plus pertinent pour chaque tâche",
+            "Maîtriser les techniques de prompting fondamentales pour formuler des instructions claires et obtenir des résultats précis et pertinents de la part de l'IA",
+            "Appliquer les fonctionnalités de Gemini dans Gmail, Docs, Sheets, Slides et Drive pour optimiser les tâches de communication, de rédaction, d'analyse et de présentation",
+            "Utiliser NotebookLM comme un assistant de recherche sécurisé pour analyser et synthétiser des corpus de documents internes (rapports, comptes-rendus, etc.)",
+            "Comprendre et appliquer les principes de l'IA responsable de Google, notamment en matière de confidentialité des données, de vérification des faits et de gestion des « hallucinations » de l'IA"
+          ]
+        },
+        {
+          "title": "Contenu du cours Gemini NotebookLM",
+          "bullets": []
+        },
+        {
+          "title": "Fondations stratégiques de l’IA",
+          "bullets": []
+        },
+        {
+          "title": "Maîtriser Google Gemini",
+          "bullets": []
+        },
+        {
+          "title": "L’art du prompting",
+          "bullets": []
+        },
+        {
+          "title": "Gemini dans Google Workspace",
+          "bullets": []
+        },
+        {
+          "title": "NotebookLM",
+          "bullets": []
+        },
+        {
+          "title": "Cas de synthèse pour une intégration des outils",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Gemini et NotebookLM : les outils IA de Google pour une productivité augmentée en entreprise | Beyond Expertise",
+      "seoDescription": "Gemini et NotebookLM : les outils IA de Google pour une productivité augmentée en entreprise avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Gemini et NotebookLM : les outils IA de Google pour une productivité augmentée en entreprise permet"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/machine-learning",
+      "slug": "omle-machine-learning-etat-de-l-art-et-bonnes-pratiques",
+      "title": "Machine Learning : État de l'art et bonnes pratiques",
+      "reference": "OMLE",
+      "categoryName": "intelligence artificielle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "29/06/2026",
+      "priceText": "1 790€ HT",
+      "priceFromCents": 179000,
+      "description": "Cette formation Machine Learning vous donne une vision globale des concepts, techniques et outils qu’offrent le Machine Learning pour la bonne mise en œuvre d’un projet.",
+      "summary": "Machine Learning : État de l'art et bonnes pratiques permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Machine Learning vous donne une vision globale des concepts, techniques et outils qu’offrent le Machine Learning pour la bonne mise en œuvre d’un projet.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation Machine Learning, il est recommandé de connaître les principaux algorithmes du Machine learning et d’avoir des notions de probabilité ou statistiques (scolaire), ainsi qu’une bonne culture informatique générale.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre les concepts de l’IA et la place du Machine Learning par rapport au Big Data",
+            "Appréhender les apports concrets du Machine Learning pour les entreprises",
+            "Positionner le Machine Learning dans les applications qui manipulent les données",
+            "Identifier les principaux outils et acteurs du marché",
+            "Classifier les différents algorithmes selon les cas d’usage",
+            "Adopter une démarche projet en fonction des cas d’usages",
+            "Identifier les risques et les éléments de réussite d’un projet basé sur le machine Learning"
+          ]
+        },
+        {
+          "title": "Contenu du cours Machine Learning",
+          "bullets": []
+        },
+        {
+          "title": "Introduction au Machine Learning",
+          "bullets": []
+        },
+        {
+          "title": "Machine Learning, outils et acteurs du marché",
+          "bullets": []
+        },
+        {
+          "title": "La donnée et les apprentissages en Machine Learning",
+          "bullets": []
+        },
+        {
+          "title": "Les principaux algorithmes du machine Learning",
+          "bullets": []
+        },
+        {
+          "title": "Démarche Machine Learning dans le traitement de la donnée",
+          "bullets": []
+        },
+        {
+          "title": "Mise en pratique : Procédure d'entraînement et d'évaluation des algorithmes",
+          "bullets": []
+        },
+        {
+          "title": "Envisager la mise en production d'un algorithme de machine Learning",
+          "bullets": []
+        },
+        {
+          "title": "Mise en œuvre et gestion de projet impliquant du Machine Learning",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Machine Learning : État de l'art et bonnes pratiques | Beyond Expertise",
+      "seoDescription": "Machine Learning : État de l'art et bonnes pratiques avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Machine Learning : État de l'art et bonnes pratiques permet de structurer une montée en compétence opérationnelle autour des usages, méthod"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/deep-learning",
+      "slug": "adlp-deep-learning-les-fondamentaux",
+      "title": "Deep Learning : les fondamentaux",
+      "reference": "ADLP",
+      "categoryName": "intelligence artificielle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "22/06/2026",
+      "priceText": "2 090€ HT",
+      "priceFromCents": 209000,
+      "description": "Cette formation Deep Learning par la Pratique vous permet d&#x27;acquérir est une compréhension détaillée des principales architectures de réseaux de neurones au travers de travaux pratiques.",
+      "summary": "Deep Learning : les fondamentaux permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Deep Learning par la Pratique vous permet d&#x27;acquérir est une compréhension détaillée des principales architectures de réseaux de neurones au travers de travaux pratiques.",
+      "audience": "et",
+      "prerequisites": "introduction aux notebooks JupyterDécouverte de TensorFlowInstallation de TensorFlow et son éco système, présentation des tensors (tableaux multidimensionnels), des variables et placeholders, présentation des graphes et sessions TensorFlowExemples avec les APIs TensorFlow : Estimators, Layers, Datasets…Opérations sur des ensembles de données telles que la régression et la classification. Visualiser des graphes et courbes d’apprentissage avec TensorBoardTravaux PratiquesCréation d’un premier modèle de régression en TensorFlow. Représentation avec TensorBoard pour analyseLes réseaux neuronaux artificiels ou ANN (Deep Learning)Présentation du fonctionnement du perceptron à une couche et du perceptron multicouche, configuration et paramétrage d’un réseau de neuronesApproche logicielle du développement d’un réseau de neurones : activation, désactivationConception d’un réseau de neurones en fonction du problème à résoudreTravaux PratiquesConstruction d’un réseau de neurones simple à 2 entrées (perceptron) pour comprendre la logique de base du fonctionnement d’un réseau de neurones.Reconnaissance de caractères manuscrit (classification de chiffres) à l’aide d’un réseau de neurones multi-couches.Entraînement d’un réseau de neuronesPrésentation des méthode d’apprentissage : fonction de coût, descente de gradient et rétro-propagationImportance de la métrologie : choix des paramètresPrésentation de techniques de Data Augmentation et de l’écueil du sur apprentissage par régularisationTravaux Pratiques Compléments du TP de reconnaissance des caractères.Comparaison des résultats avec différents paramètres d’entrainements : taille de l’ensemble d’entrainement, choix des fonction d’activation, nombre d’itération, séparation taille ensemble d’entrainement / de testJour 2Réseaux de neurones convolutifs ou CNNPrésentation des principes de fonctionnement et définition de filtres convolutifsDéveloppement d’une couche de convolution, d’une couche de poolingApproche logicielle du développement d’un réseau de neurones convolutifsTravaux PratiquesUtilisation d’un réseau de neurones CNN pour la reconnaissance de l’écriture manuscriteRéseaux de neurones récurrents ou RNNPrésentation des principes de fonctionnement et importance de la disparition du gradientApproche logicielle du développement d’un réseau de neurones récurrentsPrésentation d’une Cellule Long Short-Term Memory (LSTM) et de sa version simplifiée la cellule GRUApplications des réseaux récurrents aux séries temporellesPrincipes fondamentaux du NLP ou Natural Language ProcessingTravaux Pratiques Utilisation d’un réseau de neurones RNN pour le traitement automatique du langage naturel. Mise en place d'un moteur d'analyse des sentiments.Analyse avancée d’images par les réseaux de neurones convolutifsReconnaissance et détection d’objetsDécouverte des modèles de l’état de l’artPrincipes de fonctionnement, limites et mise en oeuvreAller plus loin et analyser des flux vidéos, découvertes d’outils spécialisés et pistes de réflexionL’exemple de l’outil YOLOTravaux PratiquesMise en oeuvre d’un algorithme qui utilise les CNN (Convolutional neural network) pour la Reconnaissance d’image en temps réel (voiture autonome)Jour 3Introduction aux auto-encodeursPrincipes fondamentaux des auto-encodeursRéduction de dimension grâce aux auto-encodeursIntroduction et découverte des réseaux de génération d’images : Variational Auto-Encoders (VAE) Présentation de l’API avancée de Keras (functional API) autoencoderTravaux PratiquesConstruire un auto-encodeur pour la réduction de dimensionConstruire un auto-encodeur pour le filtrage et le nettoyage d’imagesApprentissage par renforcement (Deep Learning)Définir le principe de notation et d’optimisation par objectifPrésentation de la toolkit Gym pour la programmation par renforcementPrincipe de la prise de décision par critère de MarkovPrincipes fondamentaux de l’apprentissage par différence (temporelle, etc)Travaux PratiquesApprendre comme un humain avec une récompense. Illustration avec AlphaGo (IA / jeu de Go) et AlphaStar (IA / jeu vidéo complexe). Mise en place d’un agent simple sur un jeu Atari (apprentissage par renforcement qui apprend dans un environnement inconnu (dont les règles du jeu), il reçoit des récompenses en fonction de ses choix bons ou mauvais à chaque changement d’état).Mise en perspective, comparaison et ré-utilisation des réseaux de l’état de l’artDécouverte des réseaux les plus performantsComprendre ce qui les distingue les uns des autres (points forts et limites de chacun)Ré-utiliser, tout ou partie, de réseaux pré-entrainés sur des millions d’imagesPrincipes et fonctionnement du transfert learningTravaux PratiquesUtiliser sur ses données un réseau “sur étagère” pré-entrainé - Ré-entrainer sur ses données les couches de décision d’un réseau de l’état de l’artPerformance et mise en productionExécution sur CPUs, GPUs à l’aide des notebook Jupyter Librairies de sérialisation et introduction à TensorServing pour la mise en productionTravaux PratiquesDéploiement de réseaux sur TensorServingPublic et prérequisPublic cible :Ce cours Deep Learning cible principalement les Data Scientists, Machine Learning Engineers ou les développeurs ayant une appétence et une première expérience avec le Machine Learning.Prérequis :Pour suivre cette formation Machine Learning, il est nécessaire de disposer des bases en programmation à travers un langage comme Python, Java, C#, etc., d’être à l’aise avec les statistiques et de posséder des bases en Machine Learning. Même si nous expliquons en début de formation en quoi consiste la transition du Machine Learning vers le Deep learning il n’est pas prévu de revenir en détail sur le Machine Learning.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Maitriser les concepts fondamentaux du Deep learning et leur origine",
+            "Identifier les principaux types de réseaux de neurones (simples, convolutifs, récursifs, etc.)",
+            "Savoir quand les utiliser ?",
+            "Appréhender les modèles de Deep Learning plus avancés (auto-encodeurs, gans, apprentissage par renforcement, …)",
+            "Appréhender les bases théoriques et pratiques d'architecture et de convergence de réseaux de neurones",
+            "Comprendre en quoi consiste la mise en œuvre concrète des réseaux de neurones",
+            "Utiliser un framework de référence : Keras de TensorFlow"
+          ]
+        },
+        {
+          "title": "Contenu du cours Deep Learning",
+          "bullets": []
+        },
+        {
+          "title": "Introduction au Deep Learning",
+          "bullets": []
+        },
+        {
+          "title": "Découverte de TensorFlow",
+          "bullets": []
+        },
+        {
+          "title": "Les réseaux neuronaux artificiels ou ANN (Deep Learning)",
+          "bullets": []
+        },
+        {
+          "title": "Entraînement d’un réseau de neurones",
+          "bullets": []
+        },
+        {
+          "title": "Réseaux de neurones convolutifs ou CNN",
+          "bullets": []
+        },
+        {
+          "title": "Réseaux de neurones récurrents ou RNN",
+          "bullets": []
+        },
+        {
+          "title": "Analyse avancée d’images par les réseaux de neurones convolutifs",
+          "bullets": []
+        },
+        {
+          "title": "Introduction aux auto-encodeurs",
+          "bullets": []
+        },
+        {
+          "title": "Apprentissage par renforcement (Deep Learning)",
+          "bullets": []
+        },
+        {
+          "title": "Mise en perspective, comparaison et ré-utilisation des réseaux de l’état de l’art",
+          "bullets": []
+        },
+        {
+          "title": "Performance et mise en production",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Deep Learning : les fondamentaux | Beyond Expertise",
+      "seoDescription": "Deep Learning : les fondamentaux avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Deep Learning : les fondamentaux permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le t"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/ia-developpeur",
+      "slug": "deia-l-ia-au-service-du-developpeur-de-l-assistance-a-l-integration",
+      "title": "L'IA au service du développeur : de l'assistance à l'intégration",
+      "reference": "DEIA",
+      "categoryName": "intelligence artificielle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "23/04/2026",
+      "priceText": "1 590€ HT",
+      "priceFromCents": 159000,
+      "description": "Cette formation IA pour développeur vous apprend exploiter pleinement l’IA, tout en gardant le contrôle et la maîtrise sur vos développements.",
+      "summary": "L'IA au service du développeur : de l'assistance à l'intégration permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation IA pour développeur vous apprend exploiter pleinement l’IA, tout en gardant le contrôle et la maîtrise sur vos développements.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation, il est nécessaire d'avoir des bases en programmation et en conception d’applications. Une familiarité avec les environnements de développement et l’utilisation des API est un plus, mais aucune expérience préalable en IA n’est requise.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre le fonctionnement des modèles d’IA (LLM, BLLM, Fine-tuning vs RAG) et leurs limites",
+            "Utiliser efficacement des outils d’assistance IA tels que ChatGPT, GitHub Copilot et leurs alternatives pour optimiser la productivité",
+            "Adopter une approche critique face aux résultats générés par l’IA, en identifiant les biais, les erreurs et les pièges",
+            "Intégrer l’IA dans un projet via des cas concrets : génération de code HTML dynamique, mise en place d’un chatbot RAG, IA multimodale (images, audio)"
+          ]
+        },
+        {
+          "title": "Contenu du cours IA developpeur",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à l’IA et aux modèles de langage",
+          "bullets": []
+        },
+        {
+          "title": "Outils IA pour développeurs : ChatGPT, Copilot et alternatives",
+          "bullets": []
+        },
+        {
+          "title": "Les limites des assistants IA : erreurs, biais et dépendance",
+          "bullets": []
+        },
+        {
+          "title": "Intégrer l’IA dans ses applications : concepts et outils (partie 1)",
+          "bullets": []
+        },
+        {
+          "title": "Intégrer l’IA dans ses applications : concepts et outils (partie 2)",
+          "bullets": []
+        },
+        {
+          "title": "Conclusion et bonnes pratiques",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "L'IA au service du développeur : de l'assistance à l'intégration | Beyond Expertise",
+      "seoDescription": "L'IA au service du développeur : de l'assistance à l'intégration avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. L'IA au service du développeur : de l'assistance à l'intégration permet de structurer une montée en compétence opérationnelle a"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/ia-strategie-commerciale",
+      "slug": "iacr-exploiter-l-intelligence-artificielle-pour-optimiser-la-strategie-commerciale-et-la-relation-client",
+      "title": "Exploiter l’Intelligence Artificielle pour optimiser la stratégie commerciale et la relation client",
+      "reference": "IACR",
+      "categoryName": "intelligence artificielle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "04/05/2026",
+      "priceText": "990€ HT",
+      "priceFromCents": 99000,
+      "description": "Cette formation IA Stratégie Commerciale vous apprend à intégrer l’IA dans votre stratégie commerciale pour optimiser vos ventes, fidéliser vos clients et exploiter vos données.",
+      "summary": "Exploiter l’Intelligence Artificielle pour optimiser la stratégie commerciale et la relation client permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation IA Stratégie Commerciale vous apprend à intégrer l’IA dans votre stratégie commerciale pour optimiser vos ventes, fidéliser vos clients et exploiter vos données.",
+      "audience": "et",
+      "prerequisites": "Disposer de notions de base en marketing et en commerce, être à l’aise avec les outils numériques ; aucune compétence technique en intelligence artificielle n’est nécessaire.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre comment l’intelligence artificielle peut améliorer les pratiques commerciales",
+            "Développer des stratégies pour intégrer l’IA dans la fidélisation et l’amélioration de l’expérience client",
+            "Identifier les fondamentaux du prompt engineering avec les IA Génératives",
+            "Utiliser les meilleures techniques pour obtenir des résultats pertinents des Intelligences Artificielles (IA)",
+            "Adapter votre méthode de prompting en fonction du contexte et des besoins"
+          ]
+        },
+        {
+          "title": "Contenu du cours IA Strategie Commerciale",
+          "bullets": []
+        },
+        {
+          "title": "Comprendre les IA et leurs usages",
+          "bullets": []
+        },
+        {
+          "title": "Les fondamentaux du prompting",
+          "bullets": []
+        },
+        {
+          "title": "Applications concrètes de l'IA dans le domaine commercial sous forme d'ateliers",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Exploiter l’Intelligence Artificielle pour optimiser la stratégie commerciale et la relation client | Beyond Expertise",
+      "seoDescription": "Exploiter l’Intelligence Artificielle pour optimiser la stratégie commerciale et la relation client avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Exploiter l’Intelligence Artificielle pour optimiser la stratégie commerciale et la relation"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/ia-act",
+      "slug": "iact-ia-act-deployer-un-systeme-d-intelligence-artificielle-conforme-au-reglement-ia-ia-act",
+      "title": "IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act)",
+      "reference": "IACT",
+      "categoryName": "intelligence artificielle",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "Paris",
+      "nextSession": "13/05/2026",
+      "priceText": "1 050€ HT",
+      "priceFromCents": 105000,
+      "description": "Cette formation IA Act vous permet de comprendre les enjeux de l&#x27;IA Act.",
+      "summary": "IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act) permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation IA Act vous permet de comprendre les enjeux de l&#x27;IA Act.",
+      "audience": "et",
+      "prerequisites": "Des connaissances préalables relatives au RGPD sont nécessaires pour suivre cette formation. Vous pouvez les acquérir à travers la formation RGPD - Comprendre le RGPD et mise en conformité (SPDP).J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre les enjeux de l’IA, le RIA, les notions clefs (les systèmes d’IA, les publics visés par ce règlement, les risques, les exigences des SIA à haut risque et des autres SIA,...), les obligations des parties prenantes, les interactions RIA et RGPD",
+            "Identifier les obligations des parties prenantes et la catégorisation des systèmes d’IA",
+            "Appliquer les bonnes pratiques dans un système d’IA",
+            "Assurer le rôle du DPO dans le déploiement d’un Système d’Intelligence Artificielle à travers un cas pratique"
+          ]
+        },
+        {
+          "title": "Contenu du cours IA Act",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à l’Intelligence Artificielle (IA)",
+          "bullets": []
+        },
+        {
+          "title": "Présentation de l'IA Act",
+          "bullets": []
+        },
+        {
+          "title": "Exigences clefs du RIA",
+          "bullets": []
+        },
+        {
+          "title": "Impacts pour les organisations",
+          "bullets": []
+        },
+        {
+          "title": "Articulation avec les règles relatives au traitement de données à caractère personnel",
+          "bullets": []
+        },
+        {
+          "title": "Bonnes pratiques et recommandations",
+          "bullets": []
+        },
+        {
+          "title": "Analyse d’un cas réel illustrant les implications du RIA dans la pratique d’un DPO",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act) | Beyond Expertise",
+      "seoDescription": "IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act) avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act) permet de "
+    }
+  ],
+  "crawledAt": "2026-04-20T14:40:25.636Z"
+}

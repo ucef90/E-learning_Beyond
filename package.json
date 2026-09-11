@@ -1,0 +1,39 @@
+{
+  "name": "e-learning-beyond",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write .",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "tsx prisma/seed.ts",
+    "catalog:plb:crawl": "tsx scripts/import-plb-catalog.ts --crawl-only",
+    "catalog:plb:import": "tsx scripts/import-plb-catalog.ts --import",
+    "catalog:priority:add": "tsx scripts/add-priority-trainings.ts",
+    "catalog:market:add": "tsx scripts/add-market-demand-trainings.ts",
+    "db:deploy": "prisma migrate deploy",
+    "pilot:seed": "tsx scripts/seed-pilot.ts",
+    "pilot:test": "node scripts/test-pilot.cjs",
+    "lab:setup": "python scripts/setup-lab.py",
+    "lab:start": "node scripts/lab-server.mjs",
+    "catalog:official:import": "node --env-file=.env scripts/import-official-catalogue.cjs"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^22.10.1",
+    "prettier": "^3.4.2",
+    "prisma": "^6.5.0",
+    "tsx": "^4.19.2",
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.2"
+  }
+}
