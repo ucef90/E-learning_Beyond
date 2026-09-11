@@ -1,8 +1,8 @@
 import "./globals.css";
 import "./learning.css";
+import "./experience.css";
 import type { Metadata } from "next";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
+import { PublicChrome } from "@/components/public-chrome";
 
 export const metadata: Metadata = {
   title: "Beyond Expertise",
@@ -21,9 +21,7 @@ export default function RootLayout({
         <a className="skip-link" href="#contenu">
           Aller au contenu
         </a>
-        <Header />
-        {children}
-        <Footer />
+        <PublicChrome>{children}</PublicChrome>
       </body>
     </html>
   );

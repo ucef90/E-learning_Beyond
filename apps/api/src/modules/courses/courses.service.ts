@@ -154,6 +154,154 @@ export class CoursesService {
       })),
     };
   }
+  async dashboard(who: Identity) {
+    const courses = await this.list(who);
+    const courseIds = courses.map((c) => c.id);
+    const enrollments = await this.db.learningEnrollment.findMany({
+      where: who.roles.includes("ADMIN")
+        ? {}
+        : who.roles.includes("TRAINER")
+          ? { OR: [{ trainerId: who.id }, { userId: who.id }] }
+          : { userId: who.id },
+      select: {
+        id: true,
+        courseId: true,
+        userId: true,
+        trainerId: true,
+        groupName: true,
+        user: { select: { profile: { select: { fullName: true } } } },
+        trainer: { select: { profile: { select: { fullName: true } } } },
+      },
+      orderBy: { createdAt: "desc" },
+    });
+    const pairs = enrollments.map(({ courseId, userId }) => ({
+      courseId,
+      userId,
+    }));
+    const [details, progress, attempts, submissions, drafts] =
+      await Promise.all([
+        this.db.course.findMany({
+          where: { id: { in: courseIds } },
+          select: {
+            id: true,
+            resources: true,
+            modules: {
+              orderBy: { sortOrder: "asc" },
+              select: {
+                lessons: {
+                  orderBy: { sortOrder: "asc" },
+                  select: {
+                    id: true,
+                    title: true,
+                    type: true,
+                    quiz: { select: { id: true, passingScore: true } },
+                  },
+                },
+              },
+            },
+          },
+        }),
+        this.db.lessonProgress.findMany({
+          where: {
+            completed: true,
+            OR: pairs.map((p) => ({
+              userId: p.userId,
+              lesson: { type: "TEXT", module: { courseId: p.courseId } },
+            })),
+          },
+          select: { userId: true, lessonId: true, completedAt: true },
+        }),
+        this.db.quizAttempt.findMany({
+          where: {
+            OR: pairs.map((p) => ({
+              userId: p.userId,
+              quiz: { lesson: { module: { courseId: p.courseId } } },
+            })),
+          },
+          select: {
+            id: true,
+            userId: true,
+            quizId: true,
+            score: true,
+            completedAt: true,
+          },
+          orderBy: { startedAt: "desc" },
+        }),
+        this.db.workSubmission.findMany({
+          where: { OR: pairs },
+          select: {
+            id: true,
+            userId: true,
+            courseId: true,
+            createdAt: true,
+            reviewedAt: true,
+            grade: true,
+            feedback: true,
+          },
+          orderBy: { createdAt: "desc" },
+        }),
+        this.db.notebookDraft.findMany({
+          where: { OR: pairs },
+          select: {
+            userId: true,
+            courseId: true,
+            updatedAt: true,
+            revision: true,
+          },
+        }),
+      ]);
+    const visibleCourses = courses.map(({ _count, ...c }) => {
+      const detail = details.find((d) => d.id === c.id)!;
+      const lessons = detail.modules.flatMap((m) => m.lessons);
+      const resources = detail.resources as any;
+      return {
+        ...c,
+        lessons: lessons
+          .filter((l) => l.type === "TEXT")
+          .map(({ id, title }) => ({ id, title })),
+        hasNotebook: !!resources?.starter,
+        hasPractice: !!resources?.practice,
+        hasCsv: !!resources?.csv,
+        hasSolution: !!resources?.solution,
+        hasQuiz: lessons.some((l) => l.quiz),
+        quizIds: lessons.flatMap((l) => (l.quiz ? [l.quiz.id] : [])),
+      };
+    });
+    return {
+      courses: visibleCourses.map(({ quizIds, ...c }) => c),
+      enrollments: enrollments.map((e) => {
+        const c = visibleCourses.find((c) => c.id === e.courseId)!;
+        const read = progress.filter(
+          (p) =>
+            p.userId === e.userId && c.lessons.some((l) => l.id === p.lessonId),
+        );
+        const quiz = attempts.find(
+          (a) => a.userId === e.userId && c.quizIds.includes(a.quizId),
+        );
+        const works = submissions.filter(
+          (s) => s.userId === e.userId && s.courseId === e.courseId,
+        );
+        const draft = drafts.find(
+          (d) => d.userId === e.userId && d.courseId === e.courseId,
+        );
+        return {
+          ...e,
+          lessonsRead: read.length,
+          totalLessons: c.lessons.length,
+          nextLesson:
+            c.lessons.find((l) => !read.some((p) => p.lessonId === l.id)) ||
+            null,
+          latestQuiz: quiz
+            ? { score: quiz.score, completedAt: quiz.completedAt }
+            : null,
+          submissions: works.map(({ userId, courseId, ...s }) => s),
+          draft: draft
+            ? { updatedAt: draft.updatedAt, revision: draft.revision }
+            : null,
+        };
+      }),
+    };
+  }
   async state(who: Identity, id: string, learnerId = who.id) {
     if (learnerId === who.id && who.roles.includes("TRAINER"))
       await this.course(who, id);

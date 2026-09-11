@@ -8,10 +8,12 @@ export default function Reader({
   id,
   user,
   back,
+  initialTab,
 }: {
   id: string;
   user: any;
   back: () => void;
+  initialTab?: string;
 }) {
   const [course, setCourse] = useState<any>(null),
     [state, setState] = useState<any>(null),
@@ -44,7 +46,7 @@ export default function Reader({
                   (p: any) => p.lessonId === l.id && p.completed,
                 ),
             );
-          setTab(first?.id || "fiche");
+          setTab(initialTab || first?.id || "fiche");
           window.scrollTo({ top: 0, behavior: "instant" });
         }
       })
@@ -52,15 +54,17 @@ export default function Reader({
     return () => {
       active = false;
     };
-  }, [id]);
+  }, [id, initialTab]);
   async function action(fn: () => Promise<any>, success: string) {
     setBusy(true);
     try {
       await fn();
       await refresh();
       setMessage(success);
+      return true;
     } catch (e) {
       setMessage((e as Error).message);
+      return false;
     } finally {
       setBusy(false);
     }
@@ -87,7 +91,7 @@ export default function Reader({
       <div className="learning-breadcrumb">
         <button onClick={leave}>Mes modules</button>
         <span>/</span>
-        <span>Python et pandas</span>
+        <span>{course.title}</span>
       </div>
       <div className="learning-course-heading">
         <div>
@@ -268,16 +272,16 @@ export default function Reader({
             </>
           ) : tab === "quiz" && quiz ? (
             <form
-              onSubmit={(e) => {
+              onSubmit={async (e) => {
                 e.preventDefault();
-                void action(
+                const saved = await action(
                   () =>
                     api(`/courses/${id}/quizzes/${quiz.id}/attempts`, "POST", {
                       answers: quiz.questions.map((q: any) => answers[q.id]),
                     }),
                   "Quiz évalué. Consultez vos résultats et les explications.",
                 );
-                setTab("resultats");
+                if (saved) setTab("resultats");
               }}
             >
               <h2>{quiz.title}</h2>

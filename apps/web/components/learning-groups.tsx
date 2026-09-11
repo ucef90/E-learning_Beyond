@@ -1,21 +1,37 @@
 "use client";
 import { useEffect, useState, FormEvent } from "react";
 import { api, download } from "@/lib/learning-api";
-export default function Groups() {
+export default function Groups({
+  initialId = "",
+  summaries = [],
+  onChange,
+}: {
+  initialId?: string;
+  summaries?: any[];
+  onChange?: () => Promise<void>;
+}) {
   const [groups, setGroups] = useState<any[]>([]),
     [active, setActive] = useState<any>(null),
     [state, setState] = useState<any>(null),
     [work, setWork] = useState<any>(null),
     [message, setMessage] = useState(""),
-    [busy, setBusy] = useState(false);
+    [busy, setBusy] = useState(false),
+    [query, setQuery] = useState(""),
+    [loading, setLoading] = useState(true);
   useEffect(() => {
     api("/courses/groups")
-      .then(setGroups)
-      .catch((e) => setMessage(e.message));
-  }, []);
+      .then((rows) => {
+        setGroups(rows);
+        const first = rows.find((g: any) => g.id === initialId);
+        if (first) void select(first);
+      })
+      .catch((e) => setMessage(e.message))
+      .finally(() => setLoading(false));
+  }, [initialId]);
   async function select(g: any) {
     setActive(g);
     setWork(null);
+    setState(null);
     try {
       setState(await api(`/courses/${g.courseId}/learners/${g.userId}/state`));
     } catch (e) {
@@ -35,6 +51,7 @@ export default function Groups() {
       );
       setMessage("Correction enregistrée et disponible pour le stagiaire.");
       await select(active);
+      await onChange?.();
     } catch (e) {
       setMessage((e as Error).message);
     } finally {
@@ -62,27 +79,53 @@ export default function Groups() {
   }
   return (
     <section>
-      <h1>Groupes et corrections</h1>
+      <h1>Mes groupes et corrections</h1>
       <p>
         Seuls les stagiaires et les travaux attribués à votre compte sont
         accessibles.
       </p>
       <p role="status">{message}</p>
+      <label className="academy-search">
+        <input
+          type="search"
+          placeholder="Rechercher un apprenant ou un groupe"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          aria-label="Rechercher un apprenant ou un groupe"
+        />
+      </label>
+      {loading && <p role="status">Chargement de vos groupes…</p>}
       <div className="learning-group-layout">
         <nav aria-label="Stagiaires attribués">
           {groups.length ? (
-            groups.map((g) => (
-              <button
-                className="learning-group"
-                key={g.id}
-                aria-current={active?.id === g.id ? "page" : undefined}
-                onClick={() => void select(g)}
-              >
-                <strong>{g.user.profile?.fullName || g.user.email}</strong>
-                <span>{g.groupName}</span>
-                <small>{g.course.title}</small>
-              </button>
-            ))
+            groups
+              .filter((g) =>
+                [g.user.profile?.fullName, g.groupName, g.course.title]
+                  .join(" ")
+                  .toLocaleLowerCase("fr")
+                  .includes(query.toLocaleLowerCase("fr")),
+              )
+              .map((g) => (
+                <button
+                  className="learning-group"
+                  key={g.id}
+                  aria-current={active?.id === g.id ? "page" : undefined}
+                  onClick={() => void select(g)}
+                >
+                  <strong>{g.user.profile?.fullName || g.user.email}</strong>
+                  <span>{g.groupName}</span>
+                  <small>{g.course.title}</small>
+                  <small>
+                    {summaries.find((s) => s.id === g.id)?.lessonsRead || 0}{" "}
+                    leçons lues ·{" "}
+                    {summaries
+                      .find((s) => s.id === g.id)
+                      ?.submissions.filter((s: any) => !s.reviewedAt).length ||
+                      0}{" "}
+                    travail à corriger
+                  </small>
+                </button>
+              ))
           ) : (
             <p>Aucun groupe attribué.</p>
           )}
@@ -175,7 +218,7 @@ export default function Groups() {
                         min={0}
                         max={100}
                         required
-                        defaultValue={work.grade ?? 70}
+                        defaultValue={work.grade ?? ""}
                       />
                     </label>
                     <label>

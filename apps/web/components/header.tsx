@@ -10,6 +10,8 @@ import {
   GraduationCap,
   Phone,
   Users,
+  Menu,
+  X,
 } from "lucide-react";
 
 const links = [
@@ -30,6 +32,11 @@ export function Header() {
     pathname.startsWith("/apprentissage") ||
     pathname.startsWith("/formations/");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [navigationOpen, setNavigationOpen] = useState(false);
+  useEffect(() => {
+    setNavigationOpen(false);
+    setMenuOpen(false);
+  }, [pathname]);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -39,8 +46,16 @@ export function Header() {
       }
     }
 
+    function escape(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        setNavigationOpen(false);
+      }
+    }
+    document.addEventListener("keydown", escape);
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
+    document.removeEventListener("keydown", escape);
   }, []);
 
   return (
@@ -76,95 +91,112 @@ export function Header() {
             />
           </Link>
 
-          <div className="header-nav-stack">
-            <nav className="header-nav-primary">
-              {links.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="header-nav-link"
-                >
-                  <span>{link.label}</span>
-                </Link>
-              ))}
-            </nav>
-
-            <div className="header-quick-links">
-              <Link href="/formations" className="header-quick-pill">
-                Formations les plus demandées
-              </Link>
-              <Link href="/expertises/copilot" className="header-quick-pill">
-                Copilot
-              </Link>
-              <Link href="/expertises/ai-agents" className="header-quick-pill">
-                Agents IA
-              </Link>
-              <Link href="/expertises/llmops" className="header-quick-pill">
-                LLMOps
-              </Link>
-            </div>
-          </div>
-
-          <div className="header-cta-stack">
-            <Link
-              href="/contact"
-              className="button button-secondary header-contact-button"
-            >
-              <ContactRound size={17} />
-              Contactez-nous
-            </Link>
-            <div className="header-space-menu" ref={menuRef}>
-              <button
-                type="button"
-                className="button button-accent header-space-trigger"
-                onClick={() => setMenuOpen((value) => !value)}
-                aria-expanded={menuOpen}
-                aria-haspopup="menu"
-              >
-                Mon espace
-                <ChevronDown size={16} />
-              </button>
-
-              {menuOpen ? (
-                <div className="header-space-dropdown" role="menu">
-                  <a
-                    href={LMS_LEARNER_URL}
-                    className="header-space-item"
-                    role="menuitem"
-                    onClick={() => setMenuOpen(false)}
-                  >
-                    <GraduationCap size={17} />
-                    <div>
-                      <strong>Espace apprenant</strong>
-                      <span>Cours, exercices et suivi de progression</span>
-                    </div>
-                  </a>
-                  <a
-                    href={LMS_TRAINER_URL}
-                    className="header-space-item"
-                    role="menuitem"
-                    onClick={() => setMenuOpen(false)}
-                  >
-                    <Users size={17} />
-                    <div>
-                      <strong>Espace formateur</strong>
-                      <span>Sessions, présence, contenus, évaluations</span>
-                    </div>
-                  </a>
+          <button
+            className="header-navigation-toggle"
+            aria-label={navigationOpen ? "Fermer le menu" : "Ouvrir le menu"}
+            aria-controls="public-navigation"
+            aria-expanded={navigationOpen}
+            onClick={() => setNavigationOpen(!navigationOpen)}
+          >
+            {navigationOpen ? <X size={23} /> : <Menu size={23} />}
+          </button>
+          <div
+            id="public-navigation"
+            className={`header-collapse${navigationOpen ? " is-open" : ""}`}
+          >
+            <div className="header-nav-stack">
+              <nav className="header-nav-primary">
+                {links.map((link) => (
                   <Link
-                    href={CLIENT_PORTAL_URL}
-                    className="header-space-item"
-                    role="menuitem"
-                    onClick={() => setMenuOpen(false)}
+                    key={link.href}
+                    href={link.href}
+                    className="header-nav-link"
                   >
-                    <ContactRound size={17} />
-                    <div>
-                      <strong>Espace client</strong>
-                      <span>Demandes, devis, validations et documents</span>
-                    </div>
+                    <span>{link.label}</span>
                   </Link>
-                </div>
-              ) : null}
+                ))}
+              </nav>
+
+              <div className="header-quick-links">
+                <Link href="/formations" className="header-quick-pill">
+                  Formations les plus demandées
+                </Link>
+                <Link href="/expertises/copilot" className="header-quick-pill">
+                  Copilot
+                </Link>
+                <Link
+                  href="/expertises/ai-agents"
+                  className="header-quick-pill"
+                >
+                  Agents IA
+                </Link>
+                <Link href="/expertises/llmops" className="header-quick-pill">
+                  LLMOps
+                </Link>
+              </div>
+            </div>
+
+            <div className="header-cta-stack">
+              <Link
+                href="/contact"
+                className="button button-secondary header-contact-button"
+              >
+                <ContactRound size={17} />
+                Contactez-nous
+              </Link>
+              <div className="header-space-menu" ref={menuRef}>
+                <button
+                  type="button"
+                  className="button button-accent header-space-trigger"
+                  onClick={() => setMenuOpen((value) => !value)}
+                  aria-expanded={menuOpen}
+                  aria-haspopup="menu"
+                >
+                  Mon espace
+                  <ChevronDown size={16} />
+                </button>
+
+                {menuOpen ? (
+                  <div className="header-space-dropdown" role="menu">
+                    <a
+                      href={LMS_LEARNER_URL}
+                      className="header-space-item"
+                      role="menuitem"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      <GraduationCap size={17} />
+                      <div>
+                        <strong>Espace apprenant</strong>
+                        <span>Cours, exercices et suivi de progression</span>
+                      </div>
+                    </a>
+                    <a
+                      href={LMS_TRAINER_URL}
+                      className="header-space-item"
+                      role="menuitem"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      <Users size={17} />
+                      <div>
+                        <strong>Espace formateur</strong>
+                        <span>Sessions, présence, contenus, évaluations</span>
+                      </div>
+                    </a>
+                    <Link
+                      href={CLIENT_PORTAL_URL}
+                      className="header-space-item"
+                      role="menuitem"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      <ContactRound size={17} />
+                      <div>
+                        <strong>Espace client</strong>
+                        <span>Demandes, devis, validations et documents</span>
+                      </div>
+                    </Link>
+                  </div>
+                ) : null}
+              </div>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HeroMedia } from "@/components/hero-media";
 import {
   ArrowRight,
   Award,
@@ -103,91 +104,78 @@ export default async function HomePage() {
   ).length;
 
   return (
-    <main className="home-page-main">
-      {/* ── Hero ─────────────────────────────────────────── */}
-      <section className="section section-tight">
-        <div className="page-shell">
-          <div className="home-hero-plb">
-            <div className="home-hero-plb-copy">
-              <span className="eyebrow">
-                Catalogue premium | parcours entreprise | LMS
-              </span>
-              <h1 className="home-hero-plb-title">
-                Trouvez la formation qui fera progresser vos équipes et vos
-                priorités métier.
-              </h1>
-              <p className="home-hero-plb-copy-text">
-                Data, BI, IA, gestion de projet, agile, business analysis et
-                parcours entreprise : un catalogue structuré pour aller vite du
-                besoin à la bonne formation.
-              </p>
-
-              <form action="/formations" className="home-hero-plb-search">
-                <input
-                  name="q"
-                  className="input home-hero-plb-search-input"
-                  placeholder="IA, data, Power BI, agile, scrum, PMO..."
-                />
-                <button
-                  type="submit"
-                  className="home-hero-plb-search-button"
-                  aria-label="Rechercher"
-                >
-                  <Search size={18} />
-                </button>
-              </form>
-
-              <div className="home-hero-plb-proof">
-                {[
-                  "Formations inter, intra et parcours entreprise",
-                  "Catalogue structuré par expertises métier",
-                  "Espace client distinct des espaces LMS",
-                ].map((item) => (
-                  <div
-                    key={item}
-                    className="hero-proof-item hero-proof-item-light"
-                  >
-                    <CheckCircle2 size={18} />
-                    <span>{item}</span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="home-hero-plb-actions">
-                <Link href="/formations" className="button button-primary">
-                  Explorer le catalogue <ArrowRight size={18} />
+    <main className="home-page-main" id="contenu">
+      <section className="reference-hero">
+        <HeroMedia />
+        <div className="page-shell reference-hero-grid">
+          <div>
+            <span className="reference-badge">
+              <ShieldCheck size={14} />
+              Beyond Expertise · Formation professionnelle
+            </span>
+            <h1>
+              La formation qui fait <span>progresser</span> vos équipes et vos
+              priorités métier.
+            </h1>
+            <p>
+              Data, BI, IA, gestion de projet, agile et business analysis :
+              trouvez la formation adaptée à votre métier, en inter, intra ou
+              parcours entreprise.
+            </p>
+            <form action="/formations" className="reference-search">
+              <Search size={21} />
+              <input
+                name="q"
+                aria-label="Rechercher une formation"
+                placeholder="Rechercher : Power BI, IA, Scrum, SQL, PMO…"
+              />
+              <button type="submit">
+                Rechercher
+                <ArrowRight size={18} />
+              </button>
+            </form>
+            <div className="reference-chips">
+              {[
+                "Power BI",
+                "Intelligence Artificielle",
+                "Scrum",
+                "SQL",
+                "Copilot",
+                "PMO",
+              ].map((q) => (
+                <Link key={q} href={`/formations?q=${encodeURIComponent(q)}`}>
+                  {q}
                 </Link>
-                <Link
-                  href="/devis"
-                  className="button button-secondary-inverted"
-                >
-                  Demander un devis
-                </Link>
-              </div>
+              ))}
             </div>
-
-            <div className="home-hero-plb-side">
-              <div className="home-hero-plb-photo card">
-                <div className="home-hero-plb-photo-grid">
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-main" />
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-top" />
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-bottom" />
-                </div>
+          </div>
+          <div>
+            <article className="reference-feature">
+              <span className="reference-badge">À découvrir</span>
+              <h2>Python pour Data Analyst</h2>
+              <div className="reference-meta">
+                <span>3 jours</span>
+                <span>Intermédiaire</span>
+                <span>Hybride</span>
               </div>
-
-              <div className="home-hero-plb-kpi">
-                <div className="home-hero-plb-kpi-card">
-                  <strong>{trainings.length}</strong>
-                  <span>formations actives dans le catalogue</span>
-                </div>
-                <div className="home-hero-plb-kpi-card">
-                  <strong>{upcomingCount}</strong>
-                  <span>formations avec sessions planifiées</span>
-                </div>
+              <div className="reference-feature-bottom">
+                <span>Programme et module pilote</span>
+                <Link
+                  className="button"
+                  href="/formations/python-pour-data-analyst"
+                >
+                  Découvrir
+                  <ArrowRight size={17} />
+                </Link>
               </div>
-
-              <Link href="/formations" className="home-hero-plb-floating-cta">
-                Voir toutes nos formations <ArrowRight size={18} />
+            </article>
+            <div className="reference-options">
+              <Link href="/formations">
+                <strong>{trainings.length}</strong>formations au catalogue
+              </Link>
+              <Link href="/connexion">
+                <strong>Mon espace</strong>Accéder à mes cours
+                <ArrowRight size={17} />
               </Link>
             </div>
           </div>
@@ -468,15 +456,13 @@ export default async function HomePage() {
             <div>
               <span className="eyebrow">Ressources</span>
               <h2 className="section-title">
-                Des contenus utiles pour nourrir la décision, le SEO et les
-                échanges commerciaux.
+                Des analyses pour éclairer vos décisions.
               </h2>
             </div>
             <div className="section-cta-inline">
               <p className="section-copy section-copy-narrow">
-                Articles, pages expertes et actualités permettent d'appuyer la
-                crédibilité du site et de capter des intentions de recherche
-                plus larges.
+                Retrouvez nos ressources sur la data, l’intelligence
+                artificielle et les usages professionnels.
               </p>
               <Link href="/ressources" className="button button-secondary">
                 Voir toutes les ressources
@@ -533,8 +519,8 @@ export default async function HomePage() {
                 devis ou un parcours entreprise.
               </h2>
               <p className="section-copy">
-                Une FAQ bien structurée rassure, réduit les frictions et
-                soutient à la fois la conversion et la qualité perçue du site.
+                Une question sur le choix d’une formation ou son organisation ?
+                Le centre vous accompagne.
               </p>
               <Link href="/contact" className="button button-primary">
                 Contactez-nous
