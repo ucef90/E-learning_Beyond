@@ -68,26 +68,26 @@ const advantageTabs = [
   },
   {
     label: "Entreprise",
-    title: "Une logique de portail client et de parcours entreprise",
+    title: "Préparer un parcours pour votre entreprise",
     description:
-      "Au-delà du catalogue, Beyond Expertise permet de cadrer les demandes, suivre les devis, organiser les inscriptions et séparer les usages client du LMS.",
+      "Décrivez les besoins de vos équipes pour préparer avec le centre une proposition, un calendrier et les modalités de suivi.",
     bullets: [
       "Tunnel commercial clair et rapide",
       "Suivi des demandes et validations",
-      "Projection vers académie et portail B2B",
+      "Échanges avec le centre avant inscription",
     ],
   },
 ];
 
-const clientLogos = [
-  "BNP Paribas",
-  "Orange",
-  "Renault",
-  "Alten",
-  "IBM",
-  "Société Générale",
-  "Capgemini",
-  "Thales",
+const expertiseLabels = [
+  "Data",
+  "Business Intelligence",
+  "IA",
+  "Python",
+  "SQL",
+  "Gestion de projet",
+  "Agile",
+  "Product",
 ];
 
 export default async function HomePage() {
@@ -287,17 +287,19 @@ export default async function HomePage() {
         <div className="page-shell">
           <div className="home-logos-band">
             <div className="home-logos-head">
-              <p className="home-logos-title">Ils nous font confiance</p>
+              <p className="home-logos-title">
+                Des compétences pour vos projets
+              </p>
               <Link
-                href="/a-propos"
+                href="/expertises"
                 className="button button-secondary"
                 style={{ fontSize: "0.82rem", padding: "8px 14px" }}
               >
-                Voir nos références
+                Découvrir les expertises
               </Link>
             </div>
             <div className="home-logos-grid">
-              {clientLogos.map((logo) => (
+              {expertiseLabels.map((logo) => (
                 <div key={logo} className="home-logo-item">
                   {logo}
                 </div>

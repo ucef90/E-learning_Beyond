@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTrainingBySlug } from "@/lib/api";
 import { DetailedProgrammeContent } from "@/components/detailed-programme";
+import { TrainingAccess } from "@/components/training-access";
 import { ProgrammeContact } from "@/components/programme-contact";
 export default async function TrainingDetailPage({
   params,
@@ -60,6 +61,7 @@ export default async function TrainingDetailPage({
               {t.source?.syllabus && (
                 <DetailedProgrammeContent programme={t.source.syllabus} />
               )}
+              <TrainingAccess title={t.title} />
               <section className="training-content-card" id="contenu-elearning">
                 <h2>Contenu e-learning</h2>
                 {t.courses.length ? (

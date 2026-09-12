@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CentreContact, qualityLinks } from "./quality-layout";
 
 export function Footer() {
   return (
@@ -51,7 +52,7 @@ export function Footer() {
             <div>
               <h4>Plateforme</h4>
               <p>
-                <Link href="/espace">Espace client</Link>
+                <Link href="/contact#contact-form">Suivi de demande</Link>
               </p>
               <p>
                 <Link href="/apprenant">LMS Apprenant</Link>
@@ -80,6 +81,20 @@ export function Footer() {
             </div>
           </div>
         </div>
+        <CentreContact />
+        <nav
+          className="quality-nav"
+          aria-label="Qualité et informations légales"
+        >
+          {qualityLinks.map(([href, label]) => (
+            <Link href={href} key={href}>
+              {label}
+            </Link>
+          ))}
+          <Link href="/mentions-legales">Mentions légales</Link>
+          <Link href="/confidentialite">Données personnelles</Link>
+          <Link href="/signalement">Signalement</Link>
+        </nav>
         <div className="footer-bottom">
           <span>
             © 2026 Beyond Expertise — Organisme de formation et de conseil

@@ -1,0 +1,124 @@
+{
+  "updatedAt": "2026-09-12",
+  "status": "PREPARATION_INCOMPLETE",
+  "confirmed": {
+    "phone": "0954702380",
+    "email": "contact@beyondexpertise.eu",
+    "environment": "LOCAL_ONLY",
+    "qualiopi": "IN_PROGRESS_NOT_ACQUIRED"
+  },
+  "requiredValidations": [
+    {
+      "id": "legal_identity",
+      "label": "Identité légale, adresse, NDA et publication",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "scope",
+      "label": "Périmètre : AF, certifiant, CFA, alternance, AFEST, sous-traitance",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "public_offer",
+      "label": "Programmes approuvés, prix TTC/HT, TVA, délais, modalités",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "roles",
+      "label": "Responsables et suppléants : qualité, pédagogie, handicap, assistance, signalement",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "service_levels",
+      "label": "Horaires, délais d’accès, assistance et réclamations",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "contracts",
+      "label": "Contrats/conventions, règlement, annulation et médiation applicables",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "privacy",
+      "label": "Information RGPD complète, conservation, destinataires, droits, sécurité",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "trainers",
+      "label": "Compétences, sélection, contrats et développement des intervenants",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "resources",
+      "label": "Locaux, matériel, supports complets et accompagnement effectif",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "real_sessions",
+      "label": "Dossiers réels : besoins, évaluations, suivi et bilans",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "feedback",
+      "label": "Sollicitations des parties prenantes et traitement des retours",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "improvement",
+      "label": "Risques, actions réalisées et efficacité",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "operating_procedures",
+      "label": "Validation et mise en œuvre effective de P01 à P10",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    },
+    {
+      "id": "certifier_audit",
+      "label": "Audit et décision du certificateur si certification sollicitée",
+      "status": "PENDING",
+      "evidenceReference": null,
+      "validatedBy": null,
+      "validatedAt": null
+    }
+  ]
+}

@@ -68,7 +68,7 @@ const processSteps = [
     num: "02",
     title: "Proposition sur-mesure",
     description:
-      "Sélection des formations adaptées, choix du format, devis détaillé et planning de déploiement proposé sous 5 jours.",
+      "Sélection des formations adaptées, choix du format, devis détaillé et planning de déploiement à convenir après analyse du besoin.",
   },
   {
     num: "03",
@@ -80,7 +80,7 @@ const processSteps = [
     num: "04",
     title: "Mesure & suivi",
     description:
-      "Évaluation à chaud et à froid, bilan de compétences post-formation, rapport de suivi et recommandations de suite.",
+      "Évaluation des acquis, recueil des appréciations et bilan pédagogique à organiser selon le parcours convenu.",
   },
 ];
 
@@ -284,7 +284,7 @@ export default function CompaniesPage() {
               >
                 Partagez votre besoin — nous revenons vers vous avec une
                 recommandation claire, un devis détaillé et un planning de
-                déploiement sous 5 jours.
+                déploiement à confirmer après étude de votre besoin.
               </p>
               <div className="home-interest-actions">
                 <Link href="/devis" className="button button-primary">
@@ -302,13 +302,13 @@ export default function CompaniesPage() {
               {[
                 {
                   icon: <Users2 size={18} />,
-                  title: "Équipes de 5 à 500 personnes",
-                  desc: "Des dispositifs adaptés à toutes les tailles d'équipe.",
+                  title: "Un parcours adapté à votre équipe",
+                  desc: "Effectif et moyens pédagogiques à valider pour chaque projet.",
                 },
                 {
                   icon: <Rocket size={18} />,
                   title: "Démarrage rapide possible",
-                  desc: "Premier contact sous 24h, démarrage sous 2 semaines.",
+                  desc: "Délai de réponse et date de démarrage à confirmer avec le centre.",
                 },
               ].map((item) => (
                 <div

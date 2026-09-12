@@ -24,7 +24,10 @@
     "catalog:official:import": "node --env-file=.env scripts/import-official-catalogue.cjs",
     "catalog:programmes:check": "node scripts/validate-programmes.cjs",
     "catalog:programmes:export": "node scripts/export-programmes.cjs",
-    "catalog:programmes:test": "node scripts/test-programmes.cjs"
+    "catalog:programmes:test": "node scripts/test-programmes.cjs",
+    "quality:test": "node --env-file=.env scripts/test-quality.cjs",
+    "quality:readiness": "node scripts/quality-readiness.cjs",
+    "quality:test:pages": "node scripts/test-quality-pages.cjs"
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",

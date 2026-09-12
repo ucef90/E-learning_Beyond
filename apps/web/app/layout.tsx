@@ -1,6 +1,7 @@
 import "./globals.css";
 import "./learning.css";
 import "./experience.css";
+import "./quality.css";
 import type { Metadata } from "next";
 import { PublicChrome } from "@/components/public-chrome";
 

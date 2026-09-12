@@ -37,6 +37,7 @@ function FormFeedback({ status }: { status: FormStatus }) {
 
   return (
     <p
+      role={status.type === "error" ? "alert" : "status"}
       style={{
         margin: 0,
         padding: "12px 14px",
@@ -80,7 +81,7 @@ export function ContactForm() {
       setStatus({
         type: "success",
         message:
-          "Votre demande a bien été envoyée. L’équipe Beyond Expertise reviendra vers vous rapidement.",
+          "Votre demande a été enregistrée dans cette version locale. Aucun email n’a été envoyé automatiquement.",
       });
     } catch (error) {
       setStatus({
@@ -95,26 +96,55 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="card form-card">
-      <input
-        className="input"
-        name="fullName"
-        placeholder="Nom complet"
-        required
-      />
-      <input
-        className="input"
-        name="email"
-        type="email"
-        placeholder="Email professionnel"
-        required
-      />
-      <input className="input" name="company" placeholder="Entreprise" />
-      <textarea
-        className="textarea"
-        name="message"
-        placeholder="Votre besoin"
-        required
-      />
+      <label>
+        Nom complet *
+        <input
+          className="input"
+          name="fullName"
+          placeholder="Nom complet"
+          required
+          minLength={2}
+          maxLength={120}
+          autoComplete="name"
+        />
+      </label>
+      <label>
+        Email de réponse *
+        <input
+          className="input"
+          name="email"
+          type="email"
+          placeholder="Email professionnel"
+          required
+          maxLength={254}
+          autoComplete="email"
+        />
+      </label>
+      <label>
+        Entreprise (facultatif)
+        <input
+          className="input"
+          name="company"
+          placeholder="Entreprise"
+          maxLength={200}
+        />
+      </label>
+      <label>
+        Votre besoin *
+        <textarea
+          className="textarea"
+          name="message"
+          placeholder="Votre besoin"
+          required
+          minLength={10}
+          maxLength={5000}
+        />
+      </label>
+      <p>
+        Vos informations servent à traiter votre demande et sont accessibles aux
+        administrateurs habilités.{" "}
+        <a href="/confidentialite">Données personnelles et droits</a>.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}

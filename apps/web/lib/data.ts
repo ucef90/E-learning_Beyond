@@ -61,10 +61,10 @@ export const faqItems = [
   },
   {
     question: "Le LMS est-il intégré ?",
-    answer: "Le socle prévoit un mini LMS natif avec progression, modules, leçons, quiz et certificats, extensible vers une intégration externe."
+    answer: "L’espace de formation propose des cours attribués, des exercices, un quiz et des retours du formateur. Le module pilote est en validation ; il ne délivre pas de certification professionnelle."
   },
   {
-    question: "Peut-on gérer des entreprises clientes ?",
-    answer: "Oui. Le modèle de données prévoit les entreprises, leurs utilisateurs, les inscriptions multi-participants et l’évolution vers un portail B2B."
+    question: "Comment suivre une demande entreprise ?",
+    answer: "Contactez le centre avec la référence de votre demande. Le suivi des devis est assuré par le centre ; aucun portail autonome de documents clients n’est disponible dans cette copie locale."
   }
 ];

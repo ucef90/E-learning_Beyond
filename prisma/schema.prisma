@@ -581,3 +581,58 @@ model LearningEvent {
   createdAt DateTime @default(now())
   @@index([courseId, subjectId, createdAt])
 }
+
+// Local quality registers. No certification status is inferred from these records.
+model QualityRequest {
+  id String @id @default(cuid())
+  reference String @unique
+  requestKey String @unique
+  payloadHash String
+  kind String
+  fullName String
+  email String
+  stakeholder String
+  context String
+  message String
+  currentLevel String?
+  rating Int?
+  status String @default("NEW")
+  assignee String @default("")
+  dueDate DateTime?
+  resolution String @default("")
+  responseReference String @default("")
+  revision Int @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  events QualityRequestEvent[]
+  @@index([status, createdAt])
+}
+model QualityRequestEvent {
+  id String @id @default(cuid())
+  requestId String
+  actorId String
+  action String
+  details Json
+  createdAt DateTime @default(now())
+  request QualityRequest @relation(fields: [requestId], references: [id], onDelete: Restrict)
+  @@index([requestId, createdAt])
+}
+model QualityReview {
+  indicator Int @id
+  status String @default("TO_COLLECT")
+  evidenceKind String @default("DRAFT")
+  evidenceReference String @default("")
+  owner String @default("")
+  note String @default("")
+  dueDate DateTime?
+  revision Int @default(1)
+  updatedAt DateTime @updatedAt
+}
+model QualityReviewEvent {
+  id String @id @default(cuid())
+  indicator Int
+  actorId String
+  details Json
+  createdAt DateTime @default(now())
+  @@index([indicator, createdAt])
+}

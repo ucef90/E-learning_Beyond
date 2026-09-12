@@ -1,5 +1,6 @@
 "use client";
 
+import { centre } from "@/lib/centre";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -24,7 +25,7 @@ const links = [
 
 const LMS_LEARNER_URL = process.env.NEXT_PUBLIC_LMS_LEARNER_URL || "/apprenant";
 const LMS_TRAINER_URL = process.env.NEXT_PUBLIC_LMS_TRAINER_URL || "/formateur";
-const CLIENT_PORTAL_URL = "/espace";
+const CLIENT_PORTAL_URL = "/contact#contact-form";
 
 export function Header() {
   const pathname = usePathname();
@@ -54,8 +55,10 @@ export function Header() {
     }
     document.addEventListener("keydown", escape);
     document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-    document.removeEventListener("keydown", escape);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", escape);
+    };
   }, []);
 
   return (
@@ -67,9 +70,9 @@ export function Header() {
             <span>Catalogue premium data, IA, projet, agile et product</span>
           </div>
           <div className="header-topbar-actions">
-            <a href="/contact" className="header-topbar-link">
+            <a href={centre.phoneHref} className="header-topbar-link">
               <Phone size={14} />
-              <span>Parler à un conseiller</span>
+              <span>{centre.phone}</span>
             </a>
             <Link href="/contact" className="header-topbar-link">
               Contact
@@ -179,7 +182,7 @@ export function Header() {
                       <Users size={17} />
                       <div>
                         <strong>Espace formateur</strong>
-                        <span>Sessions, présence, contenus, évaluations</span>
+                        <span>Groupes, travaux remis et corrections</span>
                       </div>
                     </a>
                     <Link
@@ -190,8 +193,11 @@ export function Header() {
                     >
                       <ContactRound size={17} />
                       <div>
-                        <strong>Espace client</strong>
-                        <span>Demandes, devis, validations et documents</span>
+                        <strong>Suivi de demande</strong>
+                        <span>
+                          Contacter le centre pour votre devis ou votre
+                          inscription
+                        </span>
                       </div>
                     </Link>
                   </div>

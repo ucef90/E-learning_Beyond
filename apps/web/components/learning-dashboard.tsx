@@ -22,6 +22,7 @@ import { api, canLeaveNotebook, download } from "@/lib/learning-api";
 import Reader from "./learning-reader";
 import Groups from "./learning-groups";
 import Admin from "./learning-admin";
+import QualityAdmin from "./quality-admin";
 
 const date = (value: string) =>
   new Date(value).toLocaleDateString("fr-FR", {
@@ -148,6 +149,7 @@ export default function LearningDashboard() {
     resources: "Ressources",
     groups: "Mes groupes",
     admin: "Administration",
+    quality: "Suivi qualité",
     profile: "Mon compte",
   };
   const nav = [
@@ -156,7 +158,12 @@ export default function LearningDashboard() {
     ...(staff ? [["groups", Users]] : []),
     ["work", ClipboardCheck],
     ["resources", FolderOpen],
-    ...(admin ? [["admin", Settings2]] : []),
+    ...(admin
+      ? [
+          ["admin", Settings2],
+          ["quality", ClipboardCheck],
+        ]
+      : []),
   ] as const;
   const filtered = courses.filter((c: any) =>
     c.title.toLocaleLowerCase("fr").includes(query.toLocaleLowerCase("fr")),
@@ -273,6 +280,22 @@ export default function LearningDashboard() {
           ))}
         </nav>
         <div className="academy-sidebar-bottom">
+          <Link
+            href="/assistance"
+            onClick={(e) => {
+              if (!canLeaveNotebook()) e.preventDefault();
+            }}
+          >
+            Assistance et accompagnement
+          </Link>
+          <Link
+            href="/avis"
+            onClick={(e) => {
+              if (!canLeaveNotebook()) e.preventDefault();
+            }}
+          >
+            Donner mon avis
+          </Link>
           <button
             onClick={() => navigate("profile")}
             aria-current={view === "profile" ? "page" : undefined}
@@ -355,6 +378,8 @@ export default function LearningDashboard() {
                 refresh().catch((e) => setError(e.message));
               }}
             />
+          ) : view === "quality" && admin ? (
+            <QualityAdmin />
           ) : view === "admin" ? (
             <Admin courses={courses} refresh={refresh} />
           ) : view === "groups" ? (

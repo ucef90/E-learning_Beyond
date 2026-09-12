@@ -12,6 +12,7 @@ import { EnrollmentsModule } from "./modules/enrollments/enrollments.module";
 import { CommercialModule } from "./modules/commercial/commercial.module";
 import { PrismaModule } from "./common/prisma.module";
 
+import { QualityModule } from "./modules/quality/quality.module";
 import { APP_GUARD } from "@nestjs/core";
 import { AccessGuard } from "./modules/auth/access";
 
@@ -30,6 +31,7 @@ import { AccessGuard } from "./modules/auth/access";
     CoursesModule,
     EnrollmentsModule,
     CommercialModule,
+    QualityModule,
   ],
 })
 export class AppModule {}

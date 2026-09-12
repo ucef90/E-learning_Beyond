@@ -104,3 +104,19 @@ Les ateliers décrivent les travaux prévus. Leurs fichiers, corrigés et évalu
 Programme original rédigé pour Beyond Expertise à partir des objectifs de la fiche officielle.
 
 [Fiche officielle observée le 11 septembre 2026](https://beyond-expertise.com/formations/osdn-oser-dire-et-savoir-dire-non)
+
+## Contacts, accès et accompagnement — mise à jour du 12 septembre 2026
+
+Beyond Expertise : [09 54 70 23 80](tel:+33954702380) — [contact@beyondexpertise.eu](mailto:contact@beyondexpertise.eu).
+
+Pour obtenir plus de détails ou le programme détaillé validé, contactez le centre Beyond Expertise.
+
+Le programme, le tarif contractuel, la TVA, les dates et le délai d’accès sont à confirmer avec le centre avant inscription. Aucune session commerciale n’est ouverte dans la copie locale.
+
+Une analyse de vos besoins et une vérification des prérequis doivent précéder l’attribution du parcours. Les aménagements liés au handicap et l’assistance technique ou pédagogique sont à convenir avec le centre ; aucun diagnostic médical n’est nécessaire dans le formulaire.
+
+Dans la copie locale : /informations-pratiques, /positionnement, /accessibilite, /assistance, /reclamations et /avis.
+
+Les supports proposés ne délivrent pas de diplôme ou de certification professionnelle. Une éventuelle préparation à un examen externe nécessite la vérification des habilitations et modalités. Aucun financement CPF ou OPCO n’est garanti.
+
+Démarche Qualiopi en cours ; certification non acquise. Les programmes restent à valider avant animation.

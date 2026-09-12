@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "criterion": 1,
+    "title": "Information publique",
+    "scope": "Applicable",
+    "existing": "81 fiches : objectifs, prérequis, durée, format ; contacts confirmés ; pages pratiques.",
+    "missing": "Valider les 81 programmes, les tarifs, le régime de TVA, les délais et les conditions réelles.",
+    "procedure": "P01"
+  },
+  {
+    "id": 2,
+    "criterion": 1,
+    "title": "Résultats",
+    "scope": "Applicable",
+    "existing": "Page résultats sans statistiques fictives ; méthodes de calcul explicitées.",
+    "missing": "Produire un bilan de sessions réelles avec période, effectifs, dénominateurs, sources et validation.",
+    "procedure": "P09"
+  },
+  {
+    "id": 3,
+    "criterion": 1,
+    "title": "Information sur la certification",
+    "scope": "Conditionnel : offres certifiantes",
+    "existing": "Aucune certification professionnelle promise par le module local.",
+    "missing": "Inventorier les offres réellement certifiantes ; vérifier fiches RNCP/RS, résultats, blocs, passerelles et débouchés. Sinon documenter l’absence d’offres concernées.",
+    "procedure": "P01"
+  },
+  {
+    "id": 4,
+    "criterion": 2,
+    "title": "Analyse du besoin",
+    "scope": "Applicable",
+    "existing": "Formulaire de besoins avec contexte, niveau et objectifs.",
+    "missing": "Conserver entretien, attentes du bénéficiaire et du commanditaire, décision d’adaptation.",
+    "procedure": "P02"
+  },
+  {
+    "id": 5,
+    "criterion": 2,
+    "title": "Objectifs évaluables",
+    "scope": "Applicable",
+    "existing": "Objectifs détaillés et critères proposés dans les programmes.",
+    "missing": "Visa du responsable pédagogique, cohérence avec les besoins et critères d’atteinte validés.",
+    "procedure": "P02"
+  },
+  {
+    "id": 6,
+    "criterion": 2,
+    "title": "Conception adaptée",
+    "scope": "Applicable",
+    "existing": "Séquences, ateliers et modalités proposés ; un module pilote disponible.",
+    "missing": "Validation des contenus par un expert et adaptation documentée pour chaque session.",
+    "procedure": "P02"
+  },
+  {
+    "id": 7,
+    "criterion": 2,
+    "title": "Adéquation à la certification",
+    "scope": "Conditionnel : offres certifiantes",
+    "existing": "Pas d’habilitation revendiquée.",
+    "missing": "Référentiel officiel, correspondance des contenus et habilitations ; justification de non-applicabilité le cas échéant.",
+    "procedure": "P02"
+  },
+  {
+    "id": 8,
+    "criterion": 2,
+    "title": "Positionnement initial",
+    "scope": "Applicable aux actions de formation",
+    "existing": "Recueil déclaratif du niveau disponible.",
+    "missing": "Test ou entretien initial adapté, vérification des prérequis et décision pédagogique enregistrée.",
+    "procedure": "P02"
+  },
+  {
+    "id": 9,
+    "criterion": 3,
+    "title": "Information avant formation",
+    "scope": "Applicable",
+    "existing": "Page pratique et modalités du module pilote.",
+    "missing": "Convocation, règlement intérieur, contrat/convention, livret et preuve de transmission avant session.",
+    "procedure": "P03"
+  },
+  {
+    "id": 10,
+    "criterion": 3,
+    "title": "Adaptation et suivi",
+    "scope": "Applicable",
+    "existing": "Accès individuels, groupes, remises et corrections.",
+    "missing": "Plan d’accompagnement réel, aménagements convenus, suivi des difficultés et bilan.",
+    "procedure": "P03"
+  },
+  {
+    "id": 11,
+    "criterion": 3,
+    "title": "Évaluation des acquis",
+    "scope": "Applicable",
+    "existing": "Quiz de 10 questions, travaux et corrections dans le pilote.",
+    "missing": "Grilles approuvées, évaluations réelles, décisions d’atteinte et remédiation.",
+    "procedure": "P03"
+  },
+  {
+    "id": 12,
+    "criterion": 3,
+    "title": "Engagement et prévention",
+    "scope": "Applicable",
+    "existing": "Suivi de progression, assistance, signalement et registre.",
+    "missing": "Règles de relance, suivi des absences/ruptures, prévention et traitement des violences ; responsables désignés.",
+    "procedure": "P03 / P05"
+  },
+  {
+    "id": 13,
+    "criterion": 3,
+    "title": "Coordination de l’alternance",
+    "scope": "Conditionnel : alternance",
+    "existing": "Aucune alternance démontrée.",
+    "missing": "Si concerné : calendrier et missions progressives, lien entreprise, bilans tripartites. Sinon décision motivée.",
+    "procedure": "P10"
+  },
+  {
+    "id": 14,
+    "criterion": 3,
+    "title": "Accompagnement des apprentis",
+    "scope": "Conditionnel : CFA",
+    "existing": "Périmètre CFA non confirmé.",
+    "missing": "Si CFA : accompagnement socio-professionnel, citoyenneté et prise en charge des ruptures ; pièces réelles.",
+    "procedure": "P10"
+  },
+  {
+    "id": 15,
+    "criterion": 3,
+    "title": "Droits des apprentis",
+    "scope": "Conditionnel : CFA",
+    "existing": "Périmètre CFA non confirmé.",
+    "missing": "Si CFA : information droits/devoirs, sécurité, prévention, interlocuteurs et médiation ; preuve de transmission.",
+    "procedure": "P10"
+  },
+  {
+    "id": 16,
+    "criterion": 3,
+    "title": "Présentation à la certification",
+    "scope": "Conditionnel : offres certifiantes",
+    "existing": "Aucun examen certifiant intégré.",
+    "missing": "Vérifier règlement de certification, convocations, conditions d’accès et résultats.",
+    "procedure": "P10"
+  },
+  {
+    "id": 17,
+    "criterion": 4,
+    "title": "Moyens adaptés",
+    "scope": "Applicable",
+    "existing": "Plateforme et laboratoire locaux ; ressources du pilote.",
+    "missing": "Locaux, accessibilité, équipements, tests de charge, assistance et moyens humains réels.",
+    "procedure": "P04"
+  },
+  {
+    "id": 18,
+    "criterion": 4,
+    "title": "Coordination des intervenants",
+    "scope": "Applicable",
+    "existing": "Rôles administrateur, formateur et apprenant ; affectations par groupe.",
+    "missing": "Organigramme, fiches de mission, planning et comptes rendus de coordination.",
+    "procedure": "P06"
+  },
+  {
+    "id": 19,
+    "criterion": 4,
+    "title": "Ressources et appropriation",
+    "scope": "Applicable",
+    "existing": "Leçons, notebooks, CSV, quiz, remises et traces enregistrées.",
+    "missing": "Compléter les autres cours ; constater l’usage effectif et l’accompagnement réel en FOAD.",
+    "procedure": "P03 / P04"
+  },
+  {
+    "id": 20,
+    "criterion": 4,
+    "title": "Organisation du CFA",
+    "scope": "Conditionnel : CFA",
+    "existing": "Périmètre CFA non confirmé.",
+    "missing": "Si CFA : référents, mobilité, conseil de perfectionnement, gouvernance et supervision requises.",
+    "procedure": "P10"
+  },
+  {
+    "id": 21,
+    "criterion": 5,
+    "title": "Compétences des intervenants",
+    "scope": "Applicable",
+    "existing": "Compte formateur et droits définis techniquement.",
+    "missing": "CV, qualifications pertinentes, expérience, sélection et évaluation des interventions.",
+    "procedure": "P06"
+  },
+  {
+    "id": 22,
+    "criterion": 5,
+    "title": "Développement des compétences",
+    "scope": "Selon personnel et obligations applicables",
+    "existing": "Aucun dossier RH fourni.",
+    "missing": "Plan de développement, actions réalisées, attestations et bilan d’application ; périmètre à confirmer.",
+    "procedure": "P06"
+  },
+  {
+    "id": 23,
+    "criterion": 6,
+    "title": "Veille réglementaire",
+    "scope": "Applicable",
+    "existing": "Sources officielles consultées ; évolution de novembre 2026 identifiée.",
+    "missing": "Désigner un responsable et tracer les revues récurrentes, décisions et changements appliqués.",
+    "procedure": "P07"
+  },
+  {
+    "id": 24,
+    "criterion": 6,
+    "title": "Veille métiers",
+    "scope": "Applicable",
+    "existing": "Catalogue data, IA et gestion de projet.",
+    "missing": "Sources métiers, revue datée et effet concret sur les programmes.",
+    "procedure": "P07"
+  },
+  {
+    "id": 25,
+    "criterion": 6,
+    "title": "Veille pédagogique et technique",
+    "scope": "Applicable",
+    "existing": "Laboratoire et activités interactives disponibles.",
+    "missing": "Essais documentés, comparaison, adoption ou rejet motivé et mesure des effets.",
+    "procedure": "P07"
+  },
+  {
+    "id": 26,
+    "criterion": 6,
+    "title": "Réseau handicap",
+    "scope": "Applicable",
+    "existing": "Point d’entrée et recueil sans diagnostic médical.",
+    "missing": "Référent identifié, partenaires contactés, ressources d’orientation et aménagements réellement convenus.",
+    "procedure": "P04"
+  },
+  {
+    "id": 27,
+    "criterion": 6,
+    "title": "Sous-traitance",
+    "scope": "Conditionnel : sous-traitance ou portage",
+    "existing": "Aucun dossier de prestataire fourni.",
+    "missing": "Contrats, périmètre, compétences, contrôle qualité et suivi ; exigences applicables au financement à vérifier.",
+    "procedure": "P06"
+  },
+  {
+    "id": 28,
+    "criterion": 6,
+    "title": "Formation en situation de travail",
+    "scope": "Conditionnel : périodes en entreprise / AFEST",
+    "existing": "Aucune période de travail apprenante démontrée.",
+    "missing": "Partenaires, ingénierie, séquences réflexives, accompagnement et évaluations selon dispositif.",
+    "procedure": "P10"
+  },
+  {
+    "id": 29,
+    "criterion": 6,
+    "title": "Insertion des apprentis",
+    "scope": "Conditionnel : CFA",
+    "existing": "Périmètre CFA non confirmé.",
+    "missing": "Si CFA : partenariats, accompagnement vers l’emploi ou les études et suivi des résultats.",
+    "procedure": "P10"
+  },
+  {
+    "id": 30,
+    "criterion": 7,
+    "title": "Appréciations des parties prenantes",
+    "scope": "Applicable",
+    "existing": "Formulaires pour apprenants, formateurs, entreprises et financeurs.",
+    "missing": "Campagne réelle, invitations et relances, retours ou preuves de sollicitation, analyse partagée.",
+    "procedure": "P08"
+  },
+  {
+    "id": 31,
+    "criterion": 7,
+    "title": "Difficultés et réclamations",
+    "scope": "Applicable",
+    "existing": "Référence, affectation, échéance, suivi, clôture documentée et export.",
+    "missing": "Désigner le responsable et les délais ; prouver la réponse et le traitement effectif des dossiers réels.",
+    "procedure": "P05"
+  },
+  {
+    "id": 32,
+    "criterion": 7,
+    "title": "Amélioration continue",
+    "scope": "Applicable",
+    "existing": "Registre de preuves avec historique ; modèle de plan d’action et risques.",
+    "missing": "Analyse des retours, risques, actions, responsable, échéance et vérification d’efficacité réelle.",
+    "procedure": "P09"
+  },
+  {
+    "id": 33,
+    "criterion": 7,
+    "title": "Évaluation des enseignements (évolution)",
+    "scope": "À partir du 01/11/2026 : CFA ; périmètre à confirmer",
+    "existing": "Questionnaire sur les contenus distinct de la satisfaction générale.",
+    "missing": "Si CFA : collecte réelle, partage pédagogique, actions et efficacité périodique. Disponible à titre volontaire hors CFA.",
+    "procedure": "P08 / P09"
+  }
+]
