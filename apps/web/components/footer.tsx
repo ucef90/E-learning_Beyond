@@ -93,6 +93,9 @@ export function Footer() {
           ))}
           <Link href="/mentions-legales">Mentions légales</Link>
           <Link href="/confidentialite">Données personnelles</Link>
+          <Link href="/rgpd-ai-act">Formations RGPD et AI Act</Link>
+          <Link href="/transparence-ia">Usages de l’IA</Link>
+          <Link href="/vos-droits">Exercer vos droits</Link>
           <Link href="/signalement">Signalement</Link>
         </nav>
         <div className="footer-bottom">

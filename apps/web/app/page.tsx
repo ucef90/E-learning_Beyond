@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RegulatoryHighlight } from "@/components/regulatory-highlight";
 import { HeroMedia } from "@/components/hero-media";
 import {
   ArrowRight,
@@ -181,6 +182,7 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+      <RegulatoryHighlight />
 
       <section className="section-tight">
         <div className="page-shell">

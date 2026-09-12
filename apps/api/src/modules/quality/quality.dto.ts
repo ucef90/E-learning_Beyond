@@ -21,6 +21,7 @@ export class CreateQualityDto {
     "SATISFACTION",
     "TEACHING",
     "ALERT",
+    "DATA_RIGHTS",
   ])
   kind!: string;
   @IsString() @Length(2, 120) fullName!: string;

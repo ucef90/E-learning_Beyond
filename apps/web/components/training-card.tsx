@@ -31,7 +31,7 @@ export function TrainingCard({ training }: { training: UiTraining }) {
           }
         >
           {training.courses.length
-            ? "Module pilote disponible sur attribution"
+            ? "Cours disponible sur attribution"
             : "Cours e-learning à préparer"}
         </p>
         <Link

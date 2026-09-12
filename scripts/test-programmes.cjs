@@ -11,13 +11,18 @@ async function main() {
   const response = await fetch(`${api}/trainings`);
   assert.equal(response.status, 200);
   const entries = await response.json();
-  assert.equal(entries.length, 81);
+  assert.equal(
+    entries.length,
+    81 + require("../data/regulatory-courses.json").courses.length,
+  );
   assert(
     entries.every((t) => t.program?.syllabusSummary && !t.program.syllabus),
     "Résumé léger sur le catalogue",
   );
   assert.equal(
-    entries.reduce((n, t) => n + t.courses.length, 0),
+    entries
+      .filter((t) => t.program.kind === "official-catalogue")
+      .reduce((n, t) => n + t.courses.length, 0),
     1,
     "Le seul module pilote reste distinct",
   );

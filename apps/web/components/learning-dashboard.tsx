@@ -873,6 +873,10 @@ export default function LearningDashboard() {
           )}
         </main>
         <footer className="academy-footer">
+          <Link href="/vos-droits">Mes données et mes droits</Link>
+          {" · "}
+          <Link href="/transparence-ia">Usages de l’IA</Link>
+          {" · "}
           Beyond Expertise · Espace de formation{" "}
           <span>Vos travaux et résultats sont enregistrés sur ce serveur.</span>
         </footer>

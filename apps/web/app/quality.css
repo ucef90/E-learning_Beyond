@@ -241,4 +241,126 @@
   }
 }
 
-.academy-sidebar-bottom { flex-wrap: wrap; }
+.academy-sidebar-bottom {
+  flex-wrap: wrap;
+}
+
+.regulatory-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px 0;
+}
+.regulatory-intro {
+  background: #1a2644;
+  color: #fff;
+  padding: clamp(24px, 5vw, 56px);
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+.regulatory-intro h2 {
+  font-size: clamp(28px, 4vw, 46px);
+  max-width: 22ch;
+  margin: 16px 0;
+}
+.regulatory-intro p {
+  max-width: 68ch;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.regulatory-intro > span {
+  color: #f29d35;
+  font-weight: 700;
+}
+.regulatory-reader {
+  max-width: 78ch;
+  margin: 32px auto;
+}
+.regulatory-reader p,
+.regulatory-reader li {
+  font-size: 17px;
+  line-height: 1.8;
+}
+.regulatory-reader section {
+  scroll-margin-top: 120px;
+}
+.regulatory-highlight {
+  background: #f5f6fa;
+}
+.regulatory-highlight-inner {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 32px 0;
+  border-bottom: 1px solid #d7dce7;
+}
+.regulatory-highlight h2 {
+  font-size: clamp(28px, 3.2vw, 44px);
+  letter-spacing: -0.035em;
+  margin: 16px 0;
+}
+.regulatory-highlight p {
+  max-width: 62ch;
+  line-height: 1.7;
+}
+.regulatory-facts {
+  font-weight: 650;
+}
+.local-hero-art {
+  overflow: hidden;
+  background: #101728;
+}
+.local-hero-art span {
+  position: absolute;
+  display: block;
+  width: 90%;
+  height: 45%;
+  border: 40px solid #b36a2b;
+  border-radius: 50%;
+  transform: rotate(-28deg);
+  top: 28%;
+  left: 40%;
+  opacity: 0.55;
+  animation: localRibbon 18s ease-in-out infinite alternate;
+  animation-play-state: paused;
+}
+.local-hero-art span:nth-child(2) {
+  border-color: #394e85;
+  left: 10%;
+  top: 50%;
+  animation-delay: -6s;
+}
+.local-hero-art span:nth-child(3) {
+  border-color: #d89955;
+  left: 60%;
+  top: 4%;
+  animation-delay: -12s;
+}
+.local-hero-art.is-playing span {
+  animation-play-state: running;
+}
+@keyframes localRibbon {
+  to {
+    transform: translate(-7%, 12%) rotate(-12deg);
+  }
+}
+@media (max-width: 760px) {
+  .regulatory-highlight-inner {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .regulatory-reader {
+    max-width: 100%;
+  }
+  .regulatory-actions .button {
+    white-space: normal;
+    text-align: center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .local-hero-art span {
+    animation: none;
+  }
+}

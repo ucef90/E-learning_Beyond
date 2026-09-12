@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-12",
+  "status": "DRAFT_FOR_TRAINER_REVIEW",
+  "courses": [
+    {
+      "slug": "rgpd-protection-donnees-pratique",
+      "code": "rgpd",
+      "title": "RGPD : protéger les données et piloter la conformité",
+      "summary": "Passez des obligations aux pratiques : cartographier vos traitements, choisir une base légale, répondre aux droits et gérer une violation. Un parcours avec cas corrigés et modèles de travail.",
+      "audience": "Responsables de PME, RH, formation, marketing, chefs de projet, référents données et DPO débutants. Les conseils spécialisés sur un dossier individuel restent hors périmètre.",
+      "prerequisites": "Utiliser un navigateur et un traitement de texte. Aucun diplôme juridique requis. Apporter une description anonymisée d’un processus, sans fichier client réel.",
+      "objectives": [
+        "Qualifier les données, les acteurs et la finalité d’un traitement.",
+        "Justifier une base légale et appliquer la minimisation à un formulaire.",
+        "Rédiger une notice et instruire une demande de droits.",
+        "Préparer une fiche de registre, une analyse des risques et un contrôle fournisseur.",
+        "Qualifier une violation et produire un plan d’action priorisé."
+      ],
+      "caseStudy": "Le centre fictif Horizon Compétences prépare des formations pour 120 salariés. Il utilise un CRM, un LMS et un outil de visioconférence. Un fichier de suivi contient des emails, des notes et un commentaire médical. Vous auditez la chaîne puis gérez un envoi à un mauvais destinataire.",
+      "references": [
+        {
+          "title": "RGPD — règlement (UE) 2016/679, texte officiel",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/fra"
+        },
+        {
+          "title": "CNIL — certifications volontaires des formations et des compétences",
+          "url": "https://www.cnil.fr/fr/mecanismes-certification-approuves"
+        },
+        {
+          "title": "CNIL — règles relatives aux cookies et traceurs",
+          "url": "https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles"
+        },
+        {
+          "title": "CNIL — violations de données : les règles à suivre",
+          "url": "https://www.cnil.fr/fr/violations-de-donnees-personnelles-les-regles-suivre"
+        },
+        {
+          "title": "CNIL — recueillir le consentement des personnes",
+          "url": "https://www.cnil.fr/fr/les-bases-legales/consentement"
+        }
+      ],
+      "deliverables": [
+        "Fiche de registre et inventaire des données",
+        "Notice d’information à compléter",
+        "Journal des demandes de droits",
+        "Fiche d’incident et décision de notification",
+        "Grille fournisseur, conservation et plan d’action"
+      ],
+      "initialQuestions": [
+        "Quel traitement suivez-vous dans votre activité ?",
+        "Distinguez-vous consentement et contrat ? Donnez un exemple.",
+        "Qui peut accéder aujourd’hui à vos données de formation ?",
+        "Quelle décision souhaitez-vous savoir prendre à la fin du parcours ?"
+      ]
+    },
+    {
+      "slug": "ai-act-maitrise-ia-gouvernance",
+      "code": "ai-act",
+      "title": "AI Act : maîtriser l’IA et organiser sa gouvernance",
+      "summary": "Identifiez les usages, les rôles et les risques de l’IA. Apprenez à vérifier ses résultats, protéger les données et documenter les décisions avec un inventaire, une charte d’usage et des exercices corrigés.",
+      "audience": "Dirigeants, managers, RH, formateurs, responsables conformité, chefs de projet et utilisateurs professionnels de l’IA. Ce parcours n’est pas une qualification d’organisme d’évaluation de conformité.",
+      "prerequisites": "Utiliser des outils numériques professionnels. Aucun code ni compte payant d’IA requis : les simulations fournies suffisent. Ne pas apporter de données personnelles ou confidentielles.",
+      "objectives": [
+        "Distinguer système d’IA, modèle et automatisation déterministe.",
+        "Qualifier le rôle de fournisseur ou de déployeur et repérer les usages interdits ou sensibles.",
+        "Appliquer les obligations de transparence pertinentes à un cas concret.",
+        "Contrôler une sortie d’IA et définir une supervision humaine effective.",
+        "Construire un inventaire d’usages, un plan de maîtrise de l’IA et une décision de déploiement documentée."
+      ],
+      "caseStudy": "La PME fictive Altis Formation veut utiliser un assistant rédactionnel, un chatbot de catalogue, une IA de classement des candidatures et un détecteur d’émotions à distance. Vous devez autoriser, conditionner ou écarter chaque usage et préparer les preuves de votre décision.",
+      "references": [
+        {
+          "title": "AI Act — règlement (UE) 2024/1689, texte initial",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/fra"
+        },
+        {
+          "title": "Commission européenne — calendrier actualisé après l’Omnibus IA",
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
+        },
+        {
+          "title": "Commission européenne — questions et réponses sur la maîtrise de l’IA",
+          "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+        },
+        {
+          "title": "Commission européenne — entrée en vigueur de l’Omnibus IA, 27 juillet 2026",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
+        },
+        {
+          "title": "CNIL — IA : informer les personnes concernées",
+          "url": "https://www.cnil.fr/fr/ia-informer-les-personnes-concernees"
+        },
+        {
+          "title": "RGPD — règlement (UE) 2016/679, texte officiel",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/fra"
+        }
+      ],
+      "deliverables": [
+        "Inventaire des usages et matrice de qualification",
+        "Charte d’usage de l’IA",
+        "Grille d’évaluation et supervision humaine",
+        "Plan de maîtrise de l’IA et journal de formation",
+        "Fiche d’incident IA et décision de déploiement"
+      ],
+      "initialQuestions": [
+        "Quels outils d’IA utilisez-vous, dans quel but et pour qui ?",
+        "Comment vérifiez-vous une réponse produite par une IA ?",
+        "Quelles données ne devez-vous jamais copier dans un outil non autorisé ?",
+        "Qui peut arrêter un usage présentant un risque dans votre équipe ?"
+      ]
+    }
+  ]
+}

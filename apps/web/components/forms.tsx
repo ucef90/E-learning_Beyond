@@ -145,6 +145,13 @@ export function ContactForm() {
         administrateurs habilités.{" "}
         <a href="/confidentialite">Données personnelles et droits</a>.
       </p>
+      <p>
+        Les données de ce formulaire servent à traiter votre demande, sans
+        abonnement publicitaire automatique. N’indiquez pas de données
+        sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
+        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        sans email automatique.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}
@@ -254,6 +261,13 @@ export function QuoteForm() {
         placeholder="Effectif, formation cible, contexte"
         required
       />
+      <p>
+        Les données de ce formulaire servent à traiter votre demande, sans
+        abonnement publicitaire automatique. N’indiquez pas de données
+        sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
+        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        sans email automatique.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}
@@ -359,6 +373,13 @@ export function EnrollmentForm({
         name="message"
         placeholder="Contexte, nombre de places, contraintes calendaires"
       />
+      <p>
+        Les données de ce formulaire servent à traiter votre demande, sans
+        abonnement publicitaire automatique. N’indiquez pas de données
+        sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
+        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        sans email automatique.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}
@@ -447,6 +468,13 @@ export function TrainingSidebarLeadForm({
         name="message"
         placeholder="Besoin, nombre de participants, contraintes calendaires"
       />
+      <p>
+        Les données de ce formulaire servent à traiter votre demande, sans
+        abonnement publicitaire automatique. N’indiquez pas de données
+        sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
+        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        sans email automatique.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}

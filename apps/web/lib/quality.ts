@@ -6,6 +6,7 @@ export const requestKinds: Record<string, string> = {
   SATISFACTION: "Satisfaction générale",
   TEACHING: "Évaluation des contenus",
   ALERT: "Signalement",
+  DATA_RIGHTS: "Données personnelles — exercice des droits",
 };
 export const requestStatuses: Record<string, string> = {
   NEW: "À traiter",

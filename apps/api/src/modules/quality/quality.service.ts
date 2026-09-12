@@ -13,6 +13,16 @@ import {
   UpdateQualityDto,
   UpdateReviewDto,
 } from "./quality.dto";
+function rightsDeadline(now = new Date()) {
+  const target = new Date(now);
+  target.setUTCDate(1);
+  target.setUTCMonth(target.getUTCMonth() + 1);
+  const last = new Date(
+    Date.UTC(target.getUTCFullYear(), target.getUTCMonth() + 1, 0),
+  ).getUTCDate();
+  target.setUTCDate(Math.min(now.getUTCDate(), last));
+  return target;
+}
 const hash = (text: string) => createHash("sha256").update(text).digest("hex");
 @Injectable()
 export class QualityService {
@@ -82,6 +92,7 @@ export class QualityService {
       const item = await this.db.qualityRequest.create({
         data: {
           ...data,
+          ...(dto.kind === "DATA_RIGHTS" ? { dueDate: rightsDeadline() } : {}),
           requestKey: dto.requestKey,
           payloadHash,
           reference: `BE-${new Date().getUTCFullYear()}-${randomUUID().slice(0, 8).toUpperCase()}`,

@@ -811,6 +811,7 @@ export class CoursesService {
           title: true,
           version: true,
           brief: true,
+          resources: true,
           modules: {
             include: {
               lessons: {
@@ -839,14 +840,17 @@ export class CoursesService {
       certification: "Aucune certification professionnelle délivrée",
       exportedAt: new Date().toISOString(),
       learnerId,
-      course,
+      course: { ...course, resources: undefined },
       ...state,
       completed:
         state.progress.filter((p) => p.completed).length === count &&
         state.attempts.some((a) => (a.score || 0) >= 70) &&
-        state.submissions.some((s) => (s.grade || 0) >= 70),
-      rules:
-        "Leçons déclarées lues, quiz >= 70 %, TP évalué par le formateur >= 70 %. Le temps de connexion et les exécutions locales ne prouvent pas à eux seuls une compétence.",
+        (!!(course.resources as any)?.starter
+          ? state.submissions.some((s) => (s.grade || 0) >= 70)
+          : false),
+      rules: !(course.resources as any)?.starter
+        ? "Lecture et quiz formatif seulement. Le dossier et la soutenance demandent une évaluation distincte ; completed reste false tant que cette évaluation n’est pas intégrée. Aucun certificat délivré."
+        : "Leçons déclarées lues, quiz >= 70 %, TP évalué par le formateur >= 70 %. Le temps de connexion et les exécutions locales ne prouvent pas à eux seuls une compétence.",
       events,
     };
   }

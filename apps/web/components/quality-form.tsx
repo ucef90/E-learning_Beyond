@@ -34,7 +34,11 @@ export function QualityForm({
       fullName: String(f.get("fullName")),
       email: String(f.get("email")),
       stakeholder:
-        kind === "TEACHING" ? "LEARNER" : String(f.get("stakeholder")),
+        kind === "TEACHING"
+          ? "LEARNER"
+          : kind === "DATA_RIGHTS"
+            ? "OTHER"
+            : String(f.get("stakeholder")),
       context: String(f.get("context") || ""),
       message: String(f.get("message")),
       website: String(f.get("website") || ""),
@@ -123,7 +127,9 @@ export function QualityForm({
       )}
       <div className="quality-grid">
         <label>
-          Nom complet *
+          {kind === "DATA_RIGHTS"
+            ? "Nom ou identifiant du compte *"
+            : "Nom complet *"}
           <input
             className="input"
             name="fullName"
@@ -145,7 +151,7 @@ export function QualityForm({
           />
         </label>
       </div>
-      {kind !== "TEACHING" && (
+      {!["TEACHING", "DATA_RIGHTS"].includes(kind) && (
         <label>
           Vous êtes *
           <select className="input" name="stakeholder" required>

@@ -12,6 +12,7 @@ export default async function TrainingDetailPage({
   const { slug } = await params;
   const t = await getTrainingBySlug(slug);
   if (!t) notFound();
+  const regulatory = t.source?.kind === "authored-regulatory";
   return (
     <main id="contenu" className="section page-main-compact">
       <div className="page-shell">
@@ -35,6 +36,14 @@ export default async function TrainingDetailPage({
               </a>
             )}
             <ProgrammeContact />
+            {regulatory && (
+              <a
+                className="button button-secondary"
+                href={"/formations/" + slug + "/support"}
+              >
+                Lire les leçons, exercices et corrigés
+              </a>
+            )}
             <div className="training-content-stack">
               <section className="training-content-card">
                 <h2>Objectifs pédagogiques</h2>
@@ -68,13 +77,19 @@ export default async function TrainingDetailPage({
                   t.courses.map((course) => (
                     <div key={course.id}>
                       <p className="catalog-course-status ready">
-                        Module pilote · en validation pédagogique
+                        Cours disponible · en validation pédagogique
                       </p>
                       <h3>{course.title}</h3>
                       <p>
                         Durée indicative : {course.estimatedMinutes} minutes. Ce
-                        module couvre une partie du parcours {t.duration}{" "}
-                        présenté sur le site officiel.
+                        {regulatory ? (
+                          "parcours comprend lectures, ateliers et évaluation. Les 14 heures correspondent à une session animée, hors pauses."
+                        ) : (
+                          <>
+                            module couvre une partie du parcours {t.duration}{" "}
+                            présenté sur le site officiel.
+                          </>
+                        )}
                       </p>
                       <ol className="catalog-syllabus">
                         {course.modules
@@ -87,10 +102,9 @@ export default async function TrainingDetailPage({
                           ))}
                       </ol>
                       <p>
-                        Exemples exécutables, atelier guidé, jeu de données
-                        synthétique, TP avec remise au formateur et quiz de dix
-                        questions. Le corrigé du TP devient accessible après le
-                        retour du formateur.
+                        {regulatory
+                          ? "Huit leçons, huit cas avec corrigés, cinq modèles et un quiz formatif de vingt questions à livre ouvert. Le dossier et la soutenance demandent une appréciation humaine distincte. Aucune certification officielle délivrée."
+                          : "Exemples exécutables, atelier guidé, jeu de données synthétique, TP avec remise au formateur et quiz de dix questions. Le corrigé du TP devient accessible après le retour du formateur."}
                       </p>
                       <Link
                         className="button button-primary"
@@ -136,14 +150,18 @@ export default async function TrainingDetailPage({
             <div className="card training-sidecard">
               <h2>Fiche de référence</h2>
               <p>
-                Informations relevées sur le site officiel le 11 septembre 2026.
+                {regulatory
+                  ? "Programme original ajouté localement le 12 septembre 2026, fondé sur des sources institutionnelles datées."
+                  : "Informations relevées sur le site officiel le 11 septembre 2026."}
               </p>
               <dl className="catalog-reference">
                 <dt>Durée de l’offre</dt>
                 <dd>{t.duration}</dd>
                 <dt>Modalité annoncée</dt>
                 <dd>{t.format}</dd>
-                <dt>Tarif affiché sur le site officiel</dt>
+                <dt>
+                  {regulatory ? "Tarif" : "Tarif affiché sur le site officiel"}
+                </dt>
                 <dd>{t.source?.observedPrice || t.priceFrom}</dd>
               </dl>
               <p className="learning-note">

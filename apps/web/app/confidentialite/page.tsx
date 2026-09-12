@@ -1,73 +1,132 @@
+import Link from "next/link";
 import { QualityLayout, QualityCard } from "@/components/quality-layout";
 export const metadata = {
-  title: "Données personnelles | Beyond Expertise",
+  title: "Données personnelles et cookies | Beyond Expertise",
   robots: { index: false },
 };
 export default function Page() {
   return (
     <QualityLayout
-      title="Vos données dans cette version locale."
-      intro="Informations sur les données utilisées pour vos demandes et votre parcours. Mise à jour : 12 septembre 2026."
+      title="Vos données sur cette plateforme."
+      intro="Notice de la version locale — mise à jour le 12 septembre 2026. Contact : contact@beyondexpertise.eu · 09 54 70 23 80."
     >
-      <QualityCard title="Données et finalités">
+      <QualityCard title="Qui utilise les données ?">
         <p>
-          Les formulaires recueillent vos coordonnées, la formation concernée et
-          votre message pour préparer une formation, traiter une demande ou
-          exploiter un retour pédagogique. Une note et un niveau déclaratif ne
-          sont collectés que dans les questionnaires concernés.
-        </p>
-        <p>
-          Les comptes enregistrent l’identité, les droits d’accès, les cours
-          attribués, la progression déclarée, les quiz, travaux, corrections et
-          événements de suivi. Les mots de passe sont hachés ; ils ne doivent
-          jamais être communiqués dans un formulaire.
+          La plateforme est préparée pour Beyond Expertise. L’identité juridique
+          complète, l’adresse du responsable de traitement et le contact DPO, si
+          un DPO est désigné, restent à confirmer par le centre. Cette copie
+          sert aux essais locaux ; cette notice doit être complétée avant une
+          collecte réelle et la mise en ligne.
         </p>
       </QualityCard>
-      <QualityCard title="Accès et stockage">
+      <QualityCard title="Données, usages et destinataires">
+        <ul>
+          <li>
+            Contact, devis et inscription : coordonnées, entreprise éventuelle,
+            formation et besoin exprimé, pour instruire la demande. Accès
+            réservé aux personnes habilitées à son traitement.
+          </li>
+          <li>
+            Comptes : email, profil, rôles et mot de passe haché ; session de
+            connexion et sécurité d’accès.
+          </li>
+          <li>
+            Apprentissage : parcours attribués, leçons déclarées lues, réponses
+            et scores de quiz, brouillons, travaux et retours. L’apprenant
+            accède à ses données ; le formateur aux groupes qui lui sont
+            attribués ; l’administration aux fonctions autorisées.
+          </li>
+          <li>
+            Qualité et droits : demande, coordonnées déclarées, appréciation ou
+            niveau seulement lorsque pertinent, statut, responsable, échéance et
+            historique. Les administrateurs habilités traitent ces demandes ;
+            les identités déclarées ne sont pas automatiquement vérifiées.
+          </li>
+        </ul>
         <p>
-          Cette copie stocke les informations dans une base locale sur
-          l’ordinateur du projet. Les administrateurs habilités accèdent aux
-          demandes. Les formateurs accèdent aux parcours qui leur sont attribués
-          et les apprenants à leurs propres cours et résultats.
-        </p>
-        <p>
-          Aucun email n’est envoyé automatiquement par les nouveaux formulaires.
-          Les exports du registre peuvent contenir des données personnelles :
-          ils doivent être conservés dans un emplacement protégé.
+          Les champs marqués * sont nécessaires à la demande correspondante.
+          Leur absence peut empêcher son enregistrement. N’ajoutez pas de
+          données sensibles, pièces d’identité ou mots de passe dans un message
+          libre. Les exports doivent être conservés dans un emplacement protégé.
         </p>
       </QualityCard>
-      <QualityCard title="Cookies et contenus externes">
+      <QualityCard title="Bases légales et conservation à confirmer">
         <p>
-          Un cookie nécessaire à la connexion conserve un identifiant de session
-          pendant huit heures au maximum. La déconnexion invalide la session. Le
-          laboratoire conserve également un brouillon de travail dans le
-          navigateur.
+          Le centre doit documenter la base légale de chaque finalité et les
+          durées ou critères applicables, y compris pour les demandes, preuves
+          pédagogiques, journaux et sauvegardes. Le contrat ne couvre pas
+          automatiquement tout usage ; les obligations légales doivent être
+          identifiées et l’intérêt légitime justifié lorsqu’il est retenu.
         </p>
         <p>
-          La vidéo décorative de l’accueil est chargée depuis CloudFront. Le
-          laboratoire utilise des ressources de calcul chargées par le
-          navigateur. Ces chargements impliquent des communications avec leurs
-          fournisseurs. Une protection Cloudflare Turnstile peut être activée
-          sur les formulaires selon la configuration ; elle devra être
-          documentée avant mise en ligne.
+          Aucun consentement publicitaire n’est demandé ni présumé à partir d’un
+          formulaire. Le cookie de connexion expire au plus tard après huit
+          heures ; la déconnexion invalide la session. Les données métier et
+          archives n’ont pas encore de purge automatique fondée sur une
+          politique validée du centre. Leur conservation ne doit pas être
+          présentée comme définitivement conforme.
         </p>
       </QualityCard>
-      <QualityCard title="Vos droits et points à finaliser">
+      <QualityCard title="Stockage, cookies et chargements">
         <p>
-          Écrivez au contact du centre indiqué en haut de page pour demander
-          l’accès, la rectification ou la suppression de vos informations, selon
-          les conditions applicables, ainsi que des précisions sur vos autres
-          droits. Vous pouvez adresser une réclamation à la{" "}
-          <a href="https://www.cnil.fr/fr/adresser-une-plainte">CNIL</a>.
+          Les données d’essai sont stockées dans la base locale du projet sur
+          cet ordinateur. Le décor de l’accueil est maintenant rendu localement
+          : aucune vidéo CloudFront n’est chargée. Aucun outil de publicité ou
+          de mesure d’audience n’est intégré dans cette version.
         </p>
         <p>
-          Avant toute collecte réelle, le centre doit confirmer l’identité du
-          responsable de traitement, la base légale de chaque usage, les durées
-          de conservation, les destinataires et prestataires, les transferts
-          éventuels et le traitement effectif des demandes de droits. Cette
-          notice décrit le fonctionnement local et reste à compléter sur ces
-          points.
+          Le cookie HttpOnly <code>be_elearning_session</code> est réservé à la
+          connexion demandée. Les brouillons de notebook sont enregistrés sur le
+          serveur local ; le laboratoire exécute le calcul dans le navigateur
+          avec des ressources servies localement sur une origine distincte.
+          Aucun bandeau de consentement publicitaire n’est nécessaire pour ces
+          seuls usages strictement nécessaires.
         </p>
+        <p>
+          Cloudflare Turnstile peut être activé par configuration pour la
+          protection des formulaires. Son activation introduit des échanges avec
+          Cloudflare : le centre devra alors documenter prestataire, finalité,
+          données techniques, garanties et transferts éventuels. Les liens vers
+          des sources officielles n’ouvrent leur site qu’à votre demande.
+        </p>
+        <p>
+          La mise en ligne changera l’hébergement et les destinataires
+          techniques. Les contrats, localisations, transferts éventuels et
+          mesures HTTPS devront être vérifiés pour l’environnement effectivement
+          retenu.
+        </p>
+      </QualityCard>
+      <QualityCard title="Exercer vos droits">
+        <p>
+          Selon votre situation, vous pouvez demander accès, rectification,
+          effacement, limitation, opposition ou portabilité ; retirer un
+          consentement lorsque cette base est utilisée ; et saisir la CNIL. Le
+          délai de principe est d’un mois, avec prolongation motivée possible
+          dans les conditions légales. L’effacement n’est pas automatique
+          lorsque certaines données doivent légalement être conservées.
+        </p>
+        <div className="regulatory-actions">
+          <Link className="button button-primary" href="/vos-droits">
+            Faire une demande ou exporter mes données
+          </Link>
+          <a href="https://www.cnil.fr/fr/adresser-une-plainte">
+            Saisir la CNIL
+          </a>
+        </div>
+        <p>
+          Les formulaires locaux n’envoient pas d’email automatique. Pour
+          contacter effectivement le centre, utilisez contact@beyondexpertise.eu
+          ou le téléphone indiqué.
+        </p>
+      </QualityCard>
+      <QualityCard title="IA et décisions">
+        <p>
+          Le quiz utilise un barème fixe ; cette version n’intègre pas de
+          décision d’admission ni de correction par un modèle d’IA. Les contenus
+          préparés avec assistance d’IA et leurs limites sont expliqués dans
+          notre page de transparence.
+        </p>
+        <Link href="/transparence-ia">Comprendre les usages de l’IA</Link>
       </QualityCard>
     </QualityLayout>
   );

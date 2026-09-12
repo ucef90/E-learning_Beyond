@@ -78,6 +78,12 @@ export default function Reader({
         <p role="status">{message || "Chargement de votre parcours…"}</p>
       </>
     );
+  const regulatoryCode =
+    course.slug === "rgpd-protection-donnees-pratique-parcours-v1"
+      ? "rgpd"
+      : course.slug === "ai-act-maitrise-ia-gouvernance-parcours-v1"
+        ? "ai-act"
+        : null;
   const lessons = course.modules.flatMap((m: any) => m.lessons);
   const textLessons = lessons.filter((l: any) => l.type === "TEXT");
   const selected = lessons.find((l: any) => l.id === tab);
@@ -96,8 +102,7 @@ export default function Reader({
       <div className="learning-course-heading">
         <div>
           <p className="learning-kicker">
-            Module pilote · {course.estimatedMinutes} min · Version{" "}
-            {course.version}
+            Parcours · {course.estimatedMinutes} min · Version {course.version}
           </p>
           <h1>{course.title}</h1>
         </div>
@@ -114,6 +119,25 @@ export default function Reader({
         </div>
       </div>
       <p role="status">{message}</p>
+      {regulatoryCode && (
+        <div className="regulatory-actions">
+          <a
+            href={
+              "/formations/" +
+              course.slug.replace("-parcours-v1", "") +
+              "/support"
+            }
+          >
+            Support intégral et sources officielles
+          </a>
+          <a
+            href={"/reglementation/" + regulatoryCode + "-modeles.md"}
+            download
+          >
+            Télécharger mon carnet de travail
+          </a>
+        </div>
+      )}
       <div className="learning-reader">
         <aside className="learning-sidebar">
           <details open>
@@ -187,7 +211,7 @@ export default function Reader({
                 ))}
               </dl>
               <p className="learning-notice">
-                Pilote en validation pédagogique. Ce module ne délivre pas de
+                Support en validation pédagogique. Ce parcours ne délivre pas de
                 certification professionnelle.
               </p>
             </>
@@ -246,8 +270,9 @@ export default function Reader({
                 )}
               </div>
               <p className="learning-note">
-                Cette déclaration suit votre lecture ; les acquis seront évalués
-                par le quiz et le TP.
+                {course.resources.hasNotebook
+                  ? "Cette déclaration suit votre lecture ; les acquis seront évalués par le quiz et le TP."
+                  : "Cette déclaration suit votre lecture. Le quiz est formatif ; le dossier et la soutenance demandent un retour distinct du formateur."}
               </p>
             </>
           ) : tab === "practice" ? (
@@ -322,8 +347,9 @@ export default function Reader({
             <>
               <h2>Vos résultats et retours</h2>
               <p>
-                Réussite du module : toutes les leçons déclarées lues, quiz à 70
-                % minimum et TP à 70/100 minimum après correction humaine.
+                {course.resources.hasNotebook
+                  ? "Réussite du module : toutes les leçons déclarées lues, quiz à 70 % minimum et TP à 70/100 minimum après correction humaine."
+                  : "Suivi individuel : leçons déclarées lues et quiz formatif à 70 % minimum. Le dossier et la soutenance restent à évaluer séparément avec le formateur ; ce suivi ne vaut pas validation complète de la formation."}
               </p>
               <h3>Quiz</h3>
               {state.attempts.length ? (
@@ -381,8 +407,9 @@ export default function Reader({
                 ))
               ) : (
                 <p>
-                  Aucun travail remis. Le notebook peut être sauvegardé avant sa
-                  remise.
+                  {course.resources.hasNotebook
+                    ? "Aucun travail remis. Le notebook peut être sauvegardé avant sa remise."
+                    : "Les livrables de ce parcours sont à préparer dans votre carnet de travail et à présenter au formateur. Leur évaluation n’est pas enregistrée automatiquement par le quiz."}
                 </p>
               )}
               {state.submissions.some((s: any) => s.reviewedAt) && (
