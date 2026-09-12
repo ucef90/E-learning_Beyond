@@ -1,12 +1,12 @@
 # Tableaux de bord RH et People Analytics
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier indicateurs et décisions de gestion collective.
 - Distinguer effectif physique, équivalent temps plein et mouvements.
 - Identifier finalités, habilitations et données à exclure.
+- Définir finalités, population, accès et agrégation des indicateurs RH ; minimiser les données.
 
 **Atelier prévu :** Construire le dictionnaire d'un tableau de bord RH avec formule, période et population de chaque indicateur.
+
+**Livrable attendu :** Charte de reporting et règles de confidentialité.
+
+**Pour aller plus loin :** Identifier une restitution qui permettrait de reconnaître un salarié dans un petit groupe.
 
 ### Préparer et contrôler les historiques · 210 min
 
 - Traiter dates d'entrée, sortie et changements d'affectation.
 - Éviter doubles comptes et périodes incohérentes.
 - Rapprocher effectifs de début, mouvements et effectifs de fin.
+- Reconstituer entrées, sorties, changements de poste et quotités dans le temps.
 
 **Atelier prévu :** Reconstituer les effectifs mensuels d'un jeu fictif et expliquer les écarts de rapprochement.
+
+**Livrable attendu :** Historique contrôlé et journal des anomalies.
+
+**Pour aller plus loin :** Résoudre une incohérence entre effectif à date et moyenne sur période.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Calculer turnover et absentéisme avec dénominateurs explicités.
 - Comparer périodes et services de taille différente.
 - Masquer ou regrouper les groupes trop petits selon les règles retenues.
+- Formaliser événements de sortie, réembauche, temps partiel et absences chevauchant deux périodes ; tester leur effet sur chaque indicateur.
 
 **Atelier prévu :** Créer une vue agrégée montrant tendances et limites de comparaison sans permettre l'identification d'une personne.
+
+**Livrable attendu :** Tableau RH et dictionnaire de calcul.
+
+**Pour aller plus loin :** Comparer deux services sans masquer différences de taille ou de période.
 
 ### Interpréter et décider avec prudence · 210 min
 
 - Distinguer signal descriptif et explication causale.
 - Vérifier contexte organisationnel et biais possibles.
 - Éviter score individuel opaque ou conclusion sur la santé.
+- Distinguer signal, hypothèse et causalité ; contextualiser écarts et petits effectifs.
 
 **Atelier prévu :** Présenter trois constats vérifiables, les questions à approfondir et un plan de suivi collectif respectant la confidentialité.
+
+**Livrable attendu :** Note d’interprétation et recommandations prudentes.
+
+**Pour aller plus loin :** Formuler une action collective sans établir un profil individuel abusif.
 
 ## Évaluation finale prévue
 

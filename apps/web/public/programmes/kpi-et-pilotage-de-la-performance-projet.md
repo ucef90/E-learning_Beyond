@@ -1,12 +1,12 @@
 # KPI et pilotage de la performance projet
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier chaque KPI à une question et à une action.
 - Distinguer résultat, avancement et signal précoce.
 - Définir formule, fréquence, propriétaire et seuil.
+- Associer chaque KPI à une décision, une définition, une source et un responsable.
 
 **Atelier prévu :** Rédiger le dictionnaire de six indicateurs et éliminer une métrique de volume qui ne permet aucune décision.
+
+**Livrable attendu :** Dictionnaire des KPI et risques d’interprétation.
+
+**Pour aller plus loin :** Identifier un indicateur qui encourage un comportement contraire à l’objectif.
 
 ### Mesurer délais et charge · 210 min
 
 - Comparer jalons prévus, réalisés et reste à faire.
 - Distinguer effort consommé et progression réelle.
 - Repérer dépendances critiques et dérive de prévision.
+- Distinguer charge consommée, reste à faire, avancement et prévision de fin.
 
 **Atelier prévu :** Analyser un projet consommant son budget sans livrer les résultats attendus et identifier les informations manquantes.
+
+**Livrable attendu :** Analyse des délais et hypothèses de prévision.
+
+**Pour aller plus loin :** Réconcilier un avancement élevé avec une échéance qui continue de reculer.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Rapprocher budget, engagements et coût prévisionnel à terminaison.
 - Situer valeur acquise avec ses hypothèses lorsque pertinente.
 - Relier risques, réserves et bénéfices attendus.
+- Relier réalisé, engagé, prévision à terminaison, exposition aux risques et valeur attendue.
 
 **Atelier prévu :** Calculer un scénario de fin de projet et présenter l'effet d'un risque sur coût, date et périmètre.
+
+**Livrable attendu :** Prévision consolidée et analyse des écarts.
+
+**Pour aller plus loin :** Construire un scénario budgétaire tenant compte d’un risque non encore réalisé.
 
 ### Construire le cockpit et la revue · 210 min
 
 - Visualiser écarts et tendances avec sources datées.
 - Associer alertes, options et décisions attendues.
 - Prévoir contrôle des données et revue des seuils.
+- Hiérarchiser signaux, tendances et actions ; afficher fraîcheur et fiabilité des données.
 
 **Atelier prévu :** Livrer un tableau de bord d'une page et animer une revue conduisant à deux décisions explicites.
+
+**Livrable attendu :** Cockpit et compte rendu de décision.
+
+**Pour aller plus loin :** Conduire une revue où les indicateurs se contredisent sans choisir le plus favorable.
 
 ## Évaluation finale prévue
 

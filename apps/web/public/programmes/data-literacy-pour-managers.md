@@ -1,12 +1,12 @@
 # Data Literacy pour managers
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 1 jour(s) · 7 heures indicatives · Fondamental · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,32 +39,52 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer total, moyenne, médiane et ratio.
 - Identifier unité, période et population.
 - Relier chaque indicateur à une question de gestion.
+- Relier indicateur, population, période, unité et décision ; distinguer stock et flux.
 
 **Atelier prévu :** Comparer deux tableaux présentant des moyennes différentes et retrouver les dénominateurs qui expliquent l'écart.
+
+**Livrable attendu :** Fiche de lecture d’un indicateur.
+
+**Pour aller plus loin :** Détecter un changement de périmètre derrière une hausse apparente.
 
 ### Repérer les pièges de lecture · 105 min
 
 - Distinguer variation relative et points de pourcentage.
 - Lire échelles, axes tronqués et agrégations.
 - Repérer les effets de composition entre groupes.
+- Examiner axes, bases de comparaison, moyennes et sélection des données.
 
 **Atelier prévu :** Corriger trois graphiques trompeurs et reformuler leurs conclusions sans amplifier les variations.
+
+**Livrable attendu :** Analyse critique et graphique corrigé.
+
+**Pour aller plus loin :** Repérer un graphique exact mais visuellement trompeur.
 
 ### Questionner la qualité d'une analyse · 105 min
 
 - Demander source, fraîcheur et données manquantes.
 - Distinguer corrélation, causalité et hasard.
 - Comprendre qu'un échantillon comporte une incertitude.
+- Questionner source, échantillon, données manquantes, définition et incertitude.
 
 **Atelier prévu :** Préparer les questions d'un manager face à une analyse affirmant qu'une campagne explique toute la hausse des ventes.
+
+**Livrable attendu :** Grille de questions pour revue d’analyse.
+
+**Pour aller plus loin :** Distinguer observation descriptive et preuve d’un effet causal.
 
 ### Décider avec une information imparfaite · 105 min
 
 - Relier constat, options et risque d'erreur.
 - Définir ce qu'il faut mesurer avant d'engager plus de moyens.
 - Documenter hypothèses et date de réexamen.
+- Expliciter hypothèses, coût d’erreur, réversibilité et information complémentaire utile.
 
 **Atelier prévu :** Rédiger une décision courte à partir d'un tableau incomplet, avec une hypothèse testable et un indicateur de suivi.
+
+**Livrable attendu :** Note de décision et suivi des hypothèses.
+
+**Pour aller plus loin :** Prendre une décision provisoire avec conditions de réexamen.
 
 ## Évaluation finale prévue
 

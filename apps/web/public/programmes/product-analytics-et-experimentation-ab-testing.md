@@ -1,12 +1,12 @@
 # Product Analytics et experimentation A/B testing
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier activation, conversion et rétention à une décision produit.
 - Décrire événements, propriétés, identifiants et règles de déduplication.
 - Construire funnels et cohortes avec fenêtres temporelles explicites.
+- Définir identité utilisateur, sessions, fenêtres de conversion et contrats d’événements ; traiter doublons, bots et événements manquants.
 
 **Atelier prévu :** Rédiger un plan de marquage pour visite, inscription et première action utile ; repérer les événements manquants d'un jeu de logs.
+
+**Livrable attendu :** Plan de marquage, dictionnaire des événements et diagnostic du funnel.
+
+**Pour aller plus loin :** Construire un funnel et des cohortes en distinguant corrélation, comportement observé et hypothèse causale.
 
 ### Construire un protocole A/B · 210 min
 
 - Formuler hypothèse, métrique principale et indicateurs de protection.
 - Choisir unité de randomisation, population et critères d'exclusion avant lancement.
 - Relier effet minimal détectable, puissance, taille et durée estimées.
+- Déterminer unité de randomisation, métrique primaire, garde-fous, effet minimal détectable et durée avant de démarrer l’expérience.
 
 **Atelier prévu :** Préparer une fiche d'expérience avec règle d'arrêt ; comparer l'effet d'un échantillon réduit et d'une conversion de référence faible.
+
+**Livrable attendu :** Protocole expérimental et calcul argumenté du dimensionnement.
+
+**Pour aller plus loin :** Repérer contamination entre groupes, effets réseau, multi-tests et arrêt opportuniste ; prévoir les règles de décision à l’avance.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Contrôler la répartition des groupes et les données manquantes.
 - Distinguer significativité, intervalle d'incertitude et intérêt économique.
 - Repérer lectures répétées, comparaisons multiples et analyses par segments non prévues.
+- Lire intervalles d’incertitude, taille d’effet et déséquilibre d’échantillonnage ; distinguer absence de preuve et équivalence.
 
 **Atelier prévu :** Analyser une expérience positive en apparence mais déséquilibrée ; décider quelles conclusions restent défendables et quelles vérifications effectuer.
+
+**Livrable attendu :** Note d’analyse avec contrôles de validité et interprétation métier.
+
+**Pour aller plus loin :** Analyser un test avec sample ratio mismatch et segments contradictoires, puis décider si les résultats sont exploitables.
 
 ### Décider et capitaliser · 210 min
 
 - Relier résultat primaire, garde-fous et coût d'implémentation.
 - Prévoir résultat négatif, non concluant et effet de nouveauté.
 - Documenter apprentissages et suivi après déploiement.
+- Arbitrer déploiement, prolongation ou abandon selon valeur attendue, risques et coût d’implémentation.
 
 **Atelier prévu :** Présenter une décision argumentée sur trois expériences, avec conditions de généralisation et expérience suivante si l'incertitude demeure.
+
+**Livrable attendu :** Décision produit, plan de surveillance et fiche d’apprentissage réutilisable.
+
+**Pour aller plus loin :** Concevoir un suivi post-déploiement qui détecte un effet de nouveauté, une dérive ou un dommage sur une métrique de garde-fou.
 
 ## Évaluation finale prévue
 

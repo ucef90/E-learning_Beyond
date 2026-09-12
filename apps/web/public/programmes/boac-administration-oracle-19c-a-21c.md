@@ -1,12 +1,12 @@
 # Administration Oracle 19c à 21c
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -42,16 +42,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Situer instance, fichiers, mémoire et processus.
 - Distinguer CDB, PDB et connexions aux conteneurs.
 - Vérifier prérequis et étapes d'une installation reproductible.
+- Relier processus, mémoire, fichiers de contrôle, redo et datafiles dans l’architecture Oracle.
 
 **Atelier prévu :** Inventorier une instance préparée et relier chaque composant à sa fonction dans le cycle d'une requête.
+
+**Livrable attendu :** Schéma d’architecture et procédure d’installation.
+
+**Pour aller plus loin :** Expliquer les étapes de démarrage et diagnostiquer un échec à chaque niveau.
 
 ### Gérer les instances et le multitenant · 210 min
 
 - Démarrer et arrêter avec les états appropriés.
 - Administrer ouverture, fermeture et paramètres d'une PDB.
 - Distinguer utilisateur commun et utilisateur local.
+- Distinguer utilisateurs communs et locaux, paramètres hérités et services associés ; préciser les effets d’un changement au niveau CDB ou PDB.
 
 **Atelier prévu :** Créer ou configurer une PDB d'exercice puis vérifier la portée des utilisateurs et des paramètres.
+
+**Livrable attendu :** Procédures multitenant et contrôles de contexte.
+
+**Pour aller plus loin :** Identifier une opération lancée dans le mauvais conteneur.
 
 ## Jour 2 · 7 heures
 
@@ -60,16 +70,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Gérer tablespaces, fichiers et quotas.
 - Examiner croissance, espace libre et segments.
 - Prévenir saturation et opérations de maintenance risquées.
+- Gérer tablespaces, segments, extensions et croissance ; anticiper les limites de capacité.
 
 **Atelier prévu :** Diagnostiquer une erreur d'espace et proposer une correction justifiée avec contrôle de capacité.
+
+**Livrable attendu :** Plan de stockage et seuils de capacité.
+
+**Pour aller plus loin :** Analyser un échec d’allocation et comparer les solutions possibles.
 
 ### Administrer la sécurité · 210 min
 
 - Créer rôles et privilèges minimaux.
 - Examiner profils, authentification et traces d'audit.
 - Situer différences d'administration d'une base autonome gérée.
+- Configurer rôles, privilèges, comptes de service et audit selon le moindre privilège.
 
 **Atelier prévu :** Créer un profil applicatif et un profil de lecture puis prouver que chacun dispose uniquement des droits attendus.
+
+**Livrable attendu :** Matrice de privilèges et contrôles d’audit.
+
+**Pour aller plus loin :** Corriger un compte applicatif disposant de droits administrateur inutiles.
 
 ## Jour 3 · 7 heures
 
@@ -78,16 +98,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer sauvegarde complète, incrémentale et journaux archivés.
 - Relier objectifs de perte et de reprise aux choix techniques.
 - Préparer validation et restauration dans une cible isolée.
+- Relier sauvegardes, archived redo et objectifs de reprise ; tester RMAN en environnement isolé.
 
 **Atelier prévu :** Exécuter une restauration de laboratoire et contrôler tables, dates et cohérence avant de conclure à une reprise réussie.
+
+**Livrable attendu :** Scénario de restauration et preuves de contrôle.
+
+**Pour aller plus loin :** Restaurer puis récupérer jusqu’à un point cohérent et vérifier le résultat.
 
 ### Surveiller et préparer les évolutions · 210 min
 
 - Lire alertes, sessions et indicateurs de capacité.
 - Distinguer incidents de connexion, verrouillage et ressource.
 - Examiner différences 19c/21c, compatibilité et procédure de changement.
+- Surveiller capacité, erreurs et sauvegardes ; préparer compatibilité et répétition des évolutions.
 
 **Atelier prévu :** Livrer un guide d'exploitation avec contrôles quotidiens, preuve de restauration et liste des vérifications avant évolution de version.
+
+**Livrable attendu :** Runbook d’exploitation et plan d’évolution.
+
+**Pour aller plus loin :** Élaborer un plan de changement avec vérifications et retour arrière réaliste.
 
 ## Évaluation finale prévue
 

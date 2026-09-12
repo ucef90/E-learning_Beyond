@@ -1,12 +1,12 @@
 # Optimisation des requêtes SQL sous Oracle
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -43,16 +43,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Décrire charge, volumes et objectif de temps de réponse.
 - Distinguer durée, CPU, lectures et attentes.
 - Rejouer une requête dans des conditions comparables.
+- Mesurer durée, lectures, volume et fréquence avec un jeu représentatif et paramètres connus.
 
 **Atelier prévu :** Mesurer trois requêtes lentes et construire une fiche de référence avec paramètres, résultat et contexte d'exécution.
+
+**Livrable attendu :** Fiche de référence et protocole de mesure.
+
+**Pour aller plus loin :** Éviter de comparer une exécution à cache chaud avec une référence à cache froid.
 
 ### Lire les plans d'exécution · 210 min
 
 - Distinguer plan estimé et statistiques d'une exécution réelle.
 - Examiner cardinalités, sélectivité et ordres de jointure.
 - Utiliser DBMS_XPLAN dans le périmètre autorisé.
+- Lire cardinalités estimées et réelles, chemins d’accès et méthodes de jointure.
 
 **Atelier prévu :** Repérer l'opération qui multiplie les lignes dans une requête et comparer estimation et observation.
+
+**Livrable attendu :** Plan annoté et hypothèse de diagnostic.
+
+**Pour aller plus loin :** Localiser le premier écart d’estimation qui dégrade le plan.
 
 ## Jour 2 · 7 heures
 
@@ -61,16 +71,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Examiner prédicats, sous-requêtes et conversions implicites.
 - Éviter fonctions inutiles sur colonnes filtrées quand elles gênent l'accès.
 - Vérifier NULL, doublons et équivalence des résultats.
+- Préserver nulls, doublons et granularité lors d’une réécriture de jointure ou sous-requête.
 
 **Atelier prévu :** Réécrire une requête de reporting puis comparer exactement les jeux de résultats avant de mesurer le gain.
+
+**Livrable attendu :** Requête réécrite et tests d’équivalence.
+
+**Pour aller plus loin :** Prouver l’équivalence de deux requêtes sur des cas limites.
 
 ### Optimiser les accès aux données · 210 min
 
 - Choisir index simples ou composés selon les prédicats.
 - Évaluer sélectivité, ordre des colonnes et coût de maintenance.
 - Comprendre rôle des statistiques et limites des hints.
+- Évaluer sélectivité, index composites, fonctions sur colonnes et partitionnement.
 
 **Atelier prévu :** Tester deux index candidats et conserver celui dont le bénéfice est démontré sur la charge représentative.
+
+**Livrable attendu :** Proposition d’accès et bilan des coûts.
+
+**Pour aller plus loin :** Mesurer le gain de lecture face au coût d’écriture d’un nouvel index.
 
 ## Jour 3 · 7 heures
 
@@ -79,16 +99,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer problème SQL, verrou, mémoire et entrée-sortie.
 - Comprendre partitionnement et exécution parallèle selon les options disponibles.
 - Évaluer l'effet d'une optimisation sur les autres traitements.
+- Examiner statistiques, variables liées et paramètres pertinents ; vérifier les licences des outils utilisés.
 
 **Atelier prévu :** Étudier un rapport de charge et expliquer pourquoi ajouter du parallélisme peut aggraver la contention.
+
+**Livrable attendu :** Diagnostic serveur et leviers justifiés.
+
+**Pour aller plus loin :** Distinguer problème de requête, contention et manque de ressources.
 
 ### Stabiliser et documenter les améliorations · 210 min
 
 - Rejouer paramètres rares et volumes plus importants.
 - Prévoir surveillance de régression et retour arrière.
 - Documenter les outils nécessitant une licence particulière.
+- Contrôler stabilité sur plusieurs valeurs, concurrence et volumes ; prévoir retour arrière.
 
 **Atelier prévu :** Remettre trois fiches d'optimisation avec preuve d'équivalence, mesures avant/après et conditions de validité.
+
+**Livrable attendu :** Rapport d’optimisation et plan de surveillance.
+
+**Pour aller plus loin :** Détecter une optimisation favorable à un cas mais régressive pour les autres.
 
 ## Évaluation finale prévue
 

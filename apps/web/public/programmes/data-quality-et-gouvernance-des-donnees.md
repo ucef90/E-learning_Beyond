@@ -1,12 +1,12 @@
 # Data Quality et gouvernance des données
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer complétude, validité, unicité, cohérence et fraîcheur.
 - Relier défaut de donnée et impact métier.
 - Définir population, règle et seuil de chaque mesure.
+- Définir un seuil d’acceptation relié à une décision concrète ; comparer coût d’une erreur non détectée et coût d’un faux signal d’anomalie.
 
 **Atelier prévu :** Profiler un référentiel client et produire un tableau de défauts dont les taux ont des dénominateurs explicites.
+
+**Livrable attendu :** Matrice usages et dimensions de qualité.
+
+**Pour aller plus loin :** Distinguer une donnée techniquement valide d’une donnée impropre à une décision.
 
 ### Rechercher les causes et définir les responsabilités · 210 min
 
 - Remonter du symptôme au processus de saisie ou d'intégration.
 - Distinguer data owner, steward et producteur.
 - Organiser résolution et arbitrage des règles contradictoires.
+- Relier anomalie, origine, règle métier et propriétaire ; rechercher les causes en amont.
 
 **Atelier prévu :** Analyser les causes d'adresses incohérentes puis attribuer correction immédiate et prévention durable.
+
+**Livrable attendu :** Analyse de causes et responsabilités.
+
+**Pour aller plus loin :** Éviter de corriger périodiquement le symptôme sans traiter le processus source.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Écrire règles vérifiables et tests de données.
 - Définir rejet, alerte ou correction selon le risque.
 - Conserver traçabilité et preuve de résolution.
+- Définir seuils, fréquence, gravité, quarantaine et circuit de résolution des anomalies.
 
 **Atelier prévu :** Rédiger cinq règles de qualité avec cas valides et invalides, puis organiser une file de traitement des anomalies.
+
+**Livrable attendu :** Catalogue de contrôles et workflow d’anomalies.
+
+**Pour aller plus loin :** Gérer une exception légitime sans désactiver le contrôle pour toute la population.
 
 ### Piloter un plan d'amélioration · 210 min
 
 - Prioriser impact, fréquence et effort.
 - Suivre stock d'anomalies, délai de correction et récidive.
 - Relier catalogue, glossaire et engagements de qualité.
+- Prioriser selon impact, récurrence et effort ; mesurer coût des erreurs et efficacité des corrections.
 
 **Atelier prévu :** Livrer un plan à trente jours avec responsables, règles, indicateurs et revue de l'efficacité des corrections.
+
+**Livrable attendu :** Plan d’amélioration et tableau de suivi.
+
+**Pour aller plus loin :** Vérifier qu’une baisse d’alertes vient d’une amélioration réelle de qualité.
 
 ## Évaluation finale prévue
 

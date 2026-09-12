@@ -1,12 +1,12 @@
 # UML 2 - Analyse et conception
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer besoin, analyse et conception.
 - Relier acteurs, frontières du système et cas d'utilisation.
 - Éviter de produire un diagramme sans destinataire ni décision attendue.
+- Choisir abstraction et point de vue ; relier cas d’utilisation, exigences et acceptation.
 
 **Atelier prévu :** Définir le périmètre d'un service de réservation et rédiger deux scénarios avec variantes et erreurs.
+
+**Livrable attendu :** Plan de modélisation et cas d’utilisation.
+
+**Pour aller plus loin :** Justifier le modèle minimal utile à une décision de conception.
 
 ### Modéliser le domaine métier · 210 min
 
 - Identifier classes, attributs, associations et multiplicités.
 - Distinguer agrégation, composition et héritage lorsqu'ils sont justifiés.
 - Exprimer invariants et règles métier sans détails d'interface.
+- Préciser identités, associations, cardinalités et invariants ; distinguer domaine et persistance.
 
 **Atelier prévu :** Construire le modèle réservation-ressource-client puis le confronter à une annulation partielle et à un créneau indisponible.
+
+**Livrable attendu :** Diagramme de domaine et invariants.
+
+**Pour aller plus loin :** Modéliser une règle temporelle sans introduire de classe artificielle.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Utiliser diagrammes de séquence et messages.
 - Représenter alternatives, répétitions et appels asynchrones.
 - Affecter les responsabilités aux bons composants.
+- Attribuer chaque message à une responsabilité métier ; représenter répétitions, délais et compensation d’une action partiellement exécutée.
 
 **Atelier prévu :** Modéliser la confirmation d'une réservation et vérifier que les messages correspondent aux opérations du modèle de classes.
+
+**Livrable attendu :** Séquences nominales et dégradées.
+
+**Pour aller plus loin :** Analyser les interactions lors d’une indisponibilité distante.
 
 ### Décrire processus et cycles de vie · 210 min
 
 - Employer activités, décisions et synchronisations.
 - Choisir un diagramme d'états pour les transitions d'un objet.
 - Définir événements, gardes et transitions interdites.
+- Utiliser gardes, événements, transitions et concurrence pour représenter le cycle de vie.
 
 **Atelier prévu :** Dessiner le cycle de vie d'une réservation et repérer les transitions impossibles ou non couvertes par les scénarios.
+
+**Livrable attendu :** Diagrammes d’activité et d’états.
+
+**Pour aller plus loin :** Repérer une transition impossible et un blocage de validation.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer composants, interfaces et dépendances.
 - Décrire nœuds de déploiement et communications.
 - Relier exigences non fonctionnelles et choix de conception.
+- Relier composants, interfaces et déploiement aux contraintes de disponibilité et sécurité.
 
 **Atelier prévu :** Proposer une architecture de réservation et localiser les contrôles d'accès, la persistance et les échanges externes.
+
+**Livrable attendu :** Vue d’architecture et décisions justifiées.
+
+**Pour aller plus loin :** Comparer deux découpages selon couplage et responsabilité.
 
 ### Relire la cohérence des modèles · 210 min
 
 - Vérifier correspondance entre scénarios, états, classes et interactions.
 - Détecter ambiguïtés, responsabilités excessives et couplages inutiles.
 - Maintenir les diagrammes utiles lors d'un changement de besoin.
+- Contrôler la traçabilité entre exigences, états, messages et classes.
 
 **Atelier prévu :** Présenter un dossier UML cohérent puis intégrer une nouvelle règle de réservation en identifiant les modèles affectés.
+
+**Livrable attendu :** Dossier UML et compte rendu de revue.
+
+**Pour aller plus loin :** Introduire une règle métier et mesurer les modèles à modifier.
 
 ## Évaluation finale prévue
 

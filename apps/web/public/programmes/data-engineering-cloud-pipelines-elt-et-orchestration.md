@@ -1,12 +1,12 @@
 # Data Engineering cloud : pipelines ELT et orchestration
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier volumes, fraîcheur, schémas et règles de conservation.
 - Séparer ingestion brute, transformation et exposition analytique.
 - Comparer batch, micro-batch et capture de changements selon le besoin.
+- Préciser granularité, schéma, clés, SLA de fraîcheur, responsabilité des sources et règles d’évolution des contrats.
 
 **Atelier prévu :** Écrire le contrat d'une source commandes et dessiner le chemin vers les tables analytiques, avec responsabilités et délais attendus.
+
+**Livrable attendu :** Architecture ELT et contrats de données versionnés.
+
+**Pour aller plus loin :** Comparer batch, micro-batch et CDC selon le volume, la latence attendue, le coût et les capacités de reprise.
 
 ### Ingérer de manière incrémentale · 210 min
 
 - Gérer pagination, quotas, dates de modification et marqueurs de reprise.
 - Traiter suppressions, événements tardifs et évolutions de schéma.
 - Conserver données brutes et métadonnées d'exécution.
+- Gérer watermark, CDC, suppressions, événements tardifs, doublons et changements de schéma sans perdre la traçabilité.
 
 **Atelier prévu :** Simuler deux extractions avec chevauchement et vérifier que la seconde n'ajoute pas de doublons ni n'oublie une correction tardive.
+
+**Livrable attendu :** Connecteur incrémental, journal de rejets et protocole de reprise.
+
+**Pour aller plus loin :** Rejouer une plage temporelle après incident et démontrer l’idempotence du chargement sur des données déjà présentes.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Construire couches nettoyées et agrégées avec dépendances explicites.
 - Tester unicité, nullité, références et rapprochement des montants.
 - Isoler les rejets et documenter les règles de correction.
+- Construire des transformations modulaires avec tests de clés, de relations, de complétude et de fraîcheur.
 
 **Atelier prévu :** Assembler clients et commandes ; produire un rapport distinguant données acceptées, mises en quarantaine et erreurs bloquantes.
+
+**Livrable attendu :** Modèles de transformation, tests de données et documentation du lignage.
+
+**Pour aller plus loin :** Comparer reconstruction complète et modèle incrémental, puis traiter une correction tardive modifiant un historique déjà calculé.
 
 ### Orchestrer et rejouer les traitements · 210 min
 
 - Définir tâches, dépendances, retries et délais maximaux.
 - Rendre les écritures idempotentes et gérer les exécutions concurrentes.
 - Rejouer une période historique sans écraser des données récentes.
+- Exprimer dépendances, états d’exécution, retries, backoff, paramètres et limites de concurrence dans le DAG.
 
 **Atelier prévu :** Provoquer une panne intermédiaire, relancer le flux et vérifier les totaux après reprise puis après backfill.
+
+**Livrable attendu :** DAG paramétrable et procédure de backfill testée.
+
+**Pour aller plus loin :** Concevoir un backfill borné qui évite doubles calculs, surcharge du système source et incohérence des tables aval.
 
 ## Jour 3 · 7 heures
 
@@ -75,16 +95,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Suivre fraîcheur, volumes, durée, coûts et taux de rejet.
 - Séparer identités techniques, secrets et droits par environnement.
 - Dimensionner partitions et traitements à partir de mesures.
+- Suivre volumes, erreurs, coûts et fraîcheur ; isoler les secrets et limiter les droits des identités techniques.
 
 **Atelier prévu :** Diagnostiquer une rupture de fraîcheur et proposer une optimisation chiffrée sur des métriques de démonstration.
+
+**Livrable attendu :** Tableau d’exploitation, budget de consommation et matrice des accès.
+
+**Pour aller plus loin :** Analyser une rupture de SLA et arbitrer réduction du scan, partitionnement, parallélisme et fréquence d’exécution.
 
 ### Livrer un pipeline maintenable · 210 min
 
 - Versionner code, configuration et transformations.
 - Préparer recette, promotion entre environnements et retour arrière.
 - Rédiger une procédure d'incident et un catalogue des dépendances.
+- Séparer environnements, configurations et données de test ; prévoir validation automatique et promotion contrôlée.
 
 **Atelier prévu :** Restituer le pipeline commandes avec tests, journal de reprise et guide d'exploitation qu'un collègue peut suivre.
+
+**Livrable attendu :** Dépôt livrable, dossier d’exploitation et recette de reprise.
+
+**Pour aller plus loin :** Faire reprendre le pipeline par un tiers à partir du dépôt, du runbook et d’un incident simulé documenté.
 
 ## Évaluation finale prévue
 

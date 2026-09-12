@@ -1,12 +1,12 @@
 # SQL Perfectionnement
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -41,16 +41,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir grain, population et cardinalité du résultat.
 - Décomposer une demande en étapes relationnelles.
 - Choisir des jeux de test qui révèlent les erreurs.
+- Définir grain, clés, cardinalité attendue et traitement des valeurs absentes avant le SQL.
 
 **Atelier prévu :** Dessiner l'arbre de traitement d'un reporting de commandes partiellement payées avant d'écrire la requête.
+
+**Livrable attendu :** Contrat de résultat et données de contrôle.
+
+**Pour aller plus loin :** Repérer une mesure additionnée à un grain incompatible.
 
 ### Maîtriser les jointures avancées · 210 min
 
 - Comparer jointures internes, externes et auto-jointures.
 - Déplacer un filtre entre ON et WHERE en analysant l'effet.
 - Éviter multiplication des montants par relations un-à-plusieurs.
+- Maîtriser semi-jointures, anti-jointures et jointures externes avec filtres correctement placés.
 
 **Atelier prévu :** Conserver les clients sans commande tout en calculant leurs totaux et vérifier les cas zéro, un et plusieurs paiements.
+
+**Livrable attendu :** Requêtes comparées et cas limites.
+
+**Pour aller plus loin :** Expliquer une perte de lignes causée par WHERE après LEFT JOIN.
 
 ## Jour 2 · 7 heures
 
@@ -59,16 +69,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer EXISTS, IN et sous-requête corrélée.
 - Analyser NULL dans les exclusions et préférer une formulation sûre.
 - Utiliser UNION, INTERSECT et différence selon le dialecte.
+- Comparer EXISTS, IN, agrégats corrélés, UNION et UNION ALL selon leur sémantique.
 
 **Atelier prévu :** Trouver les clients ayant commandé tous les produits d'une sélection et justifier le traitement des valeurs absentes.
+
+**Livrable attendu :** Jeu de requêtes et preuve des différences.
+
+**Pour aller plus loin :** Analyser l’effet des NULL sur une exclusion de type NOT IN.
 
 ### Structurer avec CTE et fenêtres · 210 min
 
 - Découper une requête avec des CTE lisibles.
 - Utiliser partition, ordre et cadre de fenêtre.
 - Calculer rang, cumul et comparaison à la ligne précédente.
+- Combiner CTE, partitions, ordre et cadres de fenêtre pour rangs, cumuls et écarts.
 
 **Atelier prévu :** Produire un classement mensuel avec ex æquo, cumul et variation en vérifiant la première période de chaque client.
+
+**Livrable attendu :** Reporting analytique avec fenêtres validées.
+
+**Pour aller plus loin :** Corriger un cumul erroné provoqué par des ex æquo dans l’ordre.
 
 ## Jour 3 · 7 heures
 
@@ -77,16 +97,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comprendre récursion et condition d'arrêt.
 - Détecter chevauchements et trous dans des historiques.
 - Distinguer intervalle inclusif et borne de fin exclusive.
+- Construire récursivité, calendriers et intervalles ; détecter cycles, trous et recouvrements.
 
 **Atelier prévu :** Interroger une hiérarchie de services et rechercher les périodes contractuelles qui se chevauchent.
+
+**Livrable attendu :** Requête temporelle et règles de bornage.
+
+**Pour aller plus loin :** Résoudre un historique de statuts avec bornes de validité ambiguës.
 
 ### Valider et optimiser la requête finale · 210 min
 
 - Comparer résultat à des invariants métier.
 - Lire un plan et réduire les calculs répétés.
 - Documenter hypothèses, limites et dépendances de dialecte.
+- Vérifier invariants, volumétrie et plan d’exécution sans modifier le résultat métier.
 
 **Atelier prévu :** Livrer une requête complexe en étapes avec données de test et preuve de conservation des montants.
+
+**Livrable attendu :** Requête finale, tests et dossier d’optimisation.
+
+**Pour aller plus loin :** Comparer une optimisation sur plusieurs distributions de données.
 
 ## Évaluation finale prévue
 

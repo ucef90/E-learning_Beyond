@@ -1,0 +1,132 @@
+[
+  {
+    "index": 60,
+    "slug": "agile-pour-directions-metier",
+    "units": [
+      [
+        "Distinguer livraison incrémentale, apprentissage et simple découpage en lots ; relier feedback et décision.",
+        "Comparer plan prédictif et approche adaptative selon incertitude et contraintes.",
+        "Grille de choix d’approche et vocabulaire partagé."
+      ],
+      [
+        "Définir vision, moyens, contraintes et disponibilité pour les arbitrages du sponsor.",
+        "Soutenir l’autonomie de l’équipe sans abandonner les décisions de gouvernance.",
+        "Contrat de sponsoring et responsabilités."
+      ],
+      [
+        "Relier résultats utilisateurs, hypothèses et coût d’opportunité aux décisions d’investissement.",
+        "Décider de poursuivre, adapter ou arrêter une initiative après retour terrain.",
+        "Note d’arbitrage fondée sur les résultats."
+      ],
+      [
+        "Organiser échanges métier-équipe, transparence et résolution des dépendances.",
+        "Éviter une gouvernance qui exige simultanément périmètre figé et adaptation permanente.",
+        "Cadre de coopération et règles de décision."
+      ]
+    ]
+  },
+  {
+    "index": 61,
+    "slug": "product-owner-pilotage-par-la-valeur",
+    "units": [
+      [
+        "Relier problème utilisateur, proposition de valeur, objectif produit et mesure de succès.",
+        "Distinguer objectif de résultat et quantité de fonctionnalités livrées.",
+        "Vision produit et hypothèses mesurables."
+      ],
+      [
+        "Découper verticalement un besoin par scénario, règle ou population ; rendre un incrément utilisable sans attendre la livraison de toutes les couches techniques.",
+        "Réduire un élément trop large en incréments apportant chacun une valeur identifiable.",
+        "Backlog structuré et critères d’acceptation."
+      ],
+      [
+        "Comparer coût du retard, réduction du risque et gain d’apprentissage ; tester la sensibilité de l’ordre du backlog aux estimations incertaines.",
+        "Arbitrer une demande urgente qui ne contribue pas à l’objectif produit.",
+        "Backlog ordonné et décisions justifiées."
+      ],
+      [
+        "Exploiter retours d’usage et données pour réviser hypothèses et priorités.",
+        "Distinguer absence d’adoption, problème de mesure et solution inadaptée.",
+        "Plan de mesure et revue de résultats."
+      ]
+    ]
+  },
+  {
+    "index": 62,
+    "slug": "pmo-operationnel-et-gouvernance-de-portefeuille",
+    "units": [
+      [
+        "Définir clients internes, services, valeur et limites d’intervention du PMO.",
+        "Écarter un reporting coûteux sans utilité décisionnelle démontrée.",
+        "Catalogue de services et engagements du PMO."
+      ],
+      [
+        "Qualifier demandes, sponsors, business cases et jalons d’entrée, poursuite ou arrêt.",
+        "Traiter un projet lancé hors gouvernance sans fausser la vision du portefeuille.",
+        "Processus d’entrée et grille de décision."
+      ],
+      [
+        "Comparer priorités avec capacité réelle, compétences rares et dépendances.",
+        "Simuler l’arrêt ou le décalage d’une initiative pour résoudre une surcharge.",
+        "Scénarios de portefeuille et arbitrages de capacité."
+      ],
+      [
+        "Organiser collecte, qualité, consolidation, comité et suivi des décisions.",
+        "Repérer les écarts entre données déclarées et preuves d’avancement.",
+        "Cockpit de portefeuille et cadence de pilotage."
+      ]
+    ]
+  },
+  {
+    "index": 63,
+    "slug": "kpi-et-pilotage-de-la-performance-projet",
+    "units": [
+      [
+        "Associer chaque KPI à une décision, une définition, une source et un responsable.",
+        "Identifier un indicateur qui encourage un comportement contraire à l’objectif.",
+        "Dictionnaire des KPI et risques d’interprétation."
+      ],
+      [
+        "Distinguer charge consommée, reste à faire, avancement et prévision de fin.",
+        "Réconcilier un avancement élevé avec une échéance qui continue de reculer.",
+        "Analyse des délais et hypothèses de prévision."
+      ],
+      [
+        "Relier réalisé, engagé, prévision à terminaison, exposition aux risques et valeur attendue.",
+        "Construire un scénario budgétaire tenant compte d’un risque non encore réalisé.",
+        "Prévision consolidée et analyse des écarts."
+      ],
+      [
+        "Hiérarchiser signaux, tendances et actions ; afficher fraîcheur et fiabilité des données.",
+        "Conduire une revue où les indicateurs se contredisent sans choisir le plus favorable.",
+        "Cockpit et compte rendu de décision."
+      ]
+    ]
+  },
+  {
+    "index": 64,
+    "slug": "rag-et-bases-vectorielles-pour-entreprise",
+    "units": [
+      [
+        "Relier ingestion, découpage, embeddings, recherche, contexte et génération ; définir une baseline.",
+        "Comparer recherche documentaire seule et réponse générée selon besoin utilisateur.",
+        "Architecture RAG et contrat de réponse."
+      ],
+      [
+        "Choisir taille des segments, métadonnées, recherche hybride et filtrage selon les documents.",
+        "Préserver les droits d’accès lors de l’indexation et de la recherche.",
+        "Pipeline d’indexation et règles d’accès."
+      ],
+      [
+        "Construire contexte, citations, refus en absence de preuve et protection contre instructions documentaires.",
+        "Traiter deux sources contradictoires sans produire une synthèse faussement certaine.",
+        "Réponse sourcée et scénarios de refus."
+      ],
+      [
+        "Séparer rappel de recherche, pertinence, fidélité, latence et coût ; versionner corpus et tests.",
+        "Diagnostiquer une réponse erronée en localisant recherche, contexte ou génération.",
+        "Banc d’évaluation et plan d’exploitation."
+      ]
+    ]
+  }
+]

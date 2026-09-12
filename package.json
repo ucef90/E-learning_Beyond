@@ -27,7 +27,9 @@
     "catalog:programmes:test": "node scripts/test-programmes.cjs",
     "quality:test": "node --env-file=.env scripts/test-quality.cjs",
     "quality:readiness": "node scripts/quality-readiness.cjs",
-    "quality:test:pages": "node scripts/test-quality-pages.cjs"
+    "quality:test:pages": "node scripts/test-quality-pages.cjs",
+    "catalog:programmes:enrich": "node scripts/enrich-programmes.cjs",
+    "catalog:sessions:test": "node scripts/test-monthly-sessions.mts"
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",

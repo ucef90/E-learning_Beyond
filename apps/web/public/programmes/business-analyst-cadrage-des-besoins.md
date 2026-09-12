@@ -1,12 +1,12 @@
 # Business Analyst : cadrage des besoins et exigences
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer besoin, contrainte et solution proposée.
 - Identifier utilisateurs, décideurs et personnes affectées.
 - Définir périmètre, exclusions et critères de succès.
+- Définir problème, objectif, périmètre et parties prenantes sans présupposer la solution.
 
 **Atelier prévu :** Reformuler une demande de portail en problème métier et produire une carte des parties prenantes à consulter.
+
+**Livrable attendu :** Note de cadrage et hypothèses.
+
+**Pour aller plus loin :** Reformuler une demande d’outil en besoin métier vérifiable.
 
 ### Recueillir et confronter les besoins · 210 min
 
 - Préparer entretiens, observation et atelier collectif.
 - Poser questions ouvertes et rechercher exemples concrets.
 - Identifier contradictions et besoins non confirmés.
+- Combiner entretiens, observation, documents et ateliers ; confronter les divergences.
 
 **Atelier prévu :** Conduire un entretien simulé et séparer faits recueillis, hypothèses et questions restant à clarifier.
+
+**Livrable attendu :** Synthèse des besoins et points de désaccord.
+
+**Pour aller plus loin :** Analyser un besoin déclaré qui contredit le fonctionnement observé.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Écrire règles métier, exigences fonctionnelles et non fonctionnelles.
 - Définir critères d'acceptation avec exemples et cas limites.
 - Maintenir la traçabilité vers la source du besoin.
+- Rédiger exigences fonctionnelles, règles et contraintes avec critères d’acceptation.
 
 **Atelier prévu :** Rédiger un petit backlog et des scénarios d'acceptation couvrant accès, erreurs et performance attendue.
+
+**Livrable attendu :** Catalogue d’exigences et exemples d’acceptation.
+
+**Pour aller plus loin :** Transformer une exigence vague de rapidité en condition mesurable.
 
 ### Prioriser et faire valider · 210 min
 
 - Arbitrer valeur, risque, dépendances et faisabilité.
 - Organiser revue avec métier et équipe de réalisation.
 - Gérer changement de besoin et impact sur le périmètre.
+- Prioriser selon valeur, risque, dépendances et coût ; maintenir traçabilité et décisions.
 
 **Atelier prévu :** Présenter un dossier de cadrage puis traiter une nouvelle demande en explicitant ses conséquences et la décision attendue.
+
+**Livrable attendu :** Baseline des besoins et registre des arbitrages.
+
+**Pour aller plus loin :** Gérer une demande tardive en documentant son impact sur le périmètre.
 
 ## Évaluation finale prévue
 

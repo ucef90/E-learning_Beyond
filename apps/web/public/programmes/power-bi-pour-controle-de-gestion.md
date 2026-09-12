@@ -1,12 +1,12 @@
 # Power BI pour le contrôle de gestion
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Importer réalisé, budget et prévision avec Power Query.
 - Aligner périodes, comptes, centres et scénarios.
 - Choisir le grain et éviter les relations ambiguës.
+- Structurer réalisé, budget, prévision, calendrier et axes analytiques au grain approprié.
 
 **Atelier prévu :** Construire un modèle en étoile puis rapprocher le réalisé d'un total de contrôle comptable fourni dans le scénario.
+
+**Livrable attendu :** Modèle financier et table de correspondance.
+
+**Pour aller plus loin :** Réconcilier des sources dont les périodes et plans de comptes diffèrent.
 
 ### Calculer les mesures DAX · 210 min
 
 - Distinguer colonne calculée et mesure.
 - Comprendre contexte de filtre et usage de CALCULATE.
 - Calculer écart absolu, taux d'écart et cumul avec division contrôlée.
+- Maîtriser contexte de filtre, CALCULATE, itérations et mesures temporelles.
 
 **Atelier prévu :** Créer les mesures réalisé-budget et vérifier leurs résultats au niveau d'un centre, d'un mois et du total général.
+
+**Livrable attendu :** Mesures DAX et tests de totaux.
+
+**Pour aller plus loin :** Corriger un total différent de la somme des lignes et justifier la logique métier.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer périodes à périmètre constant.
 - Décomposer les écarts avec hypothèses explicites.
 - Construire vues de synthèse et drill-through vers le détail.
+- Décomposer écarts volume, prix et mix ; distinguer simulation et données constatées.
 
 **Atelier prévu :** Créer un tableau de bord expliquant trois écarts, dont un effet de calendrier qui ne traduit pas une dérive économique.
+
+**Livrable attendu :** Analyse des écarts et scénarios documentés.
+
+**Pour aller plus loin :** Analyser un écart favorable global masquant des segments défavorables.
 
 ### Fiabiliser diffusion et actualisation · 210 min
 
 - Tester filtres, rapprochements et données absentes.
 - Configurer ou simuler sécurité par ligne et contrôle des accès.
 - Préparer actualisation, responsabilités et limites de diffusion selon les licences.
+- Organiser actualisation, passerelle si nécessaire, droits et sécurité au niveau des lignes.
 
 **Atelier prévu :** Livrer le fichier Power BI avec dictionnaire de mesures, recette de rapprochement et procédure de mise à jour.
+
+**Livrable attendu :** Plan de diffusion et recette des accès.
+
+**Pour aller plus loin :** Tester un rôle restreint et détecter une actualisation partielle.
 
 ## Évaluation finale prévue
 

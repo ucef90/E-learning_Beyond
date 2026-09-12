@@ -1,12 +1,12 @@
 # Décoder les comportements, émotions et attitudes de ses interlocuteurs
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Séparer comportement visible, interprétation et hypothèse.
 - Prendre en compte contexte, culture et habitudes individuelles.
 - Reconnaître les limites de l'observation non verbale.
+- Séparer observation, interprétation et hypothèse ; tenir compte du contexte et de la culture.
 
 **Atelier prévu :** Décrire une scène en utilisant seulement des faits observables puis comparer les interprétations divergentes du groupe.
+
+**Livrable attendu :** Grille d’observation sans jugement.
+
+**Pour aller plus loin :** Produire plusieurs explications plausibles d’un comportement ambigu.
 
 ### Écouter les mots et la formulation · 210 min
 
 - Repérer demandes explicites, ambiguïtés et non-dits possibles.
 - Utiliser questions ouvertes et reformulation.
 - Vérifier le sens d'un terme avant de répondre.
+- Repérer demandes, réserves, implicites et changements de formulation dans un échange.
 
 **Atelier prévu :** Mener un échange où deux personnes utilisent le mot urgent différemment et obtenir une définition partagée.
+
+**Livrable attendu :** Transcription commentée et questions de clarification.
+
+**Pour aller plus loin :** Vérifier le sens d’une expression sans attribuer d’intention cachée.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Observer rythme, posture, regard et distance dans leur contexte.
 - Éviter les associations automatiques entre geste et intention.
 - Interroger avec tact lorsqu'un signal semble contradictoire.
+- Considérer posture, rythme et regard comme indices contextuels, sans prétendre détecter mensonge ou personnalité.
 
 **Atelier prévu :** Analyser deux interprétations d'une même posture et formuler une question neutre pour clarifier la situation.
+
+**Livrable attendu :** Analyse contextualisée des indices non verbaux.
+
+**Pour aller plus loin :** Comparer deux situations où un même geste a des significations différentes.
 
 ### Nommer une émotion avec prudence · 210 min
 
 - Distinguer son propre ressenti et celui supposé d'autrui.
 - Proposer une reformulation que l'autre peut corriger.
 - Reconnaître une émotion sans décider à la place de la personne.
+- Proposer une hypothèse émotionnelle et laisser l’interlocuteur la confirmer ou la corriger.
 
 **Atelier prévu :** S'entraîner à vérifier une impression de frustration et adapter sa réponse à la correction apportée par l'interlocuteur.
+
+**Livrable attendu :** Formulations prudentes et réponses possibles.
+
+**Pour aller plus loin :** Accueillir une correction sans défendre sa première interprétation.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Repérer biais de confirmation et attribution d'intention.
 - Revenir aux faits et au besoin de chacun.
 - Ajuster canal, rythme et niveau de détail.
+- Reformuler faits, besoins et désaccords ; vérifier la compréhension avant de chercher une solution.
 
 **Atelier prévu :** Rejouer un échange écrit mal interprété sous forme d'entretien de clarification puis convenir d'une action.
+
+**Livrable attendu :** Scénario de clarification et accord explicite.
+
+**Pour aller plus loin :** Rejouer un échange où deux personnes emploient le même mot différemment.
 
 ### Construire une communication plus juste · 210 min
 
 - Choisir un comportement d'écoute à pratiquer.
 - Demander un retour sur l'effet de sa communication.
 - Évaluer ses progrès sur des situations comparables.
+- Choisir des pratiques de vérification et de feedback adaptées aux interactions récurrentes.
 
 **Atelier prévu :** Conduire un entretien final observé et expliquer quelles hypothèses ont été confirmées, corrigées ou laissées ouvertes.
+
+**Livrable attendu :** Plan de communication et grille de suivi.
+
+**Pour aller plus loin :** Évaluer la qualité de compréhension sans catégoriser les interlocuteurs.
 
 ## Évaluation finale prévue
 

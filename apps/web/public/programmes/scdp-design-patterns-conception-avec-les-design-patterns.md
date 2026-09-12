@@ -1,12 +1,12 @@
 # Design Patterns : Conception avec les Design Patterns
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Repérer couplage, duplication et responsabilités mêlées.
 - Distinguer patron, principe de conception et recette automatique.
 - Formuler les variations que le logiciel doit supporter.
+- Repérer couplage, responsabilités dispersées et points de variation avant de choisir un pattern.
 
 **Atelier prévu :** Analyser un module de tarification et définir trois changements futurs avant de choisir une solution.
+
+**Livrable attendu :** Diagnostic de conception et critères de choix.
+
+**Pour aller plus loin :** Justifier l’absence de pattern quand une solution simple suffit.
 
 ### Séparer la création des objets · 210 min
 
 - Comparer Factory Method, Abstract Factory et Builder.
 - Encapsuler construction complexe et dépendances variables.
 - Discuter limites des singletons et de l'état global.
+- Préserver les invariants dès la construction, injecter les dépendances et distinguer configuration d’objet et sélection de sa famille concrète.
 
 **Atelier prévu :** Remplacer une construction dispersée d'objets par une fabrique puis tester une nouvelle famille de tarifs.
+
+**Livrable attendu :** Implémentation de création et tests d’invariants.
+
+**Pour aller plus loin :** Faire évoluer une famille d’objets sans propager des conditions partout.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Utiliser Adapter pour une interface incompatible.
 - Comparer Decorator, Facade et Composite selon le besoin.
 - Éviter couches d'abstraction sans bénéfice mesurable.
+- Distinguer Adapter, Decorator, Facade et Composite selon les relations recherchées.
 
 **Atelier prévu :** Brancher un fournisseur de prix externe via un adaptateur et conserver les tests du contrat interne.
+
+**Livrable attendu :** Structure refactorisée et diagramme de dépendances.
+
+**Pour aller plus loin :** Ajouter une capacité sans modifier le contrat attendu par les clients.
 
 ### Faire varier les comportements · 210 min
 
 - Comparer Strategy, State et Template Method.
 - Organiser notifications avec Observer et responsabilités explicites.
 - Encapsuler une action avec Command si annulation ou journalisation l'exigent.
+- Comparer Strategy, State, Observer et Command selon variabilité et temporalité.
 
 **Atelier prévu :** Ajouter une stratégie de remise et une évolution d'état de commande sans empiler des conditions globales.
+
+**Livrable attendu :** Comportements interchangeables et scénarios testés.
+
+**Pour aller plus loin :** Traiter ordre des événements et effets secondaires dans un exemple concret.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Mesurer lisibilité, dépendances et coût d'extension.
 - Tester par contrats et cas de comportement.
 - Repérer surconception et abstraction prématurée.
+- Évaluer lisibilité, extensibilité, allocation et complexité induite par les patterns.
 
 **Atelier prévu :** Relire deux solutions au même besoin et supprimer un pattern qui complique inutilement l'exemple.
+
+**Livrable attendu :** Matrice de compromis et décision documentée.
+
+**Pour aller plus loin :** Retirer une abstraction devenue coûteuse sans casser le comportement.
 
 ### Conduire un refactoring progressif · 210 min
 
 - Protéger le comportement avant la modification.
 - Modifier une responsabilité à la fois.
 - Documenter l'intention et les alternatives rejetées.
+- S’appuyer sur tests de caractérisation, petites étapes et interfaces de transition.
 
 **Atelier prévu :** Livrer le module refactoré et démontrer l'ajout d'une règle tarifaire avec un nombre limité de modifications.
+
+**Livrable attendu :** Plan de refactoring et historique des vérifications.
+
+**Pour aller plus loin :** Conduire une migration tout en conservant la compatibilité des appels existants.
 
 ## Évaluation finale prévue
 

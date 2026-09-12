@@ -1,12 +1,12 @@
 # Data Warehouse et modélisation dimensionnelle
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Distanciel
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer entrepôt, data mart et lakehouse.
 - Recueillir questions métier et fréquence de mise à jour.
 - Identifier systèmes sources et limites de couverture.
+- Relier besoins décisionnels, systèmes sources, zones de traitement et usages de restitution.
 
 **Atelier prévu :** Établir une matrice processus-dimensions pour ventes, stocks et retours d'une entreprise fictive.
+
+**Livrable attendu :** Architecture décisionnelle et périmètre.
+
+**Pour aller plus loin :** Arbitrer modèle centralisé et besoins locaux sans multiplier les définitions d’un KPI.
 
 ### Définir le grain et les faits · 210 min
 
 - Choisir unité de chaque ligne de fait.
 - Distinguer faits de transaction et snapshots.
 - Identifier mesures additives, semi-additives et non additives.
+- Définir le grain avant les mesures ; distinguer faits transactionnels, snapshots et mesures non additives.
 
 **Atelier prévu :** Modéliser ventes et stock journalier en expliquant pourquoi un stock ne s'additionne pas entre plusieurs dates.
+
+**Livrable attendu :** Table de faits et règles d’agrégation.
+
+**Pour aller plus loin :** Éviter l’addition d’un solde ou d’un taux sur des dimensions inadaptées.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir clés métier et clés techniques.
 - Organiser hiérarchies et dimensions partagées.
 - Traiter membre inconnu et données de référence absentes.
+- Construire clés substituts, hiérarchies, dimensions conformes et membre inconnu.
 
 **Atelier prévu :** Créer dimensions produit, client et calendrier puis vérifier leur utilisation commune dans deux tables de faits.
+
+**Livrable attendu :** Modèle dimensionnel et dictionnaire des attributs.
+
+**Pour aller plus loin :** Traiter une dimension utilisée dans plusieurs processus métier.
 
 ### Gérer les changements et l'historique · 210 min
 
 - Comparer SCD de type 1 et de type 2.
 - Définir dates de validité et recherche de la bonne version.
 - Traiter dimensions arrivant tard et corrections rétroactives.
+- Comparer changements de type 1 et 2, dates de validité et arrivées tardives.
 
 **Atelier prévu :** Historiser un changement de région client et vérifier que les anciennes ventes restent rattachées à la version correcte.
+
+**Livrable attendu :** Règles d’historisation et cas de test.
+
+**Pour aller plus loin :** Reconstituer une analyse historique malgré une correction de référentiel.
 
 ## Jour 3 · 7 heures
 
@@ -75,16 +95,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir ordre de chargement et déduplication.
 - Rapprocher lignes, montants et références.
 - Préparer tables d'agrégats sans changer le sens des mesures.
+- Ordonner chargements, gérer clés absentes et contrôler complétude, unicité et rapprochement.
 
 **Atelier prévu :** Charger un lot de ventes puis détecter une clé manquante et un doublon qui faussent le reporting.
+
+**Livrable attendu :** Pipeline de chargement et contrôles de cohérence.
+
+**Pour aller plus loin :** Rejouer un chargement partiel sans corrompre les périodes historiques.
 
 ### Valider le modèle avec les utilisateurs · 210 min
 
 - Écrire requêtes de recette à partir des questions métier.
 - Documenter grain, calculs et limites.
 - Prévoir évolution de dimensions et suivi de qualité.
+- Tester requêtes métier, performances, compréhension des mesures et évolutions prévues.
 
 **Atelier prévu :** Présenter schéma en étoile, dictionnaire et requêtes de contrôle répondant aux besoins initiaux.
+
+**Livrable attendu :** Dossier de recette et modèle documenté.
+
+**Pour aller plus loin :** Faire valider une ambiguïté de définition avant la mise à disposition du modèle.
 
 ## Évaluation finale prévue
 

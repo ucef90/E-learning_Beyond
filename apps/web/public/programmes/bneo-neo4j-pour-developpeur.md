@@ -1,12 +1,12 @@
 # Neo4J pour Développeur
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -43,16 +43,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir nœuds, relations orientées, labels et propriétés.
 - Choisir ce qui devient relation plutôt qu'attribut.
 - Comparer cas de jointures relationnelles et traversées de graphe.
+- Choisir nœuds, relations, propriétés et cardinalités à partir des requêtes métier ; éviter la transposition mécanique des tables.
 
 **Atelier prévu :** Dessiner un graphe clients, achats et produits répondant à trois questions de recommandation.
+
+**Livrable attendu :** Modèle de graphe et exemples de requêtes cibles.
+
+**Pour aller plus loin :** Comparer deux modèles de graphe sur une recherche de dépendances et expliquer leur impact sur les traversées.
 
 ### Installer et alimenter Neo4j · 210 min
 
 - Prendre en main console et outils de requêtage.
 - Importer CSV, créer contraintes d'unicité et contrôler les types.
 - Distinguer CREATE et MERGE dans un import rejouable.
+- Préparer contraintes d’unicité, identifiants métier, import par lots et contrôles après chargement.
 
 **Atelier prévu :** Importer deux fois le même référentiel et vérifier que les nœuds et relations ne sont pas dupliqués.
+
+**Livrable attendu :** Script d’import idempotent et rapport de qualité.
+
+**Pour aller plus loin :** Rejouer un import sans créer de doublons et isoler les lignes rejetées pour permettre leur correction.
 
 ## Jour 2 · 7 heures
 
@@ -61,16 +71,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Utiliser MATCH, WHERE, RETURN et tri.
 - Enchaîner filtres, agrégations et WITH.
 - Traiter relations absentes avec OPTIONAL MATCH.
+- Maîtriser motifs, agrégations, sous-requêtes et portée des variables ; distinguer absence de relation et valeur nulle.
 
 **Atelier prévu :** Écrire les requêtes de panier moyen et de produits achetés ensemble, avec un cas de client sans achat.
+
+**Livrable attendu :** Bibliothèque Cypher et tests de résultats attendus.
+
+**Pour aller plus loin :** Écrire une requête qui conserve les entités sans correspondance puis prouver ses résultats sur un petit graphe vérifiable.
 
 ### Explorer chemins et performance · 210 min
 
 - Limiter profondeur et cardinalité des traversées.
 - Lire EXPLAIN ou PROFILE et distinguer scan et accès indexé.
 - Choisir un index adapté au prédicat de recherche.
+- Étudier sélectivité du nœud de départ, chemins de longueur variable et explosions combinatoires ; comparer profils de requêtes avant optimisation.
 
 **Atelier prévu :** Comparer une traversée non bornée à une requête contrôlée et expliquer les écarts de volume et de temps.
+
+**Livrable attendu :** Plans d’exécution commentés et mesure d’optimisation.
+
+**Pour aller plus loin :** Comparer deux requêtes équivalentes sur un graphe plus dense et expliquer l’origine d’une explosion des chemins.
 
 ## Jour 3 · 7 heures
 
@@ -79,16 +99,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Utiliser un pilote officiel, des paramètres et des transactions.
 - Gérer connexion, erreurs et reprise de transaction.
 - Situer l'interface HTTP disponible pour la version retenue.
+- Paramétrer les requêtes, gérer sessions, transactions, erreurs transitoires et fermeture des ressources côté application.
 
 **Atelier prévu :** Créer une fonction applicative de recherche de recommandations sans concaténation de paramètres dans la requête.
+
+**Livrable attendu :** Couche d’accès au graphe et stratégie de reprise.
+
+**Pour aller plus loin :** Simuler une interruption et distinguer une opération rejouable d’une action pouvant produire un double effet.
 
 ### Livrer et faire évoluer le modèle · 210 min
 
 - Tester requêtes métier et intégrité du graphe.
 - Préparer export, sauvegarde et contrôle des accès.
 - Documenter modèle, hypothèses et limites des recommandations.
+- Prévoir versionnement du modèle, migration, contrôles d’intégrité et restrictions d’accès.
 
 **Atelier prévu :** Présenter une API de consultation et ses requêtes ; intégrer une nouvelle relation de retour produit sans casser les tests existants.
+
+**Livrable attendu :** Dossier de migration et recette des requêtes critiques.
+
+**Pour aller plus loin :** Faire évoluer une relation métier tout en conservant la compatibilité des requêtes consommées par l’application.
 
 ## Évaluation finale prévue
 

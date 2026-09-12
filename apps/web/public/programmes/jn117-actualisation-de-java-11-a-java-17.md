@@ -1,12 +1,12 @@
 # Actualisation de Java 11 à Java 17
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Inventorier dépendances, plugins et options JVM.
 - Situer les changements de Java 9 à 11 utiles au contexte.
 - Identifier usages internes et composants à mettre à jour.
+- Analyser les dépendances avec les outils du JDK, repérer modules et accès internes, puis distinguer incompatibilité de compilation et d’exécution.
 
 **Atelier prévu :** Construire une matrice de compatibilité du projet et obtenir une exécution de référence sous Java 11.
+
+**Livrable attendu :** Matrice de compatibilité et risques de migration.
+
+**Pour aller plus loin :** Identifier une bibliothèque incompatible avec l’encapsulation renforcée.
 
 ### Moderniser les expressions et le texte · 210 min
 
 - Employer expressions switch et vérifier l'exhaustivité.
 - Utiliser blocs de texte avec maîtrise des espaces et retours.
 - Revoir APIs de chaînes et pratiques de code compatibles Java 17.
+- Employer expressions switch et blocs de texte en préservant lisibilité et comportement.
 
 **Atelier prévu :** Refactorer un parseur et ses chaînes multilignes en comparant les sorties avant et après modification.
+
+**Livrable attendu :** Exemples modernisés et tests de non-régression.
+
+**Pour aller plus loin :** Réécrire un traitement avec tests sur valeurs nulles et cas limites.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comprendre composants, égalité et immutabilité limitée des records.
 - Encadrer une hiérarchie avec sealed et permits.
 - Distinguer nouveauté stable et fonctionnalité encore en preview dans Java 17.
+- Utiliser records pour données et types scellés pour hiérarchies contrôlées ; expliciter leurs limites.
 
 **Atelier prévu :** Remplacer un DTO par un record et modéliser un résultat de traitement avec une hiérarchie fermée.
+
+**Livrable attendu :** Modèle de types et invariants vérifiés.
+
+**Pour aller plus loin :** Comparer record immuable en surface et objet contenant une collection mutable.
 
 ### Adapter les usages du langage et des bibliothèques · 210 min
 
 - Utiliser le pattern matching pour instanceof.
 - Examiner APIs supprimées, dépréciées et encapsulation renforcée.
 - Ajuster réflexion, bibliothèques et configuration modulaire si nécessaire.
+- Distinguer fonctionnalités finalisées et options preview ; vérifier les changements d’API utilisés.
 
 **Atelier prévu :** Diagnostiquer un accès réflexif cassé et choisir une correction de dépendance plutôt qu'une option de contournement permanente.
+
+**Livrable attendu :** Liste des adaptations et décisions de compatibilité.
+
+**Pour aller plus loin :** Remplacer un accès réflexif fragile par une API prise en charge.
 
 ## Jour 3 · 7 heures
 
@@ -75,16 +95,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Rejouer tests unitaires et intégration sous Java 17.
 - Mesurer démarrage, mémoire et temps de traitement sur charge identique.
 - Examiner logs et options de collecte mémoire effectivement utilisées.
+- Mesurer démarrage, allocation, GC et débit avec charge représentative et warm-up.
 
 **Atelier prévu :** Comparer les deux runtimes avec protocole stable et analyser une régression observée sur l'application de démonstration.
+
+**Livrable attendu :** Rapport de performance reproductible.
+
+**Pour aller plus loin :** Expliquer une variation de latence sans l’attribuer automatiquement à la version Java.
 
 ### Préparer le basculement · 210 min
 
 - Construire un artefact reproductible avec le JDK cible.
 - Mettre à jour CI, images et documentation de support.
 - Prévoir validation, surveillance et retour à la version précédente.
+- Prévoir CI sur Java 17, packaging, déploiement progressif et procédure de retour arrière.
 
 **Atelier prévu :** Présenter un dossier de migration avec modifications, tests, dépendances et procédure de retour arrière.
+
+**Livrable attendu :** Plan de bascule et critères de validation.
+
+**Pour aller plus loin :** Simuler un échec de production malgré des tests unitaires réussis.
 
 ## Évaluation finale prévue
 

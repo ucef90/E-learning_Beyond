@@ -1,12 +1,12 @@
 # MongoDB - Mise en œuvre et administration
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -44,16 +44,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comprendre documents BSON, collections et identifiants.
 - Comparer imbrication et références selon les accès.
 - Définir validation de schéma et configuration initiale.
+- Définir validation de schéma, croissance des tableaux et limites transactionnelles du modèle ; anticiper les mises à jour fréquentes des sous-documents.
 
 **Atelier prévu :** Modéliser produits et variantes puis vérifier le comportement d'une écriture non conforme au schéma.
+
+**Livrable attendu :** Modèle documentaire et justification des choix.
+
+**Pour aller plus loin :** Modéliser une relation à forte croissance sans gonfler indéfiniment un document.
 
 ### Interroger et transformer les données · 210 min
 
 - Utiliser filtres, projections et opérations de modification.
 - Construire un pipeline d'agrégation avec étapes explicites.
 - Contrôler types, tableaux et champs absents.
+- Composer agrégations, filtrage, groupement et transformations en contrôlant les volumes.
 
 **Atelier prévu :** Produire un état de stock par catégorie et tester le traitement d'un document incomplet.
+
+**Livrable attendu :** Requêtes d’agrégation et résultats vérifiés.
+
+**Pour aller plus loin :** Comparer deux pipelines et localiser l’étape qui augmente inutilement le travail.
 
 ## Jour 2 · 7 heures
 
@@ -62,16 +72,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Choisir index simple ou composé selon les requêtes.
 - Lire explain et examiner documents parcourus.
 - Mesurer coût d'écriture et taille des index.
+- Distinguer index couvrant, partiel et multikey ; comparer documents examinés et résultats renvoyés pour repérer un parcours d’index peu efficace.
 
 **Atelier prévu :** Comparer une requête avant et après indexation et justifier l'ordre des champs dans un index composé.
+
+**Livrable attendu :** Plan d’indexation et mesures avant-après.
+
+**Pour aller plus loin :** Choisir l’ordre des champs d’un index selon les requêtes réelles.
 
 ### Configurer réplication et disponibilité · 210 min
 
 - Comprendre replica set, élections et journalisation.
 - Relier read concern et write concern au besoin de cohérence.
 - Observer retard de réplication et perte d'un membre.
+- Comprendre replica set, élections, write concern et read concern selon les garanties recherchées.
 
 **Atelier prévu :** Provoquer une bascule contrôlée dans le laboratoire et relever les effets sur les lectures et écritures du client.
+
+**Livrable attendu :** Scénario de disponibilité et paramètres argumentés.
+
+**Pour aller plus loin :** Observer les effets d’une panne de primaire sur une application de test.
 
 ## Jour 3 · 7 heures
 
@@ -80,16 +100,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Situer routeurs, serveurs de configuration et shards.
 - Choisir clé de partition selon distribution et accès.
 - Repérer points chauds et requêtes diffusées à tous les shards.
+- Analyser clé de shard, distribution, requêtes ciblées et points chauds.
 
 **Atelier prévu :** Comparer trois clés pour un catalogue multi-tenant et défendre le choix à partir d'une charge simulée.
+
+**Livrable attendu :** Étude de partitionnement et limites.
+
+**Pour aller plus loin :** Comparer deux clés de partitionnement sur une charge déséquilibrée.
 
 ### Sauvegarder, restaurer et sécuriser · 210 min
 
 - Distinguer sauvegarde logique, snapshot et réplication.
 - Vérifier cohérence et périmètre de restauration selon le déploiement.
 - Appliquer authentification, rôles minimaux et supervision.
+- Définir sauvegarde, restauration testée, rôles minimaux et surveillance des accès.
 
 **Atelier prévu :** Restaurer une sauvegarde dans une cible isolée puis vérifier volumes, index, droits et requêtes métier avant de valider la reprise.
+
+**Livrable attendu :** Runbook de restauration et contrôles d’accès.
+
+**Pour aller plus loin :** Restaurer un échantillon et vérifier cohérence et délai de récupération.
 
 ## Évaluation finale prévue
 

@@ -1,12 +1,12 @@
 # PMO opérationnel et gouvernance de portefeuille
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Clarifier mandat, clients internes et décisions soutenues.
 - Distinguer standardisation, assistance et contrôle.
 - Attribuer responsabilités entre PMO, sponsors et chefs de projet.
+- Définir clients internes, services, valeur et limites d’intervention du PMO.
 
 **Atelier prévu :** Rédiger une charte PMO limitée à des services utiles et définir ce qui reste de la responsabilité des projets.
+
+**Livrable attendu :** Catalogue de services et engagements du PMO.
+
+**Pour aller plus loin :** Écarter un reporting coûteux sans utilité décisionnelle démontrée.
 
 ### Structurer l'entrée et la gouvernance du portefeuille · 210 min
 
 - Définir critères de sélection et dossier minimal.
 - Organiser comités, décisions et escalades.
 - Éviter demandes de reporting sans usage identifié.
+- Qualifier demandes, sponsors, business cases et jalons d’entrée, poursuite ou arrêt.
 
 **Atelier prévu :** Concevoir le circuit d'une nouvelle initiative avec critères d'acceptation et calendrier de décision.
+
+**Livrable attendu :** Processus d’entrée et grille de décision.
+
+**Pour aller plus loin :** Traiter un projet lancé hors gouvernance sans fausser la vision du portefeuille.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer valeur, risque, effort et dépendances.
 - Examiner capacité par compétence critique.
 - Tester arrêt, report et séquencement des projets.
+- Comparer priorités avec capacité réelle, compétences rares et dépendances.
 
 **Atelier prévu :** Construire deux scénarios de portefeuille sous contrainte de ressources et expliciter les projets qu'il faut différer.
+
+**Livrable attendu :** Scénarios de portefeuille et arbitrages de capacité.
+
+**Pour aller plus loin :** Simuler l’arrêt ou le décalage d’une initiative pour résoudre une surcharge.
 
 ### Installer le pilotage opérationnel · 210 min
 
 - Définir données de référence et indicateurs de portefeuille.
 - Suivre décisions, risques transverses et bénéfices.
 - Prévoir une boucle d'amélioration du service PMO.
+- Organiser collecte, qualité, consolidation, comité et suivi des décisions.
 
 **Atelier prévu :** Présenter un kit de gouvernance avec charte, calendrier, tableau de portefeuille et trois arbitrages documentés.
+
+**Livrable attendu :** Cockpit de portefeuille et cadence de pilotage.
+
+**Pour aller plus loin :** Repérer les écarts entre données déclarées et preuves d’avancement.
 
 ## Évaluation finale prévue
 

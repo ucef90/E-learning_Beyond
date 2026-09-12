@@ -1,12 +1,12 @@
 # Python, programmation objet
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -41,16 +41,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Organiser fichiers, imports et environnement virtuel.
 - Préciser arguments, valeurs de retour et exceptions.
 - Distinguer état local, état partagé et effets de bord.
+- Clarifier portée, mutabilité, arguments par défaut et annotations ; structurer un paquet sans imports circulaires.
 
 **Atelier prévu :** Transformer un script monolithique d'inventaire en trois modules sans modifier ses résultats.
+
+**Livrable attendu :** Paquet Python organisé et fonctions aux contrats explicites.
+
+**Pour aller plus loin :** Remplacer des variables globales par des dépendances explicites pour rendre le traitement testable.
 
 ### Modéliser avec des classes · 210 min
 
 - Définir attributs, initialisation, méthodes et invariants.
 - Utiliser propriétés et dataclasses quand elles simplifient le modèle.
 - Distinguer identité, égalité et représentation d'un objet.
+- Définir invariants, attributs, propriétés et représentation des objets ; comparer classe classique et dataclass.
 
 **Atelier prévu :** Créer un article dont le stock reste valide après entrée et sortie ; tester une quantité négative et un stock insuffisant.
+
+**Livrable attendu :** Modèle objet avec invariants et exemples d’usage.
+
+**Pour aller plus loin :** Concevoir un objet qui refuse un état incohérent et reste compréhensible lors de son affichage ou de sa sérialisation.
 
 ## Jour 2 · 7 heures
 
@@ -59,16 +69,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer composition, délégation et spécialisation.
 - Définir un contrat de comportement sans couplage aux détails.
 - Comprendre polymorphisme et responsabilité unique.
+- Distinguer relation est-un et possède-un ; examiner couplage, polymorphisme et substitution dans les contrats.
 
 **Atelier prévu :** Ajouter deux politiques de remise sans multiplier les conditions dans le calcul de commande.
+
+**Livrable attendu :** Diagramme de conception et refactoring argumenté.
+
+**Pour aller plus loin :** Remplacer une hiérarchie fragile par une composition et vérifier la compatibilité des comportements attendus.
 
 ### Fiabiliser les échanges de données · 210 min
 
 - Lire et écrire JSON ou CSV avec gestion des erreurs.
 - Encapsuler accès aux fichiers et conversions.
 - Employer gestionnaires de contexte et journalisation utile.
+- Valider les données aux frontières, gérer exceptions métier et ressources avec des gestionnaires de contexte.
 
 **Atelier prévu :** Construire un dépôt d'articles et gérer un fichier absent, corrompu ou contenant un article invalide.
+
+**Livrable attendu :** Couche d’échange robuste et catalogue d’erreurs.
+
+**Pour aller plus loin :** Simuler un fichier corrompu ou une interruption d’écriture et préserver un état cohérent de l’application.
 
 ## Jour 3 · 7 heures
 
@@ -77,16 +97,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier widgets, événements et validation utilisateur.
 - Séparer affichage, logique métier et persistance.
 - Éviter les traitements bloquants dans la boucle d'événements.
+- Séparer widgets, état de l’interface et logique métier ; expliquer la boucle d’événements et les traitements bloquants.
 
 **Atelier prévu :** Créer une fenêtre de consultation et de saisie d'articles qui réutilise les classes métier testées.
+
+**Livrable attendu :** Interface événementielle et découpage présentation/métier.
+
+**Pour aller plus loin :** Maintenir l’interface réactive pendant une opération longue et éviter les modifications concurrentes de son état.
 
 ### Tester et améliorer la conception · 210 min
 
 - Écrire tests unitaires, fixtures et cas limites.
 - Utiliser types et analyse statique pour clarifier les contrats.
 - Refactorer en conservant les comportements validés.
+- Tester comportements publics, cas limites et dépendances externes ; distinguer mock utile et test lié aux détails internes.
 
 **Atelier prévu :** Livrer le gestionnaire avec tests, notice et schéma des responsabilités ; démontrer l'ajout d'un nouveau stockage sans réécrire l'interface.
+
+**Livrable attendu :** Suite de tests et dossier de décisions de conception.
+
+**Pour aller plus loin :** Faire évoluer une règle métier avec une suite de non-régression puis mesurer la réduction du couplage.
 
 ## Évaluation finale prévue
 

@@ -50,6 +50,10 @@ for (const t of catalogue) {
         "",
         `**Atelier prévu :** ${m.workshop}`,
         "",
+        `**Livrable attendu :** ${m.deliverable}`,
+        "",
+        `**Pour aller plus loin :** ${m.expertChallenge}`,
+        "",
       );
     }
   }

@@ -1,12 +1,12 @@
 # Forecasting et séries temporelles pour le business
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir horizon, fréquence, niveau d'agrégation et décision métier.
 - Distinguer prévision de demande et objectif commercial.
 - Identifier calendrier, promotions et données disponibles au moment de prédire.
+- Définir cible, granularité, horizon, fréquence de mise à jour et coût métier des erreurs.
 
 **Atelier prévu :** Rédiger le contrat de prévision d'un produit et préciser quelles variables seraient connues à chaque date.
+
+**Livrable attendu :** Contrat de prévision et fonction de coût.
+
+**Pour aller plus loin :** Distinguer prévision de demande et observation des ventes limitées par le stock.
 
 ### Explorer et préparer la série · 210 min
 
 - Contrôler dates, doublons, trous et unités.
 - Identifier tendance, saisonnalité et anomalies.
 - Distinguer zéro réel, fermeture et observation absente.
+- Examiner saisonnalité, ruptures, jours manquants, valeurs aberrantes et variables exogènes.
 
 **Atelier prévu :** Nettoyer un historique hebdomadaire en conservant la trace des corrections et des événements inhabituels.
+
+**Livrable attendu :** Audit temporel et règles de préparation.
+
+**Pour aller plus loin :** Traiter une fermeture exceptionnelle sans l’interpréter comme baisse durable.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer prévision naïve, naïve saisonnière et moyenne mobile.
 - Choisir MAE ou RMSE selon le coût des erreurs.
 - Comprendre limites des pourcentages d'erreur lorsque la demande est nulle.
+- Comparer naïf, naïf saisonnier et moyenne mobile avec horizon identique.
 
 **Atelier prévu :** Calculer plusieurs baselines et examiner les périodes où chacune échoue.
+
+**Livrable attendu :** Baselines reproductibles et premiers scores.
+
+**Pour aller plus loin :** Expliquer pourquoi un modèle sophistiqué échoue à battre une baseline saisonnière.
 
 ### Comparer des modèles de prévision · 210 min
 
 - Situer lissage exponentiel et modèles autorégressifs.
 - Construire variables retardées sans information future.
 - Relier complexité, historique disponible et stabilité.
+- Comparer modèles statistiques et régression avec retards ; limiter les variables aux informations disponibles.
 
 **Atelier prévu :** Ajuster deux modèles simples et comparer leurs erreurs à la baseline sur des fenêtres identiques.
+
+**Livrable attendu :** Modèles comparés et audit des variables.
+
+**Pour aller plus loin :** Éviter l’usage d’une variable future inconnue au moment de la prévision.
 
 ## Jour 3 · 7 heures
 
@@ -75,16 +95,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Utiliser validation glissante et horizon constant.
 - Éviter sélection sur toute la série ou sur le test final.
 - Lire intervalles de prévision et vérifier leur couverture.
+- Utiliser backtesting glissant, métriques par horizon et analyse des intervalles de prévision.
 
 **Atelier prévu :** Réaliser un backtest et expliquer un modèle meilleur en moyenne mais moins fiable pendant les pics.
+
+**Livrable attendu :** Rapport de validation temporelle.
+
+**Pour aller plus loin :** Diagnostiquer une bonne moyenne masquant des erreurs sur périodes critiques.
 
 ### Traduire la prévision en décision · 210 min
 
 - Présenter scénarios et incertitude aux utilisateurs.
 - Suivre dérive, erreurs et besoin de réentraînement.
 - Documenter limites liées aux ruptures de comportement.
+- Traduire incertitude en scénarios de stock, capacité ou budget et règles de révision.
 
 **Atelier prévu :** Livrer une prévision commentée avec protocole de validation, scénario de rupture et règle de surveillance.
+
+**Livrable attendu :** Tableau de scénarios et politique de révision.
+
+**Pour aller plus loin :** Tester une décision lorsque la demande sort de l’intervalle prévu.
 
 ## Évaluation finale prévue
 

@@ -1,12 +1,12 @@
 # Python pour Data Analyst
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Utiliser variables, types, listes et fonctions utiles au traitement.
 - Exécuter un notebook dans l'ordre et comprendre son état.
 - Charger un CSV avec contrôle du séparateur et de l'encodage.
+- Structurer environnement, chemins, types, fonctions et lecture de fichiers pour une analyse reproductible.
 
 **Atelier prévu :** Lire un fichier de ventes, calculer une colonne de montant et corriger deux erreurs de type dans un notebook guidé.
+
+**Livrable attendu :** Environnement documenté et script d’import.
+
+**Pour aller plus loin :** Refactoriser un notebook dépendant de l’ordre d’exécution en étapes explicites.
 
 ### Diagnostiquer et filtrer un DataFrame · 210 min
 
 - Examiner dimensions, types, valeurs manquantes et doublons.
 - Utiliser sélections, masques booléens et conditions parenthésées.
 - Définir règles de validité avant de nettoyer.
+- Mesurer mémoire occupée et cardinalité des catégories ; distinguer absence structurelle, défaut de collecte et code métier avant d’imputer une valeur.
 
 **Atelier prévu :** Produire une fiche de diagnostic et un tableau des lignes suspectes avec motif de contrôle.
+
+**Livrable attendu :** Rapport de profilage et règles de filtrage.
+
+**Pour aller plus loin :** Diagnostiquer une colonne numérique importée comme texte à cause de formats mixtes.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Convertir nombres et dates avec traitement explicite des erreurs.
 - Valider quantités, prix et champs de regroupement.
 - Joindre référentiels en vérifiant clés et cardinalités.
+- Employer contrôles de fusion, indicateurs de correspondance et tables de rejets ; distinguer clé non unique, référence absente et rapprochement ambigu.
 
 **Atelier prévu :** Nettoyer les ventes puis enrichir les produits sans multiplier les lignes ; conserver les rejets pour expliquer les écarts.
+
+**Livrable attendu :** Pipeline de nettoyage et rapprochement contrôlé.
+
+**Pour aller plus loin :** Détecter une jointure plusieurs-à-plusieurs qui multiplie les montants.
 
 ### Construire des indicateurs fiables · 210 min
 
 - Utiliser groupby, agrégations nommées et tableaux croisés.
 - Distinguer moyenne simple, moyenne pondérée et ratio de sommes.
 - Contrôler totaux globaux et sous-totaux après transformation.
+- Maîtriser groupby, agrégats, transformations et fenêtres temporelles ; fixer dénominateurs et grain.
 
 **Atelier prévu :** Calculer chiffre d'affaires et quantités par produit et région puis rapprocher tous les résultats du jeu nettoyé.
+
+**Livrable attendu :** Table d’indicateurs et tests de réconciliation.
+
+**Pour aller plus loin :** Vérifier ratios pondérés et cohérence entre détail et total général.
 
 ## Jour 3 · 7 heures
 
@@ -75,16 +95,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Choisir barres et courbes selon comparaison ou évolution.
 - Ajouter unités, légendes et limites de lecture.
 - Exporter CSV et résultats avec noms et formats stables.
+- Choisir graphiques et exports selon public ; conserver unités, légendes et source des chiffres.
 
 **Atelier prévu :** Construire deux graphiques et une note de trois constats étayés, puis vérifier l'export dans un autre outil.
+
+**Livrable attendu :** Rapport visuel et exports exploitables.
+
+**Pour aller plus loin :** Générer un rapport paramétré pour deux périodes avec résultats comparables.
 
 ### Automatiser et vérifier le traitement · 210 min
 
 - Transformer les étapes en fonctions paramétrées.
 - Ajouter assertions, journal des rejets et gestion des fichiers absents.
 - Rejouer le traitement depuis une session vide sur un nouveau lot.
+- Découper en fonctions, gérer erreurs, journaliser et tester les invariants du traitement.
 
 **Atelier prévu :** Livrer un notebook ou script de reporting complet, ses contrôles de cohérence et une notice ; restituer les choix de nettoyage.
+
+**Livrable attendu :** Traitement automatisé et guide de reprise.
+
+**Pour aller plus loin :** Rejouer le pipeline sur fichier incomplet sans produire silencieusement un faux rapport.
 
 ## Évaluation finale prévue
 

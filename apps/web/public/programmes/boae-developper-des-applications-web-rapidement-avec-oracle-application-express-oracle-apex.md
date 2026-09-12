@@ -1,12 +1,12 @@
 # Développer des applications web rapidement avec Oracle Application Express (Oracle APEX)
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir tables, clés, contraintes et données de référence.
 - Situer workspace, schéma et application.
 - Utiliser SQL Workshop et App Builder pour préparer le projet.
+- Relier schéma relationnel, contraintes, workspace et parsing schema ; séparer environnements.
 
 **Atelier prévu :** Créer le schéma de demandes et charger un jeu d'essai en vérifiant intégrité et règles de statut.
+
+**Livrable attendu :** Modèle de données et configuration d’espace.
+
+**Pour aller plus loin :** Identifier une règle métier mal placée entre base et interface.
 
 ### Créer formulaires et rapports · 210 min
 
 - Construire pages de consultation et de saisie.
 - Relier éléments de page, processus et validations.
 - Configurer navigation et messages d'erreur compréhensibles.
+- Configurer formulaires, rapports interactifs, validations et navigation sur les données.
 
 **Atelier prévu :** Créer une demande puis la retrouver dans un rapport filtrable, avec contrôle des champs obligatoires.
+
+**Livrable attendu :** Application CRUD et scénarios de validation.
+
+**Pour aller plus loin :** Traiter une modification concurrente sans écraser silencieusement une saisie.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Choisir composants et modèle de page adaptés.
 - Utiliser actions dynamiques pour des interactions utiles.
 - Vérifier navigation clavier, libellés et affichage mobile.
+- Utiliser composants natifs, actions dynamiques et états de session de façon cohérente.
 
 **Atelier prévu :** Adapter le formulaire à deux types de demandes sans masquer une validation indispensable côté serveur.
+
+**Livrable attendu :** Parcours utilisateur et grille d’accessibilité.
+
+**Pour aller plus loin :** Vérifier clavier, messages d’erreur et rendu mobile d’un formulaire.
 
 ### Implémenter les règles métier · 210 min
 
 - Encapsuler traitements SQL ou PL/SQL.
 - Gérer état de session, calculs et transactions.
 - Tester transitions de statut et accès concurrents simples.
+- Structurer traitements PL/SQL, transactions et validations côté serveur.
 
 **Atelier prévu :** Ajouter une validation de demande qui refuse une transition interdite et conserve un résultat cohérent en cas d'erreur.
+
+**Livrable attendu :** Règles métier et tests de contournement.
+
+**Pour aller plus loin :** Empêcher le contournement d’une règle en modifiant directement une requête.
 
 ## Jour 3 · 7 heures
 
@@ -75,16 +95,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer authentification et schémas d'autorisation.
 - Vérifier droits sur pages, actions et données.
 - Contrôler paramètres, protection de session et contenu affiché.
+- Prévenir injection SQL, affichage de contenu non échappé et accès direct non autorisé ; vérifier les contrôles côté serveur indépendamment des boutons visibles.
 
 **Atelier prévu :** Tester demandeur et gestionnaire, puis tenter un accès direct à une demande hors périmètre dans le laboratoire.
+
+**Livrable attendu :** Matrice de droits et recette de sécurité.
+
+**Pour aller plus loin :** Tester accès à une page ou donnée d’un autre profil.
 
 ### Exporter et faire évoluer l'application · 210 min
 
 - Exporter application et scripts de base séparément.
 - Paramétrer environnements et données de référence.
 - Préparer recette, sauvegarde et retour à une version antérieure.
+- Organiser exports, scripts SQL, paramètres d’environnement et gestion des versions.
 
 **Atelier prévu :** Installer l'application dans une cible d'exercice et exécuter une recette de création, validation et refus d'accès.
+
+**Livrable attendu :** Dossier de livraison et procédure de reprise.
+
+**Pour aller plus loin :** Rejouer un déploiement dans un environnement vierge puis vérifier les migrations.
 
 ## Évaluation finale prévue
 

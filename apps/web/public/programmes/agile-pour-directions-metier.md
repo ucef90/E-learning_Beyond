@@ -1,12 +1,12 @@
 # Agile pour directions métier et sponsors
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 1 jour(s) · 7 heures indicatives · Fondamental · Distanciel
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,32 +39,52 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer livraison incrémentale et plan figé.
 - Relier feedback, incertitude et adaptation.
 - Identifier les contextes où toutes les contraintes ne sont pas flexibles.
+- Distinguer livraison incrémentale, apprentissage et simple découpage en lots ; relier feedback et décision.
 
 **Atelier prévu :** Comparer deux approches d'un même projet et identifier les décisions qui doivent rester ouvertes à l'apprentissage.
+
+**Livrable attendu :** Grille de choix d’approche et vocabulaire partagé.
+
+**Pour aller plus loin :** Comparer plan prédictif et approche adaptative selon incertitude et contraintes.
 
 ### Jouer le rôle de sponsor · 105 min
 
 - Clarifier objectif, valeur attendue et contraintes.
 - Garantir disponibilité des décideurs et des utilisateurs.
 - Distinguer arbitrage stratégique et intervention dans le travail quotidien.
+- Définir vision, moyens, contraintes et disponibilité pour les arbitrages du sponsor.
 
 **Atelier prévu :** Rédiger un mandat de sponsor avec décisions réservées, délégations et rythme de revue.
+
+**Livrable attendu :** Contrat de sponsoring et responsabilités.
+
+**Pour aller plus loin :** Soutenir l’autonomie de l’équipe sans abandonner les décisions de gouvernance.
 
 ### Arbitrer à partir des résultats · 105 min
 
 - Examiner incrément, apprentissages et risques.
 - Réviser priorité et périmètre selon la valeur.
 - Éviter de traiter vélocité comme un indicateur de performance comparable entre équipes.
+- Relier résultats utilisateurs, hypothèses et coût d’opportunité aux décisions d’investissement.
 
 **Atelier prévu :** Participer à une revue fictive et décider de poursuivre, modifier ou arrêter une initiative sur la base des résultats.
+
+**Livrable attendu :** Note d’arbitrage fondée sur les résultats.
+
+**Pour aller plus loin :** Décider de poursuivre, adapter ou arrêter une initiative après retour terrain.
 
 ### Installer un cadre de coopération · 105 min
 
 - Aligner financement, gouvernance et capacité disponible.
 - Prévenir demandes urgentes qui dispersent l'équipe.
 - Définir un premier changement de fonctionnement côté direction.
+- Organiser échanges métier-équipe, transparence et résolution des dépendances.
 
 **Atelier prévu :** Construire un accord de sponsoring avec critères de succès, règles d'arbitrage et date de réexamen.
+
+**Livrable attendu :** Cadre de coopération et règles de décision.
+
+**Pour aller plus loin :** Éviter une gouvernance qui exige simultanément périmètre figé et adaptation permanente.
 
 ## Évaluation finale prévue
 

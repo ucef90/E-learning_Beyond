@@ -1,12 +1,12 @@
 # Generative AI pour Data Analyst
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 1 jour(s) · 7 heures indicatives · Intermédiaire · Distanciel
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,32 +39,52 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier rédaction de requêtes, documentation et synthèse.
 - Définir données autorisées et contexte minimal.
 - Comparer assistance et automatisation sans contrôle.
+- Sélectionner préparation, SQL, explication et documentation selon gain et vérifiabilité.
 
 **Atelier prévu :** Décomposer une demande d'analyse en étapes et définir lesquelles nécessitent un calcul ou une validation indépendante.
+
+**Livrable attendu :** Carte des usages analytiques et contrôles.
+
+**Pour aller plus loin :** Refuser une interprétation causale produite sans protocole adapté.
 
 ### Générer puis vérifier une requête · 105 min
 
 - Fournir schéma, grain et résultat attendu.
 - Rechercher jointures multiplicatives, NULL et filtres incorrects.
 - Tester sur un jeu réduit avec résultats connus.
+- Fournir schéma, grain et règles métier ; vérifier jointures, agrégats, filtres et droits.
 
 **Atelier prévu :** Corriger une requête proposée par l'IA qui double le chiffre d'affaires après jointure avec les paiements.
+
+**Livrable attendu :** Requête revue et jeu de résultats attendu.
+
+**Pour aller plus loin :** Détecter une requête syntaxiquement correcte dont les totaux sont doublés.
 
 ### Documenter et expliquer les résultats · 105 min
 
 - Séparer chiffres calculés, interprétations et hypothèses.
 - Fournir règles de gestion et limites de couverture.
 - Éviter l'invention de causalité dans la synthèse.
+- Distinguer faits calculés, hypothèses et recommandations ; relier chaque chiffre à sa source.
 
 **Atelier prévu :** Rédiger une note d'analyse à partir de résultats validés puis annoter les phrases à étayer ou à retirer.
+
+**Livrable attendu :** Note d’analyse et traçabilité des chiffres.
+
+**Pour aller plus loin :** Réécrire une synthèse qui surinterprète une variation non significative.
 
 ### Créer une routine de contrôle · 105 min
 
 - Versionner prompt, requête et données de test.
 - Mesurer temps gagné et corrections nécessaires.
 - Maintenir validation humaine sur les conclusions importantes.
+- Organiser tests, relecture, versionnement et mesure du temps de correction.
 
 **Atelier prévu :** Livrer un kit d'analyse avec prompt, requête vérifiée, dictionnaire des indicateurs et synthèse sourcée.
+
+**Livrable attendu :** Checklist analytique et protocole comparatif.
+
+**Pour aller plus loin :** Comparer une analyse assistée et une référence validée sur plusieurs cas.
 
 ## Évaluation finale prévue
 

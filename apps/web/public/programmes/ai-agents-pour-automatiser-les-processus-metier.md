@@ -1,12 +1,12 @@
 # AI Agents pour automatiser les processus metier
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Cartographier déclencheurs, entrées, décisions et sorties.
 - Distinguer workflow déterministe et boucle d'agent.
 - Identifier erreurs tolérables, décisions sensibles et validation humaine.
+- Délimiter autonomie, actions autorisées, exceptions et validation humaine par criticité.
 
 **Atelier prévu :** Découper un processus de demande d'achat et réserver explicitement l'engagement de dépense à une personne habilitée.
+
+**Livrable attendu :** Matrice de délégation et frontières d’autonomie.
+
+**Pour aller plus loin :** Refuser la délégation d’une décision dont les critères restent indéfinis.
 
 ### Définir instructions et outils · 210 min
 
 - Décrire objectifs, état, mémoire utile et conditions d'arrêt.
 - Donner à chaque outil un contrat d'entrée et de sortie.
 - Appliquer droits minimaux, budgets et validation des paramètres.
+- Définir contrats d’outils, schémas d’entrée-sortie, permissions minimales et idempotence.
 
 **Atelier prévu :** Concevoir trois outils simulés de consultation, préparation et soumission ; préciser ce que l'agent peut seulement proposer.
+
+**Livrable attendu :** Contrats d’outils et diagramme d’exécution.
+
+**Pour aller plus loin :** Traiter une action répétée après timeout sans produire de doublon métier.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Construire cas nominaux, ambigus, contradictoires et malveillants.
 - Observer trajectoire, appels inutiles et boucles.
 - Prévoir abstention, demande de précision et transfert humain.
+- Évaluer réussite de tâche, erreurs d’outils, coûts, boucles et injections via documents.
 
 **Atelier prévu :** Exécuter un scénario de demande incomplète puis une instruction hostile dans un document et vérifier la décision d'escalade.
+
+**Livrable attendu :** Banc de cas nominal, limite et adversarial.
+
+**Pour aller plus loin :** Tester un agent confronté à une source hostile et à une API indisponible.
 
 ### Organiser un pilote métier · 210 min
 
 - Mesurer succès de tâche, reprises humaines, coût et délai.
 - Journaliser les décisions sans exposer inutilement les données.
 - Prévoir repli manuel, maintenance des outils et revue des incidents.
+- Organiser observation, validation, escalade, arrêt d’urgence et retour arrière.
 
 **Atelier prévu :** Présenter une feuille de route d'automatisation avec périmètre, recettes, seuils d'arrêt et responsabilité de chaque action.
+
+**Livrable attendu :** Protocole de pilote et tableau de suivi.
+
+**Pour aller plus loin :** Définir une extension progressive d’autonomie selon les résultats du pilote.
 
 ## Évaluation finale prévue
 

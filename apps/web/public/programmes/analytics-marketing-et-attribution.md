@@ -1,12 +1,12 @@
 # Analytics marketing et modèles d’attribution
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Distanciel
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier dépenses, acquisition, conversion et valeur client.
 - Préciser dénominateurs, fenêtres et population.
 - Distinguer chiffre d'affaires attribué, marge et coût d'acquisition.
+- Définir conversion, acquisition, rétention et valeur avec grain, fenêtre et dénominateur explicites.
 
 **Atelier prévu :** Rédiger le dictionnaire de cinq KPI et repérer deux ratios calculés sur des périmètres incompatibles.
+
+**Livrable attendu :** Dictionnaire des métriques marketing.
+
+**Pour aller plus loin :** Réconcilier deux rapports donnant des taux différents pour une même campagne.
 
 ### Fiabiliser les parcours et les données · 210 min
 
 - Décrire événements, identifiants et règles de déduplication.
 - Examiner consentement, canaux non observés et ruptures de suivi.
 - Contrôler coût, conversion et dates entre les sources.
+- Examiner identifiants, événements, doublons, consentements et pertes de mesure dans le parcours.
 
 **Atelier prévu :** Rapprocher dépenses et conversions en isolant les événements dupliqués et les parcours incomplets.
+
+**Livrable attendu :** Plan de marquage et audit de qualité.
+
+**Pour aller plus loin :** Quantifier les limites d’un suivi partiel sans reconstruire une précision fictive.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Calculer premier contact, dernier contact et répartition linéaire.
 - Étudier l'effet des fenêtres d'attribution.
 - Distinguer crédit attribué et effet incrémental d'un canal.
+- Comparer premier contact, dernier contact et attribution répartie ; distinguer attribution et incrémentalité.
 
 **Atelier prévu :** Comparer la répartition du revenu sur le même jeu de parcours puis expliquer pourquoi elle ne prouve pas l'efficacité causale.
+
+**Livrable attendu :** Comparaison d’attribution et limites d’interprétation.
+
+**Pour aller plus loin :** Montrer comment le modèle retenu change l’évaluation d’un canal.
 
 ### Arbitrer et préparer la mesure suivante · 210 min
 
 - Construire un tableau de bord avec limites de couverture.
 - Proposer expérimentation ou analyse complémentaire.
 - Relier budget, marge et incertitude de mesure.
+- Relier budget, rendement marginal, incertitude et protocole d’expérimentation.
 
 **Atelier prévu :** Présenter une recommandation budgétaire prudente avec hypothèses, données manquantes et protocole pour tester un effet incrémental.
+
+**Livrable attendu :** Note d’arbitrage et plan de mesure.
+
+**Pour aller plus loin :** Proposer un test incrémental plutôt qu’un arbitrage fondé sur le seul ROAS observé.
 
 ## Évaluation finale prévue
 

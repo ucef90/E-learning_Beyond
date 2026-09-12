@@ -1,12 +1,12 @@
 # Machine Learning : État de l'art et bonnes pratiques
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -43,16 +43,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer règles métier, apprentissage supervisé et non supervisé.
 - Relier cible, observations et variables à une décision opérationnelle.
 - Identifier les cas où une règle simple suffit.
+- Décrire fonction de coût, généralisation et compromis biais-variance ; expliquer la différence entre qualité d’ajustement et qualité prédictive.
 
 **Atelier prévu :** Comparer trois réponses au problème de départ client : règle experte, score statistique et modèle appris ; justifier un point de départ.
+
+**Livrable attendu :** Carte des approches et justification du problème retenu.
+
+**Pour aller plus loin :** Analyser un même problème sous trois formulations et identifier celle dont la cible, les données et le coût d’erreur sont maîtrisables.
 
 ### Cadrer la valeur et les données · 210 min
 
 - Définir population, horizon de prédiction et action déclenchée.
 - Estimer disponibilité, qualité et coût des labels.
 - Repérer fuite d'information, biais d'échantillonnage et usages non autorisés.
+- Préciser cible, horizon, disponibilité réelle des variables et coût des faux positifs et faux négatifs.
 
 **Atelier prévu :** Établir la fiche de cadrage du score de départ avec critères de succès et causes possibles d'abandon.
+
+**Livrable attendu :** Cadrage métier, définition de la cible et audit des variables.
+
+**Pour aller plus loin :** Détecter une fuite de cible ou une variable disponible seulement après la décision à prédire.
 
 ## Jour 2 · 7 heures
 
@@ -61,16 +71,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Situer régression, arbres, ensembles et méthodes de proximité.
 - Distinguer classification, estimation numérique et segmentation.
 - Comparer explicabilité, temps d'entraînement et volume requis.
+- Comparer linéaire, arbres, ensembles et voisinage selon données, explicabilité, coût d’entraînement et maintenance.
 
 **Atelier prévu :** Associer six cas métier à une famille de modèles, puis défendre deux options pour le cas client.
+
+**Livrable attendu :** Matrice de familles de modèles et protocole comparatif.
+
+**Pour aller plus loin :** Choisir une baseline crédible et définir une grille de comparaison qui évite de retenir un modèle sur son seul score.
 
 ### Évaluer une solution prédictive · 210 min
 
 - Séparer apprentissage, validation et test selon la structure des données.
 - Choisir des métriques liées au coût des erreurs.
 - Lire matrice de confusion et courbes de compromis entre précision et rappel.
+- Choisir découpage aléatoire, groupé ou temporel ; relier métriques, déséquilibre et incertitude aux usages.
 
 **Atelier prévu :** Choisir un seuil de contact à partir des capacités du service client et chiffrer faux positifs et départs non détectés.
+
+**Livrable attendu :** Rapport de validation et grille de lecture d’une performance.
+
+**Pour aller plus loin :** Critiquer un score présenté sans population de test, intervalle d’incertitude ni référence de comparaison.
 
 ## Jour 3 · 7 heures
 
@@ -79,16 +99,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Répartir responsabilités métier, data, IT et risque.
 - Préparer accès aux données, expérimentation et passage en service.
 - Suivre dérive, performance et retours des utilisateurs.
+- Distinguer données d’apprentissage et données de service ; organiser versionnement, supervision et intervention humaine.
 
 **Atelier prévu :** Dessiner un cycle de vie du modèle avec validations et plan de surveillance après lancement.
+
+**Livrable attendu :** Schéma de cycle de vie et plan de surveillance.
+
+**Pour aller plus loin :** Simuler dérive des données ou changement de processus métier et définir les conditions de retrait du modèle.
 
 ### Restituer une décision d'investissement · 210 min
 
 - Comparer coût complet et bénéfice potentiel sans garantie de résultat.
 - Expliciter limites, dépendances et plan de mesure.
 - Définir étapes d'un pilote et critères de poursuite.
+- Chiffrer valeur attendue, intégration, collecte des données, exploitation et coût de vérification humaine.
 
 **Atelier prévu :** Présenter un dossier de décision sur le départ client, incluant baseline, données manquantes et conditions de déploiement.
+
+**Livrable attendu :** Note d’investissement et plan de preuve de valeur.
+
+**Pour aller plus loin :** Présenter une décision de lancement conditionnelle avec critères d’abandon et preuve attendue au prochain jalon.
 
 ## Évaluation finale prévue
 

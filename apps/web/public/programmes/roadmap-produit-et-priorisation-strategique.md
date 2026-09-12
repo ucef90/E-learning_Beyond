@@ -1,12 +1,12 @@
 # Roadmap produit et priorisation stratégique
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Clarifier objectifs, utilisateurs et problèmes prioritaires.
 - Distinguer résultat attendu et fonctionnalité à livrer.
 - Définir indicateur de progrès et hypothèse de valeur.
+- Relier ambition, problème utilisateur, résultat attendu et indicateur de succès.
 
 **Atelier prévu :** Transformer une liste de demandes en quatre problèmes produit avec résultats mesurables et preuves disponibles.
+
+**Livrable attendu :** Carte objectifs, opportunités et résultats.
+
+**Pour aller plus loin :** Écarter une fonctionnalité séduisante sans contribution démontrable au résultat.
 
 ### Prioriser avec des critères explicites · 210 min
 
 - Comparer impact, confiance, effort et risque.
 - Employer un score comme aide à la discussion.
 - Repérer dépendances et fausse précision des estimations.
+- Comparer valeur, risque, effort et dépendances ; expliciter l’incertitude des scores.
 
 **Atelier prévu :** Classer huit initiatives puis tester la sensibilité du classement lorsque confiance et capacité changent.
+
+**Livrable attendu :** Matrice de priorisation et arbitrages.
+
+**Pour aller plus loin :** Tester la sensibilité du classement lorsque les estimations changent.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer engagement ferme, prochaine étape et exploration.
 - Réserver capacité pour maintenance et incertitude.
 - Relier jalons de décision aux apprentissages attendus.
+- Organiser horizons, dépendances, capacité et travaux d’apprentissage sans promettre une date injustifiée.
 
 **Atelier prévu :** Produire une roadmap maintenant-ensuite-plus tard avec dépendances, hypothèses et conditions de passage.
+
+**Livrable attendu :** Roadmap par résultats et scénarios.
+
+**Pour aller plus loin :** Construire un scénario alternatif face à une dépendance retardée.
 
 ### Partager et réviser la roadmap · 210 min
 
 - Adapter le niveau de détail à chaque public.
 - Expliquer arbitrages et conséquences des changements.
 - Organiser une revue fondée sur résultats et nouvelles informations.
+- Définir les événements déclenchant une révision : hypothèse invalidée, contrainte nouvelle ou signal d’usage ; conserver la justification des décisions successives.
 
 **Atelier prévu :** Défendre la roadmap face à une demande urgente puis publier une version révisée avec justification des déplacements.
+
+**Livrable attendu :** Support de communication et cadence de revue.
+
+**Pour aller plus loin :** Expliquer un changement de priorité à des parties prenantes en désaccord.
 
 ## Évaluation finale prévue
 

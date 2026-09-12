@@ -79,6 +79,13 @@ function loadProgrammes() {
         m.workshop.length >= 70 && !workshops.has(m.workshop),
         `Atelier générique ou dupliqué : ${p.slug}`,
       );
+      if (p.version >= 2) {
+        assert.equal(m.topics.length, 4);
+        assert(
+          m.expertChallenge?.length > 20 && m.deliverable?.length > 20,
+          p.slug,
+        );
+      }
       workshops.add(m.workshop);
     }
     assert(

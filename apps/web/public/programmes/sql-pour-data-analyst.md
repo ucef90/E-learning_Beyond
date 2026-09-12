@@ -1,12 +1,12 @@
 # SQL pour Data Analyst
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Lire schéma, clés et grain des tables.
 - Employer SELECT, filtres, CASE et fonctions de dates.
 - Traiter NULL et distinguer bornes de période.
+- Définir population, période, fuseau, grain et exclusions avant extraction.
 
 **Atelier prévu :** Extraire les commandes d'un mois et vérifier qu'aucune commande du premier instant du mois suivant n'est incluse.
+
+**Livrable attendu :** Contrat d’extraction et population de référence.
+
+**Pour aller plus loin :** Corriger un biais de sélection dû à un filtre sur le statut actuel.
 
 ### Joindre et agréger sans fausser les montants · 210 min
 
 - Choisir jointure selon population attendue.
 - Préagréger les relations un-à-plusieurs si nécessaire.
 - Distinguer COUNT, COUNT DISTINCT et somme métier.
+- Contrôler cardinalités, lignes sans correspondance et agrégation au bon niveau.
 
 **Atelier prévu :** Calculer ventes et paiements par client puis détecter une jointure qui double le chiffre d'affaires.
+
+**Livrable attendu :** Requête multi-tables et contrôle des montants.
+
+**Pour aller plus loin :** Détecter le double comptage d’une commande ayant plusieurs lignes et paiements.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Utiliser CTE pour rendre les calculs lisibles.
 - Calculer rang, cumul et variation avec fonctions de fenêtre.
 - Traiter ex æquo et absence de période précédente.
+- Décomposer en CTE ; employer fenêtres pour rangs, cohortes, cumuls et évolutions.
 
 **Atelier prévu :** Produire un classement des produits et une évolution mensuelle dont les règles sont explicites et vérifiées.
+
+**Livrable attendu :** Analyse SQL structurée et règles métier.
+
+**Pour aller plus loin :** Construire une analyse de rétention avec une définition stable de cohorte.
 
 ### Contrôler et livrer l'extraction · 210 min
 
 - Comparer comptages, totaux et lignes sans correspondance.
 - Paramétrer période et documenter définitions d'indicateurs.
 - Examiner un plan simple et limiter le volume extrait.
+- Vérifier volumes, totaux, doublons, dates extrêmes et plan d’exécution.
 
 **Atelier prévu :** Livrer un script analytique et un rapport de contrôle pour un nouveau mois, avec dictionnaire des colonnes exportées.
+
+**Livrable attendu :** Extraction documentée et rapport de contrôle.
+
+**Pour aller plus loin :** Comparer extraction à un échantillon validé puis expliquer tout écart.
 
 ## Évaluation finale prévue
 

@@ -1,12 +1,12 @@
 # IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act)
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier système d'IA, modèle généraliste et finalité prévue.
 - Distinguer fournisseur, déployeur et autres acteurs de la chaîne.
 - Rechercher champ territorial, exclusions et calendrier dans les sources officielles.
+- Qualifier fournisseur, déployeur, importateur et modification substantielle selon les définitions du règlement.
 
 **Atelier prévu :** Cartographier les acteurs du cas recrutement et citer les dispositions à consulter avant de conclure sur leurs rôles.
+
+**Livrable attendu :** Cartographie des acteurs et périmètre documenté.
+
+**Pour aller plus loin :** Analyser une intégration de modèle tiers qui change les responsabilités de l’entreprise.
 
 ### Analyser la catégorie de risque · 210 min
 
 - Examiner pratiques interdites et cas de haut risque.
 - Distinguer obligations de transparence et exigences associées au haut risque.
 - Documenter raisonnement, exceptions éventuelles et informations manquantes.
+- Justifier le classement selon finalité, contexte et annexes ; distinguer interdictions et transparence.
 
 **Atelier prévu :** Analyser trois variantes du système de recrutement et rédiger une classification argumentée, soumise à revue compétente.
+
+**Livrable attendu :** Arbre de qualification avec sources à vérifier.
+
+**Pour aller plus loin :** Reclasser un outil passant du marketing au recrutement et documenter les incertitudes.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier gestion des risques, qualité des données et documentation technique.
 - Examiner traçabilité, supervision humaine, robustesse et cybersécurité.
 - Associer chaque exigence applicable à un responsable et à une preuve.
+- Construire une chaîne de traçabilité entre risque identifié, mesure retenue, test effectué et preuve datée ; documenter les écarts restant ouverts.
 
 **Atelier prévu :** Créer une matrice d'exigences du cas étudié en distinguant preuves disponibles, lacunes et éléments à demander au fournisseur.
+
+**Livrable attendu :** Matrice obligations, preuves et responsables.
+
+**Pour aller plus loin :** Repérer les preuves manquantes dans un dossier fournisseur et demander les clarifications utiles.
 
 ### Articuler règlement IA et RGPD · 210 min
 
 - Identifier traitements, finalités, base légale et personnes concernées.
 - Examiner minimisation, transparence, droits et décisions automatisées.
 - Déterminer quand évaluer la nécessité d'une AIPD et mobiliser le DPO.
+- Articuler base légale, minimisation, AIPD et risques IA sans confondre leurs périmètres.
 
 **Atelier prévu :** Relier le registre de traitement au dossier IA et préparer les questions du DPO, sans supposer que les deux cadres se remplacent.
+
+**Livrable attendu :** Fiche d’articulation RGPD et règlement IA.
+
+**Pour aller plus loin :** Comparer données des prompts, corpus documentaire et journaux d’exploitation.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir consignes d'utilisation et limites communiquées aux opérateurs.
 - Organiser signalement, journalisation, suivi des changements et incidents.
 - Situer achats, juridique, sécurité et métier dans les contrôles.
+- Définir limites d’usage, consignes opérateur, interventions humaines et traitement des incidents.
 
 **Atelier prévu :** Simuler un incident de résultat discriminatoire et rédiger une procédure d'escalade avec preuves à préserver et décisions à prendre.
+
+**Livrable attendu :** Procédure de supervision et scénario d’incident.
+
+**Pour aller plus loin :** Simuler une dérive nécessitant suspension et conservation des éléments d’analyse.
 
 ### Présenter un plan de mise en conformité · 210 min
 
 - Prioriser écarts et mesures avant mise en service.
 - Planifier revues, formation des utilisateurs et suivi documentaire.
 - Expliciter points nécessitant expertise juridique ou technique complémentaire.
+- Prioriser les écarts selon criticité, dépendances et effort ; organiser la veille réglementaire.
 
 **Atelier prévu :** Soutenir le dossier recrutement : classification justifiée, articulation RGPD, matrice de preuves et plan d'action daté.
+
+**Livrable attendu :** Feuille de route et dossier de décision.
+
+**Pour aller plus loin :** Défendre un plan de remédiation devant un comité fictif en explicitant ses limites.
 
 ## Évaluation finale prévue
 

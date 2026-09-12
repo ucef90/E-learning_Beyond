@@ -1,12 +1,12 @@
 # Apprivoiser sa colère et sa nervosité
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier événements déclencheurs et signaux ressentis.
 - Distinguer faits, interprétations et réaction immédiate.
 - Observer l'effet de ses comportements sur l'échange.
+- Distinguer faits déclencheurs, interprétations et signaux de tension en contexte professionnel.
 
 **Atelier prévu :** Décomposer une scène de désaccord en déclencheur, interprétation, réaction et conséquence, sans attribuer d'intention certaine à autrui.
+
+**Livrable attendu :** Carte des déclencheurs et signaux précoces.
+
+**Pour aller plus loin :** Reconstituer une situation sans attribuer d’intention non vérifiée à l’autre.
 
 ### Créer un temps de recul · 210 min
 
 - Reconnaître le moment où l'échange devient improductif.
 - Utiliser pause, reformulation et préparation écrite.
 - Choisir un moment et un cadre adaptés pour reprendre.
+- Préparer une pause, une reformulation et une reprise de l’échange en sécurité.
 
 **Atelier prévu :** S'entraîner à demander une pause professionnelle et à annoncer clairement quand et comment la discussion reprendra.
+
+**Livrable attendu :** Protocole personnel de recul et reprise.
+
+**Pour aller plus loin :** Choisir une réponse professionnelle lorsque la discussion devient trop tendue.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Décrire le fait et l'impact concret.
 - Formuler besoin et demande réalisable.
 - Éviter généralisation, accusation et menace.
+- Exprimer faits, impact, besoin et demande sans accusation ni généralisation.
 
 **Atelier prévu :** Transformer trois réactions accusatoires en messages fermes et factuels adaptés à un retard ou à une interruption répétée.
+
+**Livrable attendu :** Formulations de désaccord et grille de relecture.
+
+**Pour aller plus loin :** Transformer une réaction impulsive en demande précise et négociable.
 
 ### Faire face à la tension d'autrui · 210 min
 
 - Écouter le problème sans valider un comportement agressif.
 - Poser une limite et proposer un cadre de discussion.
 - Reconnaître quand interrompre l'échange et solliciter un relais.
+- Poser une limite, reformuler et proposer une interruption lorsque l’échange se dégrade.
 
 **Atelier prévu :** Jouer une réclamation interne avec un observateur qui relève écoute, limites posées et possibilité de reprise.
+
+**Livrable attendu :** Scénario de désescalade et relais identifiés.
+
+**Pour aller plus loin :** Identifier une situation nécessitant l’appui du management ou des dispositifs internes.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Revenir sur un échange tendu avec des faits.
 - Reconnaître sa contribution et clarifier les responsabilités.
 - Modifier une règle de fonctionnement à l'origine du conflit.
+- Reconnaître les effets d’un échange difficile et convenir d’un fonctionnement futur.
 
 **Atelier prévu :** Préparer un entretien de reprise après désaccord et convenir d'un mode de coordination plus précis.
+
+**Livrable attendu :** Trame de réparation et mesures de prévention.
+
+**Pour aller plus loin :** Préparer un entretien de réparation sans justifier des paroles blessantes.
 
 ### Installer une pratique personnelle · 210 min
 
 - Choisir signes d'alerte et actions de recul adaptées au travail.
 - Préparer les situations récurrentes avant qu'elles surviennent.
 - Identifier les relais de l'organisation en cas de difficulté persistante.
+- Choisir des habitudes d’observation et de préparation adaptées au travail quotidien.
 
 **Atelier prévu :** Rejouer une situation initiale puis rédiger un plan de prévention et de communication à utiliser lors du prochain désaccord.
+
+**Livrable attendu :** Plan de pratique et bilan d’observation.
+
+**Pour aller plus loin :** Évaluer une pratique sur plusieurs situations sans en faire une promesse thérapeutique.
 
 ## Évaluation finale prévue
 

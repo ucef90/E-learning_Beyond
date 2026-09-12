@@ -1,12 +1,12 @@
 # Product Owner : pilotage par la valeur
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir utilisateur, problème et bénéfice attendu.
 - Distinguer impact métier et volume de fonctionnalités.
 - Relier Product Goal et indicateurs d'apprentissage.
+- Relier problème utilisateur, proposition de valeur, objectif produit et mesure de succès.
 
 **Atelier prévu :** Transformer des demandes hétérogènes en un objectif produit et trois hypothèses de valeur.
+
+**Livrable attendu :** Vision produit et hypothèses mesurables.
+
+**Pour aller plus loin :** Distinguer objectif de résultat et quantité de fonctionnalités livrées.
 
 ### Construire un backlog compréhensible · 210 min
 
 - Découper besoins en éléments suffisamment petits.
 - Ajouter exemples et critères d'acceptation.
 - Clarifier dépendances, risques et exigences de qualité.
+- Découper verticalement un besoin par scénario, règle ou population ; rendre un incrément utilisable sans attendre la livraison de toutes les couches techniques.
 
 **Atelier prévu :** Préparer cinq éléments de backlog avec scénarios de succès et d'erreur, puis les affiner avec une équipe simulée.
+
+**Livrable attendu :** Backlog structuré et critères d’acceptation.
+
+**Pour aller plus loin :** Réduire un élément trop large en incréments apportant chacun une valeur identifiable.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer valeur, effort, risque et opportunité d'apprentissage.
 - Mettre en évidence demandes contradictoires.
 - Rendre les décisions transparentes aux parties prenantes.
+- Comparer coût du retard, réduction du risque et gain d’apprentissage ; tester la sensibilité de l’ordre du backlog aux estimations incertaines.
 
 **Atelier prévu :** Ordonner un backlog sous contrainte de capacité puis traiter une urgence sans perdre l'objectif du produit.
+
+**Livrable attendu :** Backlog ordonné et décisions justifiées.
+
+**Pour aller plus loin :** Arbitrer une demande urgente qui ne contribue pas à l’objectif produit.
 
 ### Inspecter les résultats et adapter · 210 min
 
 - Préparer la revue de l'incrément avec les utilisateurs.
 - Mesurer usage et résultats sans confondre livraison et succès.
 - Ajuster objectif, backlog ou expérimentation suivante.
+- Exploiter retours d’usage et données pour réviser hypothèses et priorités.
 
 **Atelier prévu :** Présenter une revue produit et décider de la prochaine tranche à partir d'un retour utilisateur défavorable.
+
+**Livrable attendu :** Plan de mesure et revue de résultats.
+
+**Pour aller plus loin :** Distinguer absence d’adoption, problème de mesure et solution inadaptée.
 
 ## Évaluation finale prévue
 

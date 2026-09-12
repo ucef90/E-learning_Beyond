@@ -1,12 +1,12 @@
 # Prompt Engineer : savoir dialoguer efficacement avec l'intelligence artificielle (IA)
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer instruction, contexte, génération et connaissance vérifiée.
 - Observer variabilité, erreurs plausibles et limites du contexte.
 - Identifier les données qu'on peut soumettre dans son environnement.
+- Distinguer connaissances du modèle, contexte fourni, variabilité et limitations d’une réponse plausible.
 
 **Atelier prévu :** Comparer trois réponses à une question incomplète et annoter les faits vérifiables, hypothèses et affirmations non étayées.
+
+**Livrable attendu :** Grille d’observation des erreurs et limites du modèle.
+
+**Pour aller plus loin :** Comparer plusieurs réponses à une question dont une donnée manque et vérifier la capacité à reconnaître l’incertitude.
 
 ### Construire une demande explicite · 210 min
 
 - Préciser objectif, destinataire, format et contraintes.
 - Fournir le contexte nécessaire sans noyer la demande.
 - Utiliser exemples et contre-exemples pour définir le résultat attendu.
+- Structurer rôle utile, tâche, contraintes, exemples, données délimitées et format de sortie attendu.
 
 **Atelier prévu :** Réécrire un prompt vague de compte rendu et vérifier sa sortie à l'aide d'une grille définie avant l'essai.
+
+**Livrable attendu :** Gabarit de prompt annoté et recette de sortie.
+
+**Pour aller plus loin :** Réduire une consigne trop longue en conservant les exigences mesurables et les informations réellement nécessaires.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Délimiter les documents et conserver leurs références.
 - Demander une extraction structurée avec champs manquants explicites.
 - Distinguer résumé fidèle, interprétation et recommandation.
+- Définir granularité de synthèse, champs d’extraction, traitement de l’absence et citation de la source.
 
 **Atelier prévu :** Extraire décisions, responsables et échéances d'un compte rendu fictif, puis comparer chaque champ à la source.
+
+**Livrable attendu :** Jeu de documents tests et tableau d’extraction contrôlé.
+
+**Pour aller plus loin :** Tester le même prompt sur documents contradictoires, tableaux incomplets et instructions malveillantes dans une source.
 
 ### Décomposer un travail complexe · 210 min
 
 - Séparer préparation, production et vérification.
 - Demander des clarifications lorsque l'information manque.
 - Concevoir des variantes selon ton, lectorat et longueur.
+- Découper collecte, analyse, rédaction et vérification en étapes dont les sorties sont contrôlables.
 
 **Atelier prévu :** Construire une chaîne de trois prompts pour transformer un dossier technique en note de décision sans inventer les données absentes.
+
+**Livrable attendu :** Chaîne de travail avec critères d’entrée et de sortie.
+
+**Pour aller plus loin :** Organiser un workflow qui bloque la rédaction finale tant que les affirmations importantes ne disposent pas de sources vérifiées.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Fixer critères observables et cas de test variés.
 - Comparer les versions sur un même échantillon.
 - Repérer les erreurs persistantes que le prompting ne résout pas.
+- Évaluer exactitude, couverture, style, format et résistance aux ambiguïtés ; conserver les cas en échec.
 
 **Atelier prévu :** Tester une consigne sur dix cas, dont contradictions et absence de réponse ; conserver les améliorations démontrées.
+
+**Livrable attendu :** Banc d’essai de prompts et journal d’amélioration.
+
+**Pour aller plus loin :** Conduire une comparaison en aveugle de versions de prompts sur un jeu fixe, en distinguant préférence et qualité mesurable.
 
 ### Partager des modèles de prompts maintenables · 210 min
 
 - Paramétrer variables, exemples et périmètre autorisé.
 - Documenter versions, limites et étapes de validation humaine.
 - Choisir entre prompt réutilisable, automatisation et intervention experte.
+- Versionner propriétaire, usages autorisés, exemples, limites et date de revue d’un prompt partagé.
 
 **Atelier prévu :** Livrer trois prompts documentés avec cas de recette, résultats attendus et consignes de vérification pour un collègue.
+
+**Livrable attendu :** Bibliothèque de prompts avec guide de maintenance.
+
+**Pour aller plus loin :** Prévoir la revalidation après changement de modèle, de politique interne ou de documents de référence.
 
 ## Évaluation finale prévue
 

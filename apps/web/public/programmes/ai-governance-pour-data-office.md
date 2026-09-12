@@ -1,12 +1,12 @@
 # AI Governance pour Data Office
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir unité d'inventaire, finalité et propriétaire.
 - Relier systèmes, fournisseurs, données et utilisateurs.
 - Distinguer criticité interne et qualification réglementaire à vérifier.
+- Inventorier finalités, acteurs, données, modèles et criticité en conservant les hypothèses de classement.
 
 **Atelier prévu :** Construire un registre de six usages IA et identifier les informations manquantes avant leur revue.
+
+**Livrable attendu :** Registre IA et cartographie de criticité.
+
+**Pour aller plus loin :** Traiter un usage composite reposant sur plusieurs fournisseurs et modèles.
 
 ### Définir responsabilités et décisions · 210 min
 
 - Attribuer ownership métier, data, modèle et exploitation.
 - Organiser revues d'entrée, modification et retrait.
 - Définir exigences proportionnées au risque et preuves associées.
+- Définir propriétaires, validations, exceptions et décisions de retrait au cours du cycle de vie.
 
 **Atelier prévu :** Rédiger une matrice de responsabilités pour un assistant et un modèle de scoring, avec décisions réservées aux fonctions compétentes.
+
+**Livrable attendu :** RACI et circuit de validation.
+
+**Pour aller plus loin :** Résoudre une responsabilité partagée entre data office, métier et sécurité.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier qualité, traçabilité, droits et documentation du modèle.
 - Prévoir revue des performances, biais et usages réels.
 - Organiser exceptions, incidents et dette de gouvernance.
+- Relier qualité, lineage, accès, documentation, évaluation des modèles et surveillance.
 
 **Atelier prévu :** Construire le dossier minimal d'un cas IA en réutilisant les contrôles data existants et en explicitant les compléments nécessaires.
+
+**Livrable attendu :** Matrice de contrôles et preuves attendues.
+
+**Pour aller plus loin :** Identifier un contrôle data réussi qui ne suffit pas à valider le comportement du modèle.
 
 ### Piloter l'amélioration de la gouvernance · 210 min
 
 - Prioriser les écarts selon exposition et impact.
 - Mesurer couverture du registre et exécution des contrôles.
 - Préparer comité de décision et plan de remédiation.
+- Mesurer couverture, écarts, délais de remédiation et efficacité des contrôles.
 
 **Atelier prévu :** Présenter une feuille de route à quatre-vingt-dix jours avec responsables, dépendances et indicateurs vérifiables.
+
+**Livrable attendu :** Tableau de gouvernance et plan d’amélioration.
+
+**Pour aller plus loin :** Prioriser une dette de gouvernance selon conséquences et exposition réelles.
 
 ## Évaluation finale prévue
 

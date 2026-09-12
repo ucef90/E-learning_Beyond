@@ -1,12 +1,12 @@
 # État de l'art sur l'Intelligence Artificielle (IA) : concepts, enjeux, technologies et stratégies pour les entreprises
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -41,16 +41,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer règles, apprentissage statistique et modèles génératifs.
 - Situer langage, image, recommandation et prévision.
 - Expliquer entraînement, inférence et limites de généralisation.
+- Comparer règles, apprentissage statistique, réseaux profonds et génération selon leurs contraintes.
 
 **Atelier prévu :** Classer dix exemples d'applications et identifier les cas qui relèvent d'une simple automatisation.
+
+**Livrable attendu :** Panorama argumenté des familles d’IA.
+
+**Pour aller plus loin :** Expliquer les limites d’un modèle génératif pour une tâche prédictive.
 
 ### Relier capacités et besoins métier · 210 min
 
 - Décrire problème, utilisateur, décision et résultat attendu.
 - Identifier données disponibles et coût d'une erreur.
 - Comparer assistance, automatisation partielle et décision humaine.
+- Traduire un besoin en tâche, données, résultat mesurable et coût d’erreur.
 
 **Atelier prévu :** Formuler trois cas d'usage pour une organisation fictive et les comparer à une solution sans IA.
+
+**Livrable attendu :** Fiche d’opportunité et critères de succès.
+
+**Pour aller plus loin :** Reformuler une ambition vague en expérimentation avec baseline.
 
 ## Jour 2 · 7 heures
 
@@ -59,16 +69,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Situer collecte, stockage, modèles, interfaces et supervision.
 - Comparer achat de service, intégration et développement spécialisé.
 - Examiner contraintes d'hébergement, connectivité et ressources.
+- Distinguer entraînement, inférence, recherche documentaire et orchestration des outils.
 
 **Atelier prévu :** Dessiner deux architectures possibles pour un assistant documentaire et lister leurs dépendances.
+
+**Livrable attendu :** Architecture fonctionnelle et dépendances.
+
+**Pour aller plus loin :** Identifier les dépendances et points de défaillance d’une chaîne IA.
 
 ### Évaluer risques et impacts · 210 min
 
 - Examiner qualité, biais, confidentialité et sécurité.
 - Identifier changements de tâches et besoins de formation.
 - Situer les cadres réglementaires sans conclure à une conformité automatique.
+- Analyser erreurs, biais, confidentialité, sécurité et conséquences organisationnelles.
 
 **Atelier prévu :** Construire un registre de risques du cas assistant avec mesure préventive, contrôle et responsable.
+
+**Livrable attendu :** Registre des risques et mesures de maîtrise.
+
+**Pour aller plus loin :** Arbitrer un usage utile mais exposé à des erreurs coûteuses.
 
 ## Jour 3 · 7 heures
 
@@ -77,16 +97,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Répartir rôles métier, data, IT, sécurité et juridique.
 - Prévoir expérimentation, mesure, validation et exploitation.
 - Définir un pilote et des critères de poursuite ou d'arrêt.
+- Définir les preuves attendues à chaque jalon, la représentativité du pilote et les critères permettant de transférer la responsabilité à l’exploitation.
 
 **Atelier prévu :** Préparer un plan de pilote avec données, équipe, étapes, budget estimatif et résultats mesurables.
+
+**Livrable attendu :** Plan de projet avec jalons de décision.
+
+**Pour aller plus loin :** Décider d’un arrêt lorsque la preuve de robustesse reste insuffisante.
 
 ### Construire une trajectoire d'entreprise · 210 min
 
 - Prioriser valeur, faisabilité et risques des cas d'usage.
 - Planifier socle de données, compétences et gouvernance.
 - Communiquer hypothèses, limites et décisions attendues.
+- Prioriser les initiatives selon valeur, faisabilité, maturité des données et changement.
 
 **Atelier prévu :** Présenter une feuille de route IA à six mois avec deux pilotes, les prérequis communs et une revue de décision.
+
+**Livrable attendu :** Trajectoire IA et note de priorisation.
+
+**Pour aller plus loin :** Répartir un budget entre fondations, pilotes et généralisation.
 
 ## Évaluation finale prévue
 

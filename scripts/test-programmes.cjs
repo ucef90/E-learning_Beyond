@@ -4,6 +4,10 @@ const path = require("node:path");
 const { load } = require("cheerio");
 const { loadProgrammes } = require("./validate-programmes.cjs");
 const { catalogue, bySlug } = loadProgrammes();
+for (const c of require("../data/regulatory-courses.json").courses) {
+  catalogue.push(c.training);
+  bySlug.set(c.slug, c.syllabus);
+}
 const api = "http://127.0.0.1:4200/api/v1";
 const web = "http://127.0.0.1:3200";
 
@@ -67,11 +71,24 @@ async function main() {
         expected.assessment.criteria.length,
         t.slug,
       );
-      for (const m of expected.modules)
+      assert.equal(
+        $(".programme-deliverable").length,
+        expected.modules.length,
+        t.slug,
+      );
+      assert.equal(
+        $(".programme-challenge").length,
+        expected.modules.length,
+        t.slug,
+      );
+      for (const m of expected.modules) {
+        assert($("#programme").text().includes(m.deliverable), t.slug);
+        assert($("#programme").text().includes(m.expertChallenge), t.slug);
         assert(
           $("#programme").text().includes(m.workshop),
           `Atelier rendu : ${t.slug}`,
         );
+      }
       assert.equal(
         $("#programme a[download]").attr("href"),
         `/programmes/${t.slug}.md`,
@@ -107,9 +124,9 @@ async function main() {
     programmes: results.length,
     sequences: results.reduce((n, r) => n + r.sequences, 0),
     checks: [
-      "81 programmes API conformes à la source",
-      "81 pages rendues avec tous les ateliers",
-      "81 téléchargements identiques aux fichiers",
+      "83 programmes API conformes à la source enrichie",
+      "83 pages avec ateliers, livrables et approfondissements",
+      "83 téléchargements identiques aux fichiers",
       "catalogue allégé et pilote conservé",
       "404 formation inconnue",
     ],

@@ -448,6 +448,8 @@ export type DetailedProgramme = {
     durationMinutes: number;
     topics: string[];
     workshop: string;
+    expertChallenge?: string;
+    deliverable?: string;
   }>;
   assessment: { format: string; durationMinutes: number; criteria: string[] };
   references: Array<{ title: string; url: string }>;

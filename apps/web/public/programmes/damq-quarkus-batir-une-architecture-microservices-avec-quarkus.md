@@ -1,12 +1,12 @@
 # Quarkus : bâtir une architecture microservices avec Quarkus
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comprendre extensions, injection et configuration par profil.
 - Utiliser le mode développement et les tests continus.
 - Définir frontières des services et contrats d'échange.
+- Structurer configuration, injection de dépendances et profils ; isoler les secrets.
 
 **Atelier prévu :** Créer un service commandes et isoler sa configuration locale, de test et de déploiement.
+
+**Livrable attendu :** Projet Quarkus configuré et reproductible.
+
+**Pour aller plus loin :** Détecter une différence de comportement entre profil de test et production.
 
 ### Exposer et consommer des API REST · 210 min
 
 - Définir ressources, validation et réponses d'erreur.
 - Appeler un autre service avec un client REST typé.
 - Encadrer délais, erreurs distantes et autorisations.
+- Définir contrats REST, validation, codes d’erreur, timeouts et compatibilité des API.
 
 **Atelier prévu :** Relier commandes et catalogue puis simuler un catalogue indisponible pour vérifier la réponse de secours.
+
+**Livrable attendu :** API documentée et tests de contrat.
+
+**Pour aller plus loin :** Simuler une dépendance lente et vérifier les erreurs renvoyées au client.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Organiser entités, accès aux données et transactions.
 - Gérer migrations et contraintes métier.
 - Tester les ressources et les dépendances avec services de laboratoire.
+- Maîtriser transactions, concurrence, migrations et tests d’intégration de persistance.
 
 **Atelier prévu :** Enregistrer une commande de façon atomique et démontrer le rollback lorsque la validation d'une ligne échoue.
+
+**Livrable attendu :** Couche de persistance et tests transactionnels.
+
+**Pour aller plus loin :** Reproduire une mise à jour concurrente et choisir une stratégie de verrouillage.
 
 ### Introduire les échanges réactifs · 210 min
 
 - Comprendre messages, canaux, accusés de réception et reprises.
 - Éviter les traitements bloquants dans un chemin réactif.
 - Gérer doublons et erreurs de consommation.
+- Distinguer traitement bloquant et non bloquant ; traiter pression, erreurs et retries.
 
 **Atelier prévu :** Publier un événement commande puis traiter deux fois le même message sans créer deux expéditions.
+
+**Livrable attendu :** Flux réactif et stratégie d’idempotence.
+
+**Pour aller plus loin :** Éviter une duplication métier après reprise d’un message.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Expliquer phases de build et contraintes de compilation AOT.
 - Mesurer démarrage, mémoire et temps de construction.
 - Identifier ressources et bibliothèques nécessitant une configuration spécifique.
+- Comparer démarrage, mémoire, compilation et contraintes de réflexion entre JVM et natif.
 
 **Atelier prévu :** Comparer deux artefacts du même service et documenter les limites observées de la version native.
+
+**Livrable attendu :** Rapport de mesures et choix d’exécution.
+
+**Pour aller plus loin :** Mesurer deux variantes avec le même scénario sans généraliser un microbenchmark.
 
 ### Déployer et surveiller sur Kubernetes · 210 min
 
 - Configurer déploiement, service, secrets et ressources.
 - Distinguer disponibilité, démarrage et santé fonctionnelle.
 - Collecter métriques et traces pour diagnostiquer une panne.
+- Séparer readiness et liveness ; configurer ressources, traces et déploiement progressif.
 
 **Atelier prévu :** Démontrer le déploiement de laboratoire et une reprise après arrêt d'un pod ; remettre contrats, tests et guide d'exploitation.
+
+**Livrable attendu :** Manifestes et guide de diagnostic.
+
+**Pour aller plus loin :** Diagnostiquer un service sain localement mais indisponible derrière le cluster.
 
 ## Évaluation finale prévue
 

@@ -1,12 +1,12 @@
 # Spring Boot : Accélérez vos développements avec Spring Boot
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Situer starters, auto-configuration et injection de dépendances.
 - Structurer packages et responsabilités applicatives.
 - Utiliser profils et propriétés sans inclure de secrets dans le code.
+- Analyser auto-configuration, propriétés, profils et ordre de priorité des paramètres.
 
 **Atelier prévu :** Créer le projet et expliquer quels composants sont configurés automatiquement et lesquels sont déclarés explicitement.
+
+**Livrable attendu :** Configuration expliquée et profils contrôlés.
+
+**Pour aller plus loin :** Diagnostiquer un bean absent ou configuré différemment selon l’environnement.
 
 ### Exposer une API cohérente · 210 min
 
 - Définir routes REST, DTO et validation.
 - Choisir codes HTTP et représentation des erreurs.
 - Distinguer contrôleur, service métier et mapping.
+- Concevoir validation, pagination, erreurs structurées et compatibilité du contrat REST.
 
 **Atelier prévu :** Implémenter création et lecture d'un dossier avec tests des champs absents et des identifiants inconnus.
+
+**Livrable attendu :** API documentée et scénarios d’erreur.
+
+**Pour aller plus loin :** Traiter une demande invalide et une ressource inaccessible sans fuite d’information.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Modéliser relations et contraintes de persistance.
 - Délimiter transactions et gérer chargements des associations.
 - Introduire migrations et pagination avec requêtes maîtrisées.
+- Maîtriser transactions, chargement paresseux, problème N+1 et concurrence optimiste.
 
 **Atelier prévu :** Enregistrer un dossier et ses lignes, puis repérer une lecture produisant trop de requêtes.
+
+**Livrable attendu :** Accès JPA mesuré et tests transactionnels.
+
+**Pour aller plus loin :** Comparer le SQL généré avant et après correction d’un accès inefficace.
 
 ### Protéger les opérations métier · 210 min
 
 - Distinguer authentification et autorisation.
 - Vérifier accès par rôle et propriété de ressource.
 - Valider les entrées et éviter la fuite d'informations dans les erreurs.
+- Séparer authentification, autorisation et règles métier ; contrôler l’accès à chaque ressource.
 
 **Atelier prévu :** Ajouter deux profils d'accès et prouver qu'un utilisateur ne peut ni consulter ni modifier le dossier d'un autre.
+
+**Livrable attendu :** Matrice d’autorisations et tests négatifs.
+
+**Pour aller plus loin :** Tester un utilisateur connecté tentant d’accéder au dossier d’un autre.
 
 ## Jour 3 · 7 heures
 
@@ -75,16 +95,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Choisir tests unitaires, slices et intégration.
 - Simuler dépendances externes sans masquer le contrat réel.
 - Tester transactions, erreurs et comportement de bout en bout.
+- Isoler données et état entre tests, choisir les frontières de simulation et vérifier qu’un rollback de test ne masque pas un défaut de commit.
 
 **Atelier prévu :** Constituer une recette qui détecte une règle métier incorrecte et un contrat HTTP incompatible.
+
+**Livrable attendu :** Stratégie de tests et cas représentatifs.
+
+**Pour aller plus loin :** Détecter un test trop simulé qui masque une erreur de transaction.
 
 ### Préparer l'application à l'exploitation · 210 min
 
 - Construire l'artefact et externaliser la configuration.
 - Exposer santé et métriques avec accès adapté.
 - Organiser logs, supervision et vérification après livraison.
+- Configurer healthchecks, métriques, logs corrélés et arrêt propre ; externaliser les secrets.
 
 **Atelier prévu :** Livrer l'API avec guide de démarrage, exemples d'appels, tests et procédure de diagnostic d'un service indisponible.
+
+**Livrable attendu :** Dossier d’exploitation et scénario de diagnostic.
+
+**Pour aller plus loin :** Diagnostiquer une dégradation de dépendance avec les signaux disponibles.
 
 ## Évaluation finale prévue
 

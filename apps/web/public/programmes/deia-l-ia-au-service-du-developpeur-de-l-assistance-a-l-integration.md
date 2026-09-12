@@ -1,12 +1,12 @@
 # L'IA au service du développeur : de l'assistance à l'intégration
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Expliquer génération probabiliste, contexte et limites de connaissance.
 - Distinguer assistance de code, RAG et ajustement d'un modèle.
 - Évaluer confidentialité, licences et dépendance au fournisseur.
+- Évaluer assistance au code, recherche documentaire et génération de tests selon le risque, la confidentialité et l’effort de vérification.
 
 **Atelier prévu :** Classer six tâches de développement selon gain attendu et risque, puis définir les tâches qui exigent une revue renforcée.
+
+**Livrable attendu :** Charte d’usage développeur et matrice des cas d’usage.
+
+**Pour aller plus loin :** Définir les tâches autorisées, les données exclues et les validations humaines requises avant utilisation d’une proposition.
 
 ### Rédiger des demandes de code vérifiables · 210 min
 
 - Fournir contrat, contexte utile, contraintes et exemples.
 - Décomposer une fonctionnalité en changements limités.
 - Demander tests et explication des hypothèses sans accepter le code automatiquement.
+- Fournir contexte minimal, interfaces, contraintes et critères d’acceptation plutôt qu’une demande de code ouverte.
 
 **Atelier prévu :** Faire produire une fonction de validation, construire soi-même ses cas limites et corriger les défauts révélés par les tests.
+
+**Livrable attendu :** Bibliothèque de consignes et scénarios d’acceptation.
+
+**Pour aller plus loin :** Comparer une demande vague à une demande testable et mesurer les défauts détectés par une même recette.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Repérer API inexistante, dépendance inutile et comportement implicite.
 - Utiliser erreurs et tests pour guider une correction ciblée.
 - Comparer un refactoring au contrat fonctionnel initial.
+- Relire dépendances, accès aux données, erreurs et complexité ; vérifier l’explication proposée par exécution ciblée.
 
 **Atelier prévu :** Auditer une modification générée comportant une faille d'autorisation et démontrer sa correction avec un test de refus.
+
+**Livrable attendu :** Correctif commenté, tests de régression et revue critique.
+
+**Pour aller plus loin :** Soumettre à l’assistant un bug dont la première hypothèse est fausse et conduire un diagnostic fondé sur des preuves.
 
 ### Intégrer un appel de modèle dans une application · 210 min
 
 - Valider entrées et sorties structurées côté serveur.
 - Gérer secrets, quotas, délais, erreurs et coût des appels.
 - Afficher texte généré sans exécuter de HTML ou de script non fiable.
+- Encadrer délais, retries, budgets, validation de schéma et filtrage des données envoyées au modèle.
 
 **Atelier prévu :** Ajouter une fonction de synthèse avec réponse de secours et tester contenu malformé, timeout et quota atteint.
+
+**Livrable attendu :** Adaptateur d’appel de modèle et tests de défaillance.
+
+**Pour aller plus loin :** Simuler réponse invalide, interruption du fournisseur et tentative d’action non autorisée ; vérifier le repli applicatif.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Extraire et indexer un corpus contrôlé avec métadonnées.
 - Construire une réponse à partir d'extraits citables.
 - Tester document non autorisé, information absente et instruction malveillante dans une source.
+- Relier indexation, récupération, contexte, citation et contrôle des droits dans un assistant documentaire.
 
 **Atelier prévu :** Créer un assistant de documentation technique qui cite ses sources et s'abstient lorsque le corpus ne contient pas la réponse.
+
+**Livrable attendu :** Prototype RAG et jeu de tests de sources/résistance aux injections.
+
+**Pour aller plus loin :** Comparer erreurs de récupération et erreurs de génération, puis tester une injection contenue dans un document.
 
 ### Explorer le multimodal et livrer la fonctionnalité · 210 min
 
 - Distinguer compréhension d'image, transcription et génération.
 - Contrôler formats, tailles, consentement et données envoyées.
 - Documenter mesures de qualité, coûts et limites observées.
+- Traiter les entrées multimodales comme des données non fiables ; définir formats, tailles et conditions d’usage.
 
 **Atelier prévu :** Démontrer un cas image ou audio sur données de test puis remettre une fiche de recette de l'intégration, avec mode simulé reproductible.
+
+**Livrable attendu :** Dossier d’intégration et liste de contrôles avant livraison.
+
+**Pour aller plus loin :** Établir une recette couvrant accessibilité, coût, sécurité, supervision et désactivation de la fonctionnalité.
 
 ## Évaluation finale prévue
 

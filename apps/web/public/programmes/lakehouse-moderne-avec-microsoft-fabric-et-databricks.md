@@ -1,12 +1,12 @@
 # Lakehouse moderne avec Microsoft Fabric et Databricks
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer entrepôt, lac et lakehouse sur transactions, formats et usages.
 - Organiser couches brutes, nettoyées et métier sans duplication inutile.
 - Identifier besoins SQL, notebooks, BI et apprentissage automatique.
+- Relier couches bronze, silver et gold aux exigences de qualité, de conservation, de requêtage et de gouvernance.
 
 **Atelier prévu :** Classer les données d'une entreprise fictive et placer chaque transformation sur une architecture cible, avec critères de qualité.
+
+**Livrable attendu :** Schéma d’architecture cible et matrice des besoins.
+
+**Pour aller plus loin :** Comparer entrepôt, lac et lakehouse sur un cas associant BI, données semi-structurées et entraînement de modèles.
 
 ### Explorer Microsoft Fabric · 210 min
 
 - Situer OneLake, lakehouse, warehouse, pipelines et modèles sémantiques.
 - Suivre une ingestion jusqu'à une table exploitable en reporting.
 - Examiner espaces de travail, permissions et dépendances de capacité.
+- Examiner le chemin d’accès aux tables, la propagation des permissions et les dépendances d’actualisation entre stockage et modèle sémantique.
 
 **Atelier prévu :** Décrire puis observer une chaîne fichier vers indicateur ; relever les contrôles d'accès et les points de surveillance nécessaires.
+
+**Livrable attendu :** Parcours de données Fabric documenté et grille de dimensionnement.
+
+**Pour aller plus loin :** Définir les droits, la séparation des espaces et une stratégie de rafraîchissement ; tester les hypothèses de capacité sur un petit scénario.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Situer tables Delta, traitements Spark et tâches orchestrées.
 - Examiner catalogage, traçabilité et permissions avec Unity Catalog.
 - Comparer ingestion, SQL analytique et notebooks sur le même cas métier.
+- Relier tables Delta, calcul, orchestration et gouvernance du catalogue ; comprendre transactions, évolution de schéma et historique.
 
 **Atelier prévu :** Construire une matrice de correspondance avec Fabric et identifier les écarts qui empêchent une migration automatique.
+
+**Livrable attendu :** Pipeline Databricks et relevé des performances avant/après.
+
+**Pour aller plus loin :** Comparer une stratégie de partitionnement et une optimisation de lecture sur des requêtes représentatives, sans généraliser les mesures d’un seul cas.
 
 ### Arbitrer la trajectoire d'adoption · 210 min
 
 - Comparer compétences disponibles, intégration, coûts et exigences de gouvernance.
 - Définir un pilote mesurable et des critères de sortie.
 - Préparer migration progressive, réversibilité et responsabilités d'exploitation.
+- Comparer coût complet, compétences requises, intégration Microsoft, portabilité et gouvernance opérationnelle.
 
 **Atelier prévu :** Présenter deux options d'architecture avec hypothèses de consommation, risques, étapes de migration et décision motivée.
+
+**Livrable attendu :** Matrice de décision argumentée et feuille de route de migration.
+
+**Pour aller plus loin :** Construire une migration par lots avec coexistence, critères de bascule, retour arrière et preuve de cohérence des indicateurs.
 
 ## Évaluation finale prévue
 

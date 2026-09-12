@@ -1,12 +1,12 @@
 # LLMOps : deployer, observer et gouverner les applications LLM
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Décomposer modèle, prompt, corpus, outils et règles métier.
 - Construire un jeu de questions représentatif, avec réponses attendues et cas sans réponse.
 - Distinguer exactitude, fidélité aux sources, utilité et sécurité.
+- Mesurer séparément la pertinence du retrieval, la fidélité des réponses et la capacité à refuser une question hors périmètre.
 
 **Atelier prévu :** Écrire vingt cas de recette pour un assistant de procédures, dont cinq cas ambigus ou adverses, et préciser les critères d'acceptation.
+
+**Livrable attendu :** Jeu de recette annoté, taxonomie des erreurs et seuils de blocage.
+
+**Pour aller plus loin :** Concevoir une recette stratifiée par population, niveau de risque et type de document ; analyser les écarts entre moyenne globale et segments.
 
 ### Versionner et comparer les expériences · 210 min
 
 - Versionner prompts, paramètres, documents et jeux d'évaluation ensemble.
 - Comparer une baseline et une variante sur les mêmes entrées.
 - Calibrer un évaluateur automatique avec une revue humaine et rechercher ses biais.
+- Fixer les versions du corpus, du découpage, des embeddings et des paramètres pour rendre une comparaison interprétable.
 
 **Atelier prévu :** Produire une matrice comparant deux versions ; documenter les régressions et les désaccords entre notes automatiques et jugement humain.
+
+**Livrable attendu :** Matrice d’expériences avec paramètres, résultats par segment et décision motivée.
+
+**Pour aller plus loin :** Comparer plusieurs exécutions d’un même scénario, calibrer les évaluateurs et expliquer pourquoi un gain moyen peut masquer une régression critique.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Tracer latence, consommation, erreurs, retrieval et appels d'outils.
 - Masquer les données sensibles dans les traces et fixer leur conservation.
 - Définir budgets, quotas, délais d'attente, reprise et circuit de secours.
+- Relier un identifiant de requête aux étapes retrieval, génération et outils ; distinguer latence au premier jeton, latence totale et échecs de dépendances.
 
 **Atelier prévu :** Analyser des traces synthétiques, localiser une hausse de coût et rédiger une alerte avec seuil, responsable et action attendue.
+
+**Livrable attendu :** Tableau de supervision, budget par requête et fiche de réponse à incident.
+
+**Pour aller plus loin :** Simuler saturation, expiration d’un fournisseur et réponse sensible ; arbitrer cache, quotas, coupe-circuit et dégradation du service.
 
 ### Organiser une livraison contrôlée · 210 min
 
 - Séparer tests hors ligne, tests de charge et surveillance en service.
 - Préparer validation, déploiement progressif et retour à la version précédente.
 - Attribuer la responsabilité des incidents et de la revue périodique du corpus.
+- Séparer critères de livraison, contrôles de sécurité, supervision métier et obligations de conservation des traces.
 
 **Atelier prévu :** Présenter un dossier de mise en service : résultats de recette, seuils de blocage, procédure de repli et estimation du coût par demande.
+
+**Livrable attendu :** Dossier de mise en service avec responsabilités, preuves de recette et procédure de repli.
+
+**Pour aller plus loin :** Préparer un déploiement canari avec seuils d’arrêt, procédure de retour arrière et revalidation après changement du corpus.
 
 ## Évaluation finale prévue
 

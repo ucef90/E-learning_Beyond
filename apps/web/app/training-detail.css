@@ -1,0 +1,637 @@
+/* Course pages follow the official site's clear reading column and key-information panel. */
+.training-detail-page {
+  padding-top: 30px;
+  background: #f7f8fb;
+}
+.training-detail-page .page-shell {
+  max-width: 1240px;
+}
+.detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  grid-template-areas: "intro side" "body side";
+  gap: 28px 32px;
+  align-items: start;
+}
+.detail-intro {
+  grid-area: intro;
+  min-width: 0;
+  padding-top: 6px;
+}
+.detail-category {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 7px;
+  background: #e9edf4;
+  color: #33415e;
+  font-size: 0.73rem;
+  font-weight: 750;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.detail-intro .training-detail-title {
+  max-width: none;
+  margin: 18px 0 14px;
+  font-size: clamp(1.9rem, 3.1vw, 2.65rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  overflow-wrap: normal;
+  text-wrap: balance;
+}
+.detail-description {
+  color: #596477;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin: 0;
+  max-width: 68ch;
+}
+.detail-intro .training-kpis {
+  gap: 8px;
+  margin-top: 20px;
+}
+.detail-intro .training-kpi {
+  background: #fff;
+  border-color: #e0e4ec;
+  font-size: 0.81rem;
+  padding: 9px 12px;
+}
+.detail-intro-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+  margin: 12px 0 20px;
+}
+.detail-intro-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  min-height: 44px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-underline-offset: 5px;
+}
+.detail-audience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #e1e5ed;
+  border-radius: 16px;
+  background: #fff;
+}
+.detail-audience section {
+  padding: 19px 20px;
+  min-width: 0;
+}
+.detail-audience section + section {
+  border-left: 1px solid #e1e5ed;
+}
+.detail-audience h2 {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+}
+.detail-audience p {
+  margin: 0;
+  color: #596477;
+  font-size: 0.86rem;
+  line-height: 1.7;
+}
+.detail-sidebar {
+  grid-area: side;
+  align-self: stretch;
+  min-width: 0;
+}
+.detail-booking {
+  position: sticky;
+  top: 200px;
+  background: #fff;
+  border: 1px solid #dfe4ed;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 12px 32px -20px #1a264438;
+}
+.detail-booking h2 {
+  margin: 0 0 16px;
+  font-size: 1.2rem;
+}
+.detail-facts {
+  margin: 0;
+}
+.detail-facts > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #edf0f5;
+  font-size: 0.85rem;
+}
+.detail-facts dt {
+  color: #626c7e;
+}
+.detail-facts dd {
+  margin: 0;
+  text-align: right;
+  font-weight: 700;
+}
+.detail-price {
+  padding: 19px 0;
+  display: grid;
+  gap: 4px;
+}
+.detail-price > span {
+  font-size: 0.76rem;
+  color: #626c7e;
+}
+.detail-price strong {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+.detail-session {
+  display: flex;
+  gap: 12px;
+  padding: 15px;
+  background: #f3f5f9;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+.detail-session > svg {
+  flex: 0 0 auto;
+  margin-top: 2px;
+}
+.detail-session span,
+.detail-session strong,
+.detail-session small {
+  display: block;
+}
+.detail-session span {
+  font-size: 0.76rem;
+}
+.detail-session strong {
+  font-size: 1.13rem;
+  margin: 4px 0;
+}
+.detail-session small {
+  color: #5e687b;
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+.detail-booking .button {
+  width: 100%;
+  min-height: 46px;
+  gap: 10px;
+  margin-bottom: 9px;
+  font-size: 0.85rem;
+}
+.detail-booking .detail-quote {
+  background: #f6a33c;
+  color: #192642;
+  border-color: transparent;
+}
+.detail-quote:hover {
+  background: #ffcf65;
+}
+.detail-contact-link {
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 0.79rem;
+}
+.detail-booking-note {
+  font-size: 0.71rem;
+  line-height: 1.55;
+  color: #667084;
+  margin: 9px 0 17px;
+}
+.detail-quick-nav {
+  border-top: 1px solid #e6eaf1;
+  padding-top: 8px;
+}
+.detail-quick-nav a {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+.detail-body {
+  grid-area: body;
+  min-width: 0;
+  margin: 0;
+  gap: 24px;
+}
+.detail-body .training-content-card {
+  background: #fff;
+  border: 1px solid #e1e5ed;
+  border-radius: 16px;
+  padding: 25px;
+}
+.detail-body h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+}
+.detail-eyebrow {
+  margin: 0 0 7px !important;
+  color: #697589;
+  font-size: 0.69rem;
+  font-weight: 750;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.detail-objectives .catalog-objectives {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  display: grid;
+  gap: 10px;
+}
+.detail-objectives li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 13px 14px;
+  background: #f5f6f9;
+  border-radius: 9px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.detail-objectives li svg {
+  flex: 0 0 auto;
+  color: #9a5d12;
+  margin-top: 3px;
+}
+.detail-body .detailed-programme {
+  padding: 27px;
+  border-radius: 16px;
+  border-color: #dfe4ec;
+}
+.programme-heading {
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.programme-heading > div > p:last-child {
+  color: #626c7e;
+  font-size: 0.86rem;
+  line-height: 1.6;
+}
+.programme-download {
+  display: inline-flex;
+  gap: 9px;
+  align-items: center;
+  min-height: 38px;
+  color: #33415e;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.programme-case {
+  display: flex;
+  gap: 16px;
+  background: #1c2948;
+  color: #fff;
+  border-radius: 12px;
+  padding: 23px;
+}
+.programme-case > svg {
+  color: #ffc573;
+  flex: 0 0 auto;
+  margin-top: 3px;
+}
+.detailed-programme .programme-case h3 {
+  margin: 0 0 9px;
+  font-size: 1.07rem;
+}
+.programme-case p {
+  margin: 0;
+  font-size: 0.87rem;
+  line-height: 1.75;
+  color: #e7ebf3;
+}
+.programme-preparation {
+  font-size: 0.87rem;
+  padding: 14px 0 0;
+}
+.programme-preparation summary {
+  cursor: pointer;
+  padding: 8px 0;
+  font-weight: 650;
+  min-height: 44px;
+}
+.programme-preparation p {
+  color: #596477;
+}
+.programme-days-nav {
+  gap: 7px;
+  margin: 16px 0 20px;
+}
+.programme-days-nav a {
+  border: 1px solid #dce2ec;
+  background: #f8f9fc;
+  border-radius: 8px;
+  padding: 6px 12px;
+  min-height: 40px;
+  font-size: 0.8rem;
+}
+.programme-days-nav a:hover {
+  background: #ffcf65;
+}
+.programme-day {
+  margin: 12px 0 0;
+  border: 1px solid #dde3ed;
+  border-radius: 12px;
+  overflow: clip;
+}
+.programme-day > summary {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  list-style: none;
+  padding: 19px;
+  background: #f5f7fa;
+}
+.programme-day > summary::-webkit-details-marker {
+  display: none;
+}
+.programme-day-number {
+  flex: 0 0 42px;
+  display: grid;
+  text-align: center;
+  color: #67758b;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.programme-day-number b {
+  font-size: 1.7rem;
+  line-height: 1.1;
+  color: #1a2644;
+  font-weight: 650;
+  letter-spacing: -0.06em;
+}
+.programme-day-caption {
+  flex: 1;
+  min-width: 0;
+}
+.programme-day-caption strong {
+  display: block;
+  font-size: 0.97rem;
+  line-height: 1.4;
+}
+.programme-day-caption > span {
+  display: block;
+  font-size: 0.73rem;
+  color: #667389;
+  margin-top: 5px;
+}
+.programme-chevron {
+  flex: 0 0 auto;
+  transition: transform 0.2s;
+}
+.programme-day[open] > summary .programme-chevron {
+  transform: rotate(180deg);
+}
+.programme-day[open] > summary {
+  border-bottom: 1px solid #e1e6ee;
+}
+.programme-day-body {
+  padding: 0 22px;
+}
+.programme-sequence {
+  padding: 23px 0;
+}
+.programme-sequence + .programme-sequence {
+  padding-top: 25px;
+  border-top-color: #e1e6ee;
+}
+.programme-sequence-meta {
+  font-size: 0.72rem;
+  color: #717d91;
+  font-weight: 650;
+  letter-spacing: 0.03em;
+  margin: 0 0 8px;
+}
+.detailed-programme .programme-sequence h4 {
+  font-size: 1.07rem;
+  text-wrap: initial;
+  margin-bottom: 13px;
+}
+.programme-topics {
+  font-size: 0.86rem;
+  line-height: 1.75;
+  margin: 0 0 19px;
+  color: #44516a;
+}
+.programme-topics li::marker {
+  color: #b17932;
+}
+.programme-practice {
+  border-left: 3px solid #eaa443;
+  padding: 0 0 0 16px;
+}
+.programme-workshop {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.85rem;
+  line-height: 1.75;
+}
+.programme-workshop strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #7a4b11;
+  font-size: 0.75rem;
+}
+.programme-deliverable {
+  font-size: 0.82rem;
+  line-height: 1.7;
+  margin: 12px 0 0;
+}
+.programme-deliverable strong {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  font-size: 0.75rem;
+}
+.programme-challenge {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px dashed #dce2ec;
+}
+.programme-challenge > span {
+  display: inline-block;
+  font-weight: 750;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #566580;
+}
+.programme-challenge p {
+  margin: 5px 0 0;
+  font-size: 0.83rem;
+  line-height: 1.7;
+  color: #596780;
+}
+.programme-assessment {
+  margin-top: 28px;
+  padding: 24px 0 0;
+  font-size: 0.88rem;
+}
+.detailed-programme .programme-assessment h3 {
+  margin: 0 0 12px;
+}
+.programme-editorial-note {
+  padding-top: 20px;
+  margin-top: 24px;
+  border-top: 1px solid #e3e7ee;
+  color: #69758a;
+  font-size: 0.76rem;
+  line-height: 1.7;
+}
+.programme-editorial-note .learning-note {
+  font-size: inherit;
+}
+.programme-references {
+  font-size: 0.83rem;
+  margin-bottom: 0;
+}
+.detail-source {
+  padding: 16px 0;
+  color: #687387;
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+.detail-source summary {
+  min-height: 44px;
+  cursor: pointer;
+  font-weight: 650;
+}
+.training-detail-page :is(a, summary):focus-visible {
+  outline: 3px solid #be771d;
+  outline-offset: 4px;
+}
+.training-detail-page
+  :is(#programme, .programme-day, #programme-evaluation, #contenu-elearning) {
+  scroll-margin-top: 210px;
+}
+@media (max-height: 860px) and (min-width: 981px) {
+  .detail-booking {
+    position: static;
+  }
+}
+@media (max-width: 980px) {
+  .detail-layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "intro" "side" "body";
+    gap: 24px;
+  }
+  .detail-booking {
+    position: static;
+  }
+  .detail-quick-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 24px;
+  }
+  .detail-price strong {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 600px) {
+  .training-detail-page {
+    padding-top: 24px;
+  }
+  .detail-intro .training-detail-title {
+    font-size: 2rem;
+  }
+  .detail-description {
+    font-size: 0.96rem;
+  }
+  .detail-audience {
+    grid-template-columns: 1fr;
+  }
+  .detail-audience section + section {
+    border-left: 0;
+    border-top: 1px solid #e1e5ed;
+  }
+  .detail-booking,
+  .detail-body .training-content-card {
+    padding: 20px;
+  }
+  .detail-body .detailed-programme {
+    padding: 20px 14px;
+  }
+  .programme-case {
+    padding: 18px;
+    gap: 12px;
+  }
+  .programme-case > svg {
+    width: 20px;
+  }
+  .programme-day > summary {
+    padding: 16px 12px;
+    gap: 10px;
+  }
+  .programme-day-body {
+    padding: 0 16px;
+  }
+  .programme-day-caption strong {
+    font-size: 0.89rem;
+  }
+  .programme-day-caption > span {
+    font-size: 0.7rem;
+  }
+  .programme-practice {
+    padding-left: 12px;
+  }
+  .programme-workshop {
+    padding: 0;
+  }
+  .training-detail-page
+    :is(#programme, .programme-day, #programme-evaluation, #contenu-elearning) {
+    scroll-margin-top: 110px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .programme-chevron {
+    transition: none;
+  }
+}
+@media print {
+  .detail-layout {
+    display: block;
+  }
+  .detail-sidebar,
+  .detail-intro-actions,
+  .programme-download {
+    display: none;
+  }
+  .programme-day::details-content {
+    display: block;
+    content-visibility: visible;
+  }
+  .programme-case {
+    color: #000;
+    background: #fff;
+    border: 1px solid #aaa;
+  }
+  .programme-case p {
+    color: #000;
+  }
+}
+
+/* Long programme text stays comfortable to read on every screen. */
+.programme-topics,
+.programme-workshop {
+  font-size: 1rem;
+}
+.programme-deliverable,
+.programme-challenge p {
+  font-size: 0.94rem;
+}

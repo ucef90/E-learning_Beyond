@@ -1,34 +1,37 @@
 import type { UiTraining } from "./api";
 
-/** Captured public dates are indicative; they do not create bookable LMS sessions. */
+function parisDateParts(now: Date) {
+  const parts = new Intl.DateTimeFormat("fr-FR", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  }).formatToParts(now);
+  const read = (type: string) =>
+    Number(parts.find((p) => p.type === type)?.value);
+  return { year: read("year"), month: read("month"), day: read("day") };
+}
+/** Same calendar day next month, clamped for months with fewer days. */
+export function nextMonthlySession(now = new Date()) {
+  const { year, month, day } = parisDateParts(now);
+  const lastDay = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
+  const next = new Date(Date.UTC(year, month, Math.min(day, lastDay), 12));
+  return new Intl.DateTimeFormat("fr-FR", { timeZone: "Europe/Paris" }).format(
+    next,
+  );
+}
+/** Proposed dates are a monthly planning policy, not bookable session records. */
 export function trainingPresentation(training: UiTraining, now = new Date()) {
   const publishedPrice = training.source?.observedPrice;
   const price =
     training.priceFrom !== "Sur demande"
       ? training.priceFrom
       : publishedPrice || "Sur devis";
-  const dates =
-    (training.source?.observedSessions || "").match(/\d{2}\/\d{2}\/\d{4}/g) ||
-    [];
-  const today = new Date(
-    now.getFullYear(),
-    now.getMonth(),
-    now.getDate(),
-  ).getTime();
-  const future = dates
-    .map((label) => {
-      const [d, m, y] = label.split("/").map(Number);
-      return { label, time: new Date(y, m - 1, d).getTime() };
-    })
-    .filter((d) => d.time >= today)
-    .sort((a, b) => a.time - b.time);
-  const confirmed = training.nextSession !== "Planification à venir";
   return {
     price,
     hasPrice: price !== "Sur devis" && price !== "Sur demande",
-    session: confirmed
-      ? training.nextSession
-      : future[0]?.label || "Nous consulter",
-    indicative: !confirmed && future.length > 0,
+    session: nextMonthlySession(now),
+    indicative: true,
+    proposed: true,
   };
 }

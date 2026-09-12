@@ -1,12 +1,12 @@
 # MLOps pour équipes Data
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Préciser entrées, sorties et décision soutenue.
 - Identifier contraintes de latence, volume et disponibilité.
 - Distinguer qualité statistique et qualité de service.
+- Définir entrées, sorties, disponibilité, latence, métriques et coût d’erreur métier.
 
 **Atelier prévu :** Rédiger le contrat d'un service de scoring et ses critères de validation métier et techniques.
+
+**Livrable attendu :** Contrat de service et critères de validation.
+
+**Pour aller plus loin :** Détecter un objectif de score incompatible avec le service réellement attendu.
 
 ### Rendre l'expérience reproductible · 210 min
 
 - Versionner code, dépendances, configuration et provenance des données.
 - Enregistrer paramètres, métriques et artefacts d'entraînement.
 - Isoler étapes de préparation et apprentissage sans fuite de données.
+- Capturer empreinte des jeux de données, versions des artefacts et configuration d’exécution ; expliquer les limites du déterminisme sur certaines opérations matérielles.
 
 **Atelier prévu :** Reproduire une expérience à partir d'un identifiant et vérifier que les transformations utilisées sont documentées.
+
+**Livrable attendu :** Exécution reproductible et registre d’expériences.
+
+**Pour aller plus loin :** Reproduire une expérience depuis un environnement vierge.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Tester schéma des données et invariants métier.
 - Comparer modèle candidat et baseline sur jeux définis.
 - Vérifier packaging, sécurité et compatibilité de l'inférence.
+- Combiner validation des données, tests de pipeline, performance et contrôles de fuite.
 
 **Atelier prévu :** Créer une porte de validation qui refuse un modèle moins bon sur un segment métier critique.
+
+**Livrable attendu :** Pipeline de validation et conditions de promotion.
+
+**Pour aller plus loin :** Bloquer une livraison dont le score est élevé mais le découpage invalide.
 
 ### Déployer et revenir en arrière · 210 min
 
 - Comparer inférence batch et service en ligne.
 - Préparer registre, promotion et séparation des environnements.
 - Définir déploiement progressif et rollback.
+- Comparer batch, API, shadow et canary ; versionner schémas et prévoir rollback.
 
 **Atelier prévu :** Déployer deux versions dans un laboratoire et revenir à la précédente après une régression simulée.
+
+**Livrable attendu :** Stratégie de déploiement et exercice de retour arrière.
+
+**Pour aller plus loin :** Revenir à une version précédente sans incompatibilité entre modèle et variables.
 
 ## Jour 3 · 7 heures
 
@@ -75,16 +95,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer dérive de données, dérive de concept et panne technique.
 - Prévoir labels tardifs et mesure différée.
 - Définir alertes et conditions de réentraînement.
+- Définir fenêtres de comparaison, segmentation et seuils d’alerte ; surveiller la qualité des labels et distinguer saisonnalité normale et rupture durable.
 
 **Atelier prévu :** Analyser un tableau de surveillance et décider s'il faut corriger le pipeline, réentraîner ou attendre davantage de preuves.
+
+**Livrable attendu :** Plan de surveillance et protocole de diagnostic.
+
+**Pour aller plus loin :** Interpréter une alerte de dérive sans déclencher un réentraînement automatique aveugle.
 
 ### Organiser l'exploitation du modèle · 210 min
 
 - Attribuer responsabilités de validation et d'incident.
 - Documenter limites, dépendances et fréquence de revue.
 - Prévoir retrait du modèle et mode de secours.
+- Définir astreinte, incidents, changements, réentraînement et retrait du modèle.
 
 **Atelier prévu :** Livrer un dossier MLOps avec expérience reproductible, recette de promotion, preuves de rollback et procédure de surveillance.
+
+**Livrable attendu :** Runbook du modèle et processus de changement.
+
+**Pour aller plus loin :** Organiser une revue après incident reliant cause technique et impact métier.
 
 ## Évaluation finale prévue
 

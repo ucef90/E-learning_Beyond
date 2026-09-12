@@ -44,7 +44,7 @@ export function TrainingCard({ training }: { training: UiTraining }) {
         <div className="training-next-session">
           <CalendarDays size={18} aria-hidden="true" />
           <div>
-            <span>Prochaine session{info.indicative ? " annoncée" : ""}</span>
+            <span>Prochaine session{info.proposed ? " proposée" : ""}</span>
             <strong>{info.session}</strong>
           </div>
         </div>

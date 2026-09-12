@@ -1,4 +1,7 @@
+"use client";
 import Link from "next/link";
+import { useState } from "react";
+import { Pause, Play } from "lucide-react";
 const references = [
   ["BNP Paribas", "bnpparibas.com"],
   ["Orange", "orange.com"],
@@ -10,7 +13,34 @@ const references = [
   ["Thales", "thalesgroup.com"],
   ["Médiamétrie · Paris", "mediametrie.fr"],
 ];
+function LogoSequence({ duplicate = false }: { duplicate?: boolean }) {
+  return (
+    <ul
+      className="reference-logo-sequence"
+      aria-hidden={duplicate || undefined}
+    >
+      {references.map(([name, domain]) => (
+        <li className="home-logo-item" key={domain}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={
+              domain === "mediametrie.fr"
+                ? "/references/mediametrie.svg"
+                : `/references/${domain}.ico`
+            }
+            width={38}
+            height={38}
+            alt=""
+            decoding="async"
+          />
+          <span>{name}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
 export function ClientReferences() {
+  const [paused, setPaused] = useState(false);
   return (
     <section className="section-tight references-section" id="references">
       <div className="page-shell">
@@ -24,33 +54,40 @@ export function ClientReferences() {
                 <span>et à nos formateurs aussi.</span>
               </h2>
             </div>
-            <Link href="/contact" className="button button-secondary">
-              Parlons de votre projet
-            </Link>
+            <div className="references-controls">
+              <Link href="/contact" className="button button-secondary">
+                Parlons de votre projet
+              </Link>
+              <button
+                type="button"
+                className="references-pause"
+                onClick={() => setPaused(!paused)}
+                aria-pressed={paused}
+                aria-controls="reference-logo-track"
+              >
+                {paused ? <Play size={14} /> : <Pause size={14} />}
+                {paused ? "Reprendre le défilement" : "Suspendre le défilement"}
+              </button>
+            </div>
           </div>
           <p className="section-copy references-context">
             Des missions réalisées par les formateurs missionnés par Beyond
             Expertise, notamment en sous-traitance, auprès de ces organisations.
           </p>
-          <div className="home-logos-grid">
-            {references.map(([name, domain]) => (
-              <div className="home-logo-item" key={domain}>
-                {/* Brand assets are served locally, without requests to a logo service. */}
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={
-                    domain === "mediametrie.fr"
-                      ? "/references/mediametrie.svg"
-                      : `/references/${domain}.ico`
-                  }
-                  width={38}
-                  height={38}
-                  alt=""
-                  loading="lazy"
-                />
-                <span>{name}</span>
-              </div>
-            ))}
+          <div
+            className="references-marquee"
+            tabIndex={0}
+            role="region"
+            aria-label="Logos des références, défilement suspendu au survol ou au clavier"
+          >
+            <div
+              className="references-track"
+              id="reference-logo-track"
+              data-paused={paused}
+            >
+              <LogoSequence />
+              <LogoSequence duplicate />
+            </div>
           </div>
           <p className="reference-footnote">
             Les références incluent des interventions via des partenaires ;

@@ -1,0 +1,142 @@
+[
+  {
+    "index": 45,
+    "slug": "oibb-sql-les-fondamentaux",
+    "units": [
+      [
+        "Identifier table, ligne, colonne, clé et grain ; sélectionner explicitement les colonnes utiles.",
+        "Expliquer pourquoi deux lignes similaires ne sont pas nécessairement des doublons.",
+        "Schéma commenté et premières requêtes."
+      ],
+      [
+        "Combiner comparaisons, conditions, NULL et ordre déterministe des résultats.",
+        "Corriger un filtre de dates excluant involontairement la dernière journée.",
+        "Requêtes de filtrage et résultats attendus."
+      ],
+      [
+        "Distinguer filtre de lignes et filtre de groupes ; calculer ratios avec dénominateur correct.",
+        "Comparer moyenne de ratios et ratio de sommes sur un exemple métier.",
+        "Indicateurs calculés et contrôles manuels."
+      ],
+      [
+        "Relier clés et cardinalités avant jointure ; conserver les lignes sans correspondance.",
+        "Repérer une multiplication de montants liée à une jointure un-à-plusieurs.",
+        "Reporting multi-tables et contrôle des totaux."
+      ],
+      [
+        "Vérifier le nombre de lignes affectées, tester l’annulation et traiter un échec de contrainte ; expliquer les effets d’une validation partielle du travail.",
+        "Prévisualiser une modification puis vérifier son périmètre avant validation.",
+        "Script de modification et procédure de contrôle."
+      ],
+      [
+        "Structurer une requête lisible, documenter période et définition des indicateurs.",
+        "Adapter un reporting à une nouvelle période sans modifier ses règles métier.",
+        "Requête documentée et jeu de validation."
+      ]
+    ]
+  },
+  {
+    "index": 46,
+    "slug": "ai-security-securiser-les-usages-de-l-ia-generative",
+    "units": [
+      [
+        "Cartographier entrées, corpus, outils, identités et frontières de confiance d’une application IA.",
+        "Examiner injection indirecte, exfiltration et abus d’outils sur un scénario défensif isolé.",
+        "Modèle de menaces et chemins d’abus."
+      ],
+      [
+        "Appliquer permissions minimales, validation des arguments, cloisonnement et contrôle des sorties.",
+        "Limiter une action sensible même lorsque le modèle produit une instruction erronée.",
+        "Architecture de protections et politique d’outils."
+      ],
+      [
+        "Construire cas adversariaux, critères de succès et tests de non-régression ; mesurer aussi les faux refus.",
+        "Évaluer une protection sur attaques reformulées et documents non fiables.",
+        "Rapport de tests défensifs et limites résiduelles."
+      ],
+      [
+        "Définir logs proportionnés, signaux d’abus, arrêt d’urgence et investigation.",
+        "Simuler une fuite suspectée sans copier de données réelles dans l’exercice.",
+        "Plan de surveillance et procédure d’incident."
+      ]
+    ]
+  },
+  {
+    "index": 47,
+    "slug": "agent-boss-piloter-une-equipe-hybride-humains-et-agents-ia",
+    "units": [
+      [
+        "Décomposer tâches, décisions et exceptions ; affecter responsabilité humaine et autonomie autorisée.",
+        "Repérer une délégation qui déplace simplement la charge vers la supervision.",
+        "Carte du travail et responsabilités."
+      ],
+      [
+        "Définir entrées, résultat, limites, validation et conditions d’escalade d’une délégation.",
+        "Traiter une demande hors périmètre sans élargissement implicite des droits.",
+        "Contrat de délégation et arbre d’escalade."
+      ],
+      [
+        "Mesurer qualité, reprises, délai, coût et charge de contrôle humaine.",
+        "Comparer deux agents sur le coût complet d’un résultat accepté.",
+        "Tableau de pilotage et critères d’acceptation."
+      ],
+      [
+        "Organiser revue des exceptions, changement des consignes et retour d’expérience.",
+        "Suspendre puis réintroduire une automatisation après correction vérifiée.",
+        "Rituels d’équipe et procédure de révision."
+      ]
+    ]
+  },
+  {
+    "index": 48,
+    "slug": "prompt-engineering-avance-pour-equipes-metier",
+    "units": [
+      [
+        "Transformer une demande en contrat de sortie avec contraintes, exemples et critères observables.",
+        "Définir ce qui rend une réponse acceptable même si sa formulation varie.",
+        "Spécification de résultat et grille d’évaluation."
+      ],
+      [
+        "Comparer exemples guidés, décomposition, contexte sourcé et sorties structurées selon la tâche.",
+        "Choisir une stratégie plus simple lorsqu’un prompt complexe dégrade les résultats.",
+        "Variantes de prompts et justification des choix."
+      ],
+      [
+        "Tester fidélité aux sources, données manquantes, contradictions et format de sortie.",
+        "Conserver un jeu de test distinct des exemples utilisés pour améliorer le prompt.",
+        "Banc d’essai et analyse des erreurs."
+      ],
+      [
+        "Versionner consignes, dépendances, exemples et résultats ; définir responsables et revue.",
+        "Détecter une régression après changement de modèle ou de document source.",
+        "Bibliothèque versionnée et procédure de recette."
+      ]
+    ]
+  },
+  {
+    "index": 49,
+    "slug": "copilot-pour-pmo-chefs-de-projet-et-equipes-programme",
+    "units": [
+      [
+        "Structurer planning, risques, décisions et comptes rendus avec versions et droits cohérents.",
+        "Identifier les documents contradictoires avant de demander une synthèse.",
+        "Dossier projet préparé et règles de sources."
+      ],
+      [
+        "Distinguer avancement réel, prévision, décision et point bloquant dans les documents.",
+        "Détecter une synthèse qui transforme une hypothèse de livraison en engagement.",
+        "Rapport d’avancement et vérification des faits."
+      ],
+      [
+        "Présenter options, impacts, dépendances et décision attendue au comité.",
+        "Reconstituer les preuves derrière un indicateur rouge et une recommandation.",
+        "Note d’arbitrage sourcée et registre de décisions."
+      ],
+      [
+        "Organiser validation humaine, diffusion, archivage et mise à jour des actions.",
+        "Mesurer les corrections nécessaires après plusieurs cycles de reporting.",
+        "Routine documentaire et tableau de qualité."
+      ]
+    ]
+  }
+]

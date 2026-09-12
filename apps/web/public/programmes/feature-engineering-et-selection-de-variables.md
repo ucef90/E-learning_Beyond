@@ -1,12 +1,12 @@
 # Feature Engineering et sélection de variables
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Avancé · Distanciel
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir instant de prédiction et date de disponibilité.
 - Examiner distributions, valeurs manquantes et variables quasi constantes.
 - Repérer variables directement ou indirectement dérivées de la cible.
+- Vérifier disponibilité temporelle, identifiants, proxies et variables dérivées de la cible.
 
 **Atelier prévu :** Auditer une table de scoring et retirer les informations connues seulement après l'événement prédit.
+
+**Livrable attendu :** Audit des variables et règles d’exclusion.
+
+**Pour aller plus loin :** Repérer une fuite indirecte présente seulement après l’événement prédit.
 
 ### Construire des transformations robustes · 210 min
 
 - Encoder catégories et gérer modalités inconnues.
 - Imputer et normaliser dans le pipeline d'apprentissage.
 - Créer variables temporelles et agrégats en respectant le passé disponible.
+- Construire imputation, encodage, normalisation et agrégats dans les plis d’apprentissage.
 
 **Atelier prévu :** Construire une transformation qui fonctionne sur données nouvelles avec catégorie inconnue et valeur manquante.
+
+**Livrable attendu :** Transformations robustes et cas limites.
+
+**Pour aller plus loin :** Traiter une catégorie inconnue et une distribution différente en inférence.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer filtres, régularisation et importance par permutation.
 - Examiner corrélations et redondances.
 - Ajuster sélection et transformations uniquement sur les folds d'entraînement.
+- Comparer sélection filtrée, embarquée et permutation avec validation imbriquée si nécessaire.
 
 **Atelier prévu :** Comparer trois ensembles de variables avec validation identique et justifier le compromis entre qualité et simplicité.
+
+**Livrable attendu :** Rapport de sélection et stabilité des résultats.
+
+**Pour aller plus loin :** Distinguer importance instable et variable réellement utile hors échantillon.
 
 ### Livrer un pipeline réutilisable · 210 min
 
 - Assembler transformations dans Pipeline et ColumnTransformer.
 - Tester stabilité, schéma et valeurs extrêmes.
 - Documenter provenance et coût de calcul des variables.
+- Assembler transformations et modèle avec contrat de schéma, tests et sérialisation.
 
 **Atelier prévu :** Livrer le pipeline et un dictionnaire des variables avec date de disponibilité, règle de calcul et gain mesuré sur la baseline.
+
+**Livrable attendu :** Pipeline réutilisable et tests de cohérence.
+
+**Pour aller plus loin :** Garantir la même préparation en entraînement et en service.
 
 ## Évaluation finale prévue
 

@@ -13,3 +13,8 @@ Les espaces connectés disposent de leur propre navigation, sans le grand en-tê
 
 ## Accueil restauré — 12 septembre 2026
 La référence est le site officiel Beyond Expertise. La vidéo originale est stockée localement avec poster et pause. Le bandeau de confiance, les cartes commerciales, les références (missions incluant la sous-traitance), les univers, ressources et bas de page suivent cette identité. Voir docs/RESTAURATION-ACCUEIL.md pour les sources et la portée des indicateurs.
+
+## Fiches et interactions — 12 septembre 2026
+Fiche formation : colonne principale de lecture et informations clés à droite, en-tête clair, public et prérequis visibles, programme en journées dépliables. Les ateliers sont repérés par un filet ocre, les livrables et approfondissements disposent de leur propre libellé. Fond clair, bleu et orange existants, contraste et focus clavier conservés. Une colonne sur mobile, sans contenu masqué par un panneau fixe.
+
+Les références défilent avec une pause accessible ; les menus partagés réagissent en jaune. Le trait coloré supérieur représente la progression réelle dans la page. Les animations cessent lorsque la préférence de réduction des mouvements est active.

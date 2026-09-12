@@ -1,12 +1,12 @@
 # Agent Boss : piloter une equipe hybride humains et agents IA
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 1 jour(s) · 7 heures indicatives · Avancé · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,32 +39,52 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer tâche, décision et responsabilité.
 - Identifier dépendances et conséquences d'une erreur.
 - Choisir le niveau d'autonomie acceptable par activité.
+- Décomposer tâches, décisions et exceptions ; affecter responsabilité humaine et autonomie autorisée.
 
 **Atelier prévu :** Redessiner un processus d'équipe et nommer le responsable humain de chaque décision déléguée en préparation.
+
+**Livrable attendu :** Carte du travail et responsabilités.
+
+**Pour aller plus loin :** Repérer une délégation qui déplace simplement la charge vers la supervision.
 
 ### Définir les contrats de délégation · 105 min
 
 - Préciser résultat, sources, permissions et limites.
 - Fixer conditions d'arrêt et d'escalade.
 - Organiser passage de relais et validation des livrables.
+- Définir entrées, résultat, limites, validation et conditions d’escalade d’une délégation.
 
 **Atelier prévu :** Rédiger une fiche de mission d'agent qui prépare un dossier mais ne peut ni l'approuver ni engager une dépense.
+
+**Livrable attendu :** Contrat de délégation et arbre d’escalade.
+
+**Pour aller plus loin :** Traiter une demande hors périmètre sans élargissement implicite des droits.
 
 ### Piloter qualité et charge de supervision · 105 min
 
 - Mesurer taux de reprise, erreurs et délai complet.
 - Répartir contrôles systématiques et échantillonnage selon le risque.
 - Anticiper surcharge de validation et perte de compétences.
+- Mesurer qualité, reprises, délai, coût et charge de contrôle humaine.
 
 **Atelier prévu :** Analyser les résultats d'une semaine simulée et décider quelles tâches déléguer moins ou davantage.
+
+**Livrable attendu :** Tableau de pilotage et critères d’acceptation.
+
+**Pour aller plus loin :** Comparer deux agents sur le coût complet d’un résultat accepté.
 
 ### Installer les routines de l'équipe hybride · 105 min
 
 - Prévoir revue des incidents et amélioration des consignes.
 - Clarifier attentes, formation et retours des collaborateurs.
 - Définir mode dégradé lorsque les agents ne sont pas disponibles.
+- Organiser revue des exceptions, changement des consignes et retour d’expérience.
 
 **Atelier prévu :** Présenter un accord d'équipe avec rôles, indicateurs, rituel de revue et procédure de reprise manuelle.
+
+**Livrable attendu :** Rituels d’équipe et procédure de révision.
+
+**Pour aller plus loin :** Suspendre puis réintroduire une automatisation après correction vérifiée.
 
 ## Évaluation finale prévue
 

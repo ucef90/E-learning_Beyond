@@ -1,12 +1,12 @@
 # SQL : les fondamentaux
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Fondamental · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -44,16 +44,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Situer SGBDR, schéma, clé et contrainte.
 - Comprendre sélection, projection et jointure de manière intuitive.
 - Utiliser l'éditeur SQL et lire les messages d'erreur.
+- Identifier table, ligne, colonne, clé et grain ; sélectionner explicitement les colonnes utiles.
 
 **Atelier prévu :** Explorer une base commandes et décrire les relations entre clients, produits et lignes de commande.
+
+**Livrable attendu :** Schéma commenté et premières requêtes.
+
+**Pour aller plus loin :** Expliquer pourquoi deux lignes similaires ne sont pas nécessairement des doublons.
 
 ### Filtrer et ordonner les lignes · 210 min
 
 - Utiliser SELECT, WHERE, AND, OR et parenthèses.
 - Rechercher intervalles, listes et motifs de texte.
 - Distinguer NULL, chaîne vide et valeur zéro.
+- Combiner comparaisons, conditions, NULL et ordre déterministe des résultats.
 
 **Atelier prévu :** Écrire cinq filtres dont une combinaison de critères et une recherche de coordonnées manquantes.
+
+**Livrable attendu :** Requêtes de filtrage et résultats attendus.
+
+**Pour aller plus loin :** Corriger un filtre de dates excluant involontairement la dernière journée.
 
 ## Jour 2 · 7 heures
 
@@ -62,16 +72,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Employer expressions numériques, texte et dates.
 - Utiliser COUNT, SUM, AVG et GROUP BY.
 - Distinguer filtre de ligne et filtre de groupe avec HAVING.
+- Distinguer filtre de lignes et filtre de groupes ; calculer ratios avec dénominateur correct.
 
 **Atelier prévu :** Calculer ventes et nombre de commandes par mois puis rapprocher les totaux du détail.
+
+**Livrable attendu :** Indicateurs calculés et contrôles manuels.
+
+**Pour aller plus loin :** Comparer moyenne de ratios et ratio de sommes sur un exemple métier.
 
 ### Relier plusieurs tables · 210 min
 
 - Construire jointures internes et gauches.
 - Choisir la clé et vérifier la cardinalité.
 - Conserver ou exclure les lignes sans correspondance intentionnellement.
+- Relier clés et cardinalités avant jointure ; conserver les lignes sans correspondance.
 
 **Atelier prévu :** Lister tous les clients, y compris sans commande, sans dupliquer les montants.
+
+**Livrable attendu :** Reporting multi-tables et contrôle des totaux.
+
+**Pour aller plus loin :** Repérer une multiplication de montants liée à une jointure un-à-plusieurs.
 
 ## Jour 3 · 7 heures
 
@@ -80,16 +100,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir types et contraintes simples.
 - Utiliser INSERT, UPDATE et DELETE avec précaution.
 - Vérifier le filtre puis utiliser transaction et rollback dans l'exercice.
+- Vérifier le nombre de lignes affectées, tester l’annulation et traiter un échec de contrainte ; expliquer les effets d’une validation partielle du travail.
 
 **Atelier prévu :** Corriger un tarif dans une transaction et annuler une modification volontairement trop large.
+
+**Livrable attendu :** Script de modification et procédure de contrôle.
+
+**Pour aller plus loin :** Prévisualiser une modification puis vérifier son périmètre avant validation.
 
 ### Construire un reporting reproductible · 210 min
 
 - Organiser les requêtes et nommer les colonnes.
 - Préparer un export et ses contrôles de cohérence.
 - Relire les différences de dialecte et les erreurs fréquentes.
+- Structurer une requête lisible, documenter période et définition des indicateurs.
 
 **Atelier prévu :** Livrer un script de reporting avec trois indicateurs, contrôles de lignes et notice d'exécution.
+
+**Livrable attendu :** Requête documentée et jeu de validation.
+
+**Pour aller plus loin :** Adapter un reporting à une nouvelle période sans modifier ses règles métier.
 
 ## Évaluation finale prévue
 

@@ -29,9 +29,7 @@ const CLIENT_PORTAL_URL = "/contact#contact-form";
 
 export function Header() {
   const pathname = usePathname();
-  const isLearning =
-    pathname.startsWith("/apprentissage") ||
-    pathname.startsWith("/formations/");
+  const isLearning = pathname.startsWith("/apprentissage");
   const [menuOpen, setMenuOpen] = useState(false);
   const [navigationOpen, setNavigationOpen] = useState(false);
   useEffect(() => {

@@ -1,12 +1,12 @@
 # Oracle GoldenGate (OGG)
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier source, cible, clés et objets répliqués.
 - Comprendre journaux, capture de changements et cohérence transactionnelle.
 - Vérifier compatibilité des versions et prérequis de journalisation.
+- Examiner journalisation, clés, types de données et compatibilité des versions avant réplication.
 
 **Atelier prévu :** Établir la fiche de préparation de deux bases et repérer une table sans clé appropriée pour la réplication.
+
+**Livrable attendu :** Dossier de prérequis et matrice de compatibilité.
+
+**Pour aller plus loin :** Identifier une table sans clé stable et ses conséquences sur les mises à jour.
 
 ### Installer et configurer les processus · 210 min
 
 - Situer Manager, Extract, fichiers trail et Replicat en architecture Classic.
 - Définir connexions, paramètres et stockage des traces.
 - Utiliser GGSCI pour consulter l'état et les informations des groupes.
+- Relier Extract, trails, transfert et Replicat ; préciser checkpoints, droits et paramètres.
 
 **Atelier prévu :** Configurer une extraction sur un schéma d'exercice et vérifier que les transactions apparaissent dans la chaîne de capture.
+
+**Livrable attendu :** Configuration commentée et contrôles de démarrage.
+
+**Pour aller plus loin :** Diagnostiquer une configuration où la capture fonctionne mais la cible n’avance pas.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Planifier chargement initial et point de reprise cohérent.
 - Configurer correspondances de tables et transformations limitées.
 - Démarrer la réplication unidirectionnelle et mesurer son retard.
+- Coordonner chargement initial et capture continue pour éviter pertes et doublons.
 
 **Atelier prévu :** Charger un jeu de commandes puis vérifier insertions, modifications et suppressions entre source et cible.
+
+**Livrable attendu :** Procédure d’initialisation et rapprochement source-cible.
+
+**Pour aller plus loin :** Vérifier la cohérence après une initialisation pendant des écritures concurrentes.
 
 ### Diagnostiquer erreurs et reprise · 210 min
 
 - Lire rapports, journaux et erreurs de réplication.
 - Comprendre checkpoints, rétention des trails et redémarrage.
 - Distinguer donnée rejetée, processus arrêté et retard croissant.
+- Lire rapports, erreurs et retards ; distinguer transaction bloquante et problème de débit.
 
 **Atelier prévu :** Provoquer un conflit de clé dans le laboratoire, diagnostiquer l'arrêt et documenter une reprise sans perte de transaction.
+
+**Livrable attendu :** Diagnostic documenté et procédure de reprise.
+
+**Pour aller plus loin :** Reprendre après interruption sans masquer une divergence de données.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier boucles, conflits d'écriture et ownership des données.
 - Définir stratégie de résolution et règles d'exclusion.
 - Comparer besoin métier et complexité d'exploitation.
+- Analyser collisions, boucles, clés et règles de résolution en réplication bidirectionnelle.
 
 **Atelier prévu :** Simuler des écritures concurrentes sur les deux bases et proposer une règle de résolution explicite pour chaque conflit.
+
+**Livrable attendu :** Scénarios de conflit et limites de l’architecture.
+
+**Pour aller plus loin :** Simuler deux modifications concurrentes et justifier la règle de résolution.
 
 ### Préparer l'exploitation quotidienne · 210 min
 
 - Définir contrôles de cohérence, alertes et capacité disque.
 - Encadrer changements de schéma et maintenance.
 - Rédiger procédures d'arrêt, de reprise et de rapprochement.
+- Définir surveillance du lag, rétention des trails, capacité et validation des changements.
 
 **Atelier prévu :** Livrer un dossier de réplication avec paramètres commentés, mesures de retard et recette de cohérence sur un lot de commandes.
+
+**Livrable attendu :** Runbook d’exploitation et tableau de supervision.
+
+**Pour aller plus loin :** Construire un exercice de reprise avec seuils et critères de retour au service.
 
 ## Évaluation finale prévue
 

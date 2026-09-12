@@ -1,12 +1,12 @@
 # Deep Learning : les fondamentaux
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Fondamental · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -43,16 +43,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier poids, biais, activation et sortie.
 - Expliquer apprentissage et minimisation d'une erreur.
 - Situer apprentissage profond parmi les méthodes de machine learning.
+- Calculer sur un exemple simple l’effet d’un poids sur la perte ; relier dérivée, règle de chaîne et mise à jour par descente de gradient.
 
 **Atelier prévu :** Calculer à la main la sortie d'un neurone simple puis observer l'effet d'un changement de poids.
+
+**Livrable attendu :** Schéma du réseau et calcul commenté d’une prédiction.
+
+**Pour aller plus loin :** Expliquer sur un exemple simple pourquoi une fonction non linéaire est nécessaire pour séparer certaines données.
 
 ### Construire un réseau dense avec Keras · 210 min
 
 - Assembler des couches avec formes d'entrée et de sortie cohérentes.
 - Choisir perte, optimiseur et métriques pour une tâche simple.
 - Séparer données d'entraînement, de validation et de test.
+- Définir forme des entrées, encodage des cibles et choix cohérent de la dernière couche et de la perte.
 
 **Atelier prévu :** Entraîner un premier classifieur et vérifier son comportement sur des exemples jamais utilisés pendant l'apprentissage.
+
+**Livrable attendu :** Notebook Keras et contrôles de cohérence des tenseurs.
+
+**Pour aller plus loin :** Construire une baseline puis contrôler la capacité du réseau à apprendre un petit sous-ensemble avant toute recherche d’architecture.
 
 ## Jour 2 · 7 heures
 
@@ -61,16 +71,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Reconnaître sous-apprentissage et surapprentissage.
 - Relier taille des lots et taux d'apprentissage à la convergence.
 - Introduire arrêt anticipé et régularisation sur un exemple guidé.
+- Identifier sous-apprentissage, surapprentissage et instabilité dans les courbes de perte et les métriques.
 
 **Atelier prévu :** Comparer trois entraînements et expliquer les écarts entre qualité d'entraînement et qualité de validation.
+
+**Livrable attendu :** Courbes annotées et tableau d’expériences.
+
+**Pour aller plus loin :** Comparer arrêt anticipé, régularisation et réduction du taux d’apprentissage en ne changeant qu’un facteur à la fois.
 
 ### Comprendre les architectures spécialisées · 210 min
 
 - Relier convolution et structure spatiale des images.
 - Situer réseaux récurrents, LSTM et attention pour des séquences.
 - Choisir une architecture en fonction de la donnée et de l'objectif.
+- Relier convolution, récurrence et attention aux structures des images, séquences et textes.
 
 **Atelier prévu :** Étudier un CNN et un modèle de séquence préparés ; identifier les dimensions et le rôle des principales couches.
+
+**Livrable attendu :** Matrice problèmes/architectures et choix motivé.
+
+**Pour aller plus loin :** Justifier une famille d’architecture à partir des dépendances du problème plutôt que de la popularité du modèle.
 
 ## Jour 3 · 7 heures
 
@@ -79,16 +99,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Expliquer représentation latente et reconstruction d'un autoencodeur.
 - Situer génération adversariale et modèles génératifs sans les entraîner à grande échelle.
 - Distinguer apprentissage par renforcement et apprentissage supervisé.
+- Situer autoencodeurs, modèles génératifs et apprentissage par renforcement ; distinguer génération et décision.
 
 **Atelier prévu :** Associer détection d'anomalies, génération d'images et contrôle d'un système aux familles adaptées, en explicitant leurs contraintes.
+
+**Livrable attendu :** Fiche de lecture d’une architecture avancée.
+
+**Pour aller plus loin :** Analyser les contraintes d’un modèle préentraîné : domaine de validité, données nécessaires et risques de réutilisation.
 
 ### Évaluer la pertinence d'un projet deep learning · 210 min
 
 - Comparer baseline simple et réseau sur coût et qualité.
 - Examiner disponibilité des labels, puissance de calcul et maintenance.
 - Décrire limites d'interprétation et risques de généralisation.
+- Comparer deep learning et méthodes plus simples selon volume, ressources, performance utile et explicabilité.
 
 **Atelier prévu :** Remettre le notebook du classifieur et une note motivant quand l'utiliser, quand préférer un modèle simple et quelles données collecter.
+
+**Livrable attendu :** Dossier de faisabilité et plan d’expérimentation.
+
+**Pour aller plus loin :** Définir un pilote dont les critères de réussite incluent qualité des données, coût d’inférence et conditions de supervision.
 
 ## Évaluation finale prévue
 

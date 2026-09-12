@@ -1,0 +1,182 @@
+[
+  {
+    "index": 25,
+    "slug": "jn117-actualisation-de-java-11-a-java-17",
+    "units": [
+      [
+        "Analyser les dépendances avec les outils du JDK, repérer modules et accès internes, puis distinguer incompatibilité de compilation et d’exécution.",
+        "Identifier une bibliothèque incompatible avec l’encapsulation renforcée.",
+        "Matrice de compatibilité et risques de migration."
+      ],
+      [
+        "Employer expressions switch et blocs de texte en préservant lisibilité et comportement.",
+        "Réécrire un traitement avec tests sur valeurs nulles et cas limites.",
+        "Exemples modernisés et tests de non-régression."
+      ],
+      [
+        "Utiliser records pour données et types scellés pour hiérarchies contrôlées ; expliciter leurs limites.",
+        "Comparer record immuable en surface et objet contenant une collection mutable.",
+        "Modèle de types et invariants vérifiés."
+      ],
+      [
+        "Distinguer fonctionnalités finalisées et options preview ; vérifier les changements d’API utilisés.",
+        "Remplacer un accès réflexif fragile par une API prise en charge.",
+        "Liste des adaptations et décisions de compatibilité."
+      ],
+      [
+        "Mesurer démarrage, allocation, GC et débit avec charge représentative et warm-up.",
+        "Expliquer une variation de latence sans l’attribuer automatiquement à la version Java.",
+        "Rapport de performance reproductible."
+      ],
+      [
+        "Prévoir CI sur Java 17, packaging, déploiement progressif et procédure de retour arrière.",
+        "Simuler un échec de production malgré des tests unitaires réussis.",
+        "Plan de bascule et critères de validation."
+      ]
+    ]
+  },
+  {
+    "index": 26,
+    "slug": "jdsb-spring-boot-accelerez-vos-developpements-avec-spring-boot",
+    "units": [
+      [
+        "Analyser auto-configuration, propriétés, profils et ordre de priorité des paramètres.",
+        "Diagnostiquer un bean absent ou configuré différemment selon l’environnement.",
+        "Configuration expliquée et profils contrôlés."
+      ],
+      [
+        "Concevoir validation, pagination, erreurs structurées et compatibilité du contrat REST.",
+        "Traiter une demande invalide et une ressource inaccessible sans fuite d’information.",
+        "API documentée et scénarios d’erreur."
+      ],
+      [
+        "Maîtriser transactions, chargement paresseux, problème N+1 et concurrence optimiste.",
+        "Comparer le SQL généré avant et après correction d’un accès inefficace.",
+        "Accès JPA mesuré et tests transactionnels."
+      ],
+      [
+        "Séparer authentification, autorisation et règles métier ; contrôler l’accès à chaque ressource.",
+        "Tester un utilisateur connecté tentant d’accéder au dossier d’un autre.",
+        "Matrice d’autorisations et tests négatifs."
+      ],
+      [
+        "Isoler données et état entre tests, choisir les frontières de simulation et vérifier qu’un rollback de test ne masque pas un défaut de commit.",
+        "Détecter un test trop simulé qui masque une erreur de transaction.",
+        "Stratégie de tests et cas représentatifs."
+      ],
+      [
+        "Configurer healthchecks, métriques, logs corrélés et arrêt propre ; externaliser les secrets.",
+        "Diagnostiquer une dégradation de dépendance avec les signaux disponibles.",
+        "Dossier d’exploitation et scénario de diagnostic."
+      ]
+    ]
+  },
+  {
+    "index": 27,
+    "slug": "iage-piloter-et-encadrer-l-ia-generative-en-entreprise",
+    "units": [
+      [
+        "Inventorier usages déclarés et informels ; distinguer données, utilisateurs et conséquences.",
+        "Prioriser deux usages de même technologie mais de criticité différente.",
+        "Registre d’usages et grille de criticité."
+      ],
+      [
+        "Relier RGPD, règlement IA, confidentialité et propriété intellectuelle aux situations rencontrées.",
+        "Identifier les points nécessitant l’avis du DPO ou du conseil juridique.",
+        "Matrice d’exigences et questions à instruire."
+      ],
+      [
+        "Attribuer responsabilités de validation, exploitation, contrôle et traitement des exceptions.",
+        "Résoudre un conflit entre sponsor métier et responsable de sécurité.",
+        "RACI et circuit de décision."
+      ],
+      [
+        "Écrire des règles applicables : données autorisées, vérifications, outils et escalades.",
+        "Transformer une interdiction vague en consignes utilisables au quotidien.",
+        "Politique d’usage et exemples commentés."
+      ],
+      [
+        "Prévoir échantillonnage, traçabilité proportionnée, indicateurs et revue des incidents.",
+        "Tester la capacité à retrouver la justification d’une décision assistée.",
+        "Plan de contrôle et dossier de preuves."
+      ],
+      [
+        "Organiser sensibilisation, pilote, accompagnement et révision périodique des règles.",
+        "Mesurer adoption utile et qualité sans se limiter au nombre de connexions.",
+        "Plan de déploiement et indicateurs d’efficacité."
+      ]
+    ]
+  },
+  {
+    "index": 28,
+    "slug": "gptp-chatgpt-par-la-pratique-ia-generative-prompt-engineering-et-chatbot",
+    "units": [
+      [
+        "Distinguer génération plausible, connaissance vérifiée et accès effectif aux sources.",
+        "Comparer les réponses sur une question ambiguë ou sans donnée suffisante.",
+        "Grille d’observation des limites."
+      ],
+      [
+        "Composer consigne, contexte, exemples, critères et format ; itérer sur une erreur observée.",
+        "Améliorer un prompt sur plusieurs cas plutôt que sur une seule réponse.",
+        "Jeu de prompts et cas de contrôle."
+      ],
+      [
+        "Préserver sens, chiffres, conditions et ton lors d’une synthèse ou réécriture.",
+        "Identifier omission critique et citation inventée dans un document généré.",
+        "Production révisée et grille de fidélité."
+      ],
+      [
+        "Vérifier unités, calculs, doublons et hypothèses avant toute conclusion sur un tableau.",
+        "Recalculer indépendamment un résultat proposé et expliquer l’écart.",
+        "Analyse contrôlée et journal des vérifications."
+      ],
+      [
+        "Définir périmètre, sources, comportements hors sujet, refus et passage à un humain.",
+        "Tester une demande absente du corpus et une instruction malveillante incorporée au texte.",
+        "Spécification de chatbot et scénarios de recette."
+      ],
+      [
+        "Mesurer exactitude, utilité et effort de correction ; organiser partage et révision des consignes.",
+        "Comparer deux méthodes sur un échantillon de tâches professionnelles.",
+        "Bibliothèque versionnée et protocole d’évaluation."
+      ]
+    ]
+  },
+  {
+    "index": 29,
+    "slug": "edcf-savoir-communiquer-avec-les-autres",
+    "units": [
+      [
+        "Analyser interruptions, choix du canal et informations implicites ; repérer les écarts entre ce qui est demandé et ce que l’autre peut effectivement comprendre.",
+        "Analyser deux interprétations possibles d’une même intervention.",
+        "Diagnostic de communication fondé sur des faits."
+      ],
+      [
+        "Utiliser questions ouvertes, reformulation et vérification de compréhension sans interrogatoire.",
+        "Clarifier une demande confuse sous contrainte de temps.",
+        "Trame d’entretien et reformulations testées."
+      ],
+      [
+        "Hiérarchiser idée principale, faits, conséquences et demande explicite.",
+        "Adapter le même message à un collègue, un manager et un client.",
+        "Messages oraux adaptés à trois publics."
+      ],
+      [
+        "Structurer objet, contexte, action attendue et échéance ; choisir le bon niveau de détail.",
+        "Réécrire un courriel ambigu susceptible de créer un conflit.",
+        "Courriel révisé et critères de lisibilité."
+      ],
+      [
+        "Séparer faits et jugements ; formuler désaccord et feedback sur des comportements précis.",
+        "Recevoir un retour difficile et négocier une action observable.",
+        "Scénario de feedback et accord de suivi."
+      ],
+      [
+        "Choisir des situations récurrentes et des indicateurs de compréhension partagée.",
+        "Évaluer un changement de pratique avec retour d’un interlocuteur volontaire.",
+        "Plan de transfert et grille d’auto-observation."
+      ]
+    ]
+  }
+]

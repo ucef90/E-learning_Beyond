@@ -1,12 +1,12 @@
 # Data visualisation pour décideurs et managers
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Fondamental · Distanciel
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier décision, fréquence et contexte de consultation.
 - Choisir indicateurs et comparaisons utiles.
 - Définir priorité entre alerte, tendance et détail.
+- Identifier comparaison, tendance, composition ou distribution selon la décision attendue.
 
 **Atelier prévu :** Rédiger trois questions auxquelles le tableau de bord doit répondre et supprimer les éléments sans usage défini.
+
+**Livrable attendu :** Brief de visualisation et questions clés.
+
+**Pour aller plus loin :** Réduire plusieurs questions concurrentes à un parcours de lecture priorisé.
 
 ### Choisir les représentations adaptées · 210 min
 
 - Comparer barres, lignes, dispersion et tableaux.
 - Adapter graphique à comparaison, évolution ou relation.
 - Éviter axes trompeurs, surfaces disproportionnées et couleurs ambiguës.
+- Choisir barres, lignes, nuage ou tableau selon les données ; vérifier échelles et dénominateurs.
 
 **Atelier prévu :** Représenter le même jeu de données de deux façons puis justifier le choix selon la question posée.
+
+**Livrable attendu :** Sélection de graphiques et choix argumentés.
+
+**Pour aller plus loin :** Remplacer une représentation ambiguë par une comparaison plus lisible.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Hiérarchiser message, preuve et détail.
 - Utiliser titres explicites, unités et annotations.
 - Préserver contraste, lisibilité et sens sans dépendre uniquement de la couleur.
+- Hiérarchiser titres, annotations, couleurs et espace ; rendre l’information accessible sans couleur seule.
 
 **Atelier prévu :** Refaire une page surchargée et vérifier sa compréhension en niveaux de gris et sur petit écran.
+
+**Livrable attendu :** Maquette accessible et guide de lecture.
+
+**Pour aller plus loin :** Tester lisibilité sur petit écran et distinction des séries en niveaux de gris.
 
 ### Tester et argumenter la décision · 210 min
 
 - Faire retrouver une information sans guider le lecteur.
 - Montrer sources, dates et limites des données.
 - Relier constat à options d'action plutôt qu'à une conclusion automatique.
+- Vérifier compréhension, fidélité aux données et capacité à décider avec un lecteur test.
 
 **Atelier prévu :** Présenter un tableau de bord revu, recueillir les erreurs de lecture de pairs puis livrer une version corrigée.
+
+**Livrable attendu :** Visualisation révisée et note décisionnelle.
+
+**Pour aller plus loin :** Présenter les limites d’une recommandation lorsque les données sont incomplètes.
 
 ## Évaluation finale prévue
 

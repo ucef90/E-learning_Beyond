@@ -1,12 +1,12 @@
 # Gemini et NotebookLM : les outils IA de Google pour une productivité augmentée en entreprise
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -41,16 +41,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer conversation générale, assistance intégrée et recherche dans des sources.
 - Identifier le rôle du compte, des licences et des paramètres administrateur.
 - Choisir l'outil selon rédaction, analyse ou synthèse sourcée.
+- Comparer réponse générale et corpus documentaire ; vérifier accès et limites de l’offre utilisée.
 
 **Atelier prévu :** Associer huit tâches à Gemini, une application Workspace ou NotebookLM, en expliquant les contraintes d'accès et de confidentialité.
+
+**Livrable attendu :** Grille de choix Gemini ou NotebookLM.
+
+**Pour aller plus loin :** Choisir l’outil selon confidentialité, besoin de sources et actualité.
 
 ### Écrire des prompts contrôlables · 210 min
 
 - Préciser tâche, contexte, format et niveau de détail.
 - Demander sources et signalement des informations absentes.
 - Tester une variante de prompt sur le même document.
+- Structurer tâche, contexte, contraintes et format ; évaluer avec des exemples de référence.
 
 **Atelier prévu :** Construire un prompt de note de décision et vérifier chaque affirmation chiffrée dans le dossier fourni.
+
+**Livrable attendu :** Bibliothèque de prompts évalués.
+
+**Pour aller plus loin :** Tester la reconnaissance d’une information absente et les consignes contradictoires.
 
 ## Jour 2 · 7 heures
 
@@ -59,16 +69,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Rédiger et réviser des messages avec validation humaine.
 - Résumer un dossier et structurer un document dans les outils disponibles.
 - Adapter un texte au destinataire sans modifier les faits.
+- Transformer une source en synthèse et note décisionnelle en conservant chiffres et réserves.
 
 **Atelier prévu :** Préparer un ordre du jour, un projet de message et une synthèse d'une page à partir d'un scénario commun.
+
+**Livrable attendu :** Kit de communication et traçabilité.
+
+**Pour aller plus loin :** Retrouver chaque affirmation importante dans son document d’origine.
 
 ### Travailler tableaux et présentations · 210 min
 
 - Préparer des données tabulaires propres avant demande d'analyse.
 - Vérifier formules, unités et calculs proposés.
 - Transformer résultats validés en plan de présentation.
+- Contrôler unités, périodes, formules et cohérence narrative des présentations proposées.
 
 **Atelier prévu :** Contrôler un calcul suggéré sur un petit tableau puis créer un support dont les chiffres sont reliés aux cellules sources.
+
+**Livrable attendu :** Tableau analysé et présentation vérifiée.
+
+**Pour aller plus loin :** Détecter l’interprétation trompeuse d’un tableau incomplet.
 
 ## Jour 3 · 7 heures
 
@@ -77,16 +97,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Sélectionner sources, versions et périmètre du dossier.
 - Poser des questions ciblées et consulter les passages cités.
 - Traiter contradictions, absences et limites de couverture documentaire.
+- Organiser les sources du carnet et vérifier les citations dans leur contexte.
 
 **Atelier prévu :** Constituer un dossier de trois documents contradictoires et produire une synthèse distinguant accords, désaccords et questions ouvertes.
+
+**Livrable attendu :** Carnet documentaire et synthèse sourcée.
+
+**Pour aller plus loin :** Faire ressortir les désaccords entre documents et les lacunes du corpus.
 
 ### Installer une routine de vérification · 210 min
 
 - Contrôler partage, conservation et confidentialité selon le compte utilisé.
 - Définir une grille de validation factuelle et éditoriale.
 - Capitaliser les prompts et les limites connues des outils.
+- Organiser revue humaine, versionnement, partage maîtrisé et retrait des documents périmés.
 
 **Atelier prévu :** Démontrer un dossier de réunion complet, accompagné des sources utilisées et d'une liste de vérifications avant diffusion.
+
+**Livrable attendu :** Procédure de vérification documentaire.
+
+**Pour aller plus loin :** Comparer une synthèse avant et après remplacement d’une source.
 
 ## Évaluation finale prévue
 

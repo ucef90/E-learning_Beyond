@@ -1,12 +1,12 @@
 # Dashboard exécutif pour PMO et directions de projet
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 1 jour(s) · 7 heures indicatives · Intermédiaire · Distanciel
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,32 +39,52 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier arbitrages de budget, capacité et priorité.
 - Choisir les informations nécessaires à chaque décision.
 - Distinguer signal utile et reporting descriptif.
+- Associer chaque vue à une décision, un responsable et une fréquence de comité.
 
 **Atelier prévu :** Partir de trois décisions de direction et supprimer les indicateurs qui ne contribuent à aucune d'elles.
+
+**Livrable attendu :** Carte des décisions et besoins d’information.
+
+**Pour aller plus loin :** Retirer un indicateur décoratif qui ne change aucune décision.
 
 ### Définir les signaux d'alerte · 105 min
 
 - Préciser référence, seuil, tendance et qualité de la donnée.
 - Séparer risque futur, incident actuel et décision en attente.
 - Éviter couleurs de statut sans règle commune.
+- Définir seuils, tendance, criticité et qualité de donnée pour les alertes.
 
 **Atelier prévu :** Rédiger les règles d'alerte de cinq projets et expliquer un statut vert dont la trajectoire se dégrade.
+
+**Livrable attendu :** Dictionnaire d’alertes et règles d’escalade.
+
+**Pour aller plus loin :** Repérer un statut vert masquant une dépendance bloquante.
 
 ### Composer une page exécutive · 105 min
 
 - Hiérarchiser alertes, options et conséquences.
 - Montrer date de mise à jour et responsable du chiffre.
 - Associer chaque alerte à une demande de décision.
+- Hiérarchiser synthèse, écarts, risques et décisions attendues sur une page.
 
 **Atelier prévu :** Construire une page de portefeuille lisible avec trois arbitrages et les données minimales nécessaires.
+
+**Livrable attendu :** Maquette de cockpit exécutif.
+
+**Pour aller plus loin :** Rendre lisible une information dense sans multiplier couleurs et graphiques.
 
 ### Tester la lecture en comité · 105 min
 
 - Présenter les faits avant les recommandations.
 - Répondre aux questions en revenant à la source.
 - Tracer décision, propriétaire et prochaine échéance.
+- Évaluer temps de lecture, compréhension et capacité à décider à partir de cas concrets.
 
 **Atelier prévu :** Animer une simulation de comité de dix minutes et vérifier que les participants identifient les mêmes décisions prioritaires.
+
+**Livrable attendu :** Compte rendu de test et cockpit révisé.
+
+**Pour aller plus loin :** Tester le tableau avec une donnée manquante et une contradiction entre indicateurs.
 
 ## Évaluation finale prévue
 

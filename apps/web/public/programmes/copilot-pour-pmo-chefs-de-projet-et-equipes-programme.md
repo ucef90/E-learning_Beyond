@@ -1,12 +1,12 @@
 # Copilot pour PMO, chefs de projet et equipes programme
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 1 jour(s) · 7 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,32 +39,52 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier source de référence et version de chaque document.
 - Structurer jalons, décisions, risques et actions.
 - Vérifier les droits du compte sur le dossier utilisé.
+- Structurer planning, risques, décisions et comptes rendus avec versions et droits cohérents.
 
 **Atelier prévu :** Remettre en cohérence trois fichiers de projet comportant des dates et responsabilités contradictoires.
+
+**Livrable attendu :** Dossier projet préparé et règles de sources.
+
+**Pour aller plus loin :** Identifier les documents contradictoires avant de demander une synthèse.
 
 ### Produire une synthèse d'avancement · 105 min
 
 - Demander écarts, faits récents et points à confirmer.
 - Relier chaque affirmation à son document source.
 - Distinguer action décidée et recommandation de l'assistant.
+- Distinguer avancement réel, prévision, décision et point bloquant dans les documents.
 
 **Atelier prévu :** Créer une synthèse hebdomadaire puis corriger une date et une responsabilité mal attribuées.
+
+**Livrable attendu :** Rapport d’avancement et vérification des faits.
+
+**Pour aller plus loin :** Détecter une synthèse qui transforme une hypothèse de livraison en engagement.
 
 ### Préparer les arbitrages du comité · 105 min
 
 - Formuler décision attendue, options et conséquences.
 - Vérifier chiffres, risques et dépendances avant présentation.
 - Adapter le support au temps du comité.
+- Présenter options, impacts, dépendances et décision attendue au comité.
 
 **Atelier prévu :** Produire une note d'arbitrage et trois diapositives à partir de données validées, sans inventer l'état d'un jalon.
+
+**Livrable attendu :** Note d’arbitrage sourcée et registre de décisions.
+
+**Pour aller plus loin :** Reconstituer les preuves derrière un indicateur rouge et une recommandation.
 
 ### Fiabiliser la routine documentaire · 105 min
 
 - Définir prompts, grille de relecture et responsable de validation.
 - Mettre à jour le registre des décisions après le comité.
 - Mesurer effort de préparation et corrections nécessaires.
+- Organiser validation humaine, diffusion, archivage et mise à jour des actions.
 
 **Atelier prévu :** Remettre un dossier de comité contrôlé et une procédure hebdomadaire réutilisable par le PMO.
+
+**Livrable attendu :** Routine documentaire et tableau de qualité.
+
+**Pour aller plus loin :** Mesurer les corrections nécessaires après plusieurs cycles de reporting.
 
 ## Évaluation finale prévue
 

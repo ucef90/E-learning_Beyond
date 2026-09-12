@@ -77,7 +77,7 @@ export const faqItems = [
   {
     question: "Proposez-vous du présentiel, du distanciel ou de l’hybride ?",
     answer:
-      "La modalité est indiquée sur chaque fiche. Le centre vous aide à choisir un format inter, intra ou adapté à votre équipe. Les sessions annoncées restent à confirmer.",
+      "La modalité est indiquée sur chaque fiche. Le centre vous aide à choisir un format inter, intra ou adapté à votre équipe. Les prochaines dates proposées se situent au même jour du mois suivant, avec un ajustement en fin de mois. Le calendrier définitif est confirmé avant inscription.",
   },
   {
     question: "Puis-je utiliser le CPF ou un financement OPCO ?",

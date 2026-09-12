@@ -1,12 +1,12 @@
 # Oser dire et savoir dire « Non »
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier craintes, attentes et contraintes de rôle.
 - Distinguer préférence, limite et engagement contracté.
 - Examiner les conséquences d'un accord irréaliste.
+- Identifier crainte du conflit, charge perçue et engagements implicites dans une demande.
 
 **Atelier prévu :** Analyser une demande acceptée trop vite et décrire ses effets sur les autres engagements.
+
+**Livrable attendu :** Diagnostic des situations de refus.
+
+**Pour aller plus loin :** Distinguer un refus légitime d’une difficulté nécessitant une clarification du rôle.
 
 ### Clarifier demande et capacité · 210 min
 
 - Questionner résultat attendu, urgence et marge de négociation.
 - Estimer charge et dépendances avant de répondre.
 - Identifier l'arbitrage nécessaire lorsqu'il manque une priorité.
+- Clarifier priorité, échéance, effort, dépendances et marge de négociation.
 
 **Atelier prévu :** Préparer une réponse à trois demandes simultanées en rendant visibles charge, échéances et conflits de priorité.
+
+**Livrable attendu :** Tableau de capacité et questions de clarification.
+
+**Pour aller plus loin :** Rendre visible l’impact d’une nouvelle tâche sur les engagements existants.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Dire non à une demande précise sans attaquer la personne.
 - Donner une explication courte et proportionnée.
 - Éviter justification excessive et promesse implicite.
+- Formuler une limite factuelle, brève et respectueuse sans justification interminable.
 
 **Atelier prévu :** Rédiger puis prononcer un refus bref pour une tâche hors périmètre et une échéance impossible.
+
+**Livrable attendu :** Formulations de refus adaptées aux interlocuteurs.
+
+**Pour aller plus loin :** Dire non à une demande urgente tout en maintenant la relation professionnelle.
 
 ### Proposer des alternatives réalistes · 210 min
 
 - Renégocier délai, contenu ou moyens.
 - Vérifier que l'alternative respecte réellement sa capacité.
 - Confirmer l'accord et les conséquences sur les priorités.
+- Proposer délai, périmètre ou relais uniquement lorsqu’ils sont réellement tenables.
 
 **Atelier prévu :** Transformer une demande urgente en deux options comparables que le responsable peut arbitrer.
+
+**Livrable attendu :** Options négociables et critères de faisabilité.
+
+**Pour aller plus loin :** Éviter une alternative qui reporte simplement la surcharge sur un collègue.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Répéter sa position avec calme et précision.
 - Traiter une objection sans abandonner une limite nécessaire.
 - Solliciter un arbitrage ou un relais si la pression persiste.
+- Répéter une limite avec constance ; différencier discussion utile et pression répétée.
 
 **Atelier prévu :** Jouer un échange avec demandes répétées et maintenir un refus tout en proposant une voie de décision.
+
+**Livrable attendu :** Scénario d’insistance et demande d’arbitrage.
+
+**Pour aller plus loin :** Répondre à une insistance hiérarchique en demandant un arbitrage explicite.
 
 ### Installer des limites lisibles · 210 min
 
 - Clarifier disponibilités et règles de sollicitation.
 - Suivre les engagements pris et les renégocier tôt.
 - Choisir une situation de pratique progressive.
+- Rendre explicites disponibilité, canaux d’urgence et règles de priorisation.
 
 **Atelier prévu :** Construire un accord de fonctionnement et rejouer le scénario le plus difficile avec retour sur clarté et réalisme.
+
+**Livrable attendu :** Accord de fonctionnement et plan de suivi.
+
+**Pour aller plus loin :** Négocier un fonctionnement d’équipe limitant les demandes contradictoires.
 
 ## Évaluation finale prévue
 

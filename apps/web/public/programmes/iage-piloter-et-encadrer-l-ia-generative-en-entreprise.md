@@ -1,12 +1,12 @@
 # Piloter et Encadrer l'IA Générative en Entreprise
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -41,16 +41,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer assistant personnel, service intégré et agent outillé.
 - Cartographier flux de données et fournisseurs.
 - Analyser erreurs factuelles, confidentialité et dépendance opérationnelle.
+- Inventorier usages déclarés et informels ; distinguer données, utilisateurs et conséquences.
 
 **Atelier prévu :** Inventorier dix usages d'une entreprise fictive et classer leur niveau de revue interne requis.
+
+**Livrable attendu :** Registre d’usages et grille de criticité.
+
+**Pour aller plus loin :** Prioriser deux usages de même technologie mais de criticité différente.
 
 ### Identifier les exigences applicables · 210 min
 
 - Relier finalité, données et obligations à examiner.
 - Articuler RGPD, règlement IA, contrats et règles internes.
 - Identifier les analyses nécessitant un avis juridique ou sécurité.
+- Relier RGPD, règlement IA, confidentialité et propriété intellectuelle aux situations rencontrées.
 
 **Atelier prévu :** Préparer une liste de vérifications pour l'achat d'un assistant, avec documents attendus du fournisseur.
+
+**Livrable attendu :** Matrice d’exigences et questions à instruire.
+
+**Pour aller plus loin :** Identifier les points nécessitant l’avis du DPO ou du conseil juridique.
 
 ## Jour 2 · 7 heures
 
@@ -59,16 +69,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Nommer sponsor, responsable d'usage et fonctions de contrôle.
 - Organiser instruction des demandes et décisions d'autorisation.
 - Définir conditions de suspension et de réexamen.
+- Attribuer responsabilités de validation, exploitation, contrôle et traitement des exceptions.
 
 **Atelier prévu :** Dessiner un circuit de validation avec critères proportionnés au risque et délai de traitement cible.
+
+**Livrable attendu :** RACI et circuit de décision.
+
+**Pour aller plus loin :** Résoudre un conflit entre sponsor métier et responsable de sécurité.
 
 ### Écrire une politique d'usage exploitable · 210 min
 
 - Préciser outils autorisés, données exclues et règles de partage.
 - Définir vérification humaine, attribution des productions et traçabilité.
 - Rédiger exemples concrets plutôt que principes imprécis.
+- Écrire des règles applicables : données autorisées, vérifications, outils et escalades.
 
 **Atelier prévu :** Écrire une charte courte appliquée à trois situations de travail et tester sa compréhension auprès d'un pair.
+
+**Livrable attendu :** Politique d’usage et exemples commentés.
+
+**Pour aller plus loin :** Transformer une interdiction vague en consignes utilisables au quotidien.
 
 ## Jour 3 · 7 heures
 
@@ -77,16 +97,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Choisir contrôles préventifs et contrôles a posteriori.
 - Documenter incidents, écarts et actions correctives.
 - Mesurer adoption, qualité et risque sans surveillance individuelle excessive.
+- Prévoir échantillonnage, traçabilité proportionnée, indicateurs et revue des incidents.
 
 **Atelier prévu :** Construire une grille de revue trimestrielle et traiter un incident fictif de partage documentaire inapproprié.
+
+**Livrable attendu :** Plan de contrôle et dossier de preuves.
+
+**Pour aller plus loin :** Tester la capacité à retrouver la justification d’une décision assistée.
 
 ### Déployer le dispositif · 210 min
 
 - Planifier communication, formation et accompagnement.
 - Prioriser les premiers usages selon valeur et préparation.
 - Maintenir registre, politique et preuves de contrôle.
+- Organiser sensibilisation, pilote, accompagnement et révision périodique des règles.
 
 **Atelier prévu :** Présenter un plan de gouvernance à quatre-vingt-dix jours avec charte, responsables, indicateurs et dates de revue.
+
+**Livrable attendu :** Plan de déploiement et indicateurs d’efficacité.
+
+**Pour aller plus loin :** Mesurer adoption utile et qualité sans se limiter au nombre de connexions.
 
 ## Évaluation finale prévue
 

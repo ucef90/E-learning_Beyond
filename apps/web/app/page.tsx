@@ -45,12 +45,12 @@ const resourceHighlights = [
   },
 ];
 
-const advantageTabs = [
+const advantages = [
   {
     label: "Formateurs",
-    title: "Des formateurs experts et praticiens",
+    title: "Des experts qui pratiquent et transmettent",
     description:
-      "Nos parcours sont portés par des intervenants capables de relier théorie, cas concrets et contraintes d'exécution en entreprise.",
+      "Apprenez avec des professionnels qui relient les concepts aux situations rencontrées en entreprise.",
     bullets: [
       "Double expertise métier et pédagogique",
       "Animation inter, intra et dispositifs sur-mesure",
@@ -59,9 +59,9 @@ const advantageTabs = [
   },
   {
     label: "Évaluations",
-    title: "Des parcours structurés avec niveaux, prérequis et validation",
+    title: "Un parcours clair, des acquis évalués",
     description:
-      "Le catalogue est pensé pour aider chaque profil à choisir le bon niveau, la bonne modalité et un dispositif cohérent pour monter en compétence.",
+      "Choisissez le bon niveau, pratiquez avec des objectifs précis et mesurez vos acquis au fil du parcours.",
     bullets: [
       "Fiches formation détaillées et lisibles",
       "Positionnement par niveau et objectifs",
@@ -70,9 +70,9 @@ const advantageTabs = [
   },
   {
     label: "Entreprise",
-    title: "Préparer un parcours pour votre entreprise",
+    title: "Des formations adaptées à vos équipes",
     description:
-      "Décrivez les besoins de vos équipes pour préparer avec le centre une proposition, un calendrier et les modalités de suivi.",
+      "Construisez avec le centre un programme et un calendrier qui répondent aux besoins de vos collaborateurs.",
     bullets: [
       "Un programme adapté à vos enjeux",
       "Des modalités et un calendrier partagés",
@@ -217,7 +217,7 @@ export default async function HomePage() {
             <div className="section-cta-inline">
               <p className="section-copy section-copy-narrow">
                 IA, data et pilotage : découvrez les programmes, les niveaux et
-                les prochaines sessions annoncées.
+                les prochaines sessions proposées.
               </p>
               <Link href="/formations" className="button button-secondary">
                 Découvrir tout le catalogue
@@ -293,36 +293,26 @@ export default async function HomePage() {
       <ClientReferences />
 
       {/* ── Advantages ───────────────────────────────────── */}
-      <section className="section section-tight-top">
+      <section className="section section-tight-top compact-advantages-section">
         <div className="page-shell">
           <div className="home-advantages-panel">
             <div className="home-advantages-head">
               <div>
                 <span className="eyebrow eyebrow-dark">Nos atouts</span>
                 <h2 className="section-title">
-                  L’expertise du terrain. Le goût de transmettre.
+                  L’expertise du terrain.
+                  <br />
+                  Le goût de transmettre.
                 </h2>
-                <p className="section-copy">
-                  Nos formateurs relient chaque notion à un usage professionnel.
-                  Vous apprenez, vous pratiquez et vous repartez avec des
-                  méthodes à appliquer.
-                </p>
               </div>
-              <div className="home-advantage-tabs" aria-label="Nos atouts">
-                {advantageTabs.map((tab, index) => (
-                  <a
-                    href={`#atout-${index}`}
-                    key={tab.label}
-                    className={`home-advantage-tab${index === 0 ? " is-active" : ""}`}
-                  >
-                    {tab.label}
-                  </a>
-                ))}
-              </div>
+              <p className="section-copy">
+                Nos formateurs relient chaque notion à un usage professionnel.
+                Vous apprenez, vous pratiquez et vous repartez avec des méthodes
+                à appliquer.
+              </p>
             </div>
-
             <div className="home-advantages-grid">
-              {advantageTabs.map((tab, index) => (
+              {advantages.map((tab, index) => (
                 <article
                   id={`atout-${index}`}
                   key={tab.label}

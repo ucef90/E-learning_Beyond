@@ -1,12 +1,12 @@
 # Business Analyst : modélisation des processus et parcours
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir déclencheur, résultat, client et frontières.
 - Identifier acteurs, documents et systèmes.
 - Préparer entretiens et collecte de cas réels ou simulés.
+- Choisir des cas représentatifs, repérer variabilité et exceptions, puis définir la mesure du délai de bout en bout plutôt que de la seule durée d’exécution.
 
 **Atelier prévu :** Rédiger une fiche de périmètre et un SIPOC du remboursement avant de détailler les activités.
+
+**Livrable attendu :** Fiche de cadrage du processus.
+
+**Pour aller plus loin :** Distinguer problème local et effet d’une dépendance en amont.
 
 ### Représenter le fonctionnement actuel · 210 min
 
 - Utiliser tâches, événements, passerelles et couloirs BPMN.
 - Distinguer flux de séquence et échanges entre participants.
 - Décrire variantes, exceptions et retours en arrière.
+- Modéliser activités, événements, décisions et exceptions avec une notation cohérente.
 
 **Atelier prévu :** Modéliser le parcours actuel puis le faire parcourir sur un dossier incomplet et un dossier refusé.
+
+**Livrable attendu :** Modèle actuel et scénarios d’exception.
+
+**Pour aller plus loin :** Représenter une boucle de reprise et les échanges entre services.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Repérer attentes, ressaisies et contrôles redondants.
 - Mesurer fréquence, délai et impact des anomalies.
 - Proposer simplification avant automatisation.
+- Mesurer attente, reprise et rupture d’information avant de dessiner la cible.
 
 **Atelier prévu :** Concevoir un processus cible réduisant une ressaisie et une attente, tout en maintenant les contrôles nécessaires.
+
+**Livrable attendu :** Analyse des irritants et processus cible.
+
+**Pour aller plus loin :** Comparer suppression d’étape et automatisation sans déplacer le problème.
 
 ### Valider et préparer la mise en œuvre · 210 min
 
 - Relier changements à exigences et responsabilités.
 - Définir indicateurs de comparaison avant/après.
 - Préparer pilote, exceptions et accompagnement des acteurs.
+- Organiser une revue par scénarios, simuler les exceptions et préciser les conditions de passage du pilote au fonctionnement cible.
 
 **Atelier prévu :** Présenter modèles actuel et cible avec hypothèses de gain, tests de parcours et plan de déploiement progressif.
+
+**Livrable attendu :** Dossier de validation et plan de transition.
+
+**Pour aller plus loin :** Faire valider la cible par les personnes qui exécutent les cas difficiles.
 
 ## Évaluation finale prévue
 

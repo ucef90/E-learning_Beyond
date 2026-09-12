@@ -5,7 +5,7 @@ Date : 12 septembre 2026. Référence inspectée : https://beyond-expertise.com/
 - Vidéo originale de dix secondes, copie locale à l’identique (7 427 851 octets), avec image d’attente, pause/reprise et respect de la réduction des animations.
 - Recherche et raccourcis, formation LLMOps mise en avant, prix, note et accès à l’ensemble du catalogue.
 - Bandeau satisfaction / démarche Qualiopi / CPF et OPCO / formateurs.
-- Même sélection de six formations que sur le site officiel ; prix et dates publiques annoncées repris des données capturées, sans créer de sessions réservables.
+- Même sélection de six formations que sur le site officiel ; prix repris des données capturées ; dates proposées calculées au même jour du mois suivant, sans créer de sessions réservables.
 - Cartes animées au survol et au focus, niveau, durée, modalité, prix, prochaine session et boutons formation/devis. Les devis reprennent le titre choisi.
 - Références et logos locaux, Médiamétrie comprise ; « Kinds » omis à la demande du porteur.
 - Univers reliés à un catalogue filtré, section entreprises, ressources illustrées, FAQ et pied de page.
@@ -34,7 +34,14 @@ Aucune modification du site original en ligne, de son dépôt local ni des donn�
 - Build Next.js : compilation, contrôle TypeScript et génération des pages réussis.
 - Test qualité public : 11 pages, 81 fiches et leurs téléchargements valides.
 - Contrôles ciblés : 83 cartes, deux supports RGPD/AI Act, vidéo locale avec requêtes partielles HTTP 206, liens des pages et médias.
-- Dates : future date la plus proche, dates expirées masquées, priorité aux sessions réelles, prix inconnu sur devis.
+- Dates : politique de proposition mensuelle demandée par le porteur. Même jour du mois suivant en Europe/Paris, borné au dernier jour lorsque nécessaire ; disponibilité à confirmer. Les dates capturées sont conservées pour traçabilité.
 - Navigateur : desktop 1440 et 1280 px, mobile 390 px, absence de débordement horizontal ; pause vidéo, survol de carte (translation de 7 px), neuf logos chargés, devis prérempli, raccourci Power BI (2 résultats), univers Data Science (17 résultats), FAQ et lien Qualiopi.
 - Réduction des animations prise en compte dans le composant vidéo et les styles ; contrôle du code, pas de bascule des réglages système du PC.
 - Aucune donnée de cours, inscription, apprenant ou formateur modifiée par cette mise à jour.
+
+## Ajustements complémentaires du 12 septembre 2026
+- Références en défilement horizontal continu, pause au survol, au focus et par bouton ; liste statique lorsque les animations sont réduites.
+- Section « L’expertise du terrain. Le goût de transmettre. » resserrée : titre et introduction alignés, trois cartes compactes.
+- Survol et focus jaunes dans le menu partagé ; trait de progression coloré fixé en haut, mis à jour pendant le défilement et les changements de page.
+- Prochaine date proposée sur toutes les formations : 12 septembre → 12 octobre, avec gestion des mois courts et des changements d’année.
+- Fiches et 83 programmes approfondis : voir PROGRAMMES-ENRICHIS.md.

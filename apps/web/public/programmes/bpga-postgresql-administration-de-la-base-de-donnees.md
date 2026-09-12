@@ -1,12 +1,12 @@
 # PostgreSQL : Administration de la base de données
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -44,16 +44,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer cluster, base, schéma et session.
 - Situer processus, fichiers de configuration et WAL.
 - Utiliser psql pour inspecter connexions et paramètres.
+- Distinguer cluster, bases, processus, WAL et configuration ; préciser locale et encodage.
 
 **Atelier prévu :** Installer ou inspecter un cluster préparé et produire une fiche de configuration avec chemins et ports du laboratoire.
+
+**Livrable attendu :** Dossier d’installation PostgreSQL.
+
+**Pour aller plus loin :** Reproduire une installation avec paramètres et chemins documentés.
 
 ### Gérer rôles et accès · 210 min
 
 - Créer rôles, appartenances et privilèges d'objets.
 - Configurer authentification et règles pg_hba.conf.
 - Examiner droits par défaut, propriété et portée des schémas.
+- Configurer rôles, héritage, schémas et pg_hba.conf ; séparer connexion et privilèges SQL.
 
 **Atelier prévu :** Créer lecteur et application puis vérifier qu'un objet créé ultérieurement respecte les droits attendus.
+
+**Livrable attendu :** Matrice de droits et tests d’accès.
+
+**Pour aller plus loin :** Tester le refus d’accès d’un rôle à un schéma non autorisé.
 
 ## Jour 2 · 7 heures
 
@@ -62,16 +72,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Expliquer MVCC, versions de lignes et visibilité.
 - Observer verrous et transactions longues.
 - Relier VACUUM, ANALYZE et autovacuum à la santé de la base.
+- Lire une chaîne de blocage, repérer les transactions inactives ouvertes et relier accumulation de versions mortes aux décisions d’autovacuum.
 
 **Atelier prévu :** Simuler un blocage entre deux sessions, identifier le responsable et choisir une action de résolution proportionnée.
+
+**Livrable attendu :** Analyse de verrous et plan de maintenance.
+
+**Pour aller plus loin :** Diagnostiquer une session qui bloque la maintenance ou une écriture.
 
 ### Diagnostiquer les performances · 210 min
 
 - Lire EXPLAIN ANALYZE sur des requêtes de test.
 - Comparer scans, index, cardinalités et lectures.
 - Suivre connexions, statistiques et croissance des tables.
+- Lire EXPLAIN ANALYZE avec prudence, statistiques, index et volumes intermédiaires.
 
 **Atelier prévu :** Optimiser une requête lente sans changer son résultat et documenter l'effet de l'index sur les écritures.
+
+**Livrable attendu :** Plan commenté et optimisation mesurée.
+
+**Pour aller plus loin :** Comparer estimation et exécution réelle pour cibler la cause d’une lenteur.
 
 ## Jour 3 · 7 heures
 
@@ -80,16 +100,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Comparer pg_dump, sauvegarde physique et archivage WAL.
 - Relier RPO et RTO aux procédures choisies.
 - Préparer les dépendances de restauration, rôles et extensions.
+- Distinguer sauvegarde logique, physique, archivage WAL et restauration à un instant donné.
 
 **Atelier prévu :** Restaurer un dump dans une autre base puis vérifier données et droits ; examiner une démonstration de reprise à un instant donné.
+
+**Livrable attendu :** Procédure de reprise et contrôles d’intégrité.
+
+**Pour aller plus loin :** Vérifier une restauration au lieu de conclure sur le seul succès de sauvegarde.
 
 ### Préparer l'exploitation et les incidents · 210 min
 
 - Distinguer réplication, sauvegarde et haute disponibilité.
 - Définir alertes de capacité, retard et échec de sauvegarde.
 - Préparer changement de version et procédure de retour.
+- Organiser supervision, capacité, mises à jour et réponse aux incidents récurrents.
 
 **Atelier prévu :** Remettre un guide d'exploitation avec preuve de restauration, contrôles quotidiens et scénario de reprise après incident.
+
+**Livrable attendu :** Runbook et exercices d’incident.
+
+**Pour aller plus loin :** Simuler saturation disque ou retard de réplication dans un environnement de test.
 
 ## Évaluation finale prévue
 

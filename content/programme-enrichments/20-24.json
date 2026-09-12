@@ -1,0 +1,162 @@
+[
+  {
+    "index": 20,
+    "slug": "bogg-oracle-goldengate-ogg",
+    "units": [
+      [
+        "Examiner journalisation, clés, types de données et compatibilité des versions avant réplication.",
+        "Identifier une table sans clé stable et ses conséquences sur les mises à jour.",
+        "Dossier de prérequis et matrice de compatibilité."
+      ],
+      [
+        "Relier Extract, trails, transfert et Replicat ; préciser checkpoints, droits et paramètres.",
+        "Diagnostiquer une configuration où la capture fonctionne mais la cible n’avance pas.",
+        "Configuration commentée et contrôles de démarrage."
+      ],
+      [
+        "Coordonner chargement initial et capture continue pour éviter pertes et doublons.",
+        "Vérifier la cohérence après une initialisation pendant des écritures concurrentes.",
+        "Procédure d’initialisation et rapprochement source-cible."
+      ],
+      [
+        "Lire rapports, erreurs et retards ; distinguer transaction bloquante et problème de débit.",
+        "Reprendre après interruption sans masquer une divergence de données.",
+        "Diagnostic documenté et procédure de reprise."
+      ],
+      [
+        "Analyser collisions, boucles, clés et règles de résolution en réplication bidirectionnelle.",
+        "Simuler deux modifications concurrentes et justifier la règle de résolution.",
+        "Scénarios de conflit et limites de l’architecture."
+      ],
+      [
+        "Définir surveillance du lag, rétention des trails, capacité et validation des changements.",
+        "Construire un exercice de reprise avec seuils et critères de retour au service.",
+        "Runbook d’exploitation et tableau de supervision."
+      ]
+    ]
+  },
+  {
+    "index": 21,
+    "slug": "ai-agents-pour-automatiser-les-processus-metier",
+    "units": [
+      [
+        "Délimiter autonomie, actions autorisées, exceptions et validation humaine par criticité.",
+        "Refuser la délégation d’une décision dont les critères restent indéfinis.",
+        "Matrice de délégation et frontières d’autonomie."
+      ],
+      [
+        "Définir contrats d’outils, schémas d’entrée-sortie, permissions minimales et idempotence.",
+        "Traiter une action répétée après timeout sans produire de doublon métier.",
+        "Contrats d’outils et diagramme d’exécution."
+      ],
+      [
+        "Évaluer réussite de tâche, erreurs d’outils, coûts, boucles et injections via documents.",
+        "Tester un agent confronté à une source hostile et à une API indisponible.",
+        "Banc de cas nominal, limite et adversarial."
+      ],
+      [
+        "Organiser observation, validation, escalade, arrêt d’urgence et retour arrière.",
+        "Définir une extension progressive d’autonomie selon les résultats du pilote.",
+        "Protocole de pilote et tableau de suivi."
+      ]
+    ]
+  },
+  {
+    "index": 22,
+    "slug": "microsoft-365-copilot-pour-managers-et-directions",
+    "units": [
+      [
+        "Identifier les tâches compatibles avec les droits et données accessibles dans Microsoft 365.",
+        "Analyser le risque de révélation d’un document trop largement partagé.",
+        "Carte des usages et revue des accès."
+      ],
+      [
+        "Structurer ordre du jour, synthèse et actions ; vérifier responsables et décisions effectives.",
+        "Repérer une action attribuée à tort ou une décision absente du compte rendu.",
+        "Compte rendu vérifié et registre d’actions."
+      ],
+      [
+        "Relier chaque conclusion aux sources et distinguer faits, hypothèses et recommandations.",
+        "Résoudre une contradiction entre deux documents de direction.",
+        "Note de synthèse et tableau de preuves."
+      ],
+      [
+        "Définir points de contrôle, temps gagné réel et règles de partage des productions.",
+        "Comparer qualité et effort sur plusieurs tâches répétées.",
+        "Routine d’usage et grille de mesure."
+      ]
+    ]
+  },
+  {
+    "index": 23,
+    "slug": "damq-quarkus-batir-une-architecture-microservices-avec-quarkus",
+    "units": [
+      [
+        "Structurer configuration, injection de dépendances et profils ; isoler les secrets.",
+        "Détecter une différence de comportement entre profil de test et production.",
+        "Projet Quarkus configuré et reproductible."
+      ],
+      [
+        "Définir contrats REST, validation, codes d’erreur, timeouts et compatibilité des API.",
+        "Simuler une dépendance lente et vérifier les erreurs renvoyées au client.",
+        "API documentée et tests de contrat."
+      ],
+      [
+        "Maîtriser transactions, concurrence, migrations et tests d’intégration de persistance.",
+        "Reproduire une mise à jour concurrente et choisir une stratégie de verrouillage.",
+        "Couche de persistance et tests transactionnels."
+      ],
+      [
+        "Distinguer traitement bloquant et non bloquant ; traiter pression, erreurs et retries.",
+        "Éviter une duplication métier après reprise d’un message.",
+        "Flux réactif et stratégie d’idempotence."
+      ],
+      [
+        "Comparer démarrage, mémoire, compilation et contraintes de réflexion entre JVM et natif.",
+        "Mesurer deux variantes avec le même scénario sans généraliser un microbenchmark.",
+        "Rapport de mesures et choix d’exécution."
+      ],
+      [
+        "Séparer readiness et liveness ; configurer ressources, traces et déploiement progressif.",
+        "Diagnostiquer un service sain localement mais indisponible derrière le cluster.",
+        "Manifestes et guide de diagnostic."
+      ]
+    ]
+  },
+  {
+    "index": 24,
+    "slug": "scdp-design-patterns-conception-avec-les-design-patterns",
+    "units": [
+      [
+        "Repérer couplage, responsabilités dispersées et points de variation avant de choisir un pattern.",
+        "Justifier l’absence de pattern quand une solution simple suffit.",
+        "Diagnostic de conception et critères de choix."
+      ],
+      [
+        "Préserver les invariants dès la construction, injecter les dépendances et distinguer configuration d’objet et sélection de sa famille concrète.",
+        "Faire évoluer une famille d’objets sans propager des conditions partout.",
+        "Implémentation de création et tests d’invariants."
+      ],
+      [
+        "Distinguer Adapter, Decorator, Facade et Composite selon les relations recherchées.",
+        "Ajouter une capacité sans modifier le contrat attendu par les clients.",
+        "Structure refactorisée et diagramme de dépendances."
+      ],
+      [
+        "Comparer Strategy, State, Observer et Command selon variabilité et temporalité.",
+        "Traiter ordre des événements et effets secondaires dans un exemple concret.",
+        "Comportements interchangeables et scénarios testés."
+      ],
+      [
+        "Évaluer lisibilité, extensibilité, allocation et complexité induite par les patterns.",
+        "Retirer une abstraction devenue coûteuse sans casser le comportement.",
+        "Matrice de compromis et décision documentée."
+      ],
+      [
+        "S’appuyer sur tests de caractérisation, petites étapes et interfaces de transition.",
+        "Conduire une migration tout en conservant la compatibilité des appels existants.",
+        "Plan de refactoring et historique des vérifications."
+      ]
+    ]
+  }
+]

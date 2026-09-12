@@ -1,12 +1,12 @@
 # Savoir communiquer avec les autres
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer intention, message transmis et effet perçu.
 - Identifier contexte, enjeu et attentes de l'interlocuteur.
 - Repérer ses automatismes à partir de situations observables.
+- Analyser interruptions, choix du canal et informations implicites ; repérer les écarts entre ce qui est demandé et ce que l’autre peut effectivement comprendre.
 
 **Atelier prévu :** Décrire un échange professionnel difficile en séparant faits, interprétations et émotions ressenties.
+
+**Livrable attendu :** Diagnostic de communication fondé sur des faits.
+
+**Pour aller plus loin :** Analyser deux interprétations possibles d’une même intervention.
 
 ### Écouter et faire préciser · 210 min
 
 - Pratiquer questions ouvertes, reformulation et synthèse.
 - Vérifier une compréhension sans supposer les intentions.
 - Gérer silences, interruptions et désaccords de vocabulaire.
+- Utiliser questions ouvertes, reformulation et vérification de compréhension sans interrogatoire.
 
 **Atelier prévu :** Conduire un entretien en binôme et obtenir une reformulation partagée du besoin avant de proposer une solution.
+
+**Livrable attendu :** Trame d’entretien et reformulations testées.
+
+**Pour aller plus loin :** Clarifier une demande confuse sous contrainte de temps.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Annoncer objectif, idée principale et demande concrète.
 - Choisir exemples et arguments utiles au destinataire.
 - Adapter longueur, rythme et niveau de détail.
+- Hiérarchiser idée principale, faits, conséquences et demande explicite.
 
 **Atelier prévu :** Présenter une proposition en deux minutes puis la reformuler à partir des questions du groupe.
+
+**Livrable attendu :** Messages oraux adaptés à trois publics.
+
+**Pour aller plus loin :** Adapter le même message à un collègue, un manager et un client.
 
 ### Écrire pour être compris · 210 min
 
 - Choisir objet, structure et information prioritaire.
 - Distinguer information, demande et décision.
 - Relire ambiguïtés, ton et charge de travail imposée au lecteur.
+- Structurer objet, contexte, action attendue et échéance ; choisir le bon niveau de détail.
 
 **Atelier prévu :** Réécrire un courriel confus en explicitant action, responsable et échéance sans le rendre agressif.
+
+**Livrable attendu :** Courriel révisé et critères de lisibilité.
+
+**Pour aller plus loin :** Réécrire un courriel ambigu susceptible de créer un conflit.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Exprimer un fait, son impact et une demande.
 - Recevoir un retour sans le transformer immédiatement en débat.
 - Chercher un accord vérifiable et reconnaître les divergences restantes.
+- Séparer faits et jugements ; formuler désaccord et feedback sur des comportements précis.
 
 **Atelier prévu :** Jouer un échange sur un retard de livraison et construire un accord de fonctionnement réaliste.
+
+**Livrable attendu :** Scénario de feedback et accord de suivi.
+
+**Pour aller plus loin :** Recevoir un retour difficile et négocier une action observable.
 
 ### Transférer dans le quotidien · 210 min
 
 - Choisir deux comportements précis à faire évoluer.
 - Définir signes de progrès et occasions de pratique.
 - Demander un retour descriptif à un interlocuteur volontaire.
+- Choisir des situations récurrentes et des indicateurs de compréhension partagée.
 
 **Atelier prévu :** Rejouer la situation initiale et établir un plan de pratique sur trois semaines à partir d'observations comparables.
+
+**Livrable attendu :** Plan de transfert et grille d’auto-observation.
+
+**Pour aller plus loin :** Évaluer un changement de pratique avec retour d’un interlocuteur volontaire.
 
 ## Évaluation finale prévue
 

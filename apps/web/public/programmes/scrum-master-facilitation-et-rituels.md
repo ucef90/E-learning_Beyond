@@ -1,12 +1,12 @@
 # Scrum Master : facilitation et rituels d’équipe
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 2 jour(s) · 14 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -39,16 +39,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier empirisme, transparence, inspection et adaptation.
 - Distinguer responsabilités du Product Owner, des Developers et du Scrum Master.
 - Identifier obstacles d'équipe et obstacles organisationnels.
+- Distinguer facilitation, coaching, suppression des obstacles et responsabilité du produit.
 
 **Atelier prévu :** Analyser des situations où le Scrum Master remplace à tort une autre responsabilité et proposer une intervention adaptée.
+
+**Livrable attendu :** Carte des responsabilités et posture de facilitation.
+
+**Pour aller plus loin :** Clarifier une situation où le Scrum Master devient répartiteur de tâches.
 
 ### Faciliter planification et coordination · 210 min
 
 - Relier Sprint Goal, sélection du travail et capacité.
 - Comprendre le Daily Scrum comme inspection du progrès vers l'objectif.
 - Préparer cadre, questions et gestion du temps.
+- Relier objectif de sprint, capacité, plan et adaptation quotidienne.
 
 **Atelier prévu :** Faciliter une planification puis un Daily simulé sans attribuer les tâches aux membres de l'équipe.
+
+**Livrable attendu :** Plan de facilitation et objectif de sprint.
+
+**Pour aller plus loin :** Faciliter une planification comportant incertitude technique et dépendance externe.
 
 ## Jour 2 · 7 heures
 
@@ -57,16 +67,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer inspection du produit et amélioration du fonctionnement.
 - Faire participer parties prenantes et voix moins présentes.
 - Transformer un constat en action limitée et vérifiable.
+- Organiser revue centrée sur le résultat et rétrospective conduisant à une action vérifiable.
 
 **Atelier prévu :** Conduire une rétrospective sur un Sprint difficile et obtenir une action d'amélioration avec suivi au Sprint suivant.
+
+**Livrable attendu :** Scénarios d’atelier et action d’amélioration.
+
+**Pour aller plus loin :** Faire émerger un désaccord sans imposer une solution à l’équipe.
 
 ### Traiter conflits et obstacles · 210 min
 
 - Choisir facilitation, coaching ou escalade selon la situation.
 - Mettre en discussion les politiques qui freinent l'équipe.
 - Mesurer les progrès sans indicateurs individuels de productivité.
+- Distinguer conflit de personnes, règles implicites et obstacle organisationnel.
 
 **Atelier prévu :** Préparer un plan d'intervention sur une dépendance récurrente et expliquer ce que l'équipe décidera elle-même.
+
+**Livrable attendu :** Diagnostic d’obstacle et stratégie d’intervention.
+
+**Pour aller plus loin :** Préparer une escalade factuelle tout en préservant l’autonomie de l’équipe.
 
 ## Évaluation finale prévue
 

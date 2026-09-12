@@ -1,12 +1,12 @@
 # Initiation aux bases de données et au SQL pour les professionnels non informaticiens
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Fondamental · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -44,16 +44,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer table, ligne, colonne et type de donnée.
 - Identifier clés primaires et liens entre tables.
 - Situer base, application et reporting dans une architecture.
+- Distinguer table, ligne, colonne, identifiant et relation ; comprendre pourquoi une clé unique évite les ambiguïtés.
 
 **Atelier prévu :** Transformer un tableau mêlant clients et commandes en trois tables et expliquer les doublons ainsi évités.
+
+**Livrable attendu :** Dictionnaire de données métier et exemple de normalisation.
+
+**Pour aller plus loin :** Repérer dans un tableur les données répétées qui devraient devenir des entités séparées.
 
 ### Dessiner puis créer le modèle · 210 min
 
 - Exprimer entités, associations et cardinalités.
 - Traduire le modèle en tables et clés étrangères.
 - Définir obligations de saisie et contraintes d'intégrité.
+- Traduire règles métier en types, clés primaires, clés étrangères et contraintes de saisie.
 
 **Atelier prévu :** Créer le modèle clients-commandes-lignes puis tenter un enregistrement invalide pour observer le rôle des contraintes.
+
+**Livrable attendu :** Modèle relationnel et règles d’intégrité explicites.
+
+**Pour aller plus loin :** Tester le modèle sur une commande comportant plusieurs produits et sur un client sans commande.
 
 ## Jour 2 · 7 heures
 
@@ -62,16 +72,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Importer un CSV en contrôlant séparateur et types.
 - Écrire INSERT, UPDATE et DELETE avec filtre vérifié.
 - Comprendre validation, annulation et principe de transaction.
+- Observer le rejet d’une clé étrangère invalide, d’un doublon interdit et d’une valeur obligatoire absente ; expliquer le rôle de chaque contrainte.
 
 **Atelier prévu :** Importer les commandes dans une base d'exercice et annuler une modification avant validation définitive.
+
+**Livrable attendu :** Script de modification sécurisé et preuve des lignes concernées.
+
+**Pour aller plus loin :** Simuler une mise à jour trop large dans une base d’exercice puis corriger la condition avant validation.
 
 ### Poser des questions avec SELECT · 210 min
 
 - Choisir colonnes, filtres et ordre d'affichage.
 - Calculer sommes, comptes et regroupements.
 - Comprendre valeur NULL et recherche de données manquantes.
+- Combiner filtres, tri, valeurs nulles, agrégations et regroupements en reliant chaque clause à la question métier.
 
 **Atelier prévu :** Répondre à cinq demandes métier, dont les clients sans adresse renseignée et les montants par mois.
+
+**Livrable attendu :** Carnet de requêtes commentées et résultats de contrôle.
+
+**Pour aller plus loin :** Expliquer la différence entre filtrer des lignes avant calcul et filtrer des groupes après calcul.
 
 ## Jour 3 · 7 heures
 
@@ -80,16 +100,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier tables par jointures et vérifier le nombre de lignes.
 - Comprendre pourquoi une jointure peut multiplier les montants.
 - Distinguer lecture, écriture, rôles et verrous concurrents.
+- Distinguer jointure interne et externe ; comprendre la multiplication des lignes dans une relation un-à-plusieurs.
 
 **Atelier prévu :** Produire les ventes par client puis simuler deux utilisateurs, dont un lecteur qui ne peut modifier aucune commande.
+
+**Livrable attendu :** Requêtes multi-tables et contrôle des doublons.
+
+**Pour aller plus loin :** Calculer un indicateur sans compter deux fois les clients et repérer les droits nécessaires à un usage en lecture seule.
 
 ### Échanger les données et vérifier le résultat · 210 min
 
 - Situer CSV, JSON, XML et flux d'intégration.
 - Contrôler comptages, totaux et cohérence après import ou export.
 - Documenter dictionnaire de données et requêtes utiles.
+- Vérifier séparateurs, dates, encodage, décimales et confidentialité lors d’un export ou d’un import.
 
 **Atelier prévu :** Livrer une petite base et trois requêtes de reporting accompagnées d'un dictionnaire compréhensible par un collègue non informaticien.
+
+**Livrable attendu :** Export vérifié et fiche de contrôle avant partage.
+
+**Pour aller plus loin :** Comparer le total d’un rapport SQL à celui du fichier exporté et expliquer un écart de conversion.
 
 ## Évaluation finale prévue
 

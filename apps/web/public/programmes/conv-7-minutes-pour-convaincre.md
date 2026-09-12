@@ -1,12 +1,12 @@
 # « 7 minutes pour convaincre ! »
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir public, décision attendue et contraintes de temps.
 - Sélectionner une idée principale et trois appuis maximum.
 - Écarter les informations qui ne servent pas la décision.
+- Déterminer ce que le public sait déjà, la principale objection attendue et la prochaine action réaliste ; calibrer la densité du message au temps disponible.
 
 **Atelier prévu :** Résumer sa proposition en une phrase puis vérifier qu'elle indique clairement ce que l'auditoire doit décider.
+
+**Livrable attendu :** Brief d’intervention et objectif explicite.
+
+**Pour aller plus loin :** Réduire un sujet complexe à une demande réalisable en sept minutes.
 
 ### Construire une ouverture utile · 210 min
 
 - Partir d'un fait, d'un problème ou d'une situation pertinente.
 - Éviter accroches spectaculaires sans lien avec le sujet.
 - Annoncer enjeu et chemin de l'intervention.
+- Écrire une ouverture de trente secondes comportant un fait vérifiable et son enjeu ; tester son intelligibilité sans commentaire préalable.
 
 **Atelier prévu :** Tester deux ouvertures de trente secondes et retenir celle dont les auditeurs comprennent le mieux l'enjeu.
+
+**Livrable attendu :** Ouverture chronométrée et transition.
+
+**Pour aller plus loin :** Éviter la surpromesse et vérifier le lien entre ouverture et conclusion.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Relier problème, solution, bénéfices et conditions de réussite.
 - Choisir chiffres et exemples vérifiables.
 - Préparer une conclusion avec demande concrète.
+- Sélectionner trois arguments, preuves et limites ; distinguer anecdote et démonstration.
 
 **Atelier prévu :** Construire un plan minuté de sept minutes et retirer les arguments redondants après une première répétition.
+
+**Livrable attendu :** Plan argumenté et dossier de preuves.
+
+**Pour aller plus loin :** Répondre à une donnée contraire sans fragiliser la crédibilité du message.
 
 ### Travailler la présence orale · 210 min
 
 - Ajuster débit, articulation, silences et regard.
 - Utiliser gestes et posture au service du message.
 - Gérer notes et support sans lire l'ensemble du texte.
+- Travailler rythme, pauses, articulation et regard ; adapter les supports au temps disponible.
 
 **Atelier prévu :** Répéter un passage complexe, recevoir un retour descriptif puis essayer une modification de rythme ou de formulation.
+
+**Livrable attendu :** Version chronométrée et grille d’observation.
+
+**Pour aller plus loin :** Réduire d’une minute une intervention sans perdre son argument principal.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Écouter une question jusqu'au bout et la reformuler.
 - Répondre brièvement avec preuve ou limite reconnue.
 - Revenir à la décision sans éluder une objection légitime.
+- Accueillir, reformuler et répondre ; reconnaître ce qui nécessite une vérification.
 
 **Atelier prévu :** S'entraîner à trois objections, dont une question sans réponse disponible, et proposer un suivi crédible.
+
+**Livrable attendu :** Réponses préparées et protocole de reprise.
+
+**Pour aller plus loin :** Gérer une interruption et une objection imprévue dans le temps imparti.
 
 ### Présenter et évaluer son intervention · 210 min
 
 - Répéter avec temps réel et conditions proches du contexte.
 - Vérifier mémorisation du message par l'auditoire.
 - Choisir deux ajustements pour les prochaines interventions.
+- Évaluer clarté de la demande, solidité des preuves et respect des sept minutes.
 
 **Atelier prévu :** Prononcer l'intervention complète en sept minutes, recueillir la décision comprise par les pairs et formaliser les corrections utiles.
+
+**Livrable attendu :** Présentation finale et bilan de progression.
+
+**Pour aller plus loin :** Rejouer l’intervention après feedback ciblé de plusieurs participants.
 
 ## Évaluation finale prévue
 

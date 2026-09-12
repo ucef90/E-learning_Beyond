@@ -1,12 +1,12 @@
 # Rédaction de documents techniques : Les fondamentaux
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Fondamental · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Identifier tâche, niveau technique et contexte d'usage.
 - Distinguer procédure, référence, tutoriel et rapport.
 - Définir résultat attendu et informations préalables.
+- Définir utilisateurs, tâche, environnement et connaissances nécessaires à la lecture.
 
 **Atelier prévu :** Rédiger le profil du lecteur d'une procédure de sauvegarde et la liste des questions auxquelles le document doit répondre.
+
+**Livrable attendu :** Profil de lecteur et objectifs documentaires.
+
+**Pour aller plus loin :** Adapter une même information pour opérateur, administrateur et décideur.
 
 ### Construire une structure navigable · 210 min
 
 - Organiser titres, étapes et repères.
 - Placer prérequis et conditions avant les actions.
 - Séparer explication, instruction et résultat attendu.
+- Hiérarchiser titres, prérequis, étapes, références et points de décision.
 
 **Atelier prévu :** Transformer des notes désordonnées en plan de procédure avec une entrée claire pour les erreurs fréquentes.
+
+**Livrable attendu :** Plan navigable et parcours de lecture.
+
+**Pour aller plus loin :** Retrouver une information critique sans lire le document intégralement.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Utiliser verbes précis, unités et noms cohérents.
 - Décrire une action par étape lorsque cela facilite l'exécution.
 - Éliminer pronoms ambigus et dépendances implicites.
+- Écrire une action par étape avec résultat attendu, paramètres et conditions d’arrêt.
 
 **Atelier prévu :** Réécrire une procédure confuse puis vérifier que chaque étape indique où agir et comment reconnaître le résultat.
+
+**Livrable attendu :** Procédure testable et critères de réussite.
+
+**Pour aller plus loin :** Faire exécuter une procédure par un pair sans explication orale supplémentaire.
 
 ### Documenter exemples et erreurs · 210 min
 
 - Choisir captures, tableaux et exemples réellement utiles.
 - Préserver lisibilité, alternatives textuelles et confidentialité.
 - Décrire symptôme, cause possible et action de récupération.
+- Choisir exemples représentatifs, sorties attendues et diagnostic des erreurs fréquentes.
 
 **Atelier prévu :** Créer un exemple annoté et une section de dépannage pour deux erreurs de saisie ou de configuration.
+
+**Livrable attendu :** Exemples contrôlés et rubrique de dépannage.
+
+**Pour aller plus loin :** Documenter une panne sans révéler secret ou donnée personnelle.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Assister plan ou reformulation sans inventer de procédure.
 - Vérifier chaque commande et chaque affirmation technique.
 - Relire cohérence des termes, liens et versions.
+- Utiliser l’IA pour reformuler tout en vérifiant commandes, versions et exactitude technique.
 
 **Atelier prévu :** Comparer une reformulation assistée à la procédure source et corriger une instruction ajoutée sans justification.
+
+**Livrable attendu :** Document révisé et journal des vérifications.
+
+**Pour aller plus loin :** Détecter une commande plausible mais inadaptée à l’environnement documenté.
 
 ### Tester et maintenir le document · 210 min
 
 - Faire exécuter la tâche par un lecteur représentatif.
 - Observer blocages sans expliquer à sa place.
 - Définir propriétaire, version et déclencheurs de mise à jour.
+- Organiser test utilisateur, propriétaire, version et revue à chaque changement significatif.
 
 **Atelier prévu :** Livrer une procédure testée avec journal des corrections et fiche de maintenance documentaire.
+
+**Livrable attendu :** Plan de maintenance et rapport de test.
+
+**Pour aller plus loin :** Repérer les sections devenues fausses après modification d’une fonction.
 
 ## Évaluation finale prévue
 

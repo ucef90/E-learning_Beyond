@@ -1,12 +1,12 @@
 # ChatGPT par la pratique : IA générative, Prompt Engineering et Chatbot
 
-Beyond Expertise · Programme détaillé · Version 1 du 2026-09-11
+Beyond Expertise · Programme détaillé · Version 2 du 2026-09-12
 
 **Version enrichie proposée, à valider par le formateur avant animation.**
 
 3 jour(s) · 21 heures indicatives · Intermédiaire · Hybride
 
-Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial.
+Répartition pédagogique proposée sur une base de 7 heures par jour, pauses exclues. À ajuster avec le formateur au positionnement initial. Les approfondissements « Pour aller plus loin » sont sélectionnés par le formateur selon le positionnement et le temps disponible ; ils ne constituent pas des heures supplémentaires garanties.
 
 ## Objectifs de la fiche de référence
 
@@ -40,16 +40,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer conversation, génération et information vérifiée.
 - Observer erreurs plausibles, variabilité et oubli de contexte.
 - Examiner paramètres de données et règles du compte utilisé.
+- Distinguer génération plausible, connaissance vérifiée et accès effectif aux sources.
 
 **Atelier prévu :** Comparer une bonne réponse et une réponse convaincante mais fausse, puis définir une méthode de vérification.
+
+**Livrable attendu :** Grille d’observation des limites.
+
+**Pour aller plus loin :** Comparer les réponses sur une question ambiguë ou sans donnée suffisante.
 
 ### Formuler des prompts utiles · 210 min
 
 - Donner objectif, contexte, destinataire et format.
 - Fournir exemples et contraintes mesurables.
 - Réviser une demande à partir d'un défaut observé.
+- Composer consigne, contexte, exemples, critères et format ; itérer sur une erreur observée.
 
 **Atelier prévu :** Transformer une demande vague en consigne de rédaction dont on peut contrôler longueur, contenu obligatoire et ton.
+
+**Livrable attendu :** Jeu de prompts et cas de contrôle.
+
+**Pour aller plus loin :** Améliorer un prompt sur plusieurs cas plutôt que sur une seule réponse.
 
 ## Jour 2 · 7 heures
 
@@ -58,16 +68,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Distinguer reformulation, résumé et ajout d'information.
 - Conserver références et chiffres du document fourni.
 - Préparer plusieurs versions pour différents lecteurs.
+- Préserver sens, chiffres, conditions et ton lors d’une synthèse ou réécriture.
 
 **Atelier prévu :** Produire une note courte et un message de suivi à partir du même dossier, puis vérifier les affirmations ligne par ligne.
+
+**Livrable attendu :** Production révisée et grille de fidélité.
+
+**Pour aller plus loin :** Identifier omission critique et citation inventée dans un document généré.
 
 ### Analyser un document ou un tableau · 210 min
 
 - Préparer données lisibles et périmètre de la question.
 - Contrôler calculs, unités et données manquantes.
 - Demander une restitution qui sépare résultats et hypothèses.
+- Vérifier unités, calculs, doublons et hypothèses avant toute conclusion sur un tableau.
 
 **Atelier prévu :** Examiner un tableau de ventes et corriger une conclusion qui confond total, moyenne et évolution en pourcentage.
+
+**Livrable attendu :** Analyse contrôlée et journal des vérifications.
+
+**Pour aller plus loin :** Recalculer indépendamment un résultat proposé et expliquer l’écart.
 
 ## Jour 3 · 7 heures
 
@@ -76,16 +96,26 @@ Apports illustrés, exercices progressifs, ateliers sur un cas fil rouge et reto
 - Définir utilisateurs, intentions et sujets exclus.
 - Choisir sources, règles de réponse et transfert humain.
 - Préparer questions sans réponse, contradictions et demandes hors périmètre.
+- Définir périmètre, sources, comportements hors sujet, refus et passage à un humain.
 
 **Atelier prévu :** Écrire le cahier de comportement d'un chatbot FAQ puis simuler dix conversations, avec réponses attendues et critères d'arrêt.
+
+**Livrable attendu :** Spécification de chatbot et scénarios de recette.
+
+**Pour aller plus loin :** Tester une demande absente du corpus et une instruction malveillante incorporée au texte.
 
 ### Évaluer et organiser l'usage quotidien · 210 min
 
 - Mesurer temps de travail et taux de correction sur des tâches comparables.
 - Versionner prompts et exemples de référence.
 - Prévoir validation humaine et mise à jour des sources.
+- Mesurer exactitude, utilité et effort de correction ; organiser partage et révision des consignes.
 
 **Atelier prévu :** Remettre un kit de trois usages testés et une recette de chatbot, en distinguant ce qui a été observé des gains encore à mesurer.
+
+**Livrable attendu :** Bibliothèque versionnée et protocole d’évaluation.
+
+**Pour aller plus loin :** Comparer deux méthodes sur un échantillon de tâches professionnelles.
 
 ## Évaluation finale prévue
 

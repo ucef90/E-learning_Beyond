@@ -1,0 +1,172 @@
+[
+  {
+    "index": 5,
+    "slug": "donnees-pretes-pour-l-ia-gouvernance-qualite-et-knowledge-management",
+    "units": [
+      [
+        "Inventorier origine, format, sensibilité, droits de réutilisation et durée de validité des documents destinés à l’IA.",
+        "Échantillonner le corpus pour mesurer couverture métier, contradictions, obsolescence et réponses impossibles.",
+        "Inventaire du corpus et matrice de préparation à l’IA."
+      ],
+      [
+        "Normaliser structure, métadonnées, unités et vocabulaire ; distinguer correction de la source et transformation technique.",
+        "Concevoir des règles de dédoublonnage et de segmentation qui préservent contexte, auteur et version documentaire.",
+        "Dictionnaire documentaire et protocole de nettoyage traçable."
+      ],
+      [
+        "Attribuer propriétaire, référent qualité, approbateur et gestionnaire des droits pour chaque famille documentaire.",
+        "Tracer la propagation d’une révocation d’accès et d’une suppression jusqu’aux index ou copies utilisés par l’IA.",
+        "Matrice de responsabilités et circuit de mise à jour des droits."
+      ],
+      [
+        "Relier chaque défaut de données à son effet sur une réponse et à une mesure de qualité vérifiable.",
+        "Prioriser une correction par gravité, fréquence, coût et dépendances, puis organiser un contrôle avant réindexation.",
+        "Tableau de remédiation et critères d’acceptation d’un corpus."
+      ]
+    ]
+  },
+  {
+    "index": 6,
+    "slug": "oapy-decouvrir-python-et-l-analyse-de-donnees",
+    "units": [
+      [
+        "Comparer listes, dictionnaires, ensembles et tuples ; prévoir la conversion des types et le traitement des valeurs absentes.",
+        "Décomposer une règle de calcul en petits exemples puis tester ses cas limites avant de parcourir un fichier entier.",
+        "Script de calcul annoté et tableau de cas de test."
+      ],
+      [
+        "Organiser fonctions, paramètres, valeurs de retour et exceptions ; distinguer affichage d’un résultat et production d’une donnée réutilisable.",
+        "Refactorer un script répétitif en fonctions indépendantes, sans modifier ses résultats attendus.",
+        "Module de fonctions et tests d’entrées invalides."
+      ],
+      [
+        "Contrôler encodage, séparateur, types de colonnes et cardinalité ; repérer ce que la lecture automatique a mal interprété.",
+        "Comparer deux exports dont les dates, décimales et noms de colonnes diffèrent, puis rendre leur schéma cohérent.",
+        "Notebook de profilage et contrat de colonnes."
+      ],
+      [
+        "Justifier chaque règle de nettoyage ; traiter jointures, regroupements, doublons et valeurs aberrantes avec des contrôles de volume.",
+        "Identifier un double comptage provoqué par une jointure puis vérifier les totaux avant et après correction.",
+        "Table nettoyée, rapport de contrôles et indicateurs vérifiés."
+      ],
+      [
+        "Choisir échelle, agrégation et type de graphique ; vérifier pagination, statuts HTTP et limites d’une source externe.",
+        "Produire deux graphiques du même indicateur et expliquer lequel répond à la question sans déformer la lecture.",
+        "Visualisations commentées et extracteur simple avec gestion des erreurs."
+      ],
+      [
+        "Séparer configuration, données d’entrée et sorties ; conserver versions de bibliothèques et ordre des étapes.",
+        "Exécuter l’analyse sur un nouvel export et faire expliquer le résultat par un pair à partir du seul dossier livré.",
+        "Analyse rejouable, notice d’utilisation et synthèse métier."
+      ]
+    ]
+  },
+  {
+    "index": 7,
+    "slug": "jdsa-spring-boot-et-angular-developper-des-applications-web-avec-spring-boot-et-angular",
+    "units": [
+      [
+        "Préciser DTO, validation, erreurs, pagination et statuts HTTP dans le contrat ; distinguer entité persistée et ressource exposée.",
+        "Prévoir une évolution d’API compatible et formaliser le comportement d’une requête invalide ou concurrente.",
+        "Contrat d’API et scénarios de parcours."
+      ],
+      [
+        "Séparer contrôleur, service et dépôt ; définir frontières transactionnelles, contraintes et mapping des réponses.",
+        "Diagnostiquer un chargement excessif des relations et prévenir une modification concurrente perdue.",
+        "API transactionnelle et tests de validation/persistance."
+      ],
+      [
+        "Composer composants, services et formulaires réactifs ; traiter chargement, absence de résultat, erreur et annulation d’une requête.",
+        "Empêcher une réponse réseau ancienne de remplacer l’état d’une recherche plus récente.",
+        "Écrans Angular avec états d’interface et gestion de concurrence réseau."
+      ],
+      [
+        "Distinguer authentification, autorisation, CORS et CSRF ; effectuer les contrôles métier côté serveur.",
+        "Construire une matrice de droits et prouver qu’un utilisateur ne peut pas lire ou modifier les données d’un autre.",
+        "Matrice d’accès et scénarios de sécurité de bout en bout."
+      ],
+      [
+        "Séparer tests unitaires, intégration HTTP/persistance et parcours UI ; utiliser des données de test maîtrisées.",
+        "Vérifier qu’une erreur métier remonte avec un message utile et qu’un échec réseau ne détruit pas la saisie.",
+        "Suite de tests par couche et rapport de parcours critiques."
+      ],
+      [
+        "Gérer configurations par environnement, secrets, migrations et observabilité de l’API.",
+        "Préparer un déploiement compatible avec la version précédente du frontend et une procédure de retour arrière.",
+        "Dossier de livraison, paramètres d’exploitation et recette de déploiement."
+      ]
+    ]
+  },
+  {
+    "index": 8,
+    "slug": "opyt-python-programmation-objet",
+    "units": [
+      [
+        "Clarifier portée, mutabilité, arguments par défaut et annotations ; structurer un paquet sans imports circulaires.",
+        "Remplacer des variables globales par des dépendances explicites pour rendre le traitement testable.",
+        "Paquet Python organisé et fonctions aux contrats explicites."
+      ],
+      [
+        "Définir invariants, attributs, propriétés et représentation des objets ; comparer classe classique et dataclass.",
+        "Concevoir un objet qui refuse un état incohérent et reste compréhensible lors de son affichage ou de sa sérialisation.",
+        "Modèle objet avec invariants et exemples d’usage."
+      ],
+      [
+        "Distinguer relation est-un et possède-un ; examiner couplage, polymorphisme et substitution dans les contrats.",
+        "Remplacer une hiérarchie fragile par une composition et vérifier la compatibilité des comportements attendus.",
+        "Diagramme de conception et refactoring argumenté."
+      ],
+      [
+        "Valider les données aux frontières, gérer exceptions métier et ressources avec des gestionnaires de contexte.",
+        "Simuler un fichier corrompu ou une interruption d’écriture et préserver un état cohérent de l’application.",
+        "Couche d’échange robuste et catalogue d’erreurs."
+      ],
+      [
+        "Séparer widgets, état de l’interface et logique métier ; expliquer la boucle d’événements et les traitements bloquants.",
+        "Maintenir l’interface réactive pendant une opération longue et éviter les modifications concurrentes de son état.",
+        "Interface événementielle et découpage présentation/métier."
+      ],
+      [
+        "Tester comportements publics, cas limites et dépendances externes ; distinguer mock utile et test lié aux détails internes.",
+        "Faire évoluer une règle métier avec une suite de non-régression puis mesurer la réduction du couplage.",
+        "Suite de tests et dossier de décisions de conception."
+      ]
+    ]
+  },
+  {
+    "index": 9,
+    "slug": "deia-l-ia-au-service-du-developpeur-de-l-assistance-a-l-integration",
+    "units": [
+      [
+        "Évaluer assistance au code, recherche documentaire et génération de tests selon le risque, la confidentialité et l’effort de vérification.",
+        "Définir les tâches autorisées, les données exclues et les validations humaines requises avant utilisation d’une proposition.",
+        "Charte d’usage développeur et matrice des cas d’usage."
+      ],
+      [
+        "Fournir contexte minimal, interfaces, contraintes et critères d’acceptation plutôt qu’une demande de code ouverte.",
+        "Comparer une demande vague à une demande testable et mesurer les défauts détectés par une même recette.",
+        "Bibliothèque de consignes et scénarios d’acceptation."
+      ],
+      [
+        "Relire dépendances, accès aux données, erreurs et complexité ; vérifier l’explication proposée par exécution ciblée.",
+        "Soumettre à l’assistant un bug dont la première hypothèse est fausse et conduire un diagnostic fondé sur des preuves.",
+        "Correctif commenté, tests de régression et revue critique."
+      ],
+      [
+        "Encadrer délais, retries, budgets, validation de schéma et filtrage des données envoyées au modèle.",
+        "Simuler réponse invalide, interruption du fournisseur et tentative d’action non autorisée ; vérifier le repli applicatif.",
+        "Adaptateur d’appel de modèle et tests de défaillance."
+      ],
+      [
+        "Relier indexation, récupération, contexte, citation et contrôle des droits dans un assistant documentaire.",
+        "Comparer erreurs de récupération et erreurs de génération, puis tester une injection contenue dans un document.",
+        "Prototype RAG et jeu de tests de sources/résistance aux injections."
+      ],
+      [
+        "Traiter les entrées multimodales comme des données non fiables ; définir formats, tailles et conditions d’usage.",
+        "Établir une recette couvrant accessibilité, coût, sécurité, supervision et désactivation de la fonctionnalité.",
+        "Dossier d’intégration et liste de contrôles avant livraison."
+      ]
+    ]
+  }
+]
