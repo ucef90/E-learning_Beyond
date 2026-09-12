@@ -9,3 +9,7 @@ Le lecteur utilise une navigation de leçons à gauche, une colonne de lecture e
 L’accueil reprend la composition du site officiel beyond-expertise.com : introduction sombre, fond animé existant, accent orange, recherche et formation mise en avant. La vidéo décorative possède une pause et respecte la réduction des animations ; son URL reste celle utilisée par le site officiel, avec un fond statique si elle est indisponible. Le catalogue garde une introduction claire et arrondie. Menu public repliable sous 1050 px.
 
 Les espaces connectés disposent de leur propre navigation, sans le grand en-tête ni le pied de page commerciaux. Barre latérale bleue, surface de travail claire, orange réservé à la sélection et à la reprise. Navigation horizontale défilable sur écran étroit. Les indicateurs proviennent des attributions et travaux autorisés. L’apprenant accède directement aux leçons, TP, quiz et ressources ; le formateur retrouve ses groupes et les remises à corriger. Les fonctions non implémentées ne sont pas ajoutées sous forme de boutons inactifs.
+
+
+## Accueil restauré — 12 septembre 2026
+La référence est le site officiel Beyond Expertise. La vidéo originale est stockée localement avec poster et pause. Le bandeau de confiance, les cartes commerciales, les références (missions incluant la sous-traitance), les univers, ressources et bas de page suivent cette identité. Voir docs/RESTAURATION-ACCUEIL.md pour les sources et la portée des indicateurs.

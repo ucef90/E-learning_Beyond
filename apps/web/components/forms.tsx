@@ -175,7 +175,11 @@ export function ContactForm() {
   );
 }
 
-export function QuoteForm() {
+export function QuoteForm({
+  initialTrainingTitle = "",
+}: {
+  initialTrainingTitle?: string;
+}) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState<FormStatus>({ type: "idle" });
   const [turnstileToken, setTurnstileToken] = useState("");
@@ -221,18 +225,21 @@ export function QuoteForm() {
       <input
         className="input"
         name="companyName"
+        aria-label="Entreprise"
         placeholder="Entreprise"
         required
       />
       <input
         className="input"
         name="contactName"
+        aria-label="Nom du contact"
         placeholder="Nom du contact"
         required
       />
       <input
         className="input"
         name="email"
+        aria-label="Email"
         type="email"
         placeholder="Email"
         required
@@ -240,13 +247,20 @@ export function QuoteForm() {
       <input
         className="input"
         name="participants"
+        aria-label="Nombre de participants"
         type="number"
         min={1}
         defaultValue={6}
         placeholder="Nombre de participants"
         required
       />
-      <select className="select" name="requestedMode" defaultValue="" required>
+      <select
+        className="select"
+        name="requestedMode"
+        aria-label="Modalité souhaitée"
+        defaultValue=""
+        required
+      >
         <option value="" disabled>
           Sélectionner une modalité
         </option>
@@ -258,6 +272,12 @@ export function QuoteForm() {
       <textarea
         className="textarea"
         name="brief"
+        aria-label="Votre besoin de formation"
+        defaultValue={
+          initialTrainingTitle
+            ? `Formation souhaitée : ${initialTrainingTitle}\n\nEffectif et contexte : `
+            : ""
+        }
         placeholder="Effectif, formation cible, contexte"
         required
       />

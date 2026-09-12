@@ -70,9 +70,10 @@ export default function Page() {
       <QualityCard title="Stockage, cookies et chargements">
         <p>
           Les données d’essai sont stockées dans la base locale du projet sur
-          cet ordinateur. Le décor de l’accueil est maintenant rendu localement
-          : aucune vidéo CloudFront n’est chargée. Aucun outil de publicité ou
-          de mesure d’audience n’est intégré dans cette version.
+          cet ordinateur. La vidéo de l’accueil, les photos et les logos sont
+          servis localement : leur affichage ne contacte pas de service tiers.
+          Aucun outil de publicité ou de mesure d’audience n’est intégré dans
+          cette version.
         </p>
         <p>
           Le cookie HttpOnly <code>be_elearning_session</code> est réservé à la

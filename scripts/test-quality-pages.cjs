@@ -58,8 +58,10 @@ async function html(path) {
   await Promise.all([worker(), worker(), worker()]);
   assert.equal(report.trainings.length, 81);
   const home = await html("/");
-  assert(!home.text().includes("Ils nous font confiance"));
-  assert(!home.text().includes("BNP Paribas"));
+  assert(home.text().includes("Ils nous ont fait confiance"));
+  assert(home.text().includes("BNP Paribas"));
+  assert(home.text().includes("sous-traitance"));
+  assert(home.text().includes("Finalisation en cours"));
   const company = await html("/entreprises");
   assert(!company.text().includes("sous 24h"));
   assert(!company.text().includes("sous 5 jours"));

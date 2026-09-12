@@ -457,6 +457,7 @@ type CatalogueSource = {
   sourceUrl?: string;
   observedAt?: string;
   observedPrice?: string;
+  observedSessions?: string;
   programStatus?: string;
   syllabus?: DetailedProgramme;
   syllabusSummary?: { totalHours: number; moduleCount: number; status: string };
@@ -629,13 +630,22 @@ export function groupTrainingsByPremiumCategory(
 }
 
 export function getHomepageFeaturedTrainings(trainings: UiTraining[]) {
-  const priority = getPriorityTrainings(trainings);
-
-  if (priority.length >= 6) {
-    return priority.slice(0, 6);
-  }
-
-  return trainings.slice(0, 6);
+  const slugs = [
+    "llmops-deployer-observer-et-gouverner-les-applications-llm",
+    "deep-learning-applique-avec-pytorch",
+    "product-analytics-et-experimentation-ab-testing",
+    "data-engineering-cloud-pipelines-elt-et-orchestration",
+    "lakehouse-moderne-avec-microsoft-fabric-et-databricks",
+    "donnees-pretes-pour-l-ia-gouvernance-qualite-et-knowledge-management",
+  ];
+  const selected = slugs.flatMap((slug) => {
+    const training = trainings.find((t) => t.slug === slug);
+    return training ? [training] : [];
+  });
+  return [
+    ...selected,
+    ...trainings.filter((t) => !slugs.includes(t.slug)),
+  ].slice(0, 6);
 }
 
 export function getSeoCategoryHubs() {

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { QualityBadge, RatingStars } from "./trust-elements";
 import { CentreContact, qualityLinks } from "./quality-layout";
 
 export function Footer() {
@@ -13,9 +14,9 @@ export function Footer() {
                 Des formations pour développer vos compétences en data et en IA.
               </h3>
               <p className="section-copy">
-                Une structure pensée pour les organismes de formation modernes
-                et les entreprises qui veulent accélérer les compétences
-                critiques sur la data, l'IA, le pilotage et la transformation.
+                Des formateurs praticiens et des parcours adaptés à vos enjeux :
+                analyser vos données, mieux piloter vos projets et adopter l’IA
+                avec méthode.
               </p>
               <div className="footer-tags">
                 {[
@@ -29,10 +30,18 @@ export function Footer() {
                   </span>
                 ))}
               </div>
-              <p className="section-copy">
-                Démarche de certification Qualiopi en cours. Certification non
-                acquise.
-              </p>
+              <div className="footer-proof-row">
+                <QualityBadge compact />
+                <Link href="/financements">
+                  <strong>CPF & OPCO</strong>
+                  <small>Financement à étudier</small>
+                </Link>
+                <Link href="/qualite#resultats">
+                  <RatingStars />
+                  <strong>4,8/5</strong>
+                  <small>Évaluations internes</small>
+                </Link>
+              </div>
             </div>
             <div>
               <h4>Catalogue</h4>
@@ -68,6 +77,9 @@ export function Footer() {
               <h4>Entreprise</h4>
               <p>
                 <Link href="/a-propos">À propos</Link>
+              </p>
+              <p>
+                <Link href="/#references">Nos références</Link>
               </p>
               <p>
                 <Link href="/entreprises">Solutions entreprises</Link>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { trainingPresentation } from "@/lib/training-presentation";
 import { getTrainingBySlug } from "@/lib/api";
 import { DetailedProgrammeContent } from "@/components/detailed-programme";
 import { TrainingAccess } from "@/components/training-access";
@@ -12,6 +13,7 @@ export default async function TrainingDetailPage({
   const { slug } = await params;
   const t = await getTrainingBySlug(slug);
   if (!t) notFound();
+  const presentation = trainingPresentation(t);
   const regulatory = t.source?.kind === "authored-regulatory";
   return (
     <main id="contenu" className="section page-main-compact">
@@ -162,7 +164,11 @@ export default async function TrainingDetailPage({
                 <dt>
                   {regulatory ? "Tarif" : "Tarif affiché sur le site officiel"}
                 </dt>
-                <dd>{t.source?.observedPrice || t.priceFrom}</dd>
+                <dd>{presentation.price}</dd>
+                <dt>
+                  Prochaine session{presentation.indicative ? " annoncée" : ""}
+                </dt>
+                <dd>{presentation.session}</dd>
               </dl>
               <p className="learning-note">
                 Tarif et calendrier à confirmer auprès de Beyond Expertise.

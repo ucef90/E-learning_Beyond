@@ -5,7 +5,7 @@ import { ProgrammeContact } from "@/components/programme-contact";
 export default async function TrainingsPage({
   searchParams,
 }: {
-  searchParams?: Promise<{ q?: string }>;
+  searchParams?: Promise<{ q?: string; univers?: string }>;
 }) {
   const trainings = await getTrainings();
   const params = searchParams ? await searchParams : undefined;
@@ -33,6 +33,7 @@ export default async function TrainingsPage({
         <CatalogExplorer
           trainings={trainings}
           initialQuery={params?.q?.trim() || ""}
+          initialUniverse={params?.univers || ""}
         />
       </div>
     </main>

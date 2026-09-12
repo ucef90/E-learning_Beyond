@@ -2,7 +2,14 @@ import Link from "next/link";
 import { ArrowRight, Building2, Layers3, Users2 } from "lucide-react";
 import { QuoteForm } from "@/components/forms";
 
-export default function QuotePage() {
+export default async function QuotePage({
+  searchParams,
+}: {
+  searchParams?: Promise<{ formation?: string }>;
+}) {
+  const params = searchParams ? await searchParams : undefined;
+  const formation =
+    typeof params?.formation === "string" ? params.formation.slice(0, 250) : "";
   return (
     <main className="section page-main-compact">
       <div className="page-shell">
@@ -14,9 +21,14 @@ export default function QuotePage() {
               <span>Demande de devis</span>
             </div>
             <span className="eyebrow">Demande de devis</span>
-            <h1 className="section-title quote-page-title">Construire une proposition adaptée à votre contexte, vos équipes et vos priorités.</h1>
+            <h1 className="section-title quote-page-title">
+              Construire une proposition adaptée à votre contexte, vos équipes
+              et vos priorités.
+            </h1>
             <p className="section-copy">
-              Inter, intra, sur-mesure, blended learning ou académie métier : partagez votre besoin et nous revenons vers vous avec une recommandation claire.
+              Inter, intra, sur-mesure, blended learning ou académie métier :
+              partagez votre besoin et nous revenons vers vous avec une
+              recommandation claire.
             </p>
 
             <div className="quote-page-benefits">
@@ -24,18 +36,18 @@ export default function QuotePage() {
                 {
                   icon: <Users2 size={18} />,
                   title: "Cadrage rapide",
-                  copy: "Qualification du besoin, du niveau cible et du bon format de déploiement."
+                  copy: "Qualification du besoin, du niveau cible et du bon format de déploiement.",
                 },
                 {
                   icon: <Layers3 size={18} />,
                   title: "Parcours modulable",
-                  copy: "Assemblage possible de plusieurs formations, ressources et modalités."
+                  copy: "Assemblage possible de plusieurs formations, ressources et modalités.",
                 },
                 {
                   icon: <Building2 size={18} />,
                   title: "Vision entreprise",
-                  copy: "Réponse pensée pour un contexte métier, une équipe ou un programme plus large."
-                }
+                  copy: "Réponse pensée pour un contexte métier, une équipe ou un programme plus large.",
+                },
               ].map((item) => (
                 <article key={item.title} className="quote-benefit-card">
                   <div className="quote-benefit-icon">{item.icon}</div>
@@ -58,7 +70,7 @@ export default function QuotePage() {
           </div>
 
           <div className="quote-page-form" id="quote-form">
-            <QuoteForm />
+            <QuoteForm initialTrainingTitle={formation} />
           </div>
         </section>
       </div>

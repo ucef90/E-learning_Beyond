@@ -308,44 +308,6 @@
 .regulatory-facts {
   font-weight: 650;
 }
-.local-hero-art {
-  overflow: hidden;
-  background: #101728;
-}
-.local-hero-art span {
-  position: absolute;
-  display: block;
-  width: 90%;
-  height: 45%;
-  border: 40px solid #b36a2b;
-  border-radius: 50%;
-  transform: rotate(-28deg);
-  top: 28%;
-  left: 40%;
-  opacity: 0.55;
-  animation: localRibbon 18s ease-in-out infinite alternate;
-  animation-play-state: paused;
-}
-.local-hero-art span:nth-child(2) {
-  border-color: #394e85;
-  left: 10%;
-  top: 50%;
-  animation-delay: -6s;
-}
-.local-hero-art span:nth-child(3) {
-  border-color: #d89955;
-  left: 60%;
-  top: 4%;
-  animation-delay: -12s;
-}
-.local-hero-art.is-playing span {
-  animation-play-state: running;
-}
-@keyframes localRibbon {
-  to {
-    transform: translate(-7%, 12%) rotate(-12deg);
-  }
-}
 @media (max-width: 760px) {
   .regulatory-highlight-inner {
     grid-template-columns: 1fr;
@@ -357,10 +319,5 @@
   .regulatory-actions .button {
     white-space: normal;
     text-align: center;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .local-hero-art span {
-    animation: none;
   }
 }

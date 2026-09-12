@@ -38,6 +38,21 @@ export default function Page() {
           médiation doivent être validés avant commercialisation.
         </p>
       </QualityCard>
+      <QualityCard title="Crédits visuels">
+        <p>
+          Photo d’illustration :{" "}
+          <a href="https://unsplash.com/photos/people-sitting-near-table-with-laptop-computer-qCi_MzVODoU">
+            Campaign Creators, Unsplash
+          </a>
+          , sous <a href="https://unsplash.com/license">licence Unsplash</a>.
+          Cette image ne représente pas une session ou une équipe identifiée de
+          Beyond Expertise.
+        </p>
+        <p>
+          Les logos des organisations citées identifient les références
+          d’intervention. Ils restent la propriété de leurs titulaires.
+        </p>
+      </QualityCard>
     </QualityLayout>
   );
 }

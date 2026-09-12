@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { TrainingCard } from "@/components/training-card";
-import type { UiTraining } from "@/lib/api";
+import { groupTrainingsByPremiumCategory, type UiTraining } from "@/lib/api";
 const normalize = (value: string) =>
   value
     .normalize("NFD")
@@ -10,10 +10,15 @@ const normalize = (value: string) =>
 export function CatalogExplorer({
   trainings,
   initialQuery = "",
+  initialUniverse = "",
 }: {
   trainings: UiTraining[];
   initialQuery?: string;
+  initialUniverse?: string;
 }) {
+  const [universe, setUniverse] = useState(initialUniverse);
+  const groups = groupTrainingsByPremiumCategory(trainings);
+  const group = groups.find((g) => g.key === universe);
   const [query, setQuery] = useState(initialQuery),
     [category, setCategory] = useState(""),
     [level, setLevel] = useState(""),
@@ -24,6 +29,7 @@ export function CatalogExplorer({
   const levels = [...new Set(trainings.map((t) => t.level))];
   const filtered = trainings.filter(
     (t) =>
+      (!group || group.trainings.some((item) => item.id === t.id)) &&
       (!query.trim() ||
         normalize(
           [t.title, t.category, t.summary, ...t.goals].join(" "),
@@ -90,13 +96,15 @@ export function CatalogExplorer({
       <div className="catalog-filter-summary" aria-live="polite">
         <strong>{filtered.length}</strong>
         <span>
-          fiche{filtered.length > 1 ? "s" : ""} correspondant à vos critères
+          {group ? group.title + " · " : ""} fiche
+          {filtered.length > 1 ? "s" : ""} correspondant à vos critères
         </span>
-        {(query || category || level || availability) && (
+        {(query || category || level || availability || universe) && (
           <button
             className="catalog-reset-button"
             onClick={() => {
               setQuery("");
+              setUniverse("");
               setCategory("");
               setLevel("");
               setAvailability("");
