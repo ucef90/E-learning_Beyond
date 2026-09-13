@@ -67,7 +67,7 @@ export default function Page() {
           <p>
             La période de référence, le nombre de réponses et le périmètre des
             formations ne sont pas publiés à ce stade. Les comptes de
-            démonstration, quiz et activités de cette copie locale ne sont pas
+            démonstration et activités de test de la plateforme ne sont pas
             inclus dans cet indicateur.
           </p>
           <dl>

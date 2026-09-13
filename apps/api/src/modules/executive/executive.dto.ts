@@ -4,6 +4,7 @@ import {
   IsIn,
   IsInt,
   IsOptional,
+  IsObject,
   IsString,
   IsUUID,
   Length,
@@ -12,6 +13,8 @@ import {
   Min,
 } from "class-validator";
 export class CreateExecutiveApplication {
+  @IsOptional() @IsUUID() leadRequestKey?: string;
+  @IsOptional() @IsObject() attribution?: object;
   @IsUUID() requestKey!: string;
   @IsString() @Length(3, 120) programmeSlug!: string;
   @IsIn(["APPLICATION", "INFORMATION", "COMPANY"]) requestType!: string;

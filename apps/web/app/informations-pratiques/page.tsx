@@ -29,9 +29,9 @@ export default function Page() {
         </ol>
         <p>
           <strong>Délai d’accès :</strong> à confirmer individuellement selon la
-          formation, la session, les prérequis et le financement. Aucun délai
-          standard ni date d’entrée n’est validé pour cette copie locale ;
-          aucune inscription n’y vaut confirmation d’une session.
+          formation, la session, les prérequis et le financement. Le calendrier
+          et les modalités d’entrée sont confirmés avant votre engagement.
+          Une demande en ligne ne vaut pas réservation d’une session.
         </p>
         <Link href="/positionnement" className="button button-primary">
           Préparer mon positionnement

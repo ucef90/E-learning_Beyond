@@ -9,6 +9,8 @@ export type CommercialOverview = {
   quotes: number;
   enrollments: number;
   totalRequests: number;
+  campaignLeads: number;
+  executiveApplications: number;
 };
 
 export type ContactRequest = {

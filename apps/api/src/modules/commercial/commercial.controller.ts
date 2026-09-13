@@ -10,17 +10,28 @@ export class CommercialController {
 
   @Get("overview")
   async getOverview() {
-    const [contacts, quotes, enrollments] = await Promise.all([
+    const [
+      contacts,
+      quotes,
+      enrollments,
+      campaignLeads,
+      executiveApplications,
+    ] = await Promise.all([
       this.prisma.contactRequest.count(),
       this.prisma.quoteRequest.count(),
       this.prisma.enrollment.count(),
+      this.prisma.lead.count({ where: { source: "executive_campaign" } }),
+      this.prisma.executiveApplication.count(),
     ]);
 
     return {
       contacts,
       quotes,
       enrollments,
-      totalRequests: contacts + quotes + enrollments,
+      campaignLeads,
+      executiveApplications,
+      totalRequests:
+        contacts + quotes + enrollments + campaignLeads + executiveApplications,
     };
   }
 }

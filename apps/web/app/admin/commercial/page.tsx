@@ -1,5 +1,6 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
+import { CampaignAdmin } from "@/components/campaign-admin";
 import { CommercialBoard } from "@/components/commercial-board";
 export const dynamic = "force-dynamic";
 export default async function CommercialAdminPage() {
@@ -29,6 +30,7 @@ export default async function CommercialAdminPage() {
   return (
     <main className="learning" id="contenu">
       <h1>Suivi des demandes commerciales</h1>
+      <CampaignAdmin />
       <CommercialBoard
         initialOverview={data[0]}
         initialContacts={data[1]}

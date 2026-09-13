@@ -8,6 +8,8 @@ import "./training-detail.css";
 import "./assistant.css";
 import "./course-studio.css";
 import "./executive.css";
+import "./campaign.css";
+import { CampaignConsent } from "@/components/campaign-consent";
 import type { Metadata } from "next";
 import { indexable } from "@/lib/seo";
 import { ScrollProgress } from "@/components/scroll-progress";
@@ -35,6 +37,7 @@ export default function RootLayout({
           Aller au contenu
         </a>
         <PublicChrome>{children}</PublicChrome>
+        <CampaignConsent />
       </body>
     </html>
   );

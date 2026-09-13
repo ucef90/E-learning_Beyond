@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <QualityLayout
       title="Un assistant IA, un périmètre clair."
-      intro="Fonctionnement de la version locale — 13 septembre 2026. L’assistant vous aide à explorer les formations et à préparer votre échange avec le centre."
+      intro="Fonctionnement du service — 13 septembre 2026. L’assistant vous aide à explorer les formations et à préparer votre échange avec le centre."
     >
       <QualityCard title="Ce que l’assistant peut faire">
         <p>
@@ -38,10 +38,10 @@ export default function Page() {
           proposée et signalée comme telle.
         </p>
       </QualityCard>
-      <QualityCard title="Votre échange dans cette version locale">
+      <QualityCard title="Votre échange avec l’assistant">
         <p>
-          Votre message est envoyé au serveur local puis, lorsque nécessaire, au
-          moteur d’IA installé sur cet ordinateur. Cette intégration ne transmet
+          Votre message est traité par les services Beyond et, lorsque disponible,
+          par le moteur d’IA de cette infrastructure. Cette intégration ne transmet
           pas les échanges à un fournisseur d’IA externe. Le texte des
           conversations n’est pas enregistré dans la base de données ni dans un
           historique de discussion sur disque.
@@ -55,8 +55,8 @@ export default function Page() {
         </p>
         <p>
           N’envoyez pas de coordonnées personnelles, données sensibles ou pièces
-          de dossier. La notice et les conditions d’hébergement devront être
-          réexaminées avant une ouverture publique.
+          de dossier. Les informations de traitement figurent dans la
+          politique de confidentialité du site.
         </p>
         <Link href="/confidentialite">Consulter la notice sur les données</Link>
       </QualityCard>

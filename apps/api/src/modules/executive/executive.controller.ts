@@ -20,6 +20,11 @@ import { PrismaService } from "../../common/prisma.service";
 import { TurnstileService } from "../../common/turnstile.service";
 import { Public, Roles } from "../auth/access";
 import {
+  safeAttribution,
+  PRIVACY_VERSION,
+} from "../commercial/campaign.service";
+import { CampaignReceiptDto } from "../commercial/campaign.dto";
+import {
   CreateExecutiveApplication,
   UpdateExecutiveApplication,
 } from "./executive.dto";
@@ -116,13 +121,49 @@ export class ExecutiveController {
         429,
       );
     try {
-      const item = await this.db.executiveApplication.create({
-        data: {
-          ...data,
-          requestKey: dto.requestKey,
-          payloadHash,
-          reference: `BE-${new Date().getUTCFullYear()}-${randomBytes(6).toString("hex").toUpperCase()}`,
-        },
+      const item = await this.db.$transaction(async (tx) => {
+        const candidate = dto.leadRequestKey
+          ? await tx.lead.findUnique({
+              where: { requestKey: dto.leadRequestKey },
+            })
+          : null;
+        const lead =
+          candidate?.email === data.email &&
+          candidate?.programmeSlug === data.programmeSlug &&
+          candidate?.source === "executive_campaign"
+            ? candidate
+            : null;
+        const item = await tx.executiveApplication.create({
+          data: {
+            ...data,
+            leadId: lead?.id,
+            attribution: safeAttribution(dto.attribution),
+            consentAt: new Date(),
+            privacyVersion: PRIVACY_VERSION,
+            requestKey: dto.requestKey,
+            payloadHash,
+            reference: `BE-${new Date().getUTCFullYear()}-${randomBytes(6).toString("hex").toUpperCase()}`,
+          },
+        });
+        if (lead && dto.requestType === "APPLICATION") {
+          if (!["ENROLLED", "CLOSED"].includes(lead.stage))
+            await tx.lead.update({
+              where: { id: lead.id },
+              data: {
+                stage: "APPLICATION",
+                status: "QUALIFIED",
+                revision: { increment: 1 },
+              },
+            });
+          await tx.leadActivity.create({
+            data: {
+              leadId: lead.id,
+              action: "APPLICATION_RECEIVED",
+              note: item.reference,
+            },
+          });
+        }
+        return item;
       });
       return receipt(item);
     } catch (error: any) {
@@ -137,6 +178,20 @@ export class ExecutiveController {
       }
       throw error;
     }
+  }
+
+  @Public()
+  @Post("receipt")
+  async confirmation(@Body() dto: CampaignReceiptDto) {
+    const item = await this.db.executiveApplication.findUnique({
+      where: { requestKey: dto.requestKey },
+    });
+    if (!item) throw new NotFoundException("Confirmation indisponible.");
+    return {
+      ...receipt(item),
+      programmeSlug: item.programmeSlug,
+      requestType: item.requestType,
+    };
   }
 
   @Get("applications")

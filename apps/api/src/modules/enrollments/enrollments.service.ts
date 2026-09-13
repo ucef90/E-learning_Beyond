@@ -1,4 +1,4 @@
-import { Injectable } from "@nestjs/common";
+import { BadRequestException, Injectable } from "@nestjs/common";
 import { PrismaService } from "../../common/prisma.service";
 import { TurnstileService } from "../../common/turnstile.service";
 import { CreateEnrollmentRequestDto } from "./dto/create-enrollment-request.dto";
@@ -63,6 +63,7 @@ export class EnrollmentsService {
         })
       : null;
 
+    if (payload.trainingSlug && !training) throw new BadRequestException("Formation introuvable. Pour un MBA ou DBA, utilisez le formulaire de candidature du programme.");
     const company = payload.companyName
       ? await this.prisma.company.upsert({
           where: { slug: toSlug(payload.companyName) },

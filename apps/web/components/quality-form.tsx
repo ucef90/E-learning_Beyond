@@ -68,8 +68,8 @@ export function QualityForm({
           Référence à conserver : <strong>{receipt.reference}</strong>
         </p>
         <p>
-          Le {new Date(receipt.createdAt).toLocaleString("fr-FR")}. Cette copie
-          locale conserve votre demande dans le registre du centre. Aucun email
+          Le {new Date(receipt.createdAt).toLocaleString("fr-FR")}. Votre demande
+          est conservée dans le registre du centre. Aucun email
           n’a été envoyé automatiquement.
         </p>
         <p>
@@ -101,8 +101,8 @@ export function QualityForm({
         </p>
       </div>
       <p className="quality-note">
-        Version locale : la demande est enregistrée sur cet ordinateur pour le
-        suivi administratif. Elle ne déclenche pas d’email au centre.
+        Votre demande est enregistrée dans le registre du centre pour le
+        suivi administratif. Conservez la référence affichée après envoi.
       </p>
       {kinds.length > 1 && (
         <label>

@@ -11,6 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/",
     "/formations",
     "/mba-dba",
+    "/afrique",
     "/mba",
     "/dba",
     "/mba-dba/pedagogie",

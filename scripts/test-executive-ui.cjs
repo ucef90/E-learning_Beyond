@@ -22,6 +22,7 @@ async function main() {
   try {
     const home = await page.goto(root + "/mba-dba");
     assert.equal(home.status(), 200);
+    await page.getByRole("button", {name: "Tout refuser", exact: true}).click();
     await page.locator(".executive-programme").first().waitFor();
     assert.equal(await page.locator(".executive-programme").count(), 31);
     await page.screenshot({

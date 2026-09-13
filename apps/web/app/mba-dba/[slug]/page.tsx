@@ -250,14 +250,18 @@ export default async function Page({
           </Link>
           <Link
             href={{
-              pathname: "/mba-dba/candidature",
-              query: { programme: p.slug, demande: "information" },
+              pathname: "/afrique",
+              query: { programme: p.slug, demande: "ADVICE" },
+              hash: "demande",
             }}
             className="button button-secondary"
           >
-            Demander un entretien
+            Parler à un conseiller
           </Link>
+          <Link href={{pathname:"/afrique",query:{programme:p.slug,demande:"BROCHURE"},hash:"demande"}} className="button button-accent">Recevoir la brochure</Link>
+          <Link href={{pathname:"/afrique",query:{programme:p.slug,demande:"TARIFF"},hash:"demande"}}>Demander les tarifs</Link>
           <a
+            data-programme={p.slug}
             href={`/programmes-executive/${p.slug}.pdf`}
             className="executive-download"
             download
