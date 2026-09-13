@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-09-13",
+  "method": "Built-in ImageGen tool",
+  "purpose": "Illustrations marketing MBA et DBA, personnages fictifs ; aucune promotion réelle de Beyond représentée.",
+  "assets": [
+    {
+      "kind": "MBA",
+      "path": "apps/web/public/media/executive/mba-promotion.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Create a premium photorealistic editorial photograph for a French-speaking executive education website aimed at Africa and international professionals. Landscape 1536x1024. A joyful but dignified group of three fictional adult MBA graduates aged about 32 to 45: a Black African woman with natural textured hair, a Black African man and a North African woman, standing together in a contemporary university courtyard, elegant pale stone architecture and lush greenery softly blurred behind them. Authentic candid interaction, warm smiles, mature professionals rather than teenagers. Navy blue graduation robes with understated amber-gold stoles and square academic caps. Each holds a simple closed navy diploma folder, natural anatomically correct hands, blank folders with no logos, seals or text. Medium shot from waist up, all three faces and caps entirely in frame with breathing room around them, subjects grouped in central 70 percent for responsive crops. Late afternoon sunlight, realistic skin texture, sophisticated documentary photography, 50mm lens, warm natural highlights balanced with rich navy fabric, believable and understated celebration. No confetti, no cap throwing, no banners, no text, no watermark, no identifiable real institution or real person. This is a clearly fictional promotional illustration, not documentary evidence of real graduates. Save as a high quality photo asset."
+    },
+    {
+      "kind": "DBA",
+      "path": "apps/web/public/media/executive/dba-promotion.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Create a premium photorealistic editorial photograph for an executive DBA research programme website for Africa and international professionals. Landscape 1536x1024. Two fictional accomplished adult doctoral graduates aged about 42 to 55, a Black African woman and a North African man, standing in a refined university interior with warm wood, tall windows and a few softly blurred bookshelves. Quiet pride after a research defence, natural relaxed smiles and eye contact with camera, dignified not theatrical. Deep navy doctoral gowns with rich muted gold velvet panels and tasteful doctoral hoods, soft multi-sided doctoral tams with small gold tassels, visually distinct from ordinary square MBA graduation caps. Each holds a closed plain dark-blue diploma folder at waist level, no writing or seals. Medium portrait waist up, both faces, hands and headwear fully within frame, group centered with generous margin so cropping stays safe. Natural side daylight, authentic skin detail, realistic separate fingers, cinematic yet credible editorial university photography, navy and warm amber accents. No stage signage, no logos, no readable certificates, no university insignia, no watermark, no text. Fictional aspirational promotional scene, not real alumni or a claim that any institution awarded these diplomas."
+    }
+  ]
+}

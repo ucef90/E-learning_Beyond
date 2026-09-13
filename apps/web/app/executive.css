@@ -1038,3 +1038,63 @@
     transition: none !important;
   }
 }
+
+/* Graduation imagery: full frames preserve faces, caps and diploma folders. */
+.executive-hero-photographic {
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+.executive-hero-photographic h1 {
+  font-size: clamp(2.2rem, 3.8vw, 3.65rem);
+  max-width: 20ch;
+}
+.executive-hero-visual { min-width: 0; }
+.executive-photo { margin: 0; min-width: 0; }
+.executive-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  border-radius: 14px;
+}
+.executive-photo figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding-top: 10px;
+  color: #52617a;
+  font-size: .75rem;
+  line-height: 1.55;
+}
+.executive-photo figcaption span { font-size: .7rem; }
+.executive-hero .executive-photo figcaption { color: #d4dce9; }
+.executive-hero-visual .executive-hero-aside { border: 0; padding: 24px 0 0; }
+.executive-hero-visual .executive-hero-aside ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 16px 0 8px;
+}
+.executive-hero-visual .executive-hero-aside li { display: block; margin: 0; }
+.executive-hero-visual .executive-hero-aside b { display: block; margin-bottom: 5px; }
+.executive-hero-visual .executive-hero-aside strong { font-size: .9rem; }
+.executive-hero-visual .executive-hero-aside p { font-size: .8rem; line-height: 1.55; }
+.executive-approach .executive-photo { margin-bottom: 32px; }
+.executive-photo-compact figcaption { display: block; }
+.executive-photo-compact figcaption span { display: block; margin-top: 4px; }
+@media (max-width: 1000px) {
+  .executive-hero-photographic { padding: 32px; gap: 28px; }
+}
+@media (max-width: 760px) {
+  .executive-hero-photographic { grid-template-columns: 1fr; padding: 28px 22px; }
+  .executive-hero-photographic h1 { font-size: clamp(2rem, 7vw, 2.65rem); }
+  .executive-hero-visual .executive-hero-aside ol { gap: 14px; }
+  .executive-photo figcaption { display: block; }
+  .executive-photo figcaption span { display: block; margin-top: 4px; }
+}
+@media (max-width: 380px) {
+  .executive-hero-visual .executive-hero-aside ol { grid-template-columns: 1fr; }
+  .executive-hero-visual .executive-hero-aside li { display: flex; gap: 14px; }
+}
