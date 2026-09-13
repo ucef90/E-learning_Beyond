@@ -1098,3 +1098,68 @@
   .executive-hero-visual .executive-hero-aside ol { grid-template-columns: 1fr; }
   .executive-hero-visual .executive-hero-aside li { display: flex; gap: 14px; }
 }
+
+/* A photographic album, with an accessible full-size viewer. */
+.executive-gallery-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  margin-top: 12px;
+  color: #d4dce9;
+  font-size: .9rem;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.executive-gallery { padding: 64px 0; border-top: 1px solid #cfd6e1; }
+.executive-gallery-heading { display: grid; grid-template-columns: 1.1fr 1fr; align-items: end; gap: 40px; margin-bottom: 28px; }
+.executive-gallery-heading h2 { max-width: 20ch; margin-bottom: 0; text-wrap: balance; }
+.executive-gallery-heading > p { max-width: 56ch; margin-bottom: 0; }
+.executive-gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 28px; }
+.executive-gallery-grid figure { min-width: 0; margin: 0; }
+.executive-gallery-open { display: block; position: relative; width: 100%; padding: 0; border: 0; border-radius: 14px; overflow: hidden; background: #e9edf3; cursor: zoom-in; }
+.executive-gallery-open img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; transition: transform 300ms ease-out; }
+.executive-gallery-expand { position: absolute; right: 14px; bottom: 14px; display: grid; place-items: center; width: 40px; height: 40px; color: #1a2644; background: #fff; border-radius: 50%; }
+.executive-gallery-open:focus-visible { outline-offset: 5px; }
+.executive-gallery-grid figcaption { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; padding-top: 14px; }
+.executive-gallery-grid figcaption strong { font-size: 1.05rem; }
+.executive-gallery-grid figcaption > span { font-size: .82rem; color: #52617a; }
+.executive-gallery .executive-gallery-note { margin: 24px 0 0; max-width: 90ch; font-size: .8rem; line-height: 1.65; }
+.executive-gallery-dialog { width: min(1120px, 94vw); max-width: 94vw; max-height: 94dvh; margin: auto; padding: 0 16px 14px; border: 1px solid #52617a; border-radius: 16px; overflow: auto; background: #111b30; color: #fff; }
+.executive-gallery-dialog::backdrop { background: rgb(6 12 24 / 88%); }
+.executive-gallery-dialog-bar { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 10px 0; }
+.executive-gallery-dialog-bar > span { font-size: .85rem; color: #d4dce9; }
+.executive-gallery-control { flex-shrink: 0; width: 44px; height: 44px; display: inline-grid; place-items: center; padding: 0; border: 1px solid #66758e; border-radius: 50%; background: #1a2644; color: #fff; cursor: pointer; }
+.executive-gallery-dialog .executive-gallery-control:focus-visible { outline-color: #f4ad51; outline-offset: 2px; }
+.executive-gallery-large { display: block; width: 100%; height: auto; max-height: 65dvh; object-fit: contain; border-radius: 6px; }
+.executive-gallery-dialog-footer { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-top: 18px; }
+.executive-gallery-dialog-footer h2 { margin: 0; font-size: clamp(1.1rem, 2vw, 1.45rem); letter-spacing: -.02em; }
+.executive-gallery-dialog-footer p { margin: 6px 0 0; font-size: .85rem; color: #d4dce9; }
+.executive-gallery-navigation { display: flex; gap: 10px; }
+.executive-gallery-dialog #executive-gallery-dialog-note { margin: 14px 0 0; color: #d4dce9; font-size: .75rem; }
+@media (hover: hover) {
+  .executive-gallery-open:hover img { transform: scale(1.025); }
+  .executive-gallery-control:hover { background: #33435f; }
+}
+@media (max-width: 760px) {
+  .executive-gallery { padding: 44px 0; }
+  .executive-gallery-heading { grid-template-columns: 1fr; gap: 12px; }
+  .executive-gallery-heading h2 { max-width: 24ch; }
+  .executive-gallery-grid { gap: 24px 18px; }
+}
+@media (max-width: 640px) {
+  .executive-gallery-grid { grid-template-columns: 1fr; }
+  .executive-gallery-dialog { padding: 0 12px 12px; }
+  .executive-gallery-dialog-footer { align-items: flex-start; gap: 12px; }
+  .executive-gallery-navigation { gap: 6px; }
+  .executive-gallery-dialog-footer h2 { line-height: 1.3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .executive-gallery-open img { transition: none; }
+  .executive-gallery-open:hover img { transform: none; }
+}
+.executive-gallery-grid figcaption small { flex-basis: 100%; color: #52617a; font-size: .75rem; line-height: 1.55; }
+.executive section.executive-gallery[id] { scroll-margin-top: 200px; }
+@media (max-width: 1000px) {
+  .executive section.executive-gallery[id] { scroll-margin-top: 110px; }
+}
