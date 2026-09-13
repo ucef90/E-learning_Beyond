@@ -1,0 +1,10 @@
+const fs=require("node:fs"),assert=require("node:assert/strict"),{spawnSync}=require("node:child_process");
+process.loadEnvFile(".env");
+const env={...process.env,NODE_ENV:"production",COOKIE_SECURE:"true",APP_ORIGIN:"https://formation-test.example.org",LAB_ORIGIN:"https://laboratoire-test.example.org",PORT:"4399"};
+const result=spawnSync(process.execPath,["apps/api/dist/main.js"],{env,encoding:"utf8",timeout:15000});
+assert.notEqual(result.status,0);
+assert((result.stdout+result.stderr).includes("Des comptes de recette sont encore actifs"),"Le démarrage doit refuser les identités de recette");
+const preflight=spawnSync(process.execPath,["deploy/ovh/preflight.cjs"],{env:{...process.env},encoding:"utf8",timeout:15000});
+assert.equal(preflight.status,2,"Le contrôle doit refuser une configuration locale pour l'hébergement public");
+const report={status:"PASS",at:new Date().toISOString(),checks:["Démarrage production refusé avec les identités synthétiques de cette base","Préflight refuse les origines locales et la configuration HTTPS incomplète"]};
+fs.writeFileSync("work/validation/production-guards.json",JSON.stringify(report,null,2));console.log(JSON.stringify(report));

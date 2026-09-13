@@ -4,6 +4,11 @@ import Markdown from "react-markdown";
 import { api, download, canLeaveNotebook } from "@/lib/learning-api";
 import Notebook from "./learning-notebook";
 import LessonContent from "./lesson-content";
+import {
+  Positioning,
+  PrivateResources,
+  WrittenAssessment,
+} from "./learning-course-tools";
 export default function Reader({
   id,
   user,
@@ -87,7 +92,13 @@ export default function Reader({
   const lessons = course.modules.flatMap((m: any) => m.lessons);
   const textLessons = lessons.filter((l: any) => l.type === "TEXT");
   const selected = lessons.find((l: any) => l.id === tab);
-  const quiz = lessons.find((l: any) => l.quiz)?.quiz;
+  const quizzes = lessons
+    .filter((l: any) => l.quiz)
+    .map((l: any) => ({ ...l.quiz, durationMin: l.durationMin }));
+  const quiz =
+    tab === "quiz"
+      ? quizzes[0]
+      : quizzes.find((q: any) => tab === "quiz-" + q.id);
   const tp = lessons.find((l: any) => l.type === "PDF");
   const done = state.progress.filter((p: any) => p.completed).length;
   const finished = (lid: string) =>
@@ -159,7 +170,7 @@ export default function Reader({
                     {finished(l.id) ? "✓" : String(i + 1).padStart(2, "0")}
                   </span>
                   <span>
-                    {l.title}
+                    {l.title.replace(/^\d+\.\s+/, "")}
                     <small>{l.durationMin} min</small>
                   </span>
                 </button>
@@ -169,25 +180,44 @@ export default function Reader({
                   aria-current={tab === "practice" ? "page" : undefined}
                   onClick={() => go("practice")}
                 >
-                  Atelier guidé · Les six leçons
+                  Atelier guidé
                 </button>
               )}
-              {course.resources.hasNotebook && (
+              {(course.resources.hasNotebook ||
+                course.assessment.mode === "WRITTEN") && (
                 <button
                   aria-current={tab === "tp" ? "page" : undefined}
                   onClick={() => go("tp")}
                 >
-                  TP · Pratiquer sur les ventes
+                  Travail à remettre
                 </button>
               )}
-              {quiz && (
+              {quizzes.map((q: any) => (
                 <button
-                  aria-current={tab === "quiz" ? "page" : undefined}
-                  onClick={() => go("quiz")}
+                  key={q.id}
+                  aria-current={
+                    tab === "quiz-" + q.id ||
+                    (tab === "quiz" && q === quizzes[0])
+                      ? "page"
+                      : undefined
+                  }
+                  onClick={() => go("quiz-" + q.id)}
                 >
-                  Quiz · Vérifier mes acquis
+                  {q.title}
                 </button>
-              )}
+              ))}
+              <button
+                aria-current={tab === "positioning" ? "page" : undefined}
+                onClick={() => go("positioning")}
+              >
+                Mon positionnement
+              </button>
+              <button
+                aria-current={tab === "resources" ? "page" : undefined}
+                onClick={() => go("resources")}
+              >
+                Supports complémentaires
+              </button>
               <button
                 aria-current={tab === "resultats" ? "page" : undefined}
                 onClick={() => go("resultats")}
@@ -211,8 +241,10 @@ export default function Reader({
                 ))}
               </dl>
               <p className="learning-notice">
-                Support en validation pédagogique. Ce parcours ne délivre pas de
-                certification professionnelle.
+                {course.editorialStatus === "APPROVED"
+                  ? "Version relue et validée par le responsable pédagogique."
+                  : "Support en validation pédagogique."}{" "}
+                Ce parcours ne délivre pas de certification professionnelle.
               </p>
             </>
           ) : selected?.type === "TEXT" ? (
@@ -272,16 +304,29 @@ export default function Reader({
               <p className="learning-note">
                 {course.resources.hasNotebook
                   ? "Cette déclaration suit votre lecture ; les acquis seront évalués par le quiz et le TP."
-                  : "Cette déclaration suit votre lecture. Le quiz est formatif ; le dossier et la soutenance demandent un retour distinct du formateur."}
+                  : "Cette déclaration suit votre lecture ; les quiz et le travail prévu dans la fiche évaluent séparément vos acquis."}
               </p>
             </>
           ) : tab === "practice" ? (
             <Notebook
+              hasCsv={course.resources.hasCsv}
               key="practice"
               courseId={id}
               state={state}
               refresh={refresh}
               practice
+            />
+          ) : tab === "positioning" ? (
+            <Positioning courseId={id} state={state} refresh={refresh} />
+          ) : tab === "resources" ? (
+            <PrivateResources courseId={id} />
+          ) : tab === "tp" && course.assessment.mode === "WRITTEN" ? (
+            <WrittenAssessment
+              courseId={id}
+              state={state}
+              refresh={refresh}
+              instructions={tp?.content?.body || ""}
+              rubric={course.assessment.rubric}
             />
           ) : tab === "tp" ? (
             <>
@@ -289,13 +334,14 @@ export default function Reader({
                 <Markdown skipHtml>{tp?.content?.body || ""}</Markdown>
               </div>
               <Notebook
+                hasCsv={course.resources.hasCsv}
                 key="tp"
                 courseId={id}
                 state={state}
                 refresh={refresh}
               />
             </>
-          ) : tab === "quiz" && quiz ? (
+          ) : (tab === "quiz" || tab.startsWith("quiz-")) && quiz ? (
             <form
               onSubmit={async (e) => {
                 e.preventDefault();
@@ -311,8 +357,9 @@ export default function Reader({
             >
               <h2>{quiz.title}</h2>
               <p>
-                Dix questions, environ 20 minutes. Seuil de réussite :{" "}
-                {quiz.passingScore} %. Chaque tentative est conservée.
+                {quiz.questions.length} questions, environ {quiz.durationMin}{" "}
+                minutes. Seuil de réussite : {quiz.passingScore} %. Chaque
+                tentative est conservée.
               </p>
               {quiz.questions.map((q: any, i: number) => (
                 <fieldset className="quiz-question" key={q.id}>
@@ -346,11 +393,34 @@ export default function Reader({
           ) : tab === "resultats" ? (
             <>
               <h2>Vos résultats et retours</h2>
-              <p>
-                {course.resources.hasNotebook
-                  ? "Réussite du module : toutes les leçons déclarées lues, quiz à 70 % minimum et TP à 70/100 minimum après correction humaine."
-                  : "Suivi individuel : leçons déclarées lues et quiz formatif à 70 % minimum. Le dossier et la soutenance restent à évaluer séparément avec le formateur ; ce suivi ne vaut pas validation complète de la formation."}
+              <p>{state.completion?.rules}</p>
+              <p className="learning-notice">
+                {state.completion?.completed
+                  ? "Les critères de ce module sont atteints."
+                  : "Parcours en cours : consultez les critères et les retours ci-dessous."}
               </p>
+              <ul>
+                {state.completion?.quizResults.map((q: any) => (
+                  <li key={q.id}>
+                    {q.title} : meilleur résultat{" "}
+                    {q.bestScore === null ? "non réalisé" : q.bestScore + " %"}{" "}
+                    · seuil {q.passingScore} %
+                  </li>
+                ))}
+              </ul>
+              {course.assessment.mode !== "NONE" && (
+                <p>
+                  Travail évalué : seuil {course.assessment.passingScore}/100.
+                </p>
+              )}
+              <a
+                className="button button-secondary"
+                href={"/apprentissage/releve/" + id}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ouvrir mon relevé imprimable
+              </a>
               <h3>Quiz</h3>
               {state.attempts.length ? (
                 state.attempts.map((a: any) => (
@@ -358,7 +428,11 @@ export default function Reader({
                     <summary>
                       {a.score}% ·{" "}
                       {new Date(a.completedAt).toLocaleString("fr-FR")} ·{" "}
-                      {a.score >= 70 ? "Seuil atteint" : "À retravailler"}
+                      {a.score >=
+                      (quizzes.find((q: any) => q.id === a.quizId)
+                        ?.passingScore ?? 70)
+                        ? "Seuil atteint"
+                        : "À retravailler"}
                     </summary>
                     {a.feedback?.map((f: any, i: number) => (
                       <div key={i}>
@@ -397,7 +471,15 @@ export default function Reader({
                           const r = await api(
                             `/courses/${id}/submissions/${s.id}`,
                           );
-                          download("travail-remis.ipynb", r.notebook);
+                          download(
+                            r.notebook
+                              ? "travail-remis.ipynb"
+                              : "travail-remis.txt",
+                            r.notebook || r.writtenWork,
+                            r.notebook
+                              ? "application/json"
+                              : "text/plain;charset=utf-8",
+                          );
                         }, "Copie de la remise exportée.")
                       }
                     >
@@ -409,26 +491,27 @@ export default function Reader({
                 <p>
                   {course.resources.hasNotebook
                     ? "Aucun travail remis. Le notebook peut être sauvegardé avant sa remise."
-                    : "Les livrables de ce parcours sont à préparer dans votre carnet de travail et à présenter au formateur. Leur évaluation n’est pas enregistrée automatiquement par le quiz."}
+                    : "Les consignes du cours précisent le travail attendu. Si un dossier est prévu, remettez-le dans l’onglet « Travail à remettre » pour recevoir le retour du formateur."}
                 </p>
               )}
-              {state.submissions.some((s: any) => s.reviewedAt) && (
-                <button
-                  className="button button-secondary"
-                  onClick={() =>
-                    void action(
-                      async () =>
-                        download(
-                          "corrige.ipynb",
-                          await api(`/courses/${id}/resources/solution`),
-                        ),
-                      "Corrigé exporté.",
-                    )
-                  }
-                >
-                  Télécharger le corrigé commenté
-                </button>
-              )}
+              {course.resources.hasSolution &&
+                state.submissions.some((s: any) => s.reviewedAt) && (
+                  <button
+                    className="button button-secondary"
+                    onClick={() =>
+                      void action(
+                        async () =>
+                          download(
+                            "corrige.ipynb",
+                            await api(`/courses/${id}/resources/solution`),
+                          ),
+                        "Corrigé exporté.",
+                      )
+                    }
+                  >
+                    Télécharger le corrigé commenté
+                  </button>
+                )}
               <button
                 className="button button-secondary"
                 onClick={() =>

@@ -1,0 +1,32 @@
+GUIDE DE LA PLATEFORME — 13 septembre 2026
+Copie de travail : http://127.0.0.1:3300/apprentissage
+
+ADMINISTRATEUR
+1. Se connecter avec le compte administrateur de la copie locale. Les comptes de recette sont dans le fichier privé .pilot/accounts.json ; ne pas les diffuser ni les conserver actifs en production.
+2. Ouvrir Contenus pédagogiques. Les trois nouveaux parcours sont des brouillons privés : Data Analyst, Python analyse/ML, IA et automatisation. Ils restent modifiables.
+3. Choisir un cours ou créer un cours. Compléter la fiche, ajouter les modules et les activités. Pour un quiz, une seule réponse correcte par question et une explication sont requises. Chaque quiz possède son seuil.
+4. Enregistrer avant de changer de cours. Une modification concurrente est refusée : recharger la version serveur avant de reprendre.
+5. Dans Fichiers, ajouter les notebooks et CSV du laboratoire, puis les supports. PDF, CSV, TXT, IPYNB et JSON : 1 Mo maximum par pièce, 30 pièces par cours. Les corrigés doivent rester « Après correction » ou « Formateurs ».
+6. Dans Validation, confier le contenu à un formateur éditeur, demander une relecture, puis enregistrer la décision réelle avec une note. La publication exige une formation de rattachement et une relecture approuvée. Aucun bouton ne remplace cette relecture.
+7. Dans Comptes et attributions, créer ou inviter un utilisateur, choisir son rôle et lui attribuer un cours avec un formateur et un groupe. La création d'un compte ne donne pas automatiquement accès aux cours.
+8. Un lien personnel à usage unique permet de définir ou récupérer le mot de passe. Il dure une heure et doit être transmis après vérification d'identité par un canal sûr. Aucun email automatique n'est actuellement envoyé.
+9. Dans Groupes, gérer la fin d'accès ou la suspension. Les travaux restent conservés ; la réactivation rétablit l'accès à la progression existante.
+10. Une version publiée ou déjà attribuée se duplique avant changement pédagogique. Les cohortes antérieures conservent leur version. Les attributions et publications restent des décisions distinctes.
+
+FORMATEUR
+Les groupes et dossiers visibles sont ceux qui lui sont attribués. Être responsable d'un groupe ne donne pas automatiquement le droit de modifier le cours ; l'administrateur doit aussi l'ajouter aux éditeurs.
+Consulter positionnement et résultats, ouvrir une remise, lire le notebook ou le dossier écrit, enregistrer note et feedback selon la grille. La plateforme conserve chaque remise et permet un nouveau retour. Les quiz donnent un feedback automatique ; les projets demandent une évaluation humaine.
+L'accès au corrigé est ouvert à l'apprenant après un travail relu. Le relevé nominatif imprimable reprend les critères réellement enregistrés.
+
+APPRENANT
+Ouvrir un cours attribué, compléter Mon positionnement, lire les leçons et réaliser les exercices. Les lectures sont déclaratives. Chaque quiz conserve les tentatives ; la réussite utilise le meilleur score pour chaque quiz.
+Atelier guidé : essais temporaires, à exporter pour les conserver.
+Travail notebook : sauvegarde serveur avec révision et export .ipynb ; la remise crée une version indépendante du brouillon.
+Dossier écrit : le texte est enregistré lorsqu'il est remis. Un avertissement précède l'abandon d'une saisie ; ne pas annoncer une sauvegarde automatique de ce texte.
+Le laboratoire s'exécute dans le navigateur, avec une limite de durée et un bouton d'arrêt. Il ne peut pas exécuter Power BI ou Excel, ni installer arbitrairement des bibliothèques natives. Les trois jeux et cinq notebooks livrés ont été testés avec le moteur annoncé.
+Pour terminer : toutes les leçons déclarées lues, chaque quiz au seuil propre et au moins un travail corrigé au seuil du cours. Le relevé est pédagogique, sans certification professionnelle.
+
+RELECTURE DES NOUVEAUX PARCOURS
+22 modules, 44 questions et trois projets. Data Analyst 12 h ; Python 12 h ; IA 9 h 30. Estimations incluant exercices et projet, à étalonner en cohorte ; elles remplacent les propositions de cadrage plus longues pour cette version d'initiation.
+Nommer un responsable, contrôler niveau et prérequis, refaire les exercices, vérifier corrigés, matériel et accessibilité, puis dater la validation. L'exécution des fichiers Power BI/Excel doit encore être vérifiée sur les logiciels de bureau retenus. Les notebooks SQL/Python et le workflow simulé sont exécutés dans le navigateur.
+Les textes et données sont originaux et synthétiques. Les sources privées contenant les réponses ne sont pas versionnées dans le dépôt public ; elles sont incluses dans les sauvegardes privées.

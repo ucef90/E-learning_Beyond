@@ -31,7 +31,11 @@ export class TrainingsService {
       },
       include: {
         courses: {
-          where: { isPublished: true },
+          where: {
+            isPublished: true,
+            editorialStatus: "APPROVED",
+            reviewedAt: { not: null },
+          },
           select: {
             id: true,
             title: true,
@@ -90,7 +94,11 @@ export class TrainingsService {
       where: { slug, isPublished: true },
       include: {
         courses: {
-          where: { isPublished: true },
+          where: {
+            isPublished: true,
+            editorialStatus: "APPROVED",
+            reviewedAt: { not: null },
+          },
           select: {
             id: true,
             title: true,

@@ -22,6 +22,7 @@ import { api, canLeaveNotebook, download } from "@/lib/learning-api";
 import Reader from "./learning-reader";
 import Groups from "./learning-groups";
 import Admin from "./learning-admin";
+import CourseStudio from "./course-studio";
 import QualityAdmin from "./quality-admin";
 
 const date = (value: string) =>
@@ -149,13 +150,19 @@ export default function LearningDashboard() {
     resources: "Ressources",
     groups: "Mes groupes",
     admin: "Administration",
+    studio: "Contenus pédagogiques",
     quality: "Suivi qualité",
     profile: "Mon compte",
   };
   const nav = [
     ["overview", LayoutDashboard],
     ["courses", BookOpen],
-    ...(staff ? [["groups", Users]] : []),
+    ...(staff
+      ? [
+          ["groups", Users],
+          ["studio", BookOpen],
+        ]
+      : []),
     ["work", ClipboardCheck],
     ["resources", FolderOpen],
     ...(admin
@@ -380,13 +387,20 @@ export default function LearningDashboard() {
             />
           ) : view === "quality" && admin ? (
             <QualityAdmin />
-          ) : view === "admin" ? (
-            <Admin courses={courses} refresh={refresh} />
+          ) : view === "studio" && staff ? (
+            <CourseStudio isAdmin={admin} onChanged={refresh} />
+          ) : view === "admin" && admin ? (
+            <Admin
+              courses={courses}
+              refresh={refresh}
+              onOpenStudio={() => navigate("studio")}
+            />
           ) : view === "groups" ? (
             <Groups
               initialId={groupId}
               summaries={supervised}
               onChange={refresh}
+              isAdmin={admin}
             />
           ) : (
             <>

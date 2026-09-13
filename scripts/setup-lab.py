@@ -30,7 +30,7 @@ def main():
         if name in selected:return
         pkg=lock['packages'][name];selected[name]=pkg
         for dep in pkg.get('depends',[]):visit(dep)
-    for name in ['pandas','matplotlib']:visit(name)
+    for name in ['pandas','matplotlib','sqlite3']:visit(name)
     def install(item):
         name,pkg=item;filename=pkg['file_name']
         if not re.fullmatch(r'[A-Za-z0-9_.+-]+',filename):raise ValueError('Unsafe wheel name')

@@ -388,6 +388,12 @@ model Course {
   learning           LearningEnrollment[]
   notebookDrafts     NotebookDraft[]
   submissions        WorkSubmission[]
+  editorialStatus    String          @default("DRAFT")
+  editorIds          String[]        @default([])
+  reviewedBy         String?
+  reviewedAt         DateTime?
+  reviewNote         String          @default("")
+  assets             CourseAsset[]
 }
 
 model CourseModule {
@@ -539,6 +545,11 @@ model LearningEnrollment {
   trainerId String
   groupName String
   createdAt DateTime @default(now())
+  expiresAt DateTime?
+  revokedAt DateTime?
+  accessReason String @default("")
+  positioning Json?
+  positioningAt DateTime?
   course Course @relation(fields: [courseId], references: [id], onDelete: Restrict)
   user User @relation("LearnerAccess", fields: [userId], references: [id], onDelete: Restrict)
   trainer User @relation("TrainerAccess", fields: [trainerId], references: [id], onDelete: Restrict)
@@ -560,7 +571,8 @@ model WorkSubmission {
   id String @id @default(cuid())
   courseId String
   userId String
-  notebook Json
+  notebook Json?
+  writtenWork String?
   comment String @default("")
   feedback String?
   grade Int?
@@ -570,6 +582,20 @@ model WorkSubmission {
   user User @relation(fields: [userId], references: [id], onDelete: Restrict)
   course Course @relation(fields: [courseId], references: [id], onDelete: Restrict)
   @@index([courseId, userId])
+}
+model CourseAsset {
+  id String @id @default(cuid())
+  courseId String
+  title String
+  filename String
+  mimeType String
+  visibility String @default("LEARNER")
+  content Bytes
+  size Int
+  sha256 String
+  createdAt DateTime @default(now())
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  @@index([courseId])
 }
 model LearningEvent {
   id String @id @default(cuid())

@@ -1,3 +1,5 @@
+import { PrismaService } from "./common/prisma.service";
+import { productionChecks } from "./common/production-checks";
 import { ValidationPipe } from "@nestjs/common";
 import { NestFactory } from "@nestjs/core";
 import { json } from "express";
@@ -12,6 +14,7 @@ async function bootstrap() {
     next();
   });
 
+  app.getHttpAdapter().getInstance().set("trust proxy", "loopback");
   app.setGlobalPrefix("api/v1");
   app.enableCors({
     origin: process.env.APP_ORIGIN || "http://127.0.0.1:3200",
@@ -31,6 +34,7 @@ async function bootstrap() {
     process.env.COOKIE_SECURE !== "true"
   )
     throw new Error("COOKIE_SECURE=true requis en production HTTPS.");
+  await productionChecks(app.get(PrismaService));
   await app.listen(port, process.env.BIND_HOST || "127.0.0.1");
 }
 

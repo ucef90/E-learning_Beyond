@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { pageMetadata, siteOrigin } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -16,6 +18,27 @@ import { DetailedProgrammeContent } from "@/components/detailed-programme";
 import { TrainingAccess } from "@/components/training-access";
 import { ProgrammeContact } from "@/components/programme-contact";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const t = await getTrainingBySlug(slug);
+  if (!t)
+    return {
+      title: "Formation introuvable",
+      robots: { index: false, follow: false },
+    };
+  return pageMetadata(
+    t.title + " | Beyond Expertise",
+    (t.source?.syllabus?.overview || t.summary)
+      .replace(/\s+/g, " ")
+      .slice(0, 165),
+    "/formations/" + t.slug,
+  );
+}
+
 export default async function TrainingDetailPage({
   params,
 }: {
@@ -27,6 +50,27 @@ export default async function TrainingDetailPage({
   const presentation = trainingPresentation(t);
   const regulatory = t.source?.kind === "authored-regulatory";
   const programme = t.source?.syllabus;
+  const origin = siteOrigin();
+  const breadcrumb = origin
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Catalogue",
+            item: origin + "/formations",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t.title,
+            item: origin + "/formations/" + t.slug,
+          },
+        ],
+      }
+    : null;
   const quoteHref = {
     pathname: "/devis",
     query: { formation: t.title },
@@ -37,6 +81,14 @@ export default async function TrainingDetailPage({
       id="contenu"
       className="section page-main-compact training-detail-page"
     >
+      {breadcrumb && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(breadcrumb).replaceAll("<", "\\u003c"),
+          }}
+        />
+      )}
       <div className="page-shell">
         <div className="breadcrumb-row">
           <Link href="/formations">Catalogue</Link>

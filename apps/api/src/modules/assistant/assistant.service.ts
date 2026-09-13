@@ -60,6 +60,8 @@ export class AssistantService {
     message: string,
     context: string,
   ): Promise<Interpretation> {
+    if (process.env.VISITOR_AI_ENABLED === "false")
+      throw new Error("Local model disabled");
     const endpoint = new URL(
       process.env.VISITOR_AI_URL || "http://127.0.0.1:11434",
     );

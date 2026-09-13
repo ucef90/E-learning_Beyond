@@ -43,7 +43,7 @@ const nextConfig: NextConfig = {
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "Referrer-Policy", value: "same-origin" },
           { key: "X-Frame-Options", value: "SAMEORIGIN" },
-          ...(process.env.PREPRODUCTION === "true"
+          ...(process.env.PREPRODUCTION !== "false" || !process.env.SITE_URL
             ? [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" }]
             : []),
         ],

@@ -32,7 +32,14 @@
     "catalog:sessions:test": "node scripts/test-monthly-sessions.mts",
     "catalog:programmes:deepen": "node scripts/deepen-programmes.cjs",
     "assistant:knowledge": "node scripts/build-visitor-knowledge.cjs",
-    "assistant:test": "node scripts/test-visitor-assistant.cjs"
+    "assistant:test": "node scripts/test-visitor-assistant.cjs",
+    "platform:test": "node scripts/test-platform.cjs",
+    "platform:test:ui": "node scripts/test-platform-ui.cjs",
+    "platform:test:notebooks": "node scripts/test-priority-notebooks.cjs",
+    "platform:test:backup": "node scripts/test-backup-restore.cjs",
+    "platform:test:load": "node scripts/test-local-concurrency.cjs",
+    "content:priority:import": "node scripts/import-priority-courses.cjs",
+    "deploy:preflight": "node deploy/ovh/preflight.cjs"
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",

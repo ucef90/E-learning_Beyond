@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-13",
+  "environment": "Local isolé, ports 3300/4300/3301, base beyond_platform_work",
+  "baseCommit": "c8f1882",
+  "branch": "codex/plateforme-complete",
+  "build": {
+    "api": "PASS",
+    "web": "PASS",
+    "next": "15.5.25",
+    "routes": 40
+  },
+  "checks": {
+    "apiScenarios": 14,
+    "uiChecks": 7,
+    "newDraftCourses": 3,
+    "modules": 22,
+    "quizQuestions": 44,
+    "notebooksExecuted": 5,
+    "cataloguePages": 83,
+    "catalogueClicks": 40,
+    "uniqueTitles": 83,
+    "unknownTraining": "404",
+    "preproduction": "noindex, robots disallow all, empty sitemap",
+    "backupRestore": {
+      "tablesCompared": 13,
+      "milliseconds": 7894,
+      "dumpBytes": 393916
+    },
+    "localConcurrency": [
+      {
+        "concurrent": 20,
+        "requests": 60,
+        "errors": 0,
+        "p50Ms": 311,
+        "p95Ms": 559,
+        "maxMs": 895,
+        "durationMs": 1088,
+        "requestsPerSecond": 55
+      },
+      {
+        "concurrent": 50,
+        "requests": 150,
+        "errors": 0,
+        "p50Ms": 555,
+        "p95Ms": 1043,
+        "maxMs": 1077,
+        "durationMs": 1879,
+        "requestsPerSecond": 80
+      },
+      {
+        "concurrent": 100,
+        "requests": 300,
+        "errors": 0,
+        "p50Ms": 902,
+        "p95Ms": 1798,
+        "maxMs": 1899,
+        "durationMs": 3073,
+        "requestsPerSecond": 98
+      }
+    ],
+    "productionGuards": [
+      "Démarrage production refusé avec les identités synthétiques de cette base",
+      "Préflight refuse les origines locales et la configuration HTTPS incomplète"
+    ],
+    "temporaryFixturesRemoved": 4,
+    "previousCoursesPreserved": 7
+  },
+  "limits": [
+    "Aucune mesure ni installation sur le VPS OVH",
+    "Relecture pédagogique humaine requise",
+    "TP Excel et Power BI à vérifier sur les postes/licences retenus",
+    "Courriels automatiques non raccordés",
+    "DNS, TLS, sauvegarde externe et restauration distante à tester",
+    "Qualiopi en cours et décisions légales/qualité non validées"
+  ],
+  "privateEvidenceDirectory": "work/validation"
+}

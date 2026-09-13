@@ -7,8 +7,8 @@ export function TrainingAccess({ title }: { title: string }) {
       <p>
         Le centre doit confirmer les prérequis, le programme final, les dates,
         les horaires et le tarif avant inscription. Le délai d’accès dépend des
-        disponibilités et du besoin ; aucune session commerciale n’est ouverte
-        dans cette copie locale.
+        disponibilités et du besoin. L’ouverture d’une session et la
+        disponibilité d’un cours e-learning sont confirmées avant inscription.
       </p>
       <p>
         Les ateliers, méthodes et évaluations du programme sont proposés pour
@@ -16,7 +16,7 @@ export function TrainingAccess({ title }: { title: string }) {
         indiqués dans la section « Contenu e-learning ».
       </p>
       <p>
-        Le parcours local ne délivre pas de diplôme ni de certification
+        Le parcours ne délivre pas de diplôme ni de certification
         professionnelle. Aucune éligibilité CPF ou prise en charge n’est
         garantie. Toute préparation à un examen externe devra faire l’objet
         d’informations et d’habilitations vérifiées.
