@@ -1,4 +1,5 @@
 import Link from "next/link";
+export const dynamic = "force-dynamic";
 import { RegulatoryHighlight } from "@/components/regulatory-highlight";
 import { TrustStrip, RatingStars } from "@/components/trust-elements";
 import { ClientReferences } from "@/components/client-references";

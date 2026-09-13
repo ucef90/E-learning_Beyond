@@ -1,4 +1,5 @@
 import { pageMetadata } from "@/lib/seo";
+export const dynamic = "force-dynamic";
 export const metadata = pageMetadata(
   "Catalogue des formations | Beyond Expertise",
   "Consultez les programmes de formation en data, BI, IA et gestion de projet. Objectifs, prérequis, modalités et demande de devis.",
