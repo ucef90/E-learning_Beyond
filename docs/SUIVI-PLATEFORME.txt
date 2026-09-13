@@ -32,7 +32,7 @@ Responsable pédagogique, relecture des trois parcours, essais Power BI/Excel et
 Validation des informations légales, contractuelles et qualité. Qualiopi reste en cours, non acquise.
 Vidéos : lien HTTPS autorisé et transcription ajoutables ; fournisseur, médias, sous-titres et recette sur les vidéos réelles restent à préparer lorsqu'ils seront disponibles.
 Référencement : domaine définitif, validation d'indexation, Search Console et mesure des demandes réelles. Aucune garantie de visibilité.
-Aucune souscription, aucun push ni déploiement distant effectué.
+Version poussée sur GitHub dans codex/plateforme-complete ; demande de fusion no 1 ouverte vers main. Aucune souscription. Le VPS vps-60dc9315.vps.ovh.net correspond au site public (164.132.41.177). L'accès SSH ubuntu est rétabli ; Ubuntu 26.04, Docker et Caddy sont confirmés. Le site historique a redémarré. Une sauvegarde complète a été restaurée dans une base isolée ; la nouvelle image Docker est en préparation avant bascule publique.
 
 DÉCISIONS QUALITÉ EN ATTENTE
 - Identité légale, adresse, NDA et publication

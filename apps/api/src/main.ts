@@ -14,7 +14,11 @@ async function bootstrap() {
     next();
   });
 
-  app.getHttpAdapter().getInstance().set("trust proxy", "loopback");
+  const trustedProxies = (process.env.TRUST_PROXY || "loopback")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
+  app.getHttpAdapter().getInstance().set("trust proxy", trustedProxies);
   app.setGlobalPrefix("api/v1");
   app.enableCors({
     origin: process.env.APP_ORIGIN || "http://127.0.0.1:3200",

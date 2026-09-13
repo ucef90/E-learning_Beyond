@@ -2,7 +2,7 @@
 
 Version de travail du 13 septembre 2026 : 83 fiches publiques, un studio de cours avec modules, leçons, quiz et ressources privées, espaces administrateur/formateur/apprenant et trois nouveaux parcours rédigés en brouillon. Les contenus doivent être relus par un responsable humain avant publication.
 
-La copie actuelle vient de c8f1882 du dépôt local E-learning_Beyond ; branche codex/plateforme-complete. L'historique indique le dépôt ucef90/E-learning_Beyond, mais le remote de cette copie pointe vers le dépôt local d'origine. Aucune correspondance avec un serveur public n'a été vérifiée et aucun déploiement n'a été effectué.
+La copie actuelle vient de c8f1882 du dépôt local E-learning_Beyond ; branche codex/plateforme-complete, poussée sur https://github.com/ucef90/E-learning_Beyond (demande de fusion no 1). Le remote github cible ce dépôt ; origin conserve la copie locale d'origine. Le site beyond-expertise.com et le VPS vps-60dc9315.vps.ovh.net résolvent vers 164.132.41.177. L'accès SSH est rétabli ; la version Docker est en préparation sur une base restaurée isolée. Consulter docs/EXPLOITATION-OVH.txt pour l'état réel du déploiement.
 
 ## Ouvrir la copie de travail
 
@@ -34,6 +34,6 @@ Les 83 programmes publics restent des programmes commerciaux proposés à la val
 
 ## Exploitation et décisions restantes
 
-Consulter [le guide](docs/GUIDE-PLATEFORME.txt), [l'exploitation](docs/EXPLOITATION-OVH.txt) et [l'étude et le budget](docs/etude-marche-budget.html). Les fichiers sous deploy/ovh/ sont des modèles à adapter, pas une installation exécutée. L'accès SSH, les hôtes DNS, les caractéristiques du VPS, la destination de sauvegarde et le service de courriel restent à fournir/configurer. Aucun abonnement souscrit.
+Consulter [le guide](docs/GUIDE-PLATEFORME.txt), [l'exploitation](docs/EXPLOITATION-OVH.txt) et [l'étude et le budget](docs/etude-marche-budget.html). Le déploiement OVH utilise Docker et le proxy Caddy existant ; les anciens modèles systemd/Nginx restent une alternative non installée. La sauvegarde hors serveur et le service de courriel restent à configurer. Aucun abonnement souscrit.
 
 Qualiopi reste en cours, non acquise. Les informations légales, conditions commerciales, conservation et pièces qualité nécessitant validation humaine restent suivies dans docs/qualite/DECISIONS-CENTRE.json. La publication commerciale et le basculement du site public exigent une validation portant sur la version testée.

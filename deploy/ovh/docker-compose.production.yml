@@ -1,0 +1,70 @@
+name: beyond-platform
+services:
+  api:
+    image: ${BEYOND_IMAGE:?Image versionnee requise}
+    init: true
+    restart: unless-stopped
+    working_dir: /opt/beyond
+    command: [node, apps/api/dist/main.js]
+    env_file: ["${API_ENV_FILE:?Configuration API privee requise}"]
+    read_only: true
+    tmpfs: ["/tmp:size=64m"]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    networks:
+      platform:
+        aliases: [beyond-platform-api]
+      database: {}
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:4300/api/v1/trainings').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+  web:
+    image: ${BEYOND_IMAGE:?Image versionnee requise}
+    init: true
+    restart: unless-stopped
+    working_dir: /opt/beyond/apps/web
+    command: [node, node_modules/next/dist/bin/next, start, --hostname, 0.0.0.0, --port, "3300"]
+    env_file: ["${WEB_ENV_FILE:?Configuration web requise}"]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    networks:
+      platform: {}
+      web:
+        aliases: [beyond-platform-web]
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3300/connexion').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+  lab:
+    image: ${BEYOND_IMAGE:?Image versionnee requise}
+    init: true
+    restart: unless-stopped
+    working_dir: /opt/beyond
+    command: [node, scripts/lab-server.mjs]
+    env_file: ["${LAB_ENV_FILE:?Configuration laboratoire requise}"]
+    read_only: true
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    networks:
+      web:
+        aliases: [beyond-platform-lab]
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3301/lab.html').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+networks:
+  platform: {}
+  database:
+    external: true
+    name: beyond-expertise_default
+  web:
+    external: true
+    name: web
