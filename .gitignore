@@ -28,3 +28,7 @@ docs/pilot/consigne-jalon-1.md
 # Sources pédagogiques privées : questions, corrigés et jeux de travail.
 content/parcours/*
 !content/parcours/README.txt
+
+# Python export cache
+__pycache__/
+*.pyc

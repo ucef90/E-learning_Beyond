@@ -730,3 +730,14 @@
     padding-top: calc(var(--home-header-height, 94px) + 40px);
   }
 }
+
+/* The practical pathways use the established editorial spacing and brand palette. */
+.professional-highlight { background: #f6f7fa; }
+.professional-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin-top: 2rem; }
+.professional-grid article { padding: 1.8rem 0; border-top: 2px solid #ee9a2c; }
+.professional-grid h3 { color: #1a2644; font-size: clamp(1.5rem, 3vw, 2rem); margin: .6rem 0; }
+.professional-grid p { color: #526071; line-height: 1.7; max-width: 58ch; }
+.professional-grid a { display: inline-flex; align-items: center; gap: .7rem; font-weight: 700; margin-top: 1rem; color: #1a2644; text-decoration: underline; text-underline-offset: .3em; }
+.professional-note { color: #526071; font-size: .875rem; line-height: 1.65; margin-top: 1rem; }
+.professional-catalog-links { margin: 1.5rem 0; flex-wrap: wrap; }
+@media (max-width: 700px) { .professional-grid { grid-template-columns: 1fr; gap: .5rem; } }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ProfessionalHighlight } from "@/components/professional-highlight";
 import { ExecutiveHighlight } from "@/components/executive-home";
 export const dynamic = "force-dynamic";
 import { RegulatoryHighlight } from "@/components/regulatory-highlight";
@@ -205,6 +206,7 @@ export default async function HomePage() {
         </div>
       </section>
       <TrustStrip />
+      <ProfessionalHighlight />
       <ExecutiveHighlight />
 
       {/* ── Featured Trainings ───────────────────────────── */}

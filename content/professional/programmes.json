@@ -1,0 +1,1805 @@
+{
+  "version": 1,
+  "authoredAt": "2026-09-13",
+  "programmes": [
+    {
+      "training": {
+        "slug": "pmp-preparation-projets-valeur-2026",
+        "title": "Préparation PMP : piloter les projets et créer de la valeur",
+        "summary": "Un parcours de 35 heures pour structurer vos décisions de projet, pratiquer sur un cas complet et préparer votre démarche vers le PMP.",
+        "description": "Un parcours de 35 heures pour structurer vos décisions de projet, pratiquer sur un cas complet et préparer votre démarche vers le PMP. Supports Beyond rédigés et intégrés dans l’espace pédagogique privé. Relecture et validation par le formateur avant attribution aux apprenants. Aucun contenu ni diplôme tiers n’est inclus par simple équivalence de thème. Préparation indépendante : examen et frais PMI séparés. Les 35 heures annoncées sont un objectif pédagogique à tracer, sans garantie d’admissibilité ; vérifier les règles selon la date et le format.",
+        "objectives": [
+          "Relier gouvernance, valeur et décision dans un projet.",
+          "Choisir et adapter une approche prédictive, agile ou hybride.",
+          "Construire un dossier de pilotage : périmètre, délais, coûts, qualité et risques.",
+          "Argumenter des réponses à des situations de management.",
+          "Organiser une révision ciblée et vérifier les conditions officielles du PMP."
+        ],
+        "audience": "Chefs de projet, responsables de programme, PMO et professionnels préparant une démarche PMP.",
+        "prerequisites": "Expérience de projet et maîtrise des notions de planification. Admissibilité à l’examen à vérifier personnellement auprès de PMI ; l’inscription au parcours ne vaut pas admission.",
+        "durationDays": 5,
+        "level": "ADVANCED",
+        "format": "HYBRID",
+        "priceFromCents": null,
+        "isPublished": true,
+        "program": {
+          "kind": "authored-professional",
+          "observedAt": "2026-09-13",
+          "programStatus": "DRAFT_FOR_TRAINER_REVIEW",
+          "syllabus": {
+            "slug": "pmp-preparation-projets-valeur-2026",
+            "version": 1,
+            "status": "DRAFT_FOR_TRAINER_REVIEW",
+            "authoredAt": "2026-09-13",
+            "totalHours": 35,
+            "overview": "Un parcours de 35 heures pour structurer vos décisions de projet, pratiquer sur un cas complet et préparer votre démarche vers le PMP.",
+            "audience": "Chefs de projet, responsables de programme, PMO et professionnels préparant une démarche PMP.",
+            "prerequisites": "Expérience de projet et maîtrise des notions de planification. Admissibilité à l’examen à vérifier personnellement auprès de PMI ; l’inscription au parcours ne vaut pas admission.",
+            "caseStudy": "Huit sites de pompage solaire : de la justification à la réception, avec un budget pédagogique de 120 000 € et des décisions à argumenter.",
+            "preparation": "Positionnement et vérification du matériel avant inscription. Lire le programme, préparer son objectif et vérifier les modalités avec le centre.",
+            "methods": "Leçons structurées, exemples résolus, vingt ateliers, quarante questions originales et projet accompagné. Retours et soutenance avec un formateur selon le calendrier convenu.",
+            "scheduleNote": "5 journées équivalentes de 7 heures, à répartir selon la cohorte. Durées incluant lecture, pratique, retours et évaluation ; rythme à confirmer au positionnement.",
+            "materialsStatus": "Supports Beyond rédigés et intégrés dans l’espace pédagogique privé. Relecture et validation par le formateur avant attribution aux apprenants. Aucun contenu ni diplôme tiers n’est inclus par simple équivalence de thème. Préparation indépendante : examen et frais PMI séparés. Les 35 heures annoncées sont un objectif pédagogique à tracer, sans garantie d’admissibilité ; vérifier les règles selon la date et le format.",
+            "modules": [
+              {
+                "day": 1,
+                "title": "Préparer le PMP et raisonner en situation",
+                "durationMinutes": 105,
+                "topics": [
+                  "Référentiel PMP 2026",
+                  "Diagnostic des acquis",
+                  "Journal de décisions"
+                ],
+                "workshop": "Créez un journal avec quatre colonnes : situation, hypothèses, première action, résultat attendu. Analysez trois projets que vous connaissez en anonymisant leurs données. Distinguez ce qui était décidé, supposé et vérifié. Réservez des créneaux de révision par domaine ; notez les erreurs de raisonnement plutôt que seulement les mauvaises réponses.",
+                "technicalDetails": [
+                  "Référentiel PMP 2026",
+                  "Diagnostic des acquis",
+                  "Journal de décisions"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 1,
+                "title": "Définir la valeur et les bénéfices attendus",
+                "durationMinutes": 105,
+                "topics": [
+                  "Business case",
+                  "Indicateurs de résultat",
+                  "Hypothèses de valeur"
+                ],
+                "workshop": "Pour le cas fictif de huit sites équipés de pompes solaires, proposez trois options, une hypothèse de bénéfice et deux indicateurs. Calculez l’effet d’une baisse de 20 % des économies et d’une hausse de maintenance. Présentez au sponsor la décision qu’il devra réexaminer si l’hypothèse ne se confirme pas.",
+                "technicalDetails": [
+                  "Business case",
+                  "Indicateurs de résultat",
+                  "Hypothèses de valeur"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 1,
+                "title": "Clarifier la gouvernance et les responsabilités",
+                "durationMinutes": 105,
+                "topics": [
+                  "Charte de projet",
+                  "Mandat et limites",
+                  "Responsabilités de décision"
+                ],
+                "workshop": "Rédigez une charte d’une page pour les huit sites : problème, objectifs, exclusions, budget indicatif, risques, sponsor et tolérances. Ajoutez cinq décisions avec responsable, consultés et preuve de validation. Testez le dispositif sur une urgence technique et sur une modification de périmètre.",
+                "technicalDetails": [
+                  "Charte de projet",
+                  "Mandat et limites",
+                  "Responsabilités de décision"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 1,
+                "title": "Choisir une approche prédictive, agile ou hybride",
+                "durationMinutes": 105,
+                "topics": [
+                  "Incertitude et cadence",
+                  "Cycle de vie",
+                  "Adaptation du dispositif"
+                ],
+                "workshop": "Classez dix éléments du cas selon stabilité du besoin, coût du changement et délai de retour utilisateur. Proposez une approche pour chaque ensemble. Décrivez une cadence de revue et les preuves nécessaires avant mise en service. Justifiez un choix différent pour le chantier et pour l’application.",
+                "technicalDetails": [
+                  "Incertitude et cadence",
+                  "Cycle de vie",
+                  "Adaptation du dispositif"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 2,
+                "title": "Construire une relation avec les parties prenantes",
+                "durationMinutes": 105,
+                "topics": [
+                  "Cartographie et attentes",
+                  "Engagement",
+                  "Boucles de retour"
+                ],
+                "workshop": "Dressez la cartographie de huit groupes fictifs. Pour trois d’entre eux, rédigez une question ouverte, une hypothèse d’attente et une action de retour. Construisez une mini-revue d’engagement avec responsable, échéance et résultat observable.",
+                "technicalDetails": [
+                  "Cartographie et attentes",
+                  "Engagement",
+                  "Boucles de retour"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 2,
+                "title": "Définir le besoin, le périmètre et les critères d’acceptation",
+                "durationMinutes": 105,
+                "topics": [
+                  "Exigences vérifiables",
+                  "Décomposition",
+                  "Traçabilité du besoin"
+                ],
+                "workshop": "Écrivez six exigences du cas, dont une exigence non fonctionnelle et une exclusion. Construisez une petite décomposition des livrables et reliez chaque exigence à un test. Faites relire vos critères à une personne qui ne connaît pas le projet.",
+                "technicalDetails": [
+                  "Exigences vérifiables",
+                  "Décomposition",
+                  "Traçabilité du besoin"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 2,
+                "title": "Organiser la livraison et les dépendances",
+                "durationMinutes": 105,
+                "topics": [
+                  "Réseau d’activités",
+                  "Chemin critique",
+                  "Marge et contraintes"
+                ],
+                "workshop": "Dessinez ce réseau puis ajoutez une livraison de matériel de cinq jours nécessaire à D, démarrant après A. Recalculez la fin et la marge de B. Proposez une option d’accélération et indiquez son coût ou son risque de reprise.",
+                "technicalDetails": [
+                  "Réseau d’activités",
+                  "Chemin critique",
+                  "Marge et contraintes"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 2,
+                "title": "Estimer les coûts et piloter une référence",
+                "durationMinutes": 105,
+                "topics": [
+                  "Estimation et incertitude",
+                  "Réserves",
+                  "Valeur acquise"
+                ],
+                "workshop": "Calculez CPI et SPI pour trois situations, dont une situation avec EV nul. Présentez une analyse des causes possibles et les informations à demander avant une prévision. Avec BAC = 120 000 €, comparez une estimation à terminaison BAC/CPI et AC+(BAC−EV), en nommant leur hypothèse respective.",
+                "technicalDetails": [
+                  "Estimation et incertitude",
+                  "Réserves",
+                  "Valeur acquise"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 3,
+                "title": "Intégrer la qualité au travail quotidien",
+                "durationMinutes": 105,
+                "topics": [
+                  "Prévention et contrôle",
+                  "Critères qualité",
+                  "Analyse des causes"
+                ],
+                "workshop": "Construisez un plan qualité de cinq contrôles : objet, exigence, moment, responsable, preuve et réaction en cas d’écart. Analysez un défaut fictif avec trois causes possibles et proposez une vérification permettant de les départager.",
+                "technicalDetails": [
+                  "Prévention et contrôle",
+                  "Critères qualité",
+                  "Analyse des causes"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 3,
+                "title": "Analyser les risques et préparer les réponses",
+                "durationMinutes": 105,
+                "topics": [
+                  "Cause, événement, effet",
+                  "Probabilité et impact",
+                  "Réponse et risque résiduel"
+                ],
+                "workshop": "Rédigez huit risques pour les sites, dont une opportunité. Pour les trois prioritaires, proposez propriétaire, signal d’alerte, réponse préventive et plan de repli. Comparez deux réponses sans vous limiter au score de la matrice.",
+                "technicalDetails": [
+                  "Cause, événement, effet",
+                  "Probabilité et impact",
+                  "Réponse et risque résiduel"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 3,
+                "title": "Dimensionner les ressources et développer l’équipe",
+                "durationMinutes": 105,
+                "topics": [
+                  "Capacité et disponibilité",
+                  "Compétences",
+                  "Apprentissage collectif"
+                ],
+                "workshop": "Construisez un plan de capacité sur quatre semaines pour cinq rôles. Ajoutez une absence et une tâche urgente. Identifiez le goulot d’étranglement et comparez réordonnancement, tutorat et renfort. Préparez une règle de disponibilité vérifiable.",
+                "technicalDetails": [
+                  "Capacité et disponibilité",
+                  "Compétences",
+                  "Apprentissage collectif"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 3,
+                "title": "Faciliter les désaccords et décider ensemble",
+                "durationMinutes": 105,
+                "topics": [
+                  "Écoute et reformulation",
+                  "Conflit de tâche",
+                  "Décision et suivi"
+                ],
+                "workshop": "Jouez une réunion de vingt minutes avec trois rôles. Préparez deux options et un critère partagé. Un observateur relève les reformulations, hypothèses et décisions. Rédigez ensuite un compte rendu de dix lignes centré sur les actions.",
+                "technicalDetails": [
+                  "Écoute et reformulation",
+                  "Conflit de tâche",
+                  "Décision et suivi"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 4,
+                "title": "Communiquer une information qui permet d’agir",
+                "durationMinutes": 105,
+                "topics": [
+                  "Besoin d’information",
+                  "Canal et fréquence",
+                  "Compte rendu décisionnel"
+                ],
+                "workshop": "Produisez trois formats à partir de la même situation : une note de six lignes pour le sponsor, un tableau de travail pour l’équipe et une information pour les utilisateurs. Vérifiez qu’aucune information personnelle inutile ne circule dans le message collectif.",
+                "technicalDetails": [
+                  "Besoin d’information",
+                  "Canal et fréquence",
+                  "Compte rendu décisionnel"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 4,
+                "title": "Préparer les achats et la relation fournisseur",
+                "durationMinutes": 105,
+                "topics": [
+                  "Besoin d’achat",
+                  "Répartition des risques",
+                  "Suivi des engagements"
+                ],
+                "workshop": "Construisez une grille de sélection avec cinq critères pondérés. Comparez trois fournisseurs fictifs et testez un changement de pondération. Rédigez les preuves d’acceptation et un scénario de retard nécessitant une décision.",
+                "technicalDetails": [
+                  "Besoin d’achat",
+                  "Répartition des risques",
+                  "Suivi des engagements"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 4,
+                "title": "Maîtriser les changements sans figer le projet",
+                "durationMinutes": 105,
+                "topics": [
+                  "Analyse d’impact",
+                  "Référence et versions",
+                  "Décision de changement"
+                ],
+                "workshop": "Préparez une fiche de changement avec objectif, options, impacts et recommandation. Faites jouer l’arbitrage par une autre personne. Mettez ensuite à jour la charte, le calendrier ou le backlog concernés, en indiquant la version.",
+                "technicalDetails": [
+                  "Analyse d’impact",
+                  "Référence et versions",
+                  "Décision de changement"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 4,
+                "title": "Piloter un backlog et un flux de travail",
+                "durationMinutes": 105,
+                "topics": [
+                  "Priorisation par la valeur",
+                  "Capacité et WIP",
+                  "Retours sur les incréments"
+                ],
+                "workshop": "Créez douze éléments de backlog pour le tableau de suivi des sites. Définissez une limite de travail en cours, deux règles de priorité et trois critères d’acceptation. Simulez l’arrivée d’une urgence et décrivez la règle permettant de la traiter sans rendre tout urgent.",
+                "technicalDetails": [
+                  "Priorisation par la valeur",
+                  "Capacité et WIP",
+                  "Retours sur les incréments"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 5,
+                "title": "Intégrer conformité, durabilité et changement d’usage",
+                "durationMinutes": 105,
+                "topics": [
+                  "Contraintes obligatoires",
+                  "Effets sur le cycle de vie",
+                  "Adoption du changement"
+                ],
+                "workshop": "Établissez un registre de cinq contraintes à faire confirmer par les responsables compétents. Décrivez trois impacts du changement sur les utilisateurs et un plan d’accompagnement sur quatre semaines. Associez chaque promesse de bénéfice à une preuve et une limite.",
+                "technicalDetails": [
+                  "Contraintes obligatoires",
+                  "Effets sur le cycle de vie",
+                  "Adoption du changement"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 5,
+                "title": "Utiliser l’IA avec un contrôle humain utile",
+                "durationMinutes": 105,
+                "topics": [
+                  "Usages et limites",
+                  "Données autorisées",
+                  "Vérification des réponses"
+                ],
+                "workshop": "À partir d’un compte rendu fictif, définissez une grille de contrôle : faits, dates, décisions, responsables et incertitudes. Rédigez un protocole de validation et identifiez deux actions qui doivent rester soumises à une autorisation humaine explicite.",
+                "technicalDetails": [
+                  "Usages et limites",
+                  "Données autorisées",
+                  "Vérification des réponses"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 5,
+                "title": "Réceptionner, transférer et apprendre",
+                "durationMinutes": 105,
+                "topics": [
+                  "Acceptation et clôture",
+                  "Passage en exploitation",
+                  "Retour d’expérience"
+                ],
+                "workshop": "Préparez une liste de réception, une fiche de transfert et trois leçons de projet. Pour chaque sujet restant, désignez un propriétaire, une échéance et une condition de clôture. Décrivez ce qui relève encore du projet et ce qui devient une activité d’exploitation.",
+                "technicalDetails": [
+                  "Acceptation et clôture",
+                  "Passage en exploitation",
+                  "Retour d’expérience"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 5,
+                "title": "S’entraîner, analyser ses erreurs et défendre un projet",
+                "durationMinutes": 105,
+                "topics": [
+                  "Raisonnement d’examen",
+                  "Révision ciblée",
+                  "Soutenance de synthèse"
+                ],
+                "workshop": "Reprenez les quarante questions de cours sur plusieurs séances, puis défendez votre dossier des huit sites : justification, gouvernance, plan, risques, qualité, changement et transfert. Présentez une décision contestable et les informations qui pourraient vous faire changer d’avis. Produisez un plan de révision individuel.",
+                "technicalDetails": [
+                  "Raisonnement d’examen",
+                  "Révision ciblée",
+                  "Soutenance de synthèse"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              }
+            ],
+            "assessment": {
+              "format": "Quiz formatifs originaux et dossier final avec soutenance. Évaluation humaine selon la grille communiquée ; aucune certification externe garantie.",
+              "durationMinutes": 45,
+              "criteria": [
+                "Cohérence entre le besoin et la méthode.",
+                "Justesse des calculs et qualité des preuves.",
+                "Traitement des limites et des erreurs.",
+                "Clarté du dossier et capacité à défendre une décision."
+              ]
+            },
+            "references": [
+              {
+                "title": "PMI — examen PMP et conditions en vigueur",
+                "url": "https://www.pmi.org/certifications/project-management-pmp"
+              },
+              {
+                "title": "PMI — évolution de l’examen en 2026",
+                "url": "https://www.pmi.org/certifications/project-management-pmp/new-exam"
+              }
+            ]
+          }
+        },
+        "categories": [
+          {
+            "category": {
+              "slug": "gestion-de-projet",
+              "name": "Gestion de projet"
+            }
+          }
+        ],
+        "category": "Gestion de projet",
+        "observedPrice": "Sur devis"
+      },
+      "syllabus": {
+        "slug": "pmp-preparation-projets-valeur-2026",
+        "version": 1,
+        "status": "DRAFT_FOR_TRAINER_REVIEW",
+        "authoredAt": "2026-09-13",
+        "totalHours": 35,
+        "overview": "Un parcours de 35 heures pour structurer vos décisions de projet, pratiquer sur un cas complet et préparer votre démarche vers le PMP.",
+        "audience": "Chefs de projet, responsables de programme, PMO et professionnels préparant une démarche PMP.",
+        "prerequisites": "Expérience de projet et maîtrise des notions de planification. Admissibilité à l’examen à vérifier personnellement auprès de PMI ; l’inscription au parcours ne vaut pas admission.",
+        "caseStudy": "Huit sites de pompage solaire : de la justification à la réception, avec un budget pédagogique de 120 000 € et des décisions à argumenter.",
+        "preparation": "Positionnement et vérification du matériel avant inscription. Lire le programme, préparer son objectif et vérifier les modalités avec le centre.",
+        "methods": "Leçons structurées, exemples résolus, vingt ateliers, quarante questions originales et projet accompagné. Retours et soutenance avec un formateur selon le calendrier convenu.",
+        "scheduleNote": "5 journées équivalentes de 7 heures, à répartir selon la cohorte. Durées incluant lecture, pratique, retours et évaluation ; rythme à confirmer au positionnement.",
+        "materialsStatus": "Supports Beyond rédigés et intégrés dans l’espace pédagogique privé. Relecture et validation par le formateur avant attribution aux apprenants. Aucun contenu ni diplôme tiers n’est inclus par simple équivalence de thème. Préparation indépendante : examen et frais PMI séparés. Les 35 heures annoncées sont un objectif pédagogique à tracer, sans garantie d’admissibilité ; vérifier les règles selon la date et le format.",
+        "modules": [
+          {
+            "day": 1,
+            "title": "Préparer le PMP et raisonner en situation",
+            "durationMinutes": 105,
+            "topics": [
+              "Référentiel PMP 2026",
+              "Diagnostic des acquis",
+              "Journal de décisions"
+            ],
+            "workshop": "Créez un journal avec quatre colonnes : situation, hypothèses, première action, résultat attendu. Analysez trois projets que vous connaissez en anonymisant leurs données. Distinguez ce qui était décidé, supposé et vérifié. Réservez des créneaux de révision par domaine ; notez les erreurs de raisonnement plutôt que seulement les mauvaises réponses.",
+            "technicalDetails": [
+              "Référentiel PMP 2026",
+              "Diagnostic des acquis",
+              "Journal de décisions"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 1,
+            "title": "Définir la valeur et les bénéfices attendus",
+            "durationMinutes": 105,
+            "topics": [
+              "Business case",
+              "Indicateurs de résultat",
+              "Hypothèses de valeur"
+            ],
+            "workshop": "Pour le cas fictif de huit sites équipés de pompes solaires, proposez trois options, une hypothèse de bénéfice et deux indicateurs. Calculez l’effet d’une baisse de 20 % des économies et d’une hausse de maintenance. Présentez au sponsor la décision qu’il devra réexaminer si l’hypothèse ne se confirme pas.",
+            "technicalDetails": [
+              "Business case",
+              "Indicateurs de résultat",
+              "Hypothèses de valeur"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 1,
+            "title": "Clarifier la gouvernance et les responsabilités",
+            "durationMinutes": 105,
+            "topics": [
+              "Charte de projet",
+              "Mandat et limites",
+              "Responsabilités de décision"
+            ],
+            "workshop": "Rédigez une charte d’une page pour les huit sites : problème, objectifs, exclusions, budget indicatif, risques, sponsor et tolérances. Ajoutez cinq décisions avec responsable, consultés et preuve de validation. Testez le dispositif sur une urgence technique et sur une modification de périmètre.",
+            "technicalDetails": [
+              "Charte de projet",
+              "Mandat et limites",
+              "Responsabilités de décision"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 1,
+            "title": "Choisir une approche prédictive, agile ou hybride",
+            "durationMinutes": 105,
+            "topics": [
+              "Incertitude et cadence",
+              "Cycle de vie",
+              "Adaptation du dispositif"
+            ],
+            "workshop": "Classez dix éléments du cas selon stabilité du besoin, coût du changement et délai de retour utilisateur. Proposez une approche pour chaque ensemble. Décrivez une cadence de revue et les preuves nécessaires avant mise en service. Justifiez un choix différent pour le chantier et pour l’application.",
+            "technicalDetails": [
+              "Incertitude et cadence",
+              "Cycle de vie",
+              "Adaptation du dispositif"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 2,
+            "title": "Construire une relation avec les parties prenantes",
+            "durationMinutes": 105,
+            "topics": [
+              "Cartographie et attentes",
+              "Engagement",
+              "Boucles de retour"
+            ],
+            "workshop": "Dressez la cartographie de huit groupes fictifs. Pour trois d’entre eux, rédigez une question ouverte, une hypothèse d’attente et une action de retour. Construisez une mini-revue d’engagement avec responsable, échéance et résultat observable.",
+            "technicalDetails": [
+              "Cartographie et attentes",
+              "Engagement",
+              "Boucles de retour"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 2,
+            "title": "Définir le besoin, le périmètre et les critères d’acceptation",
+            "durationMinutes": 105,
+            "topics": [
+              "Exigences vérifiables",
+              "Décomposition",
+              "Traçabilité du besoin"
+            ],
+            "workshop": "Écrivez six exigences du cas, dont une exigence non fonctionnelle et une exclusion. Construisez une petite décomposition des livrables et reliez chaque exigence à un test. Faites relire vos critères à une personne qui ne connaît pas le projet.",
+            "technicalDetails": [
+              "Exigences vérifiables",
+              "Décomposition",
+              "Traçabilité du besoin"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 2,
+            "title": "Organiser la livraison et les dépendances",
+            "durationMinutes": 105,
+            "topics": [
+              "Réseau d’activités",
+              "Chemin critique",
+              "Marge et contraintes"
+            ],
+            "workshop": "Dessinez ce réseau puis ajoutez une livraison de matériel de cinq jours nécessaire à D, démarrant après A. Recalculez la fin et la marge de B. Proposez une option d’accélération et indiquez son coût ou son risque de reprise.",
+            "technicalDetails": [
+              "Réseau d’activités",
+              "Chemin critique",
+              "Marge et contraintes"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 2,
+            "title": "Estimer les coûts et piloter une référence",
+            "durationMinutes": 105,
+            "topics": [
+              "Estimation et incertitude",
+              "Réserves",
+              "Valeur acquise"
+            ],
+            "workshop": "Calculez CPI et SPI pour trois situations, dont une situation avec EV nul. Présentez une analyse des causes possibles et les informations à demander avant une prévision. Avec BAC = 120 000 €, comparez une estimation à terminaison BAC/CPI et AC+(BAC−EV), en nommant leur hypothèse respective.",
+            "technicalDetails": [
+              "Estimation et incertitude",
+              "Réserves",
+              "Valeur acquise"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 3,
+            "title": "Intégrer la qualité au travail quotidien",
+            "durationMinutes": 105,
+            "topics": [
+              "Prévention et contrôle",
+              "Critères qualité",
+              "Analyse des causes"
+            ],
+            "workshop": "Construisez un plan qualité de cinq contrôles : objet, exigence, moment, responsable, preuve et réaction en cas d’écart. Analysez un défaut fictif avec trois causes possibles et proposez une vérification permettant de les départager.",
+            "technicalDetails": [
+              "Prévention et contrôle",
+              "Critères qualité",
+              "Analyse des causes"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 3,
+            "title": "Analyser les risques et préparer les réponses",
+            "durationMinutes": 105,
+            "topics": [
+              "Cause, événement, effet",
+              "Probabilité et impact",
+              "Réponse et risque résiduel"
+            ],
+            "workshop": "Rédigez huit risques pour les sites, dont une opportunité. Pour les trois prioritaires, proposez propriétaire, signal d’alerte, réponse préventive et plan de repli. Comparez deux réponses sans vous limiter au score de la matrice.",
+            "technicalDetails": [
+              "Cause, événement, effet",
+              "Probabilité et impact",
+              "Réponse et risque résiduel"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 3,
+            "title": "Dimensionner les ressources et développer l’équipe",
+            "durationMinutes": 105,
+            "topics": [
+              "Capacité et disponibilité",
+              "Compétences",
+              "Apprentissage collectif"
+            ],
+            "workshop": "Construisez un plan de capacité sur quatre semaines pour cinq rôles. Ajoutez une absence et une tâche urgente. Identifiez le goulot d’étranglement et comparez réordonnancement, tutorat et renfort. Préparez une règle de disponibilité vérifiable.",
+            "technicalDetails": [
+              "Capacité et disponibilité",
+              "Compétences",
+              "Apprentissage collectif"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 3,
+            "title": "Faciliter les désaccords et décider ensemble",
+            "durationMinutes": 105,
+            "topics": [
+              "Écoute et reformulation",
+              "Conflit de tâche",
+              "Décision et suivi"
+            ],
+            "workshop": "Jouez une réunion de vingt minutes avec trois rôles. Préparez deux options et un critère partagé. Un observateur relève les reformulations, hypothèses et décisions. Rédigez ensuite un compte rendu de dix lignes centré sur les actions.",
+            "technicalDetails": [
+              "Écoute et reformulation",
+              "Conflit de tâche",
+              "Décision et suivi"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 4,
+            "title": "Communiquer une information qui permet d’agir",
+            "durationMinutes": 105,
+            "topics": [
+              "Besoin d’information",
+              "Canal et fréquence",
+              "Compte rendu décisionnel"
+            ],
+            "workshop": "Produisez trois formats à partir de la même situation : une note de six lignes pour le sponsor, un tableau de travail pour l’équipe et une information pour les utilisateurs. Vérifiez qu’aucune information personnelle inutile ne circule dans le message collectif.",
+            "technicalDetails": [
+              "Besoin d’information",
+              "Canal et fréquence",
+              "Compte rendu décisionnel"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 4,
+            "title": "Préparer les achats et la relation fournisseur",
+            "durationMinutes": 105,
+            "topics": [
+              "Besoin d’achat",
+              "Répartition des risques",
+              "Suivi des engagements"
+            ],
+            "workshop": "Construisez une grille de sélection avec cinq critères pondérés. Comparez trois fournisseurs fictifs et testez un changement de pondération. Rédigez les preuves d’acceptation et un scénario de retard nécessitant une décision.",
+            "technicalDetails": [
+              "Besoin d’achat",
+              "Répartition des risques",
+              "Suivi des engagements"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 4,
+            "title": "Maîtriser les changements sans figer le projet",
+            "durationMinutes": 105,
+            "topics": [
+              "Analyse d’impact",
+              "Référence et versions",
+              "Décision de changement"
+            ],
+            "workshop": "Préparez une fiche de changement avec objectif, options, impacts et recommandation. Faites jouer l’arbitrage par une autre personne. Mettez ensuite à jour la charte, le calendrier ou le backlog concernés, en indiquant la version.",
+            "technicalDetails": [
+              "Analyse d’impact",
+              "Référence et versions",
+              "Décision de changement"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 4,
+            "title": "Piloter un backlog et un flux de travail",
+            "durationMinutes": 105,
+            "topics": [
+              "Priorisation par la valeur",
+              "Capacité et WIP",
+              "Retours sur les incréments"
+            ],
+            "workshop": "Créez douze éléments de backlog pour le tableau de suivi des sites. Définissez une limite de travail en cours, deux règles de priorité et trois critères d’acceptation. Simulez l’arrivée d’une urgence et décrivez la règle permettant de la traiter sans rendre tout urgent.",
+            "technicalDetails": [
+              "Priorisation par la valeur",
+              "Capacité et WIP",
+              "Retours sur les incréments"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 5,
+            "title": "Intégrer conformité, durabilité et changement d’usage",
+            "durationMinutes": 105,
+            "topics": [
+              "Contraintes obligatoires",
+              "Effets sur le cycle de vie",
+              "Adoption du changement"
+            ],
+            "workshop": "Établissez un registre de cinq contraintes à faire confirmer par les responsables compétents. Décrivez trois impacts du changement sur les utilisateurs et un plan d’accompagnement sur quatre semaines. Associez chaque promesse de bénéfice à une preuve et une limite.",
+            "technicalDetails": [
+              "Contraintes obligatoires",
+              "Effets sur le cycle de vie",
+              "Adoption du changement"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 5,
+            "title": "Utiliser l’IA avec un contrôle humain utile",
+            "durationMinutes": 105,
+            "topics": [
+              "Usages et limites",
+              "Données autorisées",
+              "Vérification des réponses"
+            ],
+            "workshop": "À partir d’un compte rendu fictif, définissez une grille de contrôle : faits, dates, décisions, responsables et incertitudes. Rédigez un protocole de validation et identifiez deux actions qui doivent rester soumises à une autorisation humaine explicite.",
+            "technicalDetails": [
+              "Usages et limites",
+              "Données autorisées",
+              "Vérification des réponses"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 5,
+            "title": "Réceptionner, transférer et apprendre",
+            "durationMinutes": 105,
+            "topics": [
+              "Acceptation et clôture",
+              "Passage en exploitation",
+              "Retour d’expérience"
+            ],
+            "workshop": "Préparez une liste de réception, une fiche de transfert et trois leçons de projet. Pour chaque sujet restant, désignez un propriétaire, une échéance et une condition de clôture. Décrivez ce qui relève encore du projet et ce qui devient une activité d’exploitation.",
+            "technicalDetails": [
+              "Acceptation et clôture",
+              "Passage en exploitation",
+              "Retour d’expérience"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 5,
+            "title": "S’entraîner, analyser ses erreurs et défendre un projet",
+            "durationMinutes": 105,
+            "topics": [
+              "Raisonnement d’examen",
+              "Révision ciblée",
+              "Soutenance de synthèse"
+            ],
+            "workshop": "Reprenez les quarante questions de cours sur plusieurs séances, puis défendez votre dossier des huit sites : justification, gouvernance, plan, risques, qualité, changement et transfert. Présentez une décision contestable et les informations qui pourraient vous faire changer d’avis. Produisez un plan de révision individuel.",
+            "technicalDetails": [
+              "Raisonnement d’examen",
+              "Révision ciblée",
+              "Soutenance de synthèse"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          }
+        ],
+        "assessment": {
+          "format": "Quiz formatifs originaux et dossier final avec soutenance. Évaluation humaine selon la grille communiquée ; aucune certification externe garantie.",
+          "durationMinutes": 45,
+          "criteria": [
+            "Cohérence entre le besoin et la méthode.",
+            "Justesse des calculs et qualité des preuves.",
+            "Traitement des limites et des erreurs.",
+            "Clarté du dossier et capacité à défendre une décision."
+          ]
+        },
+        "references": [
+          {
+            "title": "PMI — examen PMP et conditions en vigueur",
+            "url": "https://www.pmi.org/certifications/project-management-pmp"
+          },
+          {
+            "title": "PMI — évolution de l’examen en 2026",
+            "url": "https://www.pmi.org/certifications/project-management-pmp/new-exam"
+          }
+        ]
+      }
+    },
+    {
+      "training": {
+        "slug": "data-fullstack-python-sql-machine-learning",
+        "title": "Data Fullstack : de Python et SQL au produit data",
+        "summary": "Un parcours pratique de 140 heures pour préparer les données, analyser, évaluer un modèle et concevoir un produit data reproductible.",
+        "description": "Un parcours pratique de 140 heures pour préparer les données, analyser, évaluer un modèle et concevoir un produit data reproductible. Supports Beyond rédigés et intégrés dans l’espace pédagogique privé. Relecture et validation par le formateur avant attribution aux apprenants. Aucun contenu ni diplôme tiers n’est inclus par simple équivalence de thème. Le laboratoire navigateur couvre Python/pandas/SQL et les calculs fournis. Docker, FastAPI, Streamlit et Power BI s’utilisent sur un poste ou environnement adapté, à confirmer avec le centre.",
+        "objectives": [
+          "Définir des indicateurs et contrôler la qualité des données.",
+          "Écrire des traitements Python et des requêtes SQL vérifiables.",
+          "Explorer une distribution et expliquer l’incertitude.",
+          "Évaluer un modèle sans fuite de données et le comparer à une référence.",
+          "Concevoir un pipeline relançable, un contrat API et un tableau BI.",
+          "Soutenir un dossier reproductible et organiser son transfert."
+        ],
+        "audience": "Analystes, professionnels en évolution vers la data et développeurs souhaitant relier analyse et livraison.",
+        "prerequisites": "Aisance avec les fichiers et tableurs, proportions et logique. Bases Python/SQL à consolider au positionnement. Poste adapté requis pour les ateliers Docker, API et BI.",
+        "durationDays": 20,
+        "level": "INTERMEDIATE",
+        "format": "HYBRID",
+        "priceFromCents": null,
+        "isPublished": true,
+        "program": {
+          "kind": "authored-professional",
+          "observedAt": "2026-09-13",
+          "programStatus": "DRAFT_FOR_TRAINER_REVIEW",
+          "syllabus": {
+            "slug": "data-fullstack-python-sql-machine-learning",
+            "version": 1,
+            "status": "DRAFT_FOR_TRAINER_REVIEW",
+            "authoredAt": "2026-09-13",
+            "totalHours": 140,
+            "overview": "Un parcours pratique de 140 heures pour préparer les données, analyser, évaluer un modèle et concevoir un produit data reproductible.",
+            "audience": "Analystes, professionnels en évolution vers la data et développeurs souhaitant relier analyse et livraison.",
+            "prerequisites": "Aisance avec les fichiers et tableurs, proportions et logique. Bases Python/SQL à consolider au positionnement. Poste adapté requis pour les ateliers Docker, API et BI.",
+            "caseStudy": "Solari Services, entreprise fictive de maintenance : 120 interventions synthétiques pour définir les indicateurs, contrôler les données et soutenir un produit data.",
+            "preparation": "Positionnement et vérification du matériel avant inscription. Lire le programme, préparer son objectif et vérifier les modalités avec le centre.",
+            "methods": "Leçons structurées, exemples résolus, vingt ateliers, quarante questions originales et projet accompagné. Retours et soutenance avec un formateur selon le calendrier convenu.",
+            "scheduleNote": "20 journées équivalentes de 7 heures, à répartir selon la cohorte. Durées incluant lecture, pratique, retours et évaluation ; rythme à confirmer au positionnement.",
+            "materialsStatus": "Supports Beyond rédigés et intégrés dans l’espace pédagogique privé. Relecture et validation par le formateur avant attribution aux apprenants. Aucun contenu ni diplôme tiers n’est inclus par simple équivalence de thème. Le laboratoire navigateur couvre Python/pandas/SQL et les calculs fournis. Docker, FastAPI, Streamlit et Power BI s’utilisent sur un poste ou environnement adapté, à confirmer avec le centre.",
+            "modules": [
+              {
+                "day": 1,
+                "title": "Cadrer une question et définir un indicateur",
+                "durationMinutes": 420,
+                "topics": [
+                  "Besoin métier",
+                  "Dictionnaire de données",
+                  "Unité d’analyse"
+                ],
+                "workshop": "Rédigez une fiche de décision pour répartir une équipe de maintenance entre trois sites fictifs. Définissez trois indicateurs, leur grain et leurs limites. Construisez un dictionnaire de dix champs et expliquez comment traiter les interventions encore ouvertes.",
+                "technicalDetails": [
+                  "Besoin métier",
+                  "Dictionnaire de données",
+                  "Unité d’analyse"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 2,
+                "title": "Contrôler et préparer un tableau source",
+                "durationMinutes": 420,
+                "topics": [
+                  "Types et formats",
+                  "Doublons",
+                  "Contrôles de réconciliation"
+                ],
+                "workshop": "Créez un petit fichier contenant un doublon, une date ambiguë, un code avec zéro initial et une valeur manquante. Préparez une feuille de contrôles séparée. Expliquez chaque transformation et vérifiez que le total retenu se réconcilie avec les lignes rejetées.",
+                "technicalDetails": [
+                  "Types et formats",
+                  "Doublons",
+                  "Contrôles de réconciliation"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 3,
+                "title": "Utiliser les bases de Python",
+                "durationMinutes": 420,
+                "topics": [
+                  "Variables et types",
+                  "Conditions et boucles",
+                  "Collections"
+                ],
+                "workshop": "Dans le notebook fourni, calculez le nombre de dossiers clos, la durée moyenne disponible et la somme des montants en centimes. Traitez séparément une liste vide, une durée manquante et une chaîne non convertible.",
+                "technicalDetails": [
+                  "Variables et types",
+                  "Conditions et boucles",
+                  "Collections"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 4,
+                "title": "Structurer du code réutilisable",
+                "durationMinutes": 420,
+                "topics": [
+                  "Fonctions et contrats",
+                  "Objets simples",
+                  "Tests de comportement"
+                ],
+                "workshop": "Implémentez ce contrat dans une fonction sans accès au réseau ni au fichier. Ajoutez des tests pour les limites et un appel utilisant le résultat. Proposez ensuite une petite classe de configuration seulement si elle simplifie réellement les paramètres.",
+                "technicalDetails": [
+                  "Fonctions et contrats",
+                  "Objets simples",
+                  "Tests de comportement"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 5,
+                "title": "Nettoyer et joindre avec pandas",
+                "durationMinutes": 420,
+                "topics": [
+                  "Lecture typée",
+                  "Valeurs manquantes",
+                  "Cardinalité des jointures"
+                ],
+                "workshop": "Utilisez les fichiers synthétiques du notebook pour profiler les données, séparer les anomalies et joindre un référentiel de sites. Introduisez volontairement une clé dupliquée dans le référentiel et démontrez que votre contrôle bloque le calcul.",
+                "technicalDetails": [
+                  "Lecture typée",
+                  "Valeurs manquantes",
+                  "Cardinalité des jointures"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 6,
+                "title": "Explorer sans tromper avec un graphique",
+                "durationMinutes": 420,
+                "topics": [
+                  "Distribution et dispersion",
+                  "Comparaisons",
+                  "Communication des limites"
+                ],
+                "workshop": "Créez trois figures sur le jeu Solari : distribution des durées, taux de respect par site avec effectifs et volume par semaine. Ajoutez sous chaque figure une observation, une limite et une question à vérifier.",
+                "technicalDetails": [
+                  "Distribution et dispersion",
+                  "Comparaisons",
+                  "Communication des limites"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 7,
+                "title": "Raisonner avec un échantillon et un test A/B",
+                "durationMinutes": 420,
+                "topics": [
+                  "Échantillonnage",
+                  "Incertitude",
+                  "Plan d’expérience"
+                ],
+                "workshop": "Rédigez un protocole pour tester un rappel de maintenance. Précisez unité de tirage, critère principal, durée, exclusions et risque de contamination. Calculez l’écart observé puis expliquez ce que l’échantillon permet et ne permet pas d’affirmer.",
+                "technicalDetails": [
+                  "Échantillonnage",
+                  "Incertitude",
+                  "Plan d’expérience"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 8,
+                "title": "Interroger et agréger avec SQL",
+                "durationMinutes": 420,
+                "topics": [
+                  "SELECT et filtres",
+                  "GROUP BY",
+                  "JOIN et NULL"
+                ],
+                "workshop": "Dans SQLite via le notebook, créez une table d’interventions, calculez les volumes par site et les moyennes sur dossiers clos. Ajoutez un site sans intervention, puis comparez jointures gauche et interne et expliquez les écarts.",
+                "technicalDetails": [
+                  "SELECT et filtres",
+                  "GROUP BY",
+                  "JOIN et NULL"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 9,
+                "title": "Analyser une chronologie avec les fenêtres SQL",
+                "durationMinutes": 420,
+                "topics": [
+                  "PARTITION BY",
+                  "Ordre déterministe",
+                  "Cumuls et décalages"
+                ],
+                "workshop": "Écrivez une requête calculant rang, cumul et variation par site. Testez deux dates identiques et un jour absent. Décrivez la différence entre une fenêtre de trois lignes et une fenêtre de trois jours calendaires.",
+                "technicalDetails": [
+                  "PARTITION BY",
+                  "Ordre déterministe",
+                  "Cumuls et décalages"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 10,
+                "title": "Concevoir un modèle décisionnel",
+                "durationMinutes": 420,
+                "topics": [
+                  "Faits et dimensions",
+                  "Schéma en étoile",
+                  "Historisation"
+                ],
+                "workshop": "Dessinez une étoile avec une table de faits Intervention et trois dimensions. Donnez les clés, le grain et trois mesures. Décrivez le traitement d’un site inconnu et d’un changement de région en cours d’année.",
+                "technicalDetails": [
+                  "Faits et dimensions",
+                  "Schéma en étoile",
+                  "Historisation"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 11,
+                "title": "Choisir un stockage documentaire et organiser un lac",
+                "durationMinutes": 420,
+                "topics": [
+                  "Documents JSON",
+                  "Contrats de schéma",
+                  "Traçabilité des fichiers"
+                ],
+                "workshop": "Définissez deux documents JSON valides et un invalide, puis un contrat de contrôle. Proposez l’arborescence d’un lac pédagogique et un manifeste contenant source fictive, date, nombre de lignes et empreinte des fichiers.",
+                "technicalDetails": [
+                  "Documents JSON",
+                  "Contrats de schéma",
+                  "Traçabilité des fichiers"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 12,
+                "title": "Collecter une API de manière robuste",
+                "durationMinutes": 420,
+                "topics": [
+                  "HTTP et statuts",
+                  "Pagination",
+                  "Timeouts et reprise"
+                ],
+                "workshop": "Avec une API simulée dans le notebook, traitez pagination, page répétée et erreur temporaire. Définissez les erreurs à réessayer et celles à signaler immédiatement. Rédigez un journal qui permet le diagnostic sans exposer un secret.",
+                "technicalDetails": [
+                  "HTTP et statuts",
+                  "Pagination",
+                  "Timeouts et reprise"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 13,
+                "title": "Construire un pipeline relançable",
+                "durationMinutes": 420,
+                "topics": [
+                  "Extraction et transformation",
+                  "Idempotence",
+                  "Qualité et transactions"
+                ],
+                "workshop": "Implémentez dans SQLite un import de lot relançable. Exécutez-le deux fois, injectez un identifiant invalide et simulez une erreur avant validation finale. Comparez le nombre de lignes, les montants et le journal de traitement.",
+                "technicalDetails": [
+                  "Extraction et transformation",
+                  "Idempotence",
+                  "Qualité et transactions"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 14,
+                "title": "Versionner et contrôler en équipe",
+                "durationMinutes": 420,
+                "topics": [
+                  "Git et revue",
+                  "Tests en intégration continue",
+                  "Secrets"
+                ],
+                "workshop": "Dans un dépôt d’exercice local, préparez une branche, un changement de transformation et un test indépendant. Rédigez une description de revue expliquant le problème, le résultat et la validation. Concevez un workflow qui n’a besoin d’aucun secret pour les tests de données fictives.",
+                "technicalDetails": [
+                  "Git et revue",
+                  "Tests en intégration continue",
+                  "Secrets"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 15,
+                "title": "Reproduire un environnement avec des conteneurs",
+                "durationMinutes": 420,
+                "topics": [
+                  "Image et conteneur",
+                  "Ports et volumes",
+                  "Configuration"
+                ],
+                "workshop": "Sur un poste de travail autorisé, décrivez une image Python minimale, son fichier de dépendances et son contrôle de santé. Identifiez les fichiers à exclure du contexte de construction. Expliquez où résident les données et comment les restaurer.",
+                "technicalDetails": [
+                  "Image et conteneur",
+                  "Ports et volumes",
+                  "Configuration"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 16,
+                "title": "Évaluer un modèle supervisé sans fuite de données",
+                "durationMinutes": 420,
+                "topics": [
+                  "Cible et référence simple",
+                  "Séparation des jeux",
+                  "Prétraitement et métriques"
+                ],
+                "workshop": "Le notebook sépare une série synthétique par date et entraîne une régression linéaire simple. Comparez son erreur à la moyenne d’entraînement, puis expliquez quelles variables auraient été indisponibles au moment de prédire. Proposez une extension scikit-learn sur un poste configuré.",
+                "technicalDetails": [
+                  "Cible et référence simple",
+                  "Séparation des jeux",
+                  "Prétraitement et métriques"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 17,
+                "title": "Comparer des modèles et explorer des groupes",
+                "durationMinutes": 420,
+                "topics": [
+                  "Validation croisée",
+                  "Arbres et régularisation",
+                  "Clustering"
+                ],
+                "workshop": "Concevez un tableau comparant référence, régression et arbre selon erreur, complexité et coût d’usage. Dans le notebook, affectez des sites synthétiques à des centres imposés puis examinez l’effet d’un changement d’échelle. Proposez des critères de stabilité des groupes.",
+                "technicalDetails": [
+                  "Validation croisée",
+                  "Arbres et régularisation",
+                  "Clustering"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 18,
+                "title": "Exposer un résultat dans un produit data",
+                "durationMinutes": 420,
+                "topics": [
+                  "Contrat d’API",
+                  "Validation des entrées",
+                  "Interface et exploitation"
+                ],
+                "workshop": "Définissez le contrat d’un endpoint local d’estimation : entrée, bornes, sortie et erreurs. Testez la fonction pure dans le notebook. Utilisez ensuite le kit FastAPI fourni sur un poste configuré, puis rédigez une maquette d’interface indiquant limites et date du modèle.",
+                "technicalDetails": [
+                  "Contrat d’API",
+                  "Validation des entrées",
+                  "Interface et exploitation"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 19,
+                "title": "Livrer un tableau de bord BI gouverné",
+                "durationMinutes": 420,
+                "topics": [
+                  "Modèle sémantique",
+                  "Mesures et filtres",
+                  "Accès et actualisation"
+                ],
+                "workshop": "Dessinez une page Solari avec trois indicateurs et deux filtres. Spécifiez les mesures en numérateurs et dénominateurs. Sur un poste Power BI configuré, importez les données synthétiques, vérifiez les totaux et préparez une matrice de tests de visibilité par rôle.",
+                "technicalDetails": [
+                  "Modèle sémantique",
+                  "Mesures et filtres",
+                  "Accès et actualisation"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              },
+              {
+                "day": 20,
+                "title": "Soutenir et transmettre un projet reproductible",
+                "durationMinutes": 420,
+                "topics": [
+                  "Dossier de preuves",
+                  "Recette et transfert",
+                  "Limites et amélioration"
+                ],
+                "workshop": "Livrez le dossier Solari : question métier, source synthétique, pipeline contrôlé, analyses SQL et graphiques, modèle comparé à une référence, contrat d’API, maquette BI et procédure de reprise. Préparez dix minutes de démonstration et dix minutes de discussion avec le formateur.",
+                "technicalDetails": [
+                  "Dossier de preuves",
+                  "Recette et transfert",
+                  "Limites et amélioration"
+                ],
+                "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+                "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+                "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+              }
+            ],
+            "assessment": {
+              "format": "Quiz formatifs originaux et dossier final avec soutenance. Évaluation humaine selon la grille communiquée ; aucune certification externe garantie.",
+              "durationMinutes": 60,
+              "criteria": [
+                "Cohérence entre le besoin et la méthode.",
+                "Justesse des calculs et qualité des preuves.",
+                "Traitement des limites et des erreurs.",
+                "Clarté du dossier et capacité à défendre une décision."
+              ]
+            },
+            "references": [
+              {
+                "title": "Python — tutoriel officiel",
+                "url": "https://docs.python.org/3/tutorial/"
+              },
+              {
+                "title": "pandas — jointures et combinaison de données",
+                "url": "https://pandas.pydata.org/docs/user_guide/merging.html"
+              },
+              {
+                "title": "PostgreSQL — fonctions de fenêtre",
+                "url": "https://www.postgresql.org/docs/current/tutorial-window.html"
+              },
+              {
+                "title": "scikit-learn — erreurs fréquentes et fuites de données",
+                "url": "https://scikit-learn.org/stable/common_pitfalls.html"
+              },
+              {
+                "title": "Microsoft — modèle en étoile Power BI",
+                "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+              },
+              {
+                "title": "Docker — conteneurs",
+                "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/"
+              },
+              {
+                "title": "FastAPI — validation des entrées structurées",
+                "url": "https://fastapi.tiangolo.com/tutorial/body/"
+              },
+              {
+                "title": "Requests — délais et réponses HTTP",
+                "url": "https://requests.readthedocs.io/en/latest/user/quickstart/"
+              },
+              {
+                "title": "GitHub Actions — gestion des secrets",
+                "url": "https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets"
+              }
+            ]
+          }
+        },
+        "categories": [
+          {
+            "category": {
+              "slug": "data-bi",
+              "name": "Data & BI"
+            }
+          }
+        ],
+        "category": "Data & BI",
+        "observedPrice": "Sur devis"
+      },
+      "syllabus": {
+        "slug": "data-fullstack-python-sql-machine-learning",
+        "version": 1,
+        "status": "DRAFT_FOR_TRAINER_REVIEW",
+        "authoredAt": "2026-09-13",
+        "totalHours": 140,
+        "overview": "Un parcours pratique de 140 heures pour préparer les données, analyser, évaluer un modèle et concevoir un produit data reproductible.",
+        "audience": "Analystes, professionnels en évolution vers la data et développeurs souhaitant relier analyse et livraison.",
+        "prerequisites": "Aisance avec les fichiers et tableurs, proportions et logique. Bases Python/SQL à consolider au positionnement. Poste adapté requis pour les ateliers Docker, API et BI.",
+        "caseStudy": "Solari Services, entreprise fictive de maintenance : 120 interventions synthétiques pour définir les indicateurs, contrôler les données et soutenir un produit data.",
+        "preparation": "Positionnement et vérification du matériel avant inscription. Lire le programme, préparer son objectif et vérifier les modalités avec le centre.",
+        "methods": "Leçons structurées, exemples résolus, vingt ateliers, quarante questions originales et projet accompagné. Retours et soutenance avec un formateur selon le calendrier convenu.",
+        "scheduleNote": "20 journées équivalentes de 7 heures, à répartir selon la cohorte. Durées incluant lecture, pratique, retours et évaluation ; rythme à confirmer au positionnement.",
+        "materialsStatus": "Supports Beyond rédigés et intégrés dans l’espace pédagogique privé. Relecture et validation par le formateur avant attribution aux apprenants. Aucun contenu ni diplôme tiers n’est inclus par simple équivalence de thème. Le laboratoire navigateur couvre Python/pandas/SQL et les calculs fournis. Docker, FastAPI, Streamlit et Power BI s’utilisent sur un poste ou environnement adapté, à confirmer avec le centre.",
+        "modules": [
+          {
+            "day": 1,
+            "title": "Cadrer une question et définir un indicateur",
+            "durationMinutes": 420,
+            "topics": [
+              "Besoin métier",
+              "Dictionnaire de données",
+              "Unité d’analyse"
+            ],
+            "workshop": "Rédigez une fiche de décision pour répartir une équipe de maintenance entre trois sites fictifs. Définissez trois indicateurs, leur grain et leurs limites. Construisez un dictionnaire de dix champs et expliquez comment traiter les interventions encore ouvertes.",
+            "technicalDetails": [
+              "Besoin métier",
+              "Dictionnaire de données",
+              "Unité d’analyse"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 2,
+            "title": "Contrôler et préparer un tableau source",
+            "durationMinutes": 420,
+            "topics": [
+              "Types et formats",
+              "Doublons",
+              "Contrôles de réconciliation"
+            ],
+            "workshop": "Créez un petit fichier contenant un doublon, une date ambiguë, un code avec zéro initial et une valeur manquante. Préparez une feuille de contrôles séparée. Expliquez chaque transformation et vérifiez que le total retenu se réconcilie avec les lignes rejetées.",
+            "technicalDetails": [
+              "Types et formats",
+              "Doublons",
+              "Contrôles de réconciliation"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 3,
+            "title": "Utiliser les bases de Python",
+            "durationMinutes": 420,
+            "topics": [
+              "Variables et types",
+              "Conditions et boucles",
+              "Collections"
+            ],
+            "workshop": "Dans le notebook fourni, calculez le nombre de dossiers clos, la durée moyenne disponible et la somme des montants en centimes. Traitez séparément une liste vide, une durée manquante et une chaîne non convertible.",
+            "technicalDetails": [
+              "Variables et types",
+              "Conditions et boucles",
+              "Collections"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 4,
+            "title": "Structurer du code réutilisable",
+            "durationMinutes": 420,
+            "topics": [
+              "Fonctions et contrats",
+              "Objets simples",
+              "Tests de comportement"
+            ],
+            "workshop": "Implémentez ce contrat dans une fonction sans accès au réseau ni au fichier. Ajoutez des tests pour les limites et un appel utilisant le résultat. Proposez ensuite une petite classe de configuration seulement si elle simplifie réellement les paramètres.",
+            "technicalDetails": [
+              "Fonctions et contrats",
+              "Objets simples",
+              "Tests de comportement"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 5,
+            "title": "Nettoyer et joindre avec pandas",
+            "durationMinutes": 420,
+            "topics": [
+              "Lecture typée",
+              "Valeurs manquantes",
+              "Cardinalité des jointures"
+            ],
+            "workshop": "Utilisez les fichiers synthétiques du notebook pour profiler les données, séparer les anomalies et joindre un référentiel de sites. Introduisez volontairement une clé dupliquée dans le référentiel et démontrez que votre contrôle bloque le calcul.",
+            "technicalDetails": [
+              "Lecture typée",
+              "Valeurs manquantes",
+              "Cardinalité des jointures"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 6,
+            "title": "Explorer sans tromper avec un graphique",
+            "durationMinutes": 420,
+            "topics": [
+              "Distribution et dispersion",
+              "Comparaisons",
+              "Communication des limites"
+            ],
+            "workshop": "Créez trois figures sur le jeu Solari : distribution des durées, taux de respect par site avec effectifs et volume par semaine. Ajoutez sous chaque figure une observation, une limite et une question à vérifier.",
+            "technicalDetails": [
+              "Distribution et dispersion",
+              "Comparaisons",
+              "Communication des limites"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 7,
+            "title": "Raisonner avec un échantillon et un test A/B",
+            "durationMinutes": 420,
+            "topics": [
+              "Échantillonnage",
+              "Incertitude",
+              "Plan d’expérience"
+            ],
+            "workshop": "Rédigez un protocole pour tester un rappel de maintenance. Précisez unité de tirage, critère principal, durée, exclusions et risque de contamination. Calculez l’écart observé puis expliquez ce que l’échantillon permet et ne permet pas d’affirmer.",
+            "technicalDetails": [
+              "Échantillonnage",
+              "Incertitude",
+              "Plan d’expérience"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 8,
+            "title": "Interroger et agréger avec SQL",
+            "durationMinutes": 420,
+            "topics": [
+              "SELECT et filtres",
+              "GROUP BY",
+              "JOIN et NULL"
+            ],
+            "workshop": "Dans SQLite via le notebook, créez une table d’interventions, calculez les volumes par site et les moyennes sur dossiers clos. Ajoutez un site sans intervention, puis comparez jointures gauche et interne et expliquez les écarts.",
+            "technicalDetails": [
+              "SELECT et filtres",
+              "GROUP BY",
+              "JOIN et NULL"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 9,
+            "title": "Analyser une chronologie avec les fenêtres SQL",
+            "durationMinutes": 420,
+            "topics": [
+              "PARTITION BY",
+              "Ordre déterministe",
+              "Cumuls et décalages"
+            ],
+            "workshop": "Écrivez une requête calculant rang, cumul et variation par site. Testez deux dates identiques et un jour absent. Décrivez la différence entre une fenêtre de trois lignes et une fenêtre de trois jours calendaires.",
+            "technicalDetails": [
+              "PARTITION BY",
+              "Ordre déterministe",
+              "Cumuls et décalages"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 10,
+            "title": "Concevoir un modèle décisionnel",
+            "durationMinutes": 420,
+            "topics": [
+              "Faits et dimensions",
+              "Schéma en étoile",
+              "Historisation"
+            ],
+            "workshop": "Dessinez une étoile avec une table de faits Intervention et trois dimensions. Donnez les clés, le grain et trois mesures. Décrivez le traitement d’un site inconnu et d’un changement de région en cours d’année.",
+            "technicalDetails": [
+              "Faits et dimensions",
+              "Schéma en étoile",
+              "Historisation"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 11,
+            "title": "Choisir un stockage documentaire et organiser un lac",
+            "durationMinutes": 420,
+            "topics": [
+              "Documents JSON",
+              "Contrats de schéma",
+              "Traçabilité des fichiers"
+            ],
+            "workshop": "Définissez deux documents JSON valides et un invalide, puis un contrat de contrôle. Proposez l’arborescence d’un lac pédagogique et un manifeste contenant source fictive, date, nombre de lignes et empreinte des fichiers.",
+            "technicalDetails": [
+              "Documents JSON",
+              "Contrats de schéma",
+              "Traçabilité des fichiers"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 12,
+            "title": "Collecter une API de manière robuste",
+            "durationMinutes": 420,
+            "topics": [
+              "HTTP et statuts",
+              "Pagination",
+              "Timeouts et reprise"
+            ],
+            "workshop": "Avec une API simulée dans le notebook, traitez pagination, page répétée et erreur temporaire. Définissez les erreurs à réessayer et celles à signaler immédiatement. Rédigez un journal qui permet le diagnostic sans exposer un secret.",
+            "technicalDetails": [
+              "HTTP et statuts",
+              "Pagination",
+              "Timeouts et reprise"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 13,
+            "title": "Construire un pipeline relançable",
+            "durationMinutes": 420,
+            "topics": [
+              "Extraction et transformation",
+              "Idempotence",
+              "Qualité et transactions"
+            ],
+            "workshop": "Implémentez dans SQLite un import de lot relançable. Exécutez-le deux fois, injectez un identifiant invalide et simulez une erreur avant validation finale. Comparez le nombre de lignes, les montants et le journal de traitement.",
+            "technicalDetails": [
+              "Extraction et transformation",
+              "Idempotence",
+              "Qualité et transactions"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 14,
+            "title": "Versionner et contrôler en équipe",
+            "durationMinutes": 420,
+            "topics": [
+              "Git et revue",
+              "Tests en intégration continue",
+              "Secrets"
+            ],
+            "workshop": "Dans un dépôt d’exercice local, préparez une branche, un changement de transformation et un test indépendant. Rédigez une description de revue expliquant le problème, le résultat et la validation. Concevez un workflow qui n’a besoin d’aucun secret pour les tests de données fictives.",
+            "technicalDetails": [
+              "Git et revue",
+              "Tests en intégration continue",
+              "Secrets"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 15,
+            "title": "Reproduire un environnement avec des conteneurs",
+            "durationMinutes": 420,
+            "topics": [
+              "Image et conteneur",
+              "Ports et volumes",
+              "Configuration"
+            ],
+            "workshop": "Sur un poste de travail autorisé, décrivez une image Python minimale, son fichier de dépendances et son contrôle de santé. Identifiez les fichiers à exclure du contexte de construction. Expliquez où résident les données et comment les restaurer.",
+            "technicalDetails": [
+              "Image et conteneur",
+              "Ports et volumes",
+              "Configuration"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 16,
+            "title": "Évaluer un modèle supervisé sans fuite de données",
+            "durationMinutes": 420,
+            "topics": [
+              "Cible et référence simple",
+              "Séparation des jeux",
+              "Prétraitement et métriques"
+            ],
+            "workshop": "Le notebook sépare une série synthétique par date et entraîne une régression linéaire simple. Comparez son erreur à la moyenne d’entraînement, puis expliquez quelles variables auraient été indisponibles au moment de prédire. Proposez une extension scikit-learn sur un poste configuré.",
+            "technicalDetails": [
+              "Cible et référence simple",
+              "Séparation des jeux",
+              "Prétraitement et métriques"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 17,
+            "title": "Comparer des modèles et explorer des groupes",
+            "durationMinutes": 420,
+            "topics": [
+              "Validation croisée",
+              "Arbres et régularisation",
+              "Clustering"
+            ],
+            "workshop": "Concevez un tableau comparant référence, régression et arbre selon erreur, complexité et coût d’usage. Dans le notebook, affectez des sites synthétiques à des centres imposés puis examinez l’effet d’un changement d’échelle. Proposez des critères de stabilité des groupes.",
+            "technicalDetails": [
+              "Validation croisée",
+              "Arbres et régularisation",
+              "Clustering"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 18,
+            "title": "Exposer un résultat dans un produit data",
+            "durationMinutes": 420,
+            "topics": [
+              "Contrat d’API",
+              "Validation des entrées",
+              "Interface et exploitation"
+            ],
+            "workshop": "Définissez le contrat d’un endpoint local d’estimation : entrée, bornes, sortie et erreurs. Testez la fonction pure dans le notebook. Utilisez ensuite le kit FastAPI fourni sur un poste configuré, puis rédigez une maquette d’interface indiquant limites et date du modèle.",
+            "technicalDetails": [
+              "Contrat d’API",
+              "Validation des entrées",
+              "Interface et exploitation"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 19,
+            "title": "Livrer un tableau de bord BI gouverné",
+            "durationMinutes": 420,
+            "topics": [
+              "Modèle sémantique",
+              "Mesures et filtres",
+              "Accès et actualisation"
+            ],
+            "workshop": "Dessinez une page Solari avec trois indicateurs et deux filtres. Spécifiez les mesures en numérateurs et dénominateurs. Sur un poste Power BI configuré, importez les données synthétiques, vérifiez les totaux et préparez une matrice de tests de visibilité par rôle.",
+            "technicalDetails": [
+              "Modèle sémantique",
+              "Mesures et filtres",
+              "Accès et actualisation"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          },
+          {
+            "day": 20,
+            "title": "Soutenir et transmettre un projet reproductible",
+            "durationMinutes": 420,
+            "topics": [
+              "Dossier de preuves",
+              "Recette et transfert",
+              "Limites et amélioration"
+            ],
+            "workshop": "Livrez le dossier Solari : question métier, source synthétique, pipeline contrôlé, analyses SQL et graphiques, modèle comparé à une référence, contrat d’API, maquette BI et procédure de reprise. Préparez dix minutes de démonstration et dix minutes de discussion avec le formateur.",
+            "technicalDetails": [
+              "Dossier de preuves",
+              "Recette et transfert",
+              "Limites et amélioration"
+            ],
+            "practicalCheck": "Expliquer la méthode, vérifier un cas limite et justifier les hypothèses devant le formateur.",
+            "expertChallenge": "Transposer la méthode à un autre contexte en documentant ce qui change.",
+            "deliverable": "Trace de calcul ou de décision, résultat argumenté et limites, à intégrer au dossier fil rouge."
+          }
+        ],
+        "assessment": {
+          "format": "Quiz formatifs originaux et dossier final avec soutenance. Évaluation humaine selon la grille communiquée ; aucune certification externe garantie.",
+          "durationMinutes": 60,
+          "criteria": [
+            "Cohérence entre le besoin et la méthode.",
+            "Justesse des calculs et qualité des preuves.",
+            "Traitement des limites et des erreurs.",
+            "Clarté du dossier et capacité à défendre une décision."
+          ]
+        },
+        "references": [
+          {
+            "title": "Python — tutoriel officiel",
+            "url": "https://docs.python.org/3/tutorial/"
+          },
+          {
+            "title": "pandas — jointures et combinaison de données",
+            "url": "https://pandas.pydata.org/docs/user_guide/merging.html"
+          },
+          {
+            "title": "PostgreSQL — fonctions de fenêtre",
+            "url": "https://www.postgresql.org/docs/current/tutorial-window.html"
+          },
+          {
+            "title": "scikit-learn — erreurs fréquentes et fuites de données",
+            "url": "https://scikit-learn.org/stable/common_pitfalls.html"
+          },
+          {
+            "title": "Microsoft — modèle en étoile Power BI",
+            "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+          },
+          {
+            "title": "Docker — conteneurs",
+            "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/"
+          },
+          {
+            "title": "FastAPI — validation des entrées structurées",
+            "url": "https://fastapi.tiangolo.com/tutorial/body/"
+          },
+          {
+            "title": "Requests — délais et réponses HTTP",
+            "url": "https://requests.readthedocs.io/en/latest/user/quickstart/"
+          },
+          {
+            "title": "GitHub Actions — gestion des secrets",
+            "url": "https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets"
+          }
+        ]
+      }
+    }
+  ]
+}

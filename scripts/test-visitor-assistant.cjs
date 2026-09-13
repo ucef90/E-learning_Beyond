@@ -273,8 +273,9 @@ async function integration() {
   };
   const out = path.resolve(
     __dirname,
-    "../../../work/assistant-validation.json",
+    "../work/validation/assistant-validation.json",
   );
+  fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, JSON.stringify(report, null, 2) + "\n");
   console.log(JSON.stringify(report, null, 2));
 })().catch((e) => {
