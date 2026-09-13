@@ -701,5 +701,32 @@
   }
 }
 
-.home-interest-actions .button-primary { background: #f2a137; color: #17243d; border-color: #f2a137; }
-.home-interest-copy > .eyebrow { align-self: flex-start; }
+.home-interest-actions .button-primary {
+  background: #f2a137;
+  color: #17243d;
+  border-color: #f2a137;
+}
+.home-interest-copy > .eyebrow {
+  align-self: flex-start;
+}
+
+/* The homepage animation continues behind the space surrounding navigation. */
+.site-header.header-home {
+  margin-bottom: calc(-1 * var(--home-header-height, 186px));
+  background: transparent;
+  backdrop-filter: none;
+}
+.home-page-main {
+  padding-top: 0;
+}
+.home-page-main .reference-hero-grid {
+  padding-top: calc(var(--home-header-height, 186px) + 65px);
+}
+@media (max-width: 900px) {
+  .site-header.header-home {
+    margin-bottom: calc(-1 * var(--home-header-height, 94px));
+  }
+  .home-page-main .reference-hero-grid {
+    padding-top: calc(var(--home-header-height, 94px) + 40px);
+  }
+}

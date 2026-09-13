@@ -38,6 +38,23 @@ export function Header() {
     setMenuOpen(false);
   }, [pathname]);
   const menuRef = useRef<HTMLDivElement | null>(null);
+  const headerRef = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    if (pathname !== "/" || !headerRef.current) return;
+    const update = () => {
+      document.documentElement.style.setProperty(
+        "--home-header-height",
+        `${Math.ceil(headerRef.current?.getBoundingClientRect().height || 0)}px`,
+      );
+    };
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(headerRef.current);
+    return () => {
+      observer.disconnect();
+      document.documentElement.style.removeProperty("--home-header-height");
+    };
+  }, [pathname]);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -61,7 +78,10 @@ export function Header() {
   }, []);
 
   return (
-    <header className={`site-header${isLearning ? " header-learning" : ""}`}>
+    <header
+      ref={headerRef}
+      className={`site-header${isLearning ? " header-learning" : ""}${pathname === "/" ? " header-home" : ""}`}
+    >
       <div className="header-topbar">
         <div className="page-shell header-topbar-inner">
           <div className="header-topbar-copy">
