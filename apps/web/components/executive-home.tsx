@@ -45,7 +45,7 @@ export function ExecutiveHome({ kind }: { kind?: "MBA" | "DBA" }) {
               {doctoral ? "Explorer les axes DBA" : "Explorer les parcours"}{" "}
               <ArrowRight size={18} />
             </a>
-            <Link href="/mba-dba/candidature" className="executive-text-link">
+            <Link href="/afrique#demande" className="executive-text-link">
               Parler de mon projet <ArrowRight size={17} />
             </Link>
           </div>

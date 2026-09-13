@@ -300,7 +300,7 @@ export default async function TrainingDetailPage({
               <p>
                 {regulatory
                   ? "Programme original fondé sur des sources institutionnelles datées."
-                  : "Durée, niveau, modalités, objectifs et tarif relevés sur le site officiel le 11 septembre 2026. Le déroulé détaillé a été enrichi localement."}{" "}
+                  : "Durée, niveau, modalités, objectifs et tarif relevés sur le site officiel le 11 septembre 2026. Le déroulé détaillé a été enrichi par Beyond Expertise."}{" "}
                 Validation pédagogique du formateur à réaliser avant animation.
               </p>
               {t.source?.sourceUrl && (

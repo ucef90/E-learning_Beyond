@@ -1,0 +1,1212 @@
+{
+  "auditedAt": "2026-09-13T17:43:51.985Z",
+  "applicationCommit": "deb9e9b",
+  "sourceCommit": "9a2b929523ea537c280f26043e5db3fa7ed260b2",
+  "programmeCount": 31,
+  "mbaCount": 21,
+  "dbaCount": 10,
+  "pdfPages": 124,
+  "programmeResources": [
+    {
+      "route": "/mba-dba/pedagogie",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/certifications",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/candidature",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-transformation-digitale-ia",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-direction-strategie-croissance",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-transformation-digitale-ia.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-direction-strategie-croissance.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-data-ia-cyber-resilience",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-data-ia-cyber-resilience.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-projets-programmes-agilite.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-projets-programmes-agilite",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-marketing-croissance-commerciale.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-entrepreneuriat-ventures.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-entrepreneuriat-ventures",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-marketing-croissance-commerciale",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-rh-talents-transformation.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-rh-talents-transformation",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-supply-chain-resilience",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-supply-chain-resilience.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-industrie-innovation-performance.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-industrie-innovation-performance",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-qhse-risques-durabilite.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-qhse-risques-durabilite",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-finance-investissement-risques.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-infrastructures-genie-civil.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-finance-investissement-risques",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-infrastructures-genie-civil",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-finances-publiques-redevabilite.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-audit-controle-performance.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-audit-controle-performance",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-finances-publiques-redevabilite",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-sante-gouvernance-hospitaliere",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-sante-publique-systemes-impact.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-sante-gouvernance-hospitaliere.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-sante-publique-systemes-impact",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-pharma-biotechnologies-strategie.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-pharma-biotechnologies-strategie",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-ong-humanitaire-impact",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-ong-humanitaire-impact.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-diplomatie-economique-cooperation.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-diplomatie-economique-cooperation",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/mba-sport-business-evenements.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/mba-sport-business-evenements",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/dba-leadership-systemes-sante.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/mba-sport-gouvernance-integrite.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/dba-leadership-systemes-sante",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/mba-sport-gouvernance-integrite",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/dba-gouvernance-etablissements-sante.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/dba-sante-publique-equite.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/dba-gouvernance-etablissements-sante",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/dba-sante-publique-equite",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/dba-entrepreneuriat-ecosystemes",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/dba-entrepreneuriat-ecosystemes.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/dba-capital-humain-organisations.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/dba-capital-humain-organisations",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/dba-innovation-technologies.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/dba-finance-investissement.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/dba-innovation-technologies",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/dba-finance-investissement",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/mba-dba/dba-gouvernance-financiere",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/dba-infrastructures-durables.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/programmes-executive/dba-gouvernance-financiere.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/dba-infrastructures-durables",
+      "status": 200,
+      "pdfMatchesRepository": null
+    },
+    {
+      "route": "/programmes-executive/dba-systemes-information.pdf",
+      "status": 200,
+      "pdfMatchesRepository": true
+    },
+    {
+      "route": "/mba-dba/dba-systemes-information",
+      "status": 200,
+      "pdfMatchesRepository": null
+    }
+  ],
+  "shortTrainingCount": 85,
+  "shortTrainingPagesOK": 85,
+  "shortTrainingPdfsOK": 85,
+  "publicOtherRoutes": [
+    {
+      "route": "/entreprises",
+      "status": 200,
+      "url": "https://beyond-expertise.com/entreprises",
+      "errorContent": false
+    },
+    {
+      "route": "/expertises",
+      "status": 200,
+      "url": "https://beyond-expertise.com/expertises",
+      "errorContent": false
+    },
+    {
+      "route": "/ressources",
+      "status": 200,
+      "url": "https://beyond-expertise.com/ressources",
+      "errorContent": false
+    },
+    {
+      "route": "/methodologie",
+      "status": 200,
+      "url": "https://beyond-expertise.com/methodologie",
+      "errorContent": false
+    },
+    {
+      "route": "/accessibilite",
+      "status": 200,
+      "url": "https://beyond-expertise.com/accessibilite",
+      "errorContent": false
+    },
+    {
+      "route": "/assistance",
+      "status": 200,
+      "url": "https://beyond-expertise.com/assistance",
+      "errorContent": false
+    },
+    {
+      "route": "/reclamations",
+      "status": 200,
+      "url": "https://beyond-expertise.com/reclamations",
+      "errorContent": false
+    },
+    {
+      "route": "/signalement",
+      "status": 200,
+      "url": "https://beyond-expertise.com/signalement",
+      "errorContent": false
+    },
+    {
+      "route": "/positionnement",
+      "status": 200,
+      "url": "https://beyond-expertise.com/positionnement",
+      "errorContent": false
+    },
+    {
+      "route": "/transparence-ia",
+      "status": 200,
+      "url": "https://beyond-expertise.com/transparence-ia",
+      "errorContent": false
+    },
+    {
+      "route": "/rgpd-ai-act",
+      "status": 200,
+      "url": "https://beyond-expertise.com/rgpd-ai-act",
+      "errorContent": false
+    },
+    {
+      "route": "/recuperation",
+      "status": 200,
+      "url": "https://beyond-expertise.com/recuperation",
+      "errorContent": false
+    },
+    {
+      "route": "/espace",
+      "status": 200,
+      "url": "https://beyond-expertise.com/apprentissage",
+      "errorContent": false
+    },
+    {
+      "route": "/api/v1/executive/applications",
+      "status": 401,
+      "url": "https://beyond-expertise.com/api/v1/executive/applications",
+      "errorContent": false
+    },
+    {
+      "route": "/mba-dba/introuvable",
+      "status": 404,
+      "url": "https://beyond-expertise.com/mba-dba/introuvable",
+      "errorContent": false
+    }
+  ],
+  "productionExecutiveCourses": {
+    "count": 31,
+    "published": 0,
+    "editorialStatus": "DRAFT",
+    "modules": 290,
+    "lessonEntries": 611
+  },
+  "productionTurnstileConfigured": false,
+  "executiveApiAssertions": 89,
+  "executiveApiResult": "PASS",
+  "executiveUiResult": "PASS",
+  "formsLocal": [
+    {
+      "route": "/contact",
+      "saved": true,
+      "inlineConfirmation": true,
+      "urlChanged": false,
+      "status": 201
+    },
+    {
+      "route": "/devis",
+      "saved": true,
+      "inlineConfirmation": true,
+      "urlChanged": false,
+      "status": 201
+    },
+    {
+      "route": "/inscription",
+      "saved": true,
+      "inlineConfirmation": true,
+      "urlChanged": false,
+      "status": 201
+    },
+    {
+      "check": "genericEnrollmentWithExecutiveSlug",
+      "status": 201,
+      "trainingMatched": false
+    },
+    {
+      "check": "attributionFieldsNotAccepted",
+      "status": 400,
+      "rejectsUTM": true
+    }
+  ],
+  "mobile": [
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": 0,
+      "height": 20139,
+      "firstMainAction": [
+        {
+          "text": "Mettre le fond en pause",
+          "top": 1440,
+          "height": 37
+        },
+        {
+          "text": "Rechercher",
+          "top": 548,
+          "height": 49
+        }
+      ],
+      "overflows": [
+        {
+          "tag": "DIV",
+          "class": "references-track"
+        },
+        {
+          "tag": "UL",
+          "class": "reference-logo-sequence"
+        },
+        {
+          "tag": "LI",
+          "class": "home-logo-item"
+        },
+        {
+          "tag": "IMG",
+          "class": ""
+        },
+        {
+          "tag": "LI",
+          "class": "home-logo-item"
+        },
+        {
+          "tag": "LI",
+          "class": "home-logo-item"
+        }
+      ]
+    },
+    {
+      "route": "/mba",
+      "width": 320,
+      "overflow": 0,
+      "height": 15588,
+      "firstMainAction": [
+        {
+          "text": "Explorer les parcours",
+          "top": 559,
+          "height": 46
+        },
+        {
+          "text": "Comprendre l’accompagnement",
+          "top": 9739,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/dba",
+      "width": 320,
+      "overflow": 0,
+      "height": 12128,
+      "firstMainAction": [
+        {
+          "text": "Explorer les axes DBA",
+          "top": 533,
+          "height": 46
+        },
+        {
+          "text": "Comprendre l’accompagnement",
+          "top": 6278,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/mba-dba/mba-direction-strategie-croissance",
+      "width": 320,
+      "overflow": 0,
+      "height": 10005,
+      "firstMainAction": [
+        {
+          "text": "Présenter ma candidature",
+          "top": 569,
+          "height": 46
+        },
+        {
+          "text": "Déposer ma demande",
+          "top": 7069,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/mba-dba/candidature?programme=mba-direction-strategie-croissance",
+      "width": 320,
+      "overflow": 0,
+      "height": 5694,
+      "firstMainAction": [
+        {
+          "text": "Envoyer ma demande",
+          "top": 2495,
+          "height": 40
+        }
+      ],
+      "overflows": [
+        {
+          "tag": "DIV",
+          "class": "executive-honeypot"
+        },
+        {
+          "tag": "LABEL",
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "overflow": 0,
+      "height": 4970,
+      "firstMainAction": [
+        {
+          "text": "Décrire mes besoins",
+          "top": 968,
+          "height": 46
+        },
+        {
+          "text": "Obtenir de l’aide",
+          "top": 1217,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": 0,
+      "height": 18383,
+      "firstMainAction": [
+        {
+          "text": "Mettre le fond en pause",
+          "top": 1310,
+          "height": 37
+        },
+        {
+          "text": "Rechercher",
+          "top": 485,
+          "height": 49
+        }
+      ],
+      "overflows": [
+        {
+          "tag": "DIV",
+          "class": "references-track"
+        },
+        {
+          "tag": "UL",
+          "class": "reference-logo-sequence"
+        },
+        {
+          "tag": "LI",
+          "class": "home-logo-item"
+        },
+        {
+          "tag": "LI",
+          "class": "home-logo-item"
+        },
+        {
+          "tag": "IMG",
+          "class": ""
+        },
+        {
+          "tag": "SPAN",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "route": "/mba",
+      "width": 390,
+      "overflow": 0,
+      "height": 14429,
+      "firstMainAction": [
+        {
+          "text": "Explorer les parcours",
+          "top": 433,
+          "height": 46
+        },
+        {
+          "text": "Comprendre l’accompagnement",
+          "top": 8985,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/dba",
+      "width": 390,
+      "overflow": 0,
+      "height": 11063,
+      "firstMainAction": [
+        {
+          "text": "Explorer les axes DBA",
+          "top": 506,
+          "height": 46
+        },
+        {
+          "text": "Comprendre l’accompagnement",
+          "top": 5619,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/mba-dba/mba-direction-strategie-croissance",
+      "width": 390,
+      "overflow": 0,
+      "height": 9003,
+      "firstMainAction": [
+        {
+          "text": "Présenter ma candidature",
+          "top": 495,
+          "height": 46
+        },
+        {
+          "text": "Déposer ma demande",
+          "top": 6415,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/mba-dba/candidature?programme=mba-direction-strategie-croissance",
+      "width": 390,
+      "overflow": 0,
+      "height": 5247,
+      "firstMainAction": [
+        {
+          "text": "Envoyer ma demande",
+          "top": 2397,
+          "height": 40
+        }
+      ],
+      "overflows": [
+        {
+          "tag": "DIV",
+          "class": "executive-honeypot"
+        },
+        {
+          "tag": "LABEL",
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "overflow": 0,
+      "height": 4498,
+      "firstMainAction": [
+        {
+          "text": "Décrire mes besoins",
+          "top": 890,
+          "height": 46
+        },
+        {
+          "text": "Obtenir de l’aide",
+          "top": 1139,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": 0,
+      "height": 12867,
+      "firstMainAction": [
+        {
+          "text": "Mettre le fond en pause",
+          "top": 1148,
+          "height": 37
+        },
+        {
+          "text": "Rechercher",
+          "top": 442,
+          "height": 57
+        }
+      ],
+      "overflows": [
+        {
+          "tag": "DIV",
+          "class": "references-track"
+        },
+        {
+          "tag": "UL",
+          "class": "reference-logo-sequence"
+        },
+        {
+          "tag": "LI",
+          "class": "home-logo-item"
+        },
+        {
+          "tag": "LI",
+          "class": "home-logo-item"
+        },
+        {
+          "tag": "LI",
+          "class": "home-logo-item"
+        },
+        {
+          "tag": "IMG",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "route": "/mba",
+      "width": 768,
+      "overflow": 0,
+      "height": 8763,
+      "firstMainAction": [
+        {
+          "text": "Explorer les parcours",
+          "top": 535,
+          "height": 46
+        },
+        {
+          "text": "Comprendre l’accompagnement",
+          "top": 5444,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/dba",
+      "width": 768,
+      "overflow": 0,
+      "height": 6673,
+      "firstMainAction": [
+        {
+          "text": "Explorer les axes DBA",
+          "top": 546,
+          "height": 46
+        },
+        {
+          "text": "Comprendre l’accompagnement",
+          "top": 3354,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/mba-dba/mba-direction-strategie-croissance",
+      "width": 768,
+      "overflow": 0,
+      "height": 6341,
+      "firstMainAction": [
+        {
+          "text": "Présenter ma candidature",
+          "top": 477,
+          "height": 46
+        },
+        {
+          "text": "Déposer ma demande",
+          "top": 4623,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    },
+    {
+      "route": "/mba-dba/candidature?programme=mba-direction-strategie-croissance",
+      "width": 768,
+      "overflow": 0,
+      "height": 3227,
+      "firstMainAction": [
+        {
+          "text": "Envoyer ma demande",
+          "top": 1783,
+          "height": 40
+        }
+      ],
+      "overflows": [
+        {
+          "tag": "DIV",
+          "class": "executive-honeypot"
+        },
+        {
+          "tag": "LABEL",
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "overflow": 0,
+      "height": 2976,
+      "firstMainAction": [
+        {
+          "text": "Décrire mes besoins",
+          "top": 765,
+          "height": 46
+        },
+        {
+          "text": "Obtenir de l’aide",
+          "top": 738,
+          "height": 46
+        }
+      ],
+      "overflows": []
+    }
+  ],
+  "browser": [
+    {
+      "route": "/",
+      "requestHosts": [
+        "beyond-expertise.com"
+      ],
+      "errors": [],
+      "trackerGlobals": [],
+      "cookieNames": [],
+      "storageKeys": []
+    },
+    {
+      "route": "/mba-dba",
+      "requestHosts": [
+        "beyond-expertise.com"
+      ],
+      "errors": [],
+      "trackerGlobals": [],
+      "cookieNames": [],
+      "storageKeys": []
+    },
+    {
+      "route": "/mba",
+      "requestHosts": [
+        "beyond-expertise.com"
+      ],
+      "errors": [],
+      "trackerGlobals": [],
+      "cookieNames": [],
+      "storageKeys": []
+    },
+    {
+      "route": "/dba",
+      "requestHosts": [
+        "beyond-expertise.com"
+      ],
+      "errors": [],
+      "trackerGlobals": [],
+      "cookieNames": [],
+      "storageKeys": []
+    },
+    {
+      "route": "/mba-dba/mba-direction-strategie-croissance",
+      "requestHosts": [
+        "beyond-expertise.com"
+      ],
+      "errors": [],
+      "trackerGlobals": [],
+      "cookieNames": [],
+      "storageKeys": []
+    },
+    {
+      "route": "/mba-dba/dba-leadership-systemes-sante",
+      "requestHosts": [
+        "beyond-expertise.com"
+      ],
+      "errors": [],
+      "trackerGlobals": [],
+      "cookieNames": [],
+      "storageKeys": []
+    },
+    {
+      "route": "/mba-dba/candidature?programme=mba-direction-strategie-croissance",
+      "requestHosts": [
+        "beyond-expertise.com"
+      ],
+      "errors": [],
+      "trackerGlobals": [],
+      "cookieNames": [],
+      "storageKeys": []
+    },
+    {
+      "route": "/contact",
+      "requestHosts": [
+        "beyond-expertise.com"
+      ],
+      "errors": [],
+      "trackerGlobals": [],
+      "cookieNames": [],
+      "storageKeys": []
+    }
+  ],
+  "attribution": {
+    "entry": "https://beyond-expertise.com/mba?utm_source=meta&utm_medium=paid_social&utm_campaign=audit-afrique&utm_content=preuve&country=SN&fbclid=AUDIT_ONLY",
+    "programme": "https://beyond-expertise.com/mba-dba/mba-direction-strategie-croissance",
+    "application": "https://beyond-expertise.com/mba-dba/candidature?programme=mba-direction-strategie-croissance",
+    "keys": {
+      "local": [],
+      "session": [],
+      "fields": [
+        "",
+        "requestType",
+        "fullName",
+        "email",
+        "country",
+        "city",
+        "phone",
+        "company",
+        "qualification",
+        "experience",
+        "currentRole",
+        "funding",
+        "motivation",
+        "website",
+        "consent"
+      ]
+    },
+    "cookies": []
+  },
+  "galleryOpens": true,
+  "galleryCloses": true,
+  "generalUiChecks": [
+    {
+      "check": "mobileMenuOpens",
+      "expanded": "true"
+    },
+    {
+      "check": "generalFaqOpens",
+      "open": true
+    },
+    {
+      "check": "commercialAdminAnonymousRead",
+      "status": 401
+    }
+  ],
+  "allExecutiveInSitemap": true,
+  "performance": {
+    "profile": {
+      "viewport": "390x844",
+      "cpuSlowdown": 4,
+      "latencyMs": 150,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "cache": "disabled",
+      "runsPerPage": 2,
+      "observation": "load + 8 seconds; no scroll or click",
+      "browser": "152.0.7977.84"
+    },
+    "rows": [
+      {
+        "route": "/mba",
+        "run": 1,
+        "error": null,
+        "lcp": 4224,
+        "cls": 0,
+        "ttfb": 1169.2999999821186,
+        "fcp": 4224,
+        "bytes": 224469,
+        "requests": 22,
+        "byType": {
+          "Document": 13203,
+          "Image": 30252,
+          "Stylesheet": 30254,
+          "Script": 145322,
+          "Other": 5070,
+          "Fetch": 368
+        }
+      },
+      {
+        "route": "/mba",
+        "run": 2,
+        "error": null,
+        "lcp": 2808,
+        "cls": 0,
+        "ttfb": 65.90000000596046,
+        "fcp": 2808,
+        "bytes": 219457,
+        "requests": 21,
+        "byType": {
+          "Document": 13203,
+          "Image": 30245,
+          "Stylesheet": 30254,
+          "Script": 145322,
+          "Fetch": 433
+        }
+      },
+      {
+        "route": "/mba-dba/mba-direction-strategie-croissance",
+        "run": 1,
+        "error": null,
+        "lcp": 2520,
+        "cls": 0,
+        "ttfb": 80.59999999403954,
+        "fcp": 2520,
+        "bytes": 244644,
+        "requests": 25,
+        "byType": {
+          "Document": 12192,
+          "Image": 47336,
+          "Stylesheet": 30254,
+          "Script": 146001,
+          "Fetch": 8861
+        }
+      },
+      {
+        "route": "/mba-dba/mba-direction-strategie-croissance",
+        "run": 2,
+        "error": null,
+        "lcp": 2544,
+        "cls": 0,
+        "ttfb": 72.40000000596046,
+        "fcp": 2544,
+        "bytes": 244629,
+        "requests": 25,
+        "byType": {
+          "Document": 12193,
+          "Image": 47329,
+          "Stylesheet": 30254,
+          "Script": 145968,
+          "Fetch": 8885
+        }
+      },
+      {
+        "route": "/mba-dba/candidature?programme=mba-direction-strategie-croissance",
+        "run": 1,
+        "error": null,
+        "lcp": 2376,
+        "cls": 0,
+        "ttfb": 143.5,
+        "fcp": 2376,
+        "bytes": 206736,
+        "requests": 21,
+        "byType": {
+          "Document": 9358,
+          "Image": 12454,
+          "Stylesheet": 30254,
+          "Script": 150202,
+          "Fetch": 4468
+        }
+      },
+      {
+        "route": "/mba-dba/candidature?programme=mba-direction-strategie-croissance",
+        "run": 2,
+        "error": null,
+        "lcp": 2304,
+        "cls": 0,
+        "ttfb": 101.19999998807907,
+        "fcp": 2304,
+        "bytes": 206745,
+        "requests": 21,
+        "byType": {
+          "Document": 9358,
+          "Image": 12454,
+          "Stylesheet": 30245,
+          "Script": 150220,
+          "Fetch": 4468
+        }
+      },
+      {
+        "route": "/",
+        "run": 1,
+        "error": null,
+        "lcp": 3656,
+        "cls": 0,
+        "ttfb": 215,
+        "fcp": 3592,
+        "bytes": 296342,
+        "requests": 34,
+        "byType": {
+          "Document": 43305,
+          "Image": 67517,
+          "Stylesheet": 30237,
+          "Script": 147497,
+          "Fetch": 7786,
+          "Media": 0
+        }
+      },
+      {
+        "route": "/",
+        "run": 2,
+        "error": null,
+        "lcp": 4984,
+        "cls": 0,
+        "ttfb": 206.7000000178814,
+        "fcp": 4920,
+        "bytes": 296308,
+        "requests": 34,
+        "byType": {
+          "Document": 43287,
+          "Image": 67512,
+          "Stylesheet": 30237,
+          "Script": 147468,
+          "Fetch": 7804,
+          "Media": 0
+        }
+      }
+    ]
+  },
+  "statusCounts24": {
+    "EXISTANT À AMÉLIORER": 12,
+    "EXISTANT ET FONCTIONNEL": 3,
+    "ABSENT": 8,
+    "NON VÉRIFIABLE": 1
+  }
+}

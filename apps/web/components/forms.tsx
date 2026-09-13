@@ -149,7 +149,7 @@ export function ContactForm() {
         Les données de ce formulaire servent à traiter votre demande, sans
         abonnement publicitaire automatique. N’indiquez pas de données
         sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
-        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        <a href="/vos-droits">Vos droits</a>. Votre demande est conservée par le centre pour son suivi,
         sans email automatique.
       </p>
       <TurnstileWidget
@@ -285,7 +285,7 @@ export function QuoteForm({
         Les données de ce formulaire servent à traiter votre demande, sans
         abonnement publicitaire automatique. N’indiquez pas de données
         sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
-        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        <a href="/vos-droits">Vos droits</a>. Votre demande est conservée par le centre pour son suivi,
         sans email automatique.
       </p>
       <TurnstileWidget
@@ -397,7 +397,7 @@ export function EnrollmentForm({
         Les données de ce formulaire servent à traiter votre demande, sans
         abonnement publicitaire automatique. N’indiquez pas de données
         sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
-        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        <a href="/vos-droits">Vos droits</a>. Votre demande est conservée par le centre pour son suivi,
         sans email automatique.
       </p>
       <TurnstileWidget
@@ -492,7 +492,7 @@ export function TrainingSidebarLeadForm({
         Les données de ce formulaire servent à traiter votre demande, sans
         abonnement publicitaire automatique. N’indiquez pas de données
         sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
-        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        <a href="/vos-droits">Vos droits</a>. Votre demande est conservée par le centre pour son suivi,
         sans email automatique.
       </p>
       <TurnstileWidget

@@ -9,7 +9,7 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 export function PublicChrome({ children }: { children: React.ReactNode }) {
   const path = usePathname();
-  const privatePage = ["/apprentissage", "/connexion", "/recuperation"].some(
+  const privatePage = ["/apprentissage", "/connexion", "/recuperation", "/admin"].some(
     (p) => path === p || path.startsWith(p + "/"),
   );
   return (
@@ -17,7 +17,7 @@ export function PublicChrome({ children }: { children: React.ReactNode }) {
       {!privatePage && <Header />}
       {children}
       {!privatePage && <Footer />}
-      {!privatePage && <VisitorAssistant />}
+      {!privatePage && path !== "/afrique" && !path.startsWith("/mba-dba/merci") && <VisitorAssistant />}
     </>
   );
 }

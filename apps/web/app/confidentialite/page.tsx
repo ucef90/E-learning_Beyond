@@ -1,147 +1,151 @@
 import Link from "next/link";
 import { QualityLayout, QualityCard } from "@/components/quality-layout";
+import { ConsentSettings } from "@/components/campaign-consent";
+import { company } from "@/lib/company";
+import { centre } from "@/lib/centre";
 export const metadata = {
   title: "Données personnelles et cookies | Beyond Expertise",
-  robots: { index: false },
 };
 export default function Page() {
   return (
     <QualityLayout
-      title="Vos données sur cette plateforme."
-      intro="Notice de la plateforme — mise à jour le 13 septembre 2026. Contact : contact@beyondexpertise.eu · 09 54 70 23 80."
+      title="Vos données, vos choix."
+      intro="Politique de confidentialité — version du 13 septembre 2026. Les demandes restent accessibles même lorsque vous refusez les cookies facultatifs."
     >
-      <QualityCard title="Qui utilise les données ?">
+      <QualityCard title="Responsable du traitement">
         <p>
-          Beyond Expertise utilise les données pour traiter vos demandes et
-          organiser les formations. Pour toute question sur vos données ou pour
-          exercer vos droits, contactez le centre aux coordonnées indiquées
-          ci-dessus. Les informations sont hébergées sur le serveur de la
-          plateforme en France ; l’accès aux dossiers est réservé aux personnes
-          habilitées.
+          {company.name}, {company.address}, SIREN {company.siren}, est
+          responsable des traitements du site. Contact :{" "}
+          <a href={centre.emailHref}>{centre.email}</a>.
         </p>
       </QualityCard>
-      <QualityCard title="Données, usages et destinataires">
-        <ul>
-          <li>
-            Candidatures MBA/DBA : identité, coordonnées, pays, formation
-            antérieure, expérience, fonction, projet et financement envisagé,
-            afin d’étudier la demande et de préparer l’entretien. Les dossiers
-            et notes de suivi sont accessibles à l’administration. Aucune
-            utilisation publicitaire ni transmission à un partenaire n’est
-            déduite de cette demande.
-          </li>
-          <li>
-            Contact, devis et inscription : coordonnées, entreprise éventuelle,
-            formation et besoin exprimé, pour instruire la demande. Accès
-            réservé aux personnes habilitées à son traitement.
-          </li>
-          <li>
-            Comptes : email, profil, rôles et mot de passe haché ; session de
-            connexion et sécurité d’accès.
-          </li>
-          <li>
-            Apprentissage : parcours attribués, leçons déclarées lues, réponses
-            et scores de quiz, brouillons, travaux et retours. L’apprenant
-            accède à ses données ; le formateur aux groupes qui lui sont
-            attribués ; l’administration aux fonctions autorisées.
-          </li>
-          <li>
-            Qualité et droits : demande, coordonnées déclarées, appréciation ou
-            niveau seulement lorsque pertinent, statut, responsable, échéance et
-            historique. Les administrateurs habilités traitent ces demandes ;
-            les identités déclarées ne sont pas automatiquement vérifiées.
-          </li>
-        </ul>
+      <QualityCard title="Demandes commerciales et candidatures">
         <p>
-          Les champs marqués * sont nécessaires à la demande correspondante.
-          Leur absence peut empêcher son enregistrement. N’ajoutez pas de
-          données sensibles, pièces d’identité ou mots de passe dans un message
-          libre. Les exports doivent être conservés dans un emplacement protégé.
+          Nous utilisons les coordonnées, le pays, le programme choisi et les
+          informations de projet que vous transmettez pour répondre à votre
+          demande, vérifier l’adéquation du parcours et préparer les échanges et
+          documents précontractuels. Les champs obligatoires sont indiqués dans
+          le formulaire ; le téléphone devient obligatoire pour un rappel
+          demandé.
+        </p>
+        <p>
+          Ces traitements répondent à votre demande précontractuelle. Le rappel
+          ou contact est expressément demandé dans le formulaire, sans
+          inscription automatique à une newsletter. Vos disponibilités et les
+          notes de suivi sont accessibles aux personnes autorisées de Beyond.
+        </p>
+        <p>
+          Les nouveaux prospects du formulaire Afrique sont supprimés
+          automatiquement après douze mois s’ils n’ont pas été inscrits. Les
+          dossiers de candidature et de formation suivent leur propre cycle :
+          traitement du dossier, durée de la relation et, pour les pièces
+          nécessaires, obligations de preuve, comptabilité ou litiges. Une
+          demande d’effacement permet d’examiner les données qui ne sont plus
+          nécessaires ; l’effacement n’est pas automatique pour l’ensemble des
+          dossiers historiques.
         </p>
       </QualityCard>
-      <QualityCard title="Bases légales et conservation à confirmer">
+      <QualityCard title="Mesure des campagnes, avec votre accord">
         <p>
-          Le centre doit documenter la base légale de chaque finalité et les
-          durées ou critères applicables, y compris pour les demandes, preuves
-          pédagogiques, journaux et sauvegardes. Le contrat ne couvre pas
-          automatiquement tout usage ; les obligations légales doivent être
-          identifiées et l’intérêt légitime justifié lorsqu’il est retenu.
+          Si vous acceptez les statistiques, nous conservons pendant trente
+          jours dans votre navigateur la première et la dernière origine de
+          campagne : source, support, campagne, contenu, terme, pays de
+          campagne, page d’arrivée et domaine référent. Le pays de campagne est
+          distinct de votre pays de résidence. Ces informations peuvent être
+          rattachées à la demande que vous envoyez.
         </p>
         <p>
-          Aucun consentement publicitaire n’est demandé ni présumé à partir d’un
-          formulaire. Le cookie de connexion expire au plus tard après huit
-          heures ; la déconnexion invalide la session. Les données métier et
-          archives n’ont pas encore de purge automatique fondée sur une
-          politique validée du centre. Leur conservation ne doit pas être
-          présentée comme définitivement conforme.
+          La mesure interne enregistre des événements tels que la consultation
+          d’un programme, le début de formulaire, le téléchargement d’une
+          brochure ou un clic téléphone/WhatsApp. Les événements sont conservés
+          quatre-vingt-dix jours. Ils ne contiennent ni nom, ni email, ni numéro
+          de téléphone, ni identifiant de session visiteur, ni adresse IP. Les
+          inscriptions sont comptées à partir des dossiers réellement confirmés
+          par l’administration.
+        </p>
+        <p>
+          Google Analytics 4 peut être activé si configuré et après accord aux
+          statistiques. Meta Pixel peut être activé si configuré et après accord
+          à la mesure publicitaire. Ces prestataires peuvent traiter des données
+          techniques et des identifiants dans leurs environnements, y compris
+          hors de l’Union européenne selon leurs garanties contractuelles. Aucun
+          de ces outils n’est chargé sans le consentement correspondant. Les
+          champs des formulaires ne leur sont pas transmis par notre
+          instrumentation.
+        </p>
+        <p>
+          <a href="https://policies.google.com/privacy">Politique de Google</a>{" "}
+          ·{" "}
+          <a href="https://www.facebook.com/privacy/policy/">
+            Politique de Meta
+          </a>
+          . Le refus ne bloque ni les formulaires ni les cours.
         </p>
       </QualityCard>
-      <QualityCard title="Stockage, cookies et chargements">
+      <QualityCard title="Cookies et stockage nécessaires">
         <p>
-          Les données de la plateforme sont stockées sur le VPS OVH de Beyond
-          à Gravelines, en France. La vidéo de l’accueil, les photos et les logos sont
-          servis localement : leur affichage ne contacte pas de service tiers.
-          Aucun outil de publicité ou de mesure d’audience n’est intégré dans
-          cette version.
+          Votre choix de consentement est conservé six mois. La confirmation
+          d’une demande utilise le stockage de session du navigateur pour
+          retrouver son reçu sans afficher vos coordonnées dans l’adresse de la
+          page. La connexion utilise une session sécurisée ; les informations
+          nécessaires à la progression et aux travaux sont liées à votre compte.
         </p>
         <p>
-          Le cookie HttpOnly <code>be_elearning_session</code> est réservé à la
-          connexion demandée. Les brouillons de notebook sont enregistrés sur le
-          serveur de la plateforme ; le laboratoire exécute le calcul dans le navigateur
-          avec des ressources servies localement sur une origine distincte.
-          Aucun bandeau de consentement publicitaire n’est nécessaire pour ces
-          seuls usages strictement nécessaires.
+          Vous pouvez modifier vos choix à tout moment. Le retrait supprime
+          l’attribution enregistrée dans le navigateur et arrête les nouvelles
+          mesures après rechargement. Il ne retire pas rétroactivement une
+          demande déjà enregistrée ; contactez-nous pour exercer vos droits.
+        </p>
+        <ConsentSettings />
+      </QualityCard>
+      <QualityCard title="Sécurité, hébergement et destinataires">
+        <p>
+          Le site et sa base de données sont hébergés chez OVHcloud en France.
+          Les données sont accessibles aux personnels autorisés selon leurs
+          fonctions. Les accès d’administration sont protégés. Des informations
+          techniques limitées sont utilisées pour la sécurité, la limitation des
+          abus et le fonctionnement du service.
         </p>
         <p>
-          Cloudflare Turnstile peut être activé par configuration pour la
-          protection des formulaires. Son activation introduit des échanges avec
-          Cloudflare : le centre devra alors documenter prestataire, finalité,
-          données techniques, garanties et transferts éventuels. Les liens vers
-          des sources officielles n’ouvrent leur site qu’à votre demande.
+          Lorsqu’il est activé, le contrôle anti-robot Cloudflare Turnstile
+          protège les formulaires. Un clic sur un service externe, tel que
+          WhatsApp, vous fait accéder à ce service sous ses propres conditions.
+          Nous ne vendons pas vos données.
+        </p>
+      </QualityCard>
+      <QualityCard title="Plateforme pédagogique, assistance et IA">
+        <p>
+          Les comptes, inscriptions, travaux, évaluations, demandes
+          d’assistance, réclamations et demandes d’exercice de droits sont
+          traités pour fournir le service et assurer son suivi. Les ressources
+          de laboratoire sont servies depuis l’infrastructure Beyond ; les liens
+          externes sont signalés lorsqu’ils mènent vers un autre service.
         </p>
         <p>
-          Les accès au site et au laboratoire utilisent HTTPS. Les sauvegardes
-          et journaux techniques servent à la continuité et à la sécurité du
-          service ; leur accès est réservé aux administrateurs habilités.
+          Évitez de saisir des données sensibles dans l’assistant public.
+          Consultez la{" "}
+          <Link href="/transparence-ia">
+            présentation de ses usages et limites
+          </Link>
+          . Les échanges de l’assistant ne servent pas à mesurer les campagnes
+          publicitaires.
         </p>
       </QualityCard>
       <QualityCard title="Exercer vos droits">
         <p>
-          Selon votre situation, vous pouvez demander accès, rectification,
-          effacement, limitation, opposition ou portabilité ; retirer un
-          consentement lorsque cette base est utilisée ; et saisir la CNIL. Le
-          délai de principe est d’un mois, avec prolongation motivée possible
-          dans les conditions légales. L’effacement n’est pas automatique
-          lorsque certaines données doivent légalement être conservées.
+          Vous pouvez demander l’accès, la rectification, l’effacement, la
+          limitation, l’opposition ou la portabilité lorsque ce droit
+          s’applique. Utilisez{" "}
+          <Link href="/vos-droits">le formulaire d’exercice des droits</Link> ou
+          écrivez à {centre.email}. Une vérification proportionnée de votre
+          identité peut être nécessaire.
         </p>
-        <div className="regulatory-actions">
-          <Link className="button button-primary" href="/vos-droits">
-            Faire une demande ou exporter mes données
-          </Link>
-          <a href="https://www.cnil.fr/fr/adresser-une-plainte">
-            Saisir la CNIL
-          </a>
-        </div>
         <p>
-          Les formulaires locaux n’envoient pas d’email automatique. Pour
-          contacter effectivement le centre, utilisez contact@beyondexpertise.eu
-          ou le téléphone indiqué.
+          Nous répondons en principe dans un délai d’un mois, sous réserve des
+          prolongations prévues pour les demandes complexes. Vous pouvez saisir
+          la <a href="https://www.cnil.fr/fr/plaintes">CNIL</a> si vous estimez
+          que vos droits ne sont pas respectés.
         </p>
-      </QualityCard>
-      <QualityCard title="IA et décisions">
-        <p>
-          Le quiz utilise un barème fixe ; cette version n’intègre pas de
-          décision d’admission ni de correction par un modèle d’IA. L’assistant
-          visiteurs consulte uniquement les informations publiques du catalogue.
-          Les messages sont traités sur cet ordinateur ; aucun échange n’est
-          envoyé à un fournisseur d’IA externe par cette intégration. Les
-          conversations ne sont pas enregistrées dans la base ni dans un
-          historique sur disque. Elles restent en mémoire dans la page jusqu’à
-          effacement ou rechargement. Un compteur par adresse réseau, conservé
-          une minute en mémoire, limite les demandes. Ne transmettez pas de
-          données personnelles dans l’assistant.
-        </p>
-        <Link href="/transparence-ia">Comprendre les usages de l’IA</Link>
       </QualityCard>
     </QualityLayout>
   );

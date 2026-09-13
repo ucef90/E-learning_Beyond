@@ -3,6 +3,7 @@ import { FormEvent, useRef, useState } from "react";
 import Link from "next/link";
 import { executiveProgrammes, executiveServices } from "@/lib/executive";
 import { api } from "@/lib/learning-api";
+import { attribution, conversion, leadRequestKey, track } from "@/lib/campaign-tracking";
 import { TurnstileWidget } from "./turnstile-widget";
 export function ExecutiveApplication({
   initialProgramme = "",
@@ -29,6 +30,7 @@ export function ExecutiveApplication({
     [receipt, setReceipt] = useState(""),
     [token, setToken] = useState("");
   const requestKey = useRef("");
+  const started = useRef(false);
   const service = executiveServices.some((p) => p.slug === programme);
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -39,6 +41,8 @@ export function ExecutiveApplication({
     if (!requestKey.current) requestKey.current = crypto.randomUUID();
     const body = {
       requestKey: requestKey.current,
+      attribution: attribution(),
+      leadRequestKey: leadRequestKey(),
       programmeSlug: programme,
       requestType: service ? "COMPANY" : String(values.get("requestType")),
       fullName: String(values.get("fullName")),
@@ -59,6 +63,7 @@ export function ExecutiveApplication({
     try {
       const result = await api("/executive/applications", "POST", body);
       setReceipt(result.reference);
+      if(body.requestType === "APPLICATION") conversion("application_submitted",requestKey.current,programme);
     } catch (err) {
       setError((err as Error).message);
     } finally {
@@ -89,7 +94,7 @@ export function ExecutiveApplication({
       </div>
     );
   return (
-    <form className="executive-form" onSubmit={submit}>
+    <form className="executive-form" onSubmit={submit} onFocus={()=>{if(!started.current){track("form_start",executiveProgrammes.some(p=>p.slug===programme)?programme:undefined);started.current=true;}}}>
       <fieldset disabled={busy}>
         <legend>1. Votre projet</legend>
         <label>
@@ -255,7 +260,7 @@ export function ExecutiveApplication({
           et me recontacter à ce sujet. *
         </span>
       </label>
-      <TurnstileWidget onVerify={setToken} />
+      <TurnstileWidget onVerify={setToken} onExpire={()=>setToken("")} />
       {error && (
         <p role="alert" className="executive-error">
           {error} Vos informations restent dans le formulaire.

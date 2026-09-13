@@ -23,10 +23,9 @@ export default function Page() {
           Certains droits dépendent de la base légale et de la situation.
         </p>
         <p>
-          Cette version locale enregistre le formulaire sur cet ordinateur, sans
-          envoyer d’email automatique. Pour joindre le centre depuis cette
-          copie, utilisez aussi l’email ou le téléphone. Une référence vous
-          permet de suivre votre demande avec lui.
+          Ce formulaire enregistre votre demande dans le registre du centre.
+          Conservez la référence affichée après envoi pour suivre son traitement.
+          Vous pouvez également contacter le centre par email ou téléphone.
         </p>
         <p>
           Le centre peut demander une précision proportionnée pour vérifier

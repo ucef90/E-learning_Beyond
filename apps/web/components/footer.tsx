@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ConsentSettings } from "./campaign-consent";
 import { QualityBadge, RatingStars } from "./trust-elements";
 import { CentreContact, qualityLinks } from "./quality-layout";
 
@@ -50,6 +51,7 @@ export function Footer() {
               </p>
               <p>
                 <Link href="/mba">Parcours MBA</Link>
+              </p><p><Link href="/afrique">MBA & DBA en Afrique</Link>
               </p>
               <p>
                 <Link href="/dba">Parcours DBA</Link>
@@ -118,6 +120,8 @@ export function Footer() {
             </Link>
           ))}
           <Link href="/mentions-legales">Mentions légales</Link>
+          <Link href="/conditions-formation">Conditions de formation</Link>
+          <ConsentSettings />
           <Link href="/confidentialite">Données personnelles</Link>
           <Link href="/rgpd-ai-act">Formations RGPD et AI Act</Link>
           <Link href="/transparence-ia">Usages de l’IA</Link>
