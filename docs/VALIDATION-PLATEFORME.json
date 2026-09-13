@@ -66,12 +66,41 @@
     "previousCoursesPreserved": 7
   },
   "limits": [
-    "Aucune mesure ni installation sur le VPS OVH",
     "Relecture pédagogique humaine requise",
     "TP Excel et Power BI à vérifier sur les postes/licences retenus",
     "Courriels automatiques non raccordés",
     "DNS, TLS, sauvegarde externe et restauration distante à tester",
-    "Qualiopi en cours et décisions légales/qualité non validées"
+    "Qualiopi en cours et décisions légales/qualité non validées",
+    "Pas de mesure de capacité en charge mixte sur le VPS ; sauvegarde indépendante et courriel automatique à finaliser"
   ],
-  "privateEvidenceDirectory": "work/validation"
+  "privateEvidenceDirectory": "work/validation",
+  "ovhDeployment": {
+    "at": "2026-09-13T11:22:20Z",
+    "site": "https://beyond-expertise.com",
+    "commit": "36529a290f7344835cd28e752940379d6b2495de",
+    "image": "beyond-platform:36529a2",
+    "os": "Ubuntu 26.04 LTS",
+    "database": "PostgreSQL 16",
+    "publicTrainings": 83,
+    "privateDraftsImported": 5,
+    "existingCustomerRecordsPreserved": true,
+    "migrationsApplied": 5,
+    "servicesHealthy": 3,
+    "apiSmoke": "PASS",
+    "separateLabHttps": "PASS",
+    "backupRestoreTablesCompared": 46,
+    "backupRestore": "PASS",
+    "otherHostedSites": "HTTP 200",
+    "browser": {
+      "at": "2026-09-13T11:29:01.509Z",
+      "site": "https://beyond-expertise.com",
+      "status": "PASS",
+      "loginThroughForm": true,
+      "adminStudio": true,
+      "mobileNoOverflow": true,
+      "pythonViaSeparateHttpsOrigin": true,
+      "pythonOutput": "Matplotlib is building the font cache; this may take a moment.\nLAB_HTTPS_OK 42 42\n",
+      "pageErrors": []
+    }
+  }
 }
