@@ -6,24 +6,10 @@ import { ArrowLeft, ArrowRight, Expand, X } from "lucide-react";
 
 const photographs = [
   {
-    id: "formateur-salle-v2",
-    title: "Transmettre et faire pratiquer",
-    category: "Animation en salle",
-    referencePhoto: true,
-    alt: "Mise en situation créée par IA à partir d’une photo du formateur : en costume bleu clair, il anime une séance devant des apprenants.",
-  },
-  {
     id: "atelier-collaboratif",
     title: "Apprendre ensemble",
     category: "Travail en groupe",
     alt: "Scène d’illustration : quatre professionnels échangent autour de documents et d’ordinateurs dans une salle de formation.",
-  },
-  {
-    id: "formateur-reunion-v2",
-    title: "Construire les projets ensemble",
-    category: "Réunion de travail",
-    referencePhoto: true,
-    alt: "Mise en situation créée par IA à partir d’une photo du formateur : il échange avec trois collègues autour d’une table de réunion.",
   },
   {
     id: "echanges-apprenants",
@@ -86,8 +72,8 @@ export function ExecutiveGallery() {
           </h2>
         </div>
         <p>
-          Une séance avec le formateur, un projet discuté en équipe, une étape
-          célébrée : six scènes pour se projeter dans un parcours MBA ou DBA.
+          Apprendre avec d’autres, confronter ses idées et célébrer une étape :
+          quatre scènes pour se projeter dans un parcours MBA ou DBA.
         </p>
       </div>
       <div className="executive-gallery-grid">
@@ -115,19 +101,13 @@ export function ExecutiveGallery() {
             <figcaption>
               <strong>{photo.title}</strong>
               <span>{photo.category}</span>
-              {photo.referencePhoto && (
-                <small>
-                  Mise en situation IA à partir d’une photo du formateur
-                </small>
-              )}
             </figcaption>
           </figure>
         ))}
       </div>
       <p className="executive-gallery-note">
-        Galerie d’illustration créée par IA. Les mises en situation du formateur
-        utilisent une photo fournie ; les autres personnages sont fictifs. Ces
-        scènes ne documentent pas des événements réels.
+        Images d’illustration créées par IA, avec des personnages fictifs. Elles
+        ne représentent pas des promotions réelles de Beyond.
       </p>
 
       <dialog
@@ -222,9 +202,7 @@ export function ExecutiveGallery() {
           </div>
         </div>
         <p id="executive-gallery-dialog-note">
-          {photograph?.referencePhoto
-            ? "Mise en situation IA à partir d’une photo du formateur · Autres personnages fictifs"
-            : "Illustration créée par IA · Personnages fictifs"}
+          Illustration créée par IA · Personnages fictifs
         </p>
       </dialog>
     </section>

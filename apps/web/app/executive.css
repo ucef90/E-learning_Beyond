@@ -1158,7 +1158,6 @@
   .executive-gallery-open img { transition: none; }
   .executive-gallery-open:hover img { transform: none; }
 }
-.executive-gallery-grid figcaption small { flex-basis: 100%; color: #52617a; font-size: .75rem; line-height: 1.55; }
 .executive section.executive-gallery[id] { scroll-margin-top: 200px; }
 @media (max-width: 1000px) {
   .executive section.executive-gallery[id] { scroll-margin-top: 110px; }
