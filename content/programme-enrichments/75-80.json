@@ -1,0 +1,168 @@
+[
+  {
+    "index": 75,
+    "slug": "data-quality-et-gouvernance-des-donnees",
+    "units": [
+      [
+        "Définir un seuil d’acceptation relié à une décision concrète ; comparer coût d’une erreur non détectée et coût d’un faux signal d’anomalie.",
+        "Distinguer une donnée techniquement valide d’une donnée impropre à une décision.",
+        "Matrice usages et dimensions de qualité."
+      ],
+      [
+        "Relier anomalie, origine, règle métier et propriétaire ; rechercher les causes en amont.",
+        "Éviter de corriger périodiquement le symptôme sans traiter le processus source.",
+        "Analyse de causes et responsabilités."
+      ],
+      [
+        "Définir seuils, fréquence, gravité, quarantaine et circuit de résolution des anomalies.",
+        "Gérer une exception légitime sans désactiver le contrôle pour toute la population.",
+        "Catalogue de contrôles et workflow d’anomalies."
+      ],
+      [
+        "Prioriser selon impact, récurrence et effort ; mesurer coût des erreurs et efficacité des corrections.",
+        "Vérifier qu’une baisse d’alertes vient d’une amélioration réelle de qualité.",
+        "Plan d’amélioration et tableau de suivi."
+      ]
+    ]
+  },
+  {
+    "index": 76,
+    "slug": "power-bi-pour-controle-de-gestion",
+    "units": [
+      [
+        "Structurer réalisé, budget, prévision, calendrier et axes analytiques au grain approprié.",
+        "Réconcilier des sources dont les périodes et plans de comptes diffèrent.",
+        "Modèle financier et table de correspondance."
+      ],
+      [
+        "Maîtriser contexte de filtre, CALCULATE, itérations et mesures temporelles.",
+        "Corriger un total différent de la somme des lignes et justifier la logique métier.",
+        "Mesures DAX et tests de totaux."
+      ],
+      [
+        "Décomposer écarts volume, prix et mix ; distinguer simulation et données constatées.",
+        "Analyser un écart favorable global masquant des segments défavorables.",
+        "Analyse des écarts et scénarios documentés."
+      ],
+      [
+        "Organiser actualisation, passerelle si nécessaire, droits et sécurité au niveau des lignes.",
+        "Tester un rôle restreint et détecter une actualisation partielle.",
+        "Plan de diffusion et recette des accès."
+      ]
+    ]
+  },
+  {
+    "index": 77,
+    "slug": "sql-pour-data-analyst",
+    "units": [
+      [
+        "Définir population, période, fuseau, grain et exclusions avant extraction.",
+        "Corriger un biais de sélection dû à un filtre sur le statut actuel.",
+        "Contrat d’extraction et population de référence."
+      ],
+      [
+        "Contrôler cardinalités, lignes sans correspondance et agrégation au bon niveau.",
+        "Détecter le double comptage d’une commande ayant plusieurs lignes et paiements.",
+        "Requête multi-tables et contrôle des montants."
+      ],
+      [
+        "Décomposer en CTE ; employer fenêtres pour rangs, cohortes, cumuls et évolutions.",
+        "Construire une analyse de rétention avec une définition stable de cohorte.",
+        "Analyse SQL structurée et règles métier."
+      ],
+      [
+        "Vérifier volumes, totaux, doublons, dates extrêmes et plan d’exécution.",
+        "Comparer extraction à un échantillon validé puis expliquer tout écart.",
+        "Extraction documentée et rapport de contrôle."
+      ]
+    ]
+  },
+  {
+    "index": 78,
+    "slug": "data-visualisation-pour-decideurs",
+    "units": [
+      [
+        "Identifier comparaison, tendance, composition ou distribution selon la décision attendue.",
+        "Réduire plusieurs questions concurrentes à un parcours de lecture priorisé.",
+        "Brief de visualisation et questions clés."
+      ],
+      [
+        "Choisir barres, lignes, nuage ou tableau selon les données ; vérifier échelles et dénominateurs.",
+        "Remplacer une représentation ambiguë par une comparaison plus lisible.",
+        "Sélection de graphiques et choix argumentés."
+      ],
+      [
+        "Hiérarchiser titres, annotations, couleurs et espace ; rendre l’information accessible sans couleur seule.",
+        "Tester lisibilité sur petit écran et distinction des séries en niveaux de gris.",
+        "Maquette accessible et guide de lecture."
+      ],
+      [
+        "Vérifier compréhension, fidélité aux données et capacité à décider avec un lecteur test.",
+        "Présenter les limites d’une recommandation lorsque les données sont incomplètes.",
+        "Visualisation révisée et note décisionnelle."
+      ]
+    ]
+  },
+  {
+    "index": 79,
+    "slug": "data-analyst-excel-power-query-et-power-bi",
+    "units": [
+      [
+        "Utiliser références structurées, validations de saisie et contrôles croisés ; distinguer valeur stockée, format d’affichage et formule de calcul.",
+        "Repérer cellules fusionnées, totaux intégrés et formats incompatibles avec l’analyse.",
+        "Classeur source normalisé et contrôlé."
+      ],
+      [
+        "Appliquer typage, normalisation, dédoublonnage et traitement explicite des erreurs.",
+        "Corriger des formats de dates et nombres provenant de locales différentes.",
+        "Requête Power Query et journal de nettoyage."
+      ],
+      [
+        "Combiner fichiers, fusionner tables et paramétrer chemins avec contrôles de schéma.",
+        "Gérer l’arrivée d’un fichier dont une colonne a changé de nom.",
+        "Flux de consolidation et scénario d’erreur."
+      ],
+      [
+        "Construire modèle en étoile, relations et calendrier ; distinguer mesure et colonne calculée.",
+        "Détecter une relation ambiguë qui fausse les agrégats.",
+        "Modèle Power BI et premières mesures validées."
+      ],
+      [
+        "Hiérarchiser KPI, filtres et détail ; conserver unités, période et comparabilité.",
+        "Tester une page sur plusieurs segments sans perdre le contexte de lecture.",
+        "Tableau de bord et grille de recette."
+      ],
+      [
+        "Organiser actualisation, contrôles, responsabilités et documentation des indicateurs.",
+        "Faire produire le rapport mensuel par un autre utilisateur avec le mode opératoire.",
+        "Reporting récurrent et guide d’exploitation."
+      ]
+    ]
+  },
+  {
+    "index": 80,
+    "slug": "ia-generative-pour-les-organisations",
+    "units": [
+      [
+        "Distinguer génération, recherche et automatisation ; repérer hallucinations et limites de contexte.",
+        "Comparer une tâche vérifiable et une tâche dont l’erreur serait difficile à détecter.",
+        "Carte des capacités et limites."
+      ],
+      [
+        "Évaluer valeur, données nécessaires, effort d’intégration et coût de contrôle humain.",
+        "Construire un pilote avec baseline et critères d’arrêt mesurables.",
+        "Matrice des usages et fiche de pilote."
+      ],
+      [
+        "Organiser traitement des exceptions, accompagnement des nouveaux usages et retrait d’un outil ; mesurer la capacité des équipes à appliquer les consignes.",
+        "Traiter un usage informel utile mais incompatible avec les règles de confidentialité.",
+        "Cadre d’usage et plan d’accompagnement."
+      ],
+      [
+        "Mesurer qualité, adoption utile, coûts et effets sur les processus ; prévoir revue et retrait.",
+        "Décider de généraliser uniquement après comparaison de résultats représentatifs.",
+        "Feuille de route et bilan de pilote."
+      ]
+    ]
+  }
+]

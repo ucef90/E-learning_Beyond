@@ -1,0 +1,182 @@
+[
+  {
+    "index": 15,
+    "slug": "iact-ia-act-deployer-un-systeme-d-intelligence-artificielle-conforme-au-reglement-ia-ia-act",
+    "units": [
+      [
+        "Qualifier fournisseur, déployeur, importateur et modification substantielle selon les définitions du règlement.",
+        "Analyser une intégration de modèle tiers qui change les responsabilités de l’entreprise.",
+        "Cartographie des acteurs et périmètre documenté."
+      ],
+      [
+        "Justifier le classement selon finalité, contexte et annexes ; distinguer interdictions et transparence.",
+        "Reclasser un outil passant du marketing au recrutement et documenter les incertitudes.",
+        "Arbre de qualification avec sources à vérifier."
+      ],
+      [
+        "Construire une chaîne de traçabilité entre risque identifié, mesure retenue, test effectué et preuve datée ; documenter les écarts restant ouverts.",
+        "Repérer les preuves manquantes dans un dossier fournisseur et demander les clarifications utiles.",
+        "Matrice obligations, preuves et responsables."
+      ],
+      [
+        "Articuler base légale, minimisation, AIPD et risques IA sans confondre leurs périmètres.",
+        "Comparer données des prompts, corpus documentaire et journaux d’exploitation.",
+        "Fiche d’articulation RGPD et règlement IA."
+      ],
+      [
+        "Définir limites d’usage, consignes opérateur, interventions humaines et traitement des incidents.",
+        "Simuler une dérive nécessitant suspension et conservation des éléments d’analyse.",
+        "Procédure de supervision et scénario d’incident."
+      ],
+      [
+        "Prioriser les écarts selon criticité, dépendances et effort ; organiser la veille réglementaire.",
+        "Défendre un plan de remédiation devant un comité fictif en explicitant ses limites.",
+        "Feuille de route et dossier de décision."
+      ]
+    ]
+  },
+  {
+    "index": 16,
+    "slug": "iacr-exploiter-l-intelligence-artificielle-pour-optimiser-la-strategie-commerciale-et-la-relation-client",
+    "units": [
+      [
+        "Relier prospection, qualification et fidélisation à des indicateurs de valeur et de qualité.",
+        "Comparer automatisation et assistance sur un dossier commercial sensible.",
+        "Matrice des usages et indicateurs."
+      ],
+      [
+        "Structurer un brief CRM : données nécessaires, exclusions, sources autorisées et conservation.",
+        "Repérer les informations excessives dans un historique client fictif.",
+        "Modèle de brief et règles de données."
+      ],
+      [
+        "Relier besoin, bénéfice démontrable, objection et preuve ; contrôler prix et engagements.",
+        "Produire deux variantes sectorielles sans inventer de référence ni de promesse.",
+        "Proposition personnalisée et grille de contrôle."
+      ],
+      [
+        "Organiser qualification, réponse assistée, escalade humaine et suivi des engagements.",
+        "Traiter une réclamation et une ambiguïté contractuelle dans un jeu de rôle.",
+        "Arbre de traitement des demandes."
+      ],
+      [
+        "Croiser motifs de contact, satisfaction et attrition ; distinguer corrélation et causalité.",
+        "Auditer un classement de retours contenant ironie et messages ambigus.",
+        "Analyse des retours et plan d’actions."
+      ],
+      [
+        "Définir échantillon de contrôle, validation des messages et critères d’arrêt du pilote.",
+        "Mesurer le temps complet, corrections comprises, sur des cas représentatifs.",
+        "Charte d’usage et protocole de pilote."
+      ]
+    ]
+  },
+  {
+    "index": 17,
+    "slug": "gemi-gemini-et-notebooklm-les-outils-ia-de-google-pour-une-productivite-augmentee-en-entreprise",
+    "units": [
+      [
+        "Comparer réponse générale et corpus documentaire ; vérifier accès et limites de l’offre utilisée.",
+        "Choisir l’outil selon confidentialité, besoin de sources et actualité.",
+        "Grille de choix Gemini ou NotebookLM."
+      ],
+      [
+        "Structurer tâche, contexte, contraintes et format ; évaluer avec des exemples de référence.",
+        "Tester la reconnaissance d’une information absente et les consignes contradictoires.",
+        "Bibliothèque de prompts évalués."
+      ],
+      [
+        "Transformer une source en synthèse et note décisionnelle en conservant chiffres et réserves.",
+        "Retrouver chaque affirmation importante dans son document d’origine.",
+        "Kit de communication et traçabilité."
+      ],
+      [
+        "Contrôler unités, périodes, formules et cohérence narrative des présentations proposées.",
+        "Détecter l’interprétation trompeuse d’un tableau incomplet.",
+        "Tableau analysé et présentation vérifiée."
+      ],
+      [
+        "Organiser les sources du carnet et vérifier les citations dans leur contexte.",
+        "Faire ressortir les désaccords entre documents et les lacunes du corpus.",
+        "Carnet documentaire et synthèse sourcée."
+      ],
+      [
+        "Organiser revue humaine, versionnement, partage maîtrisé et retrait des documents périmés.",
+        "Comparer une synthèse avant et après remplacement d’une source.",
+        "Procédure de vérification documentaire."
+      ]
+    ]
+  },
+  {
+    "index": 18,
+    "slug": "duac-uml-2-analyse-et-conception",
+    "units": [
+      [
+        "Choisir abstraction et point de vue ; relier cas d’utilisation, exigences et acceptation.",
+        "Justifier le modèle minimal utile à une décision de conception.",
+        "Plan de modélisation et cas d’utilisation."
+      ],
+      [
+        "Préciser identités, associations, cardinalités et invariants ; distinguer domaine et persistance.",
+        "Modéliser une règle temporelle sans introduire de classe artificielle.",
+        "Diagramme de domaine et invariants."
+      ],
+      [
+        "Attribuer chaque message à une responsabilité métier ; représenter répétitions, délais et compensation d’une action partiellement exécutée.",
+        "Analyser les interactions lors d’une indisponibilité distante.",
+        "Séquences nominales et dégradées."
+      ],
+      [
+        "Utiliser gardes, événements, transitions et concurrence pour représenter le cycle de vie.",
+        "Repérer une transition impossible et un blocage de validation.",
+        "Diagrammes d’activité et d’états."
+      ],
+      [
+        "Relier composants, interfaces et déploiement aux contraintes de disponibilité et sécurité.",
+        "Comparer deux découpages selon couplage et responsabilité.",
+        "Vue d’architecture et décisions justifiées."
+      ],
+      [
+        "Contrôler la traçabilité entre exigences, états, messages et classes.",
+        "Introduire une règle métier et mesurer les modèles à modifier.",
+        "Dossier UML et compte rendu de revue."
+      ]
+    ]
+  },
+  {
+    "index": 19,
+    "slug": "inar-etat-de-l-art-sur-l-intelligence-artificielle-ia-concepts-enjeux-technologies-et-strategies-pour-les-entreprises",
+    "units": [
+      [
+        "Comparer règles, apprentissage statistique, réseaux profonds et génération selon leurs contraintes.",
+        "Expliquer les limites d’un modèle génératif pour une tâche prédictive.",
+        "Panorama argumenté des familles d’IA."
+      ],
+      [
+        "Traduire un besoin en tâche, données, résultat mesurable et coût d’erreur.",
+        "Reformuler une ambition vague en expérimentation avec baseline.",
+        "Fiche d’opportunité et critères de succès."
+      ],
+      [
+        "Distinguer entraînement, inférence, recherche documentaire et orchestration des outils.",
+        "Identifier les dépendances et points de défaillance d’une chaîne IA.",
+        "Architecture fonctionnelle et dépendances."
+      ],
+      [
+        "Analyser erreurs, biais, confidentialité, sécurité et conséquences organisationnelles.",
+        "Arbitrer un usage utile mais exposé à des erreurs coûteuses.",
+        "Registre des risques et mesures de maîtrise."
+      ],
+      [
+        "Définir les preuves attendues à chaque jalon, la représentativité du pilote et les critères permettant de transférer la responsabilité à l’exploitation.",
+        "Décider d’un arrêt lorsque la preuve de robustesse reste insuffisante.",
+        "Plan de projet avec jalons de décision."
+      ],
+      [
+        "Prioriser les initiatives selon valeur, faisabilité, maturité des données et changement.",
+        "Répartir un budget entre fondations, pilotes et généralisation.",
+        "Trajectoire IA et note de priorisation."
+      ]
+    ]
+  }
+]

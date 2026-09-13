@@ -12,6 +12,98 @@ import { RegisterDto } from "./dto/register.dto";
 @Injectable()
 export class AuthService {
   constructor(private readonly prisma: PrismaService) {}
+  async personalData(userId: string) {
+    const [account, learning, progress, quizzes, drafts, submissions] =
+      await Promise.all([
+        this.prisma.user.findUniqueOrThrow({
+          where: { id: userId },
+          select: {
+            id: true,
+            email: true,
+            status: true,
+            createdAt: true,
+            profile: {
+              select: {
+                fullName: true,
+                phone: true,
+                jobTitle: true,
+                locale: true,
+                companyName: true,
+              },
+            },
+            roles: { select: { role: { select: { code: true } } } },
+          },
+        }),
+        this.prisma.learningEnrollment.findMany({
+          where: { userId },
+          select: {
+            groupName: true,
+            expiresAt: true,
+            revokedAt: true,
+            accessReason: true,
+            positioning: true,
+            positioningAt: true,
+            createdAt: true,
+            course: { select: { id: true, title: true, version: true } },
+          },
+        }),
+        this.prisma.lessonProgress.findMany({
+          where: { userId },
+          select: {
+            completed: true,
+            completedAt: true,
+            timeSpentSec: true,
+            lesson: { select: { id: true, title: true } },
+          },
+        }),
+        this.prisma.quizAttempt.findMany({
+          where: { userId },
+          select: {
+            id: true,
+            score: true,
+            answers: true,
+            feedback: true,
+            startedAt: true,
+            completedAt: true,
+            quiz: { select: { title: true } },
+          },
+        }),
+        this.prisma.notebookDraft.findMany({
+          where: { userId },
+          select: {
+            courseId: true,
+            notebook: true,
+            revision: true,
+            updatedAt: true,
+          },
+        }),
+        this.prisma.workSubmission.findMany({
+          where: { userId },
+          select: {
+            id: true,
+            courseId: true,
+            notebook: true,
+            writtenWork: true,
+            comment: true,
+            createdAt: true,
+            feedback: true,
+            grade: true,
+            reviewedAt: true,
+          },
+        }),
+      ]);
+    return {
+      exportedAt: new Date().toISOString(),
+      scope:
+        "Données rattachées au compte connecté. Les demandes publiques et les pièces conservées hors plateforme sont à demander au centre ; cet export ne les couvre pas.",
+      account,
+      learning,
+      progress,
+      quizzes,
+      drafts,
+      submissions,
+    };
+  }
   async throttle(key: string, limit = 10) {
     const window = Math.floor(Date.now() / 900000);
     const hash = tokenHash(`${key}:${window}`);

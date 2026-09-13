@@ -8,8 +8,10 @@ export default function Notebook({
   state,
   refresh,
   practice = false,
+  hasCsv = true,
 }: {
   practice?: boolean;
+  hasCsv?: boolean;
   courseId: string;
   state: any;
   refresh: () => Promise<void>;
@@ -36,7 +38,9 @@ export default function Notebook({
         : state.draft
           ? Promise.resolve(state.draft.notebook)
           : api(`/courses/${courseId}/resources/starter`),
-      api(`/courses/${courseId}/resources/csv`),
+      hasCsv
+        ? api(`/courses/${courseId}/resources/csv`)
+        : Promise.resolve({ content: "" }),
     ])
       .then(([b, c]) => {
         if (active) {
@@ -322,7 +326,7 @@ export default function Notebook({
             >
               Exporter .ipynb
             </button>
-            {!practice && (
+            {!practice && !!csv && (
               <button
                 className="button button-secondary"
                 onClick={() =>

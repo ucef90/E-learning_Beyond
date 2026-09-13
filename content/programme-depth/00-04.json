@@ -1,0 +1,181 @@
+[
+  {
+    "index": 0,
+    "overview": "Construisez un dispositif de livraison pour une application LLM : jeux d’évaluation, traces exploitables, budgets d’usage et décisions de mise en production. Le fil rouge relie chaque changement de prompt à une mesure et à un scénario de retour arrière.",
+    "units": [
+      [
+        "Séparer exactitude factuelle, fidélité documentaire et utilité métier ; définir réponse acceptable et refus attendu.",
+        "Constituer un jeu de référence : demandes simples, ambiguës, sans réponse et tentatives de détournement.",
+        "Comparer annotation humaine, métriques et juge LLM ; repérer biais de position et désaccords.",
+        "La grille distingue défaut de récupération, erreur de réponse et refus injustifié."
+      ],
+      [
+        "Versionner ensemble prompt, modèle, paramètres, index et configuration de récupération.",
+        "Isoler un changement par expérience ; conserver entrées, résultats et règles de comparaison.",
+        "Séparer jeu de développement et non-régression ; agréger les résultats par famille de questions.",
+        "Deux versions sont comparées sans mélanger documents ou paramètres."
+      ],
+      [
+        "Décomposer recherche, premier token et génération ; analyser percentiles de latence et coût par requête utile.",
+        "Corréler traces et identifiants techniques en masquant données personnelles et extraits sensibles.",
+        "Fixer plafonds de tokens, délais, limitation de débit et réponse dégradée en cas de panne.",
+        "Une panne produit un repli contrôlé et une trace exploitable sans donnée sensible."
+      ],
+      [
+        "Construire une porte de livraison associant qualité, tests d’abus, coût et approbation responsable.",
+        "Déployer progressivement, comparer les cohortes et fixer les conditions d’arrêt de l’expérience.",
+        "Préparer retour au prompt, au modèle et à l’index précédents avec un responsable identifié.",
+        "La procédure rétablit une version connue et vérifie le service après retour arrière."
+      ]
+    ],
+    "slug": "llmops-deployer-observer-et-gouverner-les-applications-llm"
+  },
+  {
+    "index": 1,
+    "overview": "Entraînez un classifieur d’images avec PyTorch et expliquez ses résultats. Vous passez des tenseurs à l’analyse des erreurs, avec une boucle d’apprentissage reproductible et un modèle rechargeable.",
+    "units": [
+      [
+        "Relier shape, dtype, device et axes ; distinguer vue, copie et diffusion des dimensions.",
+        "Créer Dataset et DataLoader ; séparer apprentissage, validation et test avant les transformations ajustées.",
+        "Contrôler labels, déséquilibre et normalisation ; visualiser un lot pour détecter les erreurs.",
+        "Le lot a les dimensions attendues et aucune observation de test ne sert au réglage."
+      ],
+      [
+        "Suivre autograd ; distinguer gradient accumulé, zero_grad, backward et étape de l’optimiseur.",
+        "Associer sortie, perte et codage des classes ; détecter NaN et gradients instables.",
+        "Faire surapprendre un très petit lot pour vérifier la boucle avant un entraînement long.",
+        "La perte témoin baisse et les paramètres changent uniquement pendant l’apprentissage."
+      ],
+      [
+        "Calculer les dimensions après convolution, padding, stride et pooling ; relier canaux et champ réceptif.",
+        "Assembler blocs convolutifs et classifieur ; suivre perte et précision de validation par époque.",
+        "Comparer une architecture de référence à une variante en conservant protocole et données.",
+        "Les dimensions et le budget d’apprentissage des deux réseaux sont justifiés."
+      ],
+      [
+        "Interpréter l’écart entraînement-validation ; différencier biais, variance et fuite de données.",
+        "Appliquer l’augmentation au seul apprentissage ; comparer weight decay, dropout et arrêt anticipé.",
+        "Sauvegarder le meilleur checkpoint selon la validation sans sélectionner sur le test.",
+        "Le checkpoint retenu correspond au critère annoncé, pas à la dernière époque."
+      ],
+      [
+        "Lire confusion, précision, rappel et F1 par classe ; étudier l’effet du déséquilibre.",
+        "Examiner faux positifs et faux négatifs ; distinguer annotation ambiguë et défaut du modèle.",
+        "Tester un changement d’éclairage ou de cadrage et documenter la généralisation observée.",
+        "L’analyse cite des erreurs concrètes sans se limiter à l’accuracy."
+      ],
+      [
+        "Enregistrer state_dict, configuration, transformations et correspondance des labels dans un artefact versionné.",
+        "Recharger sur CPU, activer eval et inference_mode ; vérifier des prédictions de référence.",
+        "Décrire données d’apprentissage, usages prévus et situations demandant une relecture.",
+        "Les sorties rechargées concordent avec la référence dans une tolérance annoncée."
+      ]
+    ],
+    "slug": "deep-learning-applique-avec-pytorch"
+  },
+  {
+    "index": 2,
+    "overview": "Transformez une question produit en expérimentation interprétable. Définissez événements, randomisation, règles d’analyse et décision finale en maîtrisant faux signaux et effets indésirables.",
+    "units": [
+      [
+        "Définir identité utilisateur, session, horodatage et propriétés de chaque événement du tunnel.",
+        "Distinguer conversion par utilisateur et par session ; contrôler doublons et événements tardifs.",
+        "Construire une cohorte d’entrée stable et vérifier son dénominateur par rapport à la question produit.",
+        "La conversion est reproductible et la population incluse est définie."
+      ],
+      [
+        "Choisir unités d’affectation et d’analyse ; prévenir contamination entre variantes et exposition répétée.",
+        "Fixer métrique principale, garde-fous, effet minimal utile et horizon avant de consulter les résultats.",
+        "Décrire hypothèses de puissance et trafic ; vérifier l’équilibre d’affectation avec un contrôle SRM.",
+        "Le protocole distingue arrêt prévu, incident de collecte et décision statistique."
+      ],
+      [
+        "Lire différences absolue et relative et intervalle d’incertitude sans confondre significativité et valeur.",
+        "Examiner segmentation exploratoire, comparaisons multiples et consultations répétées des résultats.",
+        "Séparer effet de nouveauté, effet calendrier et changement de composition des utilisateurs.",
+        "La conclusion conserve les garde-fous et identifie les analyses exploratoires."
+      ],
+      [
+        "Traduire l’effet estimé en impact métier avec hypothèses explicites de volume et de coût.",
+        "Décider lancement, poursuite ou arrêt selon les critères fixés ; documenter un résultat non concluant.",
+        "Préparer surveillance et archivage du protocole, des agrégats et des décisions.",
+        "Une autre équipe peut comprendre la décision sans reconstituer les échanges."
+      ]
+    ],
+    "slug": "product-analytics-et-experimentation-ab-testing"
+  },
+  {
+    "index": 3,
+    "overview": "Concevez un pipeline ELT incrémental capable d’absorber retards, doublons et reprises. Les ateliers relient contrats de données, transformations, orchestration et exploitation jusqu’à une livraison documentée.",
+    "units": [
+      [
+        "Définir grain, clés, schéma, fraîcheur et compatibilité du contrat de données source.",
+        "Séparer zones brutes, données préparées et tables d’usage ; attribuer chaque responsabilité.",
+        "Choisir batch ou incrémental selon latence, coût et capacités réelles de la source.",
+        "Le flux décrit clés, fréquence, propriétaire et contrôle à chaque passage."
+      ],
+      [
+        "Comparer watermark, journal de changements et extraction complète sur une source de démonstration.",
+        "Traiter retards et doublons ; choisir fenêtre de recouvrement et clé d’idempotence.",
+        "Conserver métadonnées et point de reprise sans avancer le curseur après un échec.",
+        "Un lot rejoué ne crée pas de doublon et une donnée tardive est intégrée."
+      ],
+      [
+        "Décomposer les transformations en modèles lisibles avec dépendances, types et conventions.",
+        "Écrire tests d’unicité, non-nullité, relations et rapprochement de totaux aux frontières critiques.",
+        "Isoler les rejets avec motif ; distinguer erreur bloquante et anomalie tolérée.",
+        "Les rejets sont traçables et les totaux concordent avec le périmètre accepté."
+      ],
+      [
+        "Construire un DAG sans dépendance implicite ; paramétrer date logique, retries et concurrence.",
+        "Différencier nouvelle exécution, reprise partielle et backfill ; éviter les doubles écritures.",
+        "Tester timeout et indisponibilité d’une tâche amont avec reprise depuis un état connu.",
+        "La reprise ne détruit pas de partition valide et ne duplique pas la cible."
+      ],
+      [
+        "Associer fraîcheur, volume et durée à des seuils d’alerte orientés usage.",
+        "Gérer identités de service, moindre privilège, chiffrement et secrets hors du code.",
+        "Limiter lectures et stockage inutiles par partitionnement et conservation justifiés.",
+        "Une alerte précise table, usage affecté et responsable."
+      ],
+      [
+        "Assembler configuration, tests et déploiement avec séparation des environnements.",
+        "Rédiger contrat de service, procédure de reprise et inventaire des dépendances.",
+        "Recetter donnée invalide, changement de schéma et reconstruction d’une période.",
+        "Le pipeline passe le nominal et les trois scénarios de reprise documentés."
+      ]
+    ],
+    "slug": "data-engineering-cloud-pipelines-elt-et-orchestration"
+  },
+  {
+    "index": 4,
+    "overview": "Comparez Fabric et Databricks sur un même besoin analytique. Examinez ingestion, tables Delta, calcul, sécurité et consommation BI pour produire un choix d’architecture argumenté et un pilote mesurable.",
+    "units": [
+      [
+        "Relier fichiers, tables transactionnelles et consommation aux besoins de fraîcheur et de gouvernance.",
+        "Comparer bronze, silver et gold ; définir qualité et traçabilité entre couches.",
+        "Examiner transactions, historique et évolution de schéma sur une petite table Delta.",
+        "Chaque couche possède grain, propriétaire et critère de publication."
+      ],
+      [
+        "Suivre un flux vers un lakehouse Fabric puis une table consommée dans un rapport.",
+        "Distinguer OneLake, raccourci et copie ; repérer droits et dépendances de la source.",
+        "Comparer notebook et pipeline ; identifier besoins de capacité et supervision.",
+        "Le parcours jusqu’au rapport explicite accès et points de contrôle."
+      ],
+      [
+        "Explorer notebook Spark, table Delta et job planifié sur le même scénario.",
+        "Examiner catalogue, schéma et permissions ; séparer droits de calcul et droits sur les données.",
+        "Observer partitionnement et lecture trop large ; expliquer le travail de calcul induit.",
+        "L’analyse relie organisation et coût sans généraliser un seul benchmark."
+      ],
+      [
+        "Comparer BI, compétences, isolation, exploitation et dépendance fournisseur dans une grille pondérée.",
+        "Estimer stockage, calcul, licences et administration avec hypothèses, sans tarif garanti.",
+        "Définir pilote, preuves de réussite et conditions de réversibilité des données.",
+        "La recommandation comporte un test susceptible d’invalider le choix."
+      ]
+    ],
+    "slug": "lakehouse-moderne-avec-microsoft-fabric-et-databricks"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "index": 62,
+    "overview": "Structurez les services d’un PMO et la gouvernance d’un portefeuille. Les ateliers relient sélection des projets, capacité, risques et reporting à des décisions explicites et à une charge administrative proportionnée.",
+    "units": [
+      [
+        "Identifier clients du PMO, décisions à faciliter et irritants actuels.",
+        "Distinguer soutien méthodologique, contrôle et arbitrage de portefeuille.",
+        "Définir catalogue de services et niveau d’accompagnement adapté aux projets.",
+        "Le PMO proposé répond à un besoin identifié sans ajouter un contrôle sans usage."
+      ],
+      [
+        "Définir dossier d’entrée, sponsor, bénéfice attendu et critères de sélection.",
+        "Organiser jalons de décision, instances et responsabilités.",
+        "Prévoir traitement d’un projet incomplet, urgent ou hors stratégie.",
+        "Chaque projet entre dans le portefeuille avec une décision et un responsable."
+      ],
+      [
+        "Comparer demande et capacité par compétence ou équipe critique.",
+        "Identifier dépendances et engagements déjà pris avant de classer les projets.",
+        "Construire scénarios de report, arrêt ou réduction de périmètre.",
+        "L’arbitrage rend visibles projets déplacés et conséquences sur les ressources."
+      ],
+      [
+        "Définir données minimales, fréquence et propriétaire du reporting.",
+        "Suivre risques, décisions et actions de gouvernance jusqu’à clôture.",
+        "Mesurer utilité du PMO et coût de collecte pour simplifier ses pratiques.",
+        "Le tableau de portefeuille alimente une décision et possède des sources actualisables."
+      ]
+    ],
+    "slug": "pmo-operationnel-et-gouvernance-de-portefeuille"
+  },
+  {
+    "index": 63,
+    "overview": "Choisissez des KPI projet qui aident à décider plutôt qu’à remplir un reporting. Les exercices portent sur définitions, délais, budget, risques et présentation des écarts avec seuils et responsabilités.",
+    "units": [
+      [
+        "Relier indicateur à une décision, un destinataire et une fréquence.",
+        "Documenter formule, source, unité et propriétaire.",
+        "Distinguer indicateur de résultat et signal avancé.",
+        "Un indicateur sans décision associée est retiré ou reformulé."
+      ],
+      [
+        "Comparer délai prévu, délai réel, charge et reste à faire.",
+        "Identifier dépendances et chemin critique lorsque le planning le permet.",
+        "Distinguer pourcentage déclaré et avancement fondé sur livrables acceptés.",
+        "Le statut n’utilise pas un pourcentage dont le mode de calcul est inconnu."
+      ],
+      [
+        "Rapprocher budget, engagé, réalisé et estimation à terminaison.",
+        "Définir signaux de risque avec probabilité, impact et action de réponse.",
+        "Relier bénéfice attendu et mesure après livraison sans le confondre avec la dépense.",
+        "La revue distingue dérive constatée et risque encore incertain."
+      ],
+      [
+        "Concevoir un cockpit avec seuils, tendance et date de mise à jour.",
+        "Préparer commentaire d’écart et décision demandée.",
+        "Tester une revue avec données absentes ou contradictoires.",
+        "Le cockpit met en évidence l’incertitude et attribue les actions décidées."
+      ]
+    ],
+    "slug": "kpi-et-pilotage-de-la-performance-projet"
+  },
+  {
+    "index": 64,
+    "overview": "Construisez une recherche documentaire augmentée qui restitue des réponses vérifiables. Le parcours couvre préparation du corpus, indexation, filtrage des accès, récupération et évaluation des erreurs de recherche ou de génération.",
+    "units": [
+      [
+        "Séparer ingestion, découpage, embeddings, recherche, contexte et réponse.",
+        "Distinguer index vectoriel et source documentaire de référence.",
+        "Définir questions couvertes, sources autorisées et situations d’abstention.",
+        "L’architecture peut expliquer d’où provient chaque information restituée."
+      ],
+      [
+        "Comparer découpage fixe et découpage par structure en conservant titre et provenance.",
+        "Associer identifiant, version et droits d’accès aux fragments.",
+        "Tester mise à jour et retrait d’un document sans conserver un doublon obsolète.",
+        "L’index retrouve la version valide et exclut un document retiré."
+      ],
+      [
+        "Comparer recherche lexicale, vectorielle et combinaison sur un jeu de questions.",
+        "Examiner filtrage, top-k et réordonnancement selon pertinence et coût.",
+        "Demander réponse bornée aux passages avec citations et refus si la source manque.",
+        "La réponse ne transforme pas un passage non pertinent en preuve."
+      ],
+      [
+        "Séparer mesure de récupération et fidélité de la réponse aux documents.",
+        "Tester question ambiguë, corpus contradictoire et instruction hostile dans un document.",
+        "Suivre latence, coût et accès sans conserver inutilement les requêtes personnelles.",
+        "Le rapport localise l’erreur dans la recherche ou dans la restitution."
+      ]
+    ],
+    "slug": "rag-et-bases-vectorielles-pour-entreprise"
+  },
+  {
+    "index": 65,
+    "overview": "Intégrez les usages d’IA dans la gouvernance d’un data office. Produisez inventaire, responsabilités et contrôles reliant qualité des données, accès, risques du modèle et décisions de mise en service.",
+    "units": [
+      [
+        "Recenser finalité, propriétaire, utilisateurs, données et fournisseur de chaque usage.",
+        "Distinguer expérimentation, usage actif et système retiré.",
+        "Qualifier rôle de l’organisme et sensibilité des personnes ou décisions affectées.",
+        "L’inventaire permet d’identifier les usages non examinés ou sans responsable."
+      ],
+      [
+        "Définir pouvoirs de décision, revue métier, sécurité, juridique et données.",
+        "Construire étapes d’approbation proportionnées au risque et au changement.",
+        "Prévoir réexamen après nouvelle finalité ou nouvelle source de données.",
+        "La décision peut être reliée à des critères et à une autorité identifiée."
+      ],
+      [
+        "Relier lignage, qualité, droits et conservation aux contrôles de l’application IA.",
+        "Associer jeux d’évaluation, supervision et réponse aux incidents.",
+        "Distinguer contrôle défini et preuve que ce contrôle fonctionne.",
+        "Une exigence importante possède un test ou une preuve attendue explicite."
+      ],
+      [
+        "Définir indicateurs de couverture, écarts, incidents et délais de correction.",
+        "Prioriser actions selon impact et dépendances communes.",
+        "Organiser veille et revue périodique sans présenter l’inventaire comme une certification.",
+        "Le plan suit les écarts jusqu’à vérification de leur correction."
+      ]
+    ],
+    "slug": "ai-governance-pour-data-office"
+  },
+  {
+    "index": 66,
+    "overview": "Utilisez l’IA générative pour accélérer l’analyse tout en contrôlant les chiffres. Les ateliers portent sur requêtes SQL, préparation de données et restitution, avec vérification indépendante et protection des données.",
+    "units": [
+      [
+        "Délimiter aide à la compréhension, proposition de code et interprétation métier.",
+        "Fournir schéma et données synthétiques plutôt qu’un fichier de production.",
+        "Définir ce qui doit être recalculé avant d’accepter un résultat.",
+        "Le cas d’usage comporte un contrôle indépendant de la réponse générée."
+      ],
+      [
+        "Décrire grain, clés, population et agrégats attendus avant de demander une requête.",
+        "Vérifier jointures, NULL, période et risque de multiplication des montants.",
+        "Exécuter sur un jeu témoin avec cas limites et résultat connu.",
+        "Une requête syntaxiquement correcte mais fausse sur les totaux est détectée."
+      ],
+      [
+        "Produire dictionnaire de données et commentaire d’analyse à partir de sources vérifiées.",
+        "Séparer constat, hypothèse et recommandation dans la restitution.",
+        "Contrôler chiffres, unités, causalité et limites de la population.",
+        "La note ne présente aucune interprétation comme démontrée sans preuve."
+      ],
+      [
+        "Conserver versions de requêtes, paramètres et jeux de tests sans journaliser de données sensibles.",
+        "Préparer checklist de revue avant partage du résultat.",
+        "Mesurer temps gagné, erreurs détectées et corrections nécessaires.",
+        "Une autre personne peut reproduire l’analyse et vérifier ses conclusions."
+      ]
+    ],
+    "slug": "generative-ai-pour-data-analyst"
+  },
+  {
+    "index": 67,
+    "overview": "Préparez un modèle pour une exploitation reproductible et surveillée. Les ateliers construisent la chaîne reliant expérience, tests, livraison, retour arrière et suivi des données et de la performance.",
+    "units": [
+      [
+        "Définir entrée, sortie, latence, disponibilité et coût d’erreur du service prédictif.",
+        "Choisir baseline, métriques et conditions de recours à une décision manuelle.",
+        "Identifier responsables du modèle, des données et de l’exploitation.",
+        "Le contrat permet de reconnaître une dégradation métier et non seulement technique."
+      ],
+      [
+        "Versionner code, configuration, données de référence et artefacts d’apprentissage.",
+        "Tracer paramètres, dépendances et résultats de chaque expérience.",
+        "Séparer jeu d’entraînement, sélection et évaluation finale.",
+        "Une expérience peut être reconstruite avec ses entrées et sa configuration."
+      ],
+      [
+        "Tester schéma, distributions attendues, transformation et comportement de prédiction.",
+        "Définir seuils d’acceptation par segment et comparaison à la version en service.",
+        "Vérifier absence de fuite et compatibilité du pipeline d’inférence.",
+        "Une meilleure moyenne ne suffit pas à masquer la dégradation d’un segment critique."
+      ],
+      [
+        "Comparer déploiement batch et service en ligne selon la décision attendue.",
+        "Préparer version d’artefact, configuration et stratégie progressive de livraison.",
+        "Tester retour à la version précédente avec compatibilité des entrées.",
+        "Le rollback rétablit une version connue et ses transformations associées."
+      ],
+      [
+        "Distinguer dérive de données, dérive de concept et disponibilité tardive des labels.",
+        "Mesurer qualité des entrées, erreurs métier et indicateurs techniques.",
+        "Fixer seuils d’alerte et processus de réévaluation plutôt qu’un réentraînement automatique aveugle.",
+        "Une alerte mène à une analyse et à une décision explicites."
+      ],
+      [
+        "Rédiger runbook, calendrier de revue et règles de retrait du modèle.",
+        "Préparer incident de données, panne de dépendance et baisse de qualité.",
+        "Archiver versions, décisions et limites d’usage.",
+        "L’équipe peut maintenir ou suspendre le service sans dépendre de son auteur initial."
+      ]
+    ],
+    "slug": "mlops-pour-equipes-data"
+  },
+  {
+    "index": 68,
+    "overview": "Construisez des variables utiles sans introduire de fuite dans l’évaluation. Le cas pratique compare transformations et sélection dans un pipeline reproductible, avec attention à la stabilité et au coût de collecte.",
+    "units": [
+      [
+        "Identifier cible, moment de prédiction et disponibilité réelle de chaque variable.",
+        "Repérer identifiants, agrégats futurs et transformations ajustées sur tout le jeu.",
+        "Examiner valeurs manquantes, cardinalité et variables quasi constantes.",
+        "Les variables retenues sont disponibles au moment simulé de la décision."
+      ],
+      [
+        "Comparer imputation, mise à l’échelle et encodage selon type de variable et modèle.",
+        "Ajuster transformations sur l’apprentissage uniquement avec Pipeline et ColumnTransformer.",
+        "Traiter catégorie inconnue et valeur hors distribution à l’inférence.",
+        "Le pipeline traite un nouvel exemple sans réapprendre sur le jeu de test."
+      ],
+      [
+        "Comparer filtre, sélection embarquée et importance par permutation sur une validation adaptée.",
+        "Examiner redondance, corrélation et stabilité des variables entre plis.",
+        "Prendre en compte coût, interprétabilité et disponibilité au-delà du seul score.",
+        "La sélection est effectuée à l’intérieur du protocole de validation."
+      ],
+      [
+        "Sérialiser transformations et modèle ensemble avec schéma d’entrée documenté.",
+        "Ajouter tests sur colonnes absentes, ordre des colonnes et nouvelles catégories.",
+        "Décrire hypothèses, limites et surveillance des variables utilisées.",
+        "Le pipeline rechargé reproduit les prédictions de référence."
+      ]
+    ],
+    "slug": "feature-engineering-et-selection-de-variables"
+  }
+]

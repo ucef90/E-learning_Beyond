@@ -1,52 +1,39 @@
-# E-learning Beyond Expertise
+# Beyond Expertise — plateforme de formation
 
-Projet indépendant, préparé localement avant hébergement. Catalogue de 81 fiches vérifiées sur [beyond-expertise.com](https://beyond-expertise.com), et module Python/pandas enrichi : six leçons, atelier guidé de 26 cellules, TP et quiz de dix questions. Les autres cours restent à produire ; leur disponibilité est indiquée explicitement.
+Version de travail du 13 septembre 2026 : 83 fiches publiques, un studio de cours avec modules, leçons, quiz et ressources privées, espaces administrateur/formateur/apprenant et trois nouveaux parcours rédigés en brouillon. Les contenus doivent être relus par un responsable humain avant publication.
 
-Dépôt : `ucef90/E-learning_Beyond`. Base technique issue du pilote local de `ucef90/Site-BeyondExpertise-2026`, commit `bf7c7c3ffed8d1406cc97cec585b729e7c0ce6c6`. Le nouveau projet possède sa base et ses ports. L’ancien pilote et le site officiel restent inchangés. Aucun déploiement effectué.
+La copie actuelle vient de c8f1882 du dépôt local E-learning_Beyond ; branche codex/plateforme-complete, poussée sur https://github.com/ucef90/E-learning_Beyond (demande de fusion no 1). Le remote github cible ce dépôt ; origin conserve la copie locale d'origine. Le site beyond-expertise.com et le VPS vps-60dc9315.vps.ovh.net résolvent vers 164.132.41.177. La nouvelle version est en ligne depuis le 13 septembre 2026 à 11 h 22 UTC : https://beyond-expertise.com. L'accès SSH est rétabli, les données existantes conservées et la sauvegarde distante restaurée avec succès. Consulter docs/EXPLOITATION-OVH.txt pour l'état réel du déploiement.
 
-Sur le PC de livraison : lancer `../Demarrer-E-learning.ps1`, puis ouvrir http://127.0.0.1:3200/formations. Comptes privés dans `.pilot/accounts.json`. Le compte `stagiaire@pilot.invalid` possède le module enrichi. Consulter `docs/catalogue-officiel.md` et `docs/validation-locale.md` pour cette livraison ; les documents du premier pilote restent des références historiques.
+## Ouvrir la copie de travail
 
-## Dossier de livraison
+Sur ce PC, lancer Demarrer-plateforme.ps1 si nécessaire (PostgreSQL doit être actif). Site http://127.0.0.1:3300/apprentissage, API http://127.0.0.1:4300/api/v1, laboratoire http://127.0.0.1:3301. Base isolée beyond_platform_work sur PostgreSQL local 55432. La précédente version 3200/4200/3201 conserve sa base et ses fichiers.
 
-- [Diagnostic](docs/pilot/01-diagnostic.md)
-- [Architecture et budget](docs/pilot/02-architecture-budget.md)
-- [Qualité et preuves](docs/pilot/03-qualite-pilote.md)
-- [Guide utilisateur](docs/pilot/04-guide-utilisation.md)
-- [Installation et reprise](docs/pilot/05-exploitation-reprise.md)
-- [Livraisons suivantes et parcours](docs/pilot/06-livraisons-suivantes.md)
-- [Six leçons et TP](content/pilot/COURS.md), [données](content/pilot/DONNEES.md), [notebook de départ](content/pilot/depart.ipynb)
+Les comptes synthétiques sont dans .pilot/accounts.json, fichier privé ignoré par Git. L'administrateur retrouve les trois parcours dans **Contenus pédagogiques**. Ils ne sont ni publiés ni attribués : leur édition reste possible. L'administrateur peut ouvrir un cours depuis son tableau de bord pour le consulter.
 
-## Installation
+## Fonctions livrées
 
-Next.js 15 / React 19, NestJS 11, Prisma 6 et PostgreSQL. Versions testées : Node 24.19.0, pnpm 11.19.0, PostgreSQL 15.5. Utiliser `pnpm-lock.yaml` ; l'ancien `package-lock.json` ne décrit pas la procédure du workspace.
+- Édition de modules, leçons, quiz à réponses expliquées, seuils propres, vidéos HTTPS autorisées avec transcription, fichiers privés et corrigés.
+- Relecture tracée, validation administrateur, publication distincte et duplication obligatoire des versions publiées ou attribuées.
+- Comptes réels et invitations, connexion, lien de récupération à usage unique remis par l'administrateur après vérification d'identité ; l'envoi automatique de courriels reste à raccorder.
+- Attributions par formateur et groupe, positionnement, expiration/révocation, progression et sauvegarde des notebooks avec contrôle de révision.
+- Remise de notebook ou dossier écrit, feedback humain, critères calculés pour tous les quiz et le travail, relevé pédagogique imprimable.
+- Métadonnées de fiches, sitemap conditionnel et exclusion d'indexation de la préproduction et des espaces privés.
+- Modèles OVH, contrôle de configuration, refus des comptes de recette en production, sauvegarde et recette de restauration.
 
-1. `pnpm install --frozen-lockfile`.
-2. Adapter `.env.example` en `.env`, `apps/api/.env` et `apps/web/.env.local` avec des secrets privés et une base dédiée.
-3. `pnpm db:generate` puis `pnpm db:deploy`.
-4. `python scripts/setup-lab.py` prépare les actifs Pyodide figés et vérifie les empreintes des paquets.
-5. Utiliser une base locale distincte nommée `beyond_pilot_elearning`. Définir `LOCAL_CATALOGUE_IMPORT=true`, puis lancer `pnpm catalog:official:import` pour importer les 81 fiches sans créer de sessions commerciales.
-6. Obtenir le lot pédagogique privé, dont `content/pilot/pilot.json`. Définir `PILOT_SEED=true`, puis `pnpm pilot:seed`. Si `tsx` échoue sur Windows, compiler avec `node node_modules/typescript/bin/tsc scripts/seed-pilot.ts --outDir .pilot/compiled --module commonjs --target es2022 --esModuleInterop --skipLibCheck --moduleResolution node`, puis exécuter `node --env-file=.env .pilot/compiled/scripts/seed-pilot.js`.
-7. Exécuter `node --env-file=.env scripts/prepare-local-demo.cjs` pour rattacher le pilote à la fiche Python et l’attribuer au stagiaire synthétique.
-8. Démarrer séparément l'API, Next sur le port 3200 et le laboratoire. Pour la compilation : `pnpm build`. Les variables de `.env.example` documentent les trois services.
+## Installation et vérifications
 
-Application sur `http://127.0.0.1:3200/connexion`, API sur 4200, laboratoire sur 3201. L’ancien pilote reste sur 3100/4100/3101. Un accès externe nécessite HTTPS, `COOKIE_SECURE=true`, une origine dédiée au laboratoire et une préproduction privée. Ne pas exposer PostgreSQL ou l'API directement.
+Prévoir Node 24, pnpm 11.19, PostgreSQL compatible avec Prisma 6 et Python pour installer le laboratoire figé. Installer avec pnpm install --frozen-lockfile, générer Prisma, appliquer les migrations sur une base dédiée et compiler les deux applications. python scripts/setup-lab.py télécharge Pyodide 0.27.7 et ses bibliothèques vérifiées, dont SQLite. Les variables sont décrites dans .env.example.
 
-Le Docker Compose historique est facultatif et conserve son volume et sa base `beyond_expertise`. Son port est limité à l'interface locale et un mot de passe est requis. Cette variable ne renouvelle pas le mot de passe d'un volume déjà initialisé. Le pilote livré utilise une autre instance PostgreSQL sur 55432 ; aucun volume existant n'a été modifié.
+Les scripts platform:test, platform:test:ui, platform:test:notebooks, platform:test:backup et platform:test:load ciblent exclusivement la copie locale et utilisent les comptes synthétiques. Ils créent des données de recette. Ne pas les lancer contre une base réelle. Les rapports détaillés sont dans work/validation/ ; le bilan daté se trouve dans [le suivi](docs/SUIVI-PLATEFORME.txt).
 
-## Comptes et contenus privés
+## Contenus et secrets
 
-Le seed crée des comptes synthétiques à mots de passe aléatoires dans `.pilot/accounts.json`, ignoré par Git. Ne pas les utiliser en production. L'administrateur crée les comptes avec un lien personnel à usage unique ; aucun courriel automatique n'est activé.
+Le dépôt historique est public. Les sources pédagogiques avec réponses et corrigés dans content/parcours/*, .pilot/, .private/, les variables et les ressources privées historiques sont ignorées par Git. Les cours importés et pièces privées font partie de la sauvegarde PostgreSQL ; un lot ZIP local conserve aussi les nouvelles sources. Ne pas pousser ces fichiers sur un dépôt public.
 
-Le dépôt GitHub est public. `pilot.json`, le corrigé et les secrets restent dans le lot local privé : ne pas les ajouter au dépôt public. Aucun import PLB n'a été exécuté. Les ressources du module sont originales et les ventes sont synthétiques.
+Les 83 programmes publics restent des programmes commerciaux proposés à la validation ; seuls les cours explicitement approuvés peuvent être affichés comme disponibles. Les téléchargements visiteurs utilisent des PDF, sans fichier Markdown. Les nouveaux parcours ont des durées estimées de 12 h, 12 h et 9 h 30, à étalonner ; ils ne constituent pas une certification.
 
-## Contrôles
+## Exploitation et décisions restantes
 
-`pnpm typecheck` et `pnpm build` contrôlent les applications. Avec les services et comptes synthétiques préparés, `pnpm pilot:test` lance la recette API/navigateur ; `node scripts/test-interfaces.cjs` contrôle les formulaires et le parcours formateur. Chrome doit être installé. Les tests créent des modules et comptes synthétiques : ne jamais les exécuter contre un environnement réel.
+Consulter [le guide](docs/GUIDE-PLATEFORME.txt), [l'exploitation](docs/EXPLOITATION-OVH.txt) et [l'étude et le budget](docs/etude-marche-budget.html). Le déploiement OVH utilise Docker et le proxy Caddy existant ; les anciens modèles systemd/Nginx restent une alternative non installée. La sauvegarde hors serveur et le service de courriel restent à configurer. Aucun abonnement souscrit.
 
-Les résultats de cette livraison sont dans `../validation-elearning`. Définir `PILOT_API_ONLY=true` pour exécuter uniquement la recette API. L’atelier et le corrigé sont également vérifiés dans le moteur Pyodide figé.
-
-## Périmètre
-
-Six leçons, un TP, dix questions, données et corrigé commenté. Les deux heures restent une cible à valider avec des stagiaires. L'administration crée des contenus textuels, duplique le pilote complet, modifie ses leçons et sa fiche, puis l'attribue. L'édition graphique des questions et fichiers pédagogiques est prévue au jalon suivant ; ces ressources sont gérées dans le lot pédagogique privé.
-
-Les lectures sont déclaratives et le TP reçoit une correction humaine. Qualiopi est en cours et non acquise. Procédures humaines, pièces du certificateur et mentions légales définitives restent à fournir. Aucun certificat professionnel ni financement n'est promis.
+Qualiopi reste en cours, non acquise. Les informations légales, conditions commerciales, conservation et pièces qualité nécessitant validation humaine restent suivies dans docs/qualite/DECISIONS-CENTRE.json. Le basculement public a été réalisé avec l’autorisation explicite du propriétaire ; la validation pédagogique et les décisions qualité restent distinctes.

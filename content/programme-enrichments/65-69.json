@@ -1,0 +1,162 @@
+[
+  {
+    "index": 65,
+    "slug": "ai-governance-pour-data-office",
+    "units": [
+      [
+        "Inventorier finalités, acteurs, données, modèles et criticité en conservant les hypothèses de classement.",
+        "Traiter un usage composite reposant sur plusieurs fournisseurs et modèles.",
+        "Registre IA et cartographie de criticité."
+      ],
+      [
+        "Définir propriétaires, validations, exceptions et décisions de retrait au cours du cycle de vie.",
+        "Résoudre une responsabilité partagée entre data office, métier et sécurité.",
+        "RACI et circuit de validation."
+      ],
+      [
+        "Relier qualité, lineage, accès, documentation, évaluation des modèles et surveillance.",
+        "Identifier un contrôle data réussi qui ne suffit pas à valider le comportement du modèle.",
+        "Matrice de contrôles et preuves attendues."
+      ],
+      [
+        "Mesurer couverture, écarts, délais de remédiation et efficacité des contrôles.",
+        "Prioriser une dette de gouvernance selon conséquences et exposition réelles.",
+        "Tableau de gouvernance et plan d’amélioration."
+      ]
+    ]
+  },
+  {
+    "index": 66,
+    "slug": "generative-ai-pour-data-analyst",
+    "units": [
+      [
+        "Sélectionner préparation, SQL, explication et documentation selon gain et vérifiabilité.",
+        "Refuser une interprétation causale produite sans protocole adapté.",
+        "Carte des usages analytiques et contrôles."
+      ],
+      [
+        "Fournir schéma, grain et règles métier ; vérifier jointures, agrégats, filtres et droits.",
+        "Détecter une requête syntaxiquement correcte dont les totaux sont doublés.",
+        "Requête revue et jeu de résultats attendu."
+      ],
+      [
+        "Distinguer faits calculés, hypothèses et recommandations ; relier chaque chiffre à sa source.",
+        "Réécrire une synthèse qui surinterprète une variation non significative.",
+        "Note d’analyse et traçabilité des chiffres."
+      ],
+      [
+        "Organiser tests, relecture, versionnement et mesure du temps de correction.",
+        "Comparer une analyse assistée et une référence validée sur plusieurs cas.",
+        "Checklist analytique et protocole comparatif."
+      ]
+    ]
+  },
+  {
+    "index": 67,
+    "slug": "mlops-pour-equipes-data",
+    "units": [
+      [
+        "Définir entrées, sorties, disponibilité, latence, métriques et coût d’erreur métier.",
+        "Détecter un objectif de score incompatible avec le service réellement attendu.",
+        "Contrat de service et critères de validation."
+      ],
+      [
+        "Capturer empreinte des jeux de données, versions des artefacts et configuration d’exécution ; expliquer les limites du déterminisme sur certaines opérations matérielles.",
+        "Reproduire une expérience depuis un environnement vierge.",
+        "Exécution reproductible et registre d’expériences."
+      ],
+      [
+        "Combiner validation des données, tests de pipeline, performance et contrôles de fuite.",
+        "Bloquer une livraison dont le score est élevé mais le découpage invalide.",
+        "Pipeline de validation et conditions de promotion."
+      ],
+      [
+        "Comparer batch, API, shadow et canary ; versionner schémas et prévoir rollback.",
+        "Revenir à une version précédente sans incompatibilité entre modèle et variables.",
+        "Stratégie de déploiement et exercice de retour arrière."
+      ],
+      [
+        "Définir fenêtres de comparaison, segmentation et seuils d’alerte ; surveiller la qualité des labels et distinguer saisonnalité normale et rupture durable.",
+        "Interpréter une alerte de dérive sans déclencher un réentraînement automatique aveugle.",
+        "Plan de surveillance et protocole de diagnostic."
+      ],
+      [
+        "Définir astreinte, incidents, changements, réentraînement et retrait du modèle.",
+        "Organiser une revue après incident reliant cause technique et impact métier.",
+        "Runbook du modèle et processus de changement."
+      ]
+    ]
+  },
+  {
+    "index": 68,
+    "slug": "feature-engineering-et-selection-de-variables",
+    "units": [
+      [
+        "Vérifier disponibilité temporelle, identifiants, proxies et variables dérivées de la cible.",
+        "Repérer une fuite indirecte présente seulement après l’événement prédit.",
+        "Audit des variables et règles d’exclusion."
+      ],
+      [
+        "Construire imputation, encodage, normalisation et agrégats dans les plis d’apprentissage.",
+        "Traiter une catégorie inconnue et une distribution différente en inférence.",
+        "Transformations robustes et cas limites."
+      ],
+      [
+        "Comparer sélection filtrée, embarquée et permutation avec validation imbriquée si nécessaire.",
+        "Distinguer importance instable et variable réellement utile hors échantillon.",
+        "Rapport de sélection et stabilité des résultats."
+      ],
+      [
+        "Assembler transformations et modèle avec contrat de schéma, tests et sérialisation.",
+        "Garantir la même préparation en entraînement et en service.",
+        "Pipeline réutilisable et tests de cohérence."
+      ]
+    ]
+  },
+  {
+    "index": 69,
+    "slug": "machine-learning-pour-data-scientist-junior",
+    "units": [
+      [
+        "Identifier les observations censurées, les labels issus d’anciennes décisions et les délais d’obtention de la cible ; expliciter leurs conséquences sur le problème.",
+        "Identifier une tâche qui semble supervisée mais ne possède pas de cible fiable.",
+        "Cadrage du problème et critères de succès."
+      ],
+      [
+        "Explorer déséquilibre, valeurs absentes et groupes ; choisir séparation aléatoire, temporelle ou groupée.",
+        "Repérer la présence d’un même individu dans apprentissage et test.",
+        "Audit exploratoire et découpage justifié."
+      ],
+      [
+        "Intégrer imputation, encodage et normalisation dans un pipeline sans fuite.",
+        "Tester catégories inconnues et colonnes manquantes à l’utilisation.",
+        "Pipeline de préparation et contrôles de schéma."
+      ],
+      [
+        "Comparer capacité de généralisation et courbes d’apprentissage ; examiner les effets de régularisation, profondeur et déséquilibre des classes.",
+        "Expliquer pourquoi un modèle plus complexe n’améliore pas la référence.",
+        "Tableau comparatif et choix initial."
+      ],
+      [
+        "Analyser matrice de confusion, erreurs par segment, seuil et calibration selon la tâche.",
+        "Choisir un seuil en tenant compte du coût des faux positifs et faux négatifs.",
+        "Rapport d’erreurs et seuil argumenté."
+      ],
+      [
+        "Encadrer validation croisée, recherche d’hyperparamètres et conservation d’un test final.",
+        "Détecter un ajustement répété sur le jeu de test qui invalide la conclusion.",
+        "Protocole d’optimisation et résultats validés."
+      ],
+      [
+        "Expliquer effets des variables avec prudence ; documenter limites et domaine d’utilisation.",
+        "Vérifier stabilité d’une explication entre échantillons et variables corrélées.",
+        "Fiche modèle et analyse des limites."
+      ],
+      [
+        "Présenter problème, données, baseline, résultats, risques et prochaine décision.",
+        "Défendre un choix simple et robuste face à une demande de meilleur score seul.",
+        "Dossier final et soutenance argumentée."
+      ]
+    ]
+  }
+]

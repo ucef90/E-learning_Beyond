@@ -1,0 +1,182 @@
+[
+  {
+    "index": 40,
+    "slug": "boae-developper-des-applications-web-rapidement-avec-oracle-application-express-oracle-apex",
+    "units": [
+      [
+        "Relier schéma relationnel, contraintes, workspace et parsing schema ; séparer environnements.",
+        "Identifier une règle métier mal placée entre base et interface.",
+        "Modèle de données et configuration d’espace."
+      ],
+      [
+        "Configurer formulaires, rapports interactifs, validations et navigation sur les données.",
+        "Traiter une modification concurrente sans écraser silencieusement une saisie.",
+        "Application CRUD et scénarios de validation."
+      ],
+      [
+        "Utiliser composants natifs, actions dynamiques et états de session de façon cohérente.",
+        "Vérifier clavier, messages d’erreur et rendu mobile d’un formulaire.",
+        "Parcours utilisateur et grille d’accessibilité."
+      ],
+      [
+        "Structurer traitements PL/SQL, transactions et validations côté serveur.",
+        "Empêcher le contournement d’une règle en modifiant directement une requête.",
+        "Règles métier et tests de contournement."
+      ],
+      [
+        "Prévenir injection SQL, affichage de contenu non échappé et accès direct non autorisé ; vérifier les contrôles côté serveur indépendamment des boutons visibles.",
+        "Tester accès à une page ou donnée d’un autre profil.",
+        "Matrice de droits et recette de sécurité."
+      ],
+      [
+        "Organiser exports, scripts SQL, paramètres d’environnement et gestion des versions.",
+        "Rejouer un déploiement dans un environnement vierge puis vérifier les migrations.",
+        "Dossier de livraison et procédure de reprise."
+      ]
+    ]
+  },
+  {
+    "index": 41,
+    "slug": "bors-optimisation-des-requetes-sql-sous-oracle",
+    "units": [
+      [
+        "Mesurer durée, lectures, volume et fréquence avec un jeu représentatif et paramètres connus.",
+        "Éviter de comparer une exécution à cache chaud avec une référence à cache froid.",
+        "Fiche de référence et protocole de mesure."
+      ],
+      [
+        "Lire cardinalités estimées et réelles, chemins d’accès et méthodes de jointure.",
+        "Localiser le premier écart d’estimation qui dégrade le plan.",
+        "Plan annoté et hypothèse de diagnostic."
+      ],
+      [
+        "Préserver nulls, doublons et granularité lors d’une réécriture de jointure ou sous-requête.",
+        "Prouver l’équivalence de deux requêtes sur des cas limites.",
+        "Requête réécrite et tests d’équivalence."
+      ],
+      [
+        "Évaluer sélectivité, index composites, fonctions sur colonnes et partitionnement.",
+        "Mesurer le gain de lecture face au coût d’écriture d’un nouvel index.",
+        "Proposition d’accès et bilan des coûts."
+      ],
+      [
+        "Examiner statistiques, variables liées et paramètres pertinents ; vérifier les licences des outils utilisés.",
+        "Distinguer problème de requête, contention et manque de ressources.",
+        "Diagnostic serveur et leviers justifiés."
+      ],
+      [
+        "Contrôler stabilité sur plusieurs valeurs, concurrence et volumes ; prévoir retour arrière.",
+        "Détecter une optimisation favorable à un cas mais régressive pour les autres.",
+        "Rapport d’optimisation et plan de surveillance."
+      ]
+    ]
+  },
+  {
+    "index": 42,
+    "slug": "boac-administration-oracle-19c-a-21c",
+    "units": [
+      [
+        "Relier processus, mémoire, fichiers de contrôle, redo et datafiles dans l’architecture Oracle.",
+        "Expliquer les étapes de démarrage et diagnostiquer un échec à chaque niveau.",
+        "Schéma d’architecture et procédure d’installation."
+      ],
+      [
+        "Distinguer utilisateurs communs et locaux, paramètres hérités et services associés ; préciser les effets d’un changement au niveau CDB ou PDB.",
+        "Identifier une opération lancée dans le mauvais conteneur.",
+        "Procédures multitenant et contrôles de contexte."
+      ],
+      [
+        "Gérer tablespaces, segments, extensions et croissance ; anticiper les limites de capacité.",
+        "Analyser un échec d’allocation et comparer les solutions possibles.",
+        "Plan de stockage et seuils de capacité."
+      ],
+      [
+        "Configurer rôles, privilèges, comptes de service et audit selon le moindre privilège.",
+        "Corriger un compte applicatif disposant de droits administrateur inutiles.",
+        "Matrice de privilèges et contrôles d’audit."
+      ],
+      [
+        "Relier sauvegardes, archived redo et objectifs de reprise ; tester RMAN en environnement isolé.",
+        "Restaurer puis récupérer jusqu’à un point cohérent et vérifier le résultat.",
+        "Scénario de restauration et preuves de contrôle."
+      ],
+      [
+        "Surveiller capacité, erreurs et sauvegardes ; préparer compatibilité et répétition des évolutions.",
+        "Élaborer un plan de changement avec vérifications et retour arrière réaliste.",
+        "Runbook d’exploitation et plan d’évolution."
+      ]
+    ]
+  },
+  {
+    "index": 43,
+    "slug": "oibp-sql-perfectionnement",
+    "units": [
+      [
+        "Définir grain, clés, cardinalité attendue et traitement des valeurs absentes avant le SQL.",
+        "Repérer une mesure additionnée à un grain incompatible.",
+        "Contrat de résultat et données de contrôle."
+      ],
+      [
+        "Maîtriser semi-jointures, anti-jointures et jointures externes avec filtres correctement placés.",
+        "Expliquer une perte de lignes causée par WHERE après LEFT JOIN.",
+        "Requêtes comparées et cas limites."
+      ],
+      [
+        "Comparer EXISTS, IN, agrégats corrélés, UNION et UNION ALL selon leur sémantique.",
+        "Analyser l’effet des NULL sur une exclusion de type NOT IN.",
+        "Jeu de requêtes et preuve des différences."
+      ],
+      [
+        "Combiner CTE, partitions, ordre et cadres de fenêtre pour rangs, cumuls et écarts.",
+        "Corriger un cumul erroné provoqué par des ex æquo dans l’ordre.",
+        "Reporting analytique avec fenêtres validées."
+      ],
+      [
+        "Construire récursivité, calendriers et intervalles ; détecter cycles, trous et recouvrements.",
+        "Résoudre un historique de statuts avec bornes de validité ambiguës.",
+        "Requête temporelle et règles de bornage."
+      ],
+      [
+        "Vérifier invariants, volumétrie et plan d’exécution sans modifier le résultat métier.",
+        "Comparer une optimisation sur plusieurs distributions de données.",
+        "Requête finale, tests et dossier d’optimisation."
+      ]
+    ]
+  },
+  {
+    "index": 44,
+    "slug": "bpga-postgresql-administration-de-la-base-de-donnees",
+    "units": [
+      [
+        "Distinguer cluster, bases, processus, WAL et configuration ; préciser locale et encodage.",
+        "Reproduire une installation avec paramètres et chemins documentés.",
+        "Dossier d’installation PostgreSQL."
+      ],
+      [
+        "Configurer rôles, héritage, schémas et pg_hba.conf ; séparer connexion et privilèges SQL.",
+        "Tester le refus d’accès d’un rôle à un schéma non autorisé.",
+        "Matrice de droits et tests d’accès."
+      ],
+      [
+        "Lire une chaîne de blocage, repérer les transactions inactives ouvertes et relier accumulation de versions mortes aux décisions d’autovacuum.",
+        "Diagnostiquer une session qui bloque la maintenance ou une écriture.",
+        "Analyse de verrous et plan de maintenance."
+      ],
+      [
+        "Lire EXPLAIN ANALYZE avec prudence, statistiques, index et volumes intermédiaires.",
+        "Comparer estimation et exécution réelle pour cibler la cause d’une lenteur.",
+        "Plan commenté et optimisation mesurée."
+      ],
+      [
+        "Distinguer sauvegarde logique, physique, archivage WAL et restauration à un instant donné.",
+        "Vérifier une restauration au lieu de conclure sur le seul succès de sauvegarde.",
+        "Procédure de reprise et contrôles d’intégrité."
+      ],
+      [
+        "Organiser supervision, capacité, mises à jour et réponse aux incidents récurrents.",
+        "Simuler saturation disque ou retard de réplication dans un environnement de test.",
+        "Runbook et exercices d’incident."
+      ]
+    ]
+  }
+]

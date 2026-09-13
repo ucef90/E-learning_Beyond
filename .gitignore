@@ -19,3 +19,12 @@ test-results
 docs/pilot/cahier-des-charges-reference.md
 docs/pilot/consigne-jalon-1.md
 .npmrc
+
+/work/
+.pnpm-store/
+.playwright-mcp/
+.private/
+
+# Sources pédagogiques privées : questions, corrigés et jeux de travail.
+content/parcours/*
+!content/parcours/README.txt

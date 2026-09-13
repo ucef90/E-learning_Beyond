@@ -1,0 +1,142 @@
+[
+  {
+    "index": 50,
+    "slug": "forecasting-et-series-temporelles-pour-business",
+    "units": [
+      [
+        "Définir cible, granularité, horizon, fréquence de mise à jour et coût métier des erreurs.",
+        "Distinguer prévision de demande et observation des ventes limitées par le stock.",
+        "Contrat de prévision et fonction de coût."
+      ],
+      [
+        "Examiner saisonnalité, ruptures, jours manquants, valeurs aberrantes et variables exogènes.",
+        "Traiter une fermeture exceptionnelle sans l’interpréter comme baisse durable.",
+        "Audit temporel et règles de préparation."
+      ],
+      [
+        "Comparer naïf, naïf saisonnier et moyenne mobile avec horizon identique.",
+        "Expliquer pourquoi un modèle sophistiqué échoue à battre une baseline saisonnière.",
+        "Baselines reproductibles et premiers scores."
+      ],
+      [
+        "Comparer modèles statistiques et régression avec retards ; limiter les variables aux informations disponibles.",
+        "Éviter l’usage d’une variable future inconnue au moment de la prévision.",
+        "Modèles comparés et audit des variables."
+      ],
+      [
+        "Utiliser backtesting glissant, métriques par horizon et analyse des intervalles de prévision.",
+        "Diagnostiquer une bonne moyenne masquant des erreurs sur périodes critiques.",
+        "Rapport de validation temporelle."
+      ],
+      [
+        "Traduire incertitude en scénarios de stock, capacité ou budget et règles de révision.",
+        "Tester une décision lorsque la demande sort de l’intervalle prévu.",
+        "Tableau de scénarios et politique de révision."
+      ]
+    ]
+  },
+  {
+    "index": 51,
+    "slug": "analytics-marketing-et-attribution",
+    "units": [
+      [
+        "Définir conversion, acquisition, rétention et valeur avec grain, fenêtre et dénominateur explicites.",
+        "Réconcilier deux rapports donnant des taux différents pour une même campagne.",
+        "Dictionnaire des métriques marketing."
+      ],
+      [
+        "Examiner identifiants, événements, doublons, consentements et pertes de mesure dans le parcours.",
+        "Quantifier les limites d’un suivi partiel sans reconstruire une précision fictive.",
+        "Plan de marquage et audit de qualité."
+      ],
+      [
+        "Comparer premier contact, dernier contact et attribution répartie ; distinguer attribution et incrémentalité.",
+        "Montrer comment le modèle retenu change l’évaluation d’un canal.",
+        "Comparaison d’attribution et limites d’interprétation."
+      ],
+      [
+        "Relier budget, rendement marginal, incertitude et protocole d’expérimentation.",
+        "Proposer un test incrémental plutôt qu’un arbitrage fondé sur le seul ROAS observé.",
+        "Note d’arbitrage et plan de mesure."
+      ]
+    ]
+  },
+  {
+    "index": 52,
+    "slug": "tableau-de-bord-rh-et-people-analytics",
+    "units": [
+      [
+        "Définir finalités, population, accès et agrégation des indicateurs RH ; minimiser les données.",
+        "Identifier une restitution qui permettrait de reconnaître un salarié dans un petit groupe.",
+        "Charte de reporting et règles de confidentialité."
+      ],
+      [
+        "Reconstituer entrées, sorties, changements de poste et quotités dans le temps.",
+        "Résoudre une incohérence entre effectif à date et moyenne sur période.",
+        "Historique contrôlé et journal des anomalies."
+      ],
+      [
+        "Formaliser événements de sortie, réembauche, temps partiel et absences chevauchant deux périodes ; tester leur effet sur chaque indicateur.",
+        "Comparer deux services sans masquer différences de taille ou de période.",
+        "Tableau RH et dictionnaire de calcul."
+      ],
+      [
+        "Distinguer signal, hypothèse et causalité ; contextualiser écarts et petits effectifs.",
+        "Formuler une action collective sans établir un profil individuel abusif.",
+        "Note d’interprétation et recommandations prudentes."
+      ]
+    ]
+  },
+  {
+    "index": 53,
+    "slug": "data-literacy-pour-managers",
+    "units": [
+      [
+        "Relier indicateur, population, période, unité et décision ; distinguer stock et flux.",
+        "Détecter un changement de périmètre derrière une hausse apparente.",
+        "Fiche de lecture d’un indicateur."
+      ],
+      [
+        "Examiner axes, bases de comparaison, moyennes et sélection des données.",
+        "Repérer un graphique exact mais visuellement trompeur.",
+        "Analyse critique et graphique corrigé."
+      ],
+      [
+        "Questionner source, échantillon, données manquantes, définition et incertitude.",
+        "Distinguer observation descriptive et preuve d’un effet causal.",
+        "Grille de questions pour revue d’analyse."
+      ],
+      [
+        "Expliciter hypothèses, coût d’erreur, réversibilité et information complémentaire utile.",
+        "Prendre une décision provisoire avec conditions de réexamen.",
+        "Note de décision et suivi des hypothèses."
+      ]
+    ]
+  },
+  {
+    "index": 54,
+    "slug": "roadmap-produit-et-priorisation-strategique",
+    "units": [
+      [
+        "Relier ambition, problème utilisateur, résultat attendu et indicateur de succès.",
+        "Écarter une fonctionnalité séduisante sans contribution démontrable au résultat.",
+        "Carte objectifs, opportunités et résultats."
+      ],
+      [
+        "Comparer valeur, risque, effort et dépendances ; expliciter l’incertitude des scores.",
+        "Tester la sensibilité du classement lorsque les estimations changent.",
+        "Matrice de priorisation et arbitrages."
+      ],
+      [
+        "Organiser horizons, dépendances, capacité et travaux d’apprentissage sans promettre une date injustifiée.",
+        "Construire un scénario alternatif face à une dépendance retardée.",
+        "Roadmap par résultats et scénarios."
+      ],
+      [
+        "Définir les événements déclenchant une révision : hypothèse invalidée, contrainte nouvelle ou signal d’usage ; conserver la justification des décisions successives.",
+        "Expliquer un changement de priorité à des parties prenantes en désaccord.",
+        "Support de communication et cadence de revue."
+      ]
+    ]
+  }
+]

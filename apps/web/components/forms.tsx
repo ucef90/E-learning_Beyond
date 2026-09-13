@@ -37,6 +37,7 @@ function FormFeedback({ status }: { status: FormStatus }) {
 
   return (
     <p
+      role={status.type === "error" ? "alert" : "status"}
       style={{
         margin: 0,
         padding: "12px 14px",
@@ -80,7 +81,7 @@ export function ContactForm() {
       setStatus({
         type: "success",
         message:
-          "Votre demande a bien été envoyée. L’équipe Beyond Expertise reviendra vers vous rapidement.",
+          "Votre demande a été enregistrée dans cette version locale. Aucun email n’a été envoyé automatiquement.",
       });
     } catch (error) {
       setStatus({
@@ -95,26 +96,62 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="card form-card">
-      <input
-        className="input"
-        name="fullName"
-        placeholder="Nom complet"
-        required
-      />
-      <input
-        className="input"
-        name="email"
-        type="email"
-        placeholder="Email professionnel"
-        required
-      />
-      <input className="input" name="company" placeholder="Entreprise" />
-      <textarea
-        className="textarea"
-        name="message"
-        placeholder="Votre besoin"
-        required
-      />
+      <label>
+        Nom complet *
+        <input
+          className="input"
+          name="fullName"
+          placeholder="Nom complet"
+          required
+          minLength={2}
+          maxLength={120}
+          autoComplete="name"
+        />
+      </label>
+      <label>
+        Email de réponse *
+        <input
+          className="input"
+          name="email"
+          type="email"
+          placeholder="Email professionnel"
+          required
+          maxLength={254}
+          autoComplete="email"
+        />
+      </label>
+      <label>
+        Entreprise (facultatif)
+        <input
+          className="input"
+          name="company"
+          placeholder="Entreprise"
+          maxLength={200}
+        />
+      </label>
+      <label>
+        Votre besoin *
+        <textarea
+          className="textarea"
+          name="message"
+          placeholder="Votre besoin"
+          required
+          minLength={10}
+          maxLength={5000}
+        />
+      </label>
+      <p>
+        Vos informations servent à traiter votre demande et sont accessibles aux
+        administrateurs habilités.{" "}
+        <a href="/confidentialite">Données personnelles et droits</a>.
+      </p>
+      <p>
+        Les données de ce formulaire servent à traiter votre demande, sans
+        abonnement publicitaire automatique. N’indiquez pas de données
+        sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
+        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        sans email automatique.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}
@@ -138,7 +175,11 @@ export function ContactForm() {
   );
 }
 
-export function QuoteForm() {
+export function QuoteForm({
+  initialTrainingTitle = "",
+}: {
+  initialTrainingTitle?: string;
+}) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState<FormStatus>({ type: "idle" });
   const [turnstileToken, setTurnstileToken] = useState("");
@@ -184,18 +225,21 @@ export function QuoteForm() {
       <input
         className="input"
         name="companyName"
+        aria-label="Entreprise"
         placeholder="Entreprise"
         required
       />
       <input
         className="input"
         name="contactName"
+        aria-label="Nom du contact"
         placeholder="Nom du contact"
         required
       />
       <input
         className="input"
         name="email"
+        aria-label="Email"
         type="email"
         placeholder="Email"
         required
@@ -203,13 +247,20 @@ export function QuoteForm() {
       <input
         className="input"
         name="participants"
+        aria-label="Nombre de participants"
         type="number"
         min={1}
         defaultValue={6}
         placeholder="Nombre de participants"
         required
       />
-      <select className="select" name="requestedMode" defaultValue="" required>
+      <select
+        className="select"
+        name="requestedMode"
+        aria-label="Modalité souhaitée"
+        defaultValue=""
+        required
+      >
         <option value="" disabled>
           Sélectionner une modalité
         </option>
@@ -221,9 +272,22 @@ export function QuoteForm() {
       <textarea
         className="textarea"
         name="brief"
+        aria-label="Votre besoin de formation"
+        defaultValue={
+          initialTrainingTitle
+            ? `Formation souhaitée : ${initialTrainingTitle}\n\nEffectif et contexte : `
+            : ""
+        }
         placeholder="Effectif, formation cible, contexte"
         required
       />
+      <p>
+        Les données de ce formulaire servent à traiter votre demande, sans
+        abonnement publicitaire automatique. N’indiquez pas de données
+        sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
+        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        sans email automatique.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}
@@ -329,6 +393,13 @@ export function EnrollmentForm({
         name="message"
         placeholder="Contexte, nombre de places, contraintes calendaires"
       />
+      <p>
+        Les données de ce formulaire servent à traiter votre demande, sans
+        abonnement publicitaire automatique. N’indiquez pas de données
+        sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
+        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        sans email automatique.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}
@@ -417,6 +488,13 @@ export function TrainingSidebarLeadForm({
         name="message"
         placeholder="Besoin, nombre de participants, contraintes calendaires"
       />
+      <p>
+        Les données de ce formulaire servent à traiter votre demande, sans
+        abonnement publicitaire automatique. N’indiquez pas de données
+        sensibles. <a href="/confidentialite">Données personnelles</a> ·{" "}
+        <a href="/vos-droits">Vos droits</a>. Cette copie enregistre localement,
+        sans email automatique.
+      </p>
       <TurnstileWidget
         onVerify={setTurnstileToken}
         onExpire={() => setTurnstileToken("")}

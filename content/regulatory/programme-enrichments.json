@@ -1,0 +1,86 @@
+{
+  "rgpd": [
+    [
+      "Qualifier données directes, indirectes et sensibles ; distinguer responsable, sous-traitant et responsabilité conjointe.",
+      "Analyser les rôles dans une chaîne centre de formation, entreprise cliente et prestataire LMS.",
+      "Cartographie des traitements et responsabilités."
+    ],
+    [
+      "Relier finalité, nécessité et base légale ; examiner séparément les conditions des données sensibles.",
+      "Justifier le retrait d’un champ médical inutile d’un formulaire d’inscription.",
+      "Matrice finalités, bases légales et minimisation."
+    ],
+    [
+      "Structurer information, vérification proportionnée d’identité, recherche des données et réponse aux droits.",
+      "Traiter une demande touchant plusieurs systèmes et les droits d’autres personnes.",
+      "Notice révisée et dossier de demande de droits."
+    ],
+    [
+      "Décrire catégories, destinataires, conservation, sécurité et prestataires dans le registre.",
+      "Examiner sous-traitants ultérieurs et transferts dans une offre de service fictive.",
+      "Fiche de registre et grille de revue fournisseur."
+    ],
+    [
+      "Relier mesures d’accès, sauvegarde et conservation au risque ; instruire la nécessité d’une AIPD.",
+      "Distinguer une suppression applicative de la gestion des copies et sauvegardes.",
+      "Plan de mesures et décision d’analyse d’impact."
+    ],
+    [
+      "Distinguer confidentialité, intégrité et disponibilité ; documenter risque, mesures et décision de notification.",
+      "Reconstituer les faits d’un envoi erroné sans conclure sur la seule bonne foi du destinataire.",
+      "Chronologie d’incident et décision motivée."
+    ],
+    [
+      "Identifier finalités des traceurs, règles de prospection et données exposées dans les outils d’IA.",
+      "Analyser un formulaire marketing et un prompt contenant des données excessives.",
+      "Grille de contrôle traceurs, marketing et IA."
+    ],
+    [
+      "Relier chaque action à un risque, un responsable, une preuve attendue et une échéance.",
+      "Défendre une priorité de correction et signaler les questions juridiques non résolues.",
+      "Dossier de synthèse et plan d’action priorisé."
+    ]
+  ],
+  "ai-act": [
+    [
+      "Distinguer système, modèle, génération et automatisation déterministe ; analyser erreurs plausibles et variabilité.",
+      "Comparer une réponse convaincante à une source qui la contredit.",
+      "Grille d’observation des capacités et limites."
+    ],
+    [
+      "Identifier rôle, usage, version du texte et dispositions transitoires avant de fixer une échéance.",
+      "Examiner une modification d’usage susceptible de changer les responsabilités.",
+      "Fiche de qualification et veille des textes applicables."
+    ],
+    [
+      "Analyser finalité et contexte pour repérer interdictions et catégories à instruire.",
+      "Comparer outil d’aide rédactionnelle et outil influençant une sélection de candidats.",
+      "Arbre d’analyse des usages et questions à expertiser."
+    ],
+    [
+      "Relier information de l’utilisateur, contenu généré et contexte d’exposition aux règles pertinentes.",
+      "Réviser une communication qui suggère à tort une validation humaine systématique.",
+      "Notice d’usage et exemples de transparence."
+    ],
+    [
+      "Définir sources de référence, échantillon, erreurs critiques, intervention et suspension.",
+      "Tester la capacité réelle d’un superviseur à détecter et corriger une erreur.",
+      "Protocole de contrôle et fiche de supervision."
+    ],
+    [
+      "Examiner données, accès, réutilisation, dépendances et garanties du fournisseur.",
+      "Détecter une condition contractuelle incompatible avec les usages projetés.",
+      "Grille fournisseur et articulation des contrôles RGPD."
+    ],
+    [
+      "Adapter sensibilisation aux rôles, contexte et risques ; prévoir pratique, évaluation et actualisation.",
+      "Construire deux parcours de maîtrise pour utilisateur occasionnel et responsable de déploiement.",
+      "Charte d’usage et plan de maîtrise de l’IA."
+    ],
+    [
+      "Présenter valeur attendue, risques résiduels, conditions de lancement et motifs de refus.",
+      "Contester une allégation commerciale de conformité totale sans preuve suffisante.",
+      "Dossier de décision et communication étayée."
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+﻿id;criterion;title;scope;existing;missing;procedure
+1;1;Information publique;Applicable;"81 fiches : objectifs, prérequis, durée, format ; contacts confirmés ; pages pratiques.";Valider les 81 programmes, les tarifs, le régime de TVA, les délais et les conditions réelles.;P01
+2;1;Résultats;Applicable;"Page résultats sans statistiques fictives ; méthodes de calcul explicitées.";Produire un bilan de sessions réelles avec période, effectifs, dénominateurs, sources et validation.;P09
+3;1;Information sur la certification;Conditionnel : offres certifiantes;Aucune certification professionnelle promise par le module local.;"Inventorier les offres réellement certifiantes ; vérifier fiches RNCP/RS, résultats, blocs, passerelles et débouchés. Sinon documenter l’absence d’offres concernées.";P01
+4;2;Analyse du besoin;Applicable;Formulaire de besoins avec contexte, niveau et objectifs.;Conserver entretien, attentes du bénéficiaire et du commanditaire, décision d’adaptation.;P02
+5;2;Objectifs évaluables;Applicable;Objectifs détaillés et critères proposés dans les programmes.;Visa du responsable pédagogique, cohérence avec les besoins et critères d’atteinte validés.;P02
+6;2;Conception adaptée;Applicable;"Séquences, ateliers et modalités proposés ; un module pilote disponible.";Validation des contenus par un expert et adaptation documentée pour chaque session.;P02
+7;2;Adéquation à la certification;Conditionnel : offres certifiantes;Pas d’habilitation revendiquée.;"Référentiel officiel, correspondance des contenus et habilitations ; justification de non-applicabilité le cas échéant.";P02
+8;2;Positionnement initial;Applicable aux actions de formation;Recueil déclaratif du niveau disponible.;Test ou entretien initial adapté, vérification des prérequis et décision pédagogique enregistrée.;P02
+9;3;Information avant formation;Applicable;Page pratique et modalités du module pilote.;Convocation, règlement intérieur, contrat/convention, livret et preuve de transmission avant session.;P03
+10;3;Adaptation et suivi;Applicable;Accès individuels, groupes, remises et corrections.;Plan d’accompagnement réel, aménagements convenus, suivi des difficultés et bilan.;P03
+11;3;Évaluation des acquis;Applicable;Quiz de 10 questions, travaux et corrections dans le pilote.;Grilles approuvées, évaluations réelles, décisions d’atteinte et remédiation.;P03
+12;3;Engagement et prévention;Applicable;Suivi de progression, assistance, signalement et registre.;"Règles de relance, suivi des absences/ruptures, prévention et traitement des violences ; responsables désignés.";P03 / P05
+13;3;Coordination de l’alternance;Conditionnel : alternance;Aucune alternance démontrée.;Si concerné : calendrier et missions progressives, lien entreprise, bilans tripartites. Sinon décision motivée.;P10
+14;3;Accompagnement des apprentis;Conditionnel : CFA;Périmètre CFA non confirmé.;"Si CFA : accompagnement socio-professionnel, citoyenneté et prise en charge des ruptures ; pièces réelles.";P10
+15;3;Droits des apprentis;Conditionnel : CFA;Périmètre CFA non confirmé.;"Si CFA : information droits/devoirs, sécurité, prévention, interlocuteurs et médiation ; preuve de transmission.";P10
+16;3;Présentation à la certification;Conditionnel : offres certifiantes;Aucun examen certifiant intégré.;Vérifier règlement de certification, convocations, conditions d’accès et résultats.;P10
+17;4;Moyens adaptés;Applicable;"Plateforme et laboratoire locaux ; ressources du pilote.";Locaux, accessibilité, équipements, tests de charge, assistance et moyens humains réels.;P04
+18;4;Coordination des intervenants;Applicable;"Rôles administrateur, formateur et apprenant ; affectations par groupe.";Organigramme, fiches de mission, planning et comptes rendus de coordination.;P06
+19;4;Ressources et appropriation;Applicable;Leçons, notebooks, CSV, quiz, remises et traces enregistrées.;"Compléter les autres cours ; constater l’usage effectif et l’accompagnement réel en FOAD.";P03 / P04
+20;4;Organisation du CFA;Conditionnel : CFA;Périmètre CFA non confirmé.;Si CFA : référents, mobilité, conseil de perfectionnement, gouvernance et supervision requises.;P10
+21;5;Compétences des intervenants;Applicable;Compte formateur et droits définis techniquement.;CV, qualifications pertinentes, expérience, sélection et évaluation des interventions.;P06
+22;5;Développement des compétences;Selon personnel et obligations applicables;Aucun dossier RH fourni.;"Plan de développement, actions réalisées, attestations et bilan d’application ; périmètre à confirmer.";P06
+23;6;Veille réglementaire;Applicable;"Sources officielles consultées ; évolution de novembre 2026 identifiée.";Désigner un responsable et tracer les revues récurrentes, décisions et changements appliqués.;P07
+24;6;Veille métiers;Applicable;Catalogue data, IA et gestion de projet.;Sources métiers, revue datée et effet concret sur les programmes.;P07
+25;6;Veille pédagogique et technique;Applicable;Laboratoire et activités interactives disponibles.;Essais documentés, comparaison, adoption ou rejet motivé et mesure des effets.;P07
+26;6;Réseau handicap;Applicable;Point d’entrée et recueil sans diagnostic médical.;Référent identifié, partenaires contactés, ressources d’orientation et aménagements réellement convenus.;P04
+27;6;Sous-traitance;Conditionnel : sous-traitance ou portage;Aucun dossier de prestataire fourni.;"Contrats, périmètre, compétences, contrôle qualité et suivi ; exigences applicables au financement à vérifier.";P06
+28;6;Formation en situation de travail;Conditionnel : périodes en entreprise / AFEST;Aucune période de travail apprenante démontrée.;Partenaires, ingénierie, séquences réflexives, accompagnement et évaluations selon dispositif.;P10
+29;6;Insertion des apprentis;Conditionnel : CFA;Périmètre CFA non confirmé.;Si CFA : partenariats, accompagnement vers l’emploi ou les études et suivi des résultats.;P10
+30;7;Appréciations des parties prenantes;Applicable;Formulaires pour apprenants, formateurs, entreprises et financeurs.;Campagne réelle, invitations et relances, retours ou preuves de sollicitation, analyse partagée.;P08
+31;7;Difficultés et réclamations;Applicable;Référence, affectation, échéance, suivi, clôture documentée et export.;"Désigner le responsable et les délais ; prouver la réponse et le traitement effectif des dossiers réels.";P05
+32;7;Amélioration continue;Applicable;"Registre de preuves avec historique ; modèle de plan d’action et risques.";Analyse des retours, risques, actions, responsable, échéance et vérification d’efficacité réelle.;P09
+33;7;Évaluation des enseignements (évolution);"À partir du 01/11/2026 : CFA ; périmètre à confirmer";Questionnaire sur les contenus distinct de la satisfaction générale.;Si CFA : collecte réelle, partage pédagogique, actions et efficacité périodique. Disponible à titre volontaire hors CFA.;P08 / P09

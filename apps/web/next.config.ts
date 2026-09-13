@@ -1,6 +1,20 @@
 import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   typedRoutes: true,
+  async redirects() {
+    return [
+      {
+        source: "/programmes/:file.md",
+        destination: "/programmes/:file.pdf",
+        permanent: true,
+      },
+      {
+        source: "/reglementation/:file.md",
+        destination: "/reglementation/:file.pdf",
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {
@@ -22,10 +36,14 @@ const nextConfig: NextConfig = {
       {
         source: "/:path*",
         headers: [
+          {
+            key: "Permissions-Policy",
+            value: "camera=(), microphone=(), geolocation=()",
+          },
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "Referrer-Policy", value: "same-origin" },
           { key: "X-Frame-Options", value: "SAMEORIGIN" },
-          ...(process.env.PREPRODUCTION === "true"
+          ...(process.env.PREPRODUCTION !== "false" || !process.env.SITE_URL
             ? [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" }]
             : []),
         ],

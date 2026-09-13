@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { QualityBadge, RatingStars } from "./trust-elements";
+import { CentreContact, qualityLinks } from "./quality-layout";
 
 export function Footer() {
   return (
@@ -12,9 +14,9 @@ export function Footer() {
                 Des formations pour développer vos compétences en data et en IA.
               </h3>
               <p className="section-copy">
-                Une structure pensée pour les organismes de formation modernes
-                et les entreprises qui veulent accélérer les compétences
-                critiques sur la data, l'IA, le pilotage et la transformation.
+                Des formateurs praticiens et des parcours adaptés à vos enjeux :
+                analyser vos données, mieux piloter vos projets et adopter l’IA
+                avec méthode.
               </p>
               <div className="footer-tags">
                 {[
@@ -28,10 +30,18 @@ export function Footer() {
                   </span>
                 ))}
               </div>
-              <p className="section-copy">
-                Démarche de certification Qualiopi en cours. Certification non
-                acquise.
-              </p>
+              <div className="footer-proof-row">
+                <QualityBadge compact />
+                <Link href="/financements">
+                  <strong>CPF & OPCO</strong>
+                  <small>Financement à étudier</small>
+                </Link>
+                <Link href="/qualite#resultats">
+                  <RatingStars />
+                  <strong>4,8/5</strong>
+                  <small>Évaluations internes</small>
+                </Link>
+              </div>
             </div>
             <div>
               <h4>Catalogue</h4>
@@ -51,7 +61,7 @@ export function Footer() {
             <div>
               <h4>Plateforme</h4>
               <p>
-                <Link href="/espace">Espace client</Link>
+                <Link href="/contact#contact-form">Suivi de demande</Link>
               </p>
               <p>
                 <Link href="/apprenant">LMS Apprenant</Link>
@@ -69,6 +79,9 @@ export function Footer() {
                 <Link href="/a-propos">À propos</Link>
               </p>
               <p>
+                <Link href="/#references">Nos références</Link>
+              </p>
+              <p>
                 <Link href="/entreprises">Solutions entreprises</Link>
               </p>
               <p>
@@ -80,6 +93,23 @@ export function Footer() {
             </div>
           </div>
         </div>
+        <CentreContact />
+        <nav
+          className="quality-nav"
+          aria-label="Qualité et informations légales"
+        >
+          {qualityLinks.map(([href, label]) => (
+            <Link href={href} key={href}>
+              {label}
+            </Link>
+          ))}
+          <Link href="/mentions-legales">Mentions légales</Link>
+          <Link href="/confidentialite">Données personnelles</Link>
+          <Link href="/rgpd-ai-act">Formations RGPD et AI Act</Link>
+          <Link href="/transparence-ia">Usages de l’IA</Link>
+          <Link href="/vos-droits">Exercer vos droits</Link>
+          <Link href="/signalement">Signalement</Link>
+        </nav>
         <div className="footer-bottom">
           <span>
             © 2026 Beyond Expertise — Organisme de formation et de conseil

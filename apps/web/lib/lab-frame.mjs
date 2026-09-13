@@ -8,7 +8,7 @@ self.onmessage = async ({data}) => {
       self.postMessage({type:"status",text:"Chargement de Python, pandas et matplotlib…"});
       const { loadPyodide } = await import("__LAB_BASE__pyodide.mjs");
       py = await loadPyodide({indexURL:"__LAB_BASE__"});
-      await py.loadPackage(["pandas","matplotlib"]);
+      await py.loadPackage(["pandas","matplotlib","sqlite3"]);
     }
     log = "";
     py.setStdout({batched:text=>{log=(log+text+"\\n").slice(0,50000)}});

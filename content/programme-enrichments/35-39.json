@@ -1,0 +1,182 @@
+[
+  {
+    "index": 35,
+    "slug": "dcei-decoder-les-comportements-emotions-et-attitudes-de-ses-interlocuteurs",
+    "units": [
+      [
+        "Séparer observation, interprétation et hypothèse ; tenir compte du contexte et de la culture.",
+        "Produire plusieurs explications plausibles d’un comportement ambigu.",
+        "Grille d’observation sans jugement."
+      ],
+      [
+        "Repérer demandes, réserves, implicites et changements de formulation dans un échange.",
+        "Vérifier le sens d’une expression sans attribuer d’intention cachée.",
+        "Transcription commentée et questions de clarification."
+      ],
+      [
+        "Considérer posture, rythme et regard comme indices contextuels, sans prétendre détecter mensonge ou personnalité.",
+        "Comparer deux situations où un même geste a des significations différentes.",
+        "Analyse contextualisée des indices non verbaux."
+      ],
+      [
+        "Proposer une hypothèse émotionnelle et laisser l’interlocuteur la confirmer ou la corriger.",
+        "Accueillir une correction sans défendre sa première interprétation.",
+        "Formulations prudentes et réponses possibles."
+      ],
+      [
+        "Reformuler faits, besoins et désaccords ; vérifier la compréhension avant de chercher une solution.",
+        "Rejouer un échange où deux personnes emploient le même mot différemment.",
+        "Scénario de clarification et accord explicite."
+      ],
+      [
+        "Choisir des pratiques de vérification et de feedback adaptées aux interactions récurrentes.",
+        "Évaluer la qualité de compréhension sans catégoriser les interlocuteurs.",
+        "Plan de communication et grille de suivi."
+      ]
+    ]
+  },
+  {
+    "index": 36,
+    "slug": "sith-augmenter-sa-force-de-persuasion-et-son-pouvoir-d-influence",
+    "units": [
+      [
+        "Distinguer persuasion, négociation et manipulation ; préserver information et liberté de décision.",
+        "Repérer une argumentation qui repose sur une pression ou une preuve trompeuse.",
+        "Charte d’influence et limites explicites."
+      ],
+      [
+        "Identifier critères de choix, préoccupations et contraintes en posant des questions ouvertes.",
+        "Faire évoluer sa proposition après découverte d’un besoin ignoré.",
+        "Carte des critères de décision."
+      ],
+      [
+        "Relier argument, bénéfice, preuve et réserve ; adapter le langage au destinataire.",
+        "Présenter une option avec ses limites au lieu d’en masquer les inconvénients.",
+        "Argumentaire et matrice de preuves."
+      ],
+      [
+        "Formuler une demande claire et vérifier compréhension, accord et capacité d’action.",
+        "Distinguer assentiment de façade et engagement effectivement accepté.",
+        "Accord précis et modalités de suivi."
+      ],
+      [
+        "Explorer les raisons d’une résistance avant de répondre ; reconnaître les désaccords persistants.",
+        "Négocier un essai limité lorsque l’engagement complet n’est pas accepté.",
+        "Scénario de négociation et conditions d’essai."
+      ],
+      [
+        "Relier crédibilité, cohérence des actes, expertise vérifiable et respect des engagements.",
+        "Réparer un engagement non tenu avec explication et action corrective.",
+        "Plan de crédibilité et suivi des engagements."
+      ]
+    ]
+  },
+  {
+    "index": 37,
+    "slug": "rdtf-redaction-de-documents-techniques-les-fondamentaux",
+    "units": [
+      [
+        "Définir utilisateurs, tâche, environnement et connaissances nécessaires à la lecture.",
+        "Adapter une même information pour opérateur, administrateur et décideur.",
+        "Profil de lecteur et objectifs documentaires."
+      ],
+      [
+        "Hiérarchiser titres, prérequis, étapes, références et points de décision.",
+        "Retrouver une information critique sans lire le document intégralement.",
+        "Plan navigable et parcours de lecture."
+      ],
+      [
+        "Écrire une action par étape avec résultat attendu, paramètres et conditions d’arrêt.",
+        "Faire exécuter une procédure par un pair sans explication orale supplémentaire.",
+        "Procédure testable et critères de réussite."
+      ],
+      [
+        "Choisir exemples représentatifs, sorties attendues et diagnostic des erreurs fréquentes.",
+        "Documenter une panne sans révéler secret ou donnée personnelle.",
+        "Exemples contrôlés et rubrique de dépannage."
+      ],
+      [
+        "Utiliser l’IA pour reformuler tout en vérifiant commandes, versions et exactitude technique.",
+        "Détecter une commande plausible mais inadaptée à l’environnement documenté.",
+        "Document révisé et journal des vérifications."
+      ],
+      [
+        "Organiser test utilisateur, propriétaire, version et revue à chaque changement significatif.",
+        "Repérer les sections devenues fausses après modification d’une fonction.",
+        "Plan de maintenance et rapport de test."
+      ]
+    ]
+  },
+  {
+    "index": 38,
+    "slug": "erst-etre-rigoureux-dans-son-travail",
+    "units": [
+      [
+        "Définir qualité attendue, exclusions, validations et preuve d’achèvement d’une tâche.",
+        "Réconcilier deux attentes contradictoires avant de commencer le travail.",
+        "Définition du travail terminé."
+      ],
+      [
+        "Estimer effort, dépendances, marges et risques ; distinguer priorité et urgence.",
+        "Réorganiser une semaine après une demande imprévue sans cacher les impacts.",
+        "Planning réaliste et arbitrages explicités."
+      ],
+      [
+        "Structurer classement, nommage, source de référence et historique des changements.",
+        "Retrouver la bonne version d’un document partagé par plusieurs personnes.",
+        "Règles de classement et versionnement."
+      ],
+      [
+        "Choisir contrôles selon criticité, fréquence d’erreur et coût de correction.",
+        "Créer une checklist courte qui détecte les erreurs réellement dommageables.",
+        "Plan de contrôle proportionné."
+      ],
+      [
+        "Signaler tôt les écarts, proposer options et obtenir un arbitrage explicite.",
+        "Renégocier une échéance avec conséquences et solution de repli documentées.",
+        "Message d’alerte et engagement révisé."
+      ],
+      [
+        "Analyser cause d’une erreur sans culpabilisation ; tester une amélioration mesurable.",
+        "Vérifier qu’un nouveau contrôle réduit les reprises sans alourdir tout le processus.",
+        "Boucle d’amélioration et indicateurs de reprise."
+      ]
+    ]
+  },
+  {
+    "index": 39,
+    "slug": "bmdb-mongodb-mise-en-uvre-et-administration",
+    "units": [
+      [
+        "Définir validation de schéma, croissance des tableaux et limites transactionnelles du modèle ; anticiper les mises à jour fréquentes des sous-documents.",
+        "Modéliser une relation à forte croissance sans gonfler indéfiniment un document.",
+        "Modèle documentaire et justification des choix."
+      ],
+      [
+        "Composer agrégations, filtrage, groupement et transformations en contrôlant les volumes.",
+        "Comparer deux pipelines et localiser l’étape qui augmente inutilement le travail.",
+        "Requêtes d’agrégation et résultats vérifiés."
+      ],
+      [
+        "Distinguer index couvrant, partiel et multikey ; comparer documents examinés et résultats renvoyés pour repérer un parcours d’index peu efficace.",
+        "Choisir l’ordre des champs d’un index selon les requêtes réelles.",
+        "Plan d’indexation et mesures avant-après."
+      ],
+      [
+        "Comprendre replica set, élections, write concern et read concern selon les garanties recherchées.",
+        "Observer les effets d’une panne de primaire sur une application de test.",
+        "Scénario de disponibilité et paramètres argumentés."
+      ],
+      [
+        "Analyser clé de shard, distribution, requêtes ciblées et points chauds.",
+        "Comparer deux clés de partitionnement sur une charge déséquilibrée.",
+        "Étude de partitionnement et limites."
+      ],
+      [
+        "Définir sauvegarde, restauration testée, rôles minimaux et surveillance des accès.",
+        "Restaurer un échantillon et vérifier cohérence et délai de récupération.",
+        "Runbook de restauration et contrôles d’accès."
+      ]
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "index": 44,
+    "overview": "Administrez PostgreSQL avec une méthode de diagnostic et de reprise. Le fil rouge couvre configuration, rôles, transactions, maintenance, performance et restauration sur une instance d’exercice isolée.",
+    "units": [
+      [
+        "Distinguer cluster PostgreSQL, base, schéma et session ; situer configuration et journaux.",
+        "Initialiser une instance d’exercice et vérifier encodage, locale, port et répertoire de données.",
+        "Comprendre WAL, processus serveur et checkpoints dans le fonctionnement général.",
+        "Le participant retrouve configuration effective et état du service."
+      ],
+      [
+        "Créer rôles de connexion et rôles de groupe ; appliquer privilèges sur schémas et objets.",
+        "Analyser pg_hba.conf avec ordre des règles et méthode d’authentification.",
+        "Vérifier droits effectifs et privilèges par défaut sur de nouveaux objets.",
+        "Le compte de démonstration accède uniquement aux objets prévus."
+      ],
+      [
+        "Relier MVCC, versions de lignes, transactions longues et besoin de nettoyage.",
+        "Comparer VACUUM et ANALYZE ; observer autovacuum et statistiques.",
+        "Simuler verrouillage et identifier session bloquante avant intervention.",
+        "Le diagnostic explique le blocage et évite de terminer arbitrairement toutes les sessions."
+      ],
+      [
+        "Lire EXPLAIN ANALYZE avec prudence sur les commandes qui modifient des données.",
+        "Comparer estimation, lignes réelles, boucles, tri et accès par index.",
+        "Tester un index ou une réécriture à résultat identique et mesurer lectures ou durée.",
+        "La correction répond à l’opération coûteuse observée."
+      ],
+      [
+        "Distinguer sauvegarde logique, sauvegarde physique et archivage WAL.",
+        "Définir RPO et RTO puis préparer une restauration cohérente avec ces objectifs.",
+        "Restaurer sur une instance isolée et rapprocher schéma, objets et données.",
+        "La preuve de restauration précise point de reprise et contrôles effectués."
+      ],
+      [
+        "Préparer surveillance de connexions, stockage, réplication et sauvegardes.",
+        "Définir procédure de maintenance et critères de retour au service.",
+        "Documenter incident, cause, correction et contrôle après reprise.",
+        "Le runbook permet de choisir une action à partir d’un symptôme identifié."
+      ]
+    ],
+    "slug": "bpga-postgresql-administration-de-la-base-de-donnees"
+  },
+  {
+    "index": 45,
+    "overview": "Apprenez à écrire et contrôler les requêtes SQL courantes. Le parcours progresse de la sélection de lignes à un reporting multitable, avec attention aux NULL, aux jointures et aux modifications de données.",
+    "units": [
+      [
+        "Relier table, clé primaire et relation à une question métier.",
+        "Écrire SELECT avec colonnes et alias explicites plutôt qu’une sélection indifférenciée.",
+        "Comprendre l’absence d’ordre garanti sans ORDER BY.",
+        "Le résultat sélectionne uniquement les colonnes nécessaires et leur sens est clair."
+      ],
+      [
+        "Combiner comparaisons, LIKE, IN et conditions parenthésées.",
+        "Traiter NULL avec IS NULL et distinguer valeur absente et zéro.",
+        "Construire un filtre temporel avec bornes adaptées aux horodatages.",
+        "Les cas placés exactement aux bornes de la période sont correctement traités."
+      ],
+      [
+        "Créer expressions calculées avec types et divisions contrôlés.",
+        "Utiliser COUNT, SUM et AVG en comprenant leur comportement avec NULL.",
+        "Distinguer WHERE, GROUP BY et HAVING dans l’ordre logique de la requête.",
+        "Le total regroupé correspond au total détaillé sur la même population."
+      ],
+      [
+        "Joindre deux puis trois tables en identifiant clés et cardinalités.",
+        "Comparer INNER JOIN et LEFT JOIN sur une entité sans correspondance.",
+        "Repérer un produit cartésien ou une jointure qui multiplie les montants.",
+        "Les doublons introduits par la jointure sont expliqués et corrigés."
+      ],
+      [
+        "Créer une table avec contraintes simples adaptées aux données.",
+        "Prévisualiser périmètre d’un UPDATE ou DELETE dans une base d’exercice.",
+        "Comprendre transaction, validation et annulation d’une modification.",
+        "Une modification erronée de démonstration peut être annulée avant validation."
+      ],
+      [
+        "Organiser la requête finale avec commentaires utiles et noms cohérents.",
+        "Contrôler effectif, valeurs limites et totaux sur un jeu témoin.",
+        "Documenter période, exclusions et format d’export du résultat.",
+        "Un autre utilisateur peut relancer l’extraction et interpréter ses chiffres."
+      ]
+    ],
+    "slug": "oibb-sql-les-fondamentaux"
+  },
+  {
+    "index": 46,
+    "overview": "Évaluez la sécurité d’une application d’IA générative sur un laboratoire autorisé. Vous modélisez les menaces, limitez les accès et testez les protections contre détournements, divulgations et actions excessives.",
+    "units": [
+      [
+        "Dessiner frontières de confiance entre utilisateur, documents, modèle, outils et données.",
+        "Distinguer injection directe, instruction dans un document et abus d’un outil connecté.",
+        "Classer conséquences : information trompeuse, fuite, coût excessif et action non autorisée.",
+        "La cartographie relie chaque menace à une surface et à un impact précis."
+      ],
+      [
+        "Appliquer autorisations côté serveur et comptes de service à privilèges limités.",
+        "Séparer secrets et contexte du modèle ; filtrer les sorties sensibles avant restitution.",
+        "Limiter types d’action, arguments, destinations réseau et volume des fichiers traités.",
+        "Une proposition du modèle ne peut pas élargir les droits accordés à l’application."
+      ],
+      [
+        "Construire un jeu de tests d’abus sur données synthétiques et environnement autorisé.",
+        "Tester document hostile, demande de secret, entrée longue et refus contourné par reformulation.",
+        "Mesurer protections et faux refus sans considérer un filtre lexical comme une garantie complète.",
+        "Le rapport reproduit les cas et indique les limites des contrôles testés."
+      ],
+      [
+        "Définir traces expurgées, seuils de débit et signaux de comportement anormal.",
+        "Préparer suspension d’outil, rotation d’un secret exposé et reprise du service.",
+        "Organiser réévaluation après changement de modèle, corpus ou connecteur.",
+        "Le scénario d’incident identifie qui peut arrêter l’action et vérifier la correction."
+      ]
+    ],
+    "slug": "ai-security-securiser-les-usages-de-l-ia-generative"
+  },
+  {
+    "index": 47,
+    "overview": "Organisez la coopération entre collaborateurs et agents d’IA autour de contrats de délégation précis. Les ateliers rendent visibles responsabilité, qualité et charge de supervision avant de modifier le fonctionnement d’une équipe.",
+    "units": [
+      [
+        "Décomposer activité, décision et contrôle pour identifier les tâches délégables.",
+        "Distinguer assistance individuelle, agent autonome et workflow à validation.",
+        "Préserver responsabilité humaine et capacité de reprise sur les étapes à conséquence métier.",
+        "La répartition précise qui décide et qui vérifie chaque résultat."
+      ],
+      [
+        "Définir objectif, entrées autorisées, outils, budget et conditions d’arrêt d’une délégation.",
+        "Fixer critères d’acceptation et cas d’escalade vers une personne identifiée.",
+        "Prévoir transmission du contexte lors d’une reprise manuelle.",
+        "Le contrat permet de refuser un résultat incomplet sans ambiguïté."
+      ],
+      [
+        "Mesurer erreurs, reprises, temps de contrôle et files d’attente humaines.",
+        "Distinguer volume automatisé et valeur réellement produite.",
+        "Comparer plusieurs niveaux de délégation sur un même scénario.",
+        "Le gain annoncé inclut la charge de supervision et les corrections."
+      ],
+      [
+        "Préparer revue des incidents, entretien du corpus et révision des permissions.",
+        "Organiser formation des utilisateurs et partage des limites observées.",
+        "Définir règles de retrait d’un agent dont le fonctionnement devient insuffisant.",
+        "La routine attribue un responsable à chaque contrôle et à chaque décision d’évolution."
+      ]
+    ],
+    "slug": "agent-boss-piloter-une-equipe-hybride-humains-et-agents-ia"
+  },
+  {
+    "index": 48,
+    "overview": "Industrialisez des prompts métier avec schémas de sortie, cas de test et gestion des versions. Le parcours approfondit extraction, décomposition, robustesse documentaire et mesure de la qualité sur des tâches vérifiables.",
+    "units": [
+      [
+        "Définir schéma de sortie, valeurs autorisées et traitement d’une information absente.",
+        "Séparer contraintes impératives et préférences de style.",
+        "Construire critères d’acceptation sur exactitude, couverture et coût de correction.",
+        "La spécification permet une évaluation indépendante du prompt rédigé."
+      ],
+      [
+        "Comparer exemples guidés, extraction contrainte et décomposition en étapes.",
+        "Réduire contexte superflu tout en conservant les éléments nécessaires à la décision.",
+        "Prévoir points de validation humaine et arrêt d’une boucle de révision.",
+        "La stratégie retenue répond à une difficulté observée du cas métier."
+      ],
+      [
+        "Tester variantes linguistiques, document contradictoire, champ manquant et instruction hostile.",
+        "Comparer versions sur le même jeu de référence sans sélectionner uniquement les cas réussis.",
+        "Mesurer stabilité et distinguer défaut de consigne, de source et de capacité du modèle.",
+        "Le bilan inclut les échecs et les cas où l’abstention est attendue."
+      ],
+      [
+        "Documenter variables, exemples, versions et conditions d’usage de chaque modèle de prompt.",
+        "Préparer revue lors d’un changement d’outil ou de source documentaire.",
+        "Attribuer maintenance et archivage des versions retirées.",
+        "Un utilisateur peut choisir la version adaptée et connaître ses limites."
+      ]
+    ],
+    "slug": "prompt-engineering-avance-pour-equipes-metier"
+  },
+  {
+    "index": 49,
+    "overview": "Préparez le reporting et les arbitrages projet avec Copilot en conservant la traçabilité des faits. Les exercices relient dossier de référence, synthèse d’avancement, risques et décision de comité.",
+    "units": [
+      [
+        "Identifier documents de référence, propriétaires et dates de validité.",
+        "Séparer planning approuvé, hypothèses, compte rendu et demande de changement.",
+        "Vérifier accès et fonctions disponibles dans l’environnement Microsoft 365 utilisé.",
+        "Le corpus évite de mélanger une ancienne décision et une proposition récente."
+      ],
+      [
+        "Structurer avancement, écarts, risques et actions avec références aux documents.",
+        "Distinguer tâche déclarée terminée et livrable accepté.",
+        "Repérer informations contradictoires ou absentes avant de produire un statut consolidé.",
+        "La synthèse signale les incertitudes au lieu de les transformer en statut vert."
+      ],
+      [
+        "Présenter décision attendue, options, impact et responsable de l’arbitrage.",
+        "Contrôler chiffres, échéances et dépendances dans les propositions générées.",
+        "Préparer questions de comité à partir des points non résolus.",
+        "Chaque recommandation est reliée à un fait ou à une hypothèse déclarée."
+      ],
+      [
+        "Créer modèles de demande pour revue hebdomadaire et comité mensuel.",
+        "Prévoir validation du chef de projet avant diffusion d’un compte rendu.",
+        "Suivre corrections, documents périmés et effort de préparation.",
+        "La routine améliore la préparation sans créer automatiquement des engagements non approuvés."
+      ]
+    ],
+    "slug": "copilot-pour-pmo-chefs-de-projet-et-equipes-programme"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "index": 0,
+    "slug": "llmops-deployer-observer-et-gouverner-les-applications-llm",
+    "units": [
+      [
+        "Mesurer séparément la pertinence du retrieval, la fidélité des réponses et la capacité à refuser une question hors périmètre.",
+        "Concevoir une recette stratifiée par population, niveau de risque et type de document ; analyser les écarts entre moyenne globale et segments.",
+        "Jeu de recette annoté, taxonomie des erreurs et seuils de blocage."
+      ],
+      [
+        "Fixer les versions du corpus, du découpage, des embeddings et des paramètres pour rendre une comparaison interprétable.",
+        "Comparer plusieurs exécutions d’un même scénario, calibrer les évaluateurs et expliquer pourquoi un gain moyen peut masquer une régression critique.",
+        "Matrice d’expériences avec paramètres, résultats par segment et décision motivée."
+      ],
+      [
+        "Relier un identifiant de requête aux étapes retrieval, génération et outils ; distinguer latence au premier jeton, latence totale et échecs de dépendances.",
+        "Simuler saturation, expiration d’un fournisseur et réponse sensible ; arbitrer cache, quotas, coupe-circuit et dégradation du service.",
+        "Tableau de supervision, budget par requête et fiche de réponse à incident."
+      ],
+      [
+        "Séparer critères de livraison, contrôles de sécurité, supervision métier et obligations de conservation des traces.",
+        "Préparer un déploiement canari avec seuils d’arrêt, procédure de retour arrière et revalidation après changement du corpus.",
+        "Dossier de mise en service avec responsabilités, preuves de recette et procédure de repli."
+      ]
+    ]
+  },
+  {
+    "index": 1,
+    "slug": "deep-learning-applique-avec-pytorch",
+    "units": [
+      [
+        "Contrôler transformations, déséquilibre des classes, graines aléatoires et transferts mémoire dans un pipeline de données reproductible.",
+        "Comparer l’effet du nombre de workers, de la taille des lots et des augmentations sur le débit sans modifier le jeu de validation.",
+        "Pipeline Dataset/DataLoader et rapport de contrôle des lots."
+      ],
+      [
+        "Inspecter le graphe de calcul, les gradients nuls ou explosifs et la stabilité numérique de la fonction de perte.",
+        "Diagnostiquer un entraînement qui ne converge pas en isolant initialisation, échelle des variables, optimisation et erreur d’étiquetage.",
+        "Boucle d’entraînement instrumentée et journal de diagnostic."
+      ],
+      [
+        "Calculer l’évolution des dimensions, du champ réceptif et du nombre de paramètres entre les blocs convolutifs.",
+        "Comparer profondeur, normalisation et stratégie de taux d’apprentissage à budget de calcul fixé ; justifier le modèle retenu.",
+        "Tableau comparatif des architectures et courbes d’apprentissage."
+      ],
+      [
+        "Distinguer régularisation, augmentation, gel des couches et ajustement fin ; préserver un protocole de sélection indépendant du test.",
+        "Construire une expérience d’ablation et identifier la combinaison qui généralise, avec contrôle du coût et de la variance.",
+        "Plan d’ablation, checkpoints et bilan des gains de généralisation."
+      ],
+      [
+        "Comparer précision, rappel, F1, calibration des probabilités et coût métier des erreurs selon les classes.",
+        "Tester un décalage de distribution, documenter les sous-populations fragiles et proposer un seuil d’abstention plutôt qu’une prédiction systématique.",
+        "Rapport d’erreurs par segment et politique de seuils."
+      ],
+      [
+        "Sauvegarder état du modèle, vocabulaire des classes, transformations et configuration ; contrôler la compatibilité à la recharge.",
+        "Mesurer latence et mémoire en inférence, puis vérifier qu’une optimisation ne dégrade pas les sorties au-delà de la tolérance définie.",
+        "Script d’inférence reproductible, fiche modèle et tests de non-régression."
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "slug": "product-analytics-et-experimentation-ab-testing",
+    "units": [
+      [
+        "Définir identité utilisateur, sessions, fenêtres de conversion et contrats d’événements ; traiter doublons, bots et événements manquants.",
+        "Construire un funnel et des cohortes en distinguant corrélation, comportement observé et hypothèse causale.",
+        "Plan de marquage, dictionnaire des événements et diagnostic du funnel."
+      ],
+      [
+        "Déterminer unité de randomisation, métrique primaire, garde-fous, effet minimal détectable et durée avant de démarrer l’expérience.",
+        "Repérer contamination entre groupes, effets réseau, multi-tests et arrêt opportuniste ; prévoir les règles de décision à l’avance.",
+        "Protocole expérimental et calcul argumenté du dimensionnement."
+      ],
+      [
+        "Lire intervalles d’incertitude, taille d’effet et déséquilibre d’échantillonnage ; distinguer absence de preuve et équivalence.",
+        "Analyser un test avec sample ratio mismatch et segments contradictoires, puis décider si les résultats sont exploitables.",
+        "Note d’analyse avec contrôles de validité et interprétation métier."
+      ],
+      [
+        "Arbitrer déploiement, prolongation ou abandon selon valeur attendue, risques et coût d’implémentation.",
+        "Concevoir un suivi post-déploiement qui détecte un effet de nouveauté, une dérive ou un dommage sur une métrique de garde-fou.",
+        "Décision produit, plan de surveillance et fiche d’apprentissage réutilisable."
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "slug": "data-engineering-cloud-pipelines-elt-et-orchestration",
+    "units": [
+      [
+        "Préciser granularité, schéma, clés, SLA de fraîcheur, responsabilité des sources et règles d’évolution des contrats.",
+        "Comparer batch, micro-batch et CDC selon le volume, la latence attendue, le coût et les capacités de reprise.",
+        "Architecture ELT et contrats de données versionnés."
+      ],
+      [
+        "Gérer watermark, CDC, suppressions, événements tardifs, doublons et changements de schéma sans perdre la traçabilité.",
+        "Rejouer une plage temporelle après incident et démontrer l’idempotence du chargement sur des données déjà présentes.",
+        "Connecteur incrémental, journal de rejets et protocole de reprise."
+      ],
+      [
+        "Construire des transformations modulaires avec tests de clés, de relations, de complétude et de fraîcheur.",
+        "Comparer reconstruction complète et modèle incrémental, puis traiter une correction tardive modifiant un historique déjà calculé.",
+        "Modèles de transformation, tests de données et documentation du lignage."
+      ],
+      [
+        "Exprimer dépendances, états d’exécution, retries, backoff, paramètres et limites de concurrence dans le DAG.",
+        "Concevoir un backfill borné qui évite doubles calculs, surcharge du système source et incohérence des tables aval.",
+        "DAG paramétrable et procédure de backfill testée."
+      ],
+      [
+        "Suivre volumes, erreurs, coûts et fraîcheur ; isoler les secrets et limiter les droits des identités techniques.",
+        "Analyser une rupture de SLA et arbitrer réduction du scan, partitionnement, parallélisme et fréquence d’exécution.",
+        "Tableau d’exploitation, budget de consommation et matrice des accès."
+      ],
+      [
+        "Séparer environnements, configurations et données de test ; prévoir validation automatique et promotion contrôlée.",
+        "Faire reprendre le pipeline par un tiers à partir du dépôt, du runbook et d’un incident simulé documenté.",
+        "Dépôt livrable, dossier d’exploitation et recette de reprise."
+      ]
+    ]
+  },
+  {
+    "index": 4,
+    "slug": "lakehouse-moderne-avec-microsoft-fabric-et-databricks",
+    "units": [
+      [
+        "Relier couches bronze, silver et gold aux exigences de qualité, de conservation, de requêtage et de gouvernance.",
+        "Comparer entrepôt, lac et lakehouse sur un cas associant BI, données semi-structurées et entraînement de modèles.",
+        "Schéma d’architecture cible et matrice des besoins."
+      ],
+      [
+        "Examiner le chemin d’accès aux tables, la propagation des permissions et les dépendances d’actualisation entre stockage et modèle sémantique.",
+        "Définir les droits, la séparation des espaces et une stratégie de rafraîchissement ; tester les hypothèses de capacité sur un petit scénario.",
+        "Parcours de données Fabric documenté et grille de dimensionnement."
+      ],
+      [
+        "Relier tables Delta, calcul, orchestration et gouvernance du catalogue ; comprendre transactions, évolution de schéma et historique.",
+        "Comparer une stratégie de partitionnement et une optimisation de lecture sur des requêtes représentatives, sans généraliser les mesures d’un seul cas.",
+        "Pipeline Databricks et relevé des performances avant/après."
+      ],
+      [
+        "Comparer coût complet, compétences requises, intégration Microsoft, portabilité et gouvernance opérationnelle.",
+        "Construire une migration par lots avec coexistence, critères de bascule, retour arrière et preuve de cohérence des indicateurs.",
+        "Matrice de décision argumentée et feuille de route de migration."
+      ]
+    ]
+  }
+]

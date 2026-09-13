@@ -47,8 +47,8 @@ const steps = [
     title: "Mesurer",
     description: "Suivre l'adoption, la satisfaction et la mise en pratique dans la durée — pas seulement la présence en salle.",
     points: [
-      "Évaluation à chaud systématique (satisfaction, compréhension)",
-      "Bilan à froid à J+30 sur la mise en pratique réelle",
+      "Questionnaire de satisfaction et retour sur les contenus disponibles dans la rubrique Avis",
+      "Bilan de mise en pratique à organiser avec le centre selon le parcours",
       "Rapport de suivi et recommandations de formations complémentaires"
     ]
   }
@@ -115,7 +115,7 @@ export default function MethodologyPage() {
               {[
                 { title: "Applicabilité immédiate", desc: "Chaque contenu doit pouvoir être mis en pratique dès le lendemain en contexte professionnel." },
                 { title: "Formateurs praticiens", desc: "Nos intervenants exercent leur métier en parallèle de l'animation — pas de théoriciens déconnectés." },
-                { title: "Évaluation continue", desc: "Mesure systématique de la satisfaction, de la compréhension et de la mise en pratique post-formation." }
+                { title: "Évaluation continue", desc: "Quiz, travaux corrigés et questionnaires pour préparer l’analyse des acquis et de la satisfaction." }
               ].map((item) => (
                 <div key={item.title} className="catalog-highlight-item">
                   <strong>{item.title}</strong>

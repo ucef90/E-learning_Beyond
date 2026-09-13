@@ -1,0 +1,202 @@
+[
+  {
+    "prompt": "Un fichier remplace les noms par des identifiants reliés à une table séparée. Il est…",
+    "options": [
+      "pseudonymisé et reste généralement soumis au RGPD",
+      "anonyme dans tous les cas",
+      "hors RGPD si la table est chiffrée"
+    ],
+    "correct": 0,
+    "explanation": "La possibilité de réidentifier maintient le caractère personnel ; la pseudonymisation est une mesure de réduction du risque, pas une sortie automatique du RGPD."
+  },
+  {
+    "prompt": "Qui décide de la finalité et des moyens essentiels ?",
+    "options": [
+      "toujours le DPO",
+      "le responsable de traitement",
+      "toujours l’hébergeur"
+    ],
+    "correct": 1,
+    "explanation": "La qualification repose sur les décisions réelles. Le prestataire informatique peut être sous-traitant, et le DPO conseille."
+  },
+  {
+    "prompt": "Pour une demande de programme, faut-il imposer l’accord à la newsletter ?",
+    "options": [
+      "Oui, car le programme est gratuit",
+      "Oui, si une notice existe",
+      "Non, il faut distinguer les deux finalités"
+    ],
+    "correct": 2,
+    "explanation": "Un service demandé ne doit pas imposer une prospection distincte. Le choix de la base et les règles de prospection doivent être examinés séparément."
+  },
+  {
+    "prompt": "Une base légale doit être…",
+    "options": [
+      "justifiée pour la finalité avant la collecte",
+      "choisie après une plainte",
+      "toujours le consentement"
+    ],
+    "correct": 0,
+    "explanation": "Les bases de l’article 6 ont des conditions propres ; il faut définir l’usage et sa justification avant de recueillir les données."
+  },
+  {
+    "prompt": "Un besoin d’aménagement impose-t-il de collecter un diagnostic dans le formulaire public ?",
+    "options": [
+      "Oui, si l’accès administrateur est protégé",
+      "Non, demander d’abord le besoin pratique nécessaire",
+      "Oui, pour tout participant"
+    ],
+    "correct": 1,
+    "explanation": "La sécurité ne rend pas une collecte excessive nécessaire. Les données de santé demandent un examen spécifique."
+  },
+  {
+    "prompt": "Le délai de principe pour répondre à une demande de droits est…",
+    "options": [
+      "72 heures",
+      "six mois",
+      "un mois"
+    ],
+    "correct": 2,
+    "explanation": "L’article 12 prévoit un mois ; la prolongation éventuelle doit être justifiée et annoncée dans ce délai initial."
+  },
+  {
+    "prompt": "Peut-on demander systématiquement une copie de pièce d’identité ?",
+    "options": [
+      "Non, la vérification doit être proportionnée au doute et au risque",
+      "Oui, même pour corriger une coquille",
+      "Non, aucune vérification n’est jamais permise"
+    ],
+    "correct": 0,
+    "explanation": "Il faut éviter de divulguer à un imposteur sans créer une collecte systématique excessive. Des éléments supplémentaires sont possibles en cas de doute raisonnable."
+  },
+  {
+    "prompt": "Une demande d’effacement implique…",
+    "options": [
+      "de la refuser si la personne a suivi une formation",
+      "d’examiner les données, les motifs de conservation et les exceptions",
+      "de supprimer immédiatement toutes les archives légales"
+    ],
+    "correct": 1,
+    "explanation": "L’effacement n’est ni absolu ni exclu par principe. La réponse doit expliquer les données supprimées et les éventuelles catégories conservées."
+  },
+  {
+    "prompt": "Une PME utilise chaque semaine un LMS. L’exemption de registre…",
+    "options": [
+      "est automatique pour toute PME",
+      "dépend seulement du prix du logiciel",
+      "ne se déduit pas du seul effectif inférieur à 250"
+    ],
+    "correct": 2,
+    "explanation": "Le caractère non occasionnel et les autres conditions de l’article 30 doivent être examinés."
+  },
+  {
+    "prompt": "Une clause « conforme RGPD » dans un contrat fournisseur…",
+    "options": [
+      "ne remplace pas les clauses et garanties requises",
+      "suffit à démontrer toute conformité",
+      "transfère toute responsabilité au fournisseur"
+    ],
+    "correct": 0,
+    "explanation": "Instructions, sécurité, assistance, sous-traitance ultérieure et fin de contrat doivent être traitées selon les rôles réels."
+  },
+  {
+    "prompt": "Un serveur en France avec un support hors EEE…",
+    "options": [
+      "rend le RGPD inapplicable au support",
+      "demande l’analyse des accès et des transferts éventuels",
+      "exclut nécessairement tout transfert"
+    ],
+    "correct": 1,
+    "explanation": "La localisation du serveur ne décrit pas tous les flux ni tous les accès."
+  },
+  {
+    "prompt": "Une durée de conservation doit être…",
+    "options": [
+      "toujours fixée à cinq ans",
+      "illimitée tant que le stockage est chiffré",
+      "justifiée par catégorie, finalité et déclencheur"
+    ],
+    "correct": 2,
+    "explanation": "La limitation de conservation s’applique même aux données protégées. Les obligations légales doivent être identifiées."
+  },
+  {
+    "prompt": "Une AIPD est à examiner notamment quand…",
+    "options": [
+      "le traitement est susceptible de créer un risque élevé pour les personnes",
+      "le logiciel coûte plus de 1 000 euros",
+      "un fichier possède plus de dix colonnes"
+    ],
+    "correct": 0,
+    "explanation": "L’analyse repose sur les droits et libertés, les critères et listes applicables ; le prix n’est pas un critère."
+  },
+  {
+    "prompt": "Une violation sans risque susceptible pour les personnes…",
+    "options": [
+      "doit toujours être publiée sur le site",
+      "reste à documenter même si elle n’est pas notifiée",
+      "doit être oubliée immédiatement"
+    ],
+    "correct": 1,
+    "explanation": "Le registre des violations permet de démontrer l’analyse et de réévaluer la décision si les faits changent."
+  },
+  {
+    "prompt": "Quand une notification à l’autorité est requise, le délai visé est…",
+    "options": [
+      "72 heures après la fin de l’enquête dans tous les cas",
+      "un mois après le dépôt d’une plainte",
+      "au plus tôt et si possible sous 72 heures après connaissance"
+    ],
+    "correct": 2,
+    "explanation": "Ne pas attendre l’enquête complète : les informations peuvent être complétées progressivement. Un retard se justifie."
+  },
+  {
+    "prompt": "Informer aussi les personnes après une violation dépend notamment…",
+    "options": [
+      "d’un risque élevé, avec les conditions et exceptions applicables",
+      "de l’existence d’un abonnement marketing",
+      "du seul nombre de fichiers concernés"
+    ],
+    "correct": 0,
+    "explanation": "L’article 34 vise le risque élevé. L’information doit donner les conséquences et mesures utiles."
+  },
+  {
+    "prompt": "Un cookie exclusivement nécessaire à la session demandée…",
+    "options": [
+      "autorise le suivi publicitaire dans le même cookie",
+      "peut être exempté de consentement avec information adaptée",
+      "exige forcément une bannière publicitaire"
+    ],
+    "correct": 1,
+    "explanation": "L’exemption vise une finalité strictement nécessaire ; elle ne couvre pas les finalités additionnelles."
+  },
+  {
+    "prompt": "Copier un dossier médical sans nom dans un assistant public…",
+    "options": [
+      "est toujours anonyme",
+      "est licite dès que le service promet de ne pas entraîner son modèle",
+      "peut encore exposer des données personnelles identifiables"
+    ],
+    "correct": 2,
+    "explanation": "Les recoupements, la base légale, les conditions du fournisseur et les données sensibles restent à examiner."
+  },
+  {
+    "prompt": "Le DPO est-il obligatoire pour toute entreprise ?",
+    "options": [
+      "Non, les conditions de désignation doivent être examinées",
+      "Oui, même sans traitement de données",
+      "Non, seules les banques peuvent en désigner"
+    ],
+    "correct": 0,
+    "explanation": "L’article 37 décrit les situations obligatoires. Une désignation volontaire est également possible avec les garanties correspondantes."
+  },
+  {
+    "prompt": "La réussite de cette formation…",
+    "options": [
+      "vaut agrément de la CNIL",
+      "ne certifie ni l’entreprise ni les compétences DPO au titre d’un mécanisme officiel",
+      "rend automatiquement tous les traitements conformes"
+    ],
+    "correct": 1,
+    "explanation": "Une attestation de formation doit rester fidèle à son objet. Les certifications volontaires ont un périmètre et une procédure propres."
+  }
+]

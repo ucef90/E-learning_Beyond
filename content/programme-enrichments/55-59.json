@@ -1,0 +1,132 @@
+[
+  {
+    "index": 55,
+    "slug": "dashboard-executif-pour-pmo-et-direction-projet",
+    "units": [
+      [
+        "Associer chaque vue à une décision, un responsable et une fréquence de comité.",
+        "Retirer un indicateur décoratif qui ne change aucune décision.",
+        "Carte des décisions et besoins d’information."
+      ],
+      [
+        "Définir seuils, tendance, criticité et qualité de donnée pour les alertes.",
+        "Repérer un statut vert masquant une dépendance bloquante.",
+        "Dictionnaire d’alertes et règles d’escalade."
+      ],
+      [
+        "Hiérarchiser synthèse, écarts, risques et décisions attendues sur une page.",
+        "Rendre lisible une information dense sans multiplier couleurs et graphiques.",
+        "Maquette de cockpit exécutif."
+      ],
+      [
+        "Évaluer temps de lecture, compréhension et capacité à décider à partir de cas concrets.",
+        "Tester le tableau avec une donnée manquante et une contradiction entre indicateurs.",
+        "Compte rendu de test et cockpit révisé."
+      ]
+    ]
+  },
+  {
+    "index": 56,
+    "slug": "business-analyst-modelisation-des-processus",
+    "units": [
+      [
+        "Choisir des cas représentatifs, repérer variabilité et exceptions, puis définir la mesure du délai de bout en bout plutôt que de la seule durée d’exécution.",
+        "Distinguer problème local et effet d’une dépendance en amont.",
+        "Fiche de cadrage du processus."
+      ],
+      [
+        "Modéliser activités, événements, décisions et exceptions avec une notation cohérente.",
+        "Représenter une boucle de reprise et les échanges entre services.",
+        "Modèle actuel et scénarios d’exception."
+      ],
+      [
+        "Mesurer attente, reprise et rupture d’information avant de dessiner la cible.",
+        "Comparer suppression d’étape et automatisation sans déplacer le problème.",
+        "Analyse des irritants et processus cible."
+      ],
+      [
+        "Organiser une revue par scénarios, simuler les exceptions et préciser les conditions de passage du pilote au fonctionnement cible.",
+        "Faire valider la cible par les personnes qui exécutent les cas difficiles.",
+        "Dossier de validation et plan de transition."
+      ]
+    ]
+  },
+  {
+    "index": 57,
+    "slug": "business-analyst-cadrage-des-besoins",
+    "units": [
+      [
+        "Définir problème, objectif, périmètre et parties prenantes sans présupposer la solution.",
+        "Reformuler une demande d’outil en besoin métier vérifiable.",
+        "Note de cadrage et hypothèses."
+      ],
+      [
+        "Combiner entretiens, observation, documents et ateliers ; confronter les divergences.",
+        "Analyser un besoin déclaré qui contredit le fonctionnement observé.",
+        "Synthèse des besoins et points de désaccord."
+      ],
+      [
+        "Rédiger exigences fonctionnelles, règles et contraintes avec critères d’acceptation.",
+        "Transformer une exigence vague de rapidité en condition mesurable.",
+        "Catalogue d’exigences et exemples d’acceptation."
+      ],
+      [
+        "Prioriser selon valeur, risque, dépendances et coût ; maintenir traçabilité et décisions.",
+        "Gérer une demande tardive en documentant son impact sur le périmètre.",
+        "Baseline des besoins et registre des arbitrages."
+      ]
+    ]
+  },
+  {
+    "index": 58,
+    "slug": "kanban-pour-equipes-produit-et-support",
+    "units": [
+      [
+        "Décrire flux, types de demandes, points d’engagement et politiques explicites.",
+        "Faire apparaître le travail invisible et les files d’attente hors tableau.",
+        "Tableau Kanban et règles de fonctionnement."
+      ],
+      [
+        "Fixer limites d’encours, critères de tirage et traitement des blocages.",
+        "Négocier une urgence sans transformer toute demande en priorité absolue.",
+        "Politiques d’encours et scénario de blocage."
+      ],
+      [
+        "Lire temps de cycle, débit, âge des éléments et diagramme de flux cumulatif.",
+        "Interpréter une prévision probabiliste sans la présenter comme engagement certain.",
+        "Analyse de flux et hypothèses de prévision."
+      ],
+      [
+        "Formuler une expérimentation, mesure et durée de revue ; limiter les changements simultanés.",
+        "Vérifier si une baisse d’encours améliore le délai sans dégrader le service.",
+        "Plan d’expérimentation et bilan des résultats."
+      ]
+    ]
+  },
+  {
+    "index": 59,
+    "slug": "scrum-master-facilitation-et-rituels",
+    "units": [
+      [
+        "Distinguer facilitation, coaching, suppression des obstacles et responsabilité du produit.",
+        "Clarifier une situation où le Scrum Master devient répartiteur de tâches.",
+        "Carte des responsabilités et posture de facilitation."
+      ],
+      [
+        "Relier objectif de sprint, capacité, plan et adaptation quotidienne.",
+        "Faciliter une planification comportant incertitude technique et dépendance externe.",
+        "Plan de facilitation et objectif de sprint."
+      ],
+      [
+        "Organiser revue centrée sur le résultat et rétrospective conduisant à une action vérifiable.",
+        "Faire émerger un désaccord sans imposer une solution à l’équipe.",
+        "Scénarios d’atelier et action d’amélioration."
+      ],
+      [
+        "Distinguer conflit de personnes, règles implicites et obstacle organisationnel.",
+        "Préparer une escalade factuelle tout en préservant l’autonomie de l’équipe.",
+        "Diagnostic d’obstacle et stratégie d’intervention."
+      ]
+    ]
+  }
+]

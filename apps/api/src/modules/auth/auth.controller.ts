@@ -35,6 +35,9 @@ export class AuthController {
     });
     return { user: result.user };
   }
+  @Get("my-data") myData(@Req() req: any) {
+    return this.authService.personalData(req.user.id);
+  }
   @Get("me") me(@Req() req: any) {
     return req.user;
   }

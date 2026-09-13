@@ -16,6 +16,9 @@ export class CoursesController {
   @Get("me") list(@Req() req: any) {
     return this.service.list(req.user);
   }
+  @Get("dashboard") dashboard(@Req() req: any) {
+    return this.service.dashboard(req.user);
+  }
   @Get("groups") groups(@Req() req: any) {
     return this.service.groups(req.user);
   }

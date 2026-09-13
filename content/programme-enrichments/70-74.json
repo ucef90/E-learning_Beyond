@@ -1,0 +1,162 @@
+[
+  {
+    "index": 70,
+    "slug": "data-storytelling-pour-comites-de-direction",
+    "units": [
+      [
+        "Définir décision, public, temps disponible et niveau d’incertitude acceptable.",
+        "Reformuler un reporting exhaustif en question d’arbitrage précise.",
+        "Brief de restitution et décision attendue."
+      ],
+      [
+        "Relier contexte, constat, explication plausible et recommandation sans inventer de causalité.",
+        "Construire un récit qui conserve les données contraires à la thèse initiale.",
+        "Storyboard et distinction faits-hypothèses."
+      ],
+      [
+        "Choisir graphiques, annotations, unités et comparaisons qui soutiennent chaque argument.",
+        "Corriger un visuel spectaculaire mais peu fidèle à l’ampleur de l’effet.",
+        "Support visuel et sources vérifiables."
+      ],
+      [
+        "Présenter conclusion, preuves, limites et action ; préparer questions sur méthode et données.",
+        "Répondre à une contestation en revenant aux hypothèses et résultats vérifiables.",
+        "Présentation exécutive et dossier de réponses."
+      ]
+    ]
+  },
+  {
+    "index": 71,
+    "slug": "statistiques-appliquees-pour-data-analyst",
+    "units": [
+      [
+        "Lire histogramme, boîte à moustaches et quantiles conjointement ; expliquer l’effet des valeurs extrêmes et des transformations d’échelle sur le résumé.",
+        "Choisir un résumé adapté à une distribution asymétrique comportant des valeurs extrêmes.",
+        "Analyse descriptive et choix des résumés."
+      ],
+      [
+        "Distinguer erreur standard et dispersion individuelle ; construire une intuition du rééchantillonnage et discuter ses limites lorsque les observations dépendent entre elles.",
+        "Expliquer pourquoi augmenter la taille ne corrige pas un échantillon biaisé.",
+        "Plan d’échantillonnage et lecture d’incertitude."
+      ],
+      [
+        "Choisir test apparié ou indépendant selon le plan de collecte ; interpréter intervalle de différence et risque lié à la multiplication des comparaisons.",
+        "Interpréter un résultat significatif mais négligeable pour la décision métier.",
+        "Comparaison statistique et limites documentées."
+      ],
+      [
+        "Présenter méthode, hypothèses, résultats, incertitude et portée de la conclusion.",
+        "Identifier les analyses multiples susceptibles de produire un résultat fortuit.",
+        "Note statistique reproductible et recommandations."
+      ]
+    ]
+  },
+  {
+    "index": 72,
+    "slug": "python-pour-data-analyst",
+    "units": [
+      [
+        "Structurer environnement, chemins, types, fonctions et lecture de fichiers pour une analyse reproductible.",
+        "Refactoriser un notebook dépendant de l’ordre d’exécution en étapes explicites.",
+        "Environnement documenté et script d’import."
+      ],
+      [
+        "Mesurer mémoire occupée et cardinalité des catégories ; distinguer absence structurelle, défaut de collecte et code métier avant d’imputer une valeur.",
+        "Diagnostiquer une colonne numérique importée comme texte à cause de formats mixtes.",
+        "Rapport de profilage et règles de filtrage."
+      ],
+      [
+        "Employer contrôles de fusion, indicateurs de correspondance et tables de rejets ; distinguer clé non unique, référence absente et rapprochement ambigu.",
+        "Détecter une jointure plusieurs-à-plusieurs qui multiplie les montants.",
+        "Pipeline de nettoyage et rapprochement contrôlé."
+      ],
+      [
+        "Maîtriser groupby, agrégats, transformations et fenêtres temporelles ; fixer dénominateurs et grain.",
+        "Vérifier ratios pondérés et cohérence entre détail et total général.",
+        "Table d’indicateurs et tests de réconciliation."
+      ],
+      [
+        "Choisir graphiques et exports selon public ; conserver unités, légendes et source des chiffres.",
+        "Générer un rapport paramétré pour deux périodes avec résultats comparables.",
+        "Rapport visuel et exports exploitables."
+      ],
+      [
+        "Découper en fonctions, gérer erreurs, journaliser et tester les invariants du traitement.",
+        "Rejouer le pipeline sur fichier incomplet sans produire silencieusement un faux rapport.",
+        "Traitement automatisé et guide de reprise."
+      ]
+    ]
+  },
+  {
+    "index": 73,
+    "slug": "etl-et-integration-de-donnees-moderne",
+    "units": [
+      [
+        "Définir sources, grain, fréquence, contrat de schéma et objectifs de reprise.",
+        "Comparer ETL et ELT selon volume, sensibilité et capacité de la plateforme.",
+        "Architecture d’intégration et contrats de données."
+      ],
+      [
+        "Gérer extraction complète ou incrémentale, pagination, curseurs et modifications tardives.",
+        "Reprendre une extraction interrompue sans perdre ni dupliquer des enregistrements.",
+        "Connecteur et stratégie de reprise."
+      ],
+      [
+        "Normaliser types, clés et formats ; distinguer rejet bloquant et anomalie tolérée.",
+        "Conserver les données rejetées avec motif et possibilité de retraitement.",
+        "Chaîne de transformation et registre des rejets."
+      ],
+      [
+        "Choisir append, upsert, historisation et traitement des suppressions avec idempotence.",
+        "Rejouer un lot déjà chargé et vérifier l’absence de doublons.",
+        "Chargement idempotent et tests de réconciliation."
+      ],
+      [
+        "Définir dépendances, retries bornés, alertes, fraîcheur et supervision des volumes.",
+        "Diagnostiquer un flux techniquement réussi mais métier incomplet.",
+        "Orchestration et tableau de qualité opérationnelle."
+      ],
+      [
+        "Documenter lineage, règles, paramètres, responsabilités et procédures de changement.",
+        "Faire reprendre le traitement par un autre intervenant à partir du dossier livré.",
+        "Dossier d’exploitation et recette de transfert."
+      ]
+    ]
+  },
+  {
+    "index": 74,
+    "slug": "data-warehouse-et-modelisation-dimensionnelle",
+    "units": [
+      [
+        "Relier besoins décisionnels, systèmes sources, zones de traitement et usages de restitution.",
+        "Arbitrer modèle centralisé et besoins locaux sans multiplier les définitions d’un KPI.",
+        "Architecture décisionnelle et périmètre."
+      ],
+      [
+        "Définir le grain avant les mesures ; distinguer faits transactionnels, snapshots et mesures non additives.",
+        "Éviter l’addition d’un solde ou d’un taux sur des dimensions inadaptées.",
+        "Table de faits et règles d’agrégation."
+      ],
+      [
+        "Construire clés substituts, hiérarchies, dimensions conformes et membre inconnu.",
+        "Traiter une dimension utilisée dans plusieurs processus métier.",
+        "Modèle dimensionnel et dictionnaire des attributs."
+      ],
+      [
+        "Comparer changements de type 1 et 2, dates de validité et arrivées tardives.",
+        "Reconstituer une analyse historique malgré une correction de référentiel.",
+        "Règles d’historisation et cas de test."
+      ],
+      [
+        "Ordonner chargements, gérer clés absentes et contrôler complétude, unicité et rapprochement.",
+        "Rejouer un chargement partiel sans corrompre les périodes historiques.",
+        "Pipeline de chargement et contrôles de cohérence."
+      ],
+      [
+        "Tester requêtes métier, performances, compréhension des mesures et évolutions prévues.",
+        "Faire valider une ambiguïté de définition avant la mise à disposition du modèle.",
+        "Dossier de recette et modèle documenté."
+      ]
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "status": "PREPARATION_NOT_CERTIFICATION",
+  "date": "2026-09-12",
+  "items": [
+    {
+      "id": "identity",
+      "status": "PENDING_CENTRE",
+      "required": "Raison sociale, SIREN, adresse et responsable de traitement confirmés"
+    },
+    {
+      "id": "roles",
+      "status": "PENDING_CENTRE",
+      "required": "Personne chargée des droits et DPO si applicable ; canal surveillé"
+    },
+    {
+      "id": "lawful-bases",
+      "status": "PENDING_CENTRE",
+      "required": "Bases légales, nécessités et informations par finalité"
+    },
+    {
+      "id": "retention",
+      "status": "PENDING_CENTRE",
+      "required": "Durées, archives, sauvegardes et suppression justifiées puis mises en œuvre"
+    },
+    {
+      "id": "providers",
+      "status": "PENDING_CENTRE",
+      "required": "Contrats, sous-traitants, transferts, garanties et hébergement final"
+    },
+    {
+      "id": "ai-inventory",
+      "status": "PENDING_CENTRE",
+      "required": "Usages internes d’IA, données, rôles, risques et décisions effectives"
+    },
+    {
+      "id": "trainers",
+      "status": "PENDING_CENTRE",
+      "required": "Compétences des formateurs, relecture et validation humaine datée des deux cours"
+    },
+    {
+      "id": "sessions",
+      "status": "PENDING_CENTRE",
+      "required": "Tarifs, délais, adaptation, modalités d’animation et évaluation des dossiers"
+    },
+    {
+      "id": "evidence",
+      "status": "PENDING_REAL_EXECUTION",
+      "required": "Registres, demandes de droits et incidents réels traités selon les procédures"
+    },
+    {
+      "id": "marketing",
+      "status": "TECHNICALLY_IMPLEMENTED",
+      "verified": "Messages fondés sur les supports disponibles, sans certification revendiquée"
+    },
+    {
+      "id": "privacy-controls",
+      "status": "TECHNICALLY_TESTED",
+      "verified": "Session, ACL, export personnel, demandes privées, décor local, notices et transparence"
+    }
+  ]
+}

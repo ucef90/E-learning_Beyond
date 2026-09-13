@@ -1,0 +1,9 @@
+[Unit]
+Description=Beyond Expertise database backup to separate repository
+[Service]
+Type=oneshot
+User=beyond
+EnvironmentFile=/etc/beyond/backup.env
+ExecStart=/bin/bash /srv/beyond/current/deploy/ovh/backup.sh
+UMask=0077
+NoNewPrivileges=true

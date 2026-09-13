@@ -1,0 +1,22 @@
+[Unit]
+Description=Beyond Expertise web
+After=network.target
+[Service]
+Type=simple
+User=beyond
+Group=beyond
+WorkingDirectory=/srv/beyond/current/apps/web
+EnvironmentFile=/etc/beyond/platform.env
+ExecStart=/usr/bin/node /srv/beyond/current/apps/web/node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3300
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/beyond/current/apps/web/.next
+UMask=0077
+StandardOutput=journal
+StandardError=journal
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,56 @@
+BEYOND EXPERTISE — SUIVI DE RÉALISATION — 13 SEPTEMBRE 2026
+Cahier des charges global et premier jalon conservés. Branche codex/plateforme-complete issue de c8f1882.
+Version de travail consultable : http://127.0.0.1:3300/apprentissage
+Démarrage sur ce PC : Demarrer-plateforme.ps1 ; PostgreSQL local doit être actif.
+
+RÉALISÉ ET CONTRÔLÉ
+Studio administrateur/formateur : modules, leçons, quiz, seuils, explications, ressources privées, responsables, relecture et publication distinctes. Protection par révision et gel des versions publiées ou attribuées.
+Accès : attribution nominative, expiration/révocation, positionnement, droits formateur limités, conservation des travaux après réactivation.
+Apprentissage : lecture et reprise, notebook avec sauvegarde serveur, dossier écrit, remise, feedback et critères propres à chaque quiz/cours ; relevé pédagogique nominatif imprimable.
+Trois nouveaux parcours privés en brouillon : Data Analyst 8 modules/12 h, Python analyse-ML 8 modules/12 h, IA-automatisation 6 modules/9 h 30. 44 questions, trois projets, données synthétiques, grilles et corrigés. Estimations à étalonner en cohorte.
+Cinq notebooks exécutés dans le navigateur, dont SQL après ajout de SQLite au runtime figé. Ateliers ouverts et exécutés depuis chacun des trois cours.
+83 fiches et 40 navigations par clic passent sans erreur ; titres uniques, descriptions, 404 pour une fiche absente. Canonicals, sitemap conditionnel et fil d'Ariane préparés ; préproduction et espaces privés hors index.
+Contrôles ordinateur/mobile, menu des longs parcours défilant et logo/menu administrateur préservés.
+Compilation API et Next réussies ; 14 scénarios API et 7 contrôles interface, plus trois parcours dans le lecteur.
+Sauvegarde PostgreSQL restaurée dans une base neuve : 13 tables rapprochées par empreinte, y compris les tentatives de quiz et pièces privées.
+20/50/100 clients locaux en lecture : aucune erreur dans le micro-test. Ce résultat n'est pas une capacité OVH.
+Garde de production : refus effectif des comptes de recette et d'une configuration HTTPS incomplète.
+Étude de marché ciblée et budget datés ; guides et modèles de déploiement, sauvegarde et retour arrière.
+Quatre cours temporaires de nos tests ont été supprimés. Les sept cours préexistants sont conservés ; les trois nouveaux brouillons restent non attribués et modifiables.
+
+CONSERVATION
+Ancienne version 3200/4200/3201 et dépôt d'origine préservés. Travail dans une copie et une base distinctes.
+Fichiers pédagogiques avec réponses/corrigés hors du dépôt public : content/parcours/*, .private et .pilot ignorés par Git.
+Sauvegarde de base vérifiée : .private/platform-verified.dump ; lot source pédagogique : .private/parcours-source-2026-09-13.zip.
+Rapports et captures détaillés : work/validation ; bilan publiable sans contenus privés : docs/VALIDATION-PLATEFORME.json.
+
+MISE EN LIGNE EFFECTUÉE
+Le 13 septembre 2026 à 11 h 22 UTC : nouvelle version Docker sur https://beyond-expertise.com ; laboratoire HTTPS distinct sur le nom du VPS. SSH rétabli, trois services sains, 83 fiches vérifiées, connexion administrateur et confidentialité contrôlées. Données clients existantes conservées. Sauvegarde de la nouvelle version restaurée et comparée sur 46 tables.
+
+RESTE POUR L’EXPLOITATION
+Choix et configuration du courriel technique ; la récupération manuelle par lien personnel fonctionne, l'envoi automatique n'est pas connecté.
+Choix du stockage de sauvegarde indépendant, configuration du chiffrement, test de restauration distante et alertes.
+Responsable pédagogique, relecture des trois parcours, essais Power BI/Excel et étalonnage des durées, conditions d'accès et accompagnement réels.
+Validation des informations légales, contractuelles et qualité. Qualiopi reste en cours, non acquise.
+Vidéos : lien HTTPS autorisé et transcription ajoutables ; fournisseur, médias, sous-titres et recette sur les vidéos réelles restent à préparer lorsqu'ils seront disponibles.
+Référencement : domaine définitif, métadonnées et sitemap configurés ; Search Console et mesure des demandes réelles restent à mettre en place. Aucune garantie de visibilité.
+Version poussée sur GitHub dans codex/plateforme-complete ; demande de fusion no 1 ouverte vers main. Aucune souscription. Le VPS vps-60dc9315.vps.ovh.net correspond au site public (164.132.41.177). L'accès SSH ubuntu est rétabli ; Ubuntu 26.04, Docker et Caddy sont confirmés. Le site public utilise désormais la nouvelle image ; les anciens conteneurs et sauvegardes restent disponibles pour le retour arrière.
+
+DÉCISIONS QUALITÉ EN ATTENTE
+- Identité légale, adresse, NDA et publication
+- Périmètre : AF, certifiant, CFA, alternance, AFEST, sous-traitance
+- Programmes approuvés, prix TTC/HT, TVA, délais, modalités
+- Responsables et suppléants : qualité, pédagogie, handicap, assistance, signalement
+- Horaires, délais d’accès, assistance et réclamations
+- Contrats/conventions, règlement, annulation et médiation applicables
+- Information RGPD complète, conservation, destinataires, droits, sécurité
+- Compétences, sélection, contrats et développement des intervenants
+- Locaux, matériel, supports complets et accompagnement effectif
+- Dossiers réels : besoins, évaluations, suivi et bilans
+- Sollicitations des parties prenantes et traitement des retours
+- Risques, actions réalisées et efficacité
+- Validation et mise en œuvre effective de P01 à P10
+- Audit et décision du certificateur si certification sollicitée
+
+PROCHAINE ACTION
+À réception des accès OVH et des noms de domaine, inspecter le VPS et adapter les modèles sans remplacer le site existant. La bascule publique viendra après recette distante, relecture et validation de la version.

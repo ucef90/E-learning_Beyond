@@ -431,12 +431,43 @@ type CoursePreview = {
     lessons: Array<{ title: string; type: string; durationMin: number | null }>;
   }>;
 };
+export type DetailedProgramme = {
+  slug: string;
+  version: number;
+  status: "DRAFT_FOR_TRAINER_REVIEW";
+  authoredAt: string;
+  totalHours: number;
+  overview?: string;
+  audience?: string;
+  prerequisites?: string;
+  caseStudy: string;
+  preparation: string;
+  methods: string;
+  scheduleNote: string;
+  materialsStatus: string;
+  modules: Array<{
+    day: number;
+    title: string;
+    durationMinutes: number;
+    topics: string[];
+    workshop: string;
+    technicalDetails?: string[];
+    practicalCheck?: string;
+    expertChallenge?: string;
+    deliverable?: string;
+  }>;
+  assessment: { format: string; durationMinutes: number; criteria: string[] };
+  references: Array<{ title: string; url: string }>;
+};
 type CatalogueSource = {
   kind?: string;
   sourceUrl?: string;
   observedAt?: string;
   observedPrice?: string;
+  observedSessions?: string;
   programStatus?: string;
+  syllabus?: DetailedProgramme;
+  syllabusSummary?: { totalHours: number; moduleCount: number; status: string };
 };
 
 type ApiTraining = {
@@ -606,13 +637,22 @@ export function groupTrainingsByPremiumCategory(
 }
 
 export function getHomepageFeaturedTrainings(trainings: UiTraining[]) {
-  const priority = getPriorityTrainings(trainings);
-
-  if (priority.length >= 6) {
-    return priority.slice(0, 6);
-  }
-
-  return trainings.slice(0, 6);
+  const slugs = [
+    "llmops-deployer-observer-et-gouverner-les-applications-llm",
+    "deep-learning-applique-avec-pytorch",
+    "product-analytics-et-experimentation-ab-testing",
+    "data-engineering-cloud-pipelines-elt-et-orchestration",
+    "lakehouse-moderne-avec-microsoft-fabric-et-databricks",
+    "donnees-pretes-pour-l-ia-gouvernance-qualite-et-knowledge-management",
+  ];
+  const selected = slugs.flatMap((slug) => {
+    const training = trainings.find((t) => t.slug === slug);
+    return training ? [training] : [];
+  });
+  return [
+    ...selected,
+    ...trainings.filter((t) => !slugs.includes(t.slug)),
+  ].slice(0, 6);
 }
 
 export function getSeoCategoryHubs() {

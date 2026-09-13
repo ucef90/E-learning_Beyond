@@ -388,6 +388,12 @@ model Course {
   learning           LearningEnrollment[]
   notebookDrafts     NotebookDraft[]
   submissions        WorkSubmission[]
+  editorialStatus    String          @default("DRAFT")
+  editorIds          String[]        @default([])
+  reviewedBy         String?
+  reviewedAt         DateTime?
+  reviewNote         String          @default("")
+  assets             CourseAsset[]
 }
 
 model CourseModule {
@@ -539,6 +545,11 @@ model LearningEnrollment {
   trainerId String
   groupName String
   createdAt DateTime @default(now())
+  expiresAt DateTime?
+  revokedAt DateTime?
+  accessReason String @default("")
+  positioning Json?
+  positioningAt DateTime?
   course Course @relation(fields: [courseId], references: [id], onDelete: Restrict)
   user User @relation("LearnerAccess", fields: [userId], references: [id], onDelete: Restrict)
   trainer User @relation("TrainerAccess", fields: [trainerId], references: [id], onDelete: Restrict)
@@ -560,7 +571,8 @@ model WorkSubmission {
   id String @id @default(cuid())
   courseId String
   userId String
-  notebook Json
+  notebook Json?
+  writtenWork String?
   comment String @default("")
   feedback String?
   grade Int?
@@ -571,6 +583,20 @@ model WorkSubmission {
   course Course @relation(fields: [courseId], references: [id], onDelete: Restrict)
   @@index([courseId, userId])
 }
+model CourseAsset {
+  id String @id @default(cuid())
+  courseId String
+  title String
+  filename String
+  mimeType String
+  visibility String @default("LEARNER")
+  content Bytes
+  size Int
+  sha256 String
+  createdAt DateTime @default(now())
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  @@index([courseId])
+}
 model LearningEvent {
   id String @id @default(cuid())
   actorId String
@@ -580,4 +606,59 @@ model LearningEvent {
   details Json?
   createdAt DateTime @default(now())
   @@index([courseId, subjectId, createdAt])
+}
+
+// Local quality registers. No certification status is inferred from these records.
+model QualityRequest {
+  id String @id @default(cuid())
+  reference String @unique
+  requestKey String @unique
+  payloadHash String
+  kind String
+  fullName String
+  email String
+  stakeholder String
+  context String
+  message String
+  currentLevel String?
+  rating Int?
+  status String @default("NEW")
+  assignee String @default("")
+  dueDate DateTime?
+  resolution String @default("")
+  responseReference String @default("")
+  revision Int @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  events QualityRequestEvent[]
+  @@index([status, createdAt])
+}
+model QualityRequestEvent {
+  id String @id @default(cuid())
+  requestId String
+  actorId String
+  action String
+  details Json
+  createdAt DateTime @default(now())
+  request QualityRequest @relation(fields: [requestId], references: [id], onDelete: Restrict)
+  @@index([requestId, createdAt])
+}
+model QualityReview {
+  indicator Int @id
+  status String @default("TO_COLLECT")
+  evidenceKind String @default("DRAFT")
+  evidenceReference String @default("")
+  owner String @default("")
+  note String @default("")
+  dueDate DateTime?
+  revision Int @default(1)
+  updatedAt DateTime @updatedAt
+}
+model QualityReviewEvent {
+  id String @id @default(cuid())
+  indicator Int
+  actorId String
+  details Json
+  createdAt DateTime @default(now())
+  @@index([indicator, createdAt])
 }

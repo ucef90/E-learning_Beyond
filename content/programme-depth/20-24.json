@@ -1,0 +1,193 @@
+[
+  {
+    "index": 20,
+    "overview": "Préparez une réplication Oracle GoldenGate et entraînez-vous à diagnostiquer ses incidents. Le parcours couvre configuration, initialisation cohérente, retard de réplication, reprise et contraintes d’un échange bidirectionnel.",
+    "units": [
+      [
+        "Identifier tables, clés et types de données à répliquer ; vérifier les prérequis des versions utilisées.",
+        "Distinguer capture, transport et application avec Extract, trails et Replicat.",
+        "Définir volumes, latence cible et droits techniques minimaux pour le scénario.",
+        "Le périmètre décrit les objets pris en charge et les incompatibilités à résoudre."
+      ],
+      [
+        "Préparer connexions et paramètres en séparant configuration et informations d’authentification.",
+        "Examiner capture et application intégrées selon l’architecture retenue pour le laboratoire.",
+        "Vérifier les fichiers de rapport et l’état des processus avant de démarrer les écritures de test.",
+        "Les processus atteignent un état nominal avec une configuration documentée."
+      ],
+      [
+        "Planifier chargement initial et position de reprise pour ne laisser ni trou ni double application.",
+        "Suivre checkpoints, transactions longues et conservation des journaux nécessaires.",
+        "Comparer données source et cible sur clés, comptages et totaux de contrôle.",
+        "La cible reste cohérente après chargement initial et reprise du flux de changements."
+      ],
+      [
+        "Lire rapport, journal d’erreurs et lag pour distinguer problème source, transport et application.",
+        "Traiter objet absent, donnée incompatible et espace insuffisant sans ignorer arbitrairement les transactions.",
+        "Reprendre à partir d’un checkpoint validé puis rapprocher les données affectées.",
+        "La reprise résout la cause et comprend une vérification de cohérence ciblée."
+      ],
+      [
+        "Analyser collisions de clés, boucles de réplication et écritures concurrentes sur les deux sites.",
+        "Définir autorité d’écriture et politique de résolution des conflits pour le cas étudié.",
+        "Évaluer les limites d’une architecture active-active avant de la recommander.",
+        "La démonstration explicite le conflit et n’assimile pas bidirectionnel à absence de conflit."
+      ],
+      [
+        "Construire suivi du lag, espace des trails, disponibilité et dérive du schéma.",
+        "Préparer rotation, purge contrôlée et sauvegarde de la configuration.",
+        "Rédiger procédure d’arrêt, maintenance, redémarrage et contrôle après incident.",
+        "Le runbook précise ordre des actions et éléments à contrôler avant retour au service."
+      ]
+    ],
+    "slug": "bogg-oracle-goldengate-ogg"
+  },
+  {
+    "index": 21,
+    "overview": "Concevez un agent métier avec un périmètre de délégation explicite. Le cas pratique relie outils autorisés, validation humaine, tests d’abus et mesure de la charge de supervision avant un pilote limité.",
+    "units": [
+      [
+        "Décomposer une tâche en lecture, proposition et action avec les conséquences d’une erreur.",
+        "Comparer workflow déterministe et agent pour les étapes dont le chemin est variable.",
+        "Fixer limites de budget, durée, nombre d’actions et situations d’escalade.",
+        "Le contrat précise ce qui peut être préparé et ce qui exige une approbation."
+      ],
+      [
+        "Définir chaque outil par schéma d’entrée, autorisation, résultat et erreurs attendues.",
+        "Séparer données de travail et instructions ; appliquer les droits hors du modèle.",
+        "Prévoir idempotence et validation serveur pour toute action à effet métier.",
+        "Une demande hors contrat ne déclenche pas d’action même si l’agent la propose."
+      ],
+      [
+        "Tester outil indisponible, résultat incomplet, boucle répétitive et consigne hostile dans une source.",
+        "Mesurer réussite de la tâche, erreurs et nombre d’interventions humaines.",
+        "Vérifier traces expurgées et reproduction d’une séquence d’actions sur données fictives.",
+        "Les scénarios d’abus s’arrêtent ou escaladent selon la règle prévue."
+      ],
+      [
+        "Choisir utilisateurs, période et tâches autorisées du pilote sans généraliser d’emblée.",
+        "Préparer arrêt immédiat, reprise manuelle et responsable d’incident.",
+        "Comparer temps gagné et temps de contrôle, puis décider extension ou retrait.",
+        "Le bilan documente aussi les tâches refusées et la charge réelle de supervision."
+      ]
+    ],
+    "slug": "ai-agents-pour-automatiser-les-processus-metier"
+  },
+  {
+    "index": 22,
+    "overview": "Préparez réunions, synthèses et arbitrages de direction avec Microsoft 365 Copilot. Les exercices portent sur la qualité des sources, la vérification des décisions et une routine de travail qui garde le manager responsable des engagements.",
+    "units": [
+      [
+        "Relier usage à un besoin : préparation, synthèse, rédaction ou recherche dans les documents autorisés.",
+        "Vérifier licences et fonctions disponibles dans l’environnement de démonstration.",
+        "Examiner les droits existants sur les fichiers avant de demander une synthèse transversale.",
+        "Le scénario utilise un corpus autorisé et un résultat que le manager peut vérifier."
+      ],
+      [
+        "Préparer ordre du jour à partir d’objectifs et de documents identifiés.",
+        "Distinguer verbatim, décision confirmée, action proposée et point resté ouvert.",
+        "Contrôler noms, responsables et échéances avant de réutiliser un compte rendu.",
+        "Le compte rendu ne transforme pas une suggestion en décision adoptée."
+      ],
+      [
+        "Définir question d’arbitrage, niveau de détail et pièces de référence de la synthèse.",
+        "Comparer données de plusieurs documents en signalant versions et contradictions.",
+        "Présenter options, conséquences et informations manquantes sans inventer de chiffre.",
+        "Chaque conclusion de direction repose sur une source identifiée ou une hypothèse explicite."
+      ],
+      [
+        "Créer modèles de demandes adaptés à la réunion hebdomadaire et à la note de décision.",
+        "Appliquer une revue rapide des faits sensibles, chiffres et engagements.",
+        "Mesurer temps de préparation et corrections nécessaires pour ajuster les usages.",
+        "La routine produit une synthèse vérifiée avec un effort de contrôle mesuré."
+      ]
+    ],
+    "slug": "microsoft-365-copilot-pour-managers-et-directions"
+  },
+  {
+    "index": 23,
+    "overview": "Développez un service Quarkus, de l’API REST à son exploitation. Le parcours aborde persistance, tests, échanges réactifs, comparaison JVM/native et déploiement sur un environnement Kubernetes d’exercice.",
+    "units": [
+      [
+        "Créer un projet avec extensions nécessaires et configuration par profil.",
+        "Utiliser injection de dépendances et mode développement en distinguant commodité locale et exploitation.",
+        "Définir structure du code, dépendances et configuration externe du service.",
+        "Le projet démarre avec un profil documenté sans secret commité."
+      ],
+      [
+        "Définir ressources REST, validation des entrées et représentation homogène des erreurs.",
+        "Consommer une API avec timeout et traitement des statuts non réussis.",
+        "Séparer DTO, logique métier et accès externe pour faciliter les tests.",
+        "Une API distante indisponible produit une erreur maîtrisée et une réponse utile."
+      ],
+      [
+        "Modéliser entités, transactions et requêtes ; repérer chargement excessif et problème N+1.",
+        "Comparer test unitaire, test Quarkus et test avec base de démonstration.",
+        "Préparer contraintes et données de test isolées pour les scénarios d’échec.",
+        "Une erreur transactionnelle ne laisse pas de modification partielle."
+      ],
+      [
+        "Distinguer appel bloquant, traitement asynchrone et flux réactif selon la ressource utilisée.",
+        "Examiner backpressure, reprise et propagation d’erreur sur un petit flux de messages.",
+        "Définir gestion des doublons et frontière de transaction lors d’une consommation.",
+        "Un message répété n’entraîne pas deux effets métier non contrôlés."
+      ],
+      [
+        "Mesurer démarrage, mémoire et temps de réponse avec le même scénario JVM et natif.",
+        "Repérer réflexion, ressources et bibliothèques demandant une configuration pour le natif.",
+        "Comparer coût de construction et contraintes d’exploitation avant de choisir.",
+        "Le choix s’appuie sur mesures et compatibilités du service étudié."
+      ],
+      [
+        "Définir image, configuration, ressources et probes de disponibilité ou de santé.",
+        "Séparer logs, métriques et traces ; relier un incident à une requête de test.",
+        "Préparer déploiement progressif et retour à une image précédente.",
+        "Le service ne reçoit du trafic qu’une fois prêt et son retour arrière est vérifié."
+      ]
+    ],
+    "slug": "damq-quarkus-batir-une-architecture-microservices-avec-quarkus"
+  },
+  {
+    "index": 24,
+    "overview": "Choisissez et appliquez les design patterns à partir de problèmes de conception observables. Vous comparez les compromis et conduisez un refactoring progressif protégé par des tests de comportement.",
+    "units": [
+      [
+        "Repérer duplication, couplage, changement divergent et responsabilité trop large.",
+        "Relier principe de substitution, inversion de dépendance et contrat testé.",
+        "Distinguer besoin de variation réel et complexité ajoutée par anticipation.",
+        "Le diagnostic formule le problème avant de nommer un pattern."
+      ],
+      [
+        "Comparer Factory Method, Abstract Factory et Builder selon variantes et construction progressive.",
+        "Séparer décision de création et code consommateur avec une interface stable.",
+        "Examiner les risques d’état global et de dépendances cachées d’un Singleton.",
+        "Le client accepte une nouvelle variante sans modifier sa logique métier."
+      ],
+      [
+        "Comparer Adapter, Facade, Decorator et Composite à partir de leurs collaborations.",
+        "Distinguer adaptation de contrat et ajout de responsabilité autour d’un objet.",
+        "Évaluer profondeur d’imbrication, transparence et coût de compréhension.",
+        "Le schéma montre précisément qui délègue à qui et pourquoi."
+      ],
+      [
+        "Appliquer Strategy, State, Observer ou Command à un changement de comportement identifié.",
+        "Distinguer variation d’algorithme et transition d’état métier.",
+        "Prévoir ordre des notifications, erreurs et cycle de vie des abonnements.",
+        "Les transitions ou notifications sont testées sans dépendance à un ordre implicite."
+      ],
+      [
+        "Comparer solution directe et solution avec pattern sur lisibilité, extension et tests.",
+        "Vérifier substitution et invariants des implémentations concurrentes.",
+        "Repérer surconception et retirer une abstraction sans utilité démontrée.",
+        "L’argumentaire expose aussi le coût introduit par le pattern choisi."
+      ],
+      [
+        "Écrire tests de caractérisation avant de déplacer responsabilités et dépendances.",
+        "Procéder par petites transformations conservant les interfaces utiles.",
+        "Documenter décision, alternatives et point de variation effectivement obtenu.",
+        "Le comportement reste stable et la nouvelle variante se branche au point prévu."
+      ]
+    ],
+    "slug": "scdp-design-patterns-conception-avec-les-design-patterns"
+  }
+]

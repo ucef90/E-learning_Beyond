@@ -1,6 +1,25 @@
 import { Injectable, NotFoundException } from "@nestjs/common";
 import { PrismaService } from "../../common/prisma.service";
 
+// The catalogue only needs a summary. Full programmes remain on detail routes.
+function programmeSummary(program: unknown) {
+  if (!program || typeof program !== "object" || Array.isArray(program))
+    return program;
+  const { syllabus, ...source } = program as Record<string, any>;
+  return {
+    ...source,
+    ...(syllabus && Array.isArray(syllabus.modules)
+      ? {
+          syllabusSummary: {
+            totalHours: syllabus.totalHours,
+            moduleCount: syllabus.modules.length,
+            status: syllabus.status,
+          },
+        }
+      : {}),
+  };
+}
+
 @Injectable()
 export class TrainingsService {
   constructor(private readonly prisma: PrismaService) {}
@@ -12,7 +31,11 @@ export class TrainingsService {
       },
       include: {
         courses: {
-          where: { isPublished: true },
+          where: {
+            isPublished: true,
+            editorialStatus: "APPROVED",
+            reviewedAt: { not: null },
+          },
           select: {
             id: true,
             title: true,
@@ -55,7 +78,7 @@ export class TrainingsService {
       objectives: training.objectives,
       audience: training.audience,
       prerequisites: training.prerequisites,
-      program: training.program,
+      program: programmeSummary(training.program),
       courses: training.courses,
       durationDays: training.durationDays,
       format: training.format,
@@ -71,7 +94,11 @@ export class TrainingsService {
       where: { slug, isPublished: true },
       include: {
         courses: {
-          where: { isPublished: true },
+          where: {
+            isPublished: true,
+            editorialStatus: "APPROVED",
+            reviewedAt: { not: null },
+          },
           select: {
             id: true,
             title: true,

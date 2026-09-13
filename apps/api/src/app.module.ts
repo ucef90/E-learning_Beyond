@@ -1,3 +1,4 @@
+import { AssistantModule } from "./modules/assistant/assistant.controller";
 import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { HealthModule } from "./modules/health/health.module";
@@ -12,6 +13,7 @@ import { EnrollmentsModule } from "./modules/enrollments/enrollments.module";
 import { CommercialModule } from "./modules/commercial/commercial.module";
 import { PrismaModule } from "./common/prisma.module";
 
+import { QualityModule } from "./modules/quality/quality.module";
 import { APP_GUARD } from "@nestjs/core";
 import { AccessGuard } from "./modules/auth/access";
 
@@ -30,6 +32,8 @@ import { AccessGuard } from "./modules/auth/access";
     CoursesModule,
     EnrollmentsModule,
     CommercialModule,
+    QualityModule,
+    AssistantModule,
   ],
 })
 export class AppModule {}

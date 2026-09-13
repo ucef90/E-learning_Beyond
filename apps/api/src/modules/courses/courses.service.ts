@@ -40,6 +40,14 @@ const include = {
     },
   },
 };
+const activeAccess = () => ({
+  revokedAt: null,
+  OR: [{ expiresAt: null }, { expiresAt: { gt: new Date() } }],
+});
+const accessExpired = (row: {
+  revokedAt: Date | null;
+  expiresAt: Date | null;
+}) => !!row.revokedAt || !!(row.expiresAt && row.expiresAt <= new Date());
 const userSelect = {
   id: true,
   email: true,
@@ -77,24 +85,33 @@ export class CoursesService {
         !(who.roles.includes("TRAINER") && who.id === row.trainerId))
     )
       throw new ForbiddenException("Ce dossier ne vous est pas attribué.");
+    if (who.id === row.userId && accessExpired(row))
+      throw new ForbiddenException(
+        "Votre accès à ce cours a expiré ou a été suspendu. Contactez le centre.",
+      );
   }
-  private async learner(who: Identity, courseId: string) {
+  async assertLearner(who: Identity, courseId: string) {
     const row = await this.db.learningEnrollment.findUnique({
       where: { courseId_userId: { courseId, userId: who.id } },
     });
-    if (!row)
-      throw new ForbiddenException("Ce module ne vous est pas attribué.");
+    if (!row || accessExpired(row))
+      throw new ForbiddenException(
+        "Ce module ne vous est pas attribué ou votre accès a expiré.",
+      );
   }
   async list(who: Identity) {
-    const where = who.roles.includes("ADMIN")
+    const own = { userId: who.id, ...activeAccess() };
+    const where: Prisma.CourseWhereInput = who.roles.includes("ADMIN")
       ? {}
-      : {
-          learning: {
-            some: who.roles.includes("TRAINER")
-              ? { OR: [{ trainerId: who.id }, { userId: who.id }] }
-              : { userId: who.id },
-          },
-        };
+      : who.roles.includes("TRAINER")
+        ? {
+            OR: [
+              { editorIds: { has: who.id } },
+              { learning: { some: { trainerId: who.id } } },
+              { learning: { some: own } },
+            ],
+          }
+        : { learning: { some: own } };
     return this.db.course.findMany({
       where,
       select: {
@@ -103,6 +120,8 @@ export class CoursesService {
         summary: true,
         version: true,
         isPublished: true,
+        editorialStatus: true,
+        reviewedAt: true,
         estimatedMinutes: true,
         _count: { select: { learning: true } },
       },
@@ -110,23 +129,29 @@ export class CoursesService {
     });
   }
   async course(who: Identity, id: string) {
-    if (who.roles.includes("TRAINER") && !who.roles.includes("ADMIN")) {
-      const assigned = await this.db.learningEnrollment.findFirst({
-        where: {
-          courseId: id,
-          OR: [{ userId: who.id }, { trainerId: who.id }],
-        },
-      });
-      if (!assigned) throw new ForbiddenException();
-    } else await this.access(who, id);
     const course = await this.db.course.findUnique({ where: { id }, include });
     if (!course) throw new NotFoundException("Module introuvable.");
+    const editor =
+      who.roles.includes("TRAINER") && course.editorIds.includes(who.id);
+    const assignedTrainer =
+      who.roles.includes("TRAINER") &&
+      (await this.db.learningEnrollment.findFirst({
+        where: { courseId: id, trainerId: who.id },
+      }));
+    if (!who.roles.includes("ADMIN") && !editor && !assignedTrainer)
+      await this.access(who, id);
     const isAdmin = who.roles.includes("ADMIN");
-    const { resources, ...visible } = course;
+    const { resources, editorIds, ...visible } = course;
     return {
       ...visible,
+      assessment: (resources as any)?.assessment || {
+        mode: (resources as any)?.starter ? "NOTEBOOK" : "NONE",
+        passingScore: 70,
+        rubric: "",
+      },
       resources: {
         hasNotebook: !!(resources as any)?.starter,
+        hasCsv: !!(resources as any)?.csv,
         hasPractice: !!(resources as any)?.practice,
         hasSolution: !!(resources as any)?.solution,
       },
@@ -154,6 +179,162 @@ export class CoursesService {
       })),
     };
   }
+  async dashboard(who: Identity) {
+    const courses = await this.list(who);
+    const courseIds = courses.map((c) => c.id);
+    const enrollments = await this.db.learningEnrollment.findMany({
+      where: who.roles.includes("ADMIN")
+        ? {}
+        : who.roles.includes("TRAINER")
+          ? {
+              OR: [
+                { trainerId: who.id },
+                { userId: who.id, ...activeAccess() },
+              ],
+            }
+          : { userId: who.id, ...activeAccess() },
+      select: {
+        id: true,
+        courseId: true,
+        userId: true,
+        trainerId: true,
+        groupName: true,
+        expiresAt: true,
+        revokedAt: true,
+        accessReason: true,
+        user: { select: { profile: { select: { fullName: true } } } },
+        trainer: { select: { profile: { select: { fullName: true } } } },
+      },
+      orderBy: { createdAt: "desc" },
+    });
+    const pairs = enrollments.map(({ courseId, userId }) => ({
+      courseId,
+      userId,
+    }));
+    const [details, progress, attempts, submissions, drafts] =
+      await Promise.all([
+        this.db.course.findMany({
+          where: { id: { in: courseIds } },
+          select: {
+            id: true,
+            resources: true,
+            modules: {
+              orderBy: { sortOrder: "asc" },
+              select: {
+                lessons: {
+                  orderBy: { sortOrder: "asc" },
+                  select: {
+                    id: true,
+                    title: true,
+                    type: true,
+                    quiz: { select: { id: true, passingScore: true } },
+                  },
+                },
+              },
+            },
+          },
+        }),
+        this.db.lessonProgress.findMany({
+          where: {
+            completed: true,
+            OR: pairs.map((p) => ({
+              userId: p.userId,
+              lesson: { type: "TEXT", module: { courseId: p.courseId } },
+            })),
+          },
+          select: { userId: true, lessonId: true, completedAt: true },
+        }),
+        this.db.quizAttempt.findMany({
+          where: {
+            OR: pairs.map((p) => ({
+              userId: p.userId,
+              quiz: { lesson: { module: { courseId: p.courseId } } },
+            })),
+          },
+          select: {
+            id: true,
+            userId: true,
+            quizId: true,
+            score: true,
+            completedAt: true,
+          },
+          orderBy: { startedAt: "desc" },
+        }),
+        this.db.workSubmission.findMany({
+          where: { OR: pairs },
+          select: {
+            id: true,
+            userId: true,
+            courseId: true,
+            createdAt: true,
+            reviewedAt: true,
+            grade: true,
+            feedback: true,
+          },
+          orderBy: { createdAt: "desc" },
+        }),
+        this.db.notebookDraft.findMany({
+          where: { OR: pairs },
+          select: {
+            userId: true,
+            courseId: true,
+            updatedAt: true,
+            revision: true,
+          },
+        }),
+      ]);
+    const visibleCourses = courses.map(({ _count, ...c }) => {
+      const detail = details.find((d) => d.id === c.id)!;
+      const lessons = detail.modules.flatMap((m) => m.lessons);
+      const resources = detail.resources as any;
+      return {
+        ...c,
+        lessons: lessons
+          .filter((l) => l.type === "TEXT")
+          .map(({ id, title }) => ({ id, title })),
+        hasNotebook: !!resources?.starter,
+        hasPractice: !!resources?.practice,
+        hasCsv: !!resources?.csv,
+        hasSolution: !!resources?.solution,
+        hasQuiz: lessons.some((l) => l.quiz),
+        quizIds: lessons.flatMap((l) => (l.quiz ? [l.quiz.id] : [])),
+      };
+    });
+    return {
+      courses: visibleCourses.map(({ quizIds, ...c }) => c),
+      enrollments: enrollments.map((e) => {
+        const c = visibleCourses.find((c) => c.id === e.courseId)!;
+        const read = progress.filter(
+          (p) =>
+            p.userId === e.userId && c.lessons.some((l) => l.id === p.lessonId),
+        );
+        const quiz = attempts.find(
+          (a) => a.userId === e.userId && c.quizIds.includes(a.quizId),
+        );
+        const works = submissions.filter(
+          (s) => s.userId === e.userId && s.courseId === e.courseId,
+        );
+        const draft = drafts.find(
+          (d) => d.userId === e.userId && d.courseId === e.courseId,
+        );
+        return {
+          ...e,
+          lessonsRead: read.length,
+          totalLessons: c.lessons.length,
+          nextLesson:
+            c.lessons.find((l) => !read.some((p) => p.lessonId === l.id)) ||
+            null,
+          latestQuiz: quiz
+            ? { score: quiz.score, completedAt: quiz.completedAt }
+            : null,
+          submissions: works.map(({ userId, courseId, ...s }) => s),
+          draft: draft
+            ? { updatedAt: draft.updatedAt, revision: draft.revision }
+            : null,
+        };
+      }),
+    };
+  }
   async state(who: Identity, id: string, learnerId = who.id) {
     if (learnerId === who.id && who.roles.includes("TRAINER"))
       await this.course(who, id);
@@ -179,6 +360,7 @@ export class CoursesService {
           grade: true,
           reviewedAt: true,
           comment: true,
+          writtenWork: true,
         },
         orderBy: { createdAt: "desc" },
       }),
@@ -187,10 +369,23 @@ export class CoursesService {
       }),
       this.db.learningEnrollment.findUnique({
         where: { courseId_userId: { courseId: id, userId: learnerId } },
-        select: { groupName: true, createdAt: true },
+        select: {
+          groupName: true,
+          createdAt: true,
+          expiresAt: true,
+          revokedAt: true,
+          positioning: true,
+          positioningAt: true,
+        },
       }),
     ]);
-    return { progress, attempts, submissions, draft, access };
+    const completion = await this.completion(
+      id,
+      learnerId,
+      progress,
+      submissions,
+    );
+    return { progress, attempts, submissions, draft, access, completion };
   }
   async progress(
     who: Identity,
@@ -198,7 +393,7 @@ export class CoursesService {
     lessonId: string,
     completed: boolean,
   ) {
-    await this.learner(who, id);
+    await this.assertLearner(who, id);
     const lesson = await this.db.lesson.findFirst({
       where: { id: lessonId, module: { courseId: id }, type: "TEXT" },
     });
@@ -256,7 +451,7 @@ export class CoursesService {
     return name === "csv" ? { content: data } : cleanNotebook(data);
   }
   async saveNotebook(who: Identity, id: string, body: NotebookDto) {
-    await this.learner(who, id);
+    await this.assertLearner(who, id);
     const notebook = cleanNotebook(body.notebook) as Prisma.InputJsonValue;
     try {
       return await this.db.$transaction(async (tx) => {
@@ -296,7 +491,7 @@ export class CoursesService {
     }
   }
   async submit(who: Identity, id: string, body: SubmitDto) {
-    await this.learner(who, id);
+    await this.assertLearner(who, id);
     const notebook = cleanNotebook(body.notebook) as Prisma.InputJsonValue;
     return this.db.$transaction(async (tx) => {
       const submission = await tx.workSubmission.create({
@@ -340,7 +535,7 @@ export class CoursesService {
     });
   }
   async quiz(who: Identity, id: string, quizId: string, body: QuizDto) {
-    await this.learner(who, id);
+    await this.assertLearner(who, id);
     const quiz = await this.db.quiz.findFirst({
       where: { id: quizId, lesson: { module: { courseId: id } } },
       include: {
@@ -516,6 +711,10 @@ export class CoursesService {
         );
       const existing = await tx.course.findUnique({ where: { id }, include });
       if (!existing) throw new NotFoundException();
+      if (existing.isPublished)
+        throw new ConflictException(
+          "Version publiée : dupliquez-la avant modification.",
+        );
       const module = existing.modules[0];
       if (!module) throw new BadRequestException("Module manquant.");
       const texts = module.lessons.filter((l) => l.type === "TEXT");
@@ -536,6 +735,10 @@ export class CoursesService {
               .filter((l) => l.type !== "TEXT")
               .reduce((n, l) => n + (l.durationMin || 0), 0),
           version: { increment: 1 },
+          editorialStatus: "DRAFT",
+          reviewedBy: null,
+          reviewedAt: null,
+          reviewNote: "",
         },
       });
       await tx.courseModule.update({
@@ -557,7 +760,9 @@ export class CoursesService {
     });
   }
   async clone(who: Identity, id: string) {
-    this.admin(who);
+    if (!who.roles.some((r) => ["ADMIN", "TRAINER"].includes(r)))
+      throw new ForbiddenException();
+    await this.course(who, id);
     const original = await this.db.course.findUnique({
       where: { id },
       include,
@@ -569,10 +774,14 @@ export class CoursesService {
           title: `${original.title} (nouvelle version)`,
           slug: `module-${randomBytes(8).toString("hex")}`,
           summary: original.summary,
+          trainingId: original.trainingId,
           estimatedMinutes: original.estimatedMinutes,
           version: original.version + 1,
           brief: original.brief || {},
           resources: original.resources || {},
+          editorIds: who.roles.includes("ADMIN")
+            ? original.editorIds
+            : [who.id],
         },
       });
       for (const m of original.modules) {
@@ -615,6 +824,9 @@ export class CoursesService {
             });
         }
       }
+      const assets = await tx.courseAsset.findMany({ where: { courseId: id } });
+      for (const { id: assetId, courseId, createdAt, ...asset } of assets)
+        await tx.courseAsset.create({ data: { ...asset, courseId: copy.id } });
       await this.event(tx, who, copy.id, "COURSE_CLONED", who.id, {
         sourceId: id,
       });
@@ -653,6 +865,68 @@ export class CoursesService {
       return result;
     });
   }
+  private async completion(
+    id: string,
+    learnerId: string,
+    progress: Array<{ lessonId: string; completed: boolean }>,
+    submissions: Array<{ grade: number | null; reviewedAt: Date | null }>,
+  ) {
+    const course = await this.db.course.findUniqueOrThrow({
+      where: { id },
+      include,
+    });
+    const lessons = course.modules.flatMap((m) => m.lessons);
+    const texts = lessons.filter((l) => l.type === "TEXT");
+    const quizzes = lessons.flatMap((l) => (l.quiz ? [l.quiz] : []));
+    const resources = course.resources as any;
+    const assessment = resources?.assessment || {
+      mode: resources?.starter ? "NOTEBOOK" : "NONE",
+      passingScore: 70,
+    };
+    const scores = await this.db.quizAttempt.groupBy({
+      by: ["quizId"],
+      where: {
+        userId: learnerId,
+        quizId: { in: quizzes.map((q) => q.id) },
+        completedAt: { not: null },
+      },
+      _max: { score: true },
+    });
+    const readingsPassed =
+      texts.length > 0 &&
+      texts.every((l) =>
+        progress.some((p) => p.lessonId === l.id && p.completed),
+      );
+    const quizResults = quizzes.map((q) => ({
+      id: q.id,
+      title: q.title,
+      passingScore: q.passingScore ?? 70,
+      bestScore: scores.find((s) => s.quizId === q.id)?._max.score ?? null,
+    }));
+    const quizzesPassed =
+      quizResults.length > 0 &&
+      quizResults.every(
+        (q) => q.bestScore !== null && q.bestScore >= q.passingScore,
+      );
+    const assessmentPassed =
+      assessment.mode !== "NONE" &&
+      submissions.some(
+        (s) =>
+          s.reviewedAt &&
+          s.grade !== null &&
+          s.grade >= assessment.passingScore,
+      );
+    return {
+      completed: readingsPassed && quizzesPassed && assessmentPassed,
+      readingsPassed,
+      quizzesPassed,
+      assessmentPassed,
+      quizResults,
+      assessment,
+      rules:
+        "Leçons déclarées lues, seuil propre à chaque quiz atteint et travail évalué par le formateur selon la grille du cours. Les clics ne prouvent pas à eux seuls une compétence. Aucune certification professionnelle délivrée.",
+    };
+  }
   async export(who: Identity, id: string, learnerId: string) {
     await this.access(who, id, learnerId);
     const state = await this.state(who, id, learnerId);
@@ -663,6 +937,7 @@ export class CoursesService {
           title: true,
           version: true,
           brief: true,
+          resources: true,
           modules: {
             include: {
               lessons: {
@@ -687,18 +962,22 @@ export class CoursesService {
       .flatMap((m) => m.lessons)
       .filter((l) => l.type === "TEXT").length;
     return {
-      document: "Relevé pédagogique interne du pilote",
+      document: "Relevé pédagogique interne",
+      learnerName:
+        (
+          await this.db.userProfile.findUnique({
+            where: { userId: learnerId },
+            select: { fullName: true },
+          })
+        )?.fullName || learnerId,
       certification: "Aucune certification professionnelle délivrée",
       exportedAt: new Date().toISOString(),
       learnerId,
-      course,
+      course: { ...course, resources: undefined },
       ...state,
-      completed:
-        state.progress.filter((p) => p.completed).length === count &&
-        state.attempts.some((a) => (a.score || 0) >= 70) &&
-        state.submissions.some((s) => (s.grade || 0) >= 70),
-      rules:
-        "Leçons déclarées lues, quiz >= 70 %, TP évalué par le formateur >= 70 %. Le temps de connexion et les exécutions locales ne prouvent pas à eux seuls une compétence.",
+      completed: state.completion.completed,
+      rules: state.completion.rules,
+      completion: state.completion,
       events,
     };
   }

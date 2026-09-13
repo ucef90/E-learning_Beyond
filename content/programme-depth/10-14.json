@@ -1,0 +1,217 @@
+[
+  {
+    "index": 10,
+    "overview": "Évaluez un projet de machine learning avant d’investir. Comparez familles de modèles, données nécessaires, mesure de performance et conditions d’exploitation dans un dossier de décision fondé sur un cas métier.",
+    "units": [
+      [
+        "Distinguer apprentissage supervisé, non supervisé et par renforcement à partir des données disponibles.",
+        "Relier classification, régression et segmentation à une décision, un utilisateur et un coût d’erreur.",
+        "Comparer règle métier, statistique simple et modèle appris avant de retenir une approche.",
+        "Le problème est formulé avec une cible mesurable et une baseline crédible."
+      ],
+      [
+        "Définir population, moment de prédiction et information réellement accessible à cet instant.",
+        "Examiner représentativité, annotations, droits d’utilisation et coût de collecte des données.",
+        "Repérer fuite de cible et sélection d’échantillon qui rendraient un score trompeur.",
+        "Le cadrage élimine les variables indisponibles au moment où la décision doit être prise."
+      ],
+      [
+        "Comparer modèles linéaires, arbres, ensembles et réseaux selon données, interprétabilité et ressources.",
+        "Relier distance et mise à l’échelle aux méthodes de voisinage ou de regroupement.",
+        "Lire les limites d’un modèle préentraîné sur un domaine différent de celui du projet.",
+        "La comparaison cite un avantage et une limite contextualisés pour chaque famille retenue."
+      ],
+      [
+        "Choisir métrique et seuil selon coûts de faux positifs et faux négatifs.",
+        "Séparer validation, test et contrôle temporel ; analyser stabilité par segment.",
+        "Distinguer performance moyenne, incertitude et cas où une intervention humaine reste nécessaire.",
+        "Le meilleur score ne suffit pas à justifier un modèle dont les erreurs métier sont inacceptables."
+      ],
+      [
+        "Cartographier rôles data, métier et exploitation ; prévoir versionnement et traçabilité des décisions.",
+        "Distinguer dérive des données et baisse de performance observée après retour des labels.",
+        "Définir surveillance, réentraînement et solution de repli lorsque la qualité devient insuffisante.",
+        "Le dispositif prévoit qui détecte, décide et agit lors d’une dégradation."
+      ],
+      [
+        "Construire un pilote avec hypothèse de valeur, coût, jalons et critères d’arrêt.",
+        "Présenter les données manquantes et les dépendances avant d’annoncer un retour sur investissement.",
+        "Comparer poursuivre, reformuler et abandonner en conservant les preuves disponibles.",
+        "Le dossier autorise une décision argumentée même si le pilote n’est pas concluant."
+      ]
+    ],
+    "slug": "omle-machine-learning-etat-de-l-art-et-bonnes-pratiques"
+  },
+  {
+    "index": 11,
+    "overview": "Concevez des prompts réutilisables dont le résultat peut être évalué. Le parcours va de la consigne explicite à l’extraction structurée et à la décomposition de tâches, avec un protocole de test et de maintenance.",
+    "units": [
+      [
+        "Relier contexte, tokens et génération probabiliste aux variations de réponse observées.",
+        "Distinguer information fournie, connaissance supposée et invention plausible.",
+        "Observer l’effet d’une consigne ambiguë et définir quand demander une précision ou s’abstenir.",
+        "L’analyse identifie une erreur factuelle même si la réponse est bien formulée."
+      ],
+      [
+        "Spécifier objectif, destinataire, données autorisées, contraintes et format attendu.",
+        "Délimiter les documents cités et séparer leur contenu des instructions applicatives.",
+        "Fournir un exemple et un contre-exemple sans enfermer inutilement toutes les réponses.",
+        "Le prompt rend explicites les critères permettant d’accepter ou de corriger une réponse."
+      ],
+      [
+        "Extraire des champs dans un schéma avec valeur absente explicite et référence au passage source.",
+        "Résumer en conservant réserves, nombres et conditions ; vérifier les omissions importantes.",
+        "Comparer extraction littérale et reformulation pour éviter l’ajout d’informations non présentes.",
+        "Les nombres et citations de la sortie se retrouvent dans le document fourni."
+      ],
+      [
+        "Décomposer recherche, sélection, rédaction et vérification en étapes avec sorties intermédiaires.",
+        "Définir un contrôle humain aux étapes dont l’erreur aurait un impact métier.",
+        "Limiter les boucles de révision et conserver un critère d’arrêt plutôt que demander mieux indéfiniment.",
+        "Une étape incorrecte peut être reprise sans refaire ni valider automatiquement tout le travail."
+      ],
+      [
+        "Constituer un jeu de demandes variées comprenant ambiguïtés, données manquantes et contradictions.",
+        "Comparer deux prompts sur le même jeu ; relever qualité, stabilité et coût de relecture.",
+        "Tester les consignes présentes dans un document comme contenu non fiable.",
+        "La version retenue améliore des critères documentés sans dégrader les cas critiques."
+      ],
+      [
+        "Documenter variables d’entrée, exemples, limites et version de chaque prompt partagé.",
+        "Séparer modèle de consigne et données de dossier ; prévoir un responsable de maintenance.",
+        "Définir un contrôle lors d’un changement d’outil, de modèle ou de format documentaire.",
+        "Un collègue peut utiliser le modèle et reconnaître une situation hors de son périmètre."
+      ]
+    ],
+    "slug": "pren-prompt-engineer-savoir-dialoguer-efficacement-avec-l-intelligence-artificielle-ia"
+  },
+  {
+    "index": 12,
+    "overview": "Comprenez les mécanismes du deep learning en entraînant un petit réseau et en analysant son comportement. Les architectures spécialisées sont comparées à partir de leurs usages et limites, avec une place centrale donnée aux données et à l’évaluation.",
+    "units": [
+      [
+        "Relier combinaison linéaire, activation et fonction de perte à une prédiction supervisée.",
+        "Illustrer descente de gradient, taux d’apprentissage et taille de lot sur un problème simple.",
+        "Distinguer paramètres appris et hyperparamètres choisis sans assimiler apprentissage et mémorisation utile.",
+        "Le participant explique pourquoi une perte diminue sans garantir une bonne généralisation."
+      ],
+      [
+        "Construire couches, sortie et compilation d’un réseau Keras adaptés à la cible.",
+        "Préparer encodage, normalisation et séparation des données avant l’appel à fit.",
+        "Suivre un modèle de référence avant d’augmenter profondeur ou nombre de neurones.",
+        "Le réseau reçoit les dimensions attendues et son évaluation utilise un jeu distinct."
+      ],
+      [
+        "Lire courbes de perte et métriques ; reconnaître divergence, sous-apprentissage et surapprentissage.",
+        "Comparer régularisation, dropout et arrêt anticipé sur une même expérience.",
+        "Conserver configuration et seed tout en expliquant les limites de la reproductibilité numérique.",
+        "Le réglage proposé répond au défaut réellement visible dans les courbes."
+      ],
+      [
+        "Relier convolution et partage de poids aux images ; observer l’effet du pooling.",
+        "Comparer traitement d’une séquence et d’un tableau fixe en tenant compte de l’ordre.",
+        "Choisir une architecture selon la structure des données plutôt que sa seule popularité.",
+        "La justification décrit quelle propriété des données l’architecture exploite."
+      ],
+      [
+        "Situer attention, transformers et modèles génératifs à partir de leurs entrées et sorties.",
+        "Distinguer utilisation d’un modèle préentraîné, transfert et entraînement depuis zéro.",
+        "Examiner coût de calcul, taille du jeu de données et risques d’adaptation au domaine.",
+        "Le scénario distingue expérimentation guidée et entraînement industriel hors périmètre."
+      ],
+      [
+        "Établir besoin, baseline, disponibilité des labels et budget d’expérimentation.",
+        "Analyser erreurs par classe et conditions d’utilisation ; prévoir contrôle humain et repli.",
+        "Présenter un protocole de pilote et les résultats nécessaires à une décision de poursuite.",
+        "Le projet peut être refusé si données, évaluation ou valeur métier sont insuffisantes."
+      ]
+    ],
+    "slug": "adlp-deep-learning-les-fondamentaux"
+  },
+  {
+    "index": 13,
+    "overview": "Construisez et interrogez un graphe Neo4j à partir d’un cas de relations métier. Vous abordez modélisation, Cypher, chemins, index et accès applicatif avec des contrôles sur l’import et la cohérence du résultat.",
+    "units": [
+      [
+        "Transformer entités et relations métier en nœuds, labels, propriétés et relations orientées.",
+        "Comparer propriété d’un nœud et propriété d’une relation selon la question à poser.",
+        "Définir identifiants stables et règles d’unicité avant de charger le graphe.",
+        "Le modèle permet de répondre aux questions du cas sans relation artificielle ambiguë."
+      ],
+      [
+        "Préparer une instance de travail et identifier base, utilisateurs et point de connexion.",
+        "Charger un petit CSV avec conversion des propriétés et traitement des lignes invalides.",
+        "Distinguer CREATE et MERGE ; définir les clés utilisées pour rendre un import rejouable.",
+        "Deux imports successifs ne créent pas de doublons sur les entités identifiées."
+      ],
+      [
+        "Composer MATCH, WHERE, RETURN et WITH ; contrôler portée des variables et regroupement.",
+        "Employer OPTIONAL MATCH sans perdre les nœuds dépourvus de relation.",
+        "Construire agrégations et paramètres plutôt que concaténer une requête avec une entrée utilisateur.",
+        "La requête inclut correctement les entités sans relation et ne concatène aucune saisie."
+      ],
+      [
+        "Borner la longueur des chemins et éviter une exploration combinatoire involontaire.",
+        "Lire EXPLAIN et PROFILE pour repérer balayage, cardinalité et index utile.",
+        "Comparer deux formulations équivalentes en vérifiant d’abord l’identité du résultat.",
+        "Le gain de performance conserve les mêmes chemins et un périmètre explicitement borné."
+      ],
+      [
+        "Ouvrir session et transaction avec un driver ; paramétrer requêtes et fermeture des ressources.",
+        "Traiter erreur transitoire, conflit et reprise sans doubler une écriture métier.",
+        "Séparer couche d’accès et logique applicative pour tester les résultats indépendamment.",
+        "Une écriture rejouée conserve l’unicité prévue et une erreur ne laisse pas un état partiel."
+      ],
+      [
+        "Versionner contraintes, index et transformations du modèle dans une procédure contrôlée.",
+        "Préparer tests de graphe avec entités isolées, cycles et relations manquantes.",
+        "Décrire sauvegarde, restauration à tester et contrôle d’accès pour l’exploitation.",
+        "La recette vérifie le modèle après changement sur des cas nominaux et limites."
+      ]
+    ],
+    "slug": "bneo-neo4j-pour-developpeur"
+  },
+  {
+    "index": 14,
+    "overview": "Apprenez à poser des questions fiables à une base relationnelle sans prérequis de développement. Le cas guidé couvre modèle, saisie, requêtes et rapprochement des résultats pour comprendre ce que les tableaux affichent réellement.",
+    "units": [
+      [
+        "Distinguer table, ligne, colonne et type ; relier une ligne à un objet métier.",
+        "Comprendre clé primaire, clé étrangère et cardinalité avec clients, commandes et articles.",
+        "Repérer répétitions et anomalies de mise à jour dans un tableau unique.",
+        "Le schéma distingue correctement une commande de ses lignes d’articles."
+      ],
+      [
+        "Définir colonnes obligatoires et contraintes d’unicité selon les règles du cas.",
+        "Choisir nombres, dates et textes sans stocker systématiquement toute valeur comme chaîne.",
+        "Créer de petites tables dans une base d’exercice avec des noms explicites.",
+        "Une référence inconnue et une clé dupliquée sont identifiées comme anomalies."
+      ],
+      [
+        "Utiliser INSERT, UPDATE et DELETE avec un filtre explicite dans l’environnement d’exercice.",
+        "Prévisualiser les lignes concernées avant une modification et comprendre commit et rollback.",
+        "Distinguer absence de valeur et chaîne vide lors d’une saisie.",
+        "Le nombre de lignes modifiées correspond à la sélection vérifiée au préalable."
+      ],
+      [
+        "Construire SELECT, alias, WHERE et ORDER BY à partir d’une question formulée en français.",
+        "Combiner AND et OR avec parenthèses ; tester bornes de dates et valeurs NULL.",
+        "Lire le résultat avant d’ajouter de nouveaux calculs pour localiser une erreur.",
+        "La sélection inclut et exclut les exemples attendus aux limites de la période."
+      ],
+      [
+        "Relier deux tables avec une clé puis comparer jointure interne et externe.",
+        "Observer comment plusieurs lignes de détail peuvent multiplier une ligne de commande.",
+        "Comprendre droits de lecture et de modification sans utiliser de compte administrateur.",
+        "Le résultat explique les lignes absentes et les répétitions introduites par la jointure."
+      ],
+      [
+        "Exporter un résultat avec en-têtes, encodage et format de dates explicites.",
+        "Contrôler nombre de lignes, doublons et total de référence avant de diffuser un tableau.",
+        "Documenter question, période et filtres pour permettre une prochaine extraction.",
+        "Le destinataire peut interpréter le fichier sans deviner son périmètre."
+      ]
+    ],
+    "slug": "bbni-initiation-aux-bases-de-donnees-et-au-sql-pour-les-professionnels-non-informaticiens"
+  }
+]

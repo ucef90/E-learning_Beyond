@@ -1,0 +1,182 @@
+[
+  {
+    "index": 10,
+    "slug": "omle-machine-learning-etat-de-l-art-et-bonnes-pratiques",
+    "units": [
+      [
+        "Décrire fonction de coût, généralisation et compromis biais-variance ; expliquer la différence entre qualité d’ajustement et qualité prédictive.",
+        "Analyser un même problème sous trois formulations et identifier celle dont la cible, les données et le coût d’erreur sont maîtrisables.",
+        "Carte des approches et justification du problème retenu."
+      ],
+      [
+        "Préciser cible, horizon, disponibilité réelle des variables et coût des faux positifs et faux négatifs.",
+        "Détecter une fuite de cible ou une variable disponible seulement après la décision à prédire.",
+        "Cadrage métier, définition de la cible et audit des variables."
+      ],
+      [
+        "Comparer linéaire, arbres, ensembles et voisinage selon données, explicabilité, coût d’entraînement et maintenance.",
+        "Choisir une baseline crédible et définir une grille de comparaison qui évite de retenir un modèle sur son seul score.",
+        "Matrice de familles de modèles et protocole comparatif."
+      ],
+      [
+        "Choisir découpage aléatoire, groupé ou temporel ; relier métriques, déséquilibre et incertitude aux usages.",
+        "Critiquer un score présenté sans population de test, intervalle d’incertitude ni référence de comparaison.",
+        "Rapport de validation et grille de lecture d’une performance."
+      ],
+      [
+        "Distinguer données d’apprentissage et données de service ; organiser versionnement, supervision et intervention humaine.",
+        "Simuler dérive des données ou changement de processus métier et définir les conditions de retrait du modèle.",
+        "Schéma de cycle de vie et plan de surveillance."
+      ],
+      [
+        "Chiffrer valeur attendue, intégration, collecte des données, exploitation et coût de vérification humaine.",
+        "Présenter une décision de lancement conditionnelle avec critères d’abandon et preuve attendue au prochain jalon.",
+        "Note d’investissement et plan de preuve de valeur."
+      ]
+    ]
+  },
+  {
+    "index": 11,
+    "slug": "pren-prompt-engineer-savoir-dialoguer-efficacement-avec-l-intelligence-artificielle-ia",
+    "units": [
+      [
+        "Distinguer connaissances du modèle, contexte fourni, variabilité et limitations d’une réponse plausible.",
+        "Comparer plusieurs réponses à une question dont une donnée manque et vérifier la capacité à reconnaître l’incertitude.",
+        "Grille d’observation des erreurs et limites du modèle."
+      ],
+      [
+        "Structurer rôle utile, tâche, contraintes, exemples, données délimitées et format de sortie attendu.",
+        "Réduire une consigne trop longue en conservant les exigences mesurables et les informations réellement nécessaires.",
+        "Gabarit de prompt annoté et recette de sortie."
+      ],
+      [
+        "Définir granularité de synthèse, champs d’extraction, traitement de l’absence et citation de la source.",
+        "Tester le même prompt sur documents contradictoires, tableaux incomplets et instructions malveillantes dans une source.",
+        "Jeu de documents tests et tableau d’extraction contrôlé."
+      ],
+      [
+        "Découper collecte, analyse, rédaction et vérification en étapes dont les sorties sont contrôlables.",
+        "Organiser un workflow qui bloque la rédaction finale tant que les affirmations importantes ne disposent pas de sources vérifiées.",
+        "Chaîne de travail avec critères d’entrée et de sortie."
+      ],
+      [
+        "Évaluer exactitude, couverture, style, format et résistance aux ambiguïtés ; conserver les cas en échec.",
+        "Conduire une comparaison en aveugle de versions de prompts sur un jeu fixe, en distinguant préférence et qualité mesurable.",
+        "Banc d’essai de prompts et journal d’amélioration."
+      ],
+      [
+        "Versionner propriétaire, usages autorisés, exemples, limites et date de revue d’un prompt partagé.",
+        "Prévoir la revalidation après changement de modèle, de politique interne ou de documents de référence.",
+        "Bibliothèque de prompts avec guide de maintenance."
+      ]
+    ]
+  },
+  {
+    "index": 12,
+    "slug": "adlp-deep-learning-les-fondamentaux",
+    "units": [
+      [
+        "Calculer sur un exemple simple l’effet d’un poids sur la perte ; relier dérivée, règle de chaîne et mise à jour par descente de gradient.",
+        "Expliquer sur un exemple simple pourquoi une fonction non linéaire est nécessaire pour séparer certaines données.",
+        "Schéma du réseau et calcul commenté d’une prédiction."
+      ],
+      [
+        "Définir forme des entrées, encodage des cibles et choix cohérent de la dernière couche et de la perte.",
+        "Construire une baseline puis contrôler la capacité du réseau à apprendre un petit sous-ensemble avant toute recherche d’architecture.",
+        "Notebook Keras et contrôles de cohérence des tenseurs."
+      ],
+      [
+        "Identifier sous-apprentissage, surapprentissage et instabilité dans les courbes de perte et les métriques.",
+        "Comparer arrêt anticipé, régularisation et réduction du taux d’apprentissage en ne changeant qu’un facteur à la fois.",
+        "Courbes annotées et tableau d’expériences."
+      ],
+      [
+        "Relier convolution, récurrence et attention aux structures des images, séquences et textes.",
+        "Justifier une famille d’architecture à partir des dépendances du problème plutôt que de la popularité du modèle.",
+        "Matrice problèmes/architectures et choix motivé."
+      ],
+      [
+        "Situer autoencodeurs, modèles génératifs et apprentissage par renforcement ; distinguer génération et décision.",
+        "Analyser les contraintes d’un modèle préentraîné : domaine de validité, données nécessaires et risques de réutilisation.",
+        "Fiche de lecture d’une architecture avancée."
+      ],
+      [
+        "Comparer deep learning et méthodes plus simples selon volume, ressources, performance utile et explicabilité.",
+        "Définir un pilote dont les critères de réussite incluent qualité des données, coût d’inférence et conditions de supervision.",
+        "Dossier de faisabilité et plan d’expérimentation."
+      ]
+    ]
+  },
+  {
+    "index": 13,
+    "slug": "bneo-neo4j-pour-developpeur",
+    "units": [
+      [
+        "Choisir nœuds, relations, propriétés et cardinalités à partir des requêtes métier ; éviter la transposition mécanique des tables.",
+        "Comparer deux modèles de graphe sur une recherche de dépendances et expliquer leur impact sur les traversées.",
+        "Modèle de graphe et exemples de requêtes cibles."
+      ],
+      [
+        "Préparer contraintes d’unicité, identifiants métier, import par lots et contrôles après chargement.",
+        "Rejouer un import sans créer de doublons et isoler les lignes rejetées pour permettre leur correction.",
+        "Script d’import idempotent et rapport de qualité."
+      ],
+      [
+        "Maîtriser motifs, agrégations, sous-requêtes et portée des variables ; distinguer absence de relation et valeur nulle.",
+        "Écrire une requête qui conserve les entités sans correspondance puis prouver ses résultats sur un petit graphe vérifiable.",
+        "Bibliothèque Cypher et tests de résultats attendus."
+      ],
+      [
+        "Étudier sélectivité du nœud de départ, chemins de longueur variable et explosions combinatoires ; comparer profils de requêtes avant optimisation.",
+        "Comparer deux requêtes équivalentes sur un graphe plus dense et expliquer l’origine d’une explosion des chemins.",
+        "Plans d’exécution commentés et mesure d’optimisation."
+      ],
+      [
+        "Paramétrer les requêtes, gérer sessions, transactions, erreurs transitoires et fermeture des ressources côté application.",
+        "Simuler une interruption et distinguer une opération rejouable d’une action pouvant produire un double effet.",
+        "Couche d’accès au graphe et stratégie de reprise."
+      ],
+      [
+        "Prévoir versionnement du modèle, migration, contrôles d’intégrité et restrictions d’accès.",
+        "Faire évoluer une relation métier tout en conservant la compatibilité des requêtes consommées par l’application.",
+        "Dossier de migration et recette des requêtes critiques."
+      ]
+    ]
+  },
+  {
+    "index": 14,
+    "slug": "bbni-initiation-aux-bases-de-donnees-et-au-sql-pour-les-professionnels-non-informaticiens",
+    "units": [
+      [
+        "Distinguer table, ligne, colonne, identifiant et relation ; comprendre pourquoi une clé unique évite les ambiguïtés.",
+        "Repérer dans un tableur les données répétées qui devraient devenir des entités séparées.",
+        "Dictionnaire de données métier et exemple de normalisation."
+      ],
+      [
+        "Traduire règles métier en types, clés primaires, clés étrangères et contraintes de saisie.",
+        "Tester le modèle sur une commande comportant plusieurs produits et sur un client sans commande.",
+        "Modèle relationnel et règles d’intégrité explicites."
+      ],
+      [
+        "Observer le rejet d’une clé étrangère invalide, d’un doublon interdit et d’une valeur obligatoire absente ; expliquer le rôle de chaque contrainte.",
+        "Simuler une mise à jour trop large dans une base d’exercice puis corriger la condition avant validation.",
+        "Script de modification sécurisé et preuve des lignes concernées."
+      ],
+      [
+        "Combiner filtres, tri, valeurs nulles, agrégations et regroupements en reliant chaque clause à la question métier.",
+        "Expliquer la différence entre filtrer des lignes avant calcul et filtrer des groupes après calcul.",
+        "Carnet de requêtes commentées et résultats de contrôle."
+      ],
+      [
+        "Distinguer jointure interne et externe ; comprendre la multiplication des lignes dans une relation un-à-plusieurs.",
+        "Calculer un indicateur sans compter deux fois les clients et repérer les droits nécessaires à un usage en lecture seule.",
+        "Requêtes multi-tables et contrôle des doublons."
+      ],
+      [
+        "Vérifier séparateurs, dates, encodage, décimales et confidentialité lors d’un export ou d’un import.",
+        "Comparer le total d’un rapport SQL à celui du fichier exporté et expliquer un écart de conversion.",
+        "Export vérifié et fiche de contrôle avant partage."
+      ]
+    ]
+  }
+]

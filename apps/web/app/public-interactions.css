@@ -1,0 +1,295 @@
+/* References move as one continuous ribbon, with an accessible static alternative. */
+.references-section {
+  padding-bottom: 30px;
+}
+.references-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.references-pause {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 40px;
+  background: none;
+  border: 1px solid #d4dce8;
+  color: #334560;
+  border-radius: 8px;
+  padding: 7px 12px;
+  font: inherit;
+  font-size: 0.73rem;
+  cursor: pointer;
+}
+.references-pause:hover {
+  background: #fff0d3;
+  border-color: #d6ad60;
+}
+.references-marquee {
+  min-width: 0;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 3%,
+    #000 97%,
+    transparent
+  );
+}
+.references-track {
+  display: flex;
+  width: max-content;
+  animation: references-loop 32s linear infinite;
+  will-change: transform;
+}
+.reference-logo-sequence {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto;
+  padding: 4px 12px 4px 0;
+  margin: 0;
+  list-style: none;
+}
+.reference-logo-sequence .home-logo-item {
+  flex: 0 0 210px;
+  width: 210px;
+  min-height: 82px;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.reference-logo-sequence .home-logo-item img {
+  flex-shrink: 0;
+}
+.references-marquee:hover .references-track,
+.references-marquee:focus-within .references-track,
+.references-track[data-paused="true"] {
+  animation-play-state: paused;
+}
+@keyframes references-loop {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* A compact heading and introduction occupy the same row above three balanced cards. */
+.home-page-main .compact-advantages-section {
+  padding-top: 12px;
+  padding-bottom: 36px;
+}
+.compact-advantages-section .home-advantages-panel {
+  padding: 30px;
+  gap: 22px;
+}
+.compact-advantages-section .home-advantages-head {
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+.compact-advantages-section .section-title {
+  max-width: none;
+  font-size: clamp(1.7rem, 2.65vw, 2.25rem);
+  line-height: 1.15;
+  margin: 12px 0 0;
+  text-wrap: initial;
+}
+.compact-advantages-section .home-advantages-head > .section-copy {
+  max-width: none;
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+.compact-advantages-section .home-advantages-grid {
+  gap: 16px;
+}
+.compact-advantages-section .home-advantage-card {
+  padding: 22px;
+}
+.compact-advantages-section .home-advantage-card h3 {
+  font-size: 1.17rem;
+  line-height: 1.28;
+  margin: 12px 0;
+  text-wrap: balance;
+}
+.compact-advantages-section .home-advantage-card p {
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+.compact-advantages-section .home-advantage-list {
+  gap: 7px;
+}
+.compact-advantages-section .home-advantage-list li {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  align-items: flex-start;
+}
+.compact-advantages-section .home-advantage-list li:before {
+  margin-top: 0.45em;
+}
+
+/* Shared navigation: the yellow response also applies to keyboard focus. */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: rgba(247, 249, 252, 0.95);
+}
+.site-header .header-nav-primary {
+  gap: 4px;
+}
+.site-header .header-nav-link {
+  padding: 8px 10px;
+  border-radius: 8px;
+  min-height: 40px;
+  transition:
+    background-color 0.18s ease-out,
+    color 0.18s ease-out;
+}
+.site-header
+  :is(
+    .header-quick-pill,
+    .header-contact-button,
+    .header-space-trigger,
+    .header-navigation-toggle,
+    .header-space-item
+  ) {
+  transition:
+    background-color 0.18s ease-out,
+    color 0.18s ease-out,
+    border-color 0.18s ease-out;
+}
+.site-header
+  :is(
+    .header-nav-link,
+    .header-quick-pill,
+    .header-contact-button,
+    .header-space-trigger,
+    .header-navigation-toggle,
+    .header-space-item
+  ):is(:hover, :focus-visible) {
+  background: #ffcf65;
+  color: #182642;
+  border-color: #e8b34b;
+}
+.site-header
+  .header-space-item:is(:hover, :focus-visible)
+  :is(svg, span, strong) {
+  color: #182642;
+}
+.site-header .header-topbar-link:is(:hover, :focus-visible) {
+  color: #ffcf65;
+}
+.site-header :is(a, button):focus-visible {
+  outline: 2px solid #945e00;
+  outline-offset: 3px;
+}
+
+/* A fixed line shows reading progress, including while the header remains sticky. */
+.site-scroll-track {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  height: 3px;
+  z-index: 40;
+  pointer-events: none;
+}
+.site-scroll-progress {
+  height: 100%;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: linear-gradient(
+    90deg,
+    #f2a137,
+    #ffd56b,
+    #8373d6,
+    #3f9fc2,
+    #f2a137
+  );
+  background-size: 200% 100%;
+  animation: scroll-line-colors 9s linear infinite;
+  transition: transform 0.1s linear;
+}
+@keyframes scroll-line-colors {
+  to {
+    background-position: 200% 0;
+  }
+}
+@media (max-width: 900px) {
+  .compact-advantages-section .home-advantages-head {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .compact-advantages-section .home-advantages-grid {
+    grid-template-columns: 1fr;
+  }
+  .compact-advantages-section .section-title {
+    font-size: 1.9rem;
+  }
+  .compact-advantages-section .home-advantages-panel {
+    padding: 24px;
+    gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .references-section {
+    padding-bottom: 22px;
+  }
+  .references-controls {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .home-page-main .compact-advantages-section {
+    padding-top: 8px;
+    padding-bottom: 28px;
+  }
+}
+@media (max-width: 520px) {
+  .reference-logo-sequence .home-logo-item {
+    width: 185px;
+    flex-basis: 185px;
+    font-size: 0.8rem;
+    gap: 12px;
+  }
+  .compact-advantages-section .home-advantages-panel {
+    padding: 20px 16px;
+  }
+  .compact-advantages-section .section-title {
+    font-size: 1.7rem;
+  }
+  .compact-advantages-section .home-advantage-card {
+    padding: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .references-track {
+    animation: none;
+    transform: none;
+    width: auto;
+    will-change: auto;
+  }
+  .reference-logo-sequence {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .reference-logo-sequence[aria-hidden="true"] {
+    display: none;
+  }
+  .references-marquee {
+    mask-image: none;
+  }
+  .references-pause {
+    display: none;
+  }
+  .site-scroll-progress {
+    animation: none;
+    transition: none;
+  }
+  .site-header :is(a, button) {
+    transition: none;
+  }
+}

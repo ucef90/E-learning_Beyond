@@ -1,13 +1,17 @@
 import Link from "next/link";
+export const dynamic = "force-dynamic";
+import { RegulatoryHighlight } from "@/components/regulatory-highlight";
+import { TrustStrip, RatingStars } from "@/components/trust-elements";
+import { ClientReferences } from "@/components/client-references";
+import { trainingPresentation } from "@/lib/training-presentation";
+import { HeroMedia } from "@/components/hero-media";
 import {
   ArrowRight,
-  Award,
-  CheckCircle2,
+  Bot,
+  Database,
   Search,
   ShieldCheck,
   Star,
-  ThumbsUp,
-  Zap,
 } from "lucide-react";
 import { FAQ } from "@/components/faq";
 import { TrainingCard } from "@/components/training-card";
@@ -42,12 +46,12 @@ const resourceHighlights = [
   },
 ];
 
-const advantageTabs = [
+const advantages = [
   {
     label: "Formateurs",
-    title: "Des formateurs experts et praticiens",
+    title: "Des experts qui pratiquent et transmettent",
     description:
-      "Nos parcours sont portés par des intervenants capables de relier théorie, cas concrets et contraintes d'exécution en entreprise.",
+      "Apprenez avec des professionnels qui relient les concepts aux situations rencontrées en entreprise.",
     bullets: [
       "Double expertise métier et pédagogique",
       "Animation inter, intra et dispositifs sur-mesure",
@@ -56,9 +60,9 @@ const advantageTabs = [
   },
   {
     label: "Évaluations",
-    title: "Des parcours structurés avec niveaux, prérequis et validation",
+    title: "Un parcours clair, des acquis évalués",
     description:
-      "Le catalogue est pensé pour aider chaque profil à choisir le bon niveau, la bonne modalité et un dispositif cohérent pour monter en compétence.",
+      "Choisissez le bon niveau, pratiquez avec des objectifs précis et mesurez vos acquis au fil du parcours.",
     bullets: [
       "Fiches formation détaillées et lisibles",
       "Positionnement par niveau et objectifs",
@@ -67,26 +71,15 @@ const advantageTabs = [
   },
   {
     label: "Entreprise",
-    title: "Une logique de portail client et de parcours entreprise",
+    title: "Des formations adaptées à vos équipes",
     description:
-      "Au-delà du catalogue, Beyond Expertise permet de cadrer les demandes, suivre les devis, organiser les inscriptions et séparer les usages client du LMS.",
+      "Construisez avec le centre un programme et un calendrier qui répondent aux besoins de vos collaborateurs.",
     bullets: [
-      "Tunnel commercial clair et rapide",
-      "Suivi des demandes et validations",
-      "Projection vers académie et portail B2B",
+      "Un programme adapté à vos enjeux",
+      "Des modalités et un calendrier partagés",
+      "Échanges avec le centre avant inscription",
     ],
   },
-];
-
-const clientLogos = [
-  "BNP Paribas",
-  "Orange",
-  "Renault",
-  "Alten",
-  "IBM",
-  "Société Générale",
-  "Capgemini",
-  "Thales",
 ];
 
 export default async function HomePage() {
@@ -98,128 +91,134 @@ export default async function HomePage() {
     .size;
   const categoryCount = new Set(trainings.map((training) => training.category))
     .size;
-  const upcomingCount = trainings.filter(
-    (training) => training.nextSession !== "Planification à venir",
-  ).length;
+  const heroTraining = featuredTrainings[0];
+  const heroInfo = heroTraining ? trainingPresentation(heroTraining) : null;
 
   return (
-    <main className="home-page-main">
-      {/* ── Hero ─────────────────────────────────────────── */}
-      <section className="section section-tight">
-        <div className="page-shell">
-          <div className="home-hero-plb">
-            <div className="home-hero-plb-copy">
-              <span className="eyebrow">
-                Catalogue premium | parcours entreprise | LMS
-              </span>
-              <h1 className="home-hero-plb-title">
-                Trouvez la formation qui fera progresser vos équipes et vos
-                priorités métier.
-              </h1>
-              <p className="home-hero-plb-copy-text">
-                Data, BI, IA, gestion de projet, agile, business analysis et
-                parcours entreprise : un catalogue structuré pour aller vite du
-                besoin à la bonne formation.
-              </p>
-
-              <form action="/formations" className="home-hero-plb-search">
-                <input
-                  name="q"
-                  className="input home-hero-plb-search-input"
-                  placeholder="IA, data, Power BI, agile, scrum, PMO..."
-                />
-                <button
-                  type="submit"
-                  className="home-hero-plb-search-button"
-                  aria-label="Rechercher"
-                >
-                  <Search size={18} />
-                </button>
-              </form>
-
-              <div className="home-hero-plb-proof">
-                {[
-                  "Formations inter, intra et parcours entreprise",
-                  "Catalogue structuré par expertises métier",
-                  "Espace client distinct des espaces LMS",
-                ].map((item) => (
-                  <div
-                    key={item}
-                    className="hero-proof-item hero-proof-item-light"
-                  >
-                    <CheckCircle2 size={18} />
-                    <span>{item}</span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="home-hero-plb-actions">
-                <Link href="/formations" className="button button-primary">
-                  Explorer le catalogue <ArrowRight size={18} />
+    <main className="home-page-main" id="contenu">
+      <section className="reference-hero">
+        <HeroMedia />
+        <div className="page-shell reference-hero-grid">
+          <div>
+            <span className="reference-badge">
+              <ShieldCheck size={14} />
+              Beyond Expertise · Formation professionnelle
+            </span>
+            <h1>
+              La formation qui fait <span>progresser</span> vos équipes et vos
+              priorités métier.
+            </h1>
+            <p>
+              Data, BI, IA, gestion de projet, agile et business analysis :
+              trouvez la formation adaptée à votre métier, en inter, intra ou
+              parcours entreprise.
+            </p>
+            <form action="/formations" className="reference-search">
+              <Search size={21} />
+              <input
+                name="q"
+                aria-label="Rechercher une formation"
+                placeholder="Rechercher : Power BI, IA, Scrum, SQL, PMO…"
+              />
+              <button type="submit">
+                Rechercher
+                <ArrowRight size={18} />
+              </button>
+            </form>
+            <div className="reference-chips">
+              {[
+                "Power BI",
+                "Intelligence Artificielle",
+                "Scrum",
+                "SQL",
+                "Copilot",
+                "PMO",
+              ].map((q) => (
+                <Link key={q} href={`/formations?q=${encodeURIComponent(q)}`}>
+                  {q}
                 </Link>
-                <Link
-                  href="/devis"
-                  className="button button-secondary-inverted"
-                >
-                  Demander un devis
-                </Link>
-              </div>
+              ))}
             </div>
-
-            <div className="home-hero-plb-side">
-              <div className="home-hero-plb-photo card">
-                <div className="home-hero-plb-photo-grid">
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-main" />
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-top" />
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-bottom" />
-                </div>
-              </div>
-
-              <div className="home-hero-plb-kpi">
-                <div className="home-hero-plb-kpi-card">
-                  <strong>{trainings.length}</strong>
-                  <span>formations actives dans le catalogue</span>
-                </div>
-                <div className="home-hero-plb-kpi-card">
-                  <strong>{upcomingCount}</strong>
-                  <span>formations avec sessions planifiées</span>
-                </div>
-              </div>
-
-              <Link href="/formations" className="home-hero-plb-floating-cta">
-                Voir toutes nos formations <ArrowRight size={18} />
+            <div className="hero-reassurance">
+              <Link href="/qualite#resultats">
+                <RatingStars />
+                <strong>4,8/5</strong> satisfaction
+              </Link>
+              <Link href="/financements">
+                CPF & OPCO <ArrowRight size={13} />
               </Link>
             </div>
+            <p className="hero-rating-source">
+              Évaluations internes du centre · Financement selon éligibilité
+            </p>
+          </div>
+          <div className="reference-hero-right">
+            {heroTraining && heroInfo && (
+              <article className="reference-feature">
+                <div className="reference-feature-heading">
+                  <span className="reference-badge">
+                    {heroTraining.category}
+                  </span>
+                  <Link
+                    href="/qualite#resultats"
+                    className="reference-module-rating"
+                    aria-label="Note de satisfaction du centre : 4,8 sur 5, évaluations internes"
+                  >
+                    <Star size={16} fill="currentColor" /> 4,8/5{" "}
+                    <small>Centre</small>
+                  </Link>
+                </div>
+                <h2>{heroTraining.title}</h2>
+                <div className="reference-meta">
+                  <span>{heroTraining.duration}</span>
+                  <span>{heroTraining.level}</span>
+                  <span>{heroTraining.format}</span>
+                </div>
+                <div className="reference-feature-bottom">
+                  <div className="hero-price">
+                    <span>{heroInfo.hasPrice ? "À partir de" : "Tarif"}</span>
+                    <strong>{heroInfo.price}</strong>
+                  </div>
+                  <Link
+                    className="button"
+                    href={`/formations/${heroTraining.slug}`}
+                  >
+                    Voir la formation <ArrowRight size={17} />
+                  </Link>
+                </div>
+              </article>
+            )}
+            <div className="reference-options">
+              <Link href="/formations">
+                <strong>{trainings.length}</strong>formations au catalogue
+              </Link>
+              <Link href="/connexion">
+                <strong>Mon espace</strong>Accéder à mes cours{" "}
+                <ArrowRight size={17} />
+              </Link>
+            </div>
+            <Link href="/formations" className="reference-catalogue-cta">
+              Explorer tout le catalogue <ArrowRight size={18} />
+            </Link>
           </div>
         </div>
       </section>
-
-      <section className="section-tight">
-        <div className="page-shell">
-          <p>
-            Démarche de certification Qualiopi en cours. La certification n’est
-            pas encore acquise. Les modalités de financement sont étudiées selon
-            chaque situation.
-          </p>
-        </div>
-      </section>
+      <TrustStrip />
 
       {/* ── Featured Trainings ───────────────────────────── */}
       <section className="section section-tight-top">
         <div className="page-shell">
           <div className="section-heading-row">
             <div>
-              <span className="eyebrow">Formations les plus demandées</span>
+              <span className="eyebrow">Notre sélection de formations</span>
               <h2 className="section-title section-title-wide">
-                Une sélection immédiate pour les sujets les plus porteurs du
-                catalogue.
+                Des compétences à développer. Des projets à concrétiser.
               </h2>
             </div>
             <div className="section-cta-inline">
               <p className="section-copy section-copy-narrow">
-                SQL, Power BI, PMO, Scrum, Copilot, AI Agents et data : les
-                parcours les plus visibles pour les demandes inter et
-                entreprise.
+                IA, data et pilotage : découvrez les programmes, les niveaux et
+                les prochaines sessions proposées.
               </p>
               <Link href="/formations" className="button button-secondary">
                 Découvrir tout le catalogue
@@ -252,8 +251,8 @@ export default async function HomePage() {
                 <strong>{premiumGroups.length}</strong>
                 <h3>univers métier prioritaires</h3>
                 <p>
-                  Des catégories premium pour accélérer l'orientation des
-                  directions, PMO, analysts et équipes data.
+                  Des parcours pour les équipes métier, les analysts, les
+                  managers et les spécialistes de la data.
                 </p>
               </article>
               <article className="home-stat-card">
@@ -277,14 +276,12 @@ export default async function HomePage() {
             <div className="home-stats-copy">
               <span className="eyebrow eyebrow-dark">Chiffres clés</span>
               <h2 className="section-title">
-                Une base de catalogue sérieuse pour cadrer vite un projet de
-                formation.
+                Les bonnes compétences, au bon moment.
               </h2>
               <p className="section-copy">
-                Beyond Expertise combine catalogue, tunnel commercial, espace
-                client et projection LMS dans une architecture claire, avec de
-                vraies fiches formation, des parcours prioritaires et une
-                logique de portail entreprise.
+                Des premiers pas à la pratique avancée, construisez un parcours
+                adapté à vos équipes. Des objectifs clairs, des exercices
+                concrets et des formateurs qui connaissent votre réalité métier.
               </p>
               <Link href="/a-propos" className="button button-secondary">
                 En savoir plus sur Beyond Expertise
@@ -294,63 +291,34 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── Client Logos ─────────────────────────────────── */}
-      <section className="section-tight" style={{ paddingTop: 0 }}>
-        <div className="page-shell">
-          <div className="home-logos-band">
-            <div className="home-logos-head">
-              <p className="home-logos-title">Ils nous font confiance</p>
-              <Link
-                href="/a-propos"
-                className="button button-secondary"
-                style={{ fontSize: "0.82rem", padding: "8px 14px" }}
-              >
-                Voir nos références
-              </Link>
-            </div>
-            <div className="home-logos-grid">
-              {clientLogos.map((logo) => (
-                <div key={logo} className="home-logo-item">
-                  {logo}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClientReferences />
 
       {/* ── Advantages ───────────────────────────────────── */}
-      <section className="section section-tight-top">
+      <section className="section section-tight-top compact-advantages-section">
         <div className="page-shell">
           <div className="home-advantages-panel">
             <div className="home-advantages-head">
               <div>
                 <span className="eyebrow eyebrow-dark">Nos atouts</span>
                 <h2 className="section-title">
-                  Les fondamentaux d'un organisme de formation premium, lisible
-                  et moderne.
+                  L’expertise du terrain.
+                  <br />
+                  Le goût de transmettre.
                 </h2>
-                <p className="section-copy">
-                  Le site n'expose pas seulement un catalogue : il structure une
-                  offre pédagogique, commerciale et LMS capable de monter en
-                  maturité.
-                </p>
               </div>
-              <div className="home-advantage-tabs" aria-hidden="true">
-                {advantageTabs.map((tab, index) => (
-                  <span
-                    key={tab.label}
-                    className={`home-advantage-tab${index === 0 ? " is-active" : ""}`}
-                  >
-                    {tab.label}
-                  </span>
-                ))}
-              </div>
+              <p className="section-copy">
+                Nos formateurs relient chaque notion à un usage professionnel.
+                Vous apprenez, vous pratiquez et vous repartez avec des méthodes
+                à appliquer.
+              </p>
             </div>
-
             <div className="home-advantages-grid">
-              {advantageTabs.map((tab) => (
-                <article key={tab.label} className="home-advantage-card">
+              {advantages.map((tab, index) => (
+                <article
+                  id={`atout-${index}`}
+                  key={tab.label}
+                  className="home-advantage-card"
+                >
                   <span className="premium-category-accent">{tab.label}</span>
                   <h3>{tab.title}</h3>
                   <p>{tab.description}</p>
@@ -373,8 +341,7 @@ export default async function HomePage() {
             <div>
               <span className="eyebrow">Univers métier</span>
               <h2 className="section-title section-title-wide">
-                Des catégories premium pour orienter rapidement chaque équipe
-                vers le bon parcours.
+                Quel est votre prochain défi professionnel ?
               </h2>
             </div>
             <p className="section-copy section-copy-narrow">
@@ -402,6 +369,12 @@ export default async function HomePage() {
                 <p className="premium-category-count">
                   {group.trainings.length} formations associées
                 </p>
+                <Link
+                  className="home-resource-link"
+                  href={`/formations?univers=${group.key}`}
+                >
+                  Explorer cet univers <ArrowRight size={16} />
+                </Link>
               </article>
             ))}
           </div>
@@ -423,17 +396,15 @@ export default async function HomePage() {
                 className="section-title"
                 style={{ color: "white", maxWidth: "20ch" }}
               >
-                Un même socle pour le catalogue, le devis, l'inscription,
-                l'espace client et les espaces LMS.
+                Faites grandir les compétences de toute votre équipe.
               </h2>
               <p
                 className="section-copy"
                 style={{ color: "rgba(255,255,255,0.82)" }}
               >
-                Beyond Expertise peut servir de base pour un site organisme de
-                formation moderne, un portail client de suivi et une future
-                plateforme e-learning plus riche, sans casser le parcours
-                commercial.
+                Un projet data, une nouvelle organisation, des usages IA à
+                encadrer ? Construisons ensemble un parcours qui répond à vos
+                enjeux, à votre niveau et à vos contraintes de calendrier.
               </p>
               <div className="home-interest-actions">
                 <Link href="/devis" className="button button-primary">
@@ -448,18 +419,43 @@ export default async function HomePage() {
               </div>
             </div>
 
-            <div className="home-interest-mosaic">
-              <div className="home-interest-mosaic-card home-interest-mosaic-media" />
-              <div className="home-interest-mosaic-card home-interest-mosaic-stat">
-                <strong>{upcomingCount}+</strong>
-                <span>prochaines sessions visibles</span>
-              </div>
-              <div className="home-interest-mosaic-card home-interest-mosaic-media-alt" />
-              <div className="home-interest-mosaic-card home-interest-mosaic-gradient" />
+            <div className="enterprise-path">
+              <span className="reference-badge">
+                Un accompagnement à chaque étape
+              </span>
+              <ol>
+                <li>
+                  <strong>01</strong>
+                  <div>
+                    <h3>Comprendre votre besoin</h3>
+                    <p>Objectifs, publics, niveaux et contexte métier.</p>
+                  </div>
+                </li>
+                <li>
+                  <strong>02</strong>
+                  <div>
+                    <h3>Construire votre parcours</h3>
+                    <p>Programme, modalités, calendrier et devis.</p>
+                  </div>
+                </li>
+                <li>
+                  <strong>03</strong>
+                  <div>
+                    <h3>Apprendre et mettre en pratique</h3>
+                    <p>Exercices, échanges et évaluation des acquis.</p>
+                  </div>
+                </li>
+              </ol>
+              <Link href="/formations">
+                {trainings.length} formations pour composer votre parcours{" "}
+                <ArrowRight size={17} />
+              </Link>
             </div>
           </div>
         </div>
       </section>
+
+      <RegulatoryHighlight />
 
       {/* ── Resources ────────────────────────────────────── */}
       <section className="section section-tight-top">
@@ -468,15 +464,13 @@ export default async function HomePage() {
             <div>
               <span className="eyebrow">Ressources</span>
               <h2 className="section-title">
-                Des contenus utiles pour nourrir la décision, le SEO et les
-                échanges commerciaux.
+                Des analyses pour éclairer vos décisions.
               </h2>
             </div>
             <div className="section-cta-inline">
               <p className="section-copy section-copy-narrow">
-                Articles, pages expertes et actualités permettent d'appuyer la
-                crédibilité du site et de capter des intentions de recherche
-                plus larges.
+                Retrouvez nos ressources sur la data, l’intelligence
+                artificielle et les usages professionnels.
               </p>
               <Link href="/ressources" className="button button-secondary">
                 Voir toutes les ressources
@@ -486,25 +480,44 @@ export default async function HomePage() {
 
           <div className="home-resources-grid">
             <article className="home-resource-feature">
-              <div className="home-resource-feature-media" />
+              <div className="home-resource-feature-media">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/media/atelier-equipe.jpg"
+                  width={1200}
+                  height={800}
+                  loading="lazy"
+                  alt="Photo d’illustration : une équipe échange autour de documents et d’un ordinateur."
+                />
+              </div>
               <div className="home-resource-feature-body">
                 <span className="premium-category-accent">À la une</span>
                 <h3>
-                  Comment structurer une offre formation premium autour de la
-                  data, de l'IA et du pilotage ?
+                  RGPD et AI Act : passer des textes aux bonnes pratiques.
                 </h3>
                 <p>
-                  Une ligne éditoriale orientée usage, ROI, gouvernance et
-                  transformation permet d'installer Beyond Expertise comme
-                  acteur crédible sur les sujets les plus demandés du marché.
+                  Deux parcours avec cas pratiques, exercices et modèles pour
+                  protéger les données et encadrer les usages de l’intelligence
+                  artificielle.
                 </p>
+                <Link href="/rgpd-ai-act" className="home-resource-link">
+                  Découvrir les deux parcours <ArrowRight size={16} />
+                </Link>
               </div>
             </article>
 
             <div className="home-resource-list">
               {resourceHighlights.map((item) => (
                 <article key={item.slug} className="home-resource-card">
-                  <div className="home-resource-thumb" />
+                  <div className="home-resource-thumb" aria-hidden="true">
+                    {item.slug === "copilot" ? (
+                      <Bot size={34} />
+                    ) : item.slug === "ai-security" ? (
+                      <ShieldCheck size={34} />
+                    ) : (
+                      <Database size={34} />
+                    )}
+                  </div>
                   <div>
                     <h3>{item.title}</h3>
                     <p>{item.excerpt}</p>
@@ -529,12 +542,11 @@ export default async function HomePage() {
             <div className="home-faq-copy">
               <span className="eyebrow eyebrow-dark">Questions fréquentes</span>
               <h2 className="section-title">
-                Tout ce qu'il faut clarifier avant d'activer une demande, un
-                devis ou un parcours entreprise.
+                Préparez votre formation en toute clarté.
               </h2>
               <p className="section-copy">
-                Une FAQ bien structurée rassure, réduit les frictions et
-                soutient à la fois la conversion et la qualité perçue du site.
+                Une question sur le choix d’une formation ou son organisation ?
+                Le centre vous accompagne.
               </p>
               <Link href="/contact" className="button button-primary">
                 Contactez-nous

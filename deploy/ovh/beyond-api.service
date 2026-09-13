@@ -1,0 +1,21 @@
+[Unit]
+Description=Beyond Expertise api
+After=network.target
+[Service]
+Type=simple
+User=beyond
+Group=beyond
+WorkingDirectory=/srv/beyond/current
+EnvironmentFile=/etc/beyond/platform.env
+ExecStart=/usr/bin/node /srv/beyond/current/apps/api/dist/main.js
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+UMask=0077
+StandardOutput=journal
+StandardError=journal
+[Install]
+WantedBy=multi-user.target
