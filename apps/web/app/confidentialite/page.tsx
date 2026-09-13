@@ -8,19 +8,28 @@ export default function Page() {
   return (
     <QualityLayout
       title="Vos données sur cette plateforme."
-      intro="Notice de la version locale — mise à jour le 13 septembre 2026. Contact : contact@beyondexpertise.eu · 09 54 70 23 80."
+      intro="Notice de la plateforme — mise à jour le 13 septembre 2026. Contact : contact@beyondexpertise.eu · 09 54 70 23 80."
     >
       <QualityCard title="Qui utilise les données ?">
         <p>
-          La plateforme est préparée pour Beyond Expertise. L’identité juridique
-          complète, l’adresse du responsable de traitement et le contact DPO, si
-          un DPO est désigné, restent à confirmer par le centre. Cette copie
-          sert aux essais locaux ; cette notice doit être complétée avant une
-          collecte réelle et la mise en ligne.
+          Beyond Expertise utilise les données pour traiter vos demandes et
+          organiser les formations. Pour toute question sur vos données ou pour
+          exercer vos droits, contactez le centre aux coordonnées indiquées
+          ci-dessus. Les informations sont hébergées sur le serveur de la
+          plateforme en France ; l’accès aux dossiers est réservé aux personnes
+          habilitées.
         </p>
       </QualityCard>
       <QualityCard title="Données, usages et destinataires">
         <ul>
+          <li>
+            Candidatures MBA/DBA : identité, coordonnées, pays, formation
+            antérieure, expérience, fonction, projet et financement envisagé,
+            afin d’étudier la demande et de préparer l’entretien. Les dossiers
+            et notes de suivi sont accessibles à l’administration. Aucune
+            utilisation publicitaire ni transmission à un partenaire n’est
+            déduite de cette demande.
+          </li>
           <li>
             Contact, devis et inscription : coordonnées, entreprise éventuelle,
             formation et besoin exprimé, pour instruire la demande. Accès
@@ -69,8 +78,8 @@ export default function Page() {
       </QualityCard>
       <QualityCard title="Stockage, cookies et chargements">
         <p>
-          Les données d’essai sont stockées dans la base locale du projet sur
-          cet ordinateur. La vidéo de l’accueil, les photos et les logos sont
+          Les données de la plateforme sont stockées sur le VPS OVH de Beyond
+          à Gravelines, en France. La vidéo de l’accueil, les photos et les logos sont
           servis localement : leur affichage ne contacte pas de service tiers.
           Aucun outil de publicité ou de mesure d’audience n’est intégré dans
           cette version.
@@ -78,7 +87,7 @@ export default function Page() {
         <p>
           Le cookie HttpOnly <code>be_elearning_session</code> est réservé à la
           connexion demandée. Les brouillons de notebook sont enregistrés sur le
-          serveur local ; le laboratoire exécute le calcul dans le navigateur
+          serveur de la plateforme ; le laboratoire exécute le calcul dans le navigateur
           avec des ressources servies localement sur une origine distincte.
           Aucun bandeau de consentement publicitaire n’est nécessaire pour ces
           seuls usages strictement nécessaires.
@@ -91,10 +100,9 @@ export default function Page() {
           des sources officielles n’ouvrent leur site qu’à votre demande.
         </p>
         <p>
-          La mise en ligne changera l’hébergement et les destinataires
-          techniques. Les contrats, localisations, transferts éventuels et
-          mesures HTTPS devront être vérifiés pour l’environnement effectivement
-          retenu.
+          Les accès au site et au laboratoire utilisent HTTPS. Les sauvegardes
+          et journaux techniques servent à la continuité et à la sécurité du
+          service ; leur accès est réservé aux administrateurs habilités.
         </p>
       </QualityCard>
       <QualityCard title="Exercer vos droits">

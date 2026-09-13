@@ -1,0 +1,3542 @@
+{
+  "version": "2026-09-13",
+  "programmes": [
+    {
+      "slug": "mba-direction-strategie-croissance",
+      "kind": "MBA",
+      "title": "Direction générale, stratégie et croissance responsable",
+      "domain": "Leadership & stratégie",
+      "promise": "Passer des orientations du comité de direction à des décisions financées, mesurées et exécutables.",
+      "audience": "Responsables de business unit, cadres de direction et entrepreneurs.",
+      "caseStudy": "Une PME présente dans trois pays doit choisir entre développer son réseau commercial, moderniser son outil de production ou stabiliser sa trésorerie.",
+      "outcomes": [
+        "Construire trois scénarios stratégiques chiffrés",
+        "Arbitrer un portefeuille d’investissements sous contrainte",
+        "Organiser la délégation et la responsabilité managériale",
+        "Défendre une trajectoire de croissance avec des indicateurs vérifiables"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Choisir ses marchés et son modèle de croissance",
+          "topics": [
+            "Segmentation et demande solvable",
+            "Avantage concurrentiel et coûts de service",
+            "Scénarios pays et risques de concentration"
+          ],
+          "deliverable": "Une matrice d’attractivité de trois marchés assortie de critères d’arrêt."
+        },
+        {
+          "title": "Relier stratégie et trésorerie",
+          "topics": [
+            "Économie unitaire et seuil de rentabilité",
+            "Besoin en fonds de roulement",
+            "Scénarios de financement et sensibilité"
+          ],
+          "deliverable": "Un prévisionnel à 18 mois avec hypothèses documentées."
+        },
+        {
+          "title": "Organiser une entreprise qui exécute",
+          "topics": [
+            "Délégation et droits de décision",
+            "Interfaces entre fonctions",
+            "Rituels de pilotage et résolution des tensions"
+          ],
+          "deliverable": "Une carte des responsabilités et un protocole d’arbitrage."
+        },
+        {
+          "title": "Construire une croissance commerciale durable",
+          "topics": [
+            "Proposition de valeur par segment",
+            "Distribution et partenariats",
+            "Fidélisation et qualité de service"
+          ],
+          "deliverable": "Un plan de développement assorti de critères de rentabilité."
+        },
+        {
+          "title": "Piloter la performance et les risques",
+          "topics": [
+            "Indicateurs avancés et résultats",
+            "Signaux faibles et continuité",
+            "Responsabilité sociale et mesure des externalités"
+          ],
+          "deliverable": "Un tableau de bord de direction et ses seuils d’alerte."
+        },
+        {
+          "title": "Conduire une transformation transverse",
+          "topics": [
+            "Cartographie des résistances",
+            "Expérimentation et passage à l’échelle",
+            "Négociation avec les parties prenantes"
+          ],
+          "deliverable": "Une feuille de route à 100 jours avec budget et responsables."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Responsables de business unit, cadres de direction et entrepreneurs",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-transformation-digitale-ia",
+      "kind": "MBA",
+      "title": "Transformation digitale, IA et leadership du changement",
+      "domain": "Data, IA & numérique",
+      "promise": "Investir dans le numérique avec une méthode qui relie usages, adoption et résultats opérationnels.",
+      "audience": "Directions de transformation, DSI, responsables innovation et managers métier.",
+      "caseStudy": "Un groupe de services souhaite réduire les délais de traitement de ses demandes clients sans exclure les usagers peu connectés.",
+      "outcomes": [
+        "Prioriser les initiatives digitales selon leur valeur",
+        "Concevoir un service utilisable avec une connexion limitée",
+        "Évaluer un usage d’IA avant son déploiement",
+        "Mesurer l’adoption et les bénéfices après lancement"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Diagnostiquer la maturité numérique",
+          "topics": [
+            "Parcours client et irritants",
+            "Dette technique et dépendances",
+            "Capacités internes et trajectoire cible"
+          ],
+          "deliverable": "Un diagnostic argumenté et trois priorités de transformation."
+        },
+        {
+          "title": "Concevoir des services numériques inclusifs",
+          "topics": [
+            "Recherche utilisateur et parcours mobile",
+            "Accessibilité et faible bande passante",
+            "Prototypes et tests terrain"
+          ],
+          "deliverable": "Un prototype testable et un compte rendu de cinq tests utilisateurs."
+        },
+        {
+          "title": "Décider des usages de l’IA",
+          "topics": [
+            "Automatisation ou aide à la décision",
+            "Qualité des données et limites des modèles",
+            "Évaluation humaine, coûts et risques"
+          ],
+          "deliverable": "Une fiche de décision IA comprenant les conditions de non-déploiement."
+        },
+        {
+          "title": "Choisir une architecture et ses fournisseurs",
+          "topics": [
+            "Interopérabilité et API",
+            "Coût total et réversibilité",
+            "Contrats de service et protection des données"
+          ],
+          "deliverable": "Un dossier de consultation avec une grille comparative indépendante."
+        },
+        {
+          "title": "Transformer le modèle opérationnel",
+          "topics": [
+            "Gouvernance produit et financement",
+            "Organisation des équipes",
+            "Conduite du changement et montée en compétences"
+          ],
+          "deliverable": "Un modèle de fonctionnement cible et un plan d’accompagnement."
+        },
+        {
+          "title": "Mesurer la valeur créée",
+          "topics": [
+            "Base de référence et indicateurs d’usage",
+            "Expérimentation contrôlée",
+            "Bénéfices réalisés et effets indésirables"
+          ],
+          "deliverable": "Un protocole de mesure des gains et une revue de déploiement."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Directions de transformation, DSI, responsables innovation et managers métier",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-data-ia-cyber-resilience",
+      "kind": "MBA",
+      "title": "Data, intelligence artificielle et cyber-résilience",
+      "domain": "Data, IA & numérique",
+      "promise": "Relier une analyse fiable, un usage responsable de l’IA et la protection des activités critiques.",
+      "audience": "Managers data, responsables SI, chefs de projet analytique et responsables des risques numériques.",
+      "caseStudy": "Un distributeur veut prévoir ses ruptures de stock ; ses sources sont incomplètes et une indisponibilité du SI affecte plusieurs agences.",
+      "outcomes": [
+        "Auditer un jeu de données avant de l’exploiter",
+        "Comparer une solution simple à un modèle prédictif",
+        "Évaluer la sécurité d’un service data",
+        "Présenter des résultats avec leurs incertitudes"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Fiabiliser la chaîne de données",
+          "topics": [
+            "SQL et transformations traçables",
+            "Contrôles de qualité et dictionnaire",
+            "Droits d’accès et cycle de vie"
+          ],
+          "deliverable": "Un pipeline reproductible et son rapport de contrôles."
+        },
+        {
+          "title": "Analyser pour décider",
+          "topics": [
+            "Statistiques descriptives et biais",
+            "Visualisation et formulation des KPI",
+            "Incertitude et interprétation métier"
+          ],
+          "deliverable": "Un tableau de bord accompagné de ses limites d’interprétation."
+        },
+        {
+          "title": "Évaluer un modèle prédictif",
+          "topics": [
+            "Référence simple et séparation des jeux",
+            "Validation temporelle et fuite de données",
+            "Coût des erreurs et suivi de dérive"
+          ],
+          "deliverable": "Une comparaison de modèles avec décision de mise en service motivée."
+        },
+        {
+          "title": "Concevoir un usage d’IA générative",
+          "topics": [
+            "Recherche documentaire et réponses sourcées",
+            "Jeux d’évaluation et supervision humaine",
+            "Confidentialité, injections et maîtrise des coûts"
+          ],
+          "deliverable": "Un prototype sur corpus non sensible et une grille d’évaluation."
+        },
+        {
+          "title": "Renforcer la cyber-résilience",
+          "topics": [
+            "Inventaire des actifs et scénarios de risque",
+            "Moindre privilège et sauvegardes restaurables",
+            "Gestion d’incident en environnement autorisé"
+          ],
+          "deliverable": "Un exercice sur table et un plan de reprise priorisé."
+        },
+        {
+          "title": "Gouverner un portefeuille data et IA",
+          "topics": [
+            "Responsabilités et registre des usages",
+            "Arbitrage valeur-risque",
+            "Contrôle des fournisseurs et mesure de service"
+          ],
+          "deliverable": "Un comité de décision simulé avec dossier d’investissement."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Managers data, responsables SI, chefs de projet analytique et responsables des risques numériques",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-projets-programmes-agilite",
+      "kind": "MBA",
+      "title": "Direction de projets, programmes et agilité",
+      "domain": "Leadership & stratégie",
+      "promise": "Tenir les engagements d’un programme tout en adaptant sa trajectoire aux changements du terrain.",
+      "audience": "Chefs de projet, PMO, responsables de programme et sponsors métier.",
+      "caseStudy": "Le déploiement d’un service dans quatre pays accumule des dépendances, des retards fournisseurs et des demandes contradictoires.",
+      "outcomes": [
+        "Définir les résultats attendus d’un programme",
+        "Construire un planning intégrant les dépendances",
+        "Arbitrer les changements sur une base chiffrée",
+        "Mesurer les bénéfices après livraison"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Cadrer la valeur et les engagements",
+          "topics": [
+            "Problème métier et résultats attendus",
+            "Périmètre, exclusions et hypothèses",
+            "Parties prenantes et gouvernance"
+          ],
+          "deliverable": "Une charte de programme validable par un sponsor."
+        },
+        {
+          "title": "Planifier sous incertitude",
+          "topics": [
+            "Dépendances et chemin critique",
+            "Capacité des équipes et buffers",
+            "Prévisions glissantes"
+          ],
+          "deliverable": "Un planning argumenté avec scénarios de dérive."
+        },
+        {
+          "title": "Adapter les méthodes de réalisation",
+          "topics": [
+            "Approches prédictives, agiles et hybrides",
+            "Priorisation et petits lots",
+            "Qualité, démonstrations et critères d’acceptation"
+          ],
+          "deliverable": "Un mode de fonctionnement adapté au contexte, justifié par ses risques."
+        },
+        {
+          "title": "Piloter coûts, achats et contrats",
+          "topics": [
+            "Budget de référence et reste à faire",
+            "Risques fournisseurs",
+            "Décisions de changement et traçabilité"
+          ],
+          "deliverable": "Un dossier de décision présentant les impacts d’un avenant."
+        },
+        {
+          "title": "Fédérer des équipes distribuées",
+          "topics": [
+            "Négociation des priorités",
+            "Communication interculturelle",
+            "Gestion de conflit et escalade"
+          ],
+          "deliverable": "Un dispositif de coordination sur plusieurs fuseaux horaires."
+        },
+        {
+          "title": "Installer un PMO utile",
+          "topics": [
+            "Portefeuille et capacité",
+            "Fiabilité du reporting",
+            "Mesure des bénéfices et retour d’expérience"
+          ],
+          "deliverable": "Un tableau de portefeuille et une revue de clôture orientée bénéfices."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Chefs de projet, PMO, responsables de programme et sponsors métier",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-entrepreneuriat-ventures",
+      "kind": "MBA",
+      "title": "Entrepreneuriat, innovation et développement d’affaires",
+      "domain": "Leadership & stratégie",
+      "promise": "Transformer une opportunité en activité testée, rentable et capable de financer son développement.",
+      "audience": "Entrepreneurs, intrapreneurs, repreneurs et responsables du développement.",
+      "caseStudy": "Une équipe lance un service B2B régional et doit démontrer la demande avant d’investir dans une présence physique.",
+      "outcomes": [
+        "Tester une hypothèse de marché sans surinvestir",
+        "Calculer l’économie unitaire d’une offre",
+        "Négocier une stratégie de distribution",
+        "Défendre un dossier de financement transparent"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Identifier une demande réelle",
+          "topics": [
+            "Entretiens clients et problèmes prioritaires",
+            "Segmentation et concurrence indirecte",
+            "Tests de consentement à payer"
+          ],
+          "deliverable": "Un carnet d’hypothèses et les résultats d’une enquête terrain."
+        },
+        {
+          "title": "Construire et tester son offre",
+          "topics": [
+            "Proposition de valeur",
+            "Produit minimum et service pilote",
+            "Mesures d’adoption et critères d’abandon"
+          ],
+          "deliverable": "Un protocole de pilote et une décision de poursuite argumentée."
+        },
+        {
+          "title": "Maîtriser son modèle économique",
+          "topics": [
+            "Marge contributive et coûts d’acquisition",
+            "Trésorerie et délais de paiement",
+            "Scénarios de croissance"
+          ],
+          "deliverable": "Un modèle d’économie unitaire et un plan de trésorerie."
+        },
+        {
+          "title": "Développer les canaux de vente",
+          "topics": [
+            "Vente complexe et cycle B2B",
+            "Réseaux de partenaires",
+            "Fidélisation et développement de comptes"
+          ],
+          "deliverable": "Un plan commercial expérimental sur douze semaines."
+        },
+        {
+          "title": "Structurer la gouvernance du projet",
+          "topics": [
+            "Rôles des fondateurs et décision",
+            "Recrutements prioritaires",
+            "Risques contractuels à faire valider localement"
+          ],
+          "deliverable": "Une cartographie des engagements et des compétences à mobiliser."
+        },
+        {
+          "title": "Préparer le financement et le passage à l’échelle",
+          "topics": [
+            "Sources de financement et dilution",
+            "Preuves attendues par les financeurs",
+            "Capacité opérationnelle et expansion"
+          ],
+          "deliverable": "Un dossier investisseur avec besoins, hypothèses et risques explicites."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Entrepreneurs, intrapreneurs, repreneurs et responsables du développement",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-marketing-croissance-commerciale",
+      "kind": "MBA",
+      "title": "Marketing stratégique, croissance et expérience client",
+      "domain": "Leadership & stratégie",
+      "promise": "Construire une croissance commerciale mesurable, du choix des segments à la fidélisation.",
+      "audience": "Responsables marketing, directions commerciales, responsables relation client et entrepreneurs.",
+      "caseStudy": "Une marque régionale dispose de bons volumes de contacts mais d’une conversion faible et d’un coût de service élevé.",
+      "outcomes": [
+        "Choisir les segments rentables",
+        "Relier acquisition et marge",
+        "Organiser le suivi des opportunités",
+        "Améliorer l’expérience client sur des preuves terrain"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Comprendre le marché et les usages",
+          "topics": [
+            "Recherche terrain et segmentation",
+            "Offres concurrentes et substituts",
+            "Positionnement et preuve de valeur"
+          ],
+          "deliverable": "Un dossier de segmentation avec une proposition de valeur testée."
+        },
+        {
+          "title": "Concevoir l’offre et le prix",
+          "topics": [
+            "Architecture de gamme",
+            "Sensibilité au prix et marge",
+            "Distribution et coûts de service"
+          ],
+          "deliverable": "Une grille de prix et ses hypothèses de rentabilité."
+        },
+        {
+          "title": "Piloter l’acquisition multicanale",
+          "topics": [
+            "Parcours mobile et canaux locaux",
+            "Plan de contenu et expérimentation",
+            "Mesure de conversion et attribution"
+          ],
+          "deliverable": "Un plan de campagne avec budget, tests et règles d’arrêt."
+        },
+        {
+          "title": "Structurer la vente et les comptes clés",
+          "topics": [
+            "Qualification des opportunités",
+            "Négociation de valeur",
+            "Prévisions commerciales et discipline CRM"
+          ],
+          "deliverable": "Un pipeline qualifié et un plan de développement de compte."
+        },
+        {
+          "title": "Améliorer la relation client",
+          "topics": [
+            "Cartographie des irritants",
+            "Qualité de service et traitement des demandes",
+            "Rétention et valeur client"
+          ],
+          "deliverable": "Un plan d’amélioration du service avec indicateurs de résultat."
+        },
+        {
+          "title": "Exploiter les données commerciales",
+          "topics": [
+            "Cohortes et tableaux de bord",
+            "Biais des données de campagne",
+            "Automatisation supervisée et respect du consentement"
+          ],
+          "deliverable": "Une analyse de performance débouchant sur trois arbitrages chiffrés."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Responsables marketing, directions commerciales, responsables relation client et entrepreneurs",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-rh-talents-transformation",
+      "kind": "MBA",
+      "title": "Leadership RH, talents et transformation du travail",
+      "domain": "Leadership & stratégie",
+      "promise": "Aligner les compétences, l’organisation du travail et les objectifs de l’entreprise.",
+      "audience": "DRH, responsables RH, responsables développement des compétences et managers d’équipes.",
+      "caseStudy": "Une entreprise multi-sites connaît une rotation élevée sur ses métiers critiques et prépare une évolution de son organisation.",
+      "outcomes": [
+        "Diagnostiquer les écarts de compétences",
+        "Construire des décisions RH à partir de données fiables",
+        "Accompagner une transformation organisationnelle",
+        "Évaluer un plan de développement des talents"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Relier stratégie et compétences",
+          "topics": [
+            "Cartographie des emplois critiques",
+            "Écarts de compétences et scénarios",
+            "Planification des effectifs"
+          ],
+          "deliverable": "Une carte des risques de compétences et un plan de réponse."
+        },
+        {
+          "title": "Attirer et intégrer les talents",
+          "topics": [
+            "Critères de sélection et entretiens structurés",
+            "Expérience candidat et intégration",
+            "Équité et traçabilité des décisions"
+          ],
+          "deliverable": "Un dispositif de recrutement et d’intégration mesurable."
+        },
+        {
+          "title": "Développer les managers et les équipes",
+          "topics": [
+            "Feedback et objectifs de travail",
+            "Apprentissage en situation",
+            "Transmission des savoirs critiques"
+          ],
+          "deliverable": "Un parcours de développement assorti d’une mesure des acquis."
+        },
+        {
+          "title": "Concevoir des politiques RH soutenables",
+          "topics": [
+            "Rémunération et reconnaissance",
+            "Dialogue social et pratiques locales",
+            "Conditions de travail et prévention"
+          ],
+          "deliverable": "Une proposition RH chiffrée avec les validations locales requises."
+        },
+        {
+          "title": "Pratiquer une analytique RH responsable",
+          "topics": [
+            "Qualité et minimisation des données",
+            "Analyse de rotation et absentéisme",
+            "Limites des modèles et confidentialité"
+          ],
+          "deliverable": "Un tableau de bord RH avec notice d’usage et limites."
+        },
+        {
+          "title": "Accompagner les changements du travail",
+          "topics": [
+            "Diagnostic d’impact et consultation",
+            "Équipes hybrides et coopération",
+            "Adoption, charge et indicateurs sociaux"
+          ],
+          "deliverable": "Un plan de transition organisationnelle et de suivi social."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "DRH, responsables RH, responsables développement des compétences et managers d’équipes",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-supply-chain-resilience",
+      "kind": "MBA",
+      "title": "Supply chain, achats et opérations résilientes",
+      "domain": "Industrie & infrastructures",
+      "promise": "Sécuriser les flux, réduire les ruptures et arbitrer le coût de service dans un environnement incertain.",
+      "audience": "Responsables supply chain, achats, logistique, production et distribution.",
+      "caseStudy": "Un importateur dessert des agences intérieures avec des délais portuaires variables, des stocks déséquilibrés et une trésorerie contrainte.",
+      "outcomes": [
+        "Dimensionner des stocks selon le niveau de service",
+        "Comparer les scénarios de transport",
+        "Piloter un processus de prévision partagé",
+        "Construire un plan de continuité fournisseurs"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Cartographier le réseau et le coût de service",
+          "topics": [
+            "Flux physiques et flux d’information",
+            "Contraintes de transport et stockage",
+            "Coût complet par segment"
+          ],
+          "deliverable": "Une cartographie des flux avec trois points de fragilité quantifiés."
+        },
+        {
+          "title": "Planifier la demande et les capacités",
+          "topics": [
+            "Prévision et mesure des erreurs",
+            "Arbitrage demande-capacité",
+            "Processus S&OP et décisions transverses"
+          ],
+          "deliverable": "Une revue mensuelle de planification sur un jeu de données pédagogique."
+        },
+        {
+          "title": "Acheter et sécuriser les fournisseurs",
+          "topics": [
+            "Segmentation des achats",
+            "Coût total et dépendance",
+            "Négociation et évaluation des fournisseurs"
+          ],
+          "deliverable": "Une stratégie achat avec une solution de repli testable."
+        },
+        {
+          "title": "Optimiser les stocks et entrepôts",
+          "topics": [
+            "Stocks de sécurité et variabilité",
+            "Implantation et productivité",
+            "Traçabilité et inventaires"
+          ],
+          "deliverable": "Une politique de stock et une simulation de son impact financier."
+        },
+        {
+          "title": "Piloter les opérations transfrontalières",
+          "topics": [
+            "Scénarios de transport et délais",
+            "Documents et coordination douanière à vérifier localement",
+            "Risques de rupture et continuité"
+          ],
+          "deliverable": "Un plan de transport comparant coût, délai et robustesse."
+        },
+        {
+          "title": "Exploiter la donnée logistique",
+          "topics": [
+            "Fiabilité des événements et indicateurs",
+            "Tableaux de bord de service",
+            "Empreinte environnementale et amélioration continue"
+          ],
+          "deliverable": "Un tableau de bord et un plan d’amélioration à 90 jours."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Responsables supply chain, achats, logistique, production et distribution",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-industrie-innovation-performance",
+      "kind": "MBA",
+      "title": "Performance industrielle, innovation et industrie connectée",
+      "domain": "Industrie & infrastructures",
+      "promise": "Améliorer la performance d’un site industriel et décider des investissements technologiques utiles.",
+      "audience": "Directeurs d’usine, responsables production, méthodes, maintenance et innovation.",
+      "caseStudy": "Un site industriel veut augmenter sa capacité utile sans dégrader la sécurité ni multiplier les investissements non rentables.",
+      "outcomes": [
+        "Identifier le goulot d’un système de production",
+        "Construire un investissement industriel argumenté",
+        "Exploiter les données de maintenance",
+        "Organiser une amélioration continue durable"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Diagnostiquer le système de production",
+          "topics": [
+            "Flux et temps de traversée",
+            "Pertes et capacité utile",
+            "Coût de non-qualité"
+          ],
+          "deliverable": "Un diagnostic du goulot et une mesure de référence."
+        },
+        {
+          "title": "Améliorer les opérations",
+          "topics": [
+            "Résolution structurée de problème",
+            "Standards de travail et expérimentation",
+            "Pilotage visuel et management terrain"
+          ],
+          "deliverable": "Un chantier d’amélioration avec mesure avant/après."
+        },
+        {
+          "title": "Fiabiliser les équipements",
+          "topics": [
+            "Criticité et stratégie de maintenance",
+            "Données de panne et disponibilité",
+            "Pièces critiques et continuité"
+          ],
+          "deliverable": "Un plan de fiabilisation hiérarchisé selon les risques."
+        },
+        {
+          "title": "Évaluer les technologies industrielles",
+          "topics": [
+            "Capteurs et collecte fiable",
+            "Automatisation et supervision humaine",
+            "Interopérabilité et cybersécurité industrielle"
+          ],
+          "deliverable": "Un dossier de choix technologique incluant la réversibilité."
+        },
+        {
+          "title": "Investir dans une capacité soutenable",
+          "topics": [
+            "Coût complet et rentabilité",
+            "Énergie, ressources et rejets",
+            "Scénarios de demande et sensibilité"
+          ],
+          "deliverable": "Une comparaison d’investissements avec contraintes environnementales."
+        },
+        {
+          "title": "Manager les transformations industrielles",
+          "topics": [
+            "Compétences et organisation du travail",
+            "Dialogue entre fonctions",
+            "Déploiement multi-sites et capitalisation"
+          ],
+          "deliverable": "Une feuille de route de transformation industrielle."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Directeurs d’usine, responsables production, méthodes, maintenance et innovation",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-qhse-risques-durabilite",
+      "kind": "MBA",
+      "title": "QHSE, maîtrise des risques et performance durable",
+      "domain": "Industrie & infrastructures",
+      "promise": "Faire de la qualité, de la prévention et de l’environnement des pratiques observables au quotidien.",
+      "audience": "Responsables QHSE, responsables qualité, auditeurs internes et managers opérationnels.",
+      "caseStudy": "Un groupe multi-sites veut réduire ses incidents et fiabiliser ses engagements qualité avec des ressources limitées.",
+      "outcomes": [
+        "Prioriser les risques sur des faits",
+        "Construire un audit interne utile",
+        "Mesurer l’efficacité des actions correctives",
+        "Faire vivre un système de management intégré"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Relier processus et risques",
+          "topics": [
+            "Cartographie des processus",
+            "Parties prenantes et obligations locales",
+            "Criticité et hiérarchisation"
+          ],
+          "deliverable": "Une cartographie des risques avec des responsables nommés."
+        },
+        {
+          "title": "Renforcer la qualité opérationnelle",
+          "topics": [
+            "Non-conformités et causes racines",
+            "Mesures fiables et échantillonnage",
+            "Plans de maîtrise et preuves"
+          ],
+          "deliverable": "Un dossier de résolution de non-conformité et de prévention de récurrence."
+        },
+        {
+          "title": "Développer la prévention et la sécurité",
+          "topics": [
+            "Analyse des situations de travail",
+            "Barrières de prévention",
+            "Retour d’expérience et participation des équipes"
+          ],
+          "deliverable": "Un plan de prévention évalué par son efficacité réelle."
+        },
+        {
+          "title": "Gérer les enjeux environnementaux",
+          "topics": [
+            "Flux de matières et énergie",
+            "Impacts et priorités d’action",
+            "Indicateurs et qualité des données"
+          ],
+          "deliverable": "Un bilan opérationnel et une trajectoire d’amélioration mesurable."
+        },
+        {
+          "title": "Auditer et améliorer un système intégré",
+          "topics": [
+            "Programme d’audit fondé sur le risque",
+            "Entretien et collecte de preuves",
+            "Constats, actions et suivi"
+          ],
+          "deliverable": "Un rapport d’audit interne distinguant faits, risques et recommandations."
+        },
+        {
+          "title": "Installer une gouvernance durable",
+          "topics": [
+            "Revue de direction",
+            "Gestion des situations de crise",
+            "Culture de remontée des incidents"
+          ],
+          "deliverable": "Une revue de direction et un exercice de réponse à une crise."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Responsables QHSE, responsables qualité, auditeurs internes et managers opérationnels",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-infrastructures-genie-civil",
+      "kind": "MBA",
+      "title": "Direction des infrastructures et projets de génie civil",
+      "domain": "Industrie & infrastructures",
+      "promise": "Piloter un projet d’infrastructure du besoin initial à la mise en service, avec maîtrise des coûts et des risques.",
+      "audience": "Ingénieurs, responsables travaux, chefs de projet infrastructure et représentants de maîtrise d’ouvrage.",
+      "caseStudy": "Un projet d’équipement public doit concilier budget, financement, aléas de chantier et continuité des services aux habitants.",
+      "outcomes": [
+        "Structurer la gouvernance d’une opération complexe",
+        "Arbitrer coûts, délais et qualité",
+        "Organiser les interfaces de conception et chantier",
+        "Préparer une réception et un transfert exploitables"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Cadrer une opération d’infrastructure",
+          "topics": [
+            "Besoin d’usage et faisabilité",
+            "Parties prenantes et impacts",
+            "Études et autorisations à confirmer localement"
+          ],
+          "deliverable": "Une note de faisabilité avec critères de décision."
+        },
+        {
+          "title": "Financer et contractualiser le projet",
+          "topics": [
+            "Budget global et risques de dérive",
+            "Scénarios de financement",
+            "Allocation contractuelle des responsabilités"
+          ],
+          "deliverable": "Une matrice de risques contractuels et un budget de référence."
+        },
+        {
+          "title": "Coordonner la conception et les données",
+          "topics": [
+            "Interfaces techniques",
+            "Maquette numérique et gestion documentaire",
+            "Revues de conception et changements"
+          ],
+          "deliverable": "Un plan de coordination de conception et de gestion des versions."
+        },
+        {
+          "title": "Piloter le chantier",
+          "topics": [
+            "Planification et ressources",
+            "Avancement physique et prévisions",
+            "Gestion des modifications et réclamations"
+          ],
+          "deliverable": "Un tableau de pilotage de chantier avec prévision à terminaison."
+        },
+        {
+          "title": "Assurer qualité, sécurité et durabilité",
+          "topics": [
+            "Plans de contrôle et points d’arrêt",
+            "Risques chantier et coactivité",
+            "Maintenance future et impacts environnementaux"
+          ],
+          "deliverable": "Un plan de contrôle et de traitement des écarts."
+        },
+        {
+          "title": "Préparer la mise en service",
+          "topics": [
+            "Essais et réception",
+            "Dossier des ouvrages et formation de l’exploitant",
+            "Performance en exploitation"
+          ],
+          "deliverable": "Un dossier de transfert incluant les critères de disponibilité."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Ingénieurs, responsables travaux, chefs de projet infrastructure et représentants de maîtrise d’ouvrage",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-finance-investissement-risques",
+      "kind": "MBA",
+      "title": "Ingénierie financière, investissement et gestion des risques",
+      "domain": "Finance & gouvernance",
+      "promise": "Construire et challenger des décisions financières en explicitant les hypothèses, les limites et les risques.",
+      "audience": "Analystes financiers, responsables trésorerie, directions financières et contrôleurs de gestion.",
+      "caseStudy": "Une entreprise étudie une acquisition régionale financée par dette et doit tester sa capacité à absorber une baisse d’activité.",
+      "outcomes": [
+        "Construire un modèle financier auditable",
+        "Comparer plusieurs méthodes de valorisation",
+        "Tester la sensibilité d’un financement",
+        "Présenter les risques à un comité d’investissement"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Diagnostiquer la création de valeur",
+          "topics": [
+            "Lecture des états financiers",
+            "Flux de trésorerie et rentabilité",
+            "Retraitements et qualité du résultat"
+          ],
+          "deliverable": "Un diagnostic financier documentant ses hypothèses de retraitement."
+        },
+        {
+          "title": "Modéliser et valoriser une entreprise",
+          "topics": [
+            "Prévisions opérationnelles",
+            "Flux actualisés et comparables",
+            "Sensibilités et cohérence des hypothèses"
+          ],
+          "deliverable": "Un modèle de valorisation avec scénarios et contrôles croisés."
+        },
+        {
+          "title": "Structurer un financement",
+          "topics": [
+            "Dette, fonds propres et échéances",
+            "Covenants et capacité de service",
+            "Financement de projet et garanties"
+          ],
+          "deliverable": "Une comparaison de structures de financement et de leurs contraintes."
+        },
+        {
+          "title": "Comprendre les risques de marché",
+          "topics": [
+            "Taux, change et liquidité",
+            "Diversification et limites des modèles",
+            "Couverture et risques résiduels"
+          ],
+          "deliverable": "Une cartographie d’exposition et des scénarios de stress pédagogiques."
+        },
+        {
+          "title": "Organiser la décision d’investissement",
+          "topics": [
+            "Diligences et qualité des données",
+            "Gouvernance et conflits d’intérêts",
+            "Plan d’intégration et suivi des synergies"
+          ],
+          "deliverable": "Une note de comité d’investissement avec arguments contradictoires."
+        },
+        {
+          "title": "Exploiter les outils d’analyse financière",
+          "topics": [
+            "Traçabilité des calculs",
+            "Automatisation contrôlée des reportings",
+            "Présentation des incertitudes"
+          ],
+          "deliverable": "Un rapport financier reproductible et son dossier de contrôle."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Analystes financiers, responsables trésorerie, directions financières et contrôleurs de gestion",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-audit-controle-performance",
+      "kind": "MBA",
+      "title": "Audit, contrôle de gestion et fiabilité financière",
+      "domain": "Finance & gouvernance",
+      "promise": "Fiabiliser l’information financière et transformer le contrôle en décisions utiles pour l’organisation.",
+      "audience": "Auditeurs internes, contrôleurs de gestion, responsables comptables et responsables financiers.",
+      "caseStudy": "Une organisation multi-entités doit réduire ses délais de clôture et expliquer des écarts de marge non anticipés.",
+      "outcomes": [
+        "Évaluer la fiabilité d’un processus de clôture",
+        "Construire un audit fondé sur le risque",
+        "Expliquer des écarts de performance",
+        "Automatiser des contrôles sans perdre la traçabilité"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Sécuriser les cycles comptables",
+          "topics": [
+            "Pistes d’audit et rapprochements",
+            "Clôture et contrôles clés",
+            "Référentiels applicables selon les entités"
+          ],
+          "deliverable": "Un dossier de clôture avec contrôles et responsabilités."
+        },
+        {
+          "title": "Concevoir le contrôle interne",
+          "topics": [
+            "Risques de processus et séparation des tâches",
+            "Contrôles préventifs et détectifs",
+            "Suivi des anomalies"
+          ],
+          "deliverable": "Une matrice risques-contrôles et un test d’efficacité."
+        },
+        {
+          "title": "Mener une mission d’audit",
+          "topics": [
+            "Planification et échantillonnage",
+            "Collecte et qualification des preuves",
+            "Constats contradictoires et recommandations"
+          ],
+          "deliverable": "Un rapport d’audit interne fondé sur des éléments vérifiables."
+        },
+        {
+          "title": "Piloter coûts et budgets",
+          "topics": [
+            "Modèles de coûts",
+            "Prévisions et analyse des écarts",
+            "Dialogue de gestion"
+          ],
+          "deliverable": "Un tableau de performance et une note d’arbitrage budgétaire."
+        },
+        {
+          "title": "Consolider et communiquer la performance",
+          "topics": [
+            "Périmètre et comparabilité",
+            "Retraitements et documentation",
+            "Synthèse pour les décideurs"
+          ],
+          "deliverable": "Un dossier de reporting multi-entités et ses limites."
+        },
+        {
+          "title": "Pratiquer l’audit des données",
+          "topics": [
+            "Tests de cohérence et doublons",
+            "Automatisation des contrôles",
+            "Protection des données financières"
+          ],
+          "deliverable": "Un jeu de contrôles reproductibles et un plan de correction."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Auditeurs internes, contrôleurs de gestion, responsables comptables et responsables financiers",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-finances-publiques-redevabilite",
+      "kind": "MBA",
+      "title": "Finances publiques, audit et redevabilité",
+      "domain": "Finance & gouvernance",
+      "promise": "Relier l’allocation des ressources publiques à la qualité du service rendu et à la traçabilité des décisions.",
+      "audience": "Cadres publics, responsables budgétaires, inspecteurs, auditeurs et gestionnaires de programmes.",
+      "caseStudy": "Une collectivité doit prioriser des investissements, suivre leur exécution et rendre compte des écarts aux citoyens et aux financeurs.",
+      "outcomes": [
+        "Construire un budget fondé sur les résultats",
+        "Organiser une piste d’audit",
+        "Évaluer un programme public",
+        "Présenter les écarts et les mesures correctives"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Programmer les ressources publiques",
+          "topics": [
+            "Objectifs de politique publique",
+            "Cadre budgétaire et hypothèses",
+            "Priorisation des dépenses"
+          ],
+          "deliverable": "Une note de programmation avec objectifs et contraintes."
+        },
+        {
+          "title": "Piloter l’exécution budgétaire",
+          "topics": [
+            "Engagements et paiements",
+            "Suivi de trésorerie",
+            "Analyse des écarts et ajustements"
+          ],
+          "deliverable": "Un tableau de suivi de l’exécution et une revue des risques."
+        },
+        {
+          "title": "Sécuriser les achats publics",
+          "topics": [
+            "Définition du besoin",
+            "Traçabilité et prévention des conflits",
+            "Contrôles adaptés au cadre national"
+          ],
+          "deliverable": "Un dossier de préparation d’achat et une matrice de contrôle."
+        },
+        {
+          "title": "Auditer les programmes et les comptes",
+          "topics": [
+            "Approche fondée sur le risque",
+            "Preuves et contradiction",
+            "Suivi des recommandations"
+          ],
+          "deliverable": "Un programme d’audit et un rapport de constats étayés."
+        },
+        {
+          "title": "Évaluer la performance publique",
+          "topics": [
+            "Chaîne de résultats",
+            "Indicateurs d’accès et de qualité",
+            "Effets attendus, limites et attribution"
+          ],
+          "deliverable": "Un protocole d’évaluation distinguant réalisations et effets."
+        },
+        {
+          "title": "Renforcer la transparence financière",
+          "topics": [
+            "Qualité des données publiées",
+            "Communication budgétaire",
+            "Gouvernance et mécanismes d’alerte"
+          ],
+          "deliverable": "Une synthèse de redevabilité compréhensible et vérifiable."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Cadres publics, responsables budgétaires, inspecteurs, auditeurs et gestionnaires de programmes",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-sante-gouvernance-hospitaliere",
+      "kind": "MBA",
+      "title": "Gouvernance hospitalière et management des organisations de santé",
+      "domain": "Santé & impact social",
+      "promise": "Organiser des services de santé plus fiables en conciliant ressources, expérience des usagers et qualité des parcours.",
+      "audience": "Responsables d’établissements, cadres de santé et managers de structures sanitaires.",
+      "caseStudy": "Un établissement doit réduire les délais d’accueil, sécuriser ses approvisionnements et mieux coordonner ses services.",
+      "outcomes": [
+        "Diagnostiquer un parcours de prise en charge du point de vue organisationnel",
+        "Construire un budget par activité",
+        "Organiser la qualité et le traitement des incidents",
+        "Définir des indicateurs adaptés aux services de santé"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Comprendre le système et ses acteurs",
+          "topics": [
+            "Gouvernance et missions des établissements",
+            "Parcours des usagers",
+            "Contraintes territoriales et ressources"
+          ],
+          "deliverable": "Un diagnostic organisationnel d’un parcours de service."
+        },
+        {
+          "title": "Piloter les ressources et les coûts",
+          "topics": [
+            "Comptabilité analytique et capacités",
+            "Planification des équipes",
+            "Achats et approvisionnements"
+          ],
+          "deliverable": "Un modèle de coûts et un plan d’allocation des ressources."
+        },
+        {
+          "title": "Améliorer les flux et la coordination",
+          "topics": [
+            "Délais, files d’attente et interfaces",
+            "Continuité des services",
+            "Coordination entre fonctions"
+          ],
+          "deliverable": "Un projet d’amélioration d’un parcours avec mesure de référence."
+        },
+        {
+          "title": "Organiser qualité et sécurité",
+          "topics": [
+            "Gestion des événements indésirables",
+            "Culture de retour d’expérience",
+            "Indicateurs de qualité et actions correctives"
+          ],
+          "deliverable": "Un dispositif de remontée et d’analyse des incidents organisationnels."
+        },
+        {
+          "title": "Gouverner le numérique en santé",
+          "topics": [
+            "Qualité et accès aux données",
+            "Confidentialité et interopérabilité",
+            "Évaluation des outils numériques"
+          ],
+          "deliverable": "Un dossier de décision pour un projet numérique de santé."
+        },
+        {
+          "title": "Conduire une transformation d’établissement",
+          "topics": [
+            "Dialogue avec les professionnels",
+            "Communication aux usagers",
+            "Pilotage des engagements et continuité"
+          ],
+          "deliverable": "Une feuille de route de transformation concertée."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Responsables d’établissements, cadres de santé et managers de structures sanitaires",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-sante-publique-systemes-impact",
+      "kind": "MBA",
+      "title": "Santé publique, pilotage des systèmes et impact territorial",
+      "domain": "Santé & impact social",
+      "promise": "Concevoir, coordonner et évaluer des programmes de santé à partir de données et de besoins territoriaux.",
+      "audience": "Responsables de programmes de santé, cadres institutionnels et responsables d’ONG spécialisées.",
+      "caseStudy": "Un programme territorial veut améliorer l’accès à un service de prévention et comprendre les écarts entre zones urbaines et rurales.",
+      "outcomes": [
+        "Analyser des besoins de santé à l’échelle d’un territoire",
+        "Concevoir une chaîne de résultats",
+        "Évaluer la qualité des données",
+        "Organiser une évaluation respectueuse des personnes"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Diagnostiquer les besoins territoriaux",
+          "topics": [
+            "Déterminants sociaux et accès",
+            "Sources de données et qualité",
+            "Participation des communautés"
+          ],
+          "deliverable": "Un diagnostic territorial documentant les données manquantes."
+        },
+        {
+          "title": "Interpréter les données de santé",
+          "topics": [
+            "Indicateurs de fréquence et dénominateurs",
+            "Biais de sélection et confusion",
+            "Lecture critique des études"
+          ],
+          "deliverable": "Une note d’analyse explicitant ce que les données permettent de conclure."
+        },
+        {
+          "title": "Concevoir un programme de prévention",
+          "topics": [
+            "Théorie du changement",
+            "Objectifs et publics prioritaires",
+            "Co-conception et acceptabilité"
+          ],
+          "deliverable": "Un cadre logique et un protocole de participation."
+        },
+        {
+          "title": "Planifier les ressources et financements",
+          "topics": [
+            "Coûts de programme",
+            "Arbitrages d’allocation",
+            "Pérennité et contraintes opérationnelles"
+          ],
+          "deliverable": "Un budget d’intervention avec hypothèses de couverture."
+        },
+        {
+          "title": "Organiser suivi et évaluation",
+          "topics": [
+            "Indicateurs et collecte proportionnée",
+            "Évaluation de mise en œuvre",
+            "Éthique, consentement et confidentialité"
+          ],
+          "deliverable": "Un plan de suivi-évaluation avec des critères de qualité des données."
+        },
+        {
+          "title": "Coordonner une action multi-acteurs",
+          "topics": [
+            "Gouvernance territoriale",
+            "Communication des résultats",
+            "Gestion d’incertitude et adaptation"
+          ],
+          "deliverable": "Un dispositif de coordination et une note de décision publique."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Responsables de programmes de santé, cadres institutionnels et responsables d’ONG spécialisées",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-pharma-biotechnologies-strategie",
+      "kind": "MBA",
+      "title": "Stratégie pharmaceutique, innovation et accès aux marchés",
+      "domain": "Santé & impact social",
+      "promise": "Piloter des activités pharmaceutiques en articulant qualité, innovation, opérations et accès aux marchés.",
+      "audience": "Cadres de l’industrie pharmaceutique, responsables opérations, projets, qualité et développement.",
+      "caseStudy": "Une entreprise prépare le lancement régional d’une offre et doit articuler disponibilité, exigences qualité et conditions d’accès.",
+      "outcomes": [
+        "Analyser la chaîne de valeur pharmaceutique",
+        "Construire un dossier de lancement",
+        "Anticiper les risques de qualité et de disponibilité",
+        "Coordonner les fonctions scientifiques, industrielles et commerciales"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Analyser l’écosystème et le portefeuille",
+          "topics": [
+            "Chaîne de valeur et acteurs",
+            "Besoins des marchés et accès",
+            "Arbitrages de portefeuille"
+          ],
+          "deliverable": "Une analyse de positionnement assortie de risques et d’hypothèses."
+        },
+        {
+          "title": "Piloter l’innovation et les projets",
+          "topics": [
+            "Étapes de développement",
+            "Décisions de poursuite et critères",
+            "Partenariats et valorisation"
+          ],
+          "deliverable": "Un dossier de revue de projet avec scénarios d’arrêt."
+        },
+        {
+          "title": "Organiser la qualité et les responsabilités",
+          "topics": [
+            "Documentation et traçabilité",
+            "Interfaces avec les fonctions réglementaires",
+            "Gestion des écarts et vigilance organisationnelle"
+          ],
+          "deliverable": "Une carte des responsabilités et des preuves attendues."
+        },
+        {
+          "title": "Sécuriser production et distribution",
+          "topics": [
+            "Planification et capacités",
+            "Chaîne du froid et traçabilité",
+            "Gestion des ruptures"
+          ],
+          "deliverable": "Un plan de continuité opérationnelle sur un cas pédagogique."
+        },
+        {
+          "title": "Préparer l’accès et le développement commercial",
+          "topics": [
+            "Analyse des parties prenantes",
+            "Stratégie de lancement responsable",
+            "Cadres locaux à vérifier avant promotion"
+          ],
+          "deliverable": "Un plan d’accès au marché avec validations et responsabilités explicites."
+        },
+        {
+          "title": "Mesurer la performance et les risques",
+          "topics": [
+            "Indicateurs qualité, service et rentabilité",
+            "Gouvernance des données",
+            "Retours terrain et amélioration"
+          ],
+          "deliverable": "Un tableau de pilotage d’activité et une revue des risques."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Cadres de l’industrie pharmaceutique, responsables opérations, projets, qualité et développement",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-ong-humanitaire-impact",
+      "kind": "MBA",
+      "title": "Leadership humanitaire, ONG et programmes à impact",
+      "domain": "Santé & impact social",
+      "promise": "Concevoir et piloter des interventions utiles, redevables et adaptées aux communautés concernées.",
+      "audience": "Responsables d’ONG, coordinateurs de programmes, responsables de suivi-évaluation et chefs de mission.",
+      "caseStudy": "Une ONG prépare un programme multi-pays avec un financement limité, plusieurs partenaires locaux et une obligation de redevabilité.",
+      "outcomes": [
+        "Construire un programme fondé sur les besoins",
+        "Organiser une gestion transparente des ressources",
+        "Mesurer des résultats sans surestimer l’impact",
+        "Coordonner partenaires et mécanismes de retour des communautés"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Analyser les besoins et le contexte",
+          "topics": [
+            "Écoute des communautés",
+            "Acteurs, vulnérabilités et capacités",
+            "Risques de préjudice et acceptabilité"
+          ],
+          "deliverable": "Une analyse de contexte avec une consultation documentée."
+        },
+        {
+          "title": "Concevoir un programme cohérent",
+          "topics": [
+            "Théorie du changement",
+            "Cadre logique et hypothèses",
+            "Participation et critères de sortie"
+          ],
+          "deliverable": "Un dossier de programme avec résultats attendus et limites."
+        },
+        {
+          "title": "Mobiliser et gérer les financements",
+          "topics": [
+            "Budget et coûts indirects",
+            "Exigences des bailleurs",
+            "Traçabilité des dépenses et reporting"
+          ],
+          "deliverable": "Un budget argumenté et une matrice des obligations de reporting."
+        },
+        {
+          "title": "Organiser les opérations et la sécurité",
+          "topics": [
+            "Logistique et achats",
+            "Continuité et gestion des incidents",
+            "Devoir de protection et responsabilité"
+          ],
+          "deliverable": "Un plan opérationnel avec seuils d’escalade."
+        },
+        {
+          "title": "Suivre, évaluer et apprendre",
+          "topics": [
+            "Indicateurs et qualité des données",
+            "Évaluation participative",
+            "Interprétation prudente des effets"
+          ],
+          "deliverable": "Un plan de suivi-évaluation-apprentissage et un rapport de résultats."
+        },
+        {
+          "title": "Diriger des partenariats responsables",
+          "topics": [
+            "Gouvernance et partage des décisions",
+            "Mécanismes de plainte",
+            "Passation et pérennisation"
+          ],
+          "deliverable": "Une convention opérationnelle et un dispositif de redevabilité."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Responsables d’ONG, coordinateurs de programmes, responsables de suivi-évaluation et chefs de mission",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-diplomatie-economique-cooperation",
+      "kind": "MBA",
+      "title": "Diplomatie économique, coopération et stratégies internationales",
+      "domain": "Finance & gouvernance",
+      "promise": "Construire des coopérations internationales en maîtrisant les intérêts, les risques et les conditions d’exécution.",
+      "audience": "Cadres institutionnels, responsables coopération, développement international et affaires publiques.",
+      "caseStudy": "Une organisation prépare un partenariat transfrontalier impliquant une institution publique, un investisseur et des entreprises locales.",
+      "outcomes": [
+        "Analyser les intérêts des parties prenantes",
+        "Préparer une négociation interculturelle",
+        "Évaluer les risques d’un partenariat",
+        "Construire une stratégie de coopération suivie dans le temps"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Lire un environnement international",
+          "topics": [
+            "Sources et fiabilité de la veille",
+            "Scénarios économiques et géopolitiques",
+            "Cartographie des acteurs"
+          ],
+          "deliverable": "Une note pays distinguant faits, hypothèses et scénarios."
+        },
+        {
+          "title": "Structurer une stratégie d’influence",
+          "topics": [
+            "Objectifs et messages",
+            "Cartographie des intérêts",
+            "Éthique et transparence des interactions"
+          ],
+          "deliverable": "Un plan d’engagement des parties prenantes."
+        },
+        {
+          "title": "Négocier des accords complexes",
+          "topics": [
+            "Mandat, options et lignes rouges",
+            "Négociation interculturelle",
+            "Traçabilité des engagements"
+          ],
+          "deliverable": "Une simulation de négociation et son journal de concessions."
+        },
+        {
+          "title": "Développer le commerce et l’investissement",
+          "topics": [
+            "Modèles d’implantation",
+            "Risques de change et contrepartie",
+            "Conditions d’exécution et partenaires"
+          ],
+          "deliverable": "Un dossier d’opportunité avec scénario de retrait."
+        },
+        {
+          "title": "Piloter les coopérations",
+          "topics": [
+            "Gouvernance des partenariats",
+            "Financement et responsabilités",
+            "Indicateurs de résultats partagés"
+          ],
+          "deliverable": "Une feuille de route de coopération avec mécanismes de revue."
+        },
+        {
+          "title": "Gérer les crises et la réputation",
+          "topics": [
+            "Signaux faibles",
+            "Coordination et communication",
+            "Continuité des engagements"
+          ],
+          "deliverable": "Un exercice sur table et une note de gestion de crise."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Cadres institutionnels, responsables coopération, développement international et affaires publiques",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-sport-business-evenements",
+      "kind": "MBA",
+      "title": "Sport business, marketing et grands événements",
+      "domain": "Sport & organisations",
+      "promise": "Développer des activités sportives économiquement solides et organiser des événements maîtrisés.",
+      "audience": "Responsables de clubs, promoteurs d’événements, responsables marketing sportif et gestionnaires d’équipements.",
+      "caseStudy": "Un organisateur prépare un événement régional et doit équilibrer recettes, expérience des publics, sécurité et héritage local.",
+      "outcomes": [
+        "Construire le modèle économique d’une activité sportive",
+        "Concevoir une offre de partenariat mesurable",
+        "Piloter la préparation d’un événement",
+        "Évaluer ses effets économiques et sociaux"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Comprendre l’économie du sport",
+          "topics": [
+            "Modèles de revenus et coûts",
+            "Écosystème local et publics",
+            "Dépendance aux financeurs"
+          ],
+          "deliverable": "Un diagnostic économique d’une organisation sportive."
+        },
+        {
+          "title": "Construire une marque et son audience",
+          "topics": [
+            "Positionnement et communautés",
+            "Parcours des spectateurs",
+            "Contenus et canaux de distribution"
+          ],
+          "deliverable": "Un plan de développement d’audience et ses indicateurs."
+        },
+        {
+          "title": "Développer les partenariats commerciaux",
+          "topics": [
+            "Inventaire des actifs",
+            "Proposition de valeur sponsor",
+            "Mesure des engagements et des retombées"
+          ],
+          "deliverable": "Un dossier de partenariat avec une grille de mesure."
+        },
+        {
+          "title": "Produire un événement maîtrisé",
+          "topics": [
+            "Budget et planification",
+            "Prestataires et logistique",
+            "Sécurité, accessibilité et gestion de crise"
+          ],
+          "deliverable": "Un dossier opérationnel avec responsabilités et points d’arrêt."
+        },
+        {
+          "title": "Piloter équipements et services",
+          "topics": [
+            "Programmation et capacité",
+            "Qualité d’accueil",
+            "Maintenance et coûts d’exploitation"
+          ],
+          "deliverable": "Un plan d’exploitation et un budget de fonctionnement."
+        },
+        {
+          "title": "Mesurer l’héritage et la performance",
+          "topics": [
+            "Bilan économique",
+            "Effets sociaux et environnementaux",
+            "Données, limites et retour d’expérience"
+          ],
+          "deliverable": "Un bilan d’événement distinguant résultats mesurés et effets supposés."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Responsables de clubs, promoteurs d’événements, responsables marketing sportif et gestionnaires d’équipements",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "mba-sport-gouvernance-integrite",
+      "kind": "MBA",
+      "title": "Gouvernance sportive, intégrité et développement des institutions",
+      "domain": "Sport & organisations",
+      "promise": "Renforcer la gouvernance d’une fédération, d’un club ou d’une ligue et sécuriser ses engagements.",
+      "audience": "Dirigeants de fédérations, ligues, associations et institutions sportives.",
+      "caseStudy": "Une fédération doit réviser sa gouvernance, fiabiliser son financement et mieux répondre aux attentes de ses membres.",
+      "outcomes": [
+        "Clarifier les pouvoirs et responsabilités",
+        "Construire une politique d’intégrité",
+        "Organiser un financement transparent",
+        "Piloter un plan de développement institutionnel"
+      ],
+      "months": "12 mois",
+      "pace": "6 à 8 h par semaine",
+      "admission": "Bac+3 et 3 ans d’expérience, ou Bac+5 et 1 an d’expérience. Les parcours atypiques sont étudiés sur dossier et entretien, sans équivalence automatique.",
+      "modules": [
+        {
+          "title": "Diagnostic, décision et pensée critique",
+          "topics": [
+            "Formulation d’un problème observable",
+            "Qualité des sources et biais de raisonnement",
+            "Hypothèses, alternatives et décision sous incertitude"
+          ],
+          "deliverable": "Une note de diagnostic de 4 pages distinguant observations, hypothèses et recommandations."
+        },
+        {
+          "title": "Leadership, coopération et négociation",
+          "topics": [
+            "Écoute, feedback et conflit",
+            "Responsabilités dans une équipe distribuée",
+            "Négociation des engagements et coopération interculturelle"
+          ],
+          "deliverable": "Une simulation de négociation analysée et un plan de progrès individuel."
+        },
+        {
+          "title": "Données, IA responsable et mesure de valeur",
+          "topics": [
+            "Choix d’indicateurs et qualité des données",
+            "Usage supervisé de l’IA et confidentialité",
+            "Mesure des résultats et effets indésirables"
+          ],
+          "deliverable": "Un tableau de décision avec sources, limites, risques et conditions de mise à jour."
+        },
+        {
+          "title": "Diagnostiquer la gouvernance sportive",
+          "topics": [
+            "Statuts et pratiques de décision",
+            "Représentation des membres",
+            "Responsabilités et transparence"
+          ],
+          "deliverable": "Une carte de gouvernance et des écarts à traiter."
+        },
+        {
+          "title": "Organiser l’intégrité et la prévention",
+          "topics": [
+            "Conflits d’intérêts",
+            "Protection des participants",
+            "Signalements et traitement équitable"
+          ],
+          "deliverable": "Une politique d’intégrité avec circuit de signalement."
+        },
+        {
+          "title": "Sécuriser la gestion financière",
+          "topics": [
+            "Budget et délégations",
+            "Contrôle interne",
+            "Redevabilité aux membres et financeurs"
+          ],
+          "deliverable": "Un dispositif de contrôle financier adapté à l’institution."
+        },
+        {
+          "title": "Développer les structures et les talents",
+          "topics": [
+            "Développement territorial",
+            "Accompagnement des clubs",
+            "Formation des encadrants et bénévoles"
+          ],
+          "deliverable": "Un plan de développement avec priorités et critères d’équité."
+        },
+        {
+          "title": "Négocier les relations institutionnelles",
+          "topics": [
+            "Relations avec les acteurs publics",
+            "Partenariats et responsabilités",
+            "Communication de crise"
+          ],
+          "deliverable": "Une stratégie partenariale assortie d’engagements mesurables."
+        },
+        {
+          "title": "Piloter la réforme et ses résultats",
+          "topics": [
+            "Consultation des membres",
+            "Feuille de route et ressources",
+            "Mesure de confiance et qualité de service"
+          ],
+          "deliverable": "Un plan de réforme institutionnelle et une revue annuelle."
+        },
+        {
+          "title": "Projet de transformation et soutenance professionnelle",
+          "topics": [
+            "Diagnostic sur un terrain autorisé",
+            "Scénarios, expérimentation et mesure des effets",
+            "Mémoire professionnel, limites et défense contradictoire"
+          ],
+          "deliverable": "Un mémoire professionnel, un dossier de preuves et une soutenance centrée sur la décision."
+        }
+      ],
+      "capstone": "À partir du cas proposé ou d’un terrain professionnel autorisé, produire un diagnostic, comparer au moins deux scénarios, tester une action et défendre les résultats, les coûts et les limites devant un jury pédagogique.",
+      "assessment": "Études de cas individuelles 40 %, projet appliqué 40 %, soutenance 20 %. Objectif de validation : 70/100 au total et chaque livrable obligatoire remis. Reprise ciblée après retour pédagogique en cas de non-validation.",
+      "jobs": [
+        "Dirigeants de fédérations, ligues, associations et institutions sportives",
+        "Pilotage de projets transverses dans le domaine du parcours.",
+        "Conseil et accompagnement, selon l’expérience préalable et les exigences du métier."
+      ]
+    },
+    {
+      "slug": "dba-leadership-systemes-sante",
+      "kind": "DBA",
+      "title": "Leadership et transformation des systèmes de santé",
+      "domain": "Santé & impact social",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Comment une nouvelle coordination territoriale influence-t-elle l’accès aux services et la continuité des parcours ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Entretiens multi-acteurs",
+        "Analyse de parcours",
+        "Évaluation de mise en œuvre"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Comment une nouvelle coordination territoriale influence-t-elle l’accès aux services et la continuité des parcours ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-gouvernance-etablissements-sante",
+      "kind": "DBA",
+      "title": "Gouvernance et performance des établissements de santé",
+      "domain": "Santé & impact social",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Dans quelles conditions une gouvernance clinique et administrative partagée améliore-t-elle la fiabilité organisationnelle ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Étude de cas longitudinale",
+        "Indicateurs de processus",
+        "Analyse des mécanismes de coordination"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Dans quelles conditions une gouvernance clinique et administrative partagée améliore-t-elle la fiabilité organisationnelle ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-sante-publique-equite",
+      "kind": "DBA",
+      "title": "Politiques de santé publique, équité et évaluation",
+      "domain": "Santé & impact social",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Quels mécanismes expliquent les écarts territoriaux d’accès à un programme de prévention ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Méthodes mixtes",
+        "Analyse d’équité",
+        "Évaluation fondée sur la théorie du changement"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Quels mécanismes expliquent les écarts territoriaux d’accès à un programme de prévention ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-entrepreneuriat-ecosystemes",
+      "kind": "DBA",
+      "title": "Entrepreneuriat, écosystèmes et croissance des entreprises",
+      "domain": "Leadership & stratégie",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Comment les réseaux d’accompagnement influencent-ils les décisions de croissance des PME ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Études de cas comparées",
+        "Entretiens entrepreneuriaux",
+        "Analyse de trajectoires"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Comment les réseaux d’accompagnement influencent-ils les décisions de croissance des PME ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-capital-humain-organisations",
+      "kind": "DBA",
+      "title": "Capital humain, ressources et transformation des organisations",
+      "domain": "Leadership & stratégie",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Comment une politique de développement des compétences se traduit-elle en nouvelles pratiques de travail ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Recherche-intervention",
+        "Enquête organisationnelle",
+        "Analyse de processus"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Comment une politique de développement des compétences se traduit-elle en nouvelles pratiques de travail ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-innovation-technologies",
+      "kind": "DBA",
+      "title": "Innovation, IA et transformation stratégique",
+      "domain": "Data, IA & numérique",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Quelles conditions de gouvernance permettent à une initiative d’IA de produire des résultats durables ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Étude longitudinale",
+        "Évaluation des usages",
+        "Analyse des capacités organisationnelles"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Quelles conditions de gouvernance permettent à une initiative d’IA de produire des résultats durables ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-finance-investissement",
+      "kind": "DBA",
+      "title": "Finance, investissement et résilience économique",
+      "domain": "Finance & gouvernance",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Comment les contraintes de financement modifient-elles les décisions d’investissement des entreprises régionales ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Analyse de panel selon les données accessibles",
+        "Entretiens financiers",
+        "Tests de sensibilité"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Comment les contraintes de financement modifient-elles les décisions d’investissement des entreprises régionales ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-gouvernance-financiere",
+      "kind": "DBA",
+      "title": "Gouvernance financière et performance des organisations",
+      "domain": "Finance & gouvernance",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Quels mécanismes relient le contrôle interne à la qualité des décisions budgétaires ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Études de cas comparées",
+        "Analyse documentaire",
+        "Enquête auprès des décideurs"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Quels mécanismes relient le contrôle interne à la qualité des décisions budgétaires ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-infrastructures-durables",
+      "kind": "DBA",
+      "title": "Gouvernance des infrastructures et projets durables",
+      "domain": "Industrie & infrastructures",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Comment l’allocation des responsabilités influence-t-elle les dérives de coûts d’un programme d’infrastructure ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Étude de projets comparés",
+        "Analyse des décisions",
+        "Traçage de processus"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Comment l’allocation des responsabilités influence-t-elle les dérives de coûts d’un programme d’infrastructure ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    },
+    {
+      "slug": "dba-systemes-information",
+      "kind": "DBA",
+      "title": "Systèmes d’information, données et gouvernance numérique",
+      "domain": "Data, IA & numérique",
+      "promise": "Transformer une question professionnelle complexe en recherche rigoureuse et en recommandations étayées.",
+      "audience": "Dirigeants, cadres expérimentés, consultants et responsables de transformation disposant d’un terrain de recherche.",
+      "caseStudy": "Comment l’interopérabilité des systèmes modifie-t-elle la coordination entre organisations ?",
+      "outcomes": [
+        "Formuler une question de recherche précise et réalisable.",
+        "Construire un protocole justifié, éthique et traçable.",
+        "Analyser les résultats et confronter les explications alternatives.",
+        "Défendre une contribution utile en explicitant ses limites."
+      ],
+      "modules": [
+        {
+          "title": "Problématique et ancrage dans le terrain",
+          "topics": [
+            "Question de gestion et enjeu professionnel",
+            "Accès au terrain et faisabilité",
+            "Position du praticien-chercheur"
+          ],
+          "deliverable": "Une note de recherche de 5 à 8 pages avec question, périmètre et faisabilité."
+        },
+        {
+          "title": "Revue critique et cadre conceptuel",
+          "topics": [
+            "Stratégie de recherche bibliographique",
+            "Lecture critique et matrice de synthèse",
+            "Concepts, mécanismes et propositions"
+          ],
+          "deliverable": "Une revue structurée, une bibliographie traçable et un cadre conceptuel."
+        },
+        {
+          "title": "Méthodologie, intégrité et protocole",
+          "topics": [
+            "Choix qualitatif, quantitatif ou mixte",
+            "Échantillonnage et limites",
+            "Consentement, confidentialité, intégrité et usage déclaré de l’IA"
+          ],
+          "deliverable": "Un protocole de recherche soumis à validation avant toute collecte."
+        },
+        {
+          "title": "Étude pilote et qualité des instruments",
+          "topics": [
+            "Guide d’entretien ou questionnaire",
+            "Test pilote et ajustements",
+            "Journal de recherche et maîtrise des biais"
+          ],
+          "deliverable": "Un rapport de pilote et une version justifiée des instruments."
+        },
+        {
+          "title": "Collecte, analyse et confrontation",
+          "topics": [
+            "Gestion sécurisée des matériaux",
+            "Codage ou analyse statistique reproductible",
+            "Recherche d’explications alternatives"
+          ],
+          "deliverable": "Un dossier d’analyse traçable distinguant données, interprétations et limites."
+        },
+        {
+          "title": "Contribution scientifique et utilité professionnelle",
+          "topics": [
+            "Discussion avec la littérature",
+            "Portée et transférabilité des résultats",
+            "Recommandations proportionnées aux preuves"
+          ],
+          "deliverable": "Un chapitre de discussion et une note de recommandations pour le terrain."
+        },
+        {
+          "title": "Rédaction, séminaire et diffusion",
+          "topics": [
+            "Structure du manuscrit",
+            "Citations et prévention du plagiat",
+            "Communication scientifique et choix des supports"
+          ],
+          "deliverable": "Un manuscrit complet et une communication scientifique ; aucune publication externe garantie."
+        },
+        {
+          "title": "Pré-soutenance, corrections et soutenance",
+          "topics": [
+            "Relecture contradictoire",
+            "Traitement documenté des corrections",
+            "Défense des choix et archivage"
+          ],
+          "deliverable": "Un mémoire de recherche final, un journal de corrections et une soutenance pédagogique."
+        }
+      ],
+      "methods": [
+        "Étude de cas multi-sites",
+        "Analyse des interfaces",
+        "Évaluation de transformation numérique"
+      ],
+      "months": "24 à 36 mois",
+      "pace": "8 à 12 h par semaine",
+      "admission": "Master, MBA ou formation de niveau Bac+5 à examiner, avec au moins 5 ans d’expérience professionnelle, projet de recherche et entretien. L’admission relève d’une étude individuelle du dossier.",
+      "capstone": "Comment l’interopérabilité des systèmes modifie-t-elle la coordination entre organisations ? Le sujet définitif et la méthode sont arrêtés après examen de l’accès au terrain, des enjeux éthiques et de la faisabilité.",
+      "assessment": "Huit jalons de recherche obligatoires, retours écrits et corrections. Le protocole doit être validé avant la collecte ; le manuscrit et la pré-soutenance doivent être validés avant la soutenance finale. Les modalités du titre visé sont communiquées par écrit avant tout engagement.",
+      "jobs": [
+        "Expertise et conseil fondés sur la recherche.",
+        "Direction de transformations complexes.",
+        "Recherche appliquée au sein d’organisations, selon les prérequis du poste."
+      ]
+    }
+  ],
+  "credentialNote": "Beyond Expertise propose des parcours de formation professionnelle. Le statut du titre visé, son organisme émetteur et les conditions de délivrance sont précisés par écrit avant toute inscription contractuelle. Cette présentation ne revendique ni diplôme national, ni grade universitaire, ni inscription au RNCP, ni crédits ECTS.",
+  "launchNote": "Candidatures et demandes d’information ouvertes. Calendrier, équipe pédagogique, tarif et modalités définitives sont confirmés pour chaque cohorte avant engagement.",
+  "services": [
+    {
+      "slug": "conseil-strategie",
+      "title": "Conseil stratégique et études de décision",
+      "body": "Diagnostic d’activité, analyse de marché, scénarios de développement et étude de faisabilité. Une mission commence par une question de décision, des sources identifiées et un périmètre convenu.",
+      "deliverable": "Note de diagnostic, scénarios chiffrés et feuille de route priorisée."
+    },
+    {
+      "slug": "transformation-operations",
+      "title": "Transformation des organisations et des opérations",
+      "body": "Organisation, processus, gestion de projet, outils de pilotage et conduite du changement. Les équipes construisent et testent les améliorations sur un périmètre pilote.",
+      "deliverable": "Processus cible, responsabilités, indicateurs et plan de déploiement."
+    },
+    {
+      "slug": "direction-temps-partage",
+      "title": "Direction de mission et expertise à temps partagé",
+      "body": "Appui ponctuel au pilotage financier, aux projets, à la transformation ou aux opérations. Durée, disponibilité, délégation et limites de responsabilité sont définies dans la mission.",
+      "deliverable": "Lettre de mission, revues de décision et transmission aux équipes."
+    },
+    {
+      "slug": "academies-entreprise",
+      "title": "Académies d’entreprise et cohortes dédiées",
+      "body": "Parcours inter ou intra, ateliers contextualisés, classes virtuelles, tutorat et projets d’application. Le rythme et les supports sont adaptés aux contraintes des participants.",
+      "deliverable": "Parcours de compétences, calendrier de cohorte et bilan des acquis."
+    },
+    {
+      "slug": "accompagnement-recherche",
+      "title": "Méthodologie et accompagnement de la recherche",
+      "body": "Cadrage du sujet, revue de littérature, protocole, analyse et préparation à la soutenance. Le candidat reste l’auteur de son travail ; les retours portent sur la méthode et l’argumentation.",
+      "deliverable": "Plan de recherche, retours méthodologiques et journal des corrections."
+    },
+    {
+      "slug": "certificats-executifs",
+      "title": "Formats exécutifs et perfectionnement ciblé",
+      "body": "Une compétence précise, un cas métier et une évaluation des acquis. Des modules courts peuvent être assemblés en parcours sur mesure après positionnement.",
+      "deliverable": "Programme individualisé et attestation de formation précisant les acquis évalués."
+    }
+  ]
+}

@@ -38,7 +38,7 @@ const safeLink = (href: string) =>
     : "/contact";
 export function VisitorAssistant() {
   const pathname = usePathname();
-  const slug = pathname.match(/^\/formations\/([a-z0-9-]+)(?:\/|$)/)?.[1];
+  const slug = pathname.match(/^\/(?:formations|mba-dba)\/((?:mba-|dba-)?[a-z0-9-]+)(?:\/|$)/)?.[1];
   const [open, setOpen] = useState(false),
     [draft, setDraft] = useState(""),
     [busy, setBusy] = useState(false),

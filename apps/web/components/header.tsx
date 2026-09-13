@@ -17,6 +17,7 @@ import {
 
 const links = [
   { href: "/formations", label: "Formations" },
+  { href: "/mba-dba", label: "MBA & DBA" },
   { href: "/entreprises", label: "Entreprises" },
   { href: "/expertises", label: "Expertises" },
   { href: "/ressources", label: "Ressources" },
@@ -37,6 +38,23 @@ export function Header() {
     setMenuOpen(false);
   }, [pathname]);
   const menuRef = useRef<HTMLDivElement | null>(null);
+  const headerRef = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    if (pathname !== "/" || !headerRef.current) return;
+    const update = () => {
+      document.documentElement.style.setProperty(
+        "--home-header-height",
+        `${Math.ceil(headerRef.current?.getBoundingClientRect().height || 0)}px`,
+      );
+    };
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(headerRef.current);
+    return () => {
+      observer.disconnect();
+      document.documentElement.style.removeProperty("--home-header-height");
+    };
+  }, [pathname]);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -60,12 +78,15 @@ export function Header() {
   }, []);
 
   return (
-    <header className={`site-header${isLearning ? " header-learning" : ""}`}>
+    <header
+      ref={headerRef}
+      className={`site-header${isLearning ? " header-learning" : ""}${pathname === "/" ? " header-home" : ""}`}
+    >
       <div className="header-topbar">
         <div className="page-shell header-topbar-inner">
           <div className="header-topbar-copy">
-            <span>Formations inter, intra et parcours entreprise</span>
-            <span>Catalogue premium data, IA, projet, agile et product</span>
+            <span>Formations, MBA, DBA et parcours entreprise</span>
+            <span>Afrique & international · Data, IA et management</span>
           </div>
           <div className="header-topbar-actions">
             <a href={centre.phoneHref} className="header-topbar-link">

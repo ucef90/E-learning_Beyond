@@ -41,8 +41,8 @@ export default function Page() {
             centre avant un déplacement.
           </p>
           <p className="quality-note">
-            Version locale : le formulaire conserve la demande sur cet
-            ordinateur. Aucun email n’est envoyé automatiquement.
+            Le formulaire enregistre votre demande auprès de Beyond. Aucun
+            email de confirmation n’est envoyé automatiquement.
           </p>
         </div>
         <ContactForm />

@@ -7,6 +7,7 @@ import "./public-interactions.css";
 import "./training-detail.css";
 import "./assistant.css";
 import "./course-studio.css";
+import "./executive.css";
 import type { Metadata } from "next";
 import { indexable } from "@/lib/seo";
 import { ScrollProgress } from "@/components/scroll-progress";

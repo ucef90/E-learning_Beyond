@@ -81,7 +81,7 @@ export function ContactForm() {
       setStatus({
         type: "success",
         message:
-          "Votre demande a été enregistrée dans cette version locale. Aucun email n’a été envoyé automatiquement.",
+          "Votre demande a été enregistrée et peut être consultée par l’équipe Beyond. Aucun email automatique n’a été envoyé.",
       });
     } catch (error) {
       setStatus({

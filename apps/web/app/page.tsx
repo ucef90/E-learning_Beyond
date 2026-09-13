@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ExecutiveHighlight } from "@/components/executive-home";
 export const dynamic = "force-dynamic";
 import { RegulatoryHighlight } from "@/components/regulatory-highlight";
 import { TrustStrip, RatingStars } from "@/components/trust-elements";
@@ -204,6 +205,7 @@ export default async function HomePage() {
         </div>
       </section>
       <TrustStrip />
+      <ExecutiveHighlight />
 
       {/* ── Featured Trainings ───────────────────────────── */}
       <section className="section section-tight-top">

@@ -21,6 +21,7 @@ import {
   normalize,
 } from "./assistant.policy";
 import { publicAnswer, courseAnswer } from "./assistant.answers";
+import { executiveAnswer } from "./executive-answer";
 
 @Injectable()
 export class AssistantService {
@@ -123,6 +124,8 @@ export class AssistantService {
       );
     const restricted = scopeCheck(message);
     if (restricted) return restricted;
+    const executive = executiveAnswer(input);
+    if (executive) return executive;
     const direct = knownIntent(message);
     const immediate = direct && publicAnswer(direct);
     if (immediate) return immediate;
