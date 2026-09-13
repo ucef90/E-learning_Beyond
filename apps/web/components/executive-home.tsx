@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ExecutivePhoto } from "./executive-photo";
+import { ExecutiveGallery } from "./executive-gallery";
 import { ArrowRight } from "lucide-react";
 import { ExecutiveCatalogue } from "./executive-catalogue";
 import { credentialNote, launchNote } from "@/lib/executive";
@@ -48,6 +49,9 @@ export function ExecutiveHome({ kind }: { kind?: "MBA" | "DBA" }) {
               Parler de mon projet <ArrowRight size={17} />
             </Link>
           </div>
+          <a href="#galerie" className="executive-gallery-link">
+            Découvrir la galerie <ArrowRight size={17} />
+          </a>
         </div>
         <div className="executive-hero-visual">
           <ExecutivePhoto kind={doctoral ? "DBA" : "MBA"} priority />
@@ -158,6 +162,7 @@ export function ExecutiveHome({ kind }: { kind?: "MBA" | "DBA" }) {
           </li>
         </ol>
       </section>
+      <ExecutiveGallery />
       <section className="executive-admissions">
         <div>
           <span className="executive-eyebrow">Admissions</span>
