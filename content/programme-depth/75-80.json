@@ -1,0 +1,200 @@
+[
+  {
+    "index": 75,
+    "overview": "Organisez une démarche de qualité des données reliée aux usages. Le cas pratique transforme anomalies, responsabilités et règles de contrôle en un plan de correction avec preuves de résultat.",
+    "units": [
+      [
+        "Définir qualité attendue selon décision, utilisateur et conséquence d’une erreur.",
+        "Mesurer complétude, validité, unicité, cohérence et fraîcheur séparément.",
+        "Échantillonner les données et documenter les limites de la mesure.",
+        "Le diagnostic ne résume pas toutes les dimensions à un score inexpliqué."
+      ],
+      [
+        "Remonter d’une anomalie à la collecte, transformation ou règle métier en cause.",
+        "Distinguer propriétaire de donnée, producteur et utilisateur affecté.",
+        "Définir circuit de qualification et priorité selon impact.",
+        "Chaque anomalie prioritaire possède un responsable de traitement identifié."
+      ],
+      [
+        "Écrire règle avec périmètre, seuil, fréquence et comportement en cas d’échec.",
+        "Séparer erreur bloquante, alerte et exception justifiée.",
+        "Conserver motif de rejet et statut de correction sans dupliquer inutilement les données.",
+        "Le contrôle détecte un cas invalide prévu et laisse passer un cas valide limite."
+      ],
+      [
+        "Prioriser corrections de cause et rattrapage de stock d’erreurs.",
+        "Suivre taux d’anomalie, délai de résolution et récurrence.",
+        "Vérifier efficacité après correction et réviser une règle devenue inadaptée.",
+        "Le plan clôture une action après preuve de résultat et non après simple déclaration."
+      ]
+    ],
+    "slug": "data-quality-et-gouvernance-des-donnees"
+  },
+  {
+    "index": 76,
+    "overview": "Construisez un reporting financier Power BI avec des calculs réconciliables. Les ateliers couvrent modèle réel-budget, mesures DAX, analyse des écarts et diffusion contrôlée.",
+    "units": [
+      [
+        "Définir grain des écritures, du budget et des axes d’analyse.",
+        "Construire dimensions date, compte et centre de coût avec relations cohérentes.",
+        "Rapprocher données importées et totaux comptables avant de créer les visuels.",
+        "Le modèle ne joint pas directement deux tables de faits au risque de multiplier les montants."
+      ],
+      [
+        "Distinguer mesure et colonne calculée ; expliquer contexte de ligne et contexte de filtre.",
+        "Utiliser CALCULATE, DIVIDE, variables et agrégats adaptés au besoin.",
+        "Construire réalisé, budget et écart avec gestion explicite des valeurs absentes.",
+        "La mesure donne un résultat cohérent au détail et au total."
+      ],
+      [
+        "Calculer écart absolu et relatif avec convention de signe documentée.",
+        "Comparer cumul, période comparable et variation de mix sans confondre les effets.",
+        "Construire scénario paramétré en distinguant simulation et donnée réelle.",
+        "Le lecteur peut retrouver les hypothèses et recalculer un écart significatif."
+      ],
+      [
+        "Définir actualisation, sources, identités et droits du rapport.",
+        "Tester sécurité par rôle et comportement d’un filtre sur le périmètre autorisé.",
+        "Documenter date de mise à jour, contrôles et procédure de correction.",
+        "Une publication ne donne pas accès à un centre de coût exclu du rôle de test."
+      ]
+    ],
+    "slug": "power-bi-pour-controle-de-gestion"
+  },
+  {
+    "index": 77,
+    "overview": "Écrivez des extractions SQL fiables pour l’analyse. Le cas pratique insiste sur population, cardinalité, agrégats et contrôles avant de livrer une requête paramétrable et documentée.",
+    "units": [
+      [
+        "Définir grain, date de référence et règles d’inclusion de la population.",
+        "Composer filtres, conditions et traitement de NULL avec exemples limites.",
+        "Distinguer filtre de date civile et filtre sur horodatage.",
+        "Les bornes de période incluent exactement les lignes prévues."
+      ],
+      [
+        "Identifier relations un-à-plusieurs et plusieurs-à-plusieurs avant la jointure.",
+        "Préagréger les détails et contrôler COUNT, COUNT DISTINCT et SUM.",
+        "Conserver les entités sans correspondance lorsque la question l’exige.",
+        "Les montants avant et après jointure se rapprochent sans double comptage."
+      ],
+      [
+        "Décomposer calcul avec CTE et noms indiquant le grain de chaque étape.",
+        "Employer fonctions de fenêtre pour classement, cumul ou comparaison à la ligne précédente.",
+        "Prévoir ordre déterministe et cadre de fenêtre adapté.",
+        "Les résultats restent corrects sur ex æquo et périodes sans événement."
+      ],
+      [
+        "Comparer extraction à un jeu témoin et à des totaux de référence.",
+        "Lire plan d’exécution et tester une amélioration sans changer le sens.",
+        "Documenter paramètres, exclusions, unités et format de sortie.",
+        "La requête peut être relancée et ses résultats expliqués à un autre analyste."
+      ]
+    ],
+    "slug": "sql-pour-data-analyst"
+  },
+  {
+    "index": 78,
+    "overview": "Choisissez des visualisations qui soutiennent une décision sans déformer les données. Les ateliers comparent représentations, hiérarchie de lecture, accessibilité et compréhension par le destinataire.",
+    "units": [
+      [
+        "Identifier question, public, niveau de détail et action attendue.",
+        "Séparer mesure principale, contexte et information secondaire.",
+        "Définir période, population et comparaison pertinente.",
+        "Le brief permet d’écarter un graphique séduisant mais inutile à la décision."
+      ],
+      [
+        "Comparer barres, courbes, nuage de points et distribution selon la relation à montrer.",
+        "Examiner limites des doubles axes, secteurs nombreux et échelles tronquées.",
+        "Choisir agrégation et ordre des catégories sans masquer les valeurs importantes.",
+        "La représentation conserve le sens de la comparaison et les unités."
+      ],
+      [
+        "Construire titres informatifs, annotations et hiérarchie visuelle.",
+        "Utiliser contraste, libellés et motifs pour ne pas dépendre de la couleur seule.",
+        "Prévoir lecture sur petit écran et alternative textuelle aux informations clés.",
+        "Le lecteur peut comprendre l’essentiel sans distinguer toutes les couleurs."
+      ],
+      [
+        "Faire lire le visuel à une personne extérieure avec une question précise.",
+        "Observer erreurs de compréhension et temps de recherche.",
+        "Présenter limite, incertitude et source avant une recommandation.",
+        "La version révisée corrige un malentendu constaté pendant le test."
+      ]
+    ],
+    "slug": "data-visualisation-pour-decideurs"
+  },
+  {
+    "index": 79,
+    "overview": "Construisez une chaîne de reporting entre Excel, Power Query et Power BI. Le parcours relie nettoyage, consolidation, modèle, visualisation et actualisation avec contrôles de qualité à chaque étape.",
+    "units": [
+      [
+        "Structurer tableaux Excel avec en-têtes stables, types et identifiants.",
+        "Séparer saisie, calcul et restitution pour éviter les modifications involontaires.",
+        "Repérer cellules fusionnées, totaux intégrés et formats incohérents qui gênent l’import.",
+        "Le fichier source est exploitable sans sélection manuelle variable."
+      ],
+      [
+        "Enchaîner typage, filtrage, dé-pivotage et remplacement avec étapes nommées.",
+        "Distinguer erreur de conversion, valeur nulle et donnée invalide.",
+        "Conserver une requête de rejets et un bilan de qualité.",
+        "Le nettoyage explique ce qui a été corrigé, conservé ou exclu."
+      ],
+      [
+        "Combiner fichiers d’un dossier avec schéma commun et provenance conservée.",
+        "Paramétrer chemin et période ; tester fichier manquant ou colonne ajoutée.",
+        "Réduire les manipulations récurrentes sans cacher les contrôles.",
+        "L’arrivée d’un nouveau fichier déclenche une actualisation reproductible."
+      ],
+      [
+        "Définir faits, dimensions, table de dates et sens des relations.",
+        "Distinguer mesure DAX et colonne calculée pour un indicateur simple.",
+        "Contrôler filtres et totaux après relation entre tables.",
+        "Le modèle restitue le même total que la source contrôlée."
+      ],
+      [
+        "Construire une page autour de questions métier et d’un parcours de lecture.",
+        "Configurer segments et interactions sans rendre les filtres invisibles.",
+        "Afficher unités, période, source et date de mise à jour.",
+        "Un lecteur peut expliquer le périmètre affiché et revenir à la vue initiale."
+      ],
+      [
+        "Préparer actualisation, accès et procédure de résolution d’une erreur source.",
+        "Documenter dépendances, paramètres et contrôles avant diffusion.",
+        "Faire une recette avec nouveau fichier, valeur invalide et référentiel manquant.",
+        "Le reporting peut être repris par un collègue à partir de la procédure."
+      ]
+    ],
+    "slug": "data-analyst-excel-power-query-et-power-bi"
+  },
+  {
+    "index": 80,
+    "overview": "Préparez l’adoption de l’IA générative dans votre organisation avec des usages mesurables et un cadre de contrôle. Les ateliers relient choix des cas, données, gouvernance, compétences et décision de déploiement.",
+    "units": [
+      [
+        "Distinguer génération, recherche documentaire et automatisation d’action.",
+        "Observer erreurs plausibles, variabilité et dépendance au contexte fourni.",
+        "Comparer démonstration réussie et capacité répétable sur des cas variés.",
+        "Le participant identifie une limite concrète de chaque usage présenté."
+      ],
+      [
+        "Décrire tâche, utilisateur, fréquence, données et résultat vérifiable.",
+        "Évaluer valeur, faisabilité, risque et charge de supervision.",
+        "Choisir un premier pilote avec un périmètre limité.",
+        "Le cas sélectionné a une baseline et des critères de réussite mesurables."
+      ],
+      [
+        "Définir outils autorisés, données exclues, responsabilité et relecture.",
+        "Préparer information des utilisateurs et formation adaptée aux rôles.",
+        "Organiser signalement, correction et suspension d’un usage problématique.",
+        "Le cadre explique qui décide et quand une personne doit reprendre la main."
+      ],
+      [
+        "Construire étapes d’expérimentation, validation puis extension conditionnelle.",
+        "Mesurer qualité, temps, coût et effets sur le travail des équipes.",
+        "Prévoir revue des résultats et des évolutions réglementaires ou techniques.",
+        "La décision de généralisation repose sur les résultats du pilote et ses limites."
+      ]
+    ],
+    "slug": "ia-generative-pour-les-organisations"
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "index": 6,
+    "audience": "Analystes, chargés de reporting et professionnels souhaitant découvrir Python pour manipuler des données."
+  },
+  {
+    "index": 7,
+    "audience": "Développeurs Java ou web souhaitant relier une API Spring Boot à une interface Angular."
+  },
+  {
+    "index": 8,
+    "audience": "Développeurs et professionnels disposant de premières bases Python, souhaitant structurer une application en objets.",
+    "prerequisites": "Savoir utiliser variables, conditions, boucles et fonctions Python. Lire et modifier un script simple ; la conception objet est introduite pendant le parcours."
+  },
+  {
+    "index": 9,
+    "audience": "Développeurs, responsables techniques et ingénieurs logiciels souhaitant intégrer une assistance IA vérifiable."
+  },
+  {
+    "index": 10,
+    "audience": "Chefs de projet data, décideurs techniques et professionnels chargés de cadrer ou d’évaluer un projet prédictif."
+  },
+  {
+    "index": 11,
+    "audience": "Équipes métier, consultants, responsables de projet et utilisateurs souhaitant concevoir des prompts réutilisables."
+  },
+  {
+    "index": 12,
+    "audience": "Développeurs et analystes souhaitant comprendre les réseaux de neurones et réaliser un premier entraînement guidé."
+  },
+  {
+    "index": 13,
+    "audience": "Développeurs et concepteurs de solutions data souhaitant modéliser et interroger des données en graphe."
+  },
+  {
+    "index": 14,
+    "audience": "Professionnels métier, gestionnaires et utilisateurs de tableaux souhaitant comprendre une base relationnelle et écrire leurs premières requêtes."
+  },
+  {
+    "index": 15,
+    "audience": "Responsables de projets IA, équipes conformité, DPO, directions métier et responsables de gouvernance."
+  },
+  {
+    "index": 16,
+    "audience": "Responsables commerciaux, chargés de clientèle, équipes marketing et managers de la relation client."
+  },
+  {
+    "index": 17,
+    "audience": "Managers, équipes administratives, consultants et professionnels travaillant sur des documents et des connaissances partagées."
+  },
+  {
+    "index": 18,
+    "audience": "Business analysts, concepteurs, architectes et développeurs souhaitant modéliser un système avec UML.",
+    "prerequisites": "Comprendre le fonctionnement général d’un projet logiciel et les notions de classe, objet et attribut. Aucun outil de modélisation particulier n’est imposé."
+  },
+  {
+    "index": 19,
+    "audience": "Dirigeants, responsables innovation, chefs de projet et managers chargés de définir une trajectoire d’adoption de l’IA."
+  },
+  {
+    "index": 20,
+    "audience": "Administrateurs Oracle, ingénieurs bases de données et équipes chargées de réplication ou de migration.",
+    "prerequisites": "Pratiquer l’administration d’une base Oracle et connaître SQL, transactions, journaux et opérations courantes du système d’exploitation. Le laboratoire utilise des instances d’exercice."
+  },
+  {
+    "index": 23,
+    "audience": "Développeurs Java et architectes souhaitant construire et exploiter des services avec Quarkus."
+  },
+  {
+    "index": 24,
+    "audience": "Développeurs et concepteurs logiciels souhaitant améliorer la conception objet et conduire des refactorings."
+  },
+  {
+    "index": 25,
+    "audience": "Développeurs Java et responsables techniques préparant une migration d’un projet Java 11 vers Java 17."
+  },
+  {
+    "index": 26,
+    "audience": "Développeurs Java souhaitant concevoir une API Spring Boot avec persistance, tests et contrôles d’accès."
+  },
+  {
+    "index": 27,
+    "audience": "Directions métier, responsables innovation, sécurité, données, conformité et ressources humaines."
+  },
+  {
+    "index": 28,
+    "audience": "Professionnels, consultants et équipes métier souhaitant utiliser ChatGPT sur des tâches documentaires contrôlées."
+  },
+  {
+    "index": 29,
+    "audience": "Collaborateurs, managers et chefs de projet souhaitant améliorer leurs échanges oraux et écrits au travail."
+  },
+  {
+    "index": 30,
+    "audience": "Managers, chefs de projet et experts amenés à faire avancer des décisions impliquant plusieurs parties prenantes."
+  },
+  {
+    "index": 31,
+    "audience": "Managers, commerciaux, consultants et professionnels devant présenter une proposition ou obtenir une décision à l’oral."
+  },
+  {
+    "index": 32,
+    "audience": "Professionnels souhaitant mieux identifier leurs façons de travailler et construire un plan de développement concret."
+  },
+  {
+    "index": 33,
+    "audience": "Professionnels confrontés à des échanges tendus et souhaitant travailler des réponses plus maîtrisées dans un cadre professionnel."
+  },
+  {
+    "index": 34,
+    "audience": "Collaborateurs, managers et professionnels devant poser des limites et négocier des demandes concurrentes."
+  },
+  {
+    "index": 35,
+    "audience": "Managers, professionnels de la relation client et collaborateurs souhaitant réduire les malentendus dans leurs échanges."
+  },
+  {
+    "index": 36,
+    "audience": "Commerciaux, managers, consultants et chefs de projet devant argumenter et rechercher un engagement explicite."
+  },
+  {
+    "index": 37,
+    "audience": "Rédacteurs techniques, développeurs, ingénieurs support, experts métier et responsables de documentation."
+  },
+  {
+    "index": 38,
+    "audience": "Collaborateurs, assistants, chefs de projet et managers souhaitant fiabiliser engagements, livrables et contrôles."
+  },
+  {
+    "index": 39,
+    "audience": "Administrateurs, développeurs backend et ingénieurs data chargés de mettre en œuvre ou d’exploiter MongoDB."
+  },
+  {
+    "index": 40,
+    "audience": "Développeurs, administrateurs fonctionnels et professionnels Oracle souhaitant construire une application avec APEX."
+  },
+  {
+    "index": 41,
+    "audience": "Développeurs SQL, administrateurs Oracle et ingénieurs performance chargés de diagnostiquer des requêtes lentes."
+  },
+  {
+    "index": 42,
+    "audience": "Administrateurs de bases de données et équipes techniques chargées de l’exploitation d’Oracle."
+  },
+  {
+    "index": 43,
+    "audience": "Analystes, développeurs et utilisateurs maîtrisant déjà les requêtes SQL courantes et souhaitant traiter des analyses complexes."
+  },
+  {
+    "index": 44,
+    "audience": "Administrateurs systèmes ou bases de données et développeurs chargés d’exploiter une instance PostgreSQL."
+  },
+  {
+    "index": 45,
+    "audience": "Analystes, développeurs débutants et professionnels souhaitant apprendre à interroger une base relationnelle."
+  }
+]

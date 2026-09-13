@@ -86,6 +86,15 @@ function loadProgrammes() {
           p.slug,
         );
       }
+      if (p.version >= 3) {
+        assert(p.overview?.length > 100, p.slug);
+        assert.equal(m.technicalDetails?.length, 3, p.slug);
+        assert(
+          m.technicalDetails.every((t) => t.length >= 30),
+          p.slug,
+        );
+        assert(m.practicalCheck?.length >= 30, p.slug);
+      }
       workshops.add(m.workshop);
     }
     assert(

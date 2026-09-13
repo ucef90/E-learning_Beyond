@@ -1,0 +1,200 @@
+[
+  {
+    "index": 50,
+    "overview": "Construisez et évaluez une prévision utile à une décision métier. Le parcours couvre préparation temporelle, modèles de référence, validation glissante et interprétation de l’incertitude pour éviter les performances artificielles.",
+    "units": [
+      [
+        "Définir horizon, fréquence, délai de disponibilité et décision associée à la prévision.",
+        "Distinguer prévision ponctuelle, intervalle et scénario conditionnel.",
+        "Choisir une erreur métier pertinente selon coût de sous-prévision et de sur-prévision.",
+        "Le protocole précise ce qui sera connu à chaque date de prévision."
+      ],
+      [
+        "Repérer tendance, saisonnalité, ruptures et périodes manquantes.",
+        "Distinguer zéro observé, absence de mesure et fermeture d’activité.",
+        "Préparer calendrier et variables externes sans utiliser leur valeur future inconnue.",
+        "La série préparée conserve les ruptures et ne crée pas de fuite temporelle."
+      ],
+      [
+        "Construire prévision naïve, saisonnière naïve et moyenne mobile.",
+        "Mesurer les erreurs par horizon et période plutôt qu’un seul score agrégé.",
+        "Utiliser ces baselines comme seuil minimal d’utilité d’un modèle plus complexe.",
+        "Un modèle n’est retenu que si son intérêt face à la baseline est explicité."
+      ],
+      [
+        "Comparer lissage et modèle de régression avec retards sur un même protocole.",
+        "Construire lag et statistiques glissantes à partir du passé uniquement.",
+        "Analyser résidus, biais et sensibilité aux périodes atypiques.",
+        "Les variables du modèle ne contiennent aucune observation postérieure à la date simulée."
+      ],
+      [
+        "Mettre en place origine glissante ou fenêtre croissante selon l’usage prévu.",
+        "Séparer choix des paramètres et évaluation finale dans le temps.",
+        "Comparer MAE et autres métriques adaptées en évitant MAPE sur séries proches de zéro.",
+        "Le backtest reproduit les conditions d’information de l’usage réel."
+      ],
+      [
+        "Traduire prévision et incertitude en décision de stock, capacité ou budget.",
+        "Construire scénarios avec hypothèses externes explicites.",
+        "Préparer suivi de biais et conditions de recalibrage après déploiement.",
+        "La recommandation conserve l’incertitude et indique un seuil de révision."
+      ]
+    ],
+    "slug": "forecasting-et-series-temporelles-pour-business"
+  },
+  {
+    "index": 51,
+    "overview": "Fiabilisez une analyse marketing avant d’attribuer une performance à un canal. Les ateliers couvrent définitions, parcours, fenêtres d’attribution et arbitrage budgétaire avec limites de mesure explicites.",
+    "units": [
+      [
+        "Définir acquisition, conversion, coût et valeur avec dénominateur et période.",
+        "Distinguer clic, lead, client et chiffre d’affaires reconnu.",
+        "Comparer métriques de plateforme et données internes sur un périmètre commun.",
+        "Le dictionnaire évite de comparer deux conversions définies différemment."
+      ],
+      [
+        "Identifier campagne, canal, événement et transaction avec conventions cohérentes.",
+        "Repérer doublons, conversions tardives et ruptures de suivi.",
+        "Prendre en compte consentement et données manquantes sans reconstruire une identité non autorisée.",
+        "Le rapprochement explique les écarts entre parcours mesurés et ventes observées."
+      ],
+      [
+        "Comparer premier contact, dernier contact et répartition multi-contact sur les mêmes parcours.",
+        "Étudier l’effet de la fenêtre d’attribution et des canaux non observés.",
+        "Distinguer attribution descriptive et mesure causale de l’incrémentalité.",
+        "Le classement des canaux est présenté avec ses hypothèses et sa sensibilité."
+      ],
+      [
+        "Relier coût marginal, capacité commerciale et valeur client à une décision budgétaire.",
+        "Préparer un test d’incrémentalité ou une collecte complémentaire selon l’incertitude.",
+        "Documenter scénario, garde-fous et règle de réallocation.",
+        "La recommandation ne confond pas crédit d’attribution et effet causal démontré."
+      ]
+    ],
+    "slug": "analytics-marketing-et-attribution"
+  },
+  {
+    "index": 52,
+    "overview": "Construisez un reporting RH cohérent et proportionné. Le cas pratique traite historiques, effectifs, mouvements et indicateurs en préservant la confidentialité et en évitant les interprétations abusives sur les personnes.",
+    "units": [
+      [
+        "Définir finalité, destinataires et décisions autorisées du reporting RH.",
+        "Distinguer effectif physique, équivalent temps plein et présence sur une période.",
+        "Limiter granularité et accès aux informations nécessaires.",
+        "Le périmètre exclut les données individuelles sans utilité pour la décision."
+      ],
+      [
+        "Reconstituer entrées, sorties et changements d’affectation à partir d’historiques datés.",
+        "Traiter contrats simultanés, temps partiel et correction rétroactive.",
+        "Contrôler cohérence des périodes et identifiants sur données fictives.",
+        "L’effectif à une date peut être rapproché du registre de référence."
+      ],
+      [
+        "Calculer turnover, absentéisme et mobilité avec formules et populations explicites.",
+        "Distinguer flux de période et stock à date dans les graphiques.",
+        "Prévoir regroupement ou masquage des très petits effectifs selon le risque de réidentification.",
+        "Les indicateurs ne permettent pas d’isoler inutilement une personne."
+      ],
+      [
+        "Comparer évolution, composition et changement de définition avant d’expliquer un écart.",
+        "Distinguer corrélation collective et conclusion sur un salarié.",
+        "Présenter limites, questions à approfondir et actions organisationnelles possibles.",
+        "La conclusion reste au niveau d’analyse permis par les données."
+      ]
+    ],
+    "slug": "tableau-de-bord-rh-et-people-analytics"
+  },
+  {
+    "index": 53,
+    "overview": "Développez les réflexes pour lire, questionner et utiliser une analyse en tant que manager. Les exercices mettent en évidence dénominateurs, biais, incertitude et différence entre corrélation et preuve causale.",
+    "units": [
+      [
+        "Décomposer indicateur en population, formule, unité, source et fréquence.",
+        "Comparer stock, flux, moyenne, médiane et taux sur un même cas.",
+        "Repérer changement de définition qui crée une évolution artificielle.",
+        "Le participant peut expliquer ce que mesure le chiffre et ce qu’il ne mesure pas."
+      ],
+      [
+        "Lire axes, échelles, base de comparaison et intervalle de temps d’un graphique.",
+        "Observer effet d’une moyenne globale masquant des groupes différents.",
+        "Distinguer variation absolue et relative sur petits volumes.",
+        "La lecture repère un graphique exact mais potentiellement trompeur."
+      ],
+      [
+        "Questionner collecte, valeurs manquantes, représentativité et période d’observation.",
+        "Distinguer association, causalité et facteur commun.",
+        "Vérifier si les données suffisent pour répondre à la question posée.",
+        "La critique formule une vérification utile plutôt qu’un rejet général des chiffres."
+      ],
+      [
+        "Définir seuil de décision et conséquences d’une erreur.",
+        "Comparer décider maintenant, recueillir une donnée et lancer un essai limité.",
+        "Présenter faits, incertitudes et hypothèses séparément.",
+        "La décision est justifiée avec un critère de réexamen."
+      ]
+    ],
+    "slug": "data-literacy-pour-managers"
+  },
+  {
+    "index": 54,
+    "overview": "Construisez une roadmap produit orientée résultats et arbitrages. Le parcours relie objectifs, opportunités, critères de priorité et capacité de livraison, avec une communication explicite sur l’incertitude.",
+    "units": [
+      [
+        "Traduire une orientation stratégique en résultat utilisateur et indicateur observable.",
+        "Distinguer problème, opportunité et solution envisagée.",
+        "Repérer hypothèses de valeur et preuves manquantes.",
+        "L’objectif ne se réduit pas à une liste de fonctionnalités à produire."
+      ],
+      [
+        "Comparer impact, effort, risque et confiance avec une échelle partagée.",
+        "Utiliser une méthode de score sans masquer les hypothèses derrière le total.",
+        "Tester la sensibilité du classement à un changement de pondération.",
+        "La priorité peut être expliquée sans invoquer seulement un score."
+      ],
+      [
+        "Identifier dépendances, capacité et contraintes de calendrier.",
+        "Distinguer découverte, expérimentation et livraison engagée.",
+        "Construire horizons proches précis et horizons lointains plus ouverts.",
+        "La roadmap ne promet pas la même précision à toutes les échéances."
+      ],
+      [
+        "Présenter choix, renoncements et conditions de révision aux parties prenantes.",
+        "Relier suivi de résultats et décisions de maintien ou d’arrêt.",
+        "Traiter une urgence nouvelle avec arbitrage explicite sur les engagements existants.",
+        "Une modification de priorité indique ce qui est décalé et pourquoi."
+      ]
+    ],
+    "slug": "roadmap-produit-et-priorisation-strategique"
+  },
+  {
+    "index": 55,
+    "overview": "Concevez un tableau de bord de direction projet centré sur les décisions du comité. Les ateliers travaillent signaux d’alerte, fiabilité des statuts, synthèse visuelle et lecture en situation d’arbitrage.",
+    "units": [
+      [
+        "Identifier décisions récurrentes, responsables et fréquence du comité.",
+        "Distinguer information de suivi et donnée nécessaire à un arbitrage.",
+        "Définir niveau portefeuille, programme ou projet de chaque indicateur.",
+        "Chaque indicateur correspond à une question effectivement traitée en comité."
+      ],
+      [
+        "Définir seuils de délai, budget, risque et capacité avec règles partagées.",
+        "Séparer statut déclaré et statut calculé à partir d’une source.",
+        "Prévoir traitement d’une donnée absente ou non actualisée.",
+        "L’absence d’information n’est pas affichée comme une situation maîtrisée."
+      ],
+      [
+        "Organiser une page autour des écarts, décisions attendues et actions.",
+        "Afficher tendance, date de mise à jour et périmètre sans multiplier les graphiques.",
+        "Choisir couleurs et libellés accessibles sans dépendre du rouge et du vert seuls.",
+        "Le lecteur identifie rapidement alerte, impact et décision demandée."
+      ],
+      [
+        "Simuler un comité avec temps de lecture limité et questions contradictoires.",
+        "Vérifier que les chiffres clés se rapprochent des sources.",
+        "Retirer indicateurs non utilisés et clarifier les ambiguïtés observées.",
+        "Le tableau permet de prendre une décision et d’attribuer son suivi."
+      ]
+    ],
+    "slug": "dashboard-executif-pour-pmo-et-direction-projet"
+  }
+]

@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <QualityLayout
       title="Vos données sur cette plateforme."
-      intro="Notice de la version locale — mise à jour le 12 septembre 2026. Contact : contact@beyondexpertise.eu · 09 54 70 23 80."
+      intro="Notice de la version locale — mise à jour le 13 septembre 2026. Contact : contact@beyondexpertise.eu · 09 54 70 23 80."
     >
       <QualityCard title="Qui utilise les données ?">
         <p>
@@ -123,9 +123,15 @@ export default function Page() {
       <QualityCard title="IA et décisions">
         <p>
           Le quiz utilise un barème fixe ; cette version n’intègre pas de
-          décision d’admission ni de correction par un modèle d’IA. Les contenus
-          préparés avec assistance d’IA et leurs limites sont expliqués dans
-          notre page de transparence.
+          décision d’admission ni de correction par un modèle d’IA. L’assistant
+          visiteurs consulte uniquement les informations publiques du catalogue.
+          Les messages sont traités sur cet ordinateur ; aucun échange n’est
+          envoyé à un fournisseur d’IA externe par cette intégration. Les
+          conversations ne sont pas enregistrées dans la base ni dans un
+          historique sur disque. Elles restent en mémoire dans la page jusqu’à
+          effacement ou rechargement. Un compteur par adresse réseau, conservé
+          une minute en mémoire, limite les demandes. Ne transmettez pas de
+          données personnelles dans l’assistant.
         </p>
         <Link href="/transparence-ia">Comprendre les usages de l’IA</Link>
       </QualityCard>

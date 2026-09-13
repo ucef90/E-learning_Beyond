@@ -1,3 +1,4 @@
+import { AssistantModule } from "./modules/assistant/assistant.controller";
 import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { HealthModule } from "./modules/health/health.module";
@@ -32,6 +33,7 @@ import { AccessGuard } from "./modules/auth/access";
     EnrollmentsModule,
     CommercialModule,
     QualityModule,
+    AssistantModule,
   ],
 })
 export class AppModule {}

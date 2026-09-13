@@ -23,10 +23,10 @@ export default async function Page({
     >
       <div className="regulatory-actions">
         <a href={"/formations/" + c.slug}>Revenir au programme</a>
-        <a href={"/reglementation/" + c.code + "-support.md"} download>
+        <a href={"/reglementation/" + c.code + "-support.pdf"} download>
           Télécharger le support et le quiz corrigé
         </a>
-        <a href={"/reglementation/" + c.code + "-modeles.md"} download>
+        <a href={"/reglementation/" + c.code + "-modeles.pdf"} download>
           Télécharger les cinq modèles
         </a>
         <a href="/apprentissage">Mon parcours et mon quiz</a>
@@ -75,10 +75,11 @@ export default async function Page({
       </div>
       <QualityCard title="Références et suivi éditorial">
         <p>
-          Rédaction originale assistée par IA. Textes et pages institutionnelles
-          consultés le 12 septembre 2026. Le calendrier AI Act distingue le
-          texte initial de 2024 et les mises à jour institutionnelles de 2026 ;
-          une revue est nécessaire avant chaque session.
+          Supports pédagogiques Beyond Expertise. Textes et pages
+          institutionnelles consultés le 12 septembre 2026. Le calendrier AI Act
+          distingue le texte initial de 2024 et les mises à jour
+          institutionnelles de 2026 ; une revue est nécessaire avant chaque
+          session.
         </p>
         <ul>
           {c.references.map((r) => (

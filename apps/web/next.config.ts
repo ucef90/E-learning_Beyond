@@ -1,6 +1,20 @@
 import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   typedRoutes: true,
+  async redirects() {
+    return [
+      {
+        source: "/programmes/:file.md",
+        destination: "/programmes/:file.pdf",
+        permanent: true,
+      },
+      {
+        source: "/reglementation/:file.md",
+        destination: "/reglementation/:file.pdf",
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {

@@ -1,0 +1,217 @@
+[
+  {
+    "index": 15,
+    "overview": "Construisez un dossier de qualification et de gouvernance d’un système d’IA. La progression relie rôle de l’organisme, usage prévu, risques, exigences et preuves, avec lecture des sources officielles et examen du calendrier applicable.",
+    "units": [
+      [
+        "Qualifier système, modèle, fournisseur et déployeur à partir de la chaîne réelle d’utilisation.",
+        "Séparer mise sur le marché, mise en service et modification substantielle dans les scénarios étudiés.",
+        "Consulter texte consolidé et calendrier officiel ; distinguer date d’entrée en vigueur et date d’application.",
+        "La fiche identifie le rôle et les sources datées sans déduire les obligations du seul nom du produit."
+      ],
+      [
+        "Examiner finalité, secteur et personnes affectées avant de qualifier le niveau de risque.",
+        "Confronter un usage d’assistance à un usage d’admission, de recrutement ou d’évaluation.",
+        "Documenter interdiction éventuelle, catégorie retenue, exceptions à examiner et informations manquantes.",
+        "La classification est justifiée par l’usage concret et prévoit une relecture spécialisée si nécessaire."
+      ],
+      [
+        "Relier chaque exigence applicable à un responsable, un document et une preuve de fonctionnement.",
+        "Examiner gestion des risques, qualité des données, journalisation et documentation selon le rôle retenu.",
+        "Distinguer contrôle interne, déclaration de conformité et certification sans promettre un label universel.",
+        "La matrice ne présente ni une procédure prévue ni une formation suivie comme preuve de conformité acquise."
+      ],
+      [
+        "Cartographier données personnelles, finalités, bases légales et destinataires du cas.",
+        "Articuler analyse des risques IA et examen de la nécessité d’une AIPD sans les confondre.",
+        "Prévoir information des personnes et contrôle des transferts ou sous-traitants concernés.",
+        "Les deux analyses partagent leurs faits tout en conservant leurs critères juridiques propres."
+      ],
+      [
+        "Définir consignes d’utilisation, capacité d’interruption et autorité du superviseur humain.",
+        "Décrire détection, qualification et escalade d’un incident avec conservation proportionnée des traces.",
+        "Prévoir réévaluation après changement de données, de modèle ou de finalité.",
+        "Une simulation identifie qui peut suspendre l’usage et sur quels éléments."
+      ],
+      [
+        "Prioriser écarts par risque, dépendance et échéance applicable ; nommer responsables et livrables.",
+        "Préparer une décision de lancement conditionnelle avec critères d’acceptation et points non résolus.",
+        "Organiser veille réglementaire et vérification du calendrier avant la session et le déploiement.",
+        "Le dossier expose les écarts restants et n’affirme pas une conformité ou une certification globale."
+      ]
+    ],
+    "slug": "iact-ia-act-deployer-un-systeme-d-intelligence-artificielle-conforme-au-reglement-ia-ia-act"
+  },
+  {
+    "index": 16,
+    "overview": "Concevez des usages d’IA qui améliorent la préparation commerciale et le suivi client. Vous travaillez sur des données fictives, avec vérification des propositions, maîtrise de la personnalisation et indicateurs de qualité de service.",
+    "units": [
+      [
+        "Cartographier prospection, qualification, proposition et suivi ; repérer les tâches à faible risque.",
+        "Définir gain attendu en temps, qualité ou réactivité sans assimiler volume produit et ventes réalisées.",
+        "Distinguer assistance au commercial et décision autonome affectant un client.",
+        "Le cas d’usage comporte une mesure de succès et un point de validation humaine."
+      ],
+      [
+        "Sélectionner champs CRM utiles et retirer notes sensibles, identifiants et informations non nécessaires.",
+        "Décrire segment, besoin établi et contraintes de l’offre sans inventer le profil du prospect.",
+        "Construire une consigne qui distingue fait confirmé, hypothèse et question à poser.",
+        "La fiche client synthétique contient uniquement les données nécessaires à la tâche."
+      ],
+      [
+        "Relier bénéfice proposé à un besoin exprimé et à une caractéristique vérifiée de l’offre.",
+        "Comparer variantes de message, ton et appel à l’action sans promesse de résultat non démontrée.",
+        "Vérifier prix, conditions, références et personnalisation avant toute transmission.",
+        "La proposition est cohérente avec l’offre et chaque affirmation commerciale est vérifiable."
+      ],
+      [
+        "Construire une réponse à partir d’une FAQ autorisée avec source et date de validité.",
+        "Définir motifs d’escalade : réclamation, situation atypique, engagement contractuel ou information absente.",
+        "Tester demande ambiguë et client insatisfait en évitant une réponse automatique définitive.",
+        "Le parcours transmet correctement au conseiller les cas que la base ne couvre pas."
+      ],
+      [
+        "Distinguer satisfaction, résolution au premier contact, réachat et attrition dans les indicateurs.",
+        "Analyser motifs de contact et verbatims anonymisés sans attribuer une émotion certaine à une personne.",
+        "Comparer qualité avant/après avec échantillon, période et biais de collecte explicités.",
+        "La conclusion sépare amélioration observée, hypothèse et causalité non démontrée."
+      ],
+      [
+        "Définir charte d’usage, relecture, gestion des accès et procédure de correction des réponses.",
+        "Organiser un pilote limité avec contrôle des données et retour des commerciaux.",
+        "Suivre erreurs, escalades et temps de vérification, puis ajuster les cas autorisés.",
+        "Le déploiement peut être interrompu si les erreurs ou la charge de contrôle deviennent excessives."
+      ]
+    ],
+    "slug": "iacr-exploiter-l-intelligence-artificielle-pour-optimiser-la-strategie-commerciale-et-la-relation-client"
+  },
+  {
+    "index": 17,
+    "overview": "Utilisez Gemini et NotebookLM dans des tâches documentaires concrètes. Apprenez à choisir le bon outil, organiser un corpus, produire une synthèse et vérifier ses sources avant de réutiliser le résultat en entreprise.",
+    "units": [
+      [
+        "Distinguer demande générale à Gemini et interrogation d’un corpus délimité dans NotebookLM.",
+        "Vérifier fonctions et droits disponibles dans l’offre utilisée avant de préparer un atelier.",
+        "Classer documents publics, internes et exclus ; travailler sur un dossier synthétique.",
+        "Le choix de l’outil tient compte du besoin documentaire et des règles d’accès."
+      ],
+      [
+        "Décrire objectif, audience, sources et format ; préciser les informations qui ne doivent pas être inventées.",
+        "Tester consigne courte, exemple et structure de sortie sur une même demande.",
+        "Prévoir citation, indication d’absence et question de clarification lorsque le contexte manque.",
+        "La réponse sépare les éléments sourcés des suggestions à valider."
+      ],
+      [
+        "Transformer notes en compte rendu avec décisions, responsables et actions sans créer d’engagement absent.",
+        "Adapter un document à un destinataire tout en conservant chiffres, réserves et échéances.",
+        "Comparer texte produit et source avec une grille de fidélité.",
+        "Aucune date, responsabilité ou décision nouvelle n’apparaît comme un fait acquis."
+      ],
+      [
+        "Demander structure d’un tableau ou d’une présentation à partir d’un objectif explicite.",
+        "Vérifier calculs, unités et liens entre graphiques et données avec l’outil bureautique.",
+        "Relire les diapositives comme support de décision et réduire les messages redondants.",
+        "Les chiffres présentés peuvent être recalculés depuis les données du cas."
+      ],
+      [
+        "Préparer sources identifiées et versions cohérentes ; tester des questions couvertes et non couvertes.",
+        "Vérifier les passages cités et les contradictions entre documents du même corpus.",
+        "Construire une synthèse transversale qui conserve limites, dates et attribution des informations.",
+        "Chaque conclusion importante renvoie à un passage réellement pertinent."
+      ],
+      [
+        "Mettre en place une check-list de source, fidélité, confidentialité et destinataire.",
+        "Documenter modèles de demandes et cas où un expert doit reprendre la main.",
+        "Prévoir révision des corpus et des pratiques lors d’un changement d’offre ou de fonctionnalité.",
+        "Un collègue peut appliquer la routine et détecter un document devenu périmé."
+      ]
+    ],
+    "slug": "gemi-gemini-et-notebooklm-les-outils-ia-de-google-pour-une-productivite-augmentee-en-entreprise"
+  },
+  {
+    "index": 18,
+    "overview": "Modélisez un système avec les diagrammes UML utiles à sa compréhension et à sa conception. Le fil rouge relie besoins, domaine, interactions et architecture afin de vérifier la cohérence des modèles plutôt que multiplier les schémas.",
+    "units": [
+      [
+        "Définir périmètre, acteurs et objectifs avant de choisir un diagramme.",
+        "Distinguer cas d’utilisation, scénario nominal, variante et exception.",
+        "Éviter de représenter une simple succession d’écrans comme un besoin métier.",
+        "Chaque modèle répond à une question précise d’une partie prenante identifiée."
+      ],
+      [
+        "Identifier concepts, attributs, associations et multiplicités à partir des règles métier.",
+        "Distinguer association, agrégation et composition sans utiliser la composition par défaut.",
+        "Exprimer contraintes et invariants qui ne tiennent pas dans le seul dessin.",
+        "Le modèle permet de vérifier une règle métier sur un exemple concret."
+      ],
+      [
+        "Construire un diagramme de séquence avec objets participants, messages et retours utiles.",
+        "Employer fragments alt, opt et loop pour représenter variantes et répétitions.",
+        "Vérifier que chaque opération appelée a une responsabilité cohérente dans le modèle de classes.",
+        "Une séquence d’échec reste cohérente avec les responsabilités attribuées aux objets."
+      ],
+      [
+        "Utiliser activité, décision, fork et join pour distinguer alternative et parallélisme.",
+        "Décrire états, événements, gardes et transitions d’un objet métier.",
+        "Repérer transition impossible, état sans sortie et condition ambiguë.",
+        "Le cycle de vie refuse une transition contraire aux règles du cas."
+      ],
+      [
+        "Séparer composants, interfaces et dépendances ; distinguer conception logique et déploiement physique.",
+        "Relier nœuds d’exécution et artefacts sans confondre serveur, service et module logiciel.",
+        "Justifier frontière de composant par responsabilité et dépendances.",
+        "Le schéma situe les échanges externes et les contrats entre composants."
+      ],
+      [
+        "Tracer besoins vers scénarios, classes, interactions et tests d’acceptation.",
+        "Conduire une revue croisée des noms, multiplicités et opérations entre diagrammes.",
+        "Réduire un modèle trop détaillé tout en conservant les règles nécessaires à la décision.",
+        "Une modification de besoin est répercutée dans les modèles réellement concernés."
+      ]
+    ],
+    "slug": "duac-uml-2-analyse-et-conception"
+  },
+  {
+    "index": 19,
+    "overview": "Construisez une lecture stratégique de l’IA pour votre organisation. Comparez capacités, données, risques et options d’intégration avant de prioriser un portefeuille de cas d’usage et de préparer un pilote.",
+    "units": [
+      [
+        "Distinguer règles, prédiction, génération et recherche documentaire à partir d’exemples métier.",
+        "Relier modèle, données d’entraînement et application sans assimiler démonstration et produit fini.",
+        "Identifier les situations où une solution sans IA répond déjà au besoin.",
+        "L’explication associe chaque famille à une capacité et à une limite concrètes."
+      ],
+      [
+        "Définir utilisateur, décision, fréquence et coût actuel d’une tâche candidate.",
+        "Évaluer disponibilité des données et vérifiabilité de la sortie avant d’estimer la valeur.",
+        "Comparer assistance, automatisation partielle et décision autonome selon les conséquences d’erreur.",
+        "La sélection privilégie un usage dont le résultat peut être contrôlé."
+      ],
+      [
+        "Décomposer une application en modèle, orchestration, données, interface et supervision.",
+        "Comparer service externe, modèle local, RAG et adaptation selon les contraintes du cas.",
+        "Identifier intégration, exploitation et contrôle humain dans le coût total.",
+        "Le schéma d’architecture ne réduit pas le projet au seul achat d’un modèle."
+      ],
+      [
+        "Examiner confidentialité, fiabilité, biais, dépendance fournisseur et sécurité des outils.",
+        "Qualifier les personnes affectées et les usages réglementés avant de concevoir un contrôle.",
+        "Distinguer risque identifié, mesure proposée et preuve d’efficacité de cette mesure.",
+        "La matrice associe chaque risque à un responsable et à un test de contrôle."
+      ],
+      [
+        "Définir équipe métier, technique et juridique, jalons et critères d’arrêt du pilote.",
+        "Préparer jeu d’évaluation représentatif et méthode de comparaison avec la pratique actuelle.",
+        "Mesurer qualité, coût, délai et charge de supervision ensemble.",
+        "Un gain de vitesse n’est pas retenu si la qualité ou la supervision se dégradent excessivement."
+      ],
+      [
+        "Prioriser le portefeuille selon valeur, faisabilité, risque et dépendances communes.",
+        "Construire trajectoire de compétences, données et gouvernance avant généralisation.",
+        "Prévoir revue périodique des résultats et réallocation des moyens.",
+        "La feuille de route distingue expérimentation, validation et déploiement conditionnel."
+      ]
+    ],
+    "slug": "inar-etat-de-l-art-sur-l-intelligence-artificielle-ia-concepts-enjeux-technologies-et-strategies-pour-les-entreprises"
+  }
+]

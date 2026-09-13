@@ -1,0 +1,205 @@
+[
+  {
+    "index": 5,
+    "overview": "Évaluez si un corpus peut alimenter une application d’IA de façon fiable. Organisez nettoyage, droits, responsabilités et maintenance dans un plan de préparation des données avec des critères de publication vérifiables.",
+    "units": [
+      [
+        "Distinguer documents de référence, doublons, brouillons et contenus périmés ; identifier leur autorité.",
+        "Échantillonner le corpus par source et période pour mesurer complétude, fraîcheur et incohérences.",
+        "Repérer données personnelles, secrets métier et restrictions contractuelles avant toute indexation.",
+        "Le diagnostic indique les sources utilisables, exclues et à corriger avec justification."
+      ],
+      [
+        "Définir un identifiant documentaire, une version, une date de validité et un propriétaire.",
+        "Normaliser titres, tableaux et encodages ; conserver contexte et références lors du découpage.",
+        "Traiter contradictions et doublons sans perdre la provenance ni remplacer arbitrairement une source.",
+        "Deux versions contradictoires sont identifiées et leur règle de priorité est documentée."
+      ],
+      [
+        "Distinguer propriétaire, steward et consommateur ; attribuer validation et traitement des anomalies.",
+        "Reproduire les restrictions d’accès de la source dans la recherche documentaire.",
+        "Prévoir retrait, expiration et suppression d’un document jusque dans les index dérivés.",
+        "Un document retiré ne reste pas accessible dans le périmètre de recherche prévu."
+      ],
+      [
+        "Construire des indicateurs séparant volume indexable, qualité documentaire et couverture des questions métier.",
+        "Prioriser les corrections selon impact, fréquence et coût ; affecter responsable et échéance.",
+        "Définir recette de corpus, seuils d’acceptation et fréquence de réexamen.",
+        "Le plan relie chaque anomalie prioritaire à une correction et à une preuve attendue."
+      ]
+    ],
+    "slug": "donnees-pretes-pour-l-ia-gouvernance-qualite-et-knowledge-management"
+  },
+  {
+    "index": 6,
+    "overview": "Acquérez les bases de Python en construisant une première analyse tabulaire. Le parcours privilégie lecture, nettoyage, synthèse et restitution d’un jeu de données, avec des exercices guidés adaptés à une découverte du langage.",
+    "units": [
+      [
+        "Manipuler str, int, float et bool ; convertir explicitement une valeur issue d’un fichier.",
+        "Comparer liste, tuple et dictionnaire pour représenter une ligne et un référentiel.",
+        "Lire une exception et retrouver l’instruction fautive sans masquer toutes les erreurs.",
+        "Une ligne de données est convertie avec un message clair pour une valeur invalide."
+      ],
+      [
+        "Combiner conditions, boucles et compréhensions simples sans rendre le traitement illisible.",
+        "Définir paramètres, valeur de retour et portée d’une fonction ; séparer calcul et affichage.",
+        "Importer un module, gérer un chemin avec pathlib et isoler les dépendances d’un projet.",
+        "Une fonction produit le résultat prévu sur un cas normal et un cas vide."
+      ],
+      [
+        "Lire un CSV avec séparateur, encodage, décimales et colonnes sélectionnées.",
+        "Examiner head, info, describe et dimensions ; distinguer index et colonne métier.",
+        "Filtrer avec loc, masques parenthésés et sélection de colonnes sans modifier la source.",
+        "Les lignes sélectionnées correspondent à une règle métier expliquée."
+      ],
+      [
+        "Distinguer valeur absente, zéro et texte vide ; choisir rejet ou correction selon une règle.",
+        "Convertir dates et montants, repérer doublons et conserver un bilan avant/après.",
+        "Construire groupby et agrégations simples en contrôlant les effectifs et les totaux.",
+        "Le total détaillé et le total regroupé concordent sur le même périmètre."
+      ],
+      [
+        "Choisir courbe, barres ou distribution selon la question ; afficher unités et période.",
+        "Décoder un JSON imbriqué et extraire les champs utiles d’une réponse HTTP de démonstration.",
+        "Prévoir timeout, statut non réussi et champ manquant sans demander de données privées.",
+        "La restitution conserve les unités et traite une réponse externe incomplète."
+      ],
+      [
+        "Déplacer les étapes du notebook vers des fonctions nommées et des paramètres explicites.",
+        "Exporter résultat et rejets séparément ; documenter entrées, sorties et commande d’exécution.",
+        "Ajouter contrôles de colonnes et assertions sur un petit fichier de référence.",
+        "Une seconde exécution sur la même entrée reproduit le résultat sans manipulation manuelle."
+      ]
+    ],
+    "slug": "oapy-decouvrir-python-et-l-analyse-de-donnees"
+  },
+  {
+    "index": 7,
+    "overview": "Réalisez un parcours web complet reliant Angular à une API Spring Boot. Vous travaillez contrat HTTP, validation, persistance, autorisations et tests afin d’assembler deux applications qui gèrent aussi les erreurs de bout en bout.",
+    "units": [
+      [
+        "Définir ressources, verbes HTTP, statuts et représentation des erreurs avec des exemples de requêtes.",
+        "Séparer DTO public et entité persistée ; préciser champs obligatoires, pagination et tri autorisés.",
+        "Dessiner états chargement, résultat vide et échec du parcours avant les composants.",
+        "Le contrat contient un exemple nominal, une validation refusée et une ressource absente."
+      ],
+      [
+        "Organiser contrôleur, service et repository ; injecter les dépendances par constructeur.",
+        "Valider les DTO et centraliser les erreurs sans renvoyer pile technique ou données internes.",
+        "Délimiter transaction et contraintes de base ; traduire un conflit métier en réponse cohérente.",
+        "Une requête invalide ne modifie aucune donnée et reçoit un message exploitable."
+      ],
+      [
+        "Décomposer page, composants et service HTTP ; typer les réponses et les états de chargement.",
+        "Construire formulaire réactif, validation locale et restitution des erreurs renvoyées par l’API.",
+        "Gérer navigation, abonnement et annulation de requêtes pour éviter un affichage périmé.",
+        "Le formulaire couvre saisie invalide, attente, succès et échec serveur."
+      ],
+      [
+        "Distinguer authentification, autorisation et masquage de bouton ; vérifier les droits côté serveur.",
+        "Analyser cookie, jeton, CORS et CSRF selon l’architecture retenue pour le cas.",
+        "Tester accès anonyme et accès d’un utilisateur à la ressource d’un autre utilisateur fictif.",
+        "La restriction reste effective quand l’appel HTTP contourne directement l’interface."
+      ],
+      [
+        "Isoler logique métier avec tests unitaires et tester contrôleurs avec validation et autorisations.",
+        "Simuler réponses HTTP Angular et tester les états du composant sans dépendre du serveur.",
+        "Écrire un scénario d’intégration création-consultation-erreur sur une base de test.",
+        "Un changement incompatible du contrat provoque l’échec d’un test identifiable."
+      ],
+      [
+        "Externaliser URL d’API et configuration d’environnement sans publier de secrets dans le frontend.",
+        "Construire les deux applications et définir ordre de démarrage et contrôle de disponibilité.",
+        "Préparer versionnement du contrat, migrations et procédure de retour à une version compatible.",
+        "La livraison démarre depuis la procédure et le parcours critique passe sa recette."
+      ]
+    ],
+    "slug": "jdsa-spring-boot-et-angular-developper-des-applications-web-avec-spring-boot-et-angular"
+  },
+  {
+    "index": 8,
+    "overview": "Passez de scripts Python à une petite application structurée en objets. Vous modélisez le domaine, choisissez entre composition et héritage, protégez les échanges et testez une interface simple sans coupler toute la logique à l’affichage.",
+    "units": [
+      [
+        "Distinguer argument mutable, copie et référence ; éviter une valeur par défaut partagée.",
+        "Organiser modules et imports pour réduire dépendances circulaires et effets au chargement.",
+        "Employer annotations de types, exceptions ciblées et documentation du contrat des fonctions.",
+        "L’import d’un module ne lance pas l’application et les erreurs attendues sont testées."
+      ],
+      [
+        "Définir état, invariants, constructeur et méthodes ; distinguer attribut de classe et d’instance.",
+        "Comparer classe classique et dataclass selon validation, égalité et mutabilité.",
+        "Encapsuler une modification d’état et choisir une représentation lisible pour le débogage.",
+        "Un objet ne peut pas entrer dans un état invalide par une opération publique prévue."
+      ],
+      [
+        "Utiliser composition pour déléguer une responsabilité et héritage pour une substitution justifiée.",
+        "Définir un contrat commun avec protocole ou classe abstraite ; tester les implémentations.",
+        "Examiner MRO et super sur un exemple limité sans construire une hiérarchie artificielle.",
+        "Une implémentation est remplacée sans modifier le code consommateur ni casser son contrat."
+      ],
+      [
+        "Séparer sérialisation et objets métier ; valider champs, types et version d’un document JSON.",
+        "Utiliser gestionnaires de contexte pour fermer fichiers et connexions même en cas d’erreur.",
+        "Traduire une erreur d’entrée en exception métier tout en conservant sa cause technique.",
+        "Un fichier incorrect est refusé sans création partielle d’objets incohérents."
+      ],
+      [
+        "Construire fenêtres, widgets et callbacks avec une séparation entre interface et services.",
+        "Valider une saisie, afficher un retour et empêcher une action incompatible avec l’état courant.",
+        "Comprendre la boucle d’événements et repérer un traitement long qui bloque l’interface.",
+        "La même opération métier fonctionne depuis l’interface et depuis un test sans fenêtre."
+      ],
+      [
+        "Tester invariants, erreurs et transitions avec fixtures et dépendances remplacées.",
+        "Repérer responsabilités trop larges et extraire une collaboration sans changer le comportement.",
+        "Comparer duplication, couplage et lisibilité avant/après une refonte ciblée.",
+        "Les tests de comportement restent verts après le changement de conception."
+      ]
+    ],
+    "slug": "opyt-python-programmation-objet"
+  },
+  {
+    "index": 9,
+    "overview": "Utilisez l’IA dans un cycle de développement vérifiable, puis intégrez une fonction assistée dans une application. Les exercices relient spécification, tests, relecture, appel de modèle et recherche documentaire avec contrôle des erreurs.",
+    "units": [
+      [
+        "Distinguer aide à la compréhension, génération, refactoring et décision d’architecture.",
+        "Définir quelles données de projet peuvent être fournies à l’outil et lesquelles restent exclues.",
+        "Établir une baseline manuelle et un critère de gain sur une tâche délimitée.",
+        "Le cas choisi a un résultat vérifiable et n’exige aucun secret ou dépôt privé réel."
+      ],
+      [
+        "Décrire contrat, entrées, erreurs et contraintes avant de demander une implémentation.",
+        "Fournir exemples nominaux et cas limites ; demander des tests indépendants des détails de code.",
+        "Réduire le contexte aux éléments utiles et contrôler toute dépendance proposée.",
+        "Une proposition plausible mais contraire au contrat est détectée par la recette."
+      ],
+      [
+        "Vérifier comportement avec diff, tests et analyse de la cause d’un bug avant d’accepter un correctif.",
+        "Repérer API inventée, exception masquée, injection et validation uniquement côté interface.",
+        "Refactoriser par étapes courtes en conservant des tests de comportement existants.",
+        "Le correctif traite la cause reproduite et ne se limite pas à supprimer le message d’erreur."
+      ],
+      [
+        "Construire un appel côté serveur avec timeout, budget de sortie et gestion des erreurs.",
+        "Valider une sortie structurée contre un schéma ; distinguer sortie vide, refus et JSON invalide.",
+        "Séparer données utilisateur et instructions applicatives sans donner de droits d’exécution au modèle.",
+        "Une sortie mal formée est rejetée sans action métier ni détail technique exposé."
+      ],
+      [
+        "Découper un corpus autorisé, indexer les fragments et restituer les passages retenus.",
+        "Comparer pertinence des documents récupérés et fidélité de la réponse à ces documents.",
+        "Tester absence de source et instruction malveillante dans un document du corpus.",
+        "L’assistant s’abstient quand la réponse n’est pas couverte et cite une source pertinente."
+      ],
+      [
+        "Comparer analyse d’image et extraction de texte sur des fichiers synthétiques et limités en taille.",
+        "Définir types acceptés, consentement et contrôle humain avant l’utilisation d’un résultat multimodal.",
+        "Livrer un jeu de tests couvrant nominal, erreur fournisseur, contenu hors sujet et tentative d’abus.",
+        "La fonctionnalité conserve ses limites même quand le modèle ou le fichier répond mal."
+      ]
+    ],
+    "slug": "deia-l-ia-au-service-du-developpeur-de-l-assistance-a-l-integration"
+  }
+]

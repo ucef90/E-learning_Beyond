@@ -1,0 +1,112 @@
+[
+  {
+    "index": 81,
+    "overview": "Appliquez les principes du RGPD au fonctionnement d’un centre de formation fictif. Le dossier progresse du registre aux droits, prestataires, incidents et actions de correction, avec huit cas corrigés et des modèles à adapter.",
+    "units": [
+      [
+        "Identifier données directes, indirectes et sensibles dans CRM, LMS et suivi pédagogique.",
+        "Définir finalité et opérations plutôt que recenser uniquement les logiciels.",
+        "Distinguer responsable, sous-traitant et destinataire selon les décisions réellement prises.",
+        "La cartographie relie chaque flux à une finalité et à un rôle justifié."
+      ],
+      [
+        "Comparer bases légales possibles au regard de la finalité sans choisir le consentement par défaut.",
+        "Examiner nécessité de chaque champ et remplacer une collecte excessive par une alternative.",
+        "Documenter hypothèses et conditions du choix pour le cas fictif.",
+        "Le formulaire corrigé ne collecte pas de détail médical inutile à l’aménagement."
+      ],
+      [
+        "Rédiger une information compréhensible sur finalité, base, destinataires, durée et droits.",
+        "Qualifier accès, rectification, opposition ou effacement sans promettre une réponse identique à tous les cas.",
+        "Vérifier identité de manière proportionnée et organiser délai, réponse et traçabilité.",
+        "Le traitement de la demande explique décision et limites sans divulguer les données d’un tiers."
+      ],
+      [
+        "Construire une fiche de registre avec catégories, destinataires et mesures de sécurité.",
+        "Examiner contrat de sous-traitance, sous-traitants ultérieurs et assistance aux droits.",
+        "Identifier hébergement, accès de support et transfert éventuel hors Espace économique européen.",
+        "La grille fournisseur formule les preuves manquantes et ne se satisfait pas d’un logo."
+      ],
+      [
+        "Relier contrôle d’accès, sauvegarde testée et chiffrement aux risques du traitement.",
+        "Définir conservation par catégorie, événement déclencheur et justification à valider.",
+        "Examiner critères d’AIPD et alternatives moins intrusives avant un traitement à risque.",
+        "La durée proposée possède une justification ; elle n’est pas attribuée au RGPD par défaut."
+      ],
+      [
+        "Qualifier confidentialité, intégrité et disponibilité dans une violation fictive.",
+        "Établir chronologie, données affectées, conséquences et mesures de limitation.",
+        "Examiner notification à l’autorité et information des personnes selon les conditions applicables.",
+        "La fiche justifie la décision de notification et conserve les informations encore incertaines."
+      ],
+      [
+        "Distinguer traceur nécessaire et usage soumis à consentement selon sa finalité.",
+        "Examiner prospection et opposition en fonction du canal et du contexte.",
+        "Cartographier données envoyées à un outil d’IA, conservation et accès du fournisseur.",
+        "Le scénario limite les données et ne confond pas absence d’entraînement et absence de traitement."
+      ],
+      [
+        "Assembler registre, notice, demande de droits, incident et grille fournisseur du cas.",
+        "Prioriser écarts avec responsable, preuve attendue et échéance.",
+        "Justifier les choix à partir des sources et reconnaître le besoin d’un avis spécialisé.",
+        "La soutenance distingue document préparé, procédure appliquée et conformité restant à vérifier."
+      ]
+    ],
+    "slug": "rgpd-protection-donnees-pratique"
+  },
+  {
+    "index": 82,
+    "overview": "Décidez comment encadrer des usages d’IA dans une organisation. Le parcours combine qualification, calendrier, transparence, supervision et fournisseurs dans un dossier de décision, avec huit cas corrigés et un quiz formatif.",
+    "units": [
+      [
+        "Distinguer modèle, système, destination et contexte d’utilisation.",
+        "Observer erreur plausible, variabilité et limites d’un assistant documentaire.",
+        "Comparer assistance à la rédaction et décision affectant une personne.",
+        "La qualification se fonde sur l’usage et ses effets plutôt que sur la seule technologie."
+      ],
+      [
+        "Décrire fournisseur, déployeur, importateur ou distributeur selon les faits du scénario.",
+        "Examiner changement de destination et modification substantielle.",
+        "Vérifier calendrier officiel et dispositions transitoires en conservant source et date de revue.",
+        "Le calendrier ne transpose pas toutes les obligations d’un fournisseur au simple utilisateur."
+      ],
+      [
+        "Examiner pratiques interdites et critères de haut risque sur plusieurs usages de formation.",
+        "Distinguer chatbot catalogue, classement des candidatures et analyse d’émotions.",
+        "Documenter classification, information manquante et décision d’escalade.",
+        "La fiche ne traite pas tous les outils d’IA comme appartenant à une catégorie unique."
+      ],
+      [
+        "Informer clairement une personne lorsqu’elle interagit avec un assistant IA.",
+        "Distinguer obligations liées aux interactions, aux contenus synthétiques et aux rôles concernés.",
+        "Examiner limites et exceptions à partir du texte applicable plutôt qu’un label universel.",
+        "Le message d’accueil explique fonction, limites et accès à un interlocuteur humain."
+      ],
+      [
+        "Définir corpus autorisé, tests représentatifs et critères de rejet d’une réponse.",
+        "Prévoir contrôle humain avec temps, compétence et pouvoir effectif d’interrompre.",
+        "Tester fausse date, promesse de financement et question sans source.",
+        "Une réponse commerciale non couverte est refusée ou renvoyée au centre."
+      ],
+      [
+        "Cartographier prompts, fichiers, résultats, traces et accès de support.",
+        "Examiner garanties contractuelles, transferts et suppression selon les rôles RGPD.",
+        "Distinguer AIPD et analyse d’impact sur les droits fondamentaux de l’AI Act.",
+        "Le dossier vérifie séparément l’applicabilité de chaque analyse."
+      ],
+      [
+        "Rédiger usages permis, données exclues, vérification et circuit d’incident.",
+        "Adapter la maîtrise de l’IA aux métiers, responsabilités et risques.",
+        "Planifier actualisation des compétences et des règles lors d’une évolution d’usage.",
+        "La charte permet à un collaborateur de décider quoi faire sur un cas concret."
+      ],
+      [
+        "Assembler inventaire, classification, tests, charte et réserves dans une décision motivée.",
+        "Comparer refus, autorisation sous conditions et décision différée.",
+        "Distinguer attestation pédagogique, certification et conformité d’un système.",
+        "Le dossier ne promet aucune certification officielle ni conformité automatique après la formation."
+      ]
+    ],
+    "slug": "ai-act-maitrise-ia-gouvernance"
+  }
+]

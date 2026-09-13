@@ -62,10 +62,10 @@ export default function Page() {
           Les quiz formatifs sont à livre ouvert.
         </p>
         <p>
-          Les supports ont été rédigés avec assistance d’IA à partir de
-          références officielles consultées le 12 septembre 2026. Leur
-          validation pédagogique par le formateur et leur adaptation à votre
-          contexte restent à réaliser avant animation.
+          Les supports pédagogiques s’appuient sur des références officielles
+          consultées le 12 septembre 2026. Leur validation pédagogique par le
+          formateur et leur adaptation à votre contexte restent à réaliser avant
+          animation.
         </p>
         <Link href="/positionnement">Préparer mon parcours avec le centre</Link>
       </QualityCard>

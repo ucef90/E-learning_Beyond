@@ -1,0 +1,217 @@
+[
+  {
+    "index": 29,
+    "overview": "Améliorez vos échanges professionnels à partir de situations observables. Les mises en pratique travaillent écoute, formulation, désaccord et feedback avec une grille de retour centrée sur les comportements, sans étiquette de personnalité.",
+    "units": [
+      [
+        "Décrire une situation avec faits, paroles et effets plutôt qu’un jugement sur la personne.",
+        "Repérer ses habitudes d’interruption, d’explication ou de retrait dans un échange.",
+        "Distinguer intention du message et effet perçu par le destinataire.",
+        "Le récit d’une interaction sépare observation et interprétation."
+      ],
+      [
+        "Employer question ouverte, relance et reformulation pour clarifier un besoin.",
+        "Vérifier le sens d’un mot ambigu avant de proposer une solution.",
+        "Résumer ce qui est compris et laisser l’interlocuteur corriger.",
+        "La reformulation est validée par l’interlocuteur sans ajouter une intention supposée."
+      ],
+      [
+        "Annoncer objet, message principal et action attendue dès le début.",
+        "Choisir un exemple pertinent et limiter les détails selon le destinataire.",
+        "Vérifier compréhension et accord sur la prochaine étape.",
+        "Le destinataire peut reformuler la demande et son échéance."
+      ],
+      [
+        "Structurer objet, contexte utile, demande et délai dans un message professionnel.",
+        "Distinguer information, décision et action dans un compte rendu.",
+        "Relire implicites, termes vagues et ton avant envoi.",
+        "Le message ne nécessite pas une relance pour savoir qui doit faire quoi."
+      ],
+      [
+        "Décrire un comportement et son impact sans accusation globale.",
+        "Exprimer besoin et demande réalisable ; distinguer désaccord et attaque personnelle.",
+        "Recevoir un retour, demander un exemple et convenir d’un ajustement.",
+        "Le dialogue aboutit à une action observable ou à un désaccord clairement formulé."
+      ],
+      [
+        "Choisir deux situations récurrentes et un comportement à expérimenter dans chacune.",
+        "Définir un indicateur simple : clarification obtenue, engagement compris ou malentendu résolu.",
+        "Prévoir retour d’un pair et ajustement de la pratique.",
+        "Le plan décrit quand agir et comment constater une amélioration."
+      ]
+    ],
+    "slug": "edcf-savoir-communiquer-avec-les-autres"
+  },
+  {
+    "index": 30,
+    "overview": "Comprenez comment se prennent les décisions dans une organisation et développez une influence responsable. Le cas pratique relie parties prenantes, intérêts, argumentation et coopération sans manipulation ni promesse de contrôle sur autrui.",
+    "units": [
+      [
+        "Distinguer décideur formel, contributeur, expert et personne influente sur un dossier.",
+        "Observer circuits d’information, arbitrages et moments de décision.",
+        "Construire une carte d’acteurs à partir de faits et d’hypothèses explicitement séparés.",
+        "La carte indique ce qui est connu et ce qui doit être vérifié."
+      ],
+      [
+        "Identifier objectifs, contraintes, risques perçus et critères de réussite de chaque acteur.",
+        "Confronter une hypothèse d’intérêt par des questions ouvertes.",
+        "Repérer convergences et tensions sans attribuer de motivation cachée comme certitude.",
+        "L’analyse peut être corrigée par de nouvelles informations."
+      ],
+      [
+        "Relier sa proposition aux priorités documentées de l’organisation.",
+        "Préparer options, conséquences et concessions acceptables avant un échange.",
+        "Adapter argument et niveau de détail au rôle de l’interlocuteur.",
+        "La proposition explique le bénéfice collectif et ses coûts réels."
+      ],
+      [
+        "Préparer un entretien de coopération avec contribution possible et attente explicite.",
+        "Partager une information utile sans rétention stratégique trompeuse.",
+        "Entretenir les relations au-delà d’une demande ponctuelle.",
+        "L’échange aboutit à une contribution ou un engagement réciproque précis."
+      ],
+      [
+        "Distinguer objection de fond, contrainte de calendrier et absence d’information.",
+        "Reformuler l’objection avant d’y répondre avec faits et options.",
+        "Savoir reconnaître une limite et demander un arbitrage légitime.",
+        "La réponse traite l’objection réelle sans contourner ni discréditer la personne."
+      ],
+      [
+        "Définir limites éthiques, sujets non négociables et règles de confidentialité.",
+        "Suivre engagements pris et effets de ses interventions sur la coopération.",
+        "Construire un plan d’influence avec étapes et critères de révision.",
+        "Le plan reste explicable publiquement et respecte les engagements pris."
+      ]
+    ],
+    "slug": "dssp-developper-son-sens-politique"
+  },
+  {
+    "index": 31,
+    "overview": "Construisez une intervention de sept minutes qui mène à une décision claire. Vous travaillez angle, preuves, rythme et réponses aux objections, puis présentez votre intervention avec un retour structuré.",
+    "units": [
+      [
+        "Définir décision ou action attendue à l’issue des sept minutes.",
+        "Identifier connaissances, préoccupations et pouvoir de décision de l’auditoire.",
+        "Formuler une idée centrale en une phrase sans empiler les objectifs.",
+        "Le résultat attendu est concret et adapté à l’auditoire."
+      ],
+      [
+        "Choisir une entrée par problème, fait ou situation directement liée au sujet.",
+        "Éviter chiffre invérifiable et accroche spectaculaire sans rapport avec la décision.",
+        "Annoncer l’enjeu et le chemin de l’intervention en peu de temps.",
+        "L’ouverture rend compréhensible pourquoi le sujet concerne les participants."
+      ],
+      [
+        "Organiser deux ou trois arguments avec preuve et conséquence métier.",
+        "Séparer fait, hypothèse et opinion ; préparer les sources des chiffres utilisés.",
+        "Prévoir une conclusion demandant une action réaliste.",
+        "Chaque argument soutient la décision visée et possède une preuve identifiable."
+      ],
+      [
+        "Chronométrer les parties, prévoir pauses et supprimer les digressions.",
+        "Travailler débit, articulation, regard et posture sans imiter un style imposé.",
+        "Utiliser un support visuel seulement s’il aide la compréhension.",
+        "L’intervention respecte sept minutes avec une conclusion audible et complète."
+      ],
+      [
+        "Préparer les objections probables sur coût, risque, faisabilité et priorité.",
+        "Reformuler une question, répondre brièvement et reconnaître une information manquante.",
+        "Distinguer réponse immédiate et suivi à convenir après l’intervention.",
+        "Une objection difficile reçoit une réponse honnête sans déstabiliser le message principal."
+      ],
+      [
+        "Présenter devant le groupe avec grille sur clarté, preuves, rythme et demande finale.",
+        "Comparer autoévaluation et retours observables des participants.",
+        "Réviser une partie puis mesurer l’effet de la modification.",
+        "La seconde version corrige un point précis identifié lors de la première présentation."
+      ]
+    ],
+    "slug": "conv-7-minutes-pour-convaincre"
+  },
+  {
+    "index": 32,
+    "overview": "Mieux connaître ses façons de travailler pour choisir des actions de développement utiles. Les ateliers s’appuient sur des expériences concrètes et des retours observables, sans diagnostic psychologique ni profil figé.",
+    "units": [
+      [
+        "Décrire une réussite par contexte, actions personnelles, appuis et résultat.",
+        "Distinguer compétence mobilisée, chance et conditions favorables.",
+        "Repérer des comportements transférables à une autre situation professionnelle.",
+        "La compétence identifiée s’appuie sur un exemple observable."
+      ],
+      [
+        "Clarifier besoins de travail, valeurs et critères de choix dans une situation donnée.",
+        "Distinguer préférence personnelle et exigence du rôle professionnel.",
+        "Analyser une tension entre deux priorités sans chercher une réponse universelle.",
+        "Le choix est expliqué par les contraintes et priorités du cas."
+      ],
+      [
+        "Demander un retour sur un comportement précis plutôt qu’un jugement général.",
+        "Écouter l’exemple fourni, clarifier et comparer plusieurs observations.",
+        "Distinguer perception reçue et identité personnelle.",
+        "Le retour est traduit en comportement à conserver ou à expérimenter."
+      ],
+      [
+        "Identifier conditions facilitant coopération, concentration et prise de décision.",
+        "Exprimer un besoin de fonctionnement de manière négociable.",
+        "Tester un ajustement avec un collègue au lieu de lui attribuer un profil.",
+        "L’accord décrit une façon de travailler observable par les deux personnes."
+      ],
+      [
+        "Choisir une force utile à un défi réel et identifier le risque de son usage excessif.",
+        "Prévoir soutien, ressource ou apprentissage complémentaire.",
+        "Transformer une difficulté vague en situation de travail concrète.",
+        "L’action mobilise un point d’appui sans nier la compétence à développer."
+      ],
+      [
+        "Définir objectif, petit pas, situation d’essai et signe de progrès.",
+        "Planifier un bilan avec questions de retour et possibilité de réviser l’objectif.",
+        "Séparer ce qui dépend de soi et ce qui nécessite un accord de l’environnement.",
+        "Le plan contient une première action réalisable et une date de bilan."
+      ]
+    ],
+    "slug": "acds-ateliers-connaissance-de-soi-bien-se-connaitre-pour-reussir"
+  },
+  {
+    "index": 33,
+    "overview": "Travaillez des façons de gérer une montée de tension dans les échanges professionnels. Les exercices privilégient recul, expression du désaccord et prévention ; ils ne remplacent pas un accompagnement de santé lorsqu’il est nécessaire.",
+    "units": [
+      [
+        "Identifier faits déclencheurs, pensées, sensations et réactions dans une situation de travail.",
+        "Distinguer émotion ressentie et comportement adopté face à elle.",
+        "Repérer les premiers signaux personnels avant l’escalade verbale.",
+        "Le participant décrit sa séquence de réaction sans en faire un diagnostic."
+      ],
+      [
+        "Expérimenter pause, respiration confortable et changement temporaire d’attention.",
+        "Préparer une phrase permettant de différer un échange sans abandonner le sujet.",
+        "Choisir une stratégie compatible avec le contexte et ses limites personnelles.",
+        "La stratégie crée un délai avant une réponse impulsive dans la simulation."
+      ],
+      [
+        "Décrire faits et impact puis exprimer besoin et demande concrète.",
+        "Retirer généralisations, menaces et procès d’intention d’une formulation.",
+        "Maintenir une limite ferme tout en respectant l’interlocuteur.",
+        "Le désaccord porte sur le problème et contient une demande réalisable."
+      ],
+      [
+        "Écouter sans valider une agression ; distinguer apaisement et acceptation du comportement.",
+        "Reformuler le sujet, rappeler le cadre et proposer une reprise de l’échange.",
+        "Savoir interrompre et solliciter un relais si la situation devient menaçante.",
+        "La simulation prévoit une limite et un recours plutôt qu’une confrontation prolongée."
+      ],
+      [
+        "Revenir sur les faits après l’apaisement et reconnaître sa part de comportement.",
+        "Clarifier ce qui doit être réparé et les règles pour la prochaine interaction.",
+        "Repérer surcharge, ambiguïté et organisation du travail parmi les facteurs répétitifs.",
+        "L’accord de prévention traite un facteur concret de répétition."
+      ],
+      [
+        "Choisir une situation d’entraînement progressive et une personne ressource.",
+        "Noter déclencheur, réponse essayée et effet sans rechercher une maîtrise parfaite.",
+        "Identifier les situations où demander un accompagnement approprié.",
+        "Le plan reste réaliste et prévoit de l’aide lorsque les difficultés dépassent l’atelier."
+      ]
+    ],
+    "slug": "pmai-apprivoiser-sa-colere-et-sa-nervosite"
+  }
+]

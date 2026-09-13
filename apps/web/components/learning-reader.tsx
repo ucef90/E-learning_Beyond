@@ -131,7 +131,7 @@ export default function Reader({
             Support intégral et sources officielles
           </a>
           <a
-            href={"/reglementation/" + regulatoryCode + "-modeles.md"}
+            href={"/reglementation/" + regulatoryCode + "-modeles.pdf"}
             download
           >
             Télécharger mon carnet de travail

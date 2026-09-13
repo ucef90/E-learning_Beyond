@@ -47,7 +47,9 @@ export default async function TrainingDetailPage({
           <header className="detail-intro">
             <span className="detail-category">{t.category}</span>
             <h1 className="section-title training-detail-title">{t.title}</h1>
-            <p className="detail-description">{t.summary}</p>
+            <p className="detail-description">
+              {programme?.overview || t.summary}
+            </p>
             <div className="training-kpis">
               <span className="training-kpi">
                 <Clock3 size={17} aria-hidden="true" />
@@ -83,12 +85,18 @@ export default async function TrainingDetailPage({
             <div className="detail-audience">
               <section>
                 <h2>Pour qui ?</h2>
-                <p>{t.audience || "Public à préciser avec le centre."}</p>
+                <p>
+                  {programme?.audience ||
+                    t.audience ||
+                    "Public à préciser avec le centre."}
+                </p>
               </section>
               <section>
                 <h2>Prérequis</h2>
                 <p>
-                  {t.prerequisites || "Prérequis à préciser avec le centre."}
+                  {programme?.prerequisites ||
+                    t.prerequisites ||
+                    "Prérequis à préciser avec le centre."}
                 </p>
               </section>
             </div>

@@ -91,20 +91,42 @@ async function main() {
       }
       assert.equal(
         $("#programme a[download]").attr("href"),
-        `/programmes/${t.slug}.md`,
+        `/programmes/${t.slug}.pdf`,
       );
       assert(!$("main").text().includes("détaillé reste à rédiger"));
-      const download = await fetch(`${web}/programmes/${t.slug}.md`);
-      assert.equal(download.status, 200, `Téléchargement : ${t.slug}`);
       assert.equal(
-        await download.text(),
+        $(".programme-depth li").length,
+        expected.modules.length * 3,
+        t.slug,
+      );
+      assert.equal(
+        $(".programme-check").length,
+        expected.modules.length,
+        t.slug,
+      );
+      for (const m of expected.modules) {
+        for (const point of m.technicalDetails)
+          assert($("#programme").text().includes(point), t.slug);
+        assert($("#programme").text().includes(m.practicalCheck), t.slug);
+      }
+      assert.equal($(".detail-description").text(), expected.overview);
+      assert.equal($('a[href$=".md"]').length, 0);
+      const legacy = await fetch(web + "/programmes/" + t.slug + ".md", {
+        redirect: "manual",
+      });
+      assert.equal(legacy.status, 308, t.slug);
+      assert(legacy.headers.get("location").endsWith(t.slug + ".pdf"));
+      const download = await fetch(`${web}/programmes/${t.slug}.pdf`);
+      assert.equal(download.status, 200, `Téléchargement : ${t.slug}`);
+      assert(download.headers.get("content-type").includes("application/pdf"));
+      assert.deepEqual(
+        Buffer.from(await download.arrayBuffer()),
         fs.readFileSync(
           path.resolve(
             __dirname,
             "../apps/web/public/programmes",
-            `${t.slug}.md`,
+            `${t.slug}.pdf`,
           ),
-          "utf8",
         ),
       );
       results.push({

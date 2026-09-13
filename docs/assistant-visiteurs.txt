@@ -1,0 +1,31 @@
+ASSISTANT VISITEURS — version locale du 13 septembre 2026
+
+Périmètre
+Assistant IA Beyond Expertise, disponible sur les pages publiques. Orienter dans le catalogue, expliquer les programmes et les informations publiques du centre. Aucun accès aux comptes, aux notes, aux dossiers clients ou aux variables d'environnement. Aucune action métier et aucun outil d'exécution.
+
+Fonctionnement
+POST /api/v1/assistant/ask, public et validé côté serveur. 1 000 caractères maximum, slug de contexte facultatif et jusqu'à trois slugs de suivi. Champs supplémentaires refusés. Les demandes sensibles, de provenance ou hors sujet sont réorientées.
+Le modèle local interprète l'intention et propose quelques termes de recherche ; son texte libre n'est jamais publié comme une réponse. Le serveur compose les réponses depuis data/visitor-knowledge.json et des informations pratiques relues. Les liens sont construits depuis les slugs autorisés.
+Ce choix préserve les tarifs, statuts et limites du site même si le modèle retourne une instruction ou un résultat inventé.
+
+Moteur du pilote
+Ollama local, qwen2.5:3b déjà installé sur le PC. API liée à 127.0.0.1:11434. Aucun téléchargement de modèle effectué.
+VISITOR_AI_URL peut changer le port de l'inférence, mais seuls localhost, 127.0.0.1 et ::1 en HTTP sont acceptés dans ce pilote.
+VISITOR_AI_MODEL permet de sélectionner un modèle local installé ; valeur par défaut qwen2.5:3b.
+Timeout serveur 25 secondes, sortie structurée limitée, deux inférences simultanées. Le démarrage à froid peut être plus lent ; une recherche factuelle de secours est alors signalée dans l'interface.
+Le lanceur Demarrer-E-learning.ps1 démarre le moteur installé avec liaison locale et cloud désactivé lorsqu'il n'est pas déjà actif.
+
+Données et protection
+Pas de table de conversations. Pas de persistance des messages dans le navigateur. Historique limité en mémoire à la conversation récente ; réinitialisation et rechargement l'effacent.
+Compteur temporaire de 12 demandes/minute par adresse réseau, 2 000 entrées maximum, expiration après une minute. Aucun contenu de message dans ce compteur.
+Pas de confiance dans un X-Forwarded-For fourni par le visiteur. Pas d'envoi de cookies de connexion par le widget. Requêtes d'origine tierce refusées.
+Le modèle ne reçoit que la question et un titre public de contexte. Les coordonnées évidentes sont refusées avant inférence ; cette détection ne remplace pas la consigne de ne pas envoyer de données personnelles.
+Avant un hébergement réel : vérifier capacité, politique de conservation, information juridique, contrats, sécurité du proxy et conditions d'utilisation du moteur effectivement retenu. Aucune conformité globale n'est certifiée par ce logiciel.
+
+Maintenance
+node scripts/deepen-programmes.cjs : compile les textes, vérifie le catalogue et reconstruit le snapshot public.
+node scripts/build-visitor-knowledge.cjs : reconstruit uniquement le snapshot.
+Redémarrer l'API après une mise à jour du snapshot.
+node scripts/test-visitor-assistant.cjs : tests déterministes des protections, contexte, limites et panne.
+node scripts/test-visitor-assistant.cjs --integration : ajoute validation HTTP et inférence réelle du moteur local.
+Les pages /transparence-ia et /confidentialite décrivent le fonctionnement visible.

@@ -1,0 +1,174 @@
+[
+  {
+    "index": 25,
+    "overview": "Préparez une migration de Java 11 vers Java 17 et modernisez le code là où cela améliore sa lisibilité. Le fil rouge couvre compatibilité, nouvelles constructions du langage, tests et procédure de basculement.",
+    "units": [
+      [
+        "Inventorier JDK, dépendances, plugins de build et options JVM du projet de référence.",
+        "Séparer compatibilité source, binaire et comportement à l’exécution.",
+        "Repérer utilisation d’API internes et accès réflexifs affectés par l’encapsulation renforcée.",
+        "Le diagnostic produit une liste d’écarts reproductibles et non une simple montée de version."
+      ],
+      [
+        "Utiliser expressions switch avec valeurs de retour et branches exhaustives adaptées au cas.",
+        "Employer text blocks en vérifiant indentation et contenu réel de la chaîne.",
+        "Comparer avant/après sur lisibilité et couverture des branches.",
+        "La modernisation conserve les valeurs exactes et tous les cas métier testés."
+      ],
+      [
+        "Définir un record pour une donnée immutable dans sa structure et examiner la mutabilité de ses composants.",
+        "Construire une hiérarchie sealed avec sous-types autorisés et responsabilités cohérentes.",
+        "Distinguer objet de données et entité à identité ou cycle de vie mutable.",
+        "Le choix du record ou du type scellé répond au modèle du domaine."
+      ],
+      [
+        "Utiliser pattern matching pour instanceof sans mélanger fonctionnalités de préversion et fonctionnalités finalisées.",
+        "Vérifier les changements de bibliothèques réellement utilisés par le projet.",
+        "Retirer contournements devenus inutiles après validation de la compatibilité.",
+        "Le code cible compile avec la version annoncée sans activer de préversion non prévue."
+      ],
+      [
+        "Comparer démarrage, mémoire et latence avec charge et configuration documentées.",
+        "Examiner logs JVM et comportement du ramasse-miettes avant de modifier les options.",
+        "Exécuter tests unitaires, intégration et parcours sensibles sur les deux environnements.",
+        "Un écart de mesure est analysé avant d’être attribué à la nouvelle version du JDK."
+      ],
+      [
+        "Préparer image d’exécution, chaîne CI et documentation des versions supportées.",
+        "Définir critères de bascule et procédure de retour à l’environnement précédent.",
+        "Recetter erreurs, encodage et intégrations externes à partir du dossier de migration.",
+        "Le dossier comporte une preuve de build, de recette et de retour arrière."
+      ]
+    ],
+    "slug": "jn117-actualisation-de-java-11-a-java-17"
+  },
+  {
+    "index": 26,
+    "overview": "Construisez une API Spring Boot maintenable et prête à être exploitée. Vous reliez configuration, validation, transactions, autorisations et tests à un parcours métier dont les erreurs sont traitées explicitement.",
+    "units": [
+      [
+        "Comprendre auto-configuration, composants détectés et injection par constructeur.",
+        "Organiser properties ou YAML par profil avec priorité de configuration explicitée.",
+        "Examiner dépendances de starters et diagnostic d’un bean absent ou ambigu.",
+        "La configuration effective est expliquée sans exposer de valeur sensible."
+      ],
+      [
+        "Définir ressources, statuts HTTP, pagination et DTO distincts du modèle persistant.",
+        "Valider les entrées et centraliser les erreurs avec un contrat de réponse stable.",
+        "Tester ressource absente, paramètre invalide et conflit métier.",
+        "Chaque cas reçoit un statut et un message cohérents avec le contrat annoncé."
+      ],
+      [
+        "Définir entités, identifiants, associations et frontières de transaction.",
+        "Comparer chargement lazy et fetch ciblé ; repérer un N+1 sur une requête de liste.",
+        "Ajouter contraintes et stratégie de migration de schéma sur la base d’exercice.",
+        "Les lectures évitent les requêtes répétées et les écritures restent atomiques."
+      ],
+      [
+        "Distinguer authentication, rôles et autorisation sur une ressource appartenant à un utilisateur.",
+        "Examiner filtrage des requêtes et protection CSRF selon le mode de session retenu.",
+        "Vérifier les opérations directement par HTTP sans se fier aux boutons affichés.",
+        "Un utilisateur fictif ne peut pas modifier la ressource d’un autre utilisateur."
+      ],
+      [
+        "Isoler services et dépendances dans les tests unitaires avec comportements attendus.",
+        "Comparer tests de contrôleur, de repository et d’intégration complète.",
+        "Préparer données de test et cas de régression sur validation et autorisations.",
+        "Une rupture de règle métier ou de contrôle d’accès déclenche un test précis."
+      ],
+      [
+        "Configurer santé, logs structurés et métriques utiles sans publier d’informations internes.",
+        "Distinguer disponibilité du processus et capacité à traiter une requête.",
+        "Préparer paquet, configuration externe, arrêt propre et rollback documenté.",
+        "La recette inclut une dépendance indisponible et un redémarrage contrôlé."
+      ]
+    ],
+    "slug": "jdsb-spring-boot-accelerez-vos-developpements-avec-spring-boot"
+  },
+  {
+    "index": 27,
+    "overview": "Établissez un cadre d’usage de l’IA générative applicable au quotidien. Produisez inventaire, règles d’utilisation, responsabilités et dispositif de contrôle, puis organisez leur déploiement dans les équipes.",
+    "units": [
+      [
+        "Décrire finalité, utilisateurs, données, outils et conséquence d’erreur pour chaque usage.",
+        "Distinguer outil autorisé et usage autorisé d’un même outil.",
+        "Classer les situations selon besoin de relecture, d’approbation ou d’interdiction interne.",
+        "L’inventaire permet de décider sur un usage concret et non sur une marque seule."
+      ],
+      [
+        "Examiner protection des données, confidentialité, droits d’auteur et obligations IA pertinentes.",
+        "Qualifier rôle de l’organisme et vérifier les sources applicables à la date du projet.",
+        "Repérer usages affectant accès, emploi ou évaluation nécessitant une analyse particulière.",
+        "Les exigences retenues sont reliées au contexte et les questions non résolues sont signalées."
+      ],
+      [
+        "Attribuer décisions aux métiers, sécurité, données, juridique et direction.",
+        "Définir circuit d’acceptation, durée de validité et renouvellement d’un usage.",
+        "Organiser exceptions et escalades avec une décision traçable.",
+        "Une demande atypique possède un décideur et des critères d’examen identifiés."
+      ],
+      [
+        "Rédiger règles compréhensibles sur données saisies, partage, vérification et engagements externes.",
+        "Ajouter exemples autorisés et interdits adaptés aux métiers concernés.",
+        "Distinguer règle obligatoire, conseil et procédure de demande d’aide.",
+        "Un salarié peut décider quoi faire à partir d’un exemple de sa propre activité."
+      ],
+      [
+        "Définir échantillonnage des sorties, suivi d’erreurs et contrôle des accès.",
+        "Préparer signalement d’incident et suspension d’un usage sans conserver inutilement les conversations.",
+        "Mesurer qualité et charge de supervision, pas seulement nombre d’utilisateurs.",
+        "Le contrôle recueille des preuves proportionnées et déclenche une action en cas d’écart."
+      ],
+      [
+        "Construire un plan de sensibilisation et de maîtrise de l’IA par rôle.",
+        "Déployer sur un périmètre pilote puis réviser règles et supports à partir des retours.",
+        "Prévoir veille et mise à jour lors d’un changement de fournisseur ou de finalité.",
+        "Le dispositif comprend responsables, échéances et conditions de réexamen."
+      ]
+    ],
+    "slug": "iage-piloter-et-encadrer-l-ia-generative-en-entreprise"
+  },
+  {
+    "index": 28,
+    "overview": "Travaillez avec ChatGPT sur des documents et demandes métier vérifiables. Apprenez à formuler, comparer et contrôler les réponses, puis à définir un chatbot documentaire limité à un périmètre explicite.",
+    "units": [
+      [
+        "Comparer rédaction, explication, extraction et recherche selon les fonctions disponibles dans l’offre utilisée.",
+        "Distinguer réponse plausible, source vérifiée et information absente.",
+        "Définir les données exclues des exercices et la responsabilité de relecture.",
+        "Le participant repère une réponse convaincante qui ne repose sur aucune preuve."
+      ],
+      [
+        "Spécifier but, destinataire, contexte autorisé et format de sortie.",
+        "Tester une consigne ambiguë puis ajouter critères et exemples utiles.",
+        "Demander une clarification quand les éléments nécessaires manquent.",
+        "Le prompt produit une sortie pouvant être acceptée ou corrigée avec des critères explicites."
+      ],
+      [
+        "Conserver nombres, conditions et nuances lors d’une synthèse de document.",
+        "Adapter ton et structure sans inventer de fait ou de référence.",
+        "Comparer original et sortie sur omissions, ajouts et interprétations.",
+        "Une information absente de la source n’est pas présentée comme un fait établi."
+      ],
+      [
+        "Définir colonnes, unités et question analytique avant de demander une lecture de tableau.",
+        "Vérifier formules, agrégats et dénominateurs avec un calcul indépendant.",
+        "Repérer données manquantes et graphiques trompeurs dans la restitution.",
+        "Les chiffres essentiels sont recalculés et le périmètre d’analyse est conservé."
+      ],
+      [
+        "Définir rôle, corpus autorisé, questions couvertes et motifs de transfert au centre.",
+        "Tester question sans réponse, contradiction documentaire et tentative de changement de consigne.",
+        "Prévoir liens vers les sources et mécanisme de correction des informations.",
+        "Le chatbot refuse ou escalade une demande qui sort de son périmètre."
+      ],
+      [
+        "Constituer une bibliothèque de demandes avec exemples, limites et responsable.",
+        "Évaluer stabilité, qualité et temps de relecture sur plusieurs cas.",
+        "Réexaminer les usages lors d’un changement de version ou de politique de données.",
+        "Le bilan compare le gain obtenu avec les corrections et risques observés."
+      ]
+    ],
+    "slug": "gptp-chatgpt-par-la-pratique-ia-generative-prompt-engineering-et-chatbot"
+  }
+]

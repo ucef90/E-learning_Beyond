@@ -35,11 +35,11 @@ export function DetailedProgrammeContent({
         </div>
         <a
           className="programme-download"
-          href={`/programmes/${p.slug}.md`}
+          href={`/programmes/${p.slug}.pdf`}
           download
         >
           <ArrowDownToLine size={18} aria-hidden="true" /> Télécharger le
-          programme (.md)
+          programme (PDF)
         </a>
       </div>
       <div className="programme-case">
@@ -98,6 +98,16 @@ export function DetailedProgrammeContent({
                       <li key={topic}>{topic}</li>
                     ))}
                   </ul>
+                  {m.technicalDetails && (
+                    <div className="programme-depth">
+                      <h5>Notions et méthodes en détail</h5>
+                      <ul>
+                        {m.technicalDetails.map((point) => (
+                          <li key={point}>{point}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                   <div className="programme-practice">
                     <p className="programme-workshop">
                       <strong>Atelier prévu</strong>
@@ -113,6 +123,12 @@ export function DetailedProgrammeContent({
                       </p>
                     )}
                   </div>
+                  {m.practicalCheck && (
+                    <p className="programme-check">
+                      <strong>Vérification en atelier</strong>
+                      {m.practicalCheck}
+                    </p>
+                  )}
                   {m.expertChallenge && (
                     <div className="programme-challenge">
                       <span>Pour aller plus loin</span>

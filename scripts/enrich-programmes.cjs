@@ -42,3 +42,5 @@ require("./validate-programmes.cjs").loadProgrammes();
 console.log(
   JSON.stringify({ programmes: entries.length, enrichedSequences: sequences }),
 );
+
+require("./deepen-programmes.cjs");

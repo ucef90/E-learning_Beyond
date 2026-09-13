@@ -1,0 +1,188 @@
+[
+  {
+    "index": 56,
+    "overview": "Modélisez un processus métier pour comprendre ses ruptures et concevoir une cible réaliste. Les ateliers relient acteurs, flux, exceptions, règles et critères de recette dans un dossier utilisable par les équipes.",
+    "units": [
+      [
+        "Définir événement de départ, résultat final, client du processus et frontières.",
+        "Identifier acteurs, entrées, sorties et règles avec une vue de type SIPOC.",
+        "Distinguer processus observé et procédure prescrite.",
+        "Le périmètre exclut clairement les activités qui appartiennent à un autre processus."
+      ],
+      [
+        "Représenter tâches, événements, décisions et couloirs avec une notation cohérente.",
+        "Distinguer flux de séquence et échange entre acteurs lorsque BPMN est utilisé.",
+        "Documenter variantes, retours et exceptions observées.",
+        "Le modèle peut être parcouru sur un cas nominal et un cas d’exception."
+      ],
+      [
+        "Repérer attente, ressaisie, contrôle redondant et rupture de responsabilité.",
+        "Rechercher causes et contraintes avant de proposer une automatisation.",
+        "Comparer options de cible avec impact sur acteurs, données et contrôles.",
+        "La cible traite un irritant identifié sans déplacer le problème vers un autre acteur."
+      ],
+      [
+        "Faire relire le modèle par les acteurs concernés et traiter les désaccords.",
+        "Définir règles, scénarios de recette et indicateurs de fonctionnement.",
+        "Préparer transition, communication et points de vigilance opérationnels.",
+        "Le dossier permet de vérifier que le nouveau processus produit le résultat attendu."
+      ]
+    ],
+    "slug": "business-analyst-modelisation-des-processus"
+  },
+  {
+    "index": 57,
+    "overview": "Transformez des demandes divergentes en besoins cadrés et exigences vérifiables. Le cas fil rouge couvre entretiens, ateliers, critères d’acceptation, priorisation et traçabilité jusqu’à la validation du périmètre.",
+    "units": [
+      [
+        "Distinguer symptôme, problème, besoin et solution demandée.",
+        "Cartographier utilisateurs, décideurs, experts et contraintes du projet.",
+        "Définir objectifs mesurables et questions encore ouvertes.",
+        "Le cadrage permet de discuter plusieurs solutions au même besoin."
+      ],
+      [
+        "Préparer entretien avec questions ouvertes, exemples et situations d’exception.",
+        "Animer un atelier confrontant besoins exprimés et pratique observée.",
+        "Documenter contradictions et sources plutôt que chercher un faux consensus immédiat.",
+        "Chaque besoin important a un contexte, une source et un exemple concret."
+      ],
+      [
+        "Rédiger exigence univoque avec acteur, comportement et résultat attendu.",
+        "Séparer exigences fonctionnelles et qualité de service mesurable.",
+        "Construire critères d’acceptation nominaux, limites et erreurs.",
+        "Une personne extérieure peut déterminer si l’exigence est satisfaite."
+      ],
+      [
+        "Prioriser valeur, risque, dépendance et coût de report.",
+        "Tracer objectif, besoin, exigence et scénario de recette.",
+        "Définir responsable de validation et traitement d’une demande de changement.",
+        "Le périmètre validé conserve ses exclusions et son historique de décision."
+      ]
+    ],
+    "slug": "business-analyst-cadrage-des-besoins"
+  },
+  {
+    "index": 58,
+    "overview": "Améliorez le flux d’une équipe produit ou support avec Kanban. Les simulations rendent visibles encours, blocages et délais afin de choisir des politiques de travail et des expériences d’amélioration mesurables.",
+    "units": [
+      [
+        "Cartographier étapes réelles, points d’engagement et de livraison.",
+        "Définir types de demande, critères d’entrée et de sortie de chaque colonne.",
+        "Séparer travail en attente, actif et bloqué.",
+        "Le tableau reflète le fonctionnement réel plutôt qu’une liste personnelle de tâches."
+      ],
+      [
+        "Fixer limites d’encours compatibles avec capacité et collaboration.",
+        "Expliciter politique de tirage et traitement d’une urgence.",
+        "Rendre visibles âge du travail et cause de blocage.",
+        "La simulation traite un blocage avant d’ajouter mécaniquement une nouvelle tâche."
+      ],
+      [
+        "Distinguer lead time, cycle time, throughput et encours.",
+        "Lire diagramme de flux cumulatif et distribution des délais.",
+        "Formuler une attente de service probabiliste à partir de données suffisantes.",
+        "L’équipe n’assimile pas un percentile de délai à une garantie sur chaque demande."
+      ],
+      [
+        "Choisir une hypothèse d’amélioration et une période d’observation.",
+        "Modifier une politique puis comparer effets sur délai, qualité et charge.",
+        "Prévoir revue de flux et adaptation sans imposer toutes les pratiques simultanément.",
+        "L’expérience conclut sur des observations et conserve ses limites."
+      ]
+    ],
+    "slug": "kanban-pour-equipes-produit-et-support"
+  },
+  {
+    "index": 59,
+    "overview": "Facilitez les événements Scrum et aidez l’équipe à traiter ses obstacles. Les mises en situation travaillent objectif, participation, feedback et décision sans transformer les événements en réunions de reporting hiérarchique.",
+    "units": [
+      [
+        "Distinguer responsabilités du Scrum Master, du Product Owner et des Developers.",
+        "Relier transparence, inspection et adaptation aux situations de l’équipe.",
+        "Identifier obstacle, problème d’organisation et décision produit.",
+        "L’intervention facilite la responsabilité de l’équipe sans décider à sa place."
+      ],
+      [
+        "Préparer Sprint Planning autour d’un objectif et d’un plan réaliste.",
+        "Faciliter clarification, désaccord et participation équilibrée.",
+        "Maintenir le Daily Scrum centré sur la progression vers l’objectif du Sprint.",
+        "La simulation produit un objectif compris et un plan adaptable."
+      ],
+      [
+        "Organiser une Sprint Review orientée retours et adaptation du produit.",
+        "Conduire une rétrospective avec faits, causes possibles et action d’amélioration.",
+        "Distinguer qualité de l’incrément et quantité de travail annoncée.",
+        "La rétrospective aboutit à une action suivie avec un responsable ou un accord d’équipe."
+      ],
+      [
+        "Intervenir face à domination de parole, conflit ou obstacle récurrent.",
+        "Choisir facilitation, coaching ou escalade selon le sujet.",
+        "Mesurer l’effet d’une intervention sans attribuer toute performance au facilitateur.",
+        "Le plan d’intervention conserve autonomie, sécurité de parole et décision explicite."
+      ]
+    ],
+    "slug": "scrum-master-facilitation-et-rituels"
+  },
+  {
+    "index": 60,
+    "overview": "Jouez votre rôle de direction dans une démarche agile. Les ateliers portent sur objectifs, délégation, arbitrage et coopération avec les équipes pour piloter par les résultats tout en gardant des engagements lisibles.",
+    "units": [
+      [
+        "Distinguer livraison incrémentale, apprentissage et absence de planification.",
+        "Relier besoin utilisateur, hypothèse et retour d’expérience.",
+        "Comparer projet à périmètre fixé et évolution d’un produit.",
+        "La direction identifie les décisions qui peuvent évoluer et les contraintes qui restent fermes."
+      ],
+      [
+        "Clarifier mandat, objectifs, budget et autonomie de l’équipe.",
+        "Séparer responsabilité de sponsor et gestion quotidienne des tâches.",
+        "Préparer accès aux utilisateurs et résolution des obstacles organisationnels.",
+        "Le mandat explicite décisions déléguées et sujets nécessitant un arbitrage."
+      ],
+      [
+        "Lire résultats, risques et apprentissages plutôt que seul taux d’avancement.",
+        "Comparer poursuivre, changer de direction et arrêter un investissement.",
+        "Traiter une nouvelle priorité en rendant visibles les renoncements.",
+        "L’arbitrage s’appuie sur une preuve ou sur une expérimentation à conduire."
+      ],
+      [
+        "Organiser revues de résultats et coordination entre métiers, produit et fonctions support.",
+        "Définir délais de décision et modalités d’escalade.",
+        "Prévenir multiplication des urgences et engagements contradictoires.",
+        "Le cadre permet à l’équipe de travailler avec des priorités stables et révisables."
+      ]
+    ],
+    "slug": "agile-pour-directions-metier"
+  },
+  {
+    "index": 61,
+    "overview": "Pilotez un produit avec une vision, un backlog et des décisions reliés à la valeur. Le fil rouge associe compréhension utilisateur, critères d’acceptation, priorisation et inspection des résultats.",
+    "units": [
+      [
+        "Définir utilisateurs, problème, proposition de valeur et contraintes du produit.",
+        "Transformer vision en objectif produit observable.",
+        "Identifier hypothèses de besoin et preuves à recueillir.",
+        "L’objectif exprime un résultat utilisateur plutôt qu’une solution imposée."
+      ],
+      [
+        "Décomposer un besoin en éléments de backlog compréhensibles et négociables.",
+        "Rédiger critères d’acceptation et exemples nominaux ou limites.",
+        "Affiner suffisamment les éléments proches sans détailler tout le futur.",
+        "L’équipe peut discuter faisabilité et vérifier le résultat de l’élément sélectionné."
+      ],
+      [
+        "Comparer valeur, risque, apprentissage, dépendances et coût de délai.",
+        "Rendre explicites décisions de priorité et éléments écartés.",
+        "Traiter une demande urgente sans contourner les engagements et l’objectif en cours.",
+        "La décision expose compromis et conséquences sur les autres éléments."
+      ],
+      [
+        "Préparer retours utilisateurs et mesure d’usage après livraison.",
+        "Distinguer fonctionnalité disponible, adoptée et utile.",
+        "Adapter backlog et objectif selon les observations recueillies.",
+        "Le bilan peut conduire à modifier ou retirer une fonctionnalité peu utile."
+      ]
+    ],
+    "slug": "product-owner-pilotage-par-la-valeur"
+  }
+]

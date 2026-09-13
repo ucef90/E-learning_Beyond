@@ -437,6 +437,9 @@ export type DetailedProgramme = {
   status: "DRAFT_FOR_TRAINER_REVIEW";
   authoredAt: string;
   totalHours: number;
+  overview?: string;
+  audience?: string;
+  prerequisites?: string;
   caseStudy: string;
   preparation: string;
   methods: string;
@@ -448,6 +451,8 @@ export type DetailedProgramme = {
     durationMinutes: number;
     topics: string[];
     workshop: string;
+    technicalDetails?: string[];
+    practicalCheck?: string;
     expertChallenge?: string;
     deliverable?: string;
   }>;

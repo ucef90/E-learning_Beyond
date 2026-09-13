@@ -1,105 +1,21 @@
+// All public downloads are PDF. Markdown remains an internal authoring format only.
+const { spawnSync } = require("node:child_process");
 const fs = require("node:fs");
 const path = require("node:path");
-const { loadProgrammes } = require("./validate-programmes.cjs");
-const { catalogue, bySlug } = loadProgrammes();
-const output = path.resolve(__dirname, "../apps/web/public/programmes");
-fs.mkdirSync(output, { recursive: true });
-for (const t of catalogue) {
-  const p = bySlug.get(t.slug);
-  const text = [
-    `# ${t.title}`,
-    "",
-    `Beyond Expertise · Programme détaillé · Version ${p.version} du ${p.authoredAt}`,
-    "",
-    "**Version enrichie proposée, à valider par le formateur avant animation.**",
-    "",
-    `${t.durationDays} jour(s) · ${p.totalHours} heures indicatives · ${t.level} · ${t.format}`,
-    "",
-    p.scheduleNote,
-    "",
-    "## Objectifs de la fiche de référence",
-    "",
-    ...t.objectives.map((g) => `- ${g}`),
-    "",
-    "## Public et prérequis",
-    "",
-    `Public : ${t.audience}`,
-    "",
-    `Prérequis de la fiche : ${t.prerequisites}`,
-    "",
-    "## Préparation de la formation",
-    "",
-    p.preparation,
-    "",
-    "## Cas fil rouge",
-    "",
-    p.caseStudy,
-    "",
-    "## Méthode pédagogique",
-    "",
-    p.methods,
-    "",
-  ];
-  for (let day = 1; day <= t.durationDays; day++) {
-    text.push(`## Jour ${day} · 7 heures`, "");
-    for (const m of p.modules.filter((m) => m.day === day)) {
-      text.push(
-        `### ${m.title} · ${m.durationMinutes} min`,
-        "",
-        ...m.topics.map((v) => `- ${v}`),
-        "",
-        `**Atelier prévu :** ${m.workshop}`,
-        "",
-        `**Livrable attendu :** ${m.deliverable}`,
-        "",
-        `**Pour aller plus loin :** ${m.expertChallenge}`,
-        "",
-      );
-    }
-  }
-  text.push(
-    "## Évaluation finale prévue",
-    "",
-    `${p.assessment.format} Durée indicative : ${p.assessment.durationMinutes} minutes.`,
-    "",
-    ...p.assessment.criteria.map((c) => `- ${c}`),
-    "",
-    "## Disponibilité des supports",
-    "",
-    p.materialsStatus,
-    "",
-    "## Origine et références",
-    "",
-    p.origin,
-    "",
-    `[Fiche officielle observée le 11 septembre 2026](${t.sourceUrl})`,
-    "",
-  );
-  if (p.references.length)
-    text.push(
-      "Références pour approfondir les notions. Les ateliers et la progression sont une rédaction originale ; ces liens ne constituent pas une validation du programme par leurs éditeurs.",
-      "",
-      ...p.references.map((r) => `- [${r.title}](${r.url})`),
-      "",
-    );
-  text.push(
-    "## Contacts, accès et accompagnement — mise à jour du 12 septembre 2026",
-    "",
-    "Beyond Expertise : [09 54 70 23 80](tel:+33954702380) — [contact@beyondexpertise.eu](mailto:contact@beyondexpertise.eu).",
-    "",
-    "Pour obtenir plus de détails ou le programme détaillé validé, contactez le centre Beyond Expertise.",
-    "",
-    "Le programme, le tarif contractuel, la TVA, les dates et le délai d’accès sont à confirmer avec le centre avant inscription. Aucune session commerciale n’est ouverte dans la copie locale.",
-    "",
-    "Une analyse de vos besoins et une vérification des prérequis doivent précéder l’attribution du parcours. Les aménagements liés au handicap et l’assistance technique ou pédagogique sont à convenir avec le centre ; aucun diagnostic médical n’est nécessaire dans le formulaire.",
-    "",
-    "Dans la copie locale : /informations-pratiques, /positionnement, /accessibilite, /assistance, /reclamations et /avis.",
-    "",
-    "Les supports proposés ne délivrent pas de diplôme ou de certification professionnelle. Une éventuelle préparation à un examen externe nécessite la vérification des habilitations et modalités. Aucun financement CPF ou OPCO n’est garanti.",
-    "",
-    "Démarche Qualiopi en cours ; certification non acquise. Les programmes restent à valider avant animation.",
-    "",
-  );
-  fs.writeFileSync(path.join(output, `${t.slug}.md`), text.join("\n"), "utf8");
+const bundled = path.join(
+  process.env.USERPROFILE || "",
+  ".cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+);
+const python =
+  process.env.BEYOND_PDF_PYTHON ||
+  (fs.existsSync(bundled) ? bundled : "python");
+const result = spawnSync(
+  python,
+  [path.join(__dirname, "export-public-pdfs.py")],
+  { stdio: "inherit", cwd: path.resolve(__dirname, "..") },
+);
+if (result.error) {
+  console.error("Python et ReportLab sont nécessaires à l’export PDF.");
+  process.exit(1);
 }
-console.log(`${catalogue.length} programmes téléchargeables exportés.`);
+process.exit(result.status ?? 1);

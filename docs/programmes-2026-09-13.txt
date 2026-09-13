@@ -1,0 +1,36 @@
+PROGRAMMES ET DOCUMENTS — 13 septembre 2026
+
+83 programmes, 436 séquences, 1 308 points techniques ou méthodologiques supplémentaires et 436 critères de vérification en atelier.
+Chaque fiche possède une introduction propre au parcours. Les unités conservent durée, thèmes, atelier, livrable et approfondissement optionnel.
+38 publics cibles reformulés ; trois prérequis mal extraits remplacés. La capture brute du site officiel reste inchangée. Ces corrections sont des propositions pédagogiques dans le syllabus, à valider avant animation.
+
+Références de comparaison consultées
+PLB — Python et analyse de données : https://www.plb.fr/formation/python-analyse-donnees
+PLB — Spring Boot : https://www.plb.fr/formation/spring-boot
+PLB — Power BI : https://www.plb.fr/formation/power-bi
+M2i — Python, calculs scientifiques : https://www.m2iformation.fr/formation-python-calculs-scientifiques/PYT-SCIEN/
+M2i — Langage SQL : https://www.m2iformation.fr/formation-langage-sql/SQL-FND/
+M2i — Scrum : https://www.m2iformation.fr/formation-scrum/SCRUM/
+
+Constat et décision éditoriale
+Les fiches examinées rendent visibles mécanismes précis, progression et travaux pratiques. Cette structure a servi de point de comparaison. Les nouveaux textes, cas et critères ont été rédigés pour le catalogue Beyond Expertise ; aucun programme concurrent complet, tarif, avis ou engagement commercial n'a été importé.
+Les durées ne sont pas interchangeables : le parcours PLB d'analyse Python consulté dure cinq jours, alors que le parcours local correspondant dure trois jours. Les approfondissements restent sélectionnés selon niveau et temps disponible.
+Les règlements sont étudiés à partir des sources institutionnelles déjà documentées, avec revue du calendrier de la Commission : https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+Repères RGPD : https://www.cnil.fr/fr/rgpd-de-quoi-parle-t-on
+
+Sources et génération
+content/programme-depth : texte original des compléments, introduction et corrections du public.
+data/detailed-programmes.json : 81 programmes compilés, version 3.
+data/regulatory-courses.json : deux programmes réglementaires, version 3.
+scripts/deepen-programmes.cjs : compilation idempotente, avec garde sur slug et nombre de séquences.
+scripts/export-programmes.cjs et scripts/export-public-pdfs.py : 83 PDF de programmes et quatre PDF de supports/carnets réglementaires.
+Le HTML, le PDF et le snapshot de l'assistant utilisent les mêmes syllabus.
+Les anciens liens publics .md sont redirigés en 308 vers les PDF ; aucun fichier .md n'est conservé dans ces deux répertoires publics.
+Python nécessite ReportLab, pypdf et une famille Arial disponible dans BEYOND_PDF_FONT_DIR (par défaut C:/Windows/Fonts). Le pilote utilise le runtime Python déjà installé. BEYOND_PDF_PYTHON permet de configurer un autre interpréteur.
+
+Vérifications
+Contrôles des durées, couverture, unicité, textes, liens et correspondance de chaque téléchargement.
+Audit PDF : présence de toutes les séquences, des nouveaux points et contrôles, marges et coordonnées ; relecture visuelle d'exemples techniques, communication, supports et carnets.
+Import local limité à Training.program.syllabus ; empreintes des 47 autres tables vérifiées avant/après.
+Les fichiers d'exercices et cours e-learning qui n'existaient pas ne sont pas présentés comme nouvellement disponibles. Cette livraison approfondit les programmes publics et leurs PDF ; les leçons privées déjà attribuées restent conservées.
+Validation du formateur requise avant animation ; pas de certification Qualiopi, RGPD ou AI Act revendiquée.

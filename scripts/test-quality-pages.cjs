@@ -45,13 +45,12 @@ async function html(path) {
       assert(
         $('#acces-formation a[href^="/positionnement?formation="]').length,
       );
-      const f = await fetch(base + "/programmes/" + t.slug + ".md");
+      const f = await fetch(base + "/programmes/" + t.slug + ".pdf");
       assert.equal(f.status, 200);
-      const text = await f.text();
-      assert(text.includes("contact@beyondexpertise.eu"));
-      assert(text.includes("09 54 70 23 80"));
-      assert(text.includes("certification non acquise"));
-      assert(text.includes("## Évaluation finale prévue"));
+      assert(f.headers.get("content-type").includes("application/pdf"));
+      const body = Buffer.from(await f.arrayBuffer());
+      assert(body.subarray(0, 5).toString() === "%PDF-");
+      assert.equal($('a[href$=".md"]').length, 0);
       report.trainings.push({ slug: t.slug, status: "PASS" });
     }
   }

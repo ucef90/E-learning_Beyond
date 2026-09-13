@@ -29,7 +29,10 @@
     "quality:readiness": "node scripts/quality-readiness.cjs",
     "quality:test:pages": "node scripts/test-quality-pages.cjs",
     "catalog:programmes:enrich": "node scripts/enrich-programmes.cjs",
-    "catalog:sessions:test": "node scripts/test-monthly-sessions.mts"
+    "catalog:sessions:test": "node scripts/test-monthly-sessions.mts",
+    "catalog:programmes:deepen": "node scripts/deepen-programmes.cjs",
+    "assistant:knowledge": "node scripts/build-visitor-knowledge.cjs",
+    "assistant:test": "node scripts/test-visitor-assistant.cjs"
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",

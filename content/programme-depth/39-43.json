@@ -1,0 +1,217 @@
+[
+  {
+    "index": 39,
+    "overview": "Administrez une base MongoDB à travers des opérations vérifiables : modélisation documentaire, requêtes, index, réplication et restauration. Les exercices soulignent les conséquences des choix de schéma et de cohérence.",
+    "units": [
+      [
+        "Choisir documents imbriqués ou références selon lecture, mise à jour et croissance des données.",
+        "Définir schéma attendu, validation et index d’unicité pour le cas.",
+        "Identifier limites d’un document trop volumineux et tableaux non bornés.",
+        "Le modèle est justifié par les opérations métier prévues."
+      ],
+      [
+        "Composer filtres, projections, opérateurs de mise à jour et agrégations par étapes.",
+        "Contrôler types BSON, champs absents et valeurs nulles.",
+        "Comparer résultat avant/après une mise à jour sur un périmètre délimité.",
+        "Le pipeline d’agrégation conserve le bon nombre d’entités et les totaux attendus."
+      ],
+      [
+        "Lire explain et statistiques d’exécution pour distinguer scan et accès par index.",
+        "Choisir ordre d’un index composé selon égalité, tri et plage du scénario.",
+        "Évaluer coût des index sur écriture, mémoire et stockage.",
+        "L’index retenu améliore la requête mesurée sans multiplier inutilement les index."
+      ],
+      [
+        "Configurer un replica set de laboratoire et observer primaire, secondaires et élection.",
+        "Comparer read preference, read concern et write concern selon la garantie attendue.",
+        "Simuler perte d’un membre et vérifier comportement du client.",
+        "Le compte rendu décrit disponibilité et cohérence pendant le scénario de panne."
+      ],
+      [
+        "Choisir une clé de shard à partir de cardinalité, distribution et chemins de requête.",
+        "Distinguer requête ciblée et diffusion à plusieurs shards.",
+        "Identifier hotspot et coût d’un mauvais choix de clé.",
+        "La proposition anticipe déséquilibre de charge et requêtes non ciblées."
+      ],
+      [
+        "Comparer sauvegarde logique et stratégie cohérente avec réplication ou sharding.",
+        "Restaurer sur une instance isolée et vérifier collections, index et comptages.",
+        "Appliquer authentification, rôles minimaux, réseau et suivi d’exploitation.",
+        "La sauvegarde est considérée utilisable après une restauration effectivement vérifiée."
+      ]
+    ],
+    "slug": "bmdb-mongodb-mise-en-uvre-et-administration"
+  },
+  {
+    "index": 40,
+    "overview": "Construisez une application Oracle APEX à partir d’un modèle métier. Vous articulez formulaires, rapports, validations, autorisations et gestion des versions pour livrer un parcours testable.",
+    "units": [
+      [
+        "Définir tables, clés et contraintes avant de générer les pages.",
+        "Distinguer workspace, schéma de parsing et application.",
+        "Préparer jeu de données et droits nécessaires dans un environnement d’exercice.",
+        "Le modèle rejette les données contraires aux règles métier."
+      ],
+      [
+        "Créer rapport interactif, formulaire et navigation entre liste et détail.",
+        "Comprendre état de session, items et traitement soumis par une page.",
+        "Tester création, modification et annulation avec contrôle des valeurs persistées.",
+        "Le parcours modifie uniquement l’enregistrement prévu."
+      ],
+      [
+        "Structurer régions, libellés, messages et actions pour une lecture claire.",
+        "Utiliser conditions et actions dynamiques sans déplacer toute validation vers le navigateur.",
+        "Tester clavier, erreurs et affichage sur écran étroit.",
+        "Le formulaire reste utilisable sans dépendre uniquement d’un effet visuel."
+      ],
+      [
+        "Placer validations et processus au bon moment du cycle de soumission.",
+        "Séparer logique PL/SQL réutilisable et comportement de page.",
+        "Traiter transaction, doublon et erreur métier avec retour utilisateur explicite.",
+        "Un échec de validation ne laisse pas de donnée partiellement enregistrée."
+      ],
+      [
+        "Distinguer schéma d’authentification et autorisation de page ou d’opération.",
+        "Contrôler accès aux données, état de session et protection des paramètres.",
+        "Tester lien direct et modification d’un identifiant sans passer par la navigation.",
+        "Une page masquée ne constitue pas l’unique protection de la ressource."
+      ],
+      [
+        "Exporter application et objets nécessaires en conservant version et dépendances.",
+        "Préparer paramètres d’environnement et procédure d’import.",
+        "Recetter navigation, autorisations et opérations critiques après livraison.",
+        "Une installation isolée reproduit le parcours sans configuration implicite oubliée."
+      ]
+    ],
+    "slug": "boae-developper-des-applications-web-rapidement-avec-oracle-application-express-oracle-apex"
+  },
+  {
+    "index": 41,
+    "overview": "Diagnostiquez une requête Oracle lente avec des mesures avant de choisir une correction. Les ateliers confrontent plans, cardinalités, index et réécritures en préservant le résultat métier.",
+    "units": [
+      [
+        "Capturer SQL, paramètres, volume et durée dans un scénario reproductible.",
+        "Distinguer temps écoulé, CPU, lectures et attente.",
+        "Vérifier variabilité des paramètres avant de comparer deux exécutions.",
+        "La mesure de référence décrit données, binds et conditions d’exécution."
+      ],
+      [
+        "Lire ordre des opérations, méthodes de jointure et accès aux tables.",
+        "Comparer cardinalités estimées et observées avec les outils disponibles et autorisés.",
+        "Relier une erreur d’estimation aux statistiques ou à la distribution des données.",
+        "Le diagnostic situe l’opération coûteuse et une cause plausible mesurable."
+      ],
+      [
+        "Réécrire filtres, sous-requêtes et expressions en conservant NULL, doublons et cardinalité.",
+        "Éviter conversion implicite et fonction inutile sur une colonne filtrée.",
+        "Vérifier équivalence sur valeurs limites et populations vides.",
+        "La version optimisée retourne les mêmes résultats sur le jeu de recette."
+      ],
+      [
+        "Comparer index simple, composé et accès complet selon sélectivité et volume.",
+        "Examiner ordre des colonnes, clustering et coût de maintenance des index.",
+        "Mesurer l’effet d’un index sur lectures et écritures concernées.",
+        "Le choix est motivé par le plan réel et le coût global du scénario."
+      ],
+      [
+        "Examiner statistiques, mémoire de travail et parallélisme sans modifier plusieurs leviers à la fois.",
+        "Identifier les fonctions de diagnostic soumises à licence avant utilisation.",
+        "Distinguer problème SQL, contention et limite de ressources serveur.",
+        "La recommandation respecte l’environnement et les licences effectivement disponibles."
+      ],
+      [
+        "Tester plusieurs valeurs de paramètres et tailles de résultat.",
+        "Documenter hypothèses, plan avant/après et conditions de régression.",
+        "Préparer suivi et retour au comportement précédent si une correction dégrade un autre cas.",
+        "Le gain reste vérifié sur les variantes représentatives du besoin."
+      ]
+    ],
+    "slug": "bors-optimisation-des-requetes-sql-sous-oracle"
+  },
+  {
+    "index": 42,
+    "overview": "Pratiquez les opérations clés d’administration Oracle dans un environnement de formation. Vous reliez architecture multitenant, stockage, sécurité, sauvegarde et diagnostic à des procédures d’exploitation contrôlées.",
+    "units": [
+      [
+        "Identifier instance, processus, mémoire, fichiers de contrôle et redo logs.",
+        "Vérifier prérequis et paramètres d’installation de la version retenue.",
+        "Distinguer configuration de laboratoire et dimensionnement de production.",
+        "Le schéma d’architecture situe les fichiers nécessaires au fonctionnement et à la reprise."
+      ],
+      [
+        "Distinguer CDB, PDB, services et états d’ouverture.",
+        "Exécuter démarrage et arrêt avec observation des journaux.",
+        "Gérer création ou clonage d’une PDB d’exercice et vérifier la connexion au bon conteneur.",
+        "Chaque opération est réalisée dans le conteneur prévu et son état est contrôlé."
+      ],
+      [
+        "Relier tablespace, datafile, segment et extent dans l’organisation du stockage.",
+        "Gérer quotas et croissance en tenant compte de l’espace disponible.",
+        "Examiner undo et temporaire sur des opérations de démonstration.",
+        "Une alerte d’espace est rattachée au bon fichier et au bon usage."
+      ],
+      [
+        "Créer utilisateurs et rôles avec privilèges minimaux adaptés au cas.",
+        "Distinguer privilège système et privilège sur objet ; vérifier les accès effectifs.",
+        "Examiner audit et gestion des comptes sans partager d’identifiants réels.",
+        "Le compte applicatif accomplit sa tâche sans droit d’administration superflu."
+      ],
+      [
+        "Définir objectif de reprise, mode de journalisation et stratégie RMAN cohérente.",
+        "Réaliser sauvegarde puis restauration sur un environnement isolé.",
+        "Vérifier disponibilité des fichiers, catalogue de sauvegarde et cohérence après reprise.",
+        "La procédure de restauration aboutit à une base utilisable avec un point de reprise identifié."
+      ],
+      [
+        "Surveiller alert log, sessions, attentes et capacité avant une action corrective.",
+        "Préparer fenêtre de maintenance, contrôles avant/après et retour arrière.",
+        "Vérifier compatibilités et documentation avant changement de version ou de configuration.",
+        "Le plan d’exploitation associe chaque alerte à un diagnostic et un responsable."
+      ]
+    ],
+    "slug": "boac-administration-oracle-19c-a-21c"
+  },
+  {
+    "index": 43,
+    "overview": "Approfondissez SQL pour traiter jointures complexes, comparaisons de populations et analyses temporelles. Vous travaillez d’abord la justesse du résultat, puis sa lisibilité et ses performances.",
+    "units": [
+      [
+        "Définir grain, population, période et règle de comptage avant d’écrire la requête.",
+        "Construire un petit jeu témoin avec doublons, NULL et cas sans correspondance.",
+        "Distinguer nombre de lignes et nombre d’entités métier.",
+        "Le résultat attendu du jeu témoin est calculé avant l’implémentation SQL."
+      ],
+      [
+        "Comparer jointures internes, externes, semi-jointures et anti-jointures selon le besoin.",
+        "Repérer filtre WHERE qui annule l’effet d’une jointure externe.",
+        "Préagréger une table de détail avant de joindre pour éviter multiplication des montants.",
+        "Les entités sans correspondance et les totaux restent corrects."
+      ],
+      [
+        "Comparer EXISTS, IN et NOT EXISTS en présence de NULL.",
+        "Utiliser UNION, UNION ALL, INTERSECT et différence selon le dialecte disponible.",
+        "Distinguer sous-requête corrélée et non corrélée dans le raisonnement.",
+        "Les populations retenues correspondent à la règle métier sur les cas limites."
+      ],
+      [
+        "Décomposer la requête avec CTE en donnant à chaque étape un grain explicite.",
+        "Utiliser ROW_NUMBER, RANK, LAG et agrégats fenêtrés avec ordre déterministe.",
+        "Distinguer partition, ordre et cadre de fenêtre pour un cumul ou une moyenne.",
+        "Le cumul et le classement restent stables en présence d’ex æquo."
+      ],
+      [
+        "Représenter intervalles avec une convention de bornes cohérente.",
+        "Explorer CTE récursive ou mécanisme hiérarchique adapté au SGBD.",
+        "Traiter cycles, profondeur maximale et périodes sans événement.",
+        "La requête ne boucle pas et traite correctement la frontière entre deux périodes."
+      ],
+      [
+        "Comparer résultats par comptage, sommes et différences ensemblistes.",
+        "Lire le plan et repérer filtre tardif, tri coûteux ou cardinalité excessive.",
+        "Mesurer une modification à la fois sur un jeu de taille représentative.",
+        "L’optimisation conserve l’équivalence et ses conditions sont documentées."
+      ]
+    ],
+    "slug": "oibp-sql-perfectionnement"
+  }
+]

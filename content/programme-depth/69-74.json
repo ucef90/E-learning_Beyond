@@ -1,0 +1,248 @@
+[
+  {
+    "index": 69,
+    "overview": "Réalisez un premier projet supervisé de bout en bout avec un protocole d’évaluation solide. Le parcours relie cadrage, préparation, modèles de référence, analyse des erreurs et présentation des limites.",
+    "units": [
+      [
+        "Définir cible, population, moment de prédiction et décision à soutenir.",
+        "Comparer classification et régression selon la variable à prédire.",
+        "Choisir métrique et baseline à partir du coût métier des erreurs.",
+        "La cible et les informations disponibles au moment de la prédiction sont explicites."
+      ],
+      [
+        "Examiner distributions, valeurs manquantes, doublons et déséquilibre des classes.",
+        "Choisir découpage aléatoire, temporel ou par groupe selon les dépendances des données.",
+        "Réserver le test final avant de régler les transformations.",
+        "Le découpage évite qu’une même entité ou une information future traverse les ensembles."
+      ],
+      [
+        "Associer imputation, encodage et mise à l’échelle aux types de colonnes.",
+        "Utiliser Pipeline et ColumnTransformer pour ajuster uniquement sur l’apprentissage.",
+        "Traiter catégories inconnues et colonnes invalides lors de l’inférence.",
+        "Le même pipeline transforme apprentissage et nouvelles observations sans fuite."
+      ],
+      [
+        "Comparer régression linéaire ou logistique et arbre de décision selon la cible.",
+        "Observer effet de profondeur, régularisation et mise à l’échelle.",
+        "Conserver paramètres et résultats sur le même protocole.",
+        "Le modèle retenu est comparé à une baseline simple et reproductible."
+      ],
+      [
+        "Lire confusion, précision, rappel ou résidus selon le problème.",
+        "Examiner erreurs par segment et situations de faible fiabilité.",
+        "Distinguer score moyen et conséquence d’une erreur sur un cas critique.",
+        "Le rapport décrit des erreurs concrètes et leur impact métier."
+      ],
+      [
+        "Utiliser validation croisée adaptée et recherche limitée d’hyperparamètres.",
+        "Comparer stabilité et écart apprentissage-validation.",
+        "Éviter de consulter répétitivement le test final pour choisir les paramètres.",
+        "La sélection est fondée sur validation et le test reste réservé au bilan."
+      ],
+      [
+        "Examiner importance des variables et limites de l’interprétation causale.",
+        "Enregistrer pipeline, schéma d’entrée et version des dépendances.",
+        "Tester rechargement et prédiction sur un petit jeu de référence.",
+        "Le modèle rechargé reproduit les résultats attendus sans préparation manuelle cachée."
+      ],
+      [
+        "Présenter problème, données, méthode, résultats et limites dans un dossier cohérent.",
+        "Proposer contrôles avant utilisation réelle et critères de surveillance.",
+        "Distinguer démonstrateur pédagogique et service opérationnel prêt à déployer.",
+        "La soutenance justifie les choix et reconnaît les conditions où le modèle ne convient pas."
+      ]
+    ],
+    "slug": "machine-learning-pour-data-scientist-junior"
+  },
+  {
+    "index": 70,
+    "overview": "Préparez une présentation de données qui aide un comité de direction à décider. Vous travaillez question, récit, preuves visuelles et réponses aux objections sans simplifier au point de déformer l’analyse.",
+    "units": [
+      [
+        "Identifier décision, destinataires, options et conséquence d’une erreur.",
+        "Sélectionner les données nécessaires à la question plutôt que toutes celles disponibles.",
+        "Formuler le message principal avec sa limite ou sa condition.",
+        "L’ouverture annonce une décision concrète et le périmètre des preuves."
+      ],
+      [
+        "Organiser constat, explication prudente, options et recommandation.",
+        "Distinguer fait, hypothèse causale et scénario.",
+        "Conserver incertitude et contre-exemple pertinent dans le récit.",
+        "La narration ne transforme pas une corrélation en causalité démontrée."
+      ],
+      [
+        "Choisir graphique selon comparaison, évolution, distribution ou relation.",
+        "Afficher unités, source, période et annotations utiles.",
+        "Éliminer axes trompeurs, surcharge et couleurs sans fonction.",
+        "Chaque visuel soutient un message vérifiable et lisible rapidement."
+      ],
+      [
+        "Préparer questions sur qualité des données, coût, risque et alternative.",
+        "Répondre en revenant aux preuves et reconnaître ce qui reste inconnu.",
+        "Tester la présentation avec temps limité et retour structuré.",
+        "Le comité peut distinguer décision proposée et analyse encore à approfondir."
+      ]
+    ],
+    "slug": "data-storytelling-pour-comites-de-direction"
+  },
+  {
+    "index": 71,
+    "overview": "Utilisez les statistiques pour analyser des données et exprimer l’incertitude correctement. Les ateliers relient description, échantillonnage, comparaisons et restitution à des questions métier concrètes.",
+    "units": [
+      [
+        "Comparer moyenne, médiane, quantiles et dispersion sur distributions asymétriques.",
+        "Repérer valeurs extrêmes et distinguer erreur de collecte et observation rare.",
+        "Lire histogramme et boîte à moustaches en tenant compte des effectifs.",
+        "Le résumé statistique conserve une information utile sur la dispersion."
+      ],
+      [
+        "Distinguer population, échantillon, biais de sélection et variabilité d’échantillonnage.",
+        "Explorer intervalle de confiance et bootstrap sur un exemple guidé.",
+        "Expliquer pourquoi un échantillon plus grand ne corrige pas un biais de collecte.",
+        "L’incertitude est présentée avec ses hypothèses et son périmètre."
+      ],
+      [
+        "Choisir comparaison de moyennes, proportions ou association selon les variables.",
+        "Vérifier indépendance et conditions d’application avant de lire un test.",
+        "Distinguer taille d’effet, p-value et importance métier.",
+        "La conclusion n’est pas fondée sur le seul passage d’un seuil statistique."
+      ],
+      [
+        "Présenter méthode, effectifs, valeurs manquantes et limites de l’analyse.",
+        "Séparer résultat descriptif et généralisation à une population.",
+        "Formuler une recommandation proportionnée aux preuves disponibles.",
+        "Le lecteur peut vérifier calculs et portée réelle de la conclusion."
+      ]
+    ],
+    "slug": "statistiques-appliquees-pour-data-analyst"
+  },
+  {
+    "index": 72,
+    "overview": "Construisez un reporting Python qui résiste aux fichiers imparfaits et peut être relancé sans retouche. Vous travaillez pandas, contrôles de jointure, indicateurs, visualisations et automatisation sur un cas de ventes documenté.",
+    "units": [
+      [
+        "Isoler les dépendances avec venv ; organiser chemins pathlib, paramètres et fichiers d’entrée.",
+        "Manipuler listes, dictionnaires et fonctions ; distinguer conversion de type et format d’affichage.",
+        "Configurer read_csv : sep, encoding, decimal, dtype et usecols ; interpréter une exception d’import.",
+        "Un redémarrage du notebook suivi d’une exécution complète reproduit l’import sans état caché."
+      ],
+      [
+        "Utiliser shape, info, dtypes, isna et duplicated pour produire un diagnostic chiffré.",
+        "Combiner loc, iloc, isin, between et masques avec parenthèses ; distinguer index et clé métier.",
+        "Examiner mémoire, cardinalité et valeurs sentinelles avant de choisir un type ou une imputation.",
+        "Le diagnostic donne effectifs, taux de valeurs absentes et motifs de rejet par colonne."
+      ],
+      [
+        "Convertir avec to_numeric et to_datetime ; conserver les lignes en erreur dans une table de rejets.",
+        "Normaliser espaces, casse et clés ; définir une règle explicite de dédoublonnage.",
+        "Contrôler merge avec validate et indicator ; rapprocher effectifs et montants avant/après enrichissement.",
+        "Une clé de référentiel dupliquée est détectée avant qu’elle ne multiplie le chiffre d’affaires."
+      ],
+      [
+        "Construire groupby avec agrégations nommées ; distinguer count, size et nunique.",
+        "Calculer taux, panier moyen et part du total avec dénominateur explicite et division par zéro traitée.",
+        "Utiliser pivot_table et regroupement temporel ; vérifier périodes sans ventes et catégories absentes.",
+        "Les indicateurs se rapprochent des lignes détaillées, y compris sur un groupe vide ou incomplet."
+      ],
+      [
+        "Choisir barres, courbes et distributions avec unités, légendes et bornes de période cohérentes.",
+        "Mettre en évidence un écart sans tronquer trompeusement l’axe ; distinguer tendance et saisonnalité.",
+        "Exporter CSV et classeur avec formats explicites ; séparer données détaillées, synthèse et contrôles.",
+        "Le rapport exporté contient chiffres vérifiés, période, unités et avertissement sur les rejets."
+      ],
+      [
+        "Transformer le notebook en fonctions d’import, préparation, calcul et export avec paramètres.",
+        "Ajouter assertions de schéma, tests d’une jointure et cas limites sur un petit fichier de référence.",
+        "Prévoir logs de comptage, arrêt sur erreur critique et sorties séparées par exécution.",
+        "Deux exécutions sur la même entrée donnent le même résultat et une donnée invalide déclenche le contrôle prévu."
+      ]
+    ],
+    "slug": "python-pour-data-analyst"
+  },
+  {
+    "index": 73,
+    "overview": "Construisez une intégration de données rejouable, de l’extraction à la supervision. Le cas pratique aborde contrats, transformations, rejets, changements d’historique et reprise après incident.",
+    "units": [
+      [
+        "Définir source, cible, grain, clés et fréquence de chaque flux.",
+        "Comparer ETL et ELT selon outils, volumes et responsabilité des transformations.",
+        "Écrire contrat de schéma et règles de qualité avant l’implémentation.",
+        "Le flux décrit le sens et la règle de transformation de chaque champ critique."
+      ],
+      [
+        "Choisir extraction complète ou incrémentale selon capacités de la source.",
+        "Gérer pagination, watermark et données tardives.",
+        "Conserver un état de reprise qui n’avance qu’après succès du traitement.",
+        "Une interruption puis reprise ne perd aucune ligne du périmètre attendu."
+      ],
+      [
+        "Normaliser types, dates et référentiels avec règles explicites.",
+        "Isoler ligne rejetée, motif et origine sans bloquer arbitrairement tout le lot.",
+        "Comparer volumes et totaux entre entrée, acceptés et rejets.",
+        "Le bilan explique toutes les lignes reçues et leur destination."
+      ],
+      [
+        "Distinguer insertion, mise à jour et suppression logique selon le contrat.",
+        "Définir clés d’idempotence et traitement d’un lot répété.",
+        "Gérer historique et dates d’effet sans écraser une information encore nécessaire.",
+        "Le rechargement d’un même lot ne produit pas de doublon ni de nouvel historique artificiel."
+      ],
+      [
+        "Organiser dépendances, retries, timeout et limites de concurrence.",
+        "Suivre fraîcheur, durée et volume avec alertes orientées usage.",
+        "Tester indisponibilité source et erreur cible avec reprise documentée.",
+        "L’alerte distingue cause technique et effet sur les données attendues."
+      ],
+      [
+        "Rédiger mapping, dictionnaire, règles de rejet et procédure de reprise.",
+        "Préparer recette avec doublon, retard, changement de schéma et volume inhabituel.",
+        "Versionner configuration et règles de transformation.",
+        "La livraison comprend une preuve de rapprochement et une procédure de relecture des rejets."
+      ]
+    ],
+    "slug": "etl-et-integration-de-donnees-moderne"
+  },
+  {
+    "index": 74,
+    "overview": "Concevez un entrepôt dimensionnel cohérent avec les questions métier. Le parcours détaille grain, faits, dimensions, historique et chargements avec validation des agrégats et des requêtes de restitution.",
+    "units": [
+      [
+        "Distinguer source opérationnelle, staging, entrepôt et couche de restitution.",
+        "Identifier processus métier et besoins d’analyse avant les tables.",
+        "Définir dimensions communes et règles de gouvernance du modèle.",
+        "L’architecture relie chaque composant à un usage et à une responsabilité."
+      ],
+      [
+        "Déclarer le grain d’une table de faits avant de choisir ses mesures.",
+        "Distinguer fait transactionnel, snapshot périodique et snapshot cumulatif.",
+        "Classer mesures additives, semi-additives et non additives.",
+        "Un solde ou un taux n’est pas additionné sur un axe où cela n’a pas de sens."
+      ],
+      [
+        "Définir clés techniques, clés métier, attributs et hiérarchies.",
+        "Construire dimension date et traitement d’une valeur inconnue.",
+        "Conformer les dimensions partagées entre plusieurs processus.",
+        "Deux tables de faits utilisent les mêmes définitions pour une dimension commune."
+      ],
+      [
+        "Comparer SCD de type 1 et de type 2 selon besoin d’historique.",
+        "Définir dates d’effet et règles de non-chevauchement des versions.",
+        "Traiter dimension tardive et correction rétroactive dans un scénario limité.",
+        "Une transaction retrouve la version dimensionnelle correspondant à sa date d’effet."
+      ],
+      [
+        "Ordonner chargement des dimensions et faits avec contrôles de références.",
+        "Prévoir clés d’idempotence, rejets et rapprochement des montants.",
+        "Tester reprise et rechargement d’une période sans duplication.",
+        "Le chargement répété conserve clés, historique et totaux attendus."
+      ],
+      [
+        "Écrire requêtes d’acceptation à partir des questions métier initiales.",
+        "Vérifier agrégats, filtres temporels et absence de double comptage.",
+        "Documenter dictionnaire et limites d’usage de chaque mesure.",
+        "Les utilisateurs peuvent relier le résultat du rapport au grain et aux données sources."
+      ]
+    ],
+    "slug": "data-warehouse-et-modelisation-dimensionnelle"
+  }
+]

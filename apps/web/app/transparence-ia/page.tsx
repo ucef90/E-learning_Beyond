@@ -1,63 +1,80 @@
 import Link from "next/link";
 import { QualityLayout, QualityCard } from "@/components/quality-layout";
 export const metadata = {
-  title: "Usages de l’IA et contrôle humain | Beyond Expertise",
+  title: "Assistant IA et contrôle humain | Beyond Expertise",
 };
 export default function Page() {
   return (
     <QualityLayout
-      title="Comprendre la place de l’IA ici."
-      intro="Fonctionnement de la version locale vérifiée le 12 septembre 2026. Une information précise sur les outils, les contenus et les décisions."
+      title="Un assistant IA, un périmètre clair."
+      intro="Fonctionnement de la version locale — 13 septembre 2026. L’assistant vous aide à explorer les formations et à préparer votre échange avec le centre."
     >
-      <QualityCard title="Votre parcours et vos évaluations">
+      <QualityCard title="Ce que l’assistant peut faire">
         <p>
-          Cette version n’intègre pas de chatbot, de sélection des candidats par
-          IA, de reconnaissance des émotions ni de notation des travaux par un
-          modèle d’IA. Le quiz compare vos réponses au corrigé prévu et calcule
-          un score avec un barème fixe. Les retours sur les travaux sont saisis
-          par le formateur.
+          L’assistant IA Beyond Expertise comprend votre demande pour vous
+          orienter dans le catalogue, présenter les programmes et expliquer les
+          informations publiques du centre. Il restitue les informations des
+          fiches avec des liens vers les pages et les programmes PDF.
         </p>
         <p>
-          Un score de quiz est un indicateur pédagogique. Il ne constitue pas
-          une décision d’admission ni une certification officielle. Si vous
-          contestez une question ou un résultat, demandez une relecture au
-          centre.
+          Il ne confirme pas une inscription, une disponibilité, un financement
+          ou une certification. Les tarifs, dates proposées et modalités
+          contractuelles doivent être confirmés avec le centre.
         </p>
-        <Link href="/reclamations">
-          Demander une relecture ou signaler une difficulté
-        </Link>
+        <Link href="/contact">Parler à une personne du centre</Link>
       </QualityCard>
-      <QualityCard title="Comment les contenus sont préparés">
+      <QualityCard title="Des réponses limitées aux informations publiques">
         <p>
-          Des outils d’IA ont aidé à rédiger et structurer les programmes et les
-          nouveaux supports RGPD et AI Act. Les sources officielles sont
-          indiquées avec une date de consultation. La validation pédagogique du
-          formateur doit précéder l’animation d’une session ; les supports
-          signalent ce statut.
+          L’assistant n’accède ni aux comptes, ni aux travaux, ni aux dossiers
+          des apprenants ou des clients. Il n’exécute pas de commande et ne
+          dispose d’aucun outil pour agir sur un compte ou modifier des données.
+          Les demandes hors du périmètre du site sont refusées ou orientées vers
+          le centre.
         </p>
         <p>
-          Les exercices utilisent des entreprises et données fictives. Une
-          sortie d’IA peut contenir une erreur : le centre doit vérifier les
-          références, les exemples et les évolutions réglementaires. Signalez un
-          passage à corriger en précisant la formation et la séquence.
+          Les informations restituées proviennent d’un catalogue public préparé
+          à partir des mêmes programmes que les fiches. En cas d’indisponibilité
+          du moteur d’IA, une réponse de recherche dans le catalogue peut être
+          proposée et signalée comme telle.
         </p>
-        <Link href="/signalement">Signaler une erreur dans un contenu</Link>
       </QualityCard>
-      <QualityCard title="Avant tout futur usage d’IA auprès des apprenants">
+      <QualityCard title="Votre échange dans cette version locale">
         <p>
-          Le centre devra inventorier l’usage, qualifier son rôle et les
-          risques, vérifier les données et fournisseurs, organiser la maîtrise
-          de l’IA des personnes concernées et prévoir supervision, information
-          et recours. Un outil qui influence l’admission ou l’évaluation des
-          acquis exige une analyse spécifique de l’AI Act et du RGPD avant
-          déploiement.
+          Votre message est envoyé au serveur local puis, lorsque nécessaire, au
+          moteur d’IA installé sur cet ordinateur. Cette intégration ne transmet
+          pas les échanges à un fournisseur d’IA externe. Le texte des
+          conversations n’est pas enregistré dans la base de données ni dans un
+          historique de discussion sur disque.
         </p>
         <p>
-          Cette page décrit le logiciel local examiné. Elle n’atteste pas
-          l’ensemble des usages internes du centre ni sa conformité globale aux
-          règlements.
+          Les messages affichés restent dans la mémoire de la page jusqu’à leur
+          effacement ou son rechargement. Le bouton « Nouvelle conversation »
+          efface l’échange affiché. Un compteur technique temporaire par adresse
+          réseau limite les demandes pendant une minute, sans conserver leur
+          contenu.
         </p>
-        <Link href="/rgpd-ai-act">Découvrir les formations RGPD et AI Act</Link>
+        <p>
+          N’envoyez pas de coordonnées personnelles, données sensibles ou pièces
+          de dossier. La notice et les conditions d’hébergement devront être
+          réexaminées avant une ouverture publique.
+        </p>
+        <Link href="/confidentialite">Consulter la notice sur les données</Link>
+      </QualityCard>
+      <QualityCard title="La responsabilité pédagogique reste au centre">
+        <p>
+          Les programmes et supports sont proposés sous la responsabilité
+          éditoriale de Beyond Expertise. Leur validation pédagogique, leur
+          actualisation et leur adaptation doivent précéder l’animation d’une
+          session. Les sources de référence figurent dans les programmes ; les
+          exercices utilisent des situations et données fictives.
+        </p>
+        <p>
+          L’assistant ne sélectionne pas les candidats et ne note pas les
+          travaux. Les quiz calculent un score selon un barème fixe ; les
+          retours pédagogiques sont saisis par le formateur. Une erreur peut
+          être signalée pour relecture.
+        </p>
+        <Link href="/signalement">Signaler une information à corriger</Link>
       </QualityCard>
     </QualityLayout>
   );

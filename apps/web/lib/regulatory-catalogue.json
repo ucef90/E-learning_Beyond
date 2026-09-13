@@ -74,9 +74,9 @@
       },
       "syllabus": {
         "slug": "rgpd-protection-donnees-pratique",
-        "version": 2,
+        "version": 3,
         "status": "DRAFT_FOR_TRAINER_REVIEW",
-        "authoredAt": "2026-09-12",
+        "authoredAt": "2026-09-13",
         "totalHours": 14,
         "caseStudy": "Le centre fictif Horizon Compétences prépare des formations pour 120 salariés. Il utilise un CRM, un LMS et un outil de visioconférence. Un fichier de suivi contient des emails, des notes et un commentaire médical. Vous auditez la chaîne puis gérez un envoi à un mauvais destinataire.",
         "preparation": "Utiliser un navigateur et un traitement de texte. Aucun diplôme juridique requis. Apporter une description anonymisée d’un processus, sans fichier client réel. Un positionnement initial précise le métier, les usages et les objectifs avant la session.",
@@ -96,7 +96,13 @@
             ],
             "workshop": "Horizon conserve : nom, email professionnel, identifiant salarié, résultat au quiz, numéro de sécurité sociale et diagnostic médical. Le LMS stocke ces champs sur instruction du centre. Classez les données, proposez deux suppressions et décrivez les rôles du centre, de l’employeur et du LMS. Ne supposez pas que l’employeur a besoin du détail de chaque réponse au quiz.",
             "expertChallenge": "Analyser les rôles dans une chaîne centre de formation, entreprise cliente et prestataire LMS.",
-            "deliverable": "Cartographie des traitements et responsabilités."
+            "deliverable": "Cartographie des traitements et responsabilités.",
+            "technicalDetails": [
+              "Identifier données directes, indirectes et sensibles dans CRM, LMS et suivi pédagogique.",
+              "Définir finalité et opérations plutôt que recenser uniquement les logiciels.",
+              "Distinguer responsable, sous-traitant et destinataire selon les décisions réellement prises."
+            ],
+            "practicalCheck": "La cartographie relie chaque flux à une finalité et à un rôle justifié."
           },
           {
             "day": 1,
@@ -110,7 +116,13 @@
             ],
             "workshop": "Réécrivez un formulaire d’information demandant nom, email, adresse personnelle, date de naissance, handicap et accord obligatoire à la newsletter. Il sert seulement à recevoir le programme RGPD. Distinguez champs nécessaires, facultatifs et à supprimer ; proposez une base pour la réponse et une règle distincte pour la prospection.",
             "expertChallenge": "Justifier le retrait d’un champ médical inutile d’un formulaire d’inscription.",
-            "deliverable": "Matrice finalités, bases légales et minimisation."
+            "deliverable": "Matrice finalités, bases légales et minimisation.",
+            "technicalDetails": [
+              "Comparer bases légales possibles au regard de la finalité sans choisir le consentement par défaut.",
+              "Examiner nécessité de chaque champ et remplacer une collecte excessive par une alternative.",
+              "Documenter hypothèses et conditions du choix pour le cas fictif."
+            ],
+            "practicalCheck": "Le formulaire corrigé ne collecte pas de détail médical inutile à l’aménagement."
           },
           {
             "day": 1,
@@ -124,7 +136,13 @@
             ],
             "workshop": "Le 31 janvier, une ancienne participante demande ses résultats, la rectification de son nom et l’effacement de toutes ses données. Le registre comprend aussi des commentaires concernant d’autres personnes. Rédigez un plan de traitement et une réponse d’accusé de réception ; distinguez accès, rectification et effacement.",
             "expertChallenge": "Traiter une demande touchant plusieurs systèmes et les droits d’autres personnes.",
-            "deliverable": "Notice révisée et dossier de demande de droits."
+            "deliverable": "Notice révisée et dossier de demande de droits.",
+            "technicalDetails": [
+              "Rédiger une information compréhensible sur finalité, base, destinataires, durée et droits.",
+              "Qualifier accès, rectification, opposition ou effacement sans promettre une réponse identique à tous les cas.",
+              "Vérifier identité de manière proportionnée et organiser délai, réponse et traçabilité."
+            ],
+            "practicalCheck": "Le traitement de la demande explique décision et limites sans divulguer les données d’un tiers."
           },
           {
             "day": 1,
@@ -138,7 +156,13 @@
             ],
             "workshop": "Le fournisseur LMS propose un hébergement à Paris, un support hors EEE et un usage des réponses des apprenants pour améliorer son propre produit. Sa clause indique seulement « service conforme RGPD ». Rédigez cinq questions bloquantes et complétez une fiche de registre de l’activité d’évaluation.",
             "expertChallenge": "Examiner sous-traitants ultérieurs et transferts dans une offre de service fictive.",
-            "deliverable": "Fiche de registre et grille de revue fournisseur."
+            "deliverable": "Fiche de registre et grille de revue fournisseur.",
+            "technicalDetails": [
+              "Construire une fiche de registre avec catégories, destinataires et mesures de sécurité.",
+              "Examiner contrat de sous-traitance, sous-traitants ultérieurs et assistance aux droits.",
+              "Identifier hébergement, accès de support et transfert éventuel hors Espace économique européen."
+            ],
+            "practicalCheck": "La grille fournisseur formule les preuves manquantes et ne se satisfait pas d’un logo."
           },
           {
             "day": 2,
@@ -152,7 +176,13 @@
             ],
             "workshop": "Un centre veut croiser absences, scores et besoins d’aménagement pour prédire les abandons. Tous les formateurs pourraient voir tous les profils. Proposez des mesures immédiates et les questions permettant de décider d’une AIPD. Définissez une règle de conservation à soumettre au responsable, sans inventer un délai réglementaire.",
             "expertChallenge": "Distinguer une suppression applicative de la gestion des copies et sauvegardes.",
-            "deliverable": "Plan de mesures et décision d’analyse d’impact."
+            "deliverable": "Plan de mesures et décision d’analyse d’impact.",
+            "technicalDetails": [
+              "Relier contrôle d’accès, sauvegarde testée et chiffrement aux risques du traitement.",
+              "Définir conservation par catégorie, événement déclencheur et justification à valider.",
+              "Examiner critères d’AIPD et alternatives moins intrusives avant un traitement à risque."
+            ],
+            "practicalCheck": "La durée proposée possède une justification ; elle n’est pas attribuée au RGPD par défaut."
           },
           {
             "day": 2,
@@ -166,7 +196,13 @@
             ],
             "workshop": "Vendredi à 16 h, Horizon découvre qu’un fichier de 120 participants, comprenant 12 commentaires médicaux, a été envoyé à une entreprise cliente non concernée. Le destinataire affirme l’avoir supprimé, sans preuve. Produisez la chronologie des deux premières heures, une analyse du risque et les éléments d’une notification éventuelle.",
             "expertChallenge": "Reconstituer les faits d’un envoi erroné sans conclure sur la seule bonne foi du destinataire.",
-            "deliverable": "Chronologie d’incident et décision motivée."
+            "deliverable": "Chronologie d’incident et décision motivée.",
+            "technicalDetails": [
+              "Qualifier confidentialité, intégrité et disponibilité dans une violation fictive.",
+              "Établir chronologie, données affectées, conséquences et mesures de limitation.",
+              "Examiner notification à l’autorité et information des personnes selon les conditions applicables."
+            ],
+            "practicalCheck": "La fiche justifie la décision de notification et conserve les informations encore incertaines."
           },
           {
             "day": 2,
@@ -180,7 +216,13 @@
             ],
             "workshop": "La page d’accueil charge une vidéo externe, une mesure publicitaire et un cookie de connexion. L’équipe colle également des demandes de handicap dans un assistant d’IA gratuit. Proposez un ordre de correction, puis rédigez une phrase marketing exacte après suppression des deux chargements facultatifs.",
             "expertChallenge": "Analyser un formulaire marketing et un prompt contenant des données excessives.",
-            "deliverable": "Grille de contrôle traceurs, marketing et IA."
+            "deliverable": "Grille de contrôle traceurs, marketing et IA.",
+            "technicalDetails": [
+              "Distinguer traceur nécessaire et usage soumis à consentement selon sa finalité.",
+              "Examiner prospection et opposition en fonction du canal et du contexte.",
+              "Cartographier données envoyées à un outil d’IA, conservation et accès du fournisseur."
+            ],
+            "practicalCheck": "Le scénario limite les données et ne confond pas absence d’entraînement et absence de traitement."
           },
           {
             "day": 2,
@@ -194,7 +236,13 @@
             ],
             "workshop": "Dossier final Horizon : rendre une fiche de registre, une notice, une réponse de droits, une fiche d’incident et cinq actions classées par priorité. En 10 minutes, défendre deux décisions contestables devant le groupe. Terminer le quiz individuel en 20 minutes. Les 30 dernières minutes servent à la correction et au plan de transfert dans son activité.",
             "expertChallenge": "Défendre une priorité de correction et signaler les questions juridiques non résolues.",
-            "deliverable": "Dossier de synthèse et plan d’action priorisé."
+            "deliverable": "Dossier de synthèse et plan d’action priorisé.",
+            "technicalDetails": [
+              "Assembler registre, notice, demande de droits, incident et grille fournisseur du cas.",
+              "Prioriser écarts avec responsable, preuve attendue et échéance.",
+              "Justifier les choix à partir des sources et reconnaître le besoin d’un avis spécialisé."
+            ],
+            "practicalCheck": "La soutenance distingue document préparé, procédure appliquée et conformité restant à vérifier."
           }
         ],
         "assessment": {
@@ -228,7 +276,8 @@
             "title": "CNIL — recueillir le consentement des personnes",
             "url": "https://www.cnil.fr/fr/les-bases-legales/consentement"
           }
-        ]
+        ],
+        "overview": "Appliquez les principes du RGPD au fonctionnement d’un centre de formation fictif. Le dossier progresse du registre aux droits, prestataires, incidents et actions de correction, avec huit cas corrigés et des modèles à adapter."
       },
       "lessons": [
         {
@@ -422,9 +471,9 @@
       },
       "syllabus": {
         "slug": "ai-act-maitrise-ia-gouvernance",
-        "version": 2,
+        "version": 3,
         "status": "DRAFT_FOR_TRAINER_REVIEW",
-        "authoredAt": "2026-09-12",
+        "authoredAt": "2026-09-13",
         "totalHours": 14,
         "caseStudy": "La PME fictive Altis Formation veut utiliser un assistant rédactionnel, un chatbot de catalogue, une IA de classement des candidatures et un détecteur d’émotions à distance. Vous devez autoriser, conditionner ou écarter chaque usage et préparer les preuves de votre décision.",
         "preparation": "Utiliser des outils numériques professionnels. Aucun code ni compte payant d’IA requis : les simulations fournies suffisent. Ne pas apporter de données personnelles ou confidentielles. Un positionnement initial précise le métier, les usages et les objectifs avant la session.",
@@ -444,7 +493,13 @@
             ],
             "workshop": "Simulation : un assistant affirme « Une formation de deux heures rend automatiquement votre entreprise certifiée AI Act ; l’article 4 exige un diplôme européen ». Sans interroger un outil externe, décomposez l’affirmation, identifiez les preuves nécessaires et proposez une réponse corrigée au commercial.",
             "expertChallenge": "Comparer une réponse convaincante à une source qui la contredit.",
-            "deliverable": "Grille d’observation des capacités et limites."
+            "deliverable": "Grille d’observation des capacités et limites.",
+            "technicalDetails": [
+              "Distinguer modèle, système, destination et contexte d’utilisation.",
+              "Observer erreur plausible, variabilité et limites d’un assistant documentaire.",
+              "Comparer assistance à la rédaction et décision affectant une personne."
+            ],
+            "practicalCheck": "La qualification se fonde sur l’usage et ses effets plutôt que sur la seule technologie."
           },
           {
             "day": 1,
@@ -458,7 +513,13 @@
             ],
             "workshop": "Altis achète un assistant rédactionnel, développe un outil de sélection sous sa marque avec une API tierce et revend une solution d’un éditeur européen. Pour chaque usage, proposer le rôle à vérifier, les informations manquantes et une ligne de calendrier. Expliquer pourquoi « tout commence en 2027 » est faux.",
             "expertChallenge": "Examiner une modification d’usage susceptible de changer les responsabilités.",
-            "deliverable": "Fiche de qualification et veille des textes applicables."
+            "deliverable": "Fiche de qualification et veille des textes applicables.",
+            "technicalDetails": [
+              "Décrire fournisseur, déployeur, importateur ou distributeur selon les faits du scénario.",
+              "Examiner changement de destination et modification substantielle.",
+              "Vérifier calendrier officiel et dispositions transitoires en conservant source et date de revue."
+            ],
+            "practicalCheck": "Le calendrier ne transpose pas toutes les obligations d’un fournisseur au simple utilisateur."
           },
           {
             "day": 1,
@@ -472,7 +533,13 @@
             ],
             "workshop": "Classez quatre projets Altis : résumé de documentation interne fictive ; classement automatique des candidatures ; caméra qui déduit l’ennui pour noter les apprenants ; chatbot répondant aux horaires. Pour chacun, indiquez décision immédiate, justification, responsable de la revue et informations manquantes.",
             "expertChallenge": "Comparer outil d’aide rédactionnelle et outil influençant une sélection de candidats.",
-            "deliverable": "Arbre d’analyse des usages et questions à expertiser."
+            "deliverable": "Arbre d’analyse des usages et questions à expertiser.",
+            "technicalDetails": [
+              "Examiner pratiques interdites et critères de haut risque sur plusieurs usages de formation.",
+              "Distinguer chatbot catalogue, classement des candidatures et analyse d’émotions.",
+              "Documenter classification, information manquante et décision d’escalade."
+            ],
+            "practicalCheck": "La fiche ne traite pas tous les outils d’IA comme appartenant à une catégorie unique."
           },
           {
             "day": 1,
@@ -486,7 +553,13 @@
             ],
             "workshop": "Rédigez l’accueil d’un futur chatbot Altis et une explication d’un quiz corrigé par comparaison à un barème fixe, sans IA. Puis examinez une vidéo promotionnelle montrant un faux témoignage synthétique présenté comme réel.",
             "expertChallenge": "Réviser une communication qui suggère à tort une validation humaine systématique.",
-            "deliverable": "Notice d’usage et exemples de transparence."
+            "deliverable": "Notice d’usage et exemples de transparence.",
+            "technicalDetails": [
+              "Informer clairement une personne lorsqu’elle interagit avec un assistant IA.",
+              "Distinguer obligations liées aux interactions, aux contenus synthétiques et aux rôles concernés.",
+              "Examiner limites et exceptions à partir du texte applicable plutôt qu’un label universel."
+            ],
+            "practicalCheck": "Le message d’accueil explique fonction, limites et accès à un interlocuteur humain."
           },
           {
             "day": 2,
@@ -500,7 +573,13 @@
             ],
             "workshop": "Voici trois sorties fictives du chatbot : « tous les cours sont financés automatiquement » ; « la session est le 12 octobre » sans source ; « je ne trouve pas ce calendrier, contactez le centre ». Construisez six tests, un critère de rejet immédiat et une procédure de relecture.",
             "expertChallenge": "Tester la capacité réelle d’un superviseur à détecter et corriger une erreur.",
-            "deliverable": "Protocole de contrôle et fiche de supervision."
+            "deliverable": "Protocole de contrôle et fiche de supervision.",
+            "technicalDetails": [
+              "Définir corpus autorisé, tests représentatifs et critères de rejet d’une réponse.",
+              "Prévoir contrôle humain avec temps, compétence et pouvoir effectif d’interrompre.",
+              "Tester fausse date, promesse de financement et question sans source."
+            ],
+            "practicalCheck": "Une réponse commerciale non couverte est refusée ou renvoyée au centre."
           },
           {
             "day": 2,
@@ -514,7 +593,13 @@
             ],
             "workshop": "Le commercial d’un outil promet « stockage UE, pas d’entraînement, donc conforme ». Son contrat ne précise pas les accès de support et autorise la conservation indéfinie des conversations. Altis souhaite y importer les demandes d’aménagement et les résultats nominatifs. Rédigez une décision provisoire.",
             "expertChallenge": "Détecter une condition contractuelle incompatible avec les usages projetés.",
-            "deliverable": "Grille fournisseur et articulation des contrôles RGPD."
+            "deliverable": "Grille fournisseur et articulation des contrôles RGPD.",
+            "technicalDetails": [
+              "Cartographier prompts, fichiers, résultats, traces et accès de support.",
+              "Examiner garanties contractuelles, transferts et suppression selon les rôles RGPD.",
+              "Distinguer AIPD et analyse d’impact sur les droits fondamentaux de l’AI Act."
+            ],
+            "practicalCheck": "Le dossier vérifie séparément l’applicabilité de chaque analyse."
           },
           {
             "day": 2,
@@ -528,7 +613,13 @@
             ],
             "workshop": "Rédigez une charte d’une page pour Altis et un plan pour trois publics : équipe catalogue, formateurs et responsables admissions. Définissez un exercice pour chacun, une preuve attendue et un déclencheur de nouvelle formation.",
             "expertChallenge": "Construire deux parcours de maîtrise pour utilisateur occasionnel et responsable de déploiement.",
-            "deliverable": "Charte d’usage et plan de maîtrise de l’IA."
+            "deliverable": "Charte d’usage et plan de maîtrise de l’IA.",
+            "technicalDetails": [
+              "Rédiger usages permis, données exclues, vérification et circuit d’incident.",
+              "Adapter la maîtrise de l’IA aux métiers, responsabilités et risques.",
+              "Planifier actualisation des compétences et des règles lors d’une évolution d’usage."
+            ],
+            "practicalCheck": "La charte permet à un collaborateur de décider quoi faire sur un cas concret."
           },
           {
             "day": 2,
@@ -542,7 +633,13 @@
             ],
             "workshop": "Dossier Altis : remettre quatre fiches d’usage, une charte, un plan de maîtrise de l’IA, six tests de chatbot et une décision motivée par projet. Préparer une soutenance de 10 minutes, puis passer le quiz individuel en 20 minutes. Terminer par une correction collective et une action à transférer dans son activité.",
             "expertChallenge": "Contester une allégation commerciale de conformité totale sans preuve suffisante.",
-            "deliverable": "Dossier de décision et communication étayée."
+            "deliverable": "Dossier de décision et communication étayée.",
+            "technicalDetails": [
+              "Assembler inventaire, classification, tests, charte et réserves dans une décision motivée.",
+              "Comparer refus, autorisation sous conditions et décision différée.",
+              "Distinguer attestation pédagogique, certification et conformité d’un système."
+            ],
+            "practicalCheck": "Le dossier ne promet aucune certification officielle ni conformité automatique après la formation."
           }
         ],
         "assessment": {
@@ -580,7 +677,8 @@
             "title": "RGPD — règlement (UE) 2016/679, texte officiel",
             "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/fra"
           }
-        ]
+        ],
+        "overview": "Décidez comment encadrer des usages d’IA dans une organisation. Le parcours combine qualification, calendrier, transparence, supervision et fournisseurs dans un dossier de décision, avec huit cas corrigés et un quiz formatif."
       },
       "lessons": [
         {

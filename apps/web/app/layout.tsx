@@ -5,6 +5,7 @@ import "./quality.css";
 import "./home-restored.css";
 import "./public-interactions.css";
 import "./training-detail.css";
+import "./assistant.css";
 import type { Metadata } from "next";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { PublicChrome } from "@/components/public-chrome";
