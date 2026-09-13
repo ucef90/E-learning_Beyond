@@ -17,6 +17,7 @@ import {
 
 const links = [
   { href: "/formations", label: "Formations" },
+  { href: "/mba-dba", label: "MBA & DBA" },
   { href: "/entreprises", label: "Entreprises" },
   { href: "/expertises", label: "Expertises" },
   { href: "/ressources", label: "Ressources" },
@@ -64,8 +65,8 @@ export function Header() {
       <div className="header-topbar">
         <div className="page-shell header-topbar-inner">
           <div className="header-topbar-copy">
-            <span>Formations inter, intra et parcours entreprise</span>
-            <span>Catalogue premium data, IA, projet, agile et product</span>
+            <span>Formations, MBA, DBA et parcours entreprise</span>
+            <span>Afrique & international · Data, IA et management</span>
           </div>
           <div className="header-topbar-actions">
             <a href={centre.phoneHref} className="header-topbar-link">

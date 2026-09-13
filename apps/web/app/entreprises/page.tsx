@@ -354,6 +354,7 @@ export default function CompaniesPage() {
           </div>
         </section>
       </div>
+      <section className="section"><div className="page-shell executive-assurance"><h2>Développer vos activités en Afrique</h2><p>Découvrez nos parcours MBA, les cohortes dédiées et nos offres de conseil, de transformation et d’expertise à temps partagé.</p><Link href="/entreprises/afrique" className="button button-primary">Formation et accompagnement en Afrique</Link></div></section>
     </main>
   );
 }

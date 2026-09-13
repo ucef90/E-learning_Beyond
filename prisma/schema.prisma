@@ -662,3 +662,32 @@ model QualityReviewEvent {
   createdAt DateTime @default(now())
   @@index([indicator, createdAt])
 }
+
+model ExecutiveApplication {
+  id String @id @default(cuid())
+  reference String @unique
+  requestKey String @unique
+  payloadHash String
+  programmeSlug String
+  programmeTitle String
+  kind String
+  requestType String
+  fullName String
+  email String
+  phone String @default("")
+  country String
+  city String @default("")
+  qualification String
+  experience Int
+  currentRole String
+  company String @default("")
+  motivation String
+  funding String
+  status String @default("RECEIVED")
+  internalNote String @default("")
+  revision Int @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([status, createdAt])
+  @@index([programmeSlug, createdAt])
+}

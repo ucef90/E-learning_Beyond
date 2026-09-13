@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { executiveProgrammes } from "@/lib/executive";
 import { getTrainings, getSeoCategoryHubs } from "@/lib/api";
 import { indexable, siteOrigin } from "@/lib/seo";
 export const dynamic = "force-dynamic";
@@ -9,6 +10,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     "/",
     "/formations",
+    "/mba-dba",
+    "/mba",
+    "/dba",
+    "/mba-dba/pedagogie",
+    "/mba-dba/certifications",
+    "/entreprises/afrique",
+    ...executiveProgrammes.map((p) => "/mba-dba/" + p.slug),
     "/contact",
     "/devis",
     "/a-propos",

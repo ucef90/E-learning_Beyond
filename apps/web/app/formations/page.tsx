@@ -36,6 +36,7 @@ export default async function TrainingsPage({
             </Link>
           </div>
         </section>
+        <div className="executive-assurance"><h2>Vous cherchez un MBA ou un DBA ?</h2><p>Retrouvez les parcours longs, leurs spécialisations et la candidature dans notre rubrique dédiée.</p><Link href="/mba-dba" className="button button-primary">Explorer les MBA & DBA</Link></div>
         <ProgrammeContact />
         <CatalogExplorer
           trainings={trainings}

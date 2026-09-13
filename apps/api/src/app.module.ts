@@ -16,6 +16,7 @@ import { PrismaModule } from "./common/prisma.module";
 import { QualityModule } from "./modules/quality/quality.module";
 import { APP_GUARD } from "@nestjs/core";
 import { AccessGuard } from "./modules/auth/access";
+import { ExecutiveModule } from "./modules/executive/executive.controller";
 
 @Module({
   providers: [{ provide: APP_GUARD, useClass: AccessGuard }],
@@ -34,6 +35,7 @@ import { AccessGuard } from "./modules/auth/access";
     CommercialModule,
     QualityModule,
     AssistantModule,
+    ExecutiveModule,
   ],
 })
 export class AppModule {}

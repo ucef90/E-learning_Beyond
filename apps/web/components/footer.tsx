@@ -49,6 +49,15 @@ export function Footer() {
                 <Link href="/formations">Catalogue</Link>
               </p>
               <p>
+                <Link href="/mba">Parcours MBA</Link>
+              </p>
+              <p>
+                <Link href="/dba">Parcours DBA</Link>
+              </p>
+              <p>
+                <Link href="/mba-dba/pedagogie">Pédagogie MBA & DBA</Link>
+              </p>
+              <p>
                 <Link href="/expertises">Expertises</Link>
               </p>
               <p>
@@ -83,6 +92,11 @@ export function Footer() {
               </p>
               <p>
                 <Link href="/entreprises">Solutions entreprises</Link>
+              </p>
+              <p>
+                <Link href="/entreprises/afrique">
+                  Formation & conseil en Afrique
+                </Link>
               </p>
               <p>
                 <Link href="/methodologie">Méthodologie</Link>

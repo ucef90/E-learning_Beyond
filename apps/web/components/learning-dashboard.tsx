@@ -23,6 +23,7 @@ import Reader from "./learning-reader";
 import Groups from "./learning-groups";
 import Admin from "./learning-admin";
 import CourseStudio from "./course-studio";
+import ExecutiveAdmin from "./executive-admin";
 import QualityAdmin from "./quality-admin";
 
 const date = (value: string) =>
@@ -152,6 +153,7 @@ export default function LearningDashboard() {
     admin: "Administration",
     studio: "Contenus pédagogiques",
     quality: "Suivi qualité",
+    executive: "Candidatures MBA & DBA",
     profile: "Mon compte",
   };
   const nav = [
@@ -169,6 +171,7 @@ export default function LearningDashboard() {
       ? [
           ["admin", Settings2],
           ["quality", ClipboardCheck],
+          ["executive", GraduationCap],
         ]
       : []),
   ] as const;
@@ -296,6 +299,14 @@ export default function LearningDashboard() {
             Assistance et accompagnement
           </Link>
           <Link
+            href="/mba-dba"
+            onClick={(e) => {
+              if (!canLeaveNotebook()) e.preventDefault();
+            }}
+          >
+            Parcours MBA & DBA
+          </Link>
+          <Link
             href="/avis"
             onClick={(e) => {
               if (!canLeaveNotebook()) e.preventDefault();
@@ -385,6 +396,8 @@ export default function LearningDashboard() {
                 refresh().catch((e) => setError(e.message));
               }}
             />
+          ) : view === "executive" && admin ? (
+            <ExecutiveAdmin />
           ) : view === "quality" && admin ? (
             <QualityAdmin />
           ) : view === "studio" && staff ? (
