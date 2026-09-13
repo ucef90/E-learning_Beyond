@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ExecutivePhoto } from "@/components/executive-photo";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowDownToLine } from "lucide-react";
 import {
@@ -238,6 +239,7 @@ export default async function Page({
           </section>
         </div>
         <aside className="executive-detail-aside">
+          <ExecutivePhoto kind={p.kind} compact />
           <h2>Construisons votre parcours.</h2>
           <p>
             Expliquez votre expérience et le défi que vous souhaitez relever.
@@ -247,7 +249,10 @@ export default async function Page({
             Candidater <ArrowRight size={17} />
           </Link>
           <Link
-            href={{pathname:"/mba-dba/candidature",query:{programme:p.slug,demande:"information"}}}
+            href={{
+              pathname: "/mba-dba/candidature",
+              query: { programme: p.slug, demande: "information" },
+            }}
             className="button button-secondary"
           >
             Demander un entretien

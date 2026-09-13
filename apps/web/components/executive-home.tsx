@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ExecutivePhoto } from "./executive-photo";
 import { ArrowRight } from "lucide-react";
 import { ExecutiveCatalogue } from "./executive-catalogue";
 import { credentialNote, launchNote } from "@/lib/executive";
@@ -7,7 +8,7 @@ export function ExecutiveHome({ kind }: { kind?: "MBA" | "DBA" }) {
   const doctoral = kind === "DBA";
   return (
     <main id="contenu" className="executive page-shell">
-      <section className="executive-hero">
+      <section className="executive-hero executive-hero-photographic">
         <div className="executive-hero-copy">
           <span className="executive-eyebrow">
             Beyond Executive Education · Afrique & international
@@ -48,50 +49,53 @@ export function ExecutiveHome({ kind }: { kind?: "MBA" | "DBA" }) {
             </Link>
           </div>
         </div>
-        <aside className="executive-hero-aside">
-          <span>Du terrain à la décision</span>
-          <ol>
-            <li>
-              <b>01</b>
-              <div>
-                <strong>{doctoral ? "Questionner" : "Comprendre"}</strong>
-                <p>
-                  {doctoral
-                    ? "Une problématique réelle, un terrain accessible."
-                    : "Un diagnostic, des sources, un enjeu précis."}
-                </p>
-              </div>
-            </li>
-            <li>
-              <b>02</b>
-              <div>
-                <strong>{doctoral ? "Investiguer" : "Expérimenter"}</strong>
-                <p>
-                  {doctoral
-                    ? "Une méthode justifiée, des résultats traçables."
-                    : "Des cas, des outils et un projet appliqué."}
-                </p>
-              </div>
-            </li>
-            <li>
-              <b>03</b>
-              <div>
-                <strong>{doctoral ? "Contribuer" : "Décider"}</strong>
-                <p>
-                  {doctoral
-                    ? "Une contribution discutée, des recommandations étayées."
-                    : "Une proposition argumentée, des effets mesurés."}
-                </p>
-              </div>
-            </li>
-          </ol>
-          <Link href={doctoral ? "/mba" : "/dba"}>
-            {doctoral
-              ? "Découvrir aussi les MBA"
-              : "Découvrir les parcours DBA"}{" "}
-            <ArrowRight size={18} />
-          </Link>
-        </aside>
+        <div className="executive-hero-visual">
+          <ExecutivePhoto kind={doctoral ? "DBA" : "MBA"} priority />
+          <aside className="executive-hero-aside">
+            <span>Du terrain à la décision</span>
+            <ol>
+              <li>
+                <b>01</b>
+                <div>
+                  <strong>{doctoral ? "Questionner" : "Comprendre"}</strong>
+                  <p>
+                    {doctoral
+                      ? "Une problématique réelle, un terrain accessible."
+                      : "Un diagnostic, des sources, un enjeu précis."}
+                  </p>
+                </div>
+              </li>
+              <li>
+                <b>02</b>
+                <div>
+                  <strong>{doctoral ? "Investiguer" : "Expérimenter"}</strong>
+                  <p>
+                    {doctoral
+                      ? "Une méthode justifiée, des résultats traçables."
+                      : "Des cas, des outils et un projet appliqué."}
+                  </p>
+                </div>
+              </li>
+              <li>
+                <b>03</b>
+                <div>
+                  <strong>{doctoral ? "Contribuer" : "Décider"}</strong>
+                  <p>
+                    {doctoral
+                      ? "Une contribution discutée, des recommandations étayées."
+                      : "Une proposition argumentée, des effets mesurés."}
+                  </p>
+                </div>
+              </li>
+            </ol>
+            <Link href={doctoral ? "/mba" : "/dba"}>
+              {doctoral
+                ? "Découvrir aussi les MBA"
+                : "Découvrir les parcours DBA"}{" "}
+              <ArrowRight size={18} />
+            </Link>
+          </aside>
+        </div>
       </section>
       <div className="executive-facts">
         <p>
@@ -110,6 +114,7 @@ export function ExecutiveHome({ kind }: { kind?: "MBA" | "DBA" }) {
       <ExecutiveCatalogue kind={kind} />
       <section className="executive-approach">
         <div>
+          {!kind && <ExecutivePhoto kind="DBA" />}
           <span className="executive-eyebrow">L’expérience Beyond</span>
           <h2>Ce que vous produisez compte autant que ce que vous apprenez.</h2>
           <p>
