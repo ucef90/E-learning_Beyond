@@ -6,14 +6,12 @@ import { ArrowRight } from "lucide-react";
 import { TrainingCard } from "@/components/training-card";
 import {
   getSeoCategoryHubBySlug,
-  getSeoCategoryHubs,
   getTrainings,
   getTrainingsForSeoHub,
 } from "@/lib/api";
 
-export async function generateStaticParams() {
-  return getSeoCategoryHubs().map((hub) => ({ slug: hub.slug }));
-}
+// This page uses the live catalogue; building a release must not require its API.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
