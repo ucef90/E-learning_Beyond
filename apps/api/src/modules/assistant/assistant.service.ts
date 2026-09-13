@@ -36,7 +36,7 @@ export class AssistantService {
         "utf8",
       ),
     );
-    if (!Array.isArray(snapshot.courses) || snapshot.courses.length !== 83)
+    if (!Array.isArray(snapshot.courses) || snapshot.courses.length !== 85)
       throw new Error("Public assistant catalogue unavailable");
     this.courses = snapshot.courses;
   }

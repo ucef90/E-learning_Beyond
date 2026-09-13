@@ -7,6 +7,10 @@ for (const c of require("../data/regulatory-courses.json").courses) {
   catalogue.push(c.training);
   bySlug.set(c.slug, c.syllabus);
 }
+for (const p of require("../content/professional/programmes.json").programmes) {
+  catalogue.push(p.training);
+  bySlug.set(p.training.slug, p.syllabus);
+}
 const courses = catalogue.map((t, i) => ({
   id: i + 1,
   slug: t.slug,
